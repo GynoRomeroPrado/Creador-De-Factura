@@ -1,0 +1,39 @@
+{
+  "emisor": {
+    "nombre": "EMPRESA EJEMPLO S.A.C.",
+    "ruc": "20123456789",
+    "direccion": "Av. Principal 123, Lima"
+  },
+  "receptor": {
+    "nombre": "CLIENTE EJEMPLO E.I.R.L.",
+    "ruc": "20987654321",
+    "direccion": "Jr. Secundaria 456, Callao"
+  },
+  "factura": {
+    "numero": "F001-00001234",
+    "fecha_emision": "2024-01-15",
+    "fecha_vencimiento": "2024-02-15",
+    "moneda": "PEN",
+    "tipo_cambio": 1.00
+  },
+  "items": [
+    {
+      "descripcion": "Producto A",
+      "cantidad": 10,
+      "precio_unitario": 100.00,
+      "subtotal": 1000.00
+    },
+    {
+      "descripcion": "Servicio B",
+      "cantidad": 5,
+      "precio_unitario": 200.00,
+      "subtotal": 1000.00
+    }
+  ],
+  "totales": {
+    "subtotal": 2000.00,
+    "igv": 360.00,
+    "total": 2360.00
+  },
+  "observaciones": "Factura de ejemplo para el dataset"
+}

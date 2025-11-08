@@ -139,10 +139,11 @@ class FacturaGenerator:
         # Calcular subtotales
         if con_cargo_item:
             # Para hoteles, el subtotal es la suma de valores de venta sin IGV
-            subtotal = sum(item["valor_venta"] for item in items)
-            total_cargos = sum(item.get("cargo_item", 0) for item in items)
+            # Redondear sumas para evitar errores de punto flotante
+            subtotal = round(sum(item["valor_venta"] for item in items), 2)
+            total_cargos = round(sum(item.get("cargo_item", 0) for item in items), 2)
         else:
-            subtotal = sum(item["valor_venta"] for item in items)
+            subtotal = round(sum(item["valor_venta"] for item in items), 2)
             total_cargos = 0.00
 
         # Determinar si tiene descuento
@@ -152,7 +153,7 @@ class FacturaGenerator:
         descuento = None
         if con_descuento:
             descuento = self.desc_gen.generar_descuento(subtotal)
-            subtotal -= descuento["monto"]
+            subtotal = round(subtotal - descuento["monto"], 2)
 
         # Determinar si tiene importes no gravados/exonerados
         tiene_exonerado = random.random() < 0.2  # 20% de probabilidad
@@ -160,18 +161,18 @@ class FacturaGenerator:
 
         if tiene_exonerado:
             op_exonerada = round(subtotal * random.uniform(0.1, 0.3), 2)
-            subtotal -= op_exonerada
+            subtotal = round(subtotal - op_exonerada, 2)
         else:
             op_exonerada = 0.00
 
         if tiene_inafecto:
             op_inafecta = round(subtotal * random.uniform(0.05, 0.15), 2)
-            subtotal -= op_inafecta
+            subtotal = round(subtotal - op_inafecta, 2)
         else:
             op_inafecta = 0.00
 
         # Calcular IGV (18% en Perú)
-        op_gravada = subtotal
+        op_gravada = round(subtotal, 2)
         igv = round(op_gravada * 0.18, 2)
 
         # Otros cargos (opcionales, típicos en algunas facturas)

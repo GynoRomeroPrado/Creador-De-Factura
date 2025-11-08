@@ -144,8 +144,13 @@ class DatasetExporter:
         subtotal = factura.get("op_gravada", factura.get("subtotal", 0.0))
         igv = factura.get("igv", 0.0)
         importe_total = factura.get("total", 0.0)
-        descuento = factura.get("descuento_total", 0.0) if factura.get("descuento_total", 0.0) > 0 else None
-        otros_cargos = factura.get("total_cargos", 0.0) if factura.get("total_cargos", 0.0) > 0 else None
+
+        # Redondear descuento y otros_cargos para evitar errores de punto flotante
+        descuento_val = factura.get("descuento_total", 0.0)
+        descuento = round(descuento_val, 2) if descuento_val > 0 else None
+
+        otros_cargos_val = factura.get("total_cargos", 0.0)
+        otros_cargos = round(otros_cargos_val, 2) if otros_cargos_val > 0 else None
 
         # Condición de pago
         forma_pago = factura.get("forma_pago", "")

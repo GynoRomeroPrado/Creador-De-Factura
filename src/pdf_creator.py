@@ -63,8 +63,11 @@ class PDFFactura:
         if datos.get('descuento'):
             self._dibujar_descuentos(c, datos, width, height)
 
-        self._dibujar_totales(c, datos, width, height)
-        self._dibujar_pie(c, datos, width, height)
+        # Dibujar totales y obtener posición final Y
+        y_final_totales = self._dibujar_totales(c, datos, width, height)
+
+        # Dibujar pie usando la posición Y del bloque anterior
+        self._dibujar_pie(c, datos, width, height, y_inicial=y_final_totales)
 
         c.save()
         return filepath
@@ -335,66 +338,67 @@ class PDFFactura:
         c.drawRightString(width - 30, y, f"{datos['simbolo_moneda']} {datos['op_gravada']:.2f}")
 
         if datos.get('op_gratuitas', 0) > 0:
-            y -= 14
+            y -= 16  # Aumentado de 14 a 16
             c.setFont(self.FONT_BOLD, 9)
             c.drawString(x_inicio, y, "OP. GRATUITAS:")
             c.setFont(self.FONT_NORMAL, 9)
             c.drawRightString(width - 30, y, f"{datos['simbolo_moneda']} {datos['op_gratuitas']:.2f}")
 
         if datos['op_exonerada'] > 0:
-            y -= 14
+            y -= 16  # Aumentado de 14 a 16
             c.setFont(self.FONT_BOLD, 9)
             c.drawString(x_inicio, y, "OP. EXONERADAS:")
             c.setFont(self.FONT_NORMAL, 9)
             c.drawRightString(width - 30, y, f"{datos['simbolo_moneda']} {datos['op_exonerada']:.2f}")
 
         if datos['op_inafecta'] > 0:
-            y -= 14
+            y -= 16  # Aumentado de 14 a 16
             c.setFont(self.FONT_BOLD, 9)
             c.drawString(x_inicio, y, "OP. INAFECTAS:")
             c.setFont(self.FONT_NORMAL, 9)
             c.drawRightString(width - 30, y, f"{datos['simbolo_moneda']} {datos['op_inafecta']:.2f}")
 
         if datos.get('descuento'):
-            y -= 14
+            y -= 16  # Aumentado de 14 a 16
             c.setFont(self.FONT_BOLD, 9)
             c.drawString(x_inicio, y, "TOTAL DCTO GLOBAL:")
             c.setFont(self.FONT_NORMAL, 9)
             c.drawRightString(width - 30, y, f"{datos['simbolo_moneda']} {datos['descuento']['monto']:.2f}")
 
-        y -= 14
+        y -= 16  # Aumentado de 14 a 16
         c.setFont(self.FONT_BOLD, 9)
         c.drawString(x_inicio, y, "IGV 18%:")
         c.setFont(self.FONT_NORMAL, 9)
         c.drawRightString(width - 30, y, f"{datos['simbolo_moneda']} {datos['igv']:.2f}")
 
         if datos.get('total_cargos', 0) > 0:
-            y -= 14
+            y -= 16  # Aumentado de 14 a 16
             c.setFont(self.FONT_BOLD, 9)
             c.drawString(x_inicio, y, "TOTAL CARGOS:")
             c.setFont(self.FONT_NORMAL, 9)
             c.drawRightString(width - 30, y, f"{datos['simbolo_moneda']} {datos['total_cargos']:.2f}")
 
         if datos.get('otros_cargos', 0) > 0:
-            y -= 14
+            y -= 16  # Aumentado de 14 a 16
             c.setFont(self.FONT_BOLD, 9)
             c.drawString(x_inicio, y, "OTROS CARGOS:")
             c.setFont(self.FONT_NORMAL, 9)
             c.drawRightString(width - 30, y, f"{datos['simbolo_moneda']} {datos['otros_cargos']:.2f}")
 
         # Total
-        y -= 20
+        y -= 22  # Aumentado de 20 a 22 para más espacio
         c.setFillColor(colors.HexColor('#E8E8E8'))
-        c.rect(x_inicio - 10, y - 5, 200, 20, fill=True, stroke=True)
+        # Aumentar padding: y-3 en lugar de y-5, altura 24 en lugar de 20
+        c.rect(x_inicio - 10, y - 3, 200, 24, fill=True, stroke=True)
 
         c.setFillColor(colors.black)
         c.setFont(self.FONT_BOLD, 11)
-        c.drawString(x_inicio, y + 3, "IMPORTE TOTAL:")
+        c.drawString(x_inicio, y + 5, "IMPORTE TOTAL:")  # Aumentado de +3 a +5
         c.setFont(self.FONT_BOLD, 11)
-        c.drawRightString(width - 30, y + 3, f"{datos['simbolo_moneda']} {datos['total']:.2f}")
+        c.drawRightString(width - 30, y + 5, f"{datos['simbolo_moneda']} {datos['total']:.2f}")
 
         # Monto en letras
-        y -= 30
+        y -= 35  # Aumentado de 30 a 35 para más espacio
         c.setFont(self.FONT_BOLD, 8)
         c.drawString(30, y, "SON:")
         c.setFont(self.FONT_NORMAL, 8)
@@ -402,6 +406,7 @@ class PDFFactura:
         # Dividir el texto si es muy largo
         texto_letras = datos['total_letras']
         max_chars = 75
+        lineas_usadas = 1
         if len(texto_letras) > max_chars:
             # Partir en múltiples líneas
             palabras = texto_letras.split()
@@ -423,12 +428,24 @@ class PDFFactura:
 
             for i, linea in enumerate(lineas):
                 c.drawString(60, y - (i * 10), linea)
+            lineas_usadas = len(lineas)
         else:
             c.drawString(60, y, texto_letras)
 
-    def _dibujar_pie(self, c, datos, width, height):
+        # Calcular posición Y final (después del "SON:")
+        y_final = y - (lineas_usadas * 10) - 15  # 15px de margen adicional
+
+        return y_final
+
+    def _dibujar_pie(self, c, datos, width, height, y_inicial=None):
         """Dibuja el pie de la factura"""
-        y = 200
+        # Usar y_inicial si se proporciona, sino usar posición por defecto
+        # Asegurar que no baje más de 180 (margen inferior)
+        if y_inicial is not None:
+            y = min(y_inicial - 20, 200)  # 20px de separación adicional
+            y = max(y, 180)  # No bajar de 180px del fondo
+        else:
+            y = 200
 
         # Forma de pago
         c.setFont(self.FONT_BOLD, 9)

@@ -1,0 +1,313 @@
+{
+  "tipo_documento": "FACTURA",
+  "serie_completa": "F834-366325",
+  "fecha_emision": "2025-07-25",
+  "fecha_vencimiento": "2025-07-25",
+  "moneda": "S/",
+  "emisor_ruc": "20161138020",
+  "emisor_razon_social": "Paraíso Partners Oriental S.A.A.",
+  "emisor_nombre_comercial": "Paraíso Partners Oriental S.A.A.",
+  "emisor_direccion": "Av. Pachacútec 5624, Jesús María, Jauja",
+  "emisor_telefono": "958057110",
+  "emisor_email": "facturacion@comercial.pe",
+  "receptor_numero_doc": "20874743101",
+  "receptor_tipo_doc": "RUC",
+  "receptor_razon_social": "Supra Capital S.A.A.",
+  "receptor_direccion": "Av. San Felipe 8074, Int. 4, Ancón, Yurimaguas",
+  "subtotal": 12772.37,
+  "igv": 2299.03,
+  "importe_total": 15071.4,
+  "descuento": null,
+  "otros_cargos": null,
+  "items": [
+    {
+      "numero": 1,
+      "descripcion": "Margarina",
+      "unidad": "KGM",
+      "cantidad": 64,
+      "precio_unitario": 6.04,
+      "valor_venta": 386.56
+    },
+    {
+      "numero": 2,
+      "descripcion": "Avena en hojuelas marca premium caja x10",
+      "unidad": "KGM",
+      "cantidad": 70,
+      "precio_unitario": 4.53,
+      "valor_venta": 317.1
+    },
+    {
+      "numero": 3,
+      "descripcion": "Margarina",
+      "unidad": "KGM",
+      "cantidad": 43,
+      "precio_unitario": 8.51,
+      "valor_venta": 365.93
+    },
+    {
+      "numero": 4,
+      "descripcion": "Arroz extra marca económica",
+      "unidad": "KGM",
+      "cantidad": 63,
+      "precio_unitario": 4.67,
+      "valor_venta": 294.21
+    },
+    {
+      "numero": 5,
+      "descripcion": "Quinua",
+      "unidad": "KGM",
+      "cantidad": 11,
+      "precio_unitario": 12.09,
+      "valor_venta": 132.99
+    },
+    {
+      "numero": 6,
+      "descripcion": "Lentejas",
+      "unidad": "KGM",
+      "cantidad": 9,
+      "precio_unitario": 5.06,
+      "valor_venta": 45.54
+    },
+    {
+      "numero": 7,
+      "descripcion": "Fideos spaghetti",
+      "unidad": "KGM",
+      "cantidad": 18,
+      "precio_unitario": 5.42,
+      "valor_venta": 97.56
+    },
+    {
+      "numero": 8,
+      "descripcion": "Mayonesa artesanal",
+      "unidad": "KGM",
+      "cantidad": 28,
+      "precio_unitario": 11.49,
+      "valor_venta": 321.72
+    },
+    {
+      "numero": 9,
+      "descripcion": "Miel de abeja",
+      "unidad": "KGM",
+      "cantidad": 100,
+      "precio_unitario": 31.36,
+      "valor_venta": 3136.0
+    },
+    {
+      "numero": 10,
+      "descripcion": "Atún en conserva orgánico",
+      "unidad": "NIU",
+      "cantidad": 75,
+      "precio_unitario": 4.98,
+      "valor_venta": 373.5
+    },
+    {
+      "numero": 11,
+      "descripcion": "Menestras variadas marca premium",
+      "unidad": "KGM",
+      "cantidad": 53,
+      "precio_unitario": 6.08,
+      "valor_venta": 322.24
+    },
+    {
+      "numero": 12,
+      "descripcion": "Quinua",
+      "unidad": "KGM",
+      "cantidad": 39,
+      "precio_unitario": 16.19,
+      "valor_venta": 631.41
+    },
+    {
+      "numero": 13,
+      "descripcion": "Menestras variadas",
+      "unidad": "KGM",
+      "cantidad": 60,
+      "precio_unitario": 5.08,
+      "valor_venta": 304.8
+    },
+    {
+      "numero": 14,
+      "descripcion": "Conserva de pescado",
+      "unidad": "NIU",
+      "cantidad": 34,
+      "precio_unitario": 6.41,
+      "valor_venta": 217.94
+    },
+    {
+      "numero": 15,
+      "descripcion": "Fideos spaghetti",
+      "unidad": "KGM",
+      "cantidad": 85,
+      "precio_unitario": 3.82,
+      "valor_venta": 324.7
+    },
+    {
+      "numero": 16,
+      "descripcion": "Sal de mesa",
+      "unidad": "KGM",
+      "cantidad": 57,
+      "precio_unitario": 1.68,
+      "valor_venta": 95.76
+    },
+    {
+      "numero": 17,
+      "descripcion": "Galletas saladas pack x24",
+      "unidad": "KGM",
+      "cantidad": 31,
+      "precio_unitario": 4.38,
+      "valor_venta": 135.78
+    },
+    {
+      "numero": 18,
+      "descripcion": "Café molido artesanal",
+      "unidad": "KGM",
+      "cantidad": 100,
+      "precio_unitario": 19.4,
+      "valor_venta": 1940.0
+    },
+    {
+      "numero": 19,
+      "descripcion": "Salsa de tomate caja x20",
+      "unidad": "KGM",
+      "cantidad": 32,
+      "precio_unitario": 6.6,
+      "valor_venta": 211.2
+    },
+    {
+      "numero": 20,
+      "descripcion": "Sal de mesa pack x6",
+      "unidad": "KGM",
+      "cantidad": 68,
+      "precio_unitario": 1.62,
+      "valor_venta": 110.16
+    },
+    {
+      "numero": 21,
+      "descripcion": "Pan molde",
+      "unidad": "NIU",
+      "cantidad": 96,
+      "precio_unitario": 7.01,
+      "valor_venta": 672.96
+    },
+    {
+      "numero": 22,
+      "descripcion": "Azúcar blanca",
+      "unidad": "KGM",
+      "cantidad": 43,
+      "precio_unitario": 3.57,
+      "valor_venta": 153.51
+    },
+    {
+      "numero": 23,
+      "descripcion": "Huevos",
+      "unidad": "NIU",
+      "cantidad": 19,
+      "precio_unitario": 1.04,
+      "valor_venta": 19.76
+    },
+    {
+      "numero": 24,
+      "descripcion": "Té en bolsitas",
+      "unidad": "NIU",
+      "cantidad": 74,
+      "precio_unitario": 10.55,
+      "valor_venta": 780.7
+    },
+    {
+      "numero": 25,
+      "descripcion": "Huevos",
+      "unidad": "NIU",
+      "cantidad": 85,
+      "precio_unitario": 0.66,
+      "valor_venta": 56.1
+    },
+    {
+      "numero": 26,
+      "descripcion": "Azúcar blanca",
+      "unidad": "KGM",
+      "cantidad": 31,
+      "precio_unitario": 2.82,
+      "valor_venta": 87.42
+    },
+    {
+      "numero": 27,
+      "descripcion": "Margarina",
+      "unidad": "KGM",
+      "cantidad": 55,
+      "precio_unitario": 11.36,
+      "valor_venta": 624.8
+    },
+    {
+      "numero": 28,
+      "descripcion": "Garbanzo artesanal a granel",
+      "unidad": "KGM",
+      "cantidad": 3,
+      "precio_unitario": 5.66,
+      "valor_venta": 16.98
+    },
+    {
+      "numero": 29,
+      "descripcion": "Mayonesa caja x10",
+      "unidad": "KGM",
+      "cantidad": 66,
+      "precio_unitario": 11.69,
+      "valor_venta": 771.54
+    },
+    {
+      "numero": 30,
+      "descripcion": "Conserva de pescado nacional caja x20",
+      "unidad": "NIU",
+      "cantidad": 76,
+      "precio_unitario": 4.77,
+      "valor_venta": 362.52
+    },
+    {
+      "numero": 31,
+      "descripcion": "Pan molde caja x20",
+      "unidad": "NIU",
+      "cantidad": 68,
+      "precio_unitario": 8.2,
+      "valor_venta": 557.6
+    },
+    {
+      "numero": 32,
+      "descripcion": "Azúcar blanca",
+      "unidad": "KGM",
+      "cantidad": 73,
+      "precio_unitario": 3.47,
+      "valor_venta": 253.31
+    },
+    {
+      "numero": 33,
+      "descripcion": "Atún en conserva",
+      "unidad": "NIU",
+      "cantidad": 39,
+      "precio_unitario": 5.24,
+      "valor_venta": 204.36
+    },
+    {
+      "numero": 34,
+      "descripcion": "Conserva de pescado",
+      "unidad": "NIU",
+      "cantidad": 39,
+      "precio_unitario": 6.26,
+      "valor_venta": 244.14
+    },
+    {
+      "numero": 35,
+      "descripcion": "Lentejas marca económica",
+      "unidad": "KGM",
+      "cantidad": 78,
+      "precio_unitario": 5.84,
+      "valor_venta": 455.52
+    }
+  ],
+  "numero_items": 35,
+  "numero_contrato": null,
+  "orden_compra": null,
+  "guia_remision": null,
+  "condicion_pago": "Contado",
+  "observaciones": null,
+  "glosa": null,
+  "detraccion_porcentaje": null,
+  "detraccion_monto": null
+}

@@ -167,6 +167,23 @@ class DatasetExporter:
         if glosa and moneda in ["SOLES", "S/"]:
             glosa = glosa.upper()
 
+        # Extraer items detallados
+        items = []
+        for item in factura.get("items", []):
+            item_data = {
+                "numero": item.get("numero"),
+                "descripcion": item.get("descripcion"),
+                "unidad": item.get("unidad"),
+                "cantidad": item.get("cantidad"),
+                "precio_unitario": round(item.get("precio_unitario", 0), 2),
+                "valor_venta": round(item.get("valor_venta", 0), 2)
+            }
+            # Agregar cargo_item si existe (típico en hoteles)
+            if "cargo_item" in item:
+                item_data["cargo_item"] = round(item["cargo_item"], 2)
+
+            items.append(item_data)
+
         # Crear anotación
         anotacion = {
             "tipo_documento": tipo_doc,
@@ -189,6 +206,8 @@ class DatasetExporter:
             "importe_total": round(importe_total, 2),
             "descuento": descuento,
             "otros_cargos": otros_cargos,
+            "items": items,  # ← NUEVO: Lista completa de items
+            "numero_items": len(items),  # ← NUEVO: Cantidad total de items
             "numero_contrato": None,
             "orden_compra": None,
             "guia_remision": None,

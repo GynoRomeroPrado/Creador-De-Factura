@@ -1,0 +1,385 @@
+{
+  "tipo_documento": "FACTURA ELECTRÓNICA",
+  "serie_completa": "F936-334438",
+  "fecha_emision": "2025-08-25",
+  "fecha_vencimiento": "25-08-2025",
+  "moneda": "SOLES",
+  "emisor_ruc": "20114619346",
+  "emisor_razon_social": "Vertex Suministros E.I.R.L.",
+  "emisor_nombre_comercial": "Vertex Suministros E.I.R.L.",
+  "emisor_direccion": "Av. Luis Gonzáles 8878, Piso 3B, Cieneguilla, Abancay",
+  "emisor_telefono": "01-2577541",
+  "emisor_email": "info@corp.pe",
+  "receptor_numero_doc": "20785129645",
+  "receptor_tipo_doc": "RUC",
+  "receptor_razon_social": "Casa Industries S.A.",
+  "receptor_direccion": "Av. Metropolitana 5198, La Perla, Jauja",
+  "subtotal": 98213.58,
+  "igv": 17678.44,
+  "importe_total": 115892.02,
+  "descuento": null,
+  "otros_cargos": null,
+  "items": [
+    {
+      "numero": 1,
+      "descripcion": "Té helado limón pack x6 sin lactosa",
+      "unidad": "LTR",
+      "cantidad": 89,
+      "precio_unitario": 5.81,
+      "valor_venta": 517.09
+    },
+    {
+      "numero": 2,
+      "descripcion": "Jugo de piña",
+      "unidad": "LTR",
+      "cantidad": 33,
+      "precio_unitario": 5.09,
+      "valor_venta": 167.97
+    },
+    {
+      "numero": 3,
+      "descripcion": "Careta facial policarbonato nacional a granel",
+      "unidad": "NIU",
+      "cantidad": 69,
+      "precio_unitario": 26.51,
+      "valor_venta": 1829.19
+    },
+    {
+      "numero": 4,
+      "descripcion": "Thinner acrílico importado",
+      "unidad": "GLI",
+      "cantidad": 64,
+      "precio_unitario": 25.45,
+      "valor_venta": 1628.8
+    },
+    {
+      "numero": 5,
+      "descripcion": "Bolsas basura 50L",
+      "unidad": "PKT",
+      "cantidad": 18,
+      "precio_unitario": 11.44,
+      "valor_venta": 205.92
+    },
+    {
+      "numero": 6,
+      "descripcion": "Caja octagonal galvanizada caja x20",
+      "unidad": "NIU",
+      "cantidad": 25,
+      "precio_unitario": 2.7,
+      "valor_venta": 67.5
+    },
+    {
+      "numero": 7,
+      "descripcion": "WIFI premium 24h",
+      "unidad": "NIU",
+      "cantidad": 62,
+      "precio_unitario": 23.76,
+      "valor_venta": 1473.12
+    },
+    {
+      "numero": 8,
+      "descripcion": "Bebida isotónica",
+      "unidad": "LTR",
+      "cantidad": 10,
+      "precio_unitario": 7.33,
+      "valor_venta": 73.3
+    },
+    {
+      "numero": 9,
+      "descripcion": "Varilla corrugada 3/8\" x 9m",
+      "unidad": "NIU",
+      "cantidad": 94,
+      "precio_unitario": 19.58,
+      "valor_venta": 1840.52
+    },
+    {
+      "numero": 10,
+      "descripcion": "Tubo PVC SAP 2\" x 3m pack x3",
+      "unidad": "NIU",
+      "cantidad": 28,
+      "precio_unitario": 18.77,
+      "valor_venta": 525.56
+    },
+    {
+      "numero": 11,
+      "descripcion": "Smartphone gama media",
+      "unidad": "NIU",
+      "cantidad": 11,
+      "precio_unitario": 1084.38,
+      "valor_venta": 11928.18
+    },
+    {
+      "numero": 12,
+      "descripcion": "Chicle en tabletas",
+      "unidad": "NIU",
+      "cantidad": 30,
+      "precio_unitario": 0.76,
+      "valor_venta": 22.8
+    },
+    {
+      "numero": 13,
+      "descripcion": "Bebida gaseosa cola vainilla nacional pack x3",
+      "unidad": "LTR",
+      "cantidad": 69,
+      "precio_unitario": 4.53,
+      "valor_venta": 312.57
+    },
+    {
+      "numero": 14,
+      "descripcion": "ALIMENTACIÓN cena",
+      "unidad": "NIU",
+      "cantidad": 19,
+      "precio_unitario": 82.06,
+      "valor_venta": 1559.14
+    },
+    {
+      "numero": 15,
+      "descripcion": "Avena en hojuelas",
+      "unidad": "KGM",
+      "cantidad": 56,
+      "precio_unitario": 5.07,
+      "valor_venta": 283.92
+    },
+    {
+      "numero": 16,
+      "descripcion": "Tablet 10\" Android",
+      "unidad": "NIU",
+      "cantidad": 13,
+      "precio_unitario": 854.82,
+      "valor_venta": 11112.66
+    },
+    {
+      "numero": 17,
+      "descripcion": "Leche deslactosada",
+      "unidad": "LTR",
+      "cantidad": 62,
+      "precio_unitario": 4.66,
+      "valor_venta": 288.92
+    },
+    {
+      "numero": 18,
+      "descripcion": "Brandy reserva pack x12",
+      "unidad": "LTR",
+      "cantidad": 25,
+      "precio_unitario": 64.13,
+      "valor_venta": 1603.25
+    },
+    {
+      "numero": 19,
+      "descripcion": "Mascarilla N95",
+      "unidad": "NIU",
+      "cantidad": 88,
+      "precio_unitario": 3.7,
+      "valor_venta": 325.6
+    },
+    {
+      "numero": 20,
+      "descripcion": "CARGUIO con excavadora",
+      "unidad": "HOR",
+      "cantidad": 55,
+      "precio_unitario": 341.13,
+      "valor_venta": 18762.15
+    },
+    {
+      "numero": 21,
+      "descripcion": "Cámara CCTV 1080p",
+      "unidad": "NIU",
+      "cantidad": 66,
+      "precio_unitario": 198.64,
+      "valor_venta": 13110.24
+    },
+    {
+      "numero": 22,
+      "descripcion": "Imprimante para muros pack x6",
+      "unidad": "GLI",
+      "cantidad": 98,
+      "precio_unitario": 31.54,
+      "valor_venta": 3090.92
+    },
+    {
+      "numero": 23,
+      "descripcion": "Ambientador spray",
+      "unidad": "NIU",
+      "cantidad": 77,
+      "precio_unitario": 12.69,
+      "valor_venta": 977.13
+    },
+    {
+      "numero": 24,
+      "descripcion": "Garbanzo",
+      "unidad": "KGM",
+      "cantidad": 87,
+      "precio_unitario": 5.28,
+      "valor_venta": 459.36
+    },
+    {
+      "numero": 25,
+      "descripcion": "Guantes limpieza",
+      "unidad": "PAR",
+      "cantidad": 78,
+      "precio_unitario": 4.05,
+      "valor_venta": 315.9
+    },
+    {
+      "numero": 26,
+      "descripcion": "Detergente líquido",
+      "unidad": "LTR",
+      "cantidad": 65,
+      "precio_unitario": 8.15,
+      "valor_venta": 529.75
+    },
+    {
+      "numero": 27,
+      "descripcion": "Gaseosa sabor manzana pack x3",
+      "unidad": "LTR",
+      "cantidad": 83,
+      "precio_unitario": 2.37,
+      "valor_venta": 196.71
+    },
+    {
+      "numero": 28,
+      "descripcion": "Lustrador muebles marca premium",
+      "unidad": "LTR",
+      "cantidad": 5,
+      "precio_unitario": 18.25,
+      "valor_venta": 91.25
+    },
+    {
+      "numero": 29,
+      "descripcion": "Paquete surtido de caramelos frutales piña",
+      "unidad": "KGM",
+      "cantidad": 9,
+      "precio_unitario": 7.21,
+      "valor_venta": 64.89
+    },
+    {
+      "numero": 30,
+      "descripcion": "Cinta métrica 5m artesanal",
+      "unidad": "NIU",
+      "cantidad": 31,
+      "precio_unitario": 16.63,
+      "valor_venta": 515.53
+    },
+    {
+      "numero": 31,
+      "descripcion": "Diésel B5-S50",
+      "unidad": "GLI",
+      "cantidad": 62,
+      "precio_unitario": 14.16,
+      "valor_venta": 877.92
+    },
+    {
+      "numero": 32,
+      "descripcion": "Ladrillo pastelero pack x24",
+      "unidad": "MIL",
+      "cantidad": 29,
+      "precio_unitario": 374.47,
+      "valor_venta": 10859.63
+    },
+    {
+      "numero": 33,
+      "descripcion": "Soda tónica artesanal",
+      "unidad": "LTR",
+      "cantidad": 33,
+      "precio_unitario": 5.61,
+      "valor_venta": 185.13
+    },
+    {
+      "numero": 34,
+      "descripcion": "VOLADURA controlada",
+      "unidad": "M3",
+      "cantidad": 43,
+      "precio_unitario": 20.14,
+      "valor_venta": 866.02
+    },
+    {
+      "numero": 35,
+      "descripcion": "MOLIENDA nacional",
+      "unidad": "TM",
+      "cantidad": 6,
+      "precio_unitario": 5.32,
+      "valor_venta": 31.92
+    },
+    {
+      "numero": 36,
+      "descripcion": "Sal de mesa artesanal",
+      "unidad": "KGM",
+      "cantidad": 45,
+      "precio_unitario": 2.35,
+      "valor_venta": 105.75
+    },
+    {
+      "numero": 37,
+      "descripcion": "Destornillador Phillips 6\"",
+      "unidad": "NIU",
+      "cantidad": 46,
+      "precio_unitario": 13.26,
+      "valor_venta": 609.96
+    },
+    {
+      "numero": 38,
+      "descripcion": "Llave francesa 12\"",
+      "unidad": "NIU",
+      "cantidad": 71,
+      "precio_unitario": 35.74,
+      "valor_venta": 2537.54
+    },
+    {
+      "numero": 39,
+      "descripcion": "Diésel B5",
+      "unidad": "GLI",
+      "cantidad": 9,
+      "precio_unitario": 14.16,
+      "valor_venta": 127.44
+    },
+    {
+      "numero": 40,
+      "descripcion": "Líquido de frenos DOT 3",
+      "unidad": "LTR",
+      "cantidad": 87,
+      "precio_unitario": 21.09,
+      "valor_venta": 1834.83
+    },
+    {
+      "numero": 41,
+      "descripcion": "Powerbank 10000mAh nacional",
+      "unidad": "NIU",
+      "cantidad": 41,
+      "precio_unitario": 62.31,
+      "valor_venta": 2554.71
+    },
+    {
+      "numero": 42,
+      "descripcion": "Aperitivo amargo",
+      "unidad": "LTR",
+      "cantidad": 45,
+      "precio_unitario": 48.88,
+      "valor_venta": 2199.6
+    },
+    {
+      "numero": 43,
+      "descripcion": "Garbanzo",
+      "unidad": "KGM",
+      "cantidad": 17,
+      "precio_unitario": 6.81,
+      "valor_venta": 115.77
+    },
+    {
+      "numero": 44,
+      "descripcion": "Aperitivo amargo",
+      "unidad": "LTR",
+      "cantidad": 48,
+      "precio_unitario": 29.74,
+      "valor_venta": 1427.52
+    }
+  ],
+  "numero_items": 44,
+  "numero_contrato": null,
+  "orden_compra": null,
+  "guia_remision": null,
+  "condicion_pago": "Contado",
+  "observaciones": null,
+  "glosa": null,
+  "detraccion_porcentaje": null,
+  "detraccion_monto": null
+}

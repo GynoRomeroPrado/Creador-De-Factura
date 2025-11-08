@@ -1,0 +1,73 @@
+{
+  "tipo_documento": "FACTURA ELECTRÓNICA",
+  "serie_completa": "F780-124102",
+  "fecha_emision": "06-10-2025",
+  "fecha_vencimiento": "06/10/2025",
+  "moneda": "DÓLARES AMERICANOS",
+  "emisor_ruc": "20359255714",
+  "emisor_razon_social": "Repuestos Ideas S.A.",
+  "emisor_nombre_comercial": "Repuestos Ideas S.A.",
+  "emisor_direccion": "Av. Arequipa 3901, Pueblo Libre, Tarma",
+  "emisor_telefono": "01-2855130",
+  "emisor_email": "contacto@comercial.pe",
+  "receptor_numero_doc": "20135970990",
+  "receptor_tipo_doc": "RUC",
+  "receptor_razon_social": "Matrix Industries S.A.",
+  "receptor_direccion": "Calle Los Pinos 1783, La Perla, Trujillo",
+  "subtotal": 5269.35,
+  "igv": 948.48,
+  "importe_total": 6217.83,
+  "descuento": null,
+  "otros_cargos": null,
+  "items": [
+    {
+      "numero": 1,
+      "descripcion": "VOLADURA controlada",
+      "unidad": "M3",
+      "cantidad": 93,
+      "precio_unitario": 15.03,
+      "valor_venta": 1397.79
+    },
+    {
+      "numero": 2,
+      "descripcion": "Cerveza negra",
+      "unidad": "LTR",
+      "cantidad": 69,
+      "precio_unitario": 9.13,
+      "valor_venta": 629.97
+    },
+    {
+      "numero": 3,
+      "descripcion": "Cal hidratada nacional",
+      "unidad": "BG",
+      "cantidad": 50,
+      "precio_unitario": 11.92,
+      "valor_venta": 596.0
+    },
+    {
+      "numero": 4,
+      "descripcion": "Barniz marino nacional",
+      "unidad": "GLI",
+      "cantidad": 26,
+      "precio_unitario": 64.02,
+      "valor_venta": 1664.52
+    },
+    {
+      "numero": 5,
+      "descripcion": "Aceite motor semi-sintético 10W-40 piña",
+      "unidad": "GLI",
+      "cantidad": 29,
+      "precio_unitario": 33.83,
+      "valor_venta": 981.07
+    }
+  ],
+  "numero_items": 5,
+  "numero_contrato": null,
+  "orden_compra": null,
+  "guia_remision": null,
+  "condicion_pago": "Contado",
+  "observaciones": null,
+  "glosa": null,
+  "detraccion_porcentaje": null,
+  "detraccion_monto": null
+}

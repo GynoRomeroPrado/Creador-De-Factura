@@ -54,7 +54,8 @@ def generar_dataset(cantidad: int = 10, con_pdfs: bool = True):
     print(f"\n🔄 Generando {cantidad} facturas...")
     print()
 
-    tipos_factura = ['general', 'hotel', 'seguro', 'con_descuento']
+    # Incluir facturas grandes cada 5 facturas (20% del total)
+    tipos_factura = ['general', 'hotel', 'seguro', 'con_descuento', 'compra_grande']
     facturas_por_tipo = {tipo: 0 for tipo in tipos_factura}
 
     for i in range(cantidad):

@@ -89,11 +89,11 @@ class FacturaGenerator:
 
         moneda_info = self.MONEDAS[moneda]
 
-        # Generar emisor
+        # Generar emisor (ahora con contexto de tipo_factura)
         if tipo_factura == 'hotel':
             razon_social_emisor = self.hotel_gen.generar_nombre_hotel()
         else:
-            razon_social_emisor = self.datos_gen.generar_razon_social()
+            razon_social_emisor = self.datos_gen.generar_razon_social(tipo_factura=tipo_factura)
 
         emisor = {
             "ruc": self.ruc_gen.generar_ruc(),

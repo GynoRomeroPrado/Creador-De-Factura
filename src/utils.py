@@ -5,6 +5,13 @@ import random
 from datetime import datetime, timedelta
 from typing import List, Tuple
 
+# Importar diccionarios mejorados
+try:
+    from . import diccionarios
+    USAR_DICCIONARIOS_MEJORADOS = True
+except ImportError:
+    USAR_DICCIONARIOS_MEJORADOS = False
+
 
 class RUCGenerator:
     """Generador de RUCs válidos para Perú"""
@@ -175,33 +182,46 @@ class DatosPersonas:
     @classmethod
     def generar_nombre_persona(cls) -> str:
         """Genera un nombre completo de persona"""
-        nombre = random.choice(cls.NOMBRES)
-        apellido1 = random.choice(cls.APELLIDOS)
-        apellido2 = random.choice(cls.APELLIDOS)
-        return f"{nombre} {apellido1} {apellido2}"
+        if USAR_DICCIONARIOS_MEJORADOS:
+            return diccionarios.generar_nombre_completo()
+        else:
+            nombre = random.choice(cls.NOMBRES)
+            apellido1 = random.choice(cls.APELLIDOS)
+            apellido2 = random.choice(cls.APELLIDOS)
+            return f"{nombre} {apellido1} {apellido2}"
 
     @classmethod
-    def generar_razon_social(cls) -> str:
-        """Genera una razón social de empresa"""
-        prefijo = random.choice(cls.EMPRESAS_PREFIJOS)
-        nombre = random.choice(cls.EMPRESAS_NOMBRES)
-        sufijo = random.choice(cls.EMPRESAS_SUFIJOS)
-        return f"{prefijo} {nombre} {sufijo}"
+    def generar_razon_social(cls, tipo_factura: str = None) -> str:
+        """
+        Genera una razón social de empresa
+        Args:
+            tipo_factura: 'hotel', 'seguro', 'general', 'con_descuento' (opcional)
+        """
+        if USAR_DICCIONARIOS_MEJORADOS:
+            return diccionarios.generar_nombre_empresa(tipo_factura)
+        else:
+            prefijo = random.choice(cls.EMPRESAS_PREFIJOS)
+            nombre = random.choice(cls.EMPRESAS_NOMBRES)
+            sufijo = random.choice(cls.EMPRESAS_SUFIJOS)
+            return f"{prefijo} {nombre} {sufijo}"
 
     @classmethod
     def generar_direccion(cls) -> str:
         """Genera una dirección peruana"""
-        tipo_calle = random.choice(cls.CALLES_TIPOS)
-        nombre_calle = random.choice(cls.CALLES_NOMBRES)
-        numero = random.randint(100, 9999)
-        distrito = random.choice(cls.DISTRITOS_LIMA)
+        if USAR_DICCIONARIOS_MEJORADOS:
+            return diccionarios.generar_direccion('Peru')
+        else:
+            tipo_calle = random.choice(cls.CALLES_TIPOS)
+            nombre_calle = random.choice(cls.CALLES_NOMBRES)
+            numero = random.randint(100, 9999)
+            distrito = random.choice(cls.DISTRITOS_LIMA)
 
-        # A veces agregar número de oficina/departamento
-        if random.random() < 0.3:
-            extra = f" Of. {random.randint(100, 999)}" if random.random() < 0.5 else f" Dpto. {random.randint(100, 999)}"
-            return f"{tipo_calle} {nombre_calle} {numero}{extra}, {distrito}"
+            # A veces agregar número de oficina/departamento
+            if random.random() < 0.3:
+                extra = f" Of. {random.randint(100, 999)}" if random.random() < 0.5 else f" Dpto. {random.randint(100, 999)}"
+                return f"{tipo_calle} {nombre_calle} {numero}{extra}, {distrito}"
 
-        return f"{tipo_calle} {nombre_calle} {numero}, {distrito}"
+            return f"{tipo_calle} {nombre_calle} {numero}, {distrito}"
 
     @classmethod
     def generar_telefono(cls) -> str:
@@ -319,7 +339,8 @@ class ItemsGenerator:
         Genera items aleatorios
         Args:
             cantidad: Número de items (si None, aleatorio entre 1-10)
-            categoria: 'construccion', 'comida', 'servicios', 'hoteles', 'combustibles', 'seguros', 'seguridad', o None para mixto
+            categoria: 'construccion', 'comida', 'servicios', 'hoteles', 'combustibles', 'seguros', 'seguridad',
+                       'alimentos', 'servicios_hotel', 'servicios_mineros', 'electronicos', 'limpieza', o None para mixto
             con_cargo_item: Si True, agrega cargo adicional por item (como en facturas de hotel)
         """
         if cantidad is None:
@@ -327,31 +348,46 @@ class ItemsGenerator:
 
         items = []
 
-        # Seleccionar fuente de items
-        if categoria == 'construccion':
-            fuente = cls.CONSTRUCCION
-        elif categoria == 'comida':
-            fuente = cls.COMIDA
-        elif categoria == 'servicios':
-            fuente = cls.SERVICIOS
-        elif categoria == 'hoteles':
-            fuente = cls.HOTELES
-        elif categoria == 'combustibles':
-            fuente = cls.COMBUSTIBLES
-        elif categoria == 'seguros':
-            fuente = cls.SEGUROS
-        elif categoria == 'seguridad':
-            fuente = cls.SEGURIDAD
+        # Usar diccionarios mejorados si están disponibles
+        if USAR_DICCIONARIOS_MEJORADOS and categoria in diccionarios.ITEMS_POR_CATEGORIA:
+            fuente = diccionarios.ITEMS_POR_CATEGORIA[categoria]
+        elif USAR_DICCIONARIOS_MEJORADOS and categoria is None:
+            # Mixto: combinar todas las categorías
+            fuente = []
+            for cat_items in diccionarios.ITEMS_POR_CATEGORIA.values():
+                fuente.extend(cat_items)
         else:
-            # Mixto
-            fuente = cls.CONSTRUCCION + cls.COMIDA + cls.SERVICIOS
+            # Usar fuentes originales como fallback
+            if categoria == 'construccion':
+                fuente = cls.CONSTRUCCION
+            elif categoria == 'comida':
+                fuente = cls.COMIDA
+            elif categoria == 'servicios':
+                fuente = cls.SERVICIOS
+            elif categoria == 'hoteles' or categoria == 'servicios_hotel':
+                fuente = cls.HOTELES
+            elif categoria == 'combustibles':
+                fuente = cls.COMBUSTIBLES
+            elif categoria == 'seguros':
+                fuente = cls.SEGUROS
+            elif categoria == 'seguridad':
+                fuente = cls.SEGURIDAD
+            else:
+                # Mixto
+                fuente = cls.CONSTRUCCION + cls.COMIDA + cls.SERVICIOS
 
         for i in range(cantidad):
             item_base = random.choice(fuente)
-            descripcion, unidad, rango_precio = item_base
+            descripcion_base, unidad, rango_precio = item_base
+
+            # Aplicar variantes si usamos diccionarios mejorados
+            if USAR_DICCIONARIOS_MEJORADOS:
+                descripcion = diccionarios.generar_item_con_variantes(descripcion_base)
+            else:
+                descripcion = descripcion_base
 
             # Para hoteles, la cantidad suele ser decimal (noches)
-            if categoria == 'hoteles':
+            if categoria in ['hoteles', 'servicios_hotel']:
                 cantidad_item = round(random.uniform(1.0, 10.0), 3)
             else:
                 cantidad_item = random.randint(1, 100)

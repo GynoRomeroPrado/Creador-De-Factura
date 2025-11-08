@@ -1,0 +1,105 @@
+{
+  "tipo_comprobante": "FACTURA ELECTRÓNICA",
+  "tipo_factura": "hotel",
+  "numero_factura": "F689-799377",
+  "serie": "F689",
+  "numero": "799377",
+  "fecha_emision": "2025-08-17T00:00:00",
+  "fecha_vencimiento": "2025-08-17T00:00:00",
+  "emisor": {
+    "ruc": "20459337807",
+    "razon_social": "Sheraton Luxury Piura",
+    "direccion": "Av. Óscar Benavides 6153, Carmen de la Legua, Huaraz",
+    "telefono": "01-4839595",
+    "email": "ventas@negocio.com.pe"
+  },
+  "receptor": {
+    "ruc": "20565091396",
+    "razon_social": "Fábrica Acabados 700 E.I.R.L.",
+    "direccion": "Calle Berlin 152, Punta Negra, Tarapoto",
+    "telefono": "01-5731564",
+    "email": "ventas@hotel.com.pe"
+  },
+  "moneda": "USD",
+  "simbolo_moneda": "$",
+  "nombre_moneda": "DOLARES",
+  "items": [
+    {
+      "numero": 1,
+      "descripcion": "ALIMENTACION",
+      "unidad": "NIU",
+      "cantidad": 7.295,
+      "precio_unitario": 65.4,
+      "valor_venta": 477.09,
+      "cargo_item": 85.88,
+      "importe_total": 562.97
+    },
+    {
+      "numero": 2,
+      "descripcion": "ALOJAMIENTO",
+      "unidad": "NIU",
+      "cantidad": 1.1,
+      "precio_unitario": 88.01,
+      "valor_venta": 96.81,
+      "cargo_item": 17.43,
+      "importe_total": 114.24
+    },
+    {
+      "numero": 3,
+      "descripcion": "ALIMENTACION",
+      "unidad": "NIU",
+      "cantidad": 9.246,
+      "precio_unitario": 63.22,
+      "valor_venta": 584.53,
+      "cargo_item": 105.22,
+      "importe_total": 689.75
+    },
+    {
+      "numero": 4,
+      "descripcion": "ALIMENTACION",
+      "unidad": "NIU",
+      "cantidad": 2.896,
+      "precio_unitario": 45.23,
+      "valor_venta": 130.99,
+      "cargo_item": 23.58,
+      "importe_total": 154.57
+    },
+    {
+      "numero": 5,
+      "descripcion": "ALIMENTACION pack x6",
+      "unidad": "NIU",
+      "cantidad": 2.134,
+      "precio_unitario": 96.8,
+      "valor_venta": 206.57,
+      "cargo_item": 37.18,
+      "importe_total": 243.75
+    }
+  ],
+  "op_gravada": 1303.9699999999998,
+  "op_exonerada": 0.0,
+  "op_inafecta": 192.02,
+  "op_gratuitas": 0.0,
+  "igv": 234.71,
+  "total_cargos": 269.29,
+  "otros_cargos": 0.0,
+  "total": 1999.99,
+  "total_letras": "MIL NOVECIENTOS NOVENTA Y NUEVE CON 99/100 DÓLARES",
+  "forma_pago": "DEPOSITO EN CUENTA",
+  "con_credito": false,
+  "cuotas": [],
+  "numero_contrato": "CW621227",
+  "periodo_facturado": null,
+  "observaciones": null,
+  "datos_hotel": {
+    "checkin": "2025-08-15T00:00:00",
+    "checkout": "2025-08-18T00:00:00",
+    "noches": 3,
+    "reserva": "27538577",
+    "huesped": "Andrea Rivera Sandoval",
+    "codigo_grupo": null,
+    "nombre_grupo": null,
+    "habitacion": "Habitación Suite"
+  },
+  "datos_seguro": null,
+  "descuento": null
+}

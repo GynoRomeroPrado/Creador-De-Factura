@@ -1,0 +1,118 @@
+{
+  "tipo_comprobante": "FACTURA",
+  "tipo_factura": "general",
+  "numero_factura": "F946-956300",
+  "serie": "F946",
+  "numero": "956300",
+  "fecha_emision": "2025-04-07T00:00:00",
+  "fecha_vencimiento": "2025-04-07T00:00:00",
+  "emisor": {
+    "ruc": "20533415955",
+    "razon_social": "Proveedora Nutrition 459 S.A.",
+    "direccion": "Av. Parra 6685, Int. 37, La Victoria, Jauja",
+    "telefono": "957338954",
+    "email": "administracion@negocio.com.pe"
+  },
+  "receptor": {
+    "ruc": "20817537503",
+    "razon_social": "Vitalis Fintech S.A.A.",
+    "direccion": "Av. 2 de Mayo 6302, San Luis, Arequipa",
+    "telefono": "01-3840869",
+    "email": "facturacion@negocio.com.pe"
+  },
+  "moneda": "USD",
+  "simbolo_moneda": "$",
+  "nombre_moneda": "DOLARES",
+  "items": [
+    {
+      "numero": 1,
+      "descripcion": "ENSAYES metalúrgicos orgánico",
+      "unidad": "NIU",
+      "cantidad": 9,
+      "precio_unitario": 354.41,
+      "valor_venta": 3189.69
+    },
+    {
+      "numero": 2,
+      "descripcion": "Piedra chancada 3/4\"",
+      "unidad": "M3",
+      "cantidad": 73,
+      "precio_unitario": 60.27,
+      "valor_venta": 4399.71
+    },
+    {
+      "numero": 3,
+      "descripcion": "Arroz extra pack x24",
+      "unidad": "KGM",
+      "cantidad": 79,
+      "precio_unitario": 4.5,
+      "valor_venta": 355.5
+    },
+    {
+      "numero": 4,
+      "descripcion": "Kiwicha",
+      "unidad": "KGM",
+      "cantidad": 45,
+      "precio_unitario": 13.99,
+      "valor_venta": 629.55
+    },
+    {
+      "numero": 5,
+      "descripcion": "Leche de almendras a granel",
+      "unidad": "LTR",
+      "cantidad": 96,
+      "precio_unitario": 11.93,
+      "valor_venta": 1145.28
+    },
+    {
+      "numero": 6,
+      "descripcion": "Chocolate amargo 70% coco caja x10",
+      "unidad": "KGM",
+      "cantidad": 10,
+      "precio_unitario": 35.21,
+      "valor_venta": 352.1
+    },
+    {
+      "numero": 7,
+      "descripcion": "Papel toalla rollo",
+      "unidad": "NIU",
+      "cantidad": 86,
+      "precio_unitario": 4.49,
+      "valor_venta": 386.14
+    },
+    {
+      "numero": 8,
+      "descripcion": "MINIBAR snacks",
+      "unidad": "NIU",
+      "cantidad": 37,
+      "precio_unitario": 10.31,
+      "valor_venta": 381.47
+    },
+    {
+      "numero": 9,
+      "descripcion": "Guantes anticorte nivel 5",
+      "unidad": "PAR",
+      "cantidad": 47,
+      "precio_unitario": 25.42,
+      "valor_venta": 1194.74
+    }
+  ],
+  "op_gravada": 12034.179999999998,
+  "op_exonerada": 0.0,
+  "op_inafecta": 0.0,
+  "op_gratuitas": 0.0,
+  "igv": 2166.15,
+  "total_cargos": 0.0,
+  "otros_cargos": 0.0,
+  "total": 14200.33,
+  "total_letras": "CATORCE MIL DOSCIENTOS CON 33/100 DÓLARES",
+  "forma_pago": "CHEQUE",
+  "con_credito": false,
+  "cuotas": [],
+  "numero_contrato": "CW845554",
+  "periodo_facturado": null,
+  "observaciones": null,
+  "datos_hotel": null,
+  "datos_seguro": null,
+  "descuento": null
+}

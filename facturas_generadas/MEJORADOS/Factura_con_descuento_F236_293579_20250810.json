@@ -1,0 +1,127 @@
+{
+  "tipo_comprobante": "FACTURA",
+  "tipo_factura": "con_descuento",
+  "numero_factura": "F236-293579",
+  "serie": "F236",
+  "numero": "293579",
+  "fecha_emision": "2025-08-10T00:00:00",
+  "fecha_vencimiento": "2025-08-10T00:00:00",
+  "emisor": {
+    "ruc": "20032118837",
+    "razon_social": "Proyecto Desarrollo S.A.A.",
+    "direccion": "Av. Parra 8706, Surco, Huánuco",
+    "telefono": "01-2827334",
+    "email": "facturacion@corp.pe"
+  },
+  "receptor": {
+    "ruc": "20456655999",
+    "razon_social": "Materiales Hoteles S.A.",
+    "direccion": "Av. Los Próceres 5907, Local 9, San Bartolo, Moyobamba",
+    "telefono": "931474385",
+    "email": "administracion@comercial.pe"
+  },
+  "moneda": "USD",
+  "simbolo_moneda": "$",
+  "nombre_moneda": "DOLARES",
+  "items": [
+    {
+      "numero": 1,
+      "descripcion": "Bolsas basura 50L",
+      "unidad": "PKT",
+      "cantidad": 91,
+      "precio_unitario": 12.15,
+      "valor_venta": 1105.65
+    },
+    {
+      "numero": 2,
+      "descripcion": "Agua de coco",
+      "unidad": "LTR",
+      "cantidad": 91,
+      "precio_unitario": 7.96,
+      "valor_venta": 724.36
+    },
+    {
+      "numero": 3,
+      "descripcion": "Quitamanchas",
+      "unidad": "LTR",
+      "cantidad": 5,
+      "precio_unitario": 14.18,
+      "valor_venta": 70.9
+    },
+    {
+      "numero": 4,
+      "descripcion": "Fuente poder 12V 5A",
+      "unidad": "NIU",
+      "cantidad": 6,
+      "precio_unitario": 66.07,
+      "valor_venta": 396.42
+    },
+    {
+      "numero": 5,
+      "descripcion": "FLOTACION",
+      "unidad": "TM",
+      "cantidad": 68,
+      "precio_unitario": 8.56,
+      "valor_venta": 582.08
+    },
+    {
+      "numero": 6,
+      "descripcion": "Barrera vehicular marca premium",
+      "unidad": "NIU",
+      "cantidad": 93,
+      "precio_unitario": 2401.12,
+      "valor_venta": 223304.16
+    },
+    {
+      "numero": 7,
+      "descripcion": "Ginebra London Dry",
+      "unidad": "LTR",
+      "cantidad": 11,
+      "precio_unitario": 162.94,
+      "valor_venta": 1792.34
+    },
+    {
+      "numero": 8,
+      "descripcion": "Barniz marino",
+      "unidad": "GLI",
+      "cantidad": 21,
+      "precio_unitario": 61.63,
+      "valor_venta": 1294.23
+    },
+    {
+      "numero": 9,
+      "descripcion": "Tee PVC 2\"",
+      "unidad": "NIU",
+      "cantidad": 73,
+      "precio_unitario": 4.14,
+      "valor_venta": 302.22
+    }
+  ],
+  "op_gravada": 218093.74000000002,
+  "op_exonerada": 0.0,
+  "op_inafecta": 0.0,
+  "op_gratuitas": 0.0,
+  "igv": 39256.87,
+  "total_cargos": 0.0,
+  "otros_cargos": 0.0,
+  "total": 257350.61,
+  "total_letras": "DOSCIENTOS CINCUENTA Y SIETE MIL TRESCIENTOS CINCUENTA CON 61/100 DÓLARES",
+  "forma_pago": "TRANSFERENCIA BANCARIA",
+  "con_credito": false,
+  "cuotas": [],
+  "numero_contrato": null,
+  "periodo_facturado": null,
+  "observaciones": null,
+  "datos_hotel": null,
+  "datos_seguro": null,
+  "descuento": {
+    "descripcion": "Descuento 5%",
+    "monto": 11478.62,
+    "gravado": 9756.83,
+    "exonerado": 0.0,
+    "igv": 1721.79,
+    "icbper": 0.0,
+    "total": 11478.62,
+    "detraccion": 0.0
+  }
+}

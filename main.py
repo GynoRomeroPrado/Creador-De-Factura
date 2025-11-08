@@ -16,7 +16,7 @@ from src.pdf_creator import PDFFactura
 
 def generar_facturas(cantidad: int, output_dir: str, verbose: bool = True):
     """
-    Genera múltiples facturas ficticias
+    Genera múltiples facturas ficticias con tipos variados
 
     Args:
         cantidad: Número de facturas a generar
@@ -25,7 +25,7 @@ def generar_facturas(cantidad: int, output_dir: str, verbose: bool = True):
     """
     if verbose:
         print(f"{'='*60}")
-        print(f"Generador de Facturas Ficticias")
+        print(f"Generador de Facturas Ficticias - Versión Mejorada")
         print(f"{'='*60}")
         print(f"Cantidad a generar: {cantidad}")
         print(f"Directorio de salida: {output_dir}")
@@ -37,30 +37,39 @@ def generar_facturas(cantidad: int, output_dir: str, verbose: bool = True):
 
     facturas_generadas = []
 
+    # Tipos de facturas disponibles
+    tipos_factura = ['general', 'hotel', 'seguro', 'con_descuento']
+    categorias_items = ['construccion', 'comida', 'servicios', 'hoteles', 'combustibles', 'seguros', 'seguridad']
+
     for i in range(cantidad):
         try:
             if verbose:
                 print(f"[{i+1}/{cantidad}] Generando factura...", end=" ")
 
-            # Generar factura con parámetros aleatorios variados
-            # Variar categorías de items
-            categorias = ['construccion', 'comida', 'servicios', None]  # None = mixto
-            categoria = categorias[i % len(categorias)]
+            # Seleccionar tipo de factura de forma variada
+            tipo = tipos_factura[i % len(tipos_factura)]
 
-            # Variar número de items
-            num_items = None  # Aleatorio entre 1-10
+            # Ajustar categoría según tipo
+            if tipo == 'hotel':
+                categoria = 'hoteles'
+            elif tipo == 'seguro':
+                categoria = 'seguros'
+            else:
+                # Variar entre todas las categorías
+                categoria = categorias_items[i % len(categorias_items)]
 
             # Variar moneda
-            monedas = ['PEN', 'USD', 'EUR', None]  # None = aleatorio
-            moneda = monedas[i % len(monedas)]
+            monedas_list = ['PEN', 'USD', 'EUR']
+            moneda = monedas_list[i % len(monedas_list)]
 
             # Variar crédito
             con_credito = (i % 3 == 0)  # 1 de cada 3 a crédito
 
             # Generar datos de factura
             factura = gen_factura.generar_factura(
+                tipo_factura=tipo,
                 categoria_items=categoria,
-                num_items=num_items,
+                num_items=None,  # Aleatorio
                 moneda=moneda,
                 con_credito=con_credito
             )
@@ -71,11 +80,14 @@ def generar_facturas(cantidad: int, output_dir: str, verbose: bool = True):
             facturas_generadas.append(archivo)
 
             if verbose:
-                print(f"✓ {factura['numero_factura']} - {os.path.basename(archivo)}")
+                tipo_desc = f"[{tipo.upper()}]"
+                print(f"✓ {tipo_desc} {factura['numero_factura']} - {factura['simbolo_moneda']}{factura['total']:.2f}")
 
         except Exception as e:
             if verbose:
                 print(f"✗ Error: {str(e)}")
+                import traceback
+                traceback.print_exc()
             continue
 
     if verbose:
@@ -83,6 +95,11 @@ def generar_facturas(cantidad: int, output_dir: str, verbose: bool = True):
         print(f"Proceso completado:")
         print(f"  - Facturas generadas: {len(facturas_generadas)}/{cantidad}")
         print(f"  - Ubicación: {output_dir}")
+        print(f"\nTipos generados:")
+        print(f"  - Generales / Construcción / Comida / Servicios")
+        print(f"  - Hoteles (con check-in/out, noches, huésped)")
+        print(f"  - Seguros (con pólizas y vigencias)")
+        print(f"  - Con descuentos (tabla de descuentos)")
         print(f"{'='*60}")
 
     return facturas_generadas

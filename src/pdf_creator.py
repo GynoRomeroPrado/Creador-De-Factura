@@ -325,8 +325,9 @@ class PDFFactura:
 
     def _dibujar_totales(self, c, datos, width, height):
         """Dibuja los totales"""
-        # Posición fija desde abajo - ajustada para dar espacio
-        y = 300 if datos.get('descuento') else 320
+        # Posición inicial aumentada para evitar superposiciones
+        # ANTES: 300/320  →  AHORA: 340/360 (+40px)
+        y = 340 if datos.get('descuento') else 360
 
         # Recuadro de totales
         x_inicio = width - 220
@@ -338,67 +339,67 @@ class PDFFactura:
         c.drawRightString(width - 30, y, f"{datos['simbolo_moneda']} {datos['op_gravada']:.2f}")
 
         if datos.get('op_gratuitas', 0) > 0:
-            y -= 16  # Aumentado de 14 a 16
+            y -= 18  # AUMENTADO: 14 → 16 → 18px
             c.setFont(self.FONT_BOLD, 9)
             c.drawString(x_inicio, y, "OP. GRATUITAS:")
             c.setFont(self.FONT_NORMAL, 9)
             c.drawRightString(width - 30, y, f"{datos['simbolo_moneda']} {datos['op_gratuitas']:.2f}")
 
         if datos['op_exonerada'] > 0:
-            y -= 16  # Aumentado de 14 a 16
+            y -= 18  # AUMENTADO: 14 → 16 → 18px
             c.setFont(self.FONT_BOLD, 9)
             c.drawString(x_inicio, y, "OP. EXONERADAS:")
             c.setFont(self.FONT_NORMAL, 9)
             c.drawRightString(width - 30, y, f"{datos['simbolo_moneda']} {datos['op_exonerada']:.2f}")
 
         if datos['op_inafecta'] > 0:
-            y -= 16  # Aumentado de 14 a 16
+            y -= 18  # AUMENTADO: 14 → 16 → 18px
             c.setFont(self.FONT_BOLD, 9)
             c.drawString(x_inicio, y, "OP. INAFECTAS:")
             c.setFont(self.FONT_NORMAL, 9)
             c.drawRightString(width - 30, y, f"{datos['simbolo_moneda']} {datos['op_inafecta']:.2f}")
 
         if datos.get('descuento'):
-            y -= 16  # Aumentado de 14 a 16
+            y -= 18  # AUMENTADO: 14 → 16 → 18px
             c.setFont(self.FONT_BOLD, 9)
             c.drawString(x_inicio, y, "TOTAL DCTO GLOBAL:")
             c.setFont(self.FONT_NORMAL, 9)
             c.drawRightString(width - 30, y, f"{datos['simbolo_moneda']} {datos['descuento']['monto']:.2f}")
 
-        y -= 16  # Aumentado de 14 a 16
+        y -= 18  # AUMENTADO: 14 → 16 → 18px (IGV)
         c.setFont(self.FONT_BOLD, 9)
         c.drawString(x_inicio, y, "IGV 18%:")
         c.setFont(self.FONT_NORMAL, 9)
         c.drawRightString(width - 30, y, f"{datos['simbolo_moneda']} {datos['igv']:.2f}")
 
         if datos.get('total_cargos', 0) > 0:
-            y -= 16  # Aumentado de 14 a 16
+            y -= 18  # AUMENTADO: 14 → 16 → 18px
             c.setFont(self.FONT_BOLD, 9)
             c.drawString(x_inicio, y, "TOTAL CARGOS:")
             c.setFont(self.FONT_NORMAL, 9)
             c.drawRightString(width - 30, y, f"{datos['simbolo_moneda']} {datos['total_cargos']:.2f}")
 
         if datos.get('otros_cargos', 0) > 0:
-            y -= 16  # Aumentado de 14 a 16
+            y -= 18  # AUMENTADO: 14 → 16 → 18px
             c.setFont(self.FONT_BOLD, 9)
             c.drawString(x_inicio, y, "OTROS CARGOS:")
             c.setFont(self.FONT_NORMAL, 9)
             c.drawRightString(width - 30, y, f"{datos['simbolo_moneda']} {datos['otros_cargos']:.2f}")
 
         # Total
-        y -= 22  # Aumentado de 20 a 22 para más espacio
+        y -= 25  # AUMENTADO: 20 → 22 → 25px
         c.setFillColor(colors.HexColor('#E8E8E8'))
-        # Aumentar padding: y-3 en lugar de y-5, altura 24 en lugar de 20
-        c.rect(x_inicio - 10, y - 3, 200, 24, fill=True, stroke=True)
+        # Aumentar padding y altura de casilla
+        c.rect(x_inicio - 10, y - 4, 200, 26, fill=True, stroke=True)
 
         c.setFillColor(colors.black)
         c.setFont(self.FONT_BOLD, 11)
-        c.drawString(x_inicio, y + 5, "IMPORTE TOTAL:")  # Aumentado de +3 a +5
+        c.drawString(x_inicio, y + 6, "IMPORTE TOTAL:")  # AUMENTADO: +3 → +5 → +6
         c.setFont(self.FONT_BOLD, 11)
-        c.drawRightString(width - 30, y + 5, f"{datos['simbolo_moneda']} {datos['total']:.2f}")
+        c.drawRightString(width - 30, y + 6, f"{datos['simbolo_moneda']} {datos['total']:.2f}")
 
         # Monto en letras
-        y -= 35  # Aumentado de 30 a 35 para más espacio
+        y -= 40  # AUMENTADO: 30 → 35 → 40px
         c.setFont(self.FONT_BOLD, 8)
         c.drawString(30, y, "SON:")
         c.setFont(self.FONT_NORMAL, 8)
@@ -433,17 +434,17 @@ class PDFFactura:
             c.drawString(60, y, texto_letras)
 
         # Calcular posición Y final (después del "SON:")
-        y_final = y - (lineas_usadas * 10) - 15  # 15px de margen adicional
+        y_final = y - (lineas_usadas * 10) - 25  # AUMENTADO: 15px → 25px de margen
 
         return y_final
 
     def _dibujar_pie(self, c, datos, width, height, y_inicial=None):
         """Dibuja el pie de la factura"""
         # Usar y_inicial si se proporciona, sino usar posición por defecto
-        # Asegurar que no baje más de 180 (margen inferior)
+        # Asegurar que no baje más del margen inferior
         if y_inicial is not None:
-            y = min(y_inicial - 20, 200)  # 20px de separación adicional
-            y = max(y, 180)  # No bajar de 180px del fondo
+            y = y_inicial - 5  # Solo 5px de separación ya que y_final tiene 25px de margen
+            y = max(y, 160)  # AUMENTADO: 180 → 160px del fondo (más espacio disponible)
         else:
             y = 200
 
@@ -455,7 +456,7 @@ class PDFFactura:
 
         # Cuotas si es a crédito
         if datos['con_credito'] and datos['cuotas']:
-            y -= 20
+            y -= 22  # AUMENTADO: 20 → 22px
             c.setFont(self.FONT_BOLD, 8)
             c.drawString(30, y, "DATOS DE CUOTA:")
 
@@ -484,16 +485,16 @@ class PDFFactura:
 
         # Observaciones
         if datos.get('observaciones'):
-            y = max(y - 15, 60)
+            y = max(y - 20, 55)  # AUMENTADO: 15 → 20px, margen 60 → 55px
             c.setFont(self.FONT_BOLD, 8)
             c.drawString(30, y, "OBSERVACIONES:")
             c.setFont(self.FONT_NORMAL, 7)
-            y -= 10
+            y -= 12  # AUMENTADO: 10 → 12px
             obs = datos['observaciones']
             if len(obs) > 80:
                 # Partir en dos líneas
                 c.drawString(35, y, obs[:80])
-                y -= 8
+                y -= 10  # AUMENTADO: 8 → 10px
                 c.drawString(35, y, obs[80:160])
             else:
                 c.drawString(35, y, obs)

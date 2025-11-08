@@ -1,0 +1,156 @@
+{
+  "tipo_comprobante": "FACTURA ELECTRÓNICA",
+  "tipo_factura": "hotel",
+  "numero_factura": "F561-792281",
+  "serie": "F561",
+  "numero": "792281",
+  "fecha_emision": "2025-01-01T00:00:00",
+  "fecha_vencimiento": "2025-05-01T00:00:00",
+  "emisor": {
+    "ruc": "20936606076",
+    "razon_social": "Casa Andina Premium Huancayo",
+    "direccion": "Av. Javier Prado 7013, Los Olivos",
+    "telefono": "993128577",
+    "email": "facturacion@corp.pe"
+  },
+  "receptor": {
+    "ruc": "20141887441",
+    "razon_social": "Comercial Imperial E.I.R.L.",
+    "direccion": "Av. Salaverry 9704, San Isidro",
+    "telefono": "936175309",
+    "email": "info@comercial.pe"
+  },
+  "moneda": "PEN",
+  "simbolo_moneda": "S/",
+  "nombre_moneda": "SOLES",
+  "items": [
+    {
+      "numero": 1,
+      "descripcion": "ALIMENTACION",
+      "unidad": "NIU",
+      "cantidad": 1.573,
+      "precio_unitario": 75.99,
+      "valor_venta": 119.53,
+      "cargo_item": 21.52,
+      "importe_total": 141.05
+    },
+    {
+      "numero": 2,
+      "descripcion": "ALOJAMIENTO",
+      "unidad": "NIU",
+      "cantidad": 4.315,
+      "precio_unitario": 90.93,
+      "valor_venta": 392.36,
+      "cargo_item": 70.62,
+      "importe_total": 462.98
+    },
+    {
+      "numero": 3,
+      "descripcion": "ALIMENTACION",
+      "unidad": "NIU",
+      "cantidad": 3.128,
+      "precio_unitario": 88.94,
+      "valor_venta": 278.2,
+      "cargo_item": 50.08,
+      "importe_total": 328.28
+    },
+    {
+      "numero": 4,
+      "descripcion": "ALOJAMIENTO",
+      "unidad": "NIU",
+      "cantidad": 4.878,
+      "precio_unitario": 128.75,
+      "valor_venta": 628.04,
+      "cargo_item": 113.05,
+      "importe_total": 741.09
+    },
+    {
+      "numero": 5,
+      "descripcion": "ALOJAMIENTO",
+      "unidad": "NIU",
+      "cantidad": 7.676,
+      "precio_unitario": 99.83,
+      "valor_venta": 766.3,
+      "cargo_item": 137.93,
+      "importe_total": 904.23
+    },
+    {
+      "numero": 6,
+      "descripcion": "ALOJAMIENTO",
+      "unidad": "NIU",
+      "cantidad": 5.349,
+      "precio_unitario": 159.41,
+      "valor_venta": 852.68,
+      "cargo_item": 153.48,
+      "importe_total": 1006.16
+    },
+    {
+      "numero": 7,
+      "descripcion": "ALOJAMIENTO",
+      "unidad": "NIU",
+      "cantidad": 8.157,
+      "precio_unitario": 56.71,
+      "valor_venta": 462.58,
+      "cargo_item": 83.26,
+      "importe_total": 545.84
+    },
+    {
+      "numero": 8,
+      "descripcion": "ALIMENTACION",
+      "unidad": "NIU",
+      "cantidad": 7.627,
+      "precio_unitario": 85.17,
+      "valor_venta": 649.59,
+      "cargo_item": 116.93,
+      "importe_total": 766.52
+    }
+  ],
+  "op_gravada": 3463.7099999999996,
+  "op_exonerada": 685.57,
+  "op_inafecta": 0.0,
+  "op_gratuitas": 0.0,
+  "igv": 623.47,
+  "total_cargos": 746.8699999999999,
+  "otros_cargos": 0.0,
+  "total": 5519.62,
+  "total_letras": "CINCO MIL QUINIENTOS DIECINUEVE CON 62/100 SOLES",
+  "forma_pago": "CREDITO 90 DIAS",
+  "con_credito": true,
+  "cuotas": [
+    {
+      "numero": 1,
+      "fecha_vencimiento": "2025-01-31T00:00:00",
+      "monto": 1379.9
+    },
+    {
+      "numero": 2,
+      "fecha_vencimiento": "2025-03-02T00:00:00",
+      "monto": 1379.9
+    },
+    {
+      "numero": 3,
+      "fecha_vencimiento": "2025-04-01T00:00:00",
+      "monto": 1379.9
+    },
+    {
+      "numero": 4,
+      "fecha_vencimiento": "2025-05-01T00:00:00",
+      "monto": 1379.92
+    }
+  ],
+  "numero_contrato": "CW746028",
+  "periodo_facturado": null,
+  "observaciones": "SIRVASE ENTREGAR LA LLAVE A LA RECEPCION / PLEASE LEAVE THE KEY AT THE DESK",
+  "datos_hotel": {
+    "checkin": "2025-01-01T00:00:00",
+    "checkout": "2025-01-04T00:00:00",
+    "noches": 3,
+    "reserva": "44907012",
+    "huesped": "Fernando Ortiz Fernández",
+    "codigo_grupo": null,
+    "nombre_grupo": null,
+    "habitacion": "Habitación Doble"
+  },
+  "datos_seguro": null,
+  "descuento": null
+}

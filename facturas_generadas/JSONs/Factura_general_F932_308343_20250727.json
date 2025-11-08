@@ -1,0 +1,122 @@
+{
+  "tipo_comprobante": "FACTURA",
+  "tipo_factura": "general",
+  "numero_factura": "F932-308343",
+  "serie": "F932",
+  "numero": "308343",
+  "fecha_emision": "2025-07-27T00:00:00",
+  "fecha_vencimiento": "2025-09-25T00:00:00",
+  "emisor": {
+    "ruc": "20444184192",
+    "razon_social": "SERVICIOS MINEROS DEL PERU S.A.C.",
+    "direccion": "Av. 28 de Julio 8161 Of. 204, Surco",
+    "telefono": "01-6341592",
+    "email": "contacto@corp.pe"
+  },
+  "receptor": {
+    "ruc": "20094628891",
+    "razon_social": "MINERA YANACOCHA S.R.L.",
+    "direccion": "Jr. Arequipa 468 Dpto. 884, Breña",
+    "telefono": "916372242",
+    "email": "contacto@empresa.com"
+  },
+  "moneda": "USD",
+  "simbolo_moneda": "$",
+  "nombre_moneda": "DOLARES",
+  "items": [
+    {
+      "numero": 1,
+      "descripcion": "Mantenimiento de Jardinería",
+      "unidad": "MES",
+      "cantidad": 68,
+      "precio_unitario": 467.54,
+      "valor_venta": 31792.72
+    },
+    {
+      "numero": 2,
+      "descripcion": "Instalación de Sistema Eléctrico",
+      "unidad": "SRV",
+      "cantidad": 68,
+      "precio_unitario": 2177.5,
+      "valor_venta": 148070.0
+    },
+    {
+      "numero": 3,
+      "descripcion": "Transporte de Carga Pesada",
+      "unidad": "VJE",
+      "cantidad": 94,
+      "precio_unitario": 1154.4,
+      "valor_venta": 108513.6
+    },
+    {
+      "numero": 4,
+      "descripcion": "Mantenimiento Preventivo Equipo Industrial",
+      "unidad": "SRV",
+      "cantidad": 91,
+      "precio_unitario": 1995.62,
+      "valor_venta": 181601.42
+    },
+    {
+      "numero": 5,
+      "descripcion": "Consultoría Técnica Especializada",
+      "unidad": "HOR",
+      "cantidad": 10,
+      "precio_unitario": 190.36,
+      "valor_venta": 1903.6
+    },
+    {
+      "numero": 6,
+      "descripcion": "Servicio de Vigilancia 24hrs",
+      "unidad": "MES",
+      "cantidad": 79,
+      "precio_unitario": 2001.76,
+      "valor_venta": 158139.04
+    },
+    {
+      "numero": 7,
+      "descripcion": "Mantenimiento de Jardinería",
+      "unidad": "MES",
+      "cantidad": 17,
+      "precio_unitario": 558.16,
+      "valor_venta": 9488.72
+    }
+  ],
+  "op_gravada": 511607.27999999997,
+  "op_exonerada": 0.0,
+  "op_inafecta": 0.0,
+  "op_gratuitas": 0.0,
+  "igv": 92089.31,
+  "total_cargos": 0.0,
+  "otros_cargos": 0.0,
+  "total": 603696.59,
+  "total_letras": "SEISCIENTOS TRES MIL SEISCIENTOS NOVENTA Y SEIS CON 59/100 DÓLARES",
+  "forma_pago": "CREDITO 60 DIAS",
+  "con_credito": true,
+  "cuotas": [
+    {
+      "numero": 1,
+      "fecha_vencimiento": "2025-08-26T00:00:00",
+      "monto": 301848.29
+    },
+    {
+      "numero": 2,
+      "fecha_vencimiento": "2025-09-25T00:00:00",
+      "monto": 301848.3
+    }
+  ],
+  "numero_contrato": null,
+  "periodo_facturado": "JULIO 25",
+  "observaciones": null,
+  "datos_hotel": null,
+  "datos_seguro": null,
+  "descuento": {
+    "descripcion": "Descuento 20%",
+    "monto": 127901.82,
+    "gravado": 108716.55,
+    "exonerado": 0.0,
+    "igv": 19185.27,
+    "icbper": 0.0,
+    "total": 127901.82,
+    "detraccion": 0.0
+  }
+}

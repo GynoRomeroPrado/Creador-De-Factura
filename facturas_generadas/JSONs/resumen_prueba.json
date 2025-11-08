@@ -1,0 +1,19 @@
+{
+  "total_facturas": 2,
+  "por_tipo": {
+    "hotel": 1,
+    "general": 1
+  },
+  "por_moneda": {
+    "PEN": 1,
+    "USD": 1
+  },
+  "totales_por_moneda": {
+    "PEN": 5519.62,
+    "USD": 603696.59
+  },
+  "con_credito": 2,
+  "con_descuento": 1,
+  "porcentaje_credito": 100.0,
+  "porcentaje_descuento": 50.0
+}

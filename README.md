@@ -84,31 +84,121 @@ python main.py --analizar --input ./facturas_originales/ --cantidad 50
 python ejemplo_uso.py
 ```
 
+### 🌐 Uso en Google Colab
+
+Si prefieres ejecutar el sistema en la nube sin instalar nada localmente:
+
+1. **Abrir el notebook en Google Colab:**
+   - Sube `Generador_Facturas_Colab.ipynb` a Google Colab
+   - O abre directamente desde GitHub: [Abrir en Colab](https://colab.research.google.com/github/GynoRomeroPrado/Creador-De-Factura/blob/main/Generador_Facturas_Colab.ipynb)
+
+2. **Ejecutar todas las celdas:**
+   - El notebook instalará automáticamente las dependencias
+   - Clonará el repositorio
+   - Montará tu Google Drive
+   - Generará las facturas (PDFs y JSONs)
+   - Guardará todo en `MyDrive/Facturas_Generadas/`
+
+3. **Configuración:**
+   - Ajusta `CANTIDAD_FACTURAS` en la celda de configuración
+   - Elige si generar PDFs y/o JSONs
+   - Las facturas se guardan automáticamente en tu Drive
+
+**Características del Notebook:**
+- ✅ Instalación automática de dependencias
+- ✅ Guardado automático en Google Drive
+- ✅ Exportación a JSON y PDF
+- ✅ Validación de cálculos
+- ✅ Resumen estadístico
+- ✅ Descarga opcional en ZIP
+
+### 📤 Exportación a JSON
+
+El sistema incluye exportación completa a JSON para integración con otras herramientas:
+
+```python
+from src.json_exporter import JSONExporter
+
+# Crear exportador
+exporter = JSONExporter(output_dir="mi_carpeta")
+
+# Exportar una factura
+archivo = exporter.exportar_factura(factura_data)
+
+# Exportar múltiples facturas
+archivo_consolidado = exporter.exportar_multiple(lista_facturas, "todas.json")
+
+# Crear resumen estadístico
+resumen = exporter.crear_resumen(lista_facturas)
+```
+
+**Formato JSON incluye:**
+- Todos los datos de la factura
+- Fechas en formato ISO 8601
+- Estructura anidada para items, cuotas, descuentos
+- Datos específicos de hotel/seguro cuando aplica
+- Metadatos de generación
+
 ## 📁 Estructura del Proyecto
 
 ```
 .
-├── main.py                     # Punto de entrada principal
-├── ejemplo_uso.py              # Ejemplos de uso
-├── requirements.txt            # Dependencias Python
-├── README.md                   # Este archivo
-├── GUIA_USO.md                # Guía detallada de uso
+├── main.py                          # Punto de entrada principal
+├── ejemplo_uso.py                   # Ejemplos de uso
+├── test_validacion.py               # Script de validación de cálculos
+├── test_imports_validacion.py       # Test de importaciones
+├── requirements.txt                 # Dependencias Python
+├── README.md                        # Este archivo
+├── GUIA_USO.md                     # Guía detallada de uso
+├── Generador_Facturas_Colab.ipynb  # Notebook de Google Colab
 ├── src/
 │   ├── __init__.py
-│   ├── utils.py               # Utilidades (RUC, letras, datos)
-│   ├── generator.py           # Generador de facturas
-│   └── pdf_creator.py         # Creador de PDFs
-├── facturas_originales/       # Coloca aquí tus facturas
-└── facturas_generadas/        # Aquí se guardan las generadas
+│   ├── utils.py                    # Utilidades (RUC, letras, datos, hotel, seguro)
+│   ├── generator.py                # Generador de facturas (4 tipos)
+│   ├── pdf_creator.py              # Creador de PDFs (tipografía uniforme)
+│   └── json_exporter.py            # Exportador a JSON
+├── facturas_originales/            # Facturas de referencia (16 archivos)
+└── facturas_generadas/             # Aquí se guardan las generadas
 ```
 
 ## 📊 Tipos de Facturas Generadas
+
+El sistema genera **4 tipos diferentes** de facturas con características específicas:
+
+### 1. **Factura General** (`general`)
+Factura estándar con items variados de construcción, comida o servicios.
+
+### 2. **Factura de Hotel** (`hotel`)
+- ✅ Check-in y Check-out con fechas específicas
+- ✅ Número de noches calculado
+- ✅ Datos del huésped
+- ✅ Código de reserva
+- ✅ Código de grupo (cuando aplica)
+- ✅ Items típicos: ALOJAMIENTO, ALIMENTACION, LAVANDERIA, TELEFONO, MINIBAR
+- ✅ "Cargo al ítem" adicional por línea
+
+### 3. **Factura de Seguro** (`seguro`)
+- ✅ Número de póliza
+- ✅ Vigencia (inicio y fin)
+- ✅ Datos del vehículo (placa, marca, modelo, año)
+- ✅ Datos del asegurado
+- ✅ Items típicos: SOAT, POLIZA, SEGURO VEHICULAR, COBERTURA
+
+### 4. **Factura con Descuento** (`con_descuento`)
+- ✅ Tabla de descuentos detallada
+- ✅ Columnas: GRAVADO, EXONER., IGV, ICBPER, TOTAL, DETRAC.
+- ✅ Tipos de descuento: porcentual, fijo, por volumen, por pronto pago
+- ✅ Recálculo automático de totales
 
 ### Categorías de Items
 
 1. **Construcción**: Cemento, arena, fierro, ladrillos, tuberías, etc.
 2. **Comida**: Arroz, aceite, carne, pescado, productos de primera necesidad
 3. **Servicios**: Mantenimiento, instalación, consultoría, transporte
+4. **Hoteles**: Alojamiento, alimentación, lavandería, teléfono, minibar
+5. **Combustibles**: Gasolina, diésel, GLP, aceites lubricantes
+6. **Seguros**: SOAT, pólizas, coberturas, asistencia
+7. **Seguridad**: Cámaras, alarmas, guardianía, monitoreo
 
 ### Características Financieras
 

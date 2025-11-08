@@ -222,35 +222,57 @@ class PDFFactura:
         c.drawString(30, y, f"Vigencia: {vig_inicio} - {vig_fin}")
 
     def _dibujar_items(self, c, datos, width, height):
-        """Dibuja la tabla de items"""
+        """Dibuja la tabla de items con soporte para múltiples páginas"""
         # Ajustar posición inicial según si hay datos de hotel/seguro
         if datos.get('datos_hotel') or datos.get('datos_seguro'):
             y_start = height - 260
         else:
             y_start = height - 220
 
-        # Encabezado de tabla
-        c.setFillColor(colors.HexColor('#E8E8E8'))
-        c.rect(30, y_start - 18, width - 60, 18, fill=True, stroke=False)
+        # Función para dibujar encabezado de tabla
+        def dibujar_encabezado_tabla(y_pos):
+            c.setFillColor(colors.HexColor('#E8E8E8'))
+            c.rect(30, y_pos - 18, width - 60, 18, fill=True, stroke=False)
+            c.setFillColor(colors.black)
+            c.setFont(self.FONT_BOLD, 8)
+            c.drawString(35, y_pos - 12, "ITEM")
+            c.drawString(65, y_pos - 12, "DESCRIPCIÓN")
+            c.drawString(320, y_pos - 12, "UND")
+            c.drawString(360, y_pos - 12, "CANT.")
+            c.drawString(410, y_pos - 12, "P.UNIT")
+            c.drawRightString(width - 35, y_pos - 12, "TOTAL")
+            return y_pos - 35
 
-        c.setFillColor(colors.black)
-        c.setFont(self.FONT_BOLD, 8)
-        c.drawString(35, y_start - 12, "ITEM")
-        c.drawString(65, y_start - 12, "DESCRIPCIÓN")
-        c.drawString(320, y_start - 12, "UND")
-        c.drawString(360, y_start - 12, "CANT.")
-        c.drawString(410, y_start - 12, "P.UNIT")
-        c.drawRightString(width - 35, y_start - 12, "TOTAL")
-
-        # Items
-        y = y_start - 35
+        # Encabezado inicial
+        y = dibujar_encabezado_tabla(y_start)
         c.setFont(self.FONT_NORMAL, 8)
 
         for i, item in enumerate(datos['items']):
-            if y < 220:  # Si no hay espacio, advertir
+            # Si no hay espacio suficiente, crear nueva página
+            espacio_necesario = 15 if 'cargo_item' not in item else 25
+            if y < (70 + espacio_necesario):
+                # Pie de página de continuación
                 c.setFont(self.FONT_ITALIC, 7)
-                c.drawString(35, y, "... más items en página siguiente ...")
-                break
+                c.setFillColor(colors.grey)
+                c.drawCentredString(width / 2, 50, f"Continúa en página siguiente... (Item {i+1}/{len(datos['items'])})")
+
+                # Nueva página
+                c.showPage()
+
+                # Encabezado de nueva página
+                c.setFont(self.FONT_BOLD, 12)
+                c.drawString(30, height - 40, f"{datos['emisor']['razon_social'][:50]}")
+                c.setFont(self.FONT_NORMAL, 9)
+                c.drawString(30, height - 55, f"Factura: {datos['numero_factura']}")
+
+                # Línea separadora
+                c.setStrokeColor(colors.grey)
+                c.line(30, height - 65, width - 30, height - 65)
+
+                # Encabezado de tabla en nueva página
+                y = dibujar_encabezado_tabla(height - 80)
+                c.setFont(self.FONT_NORMAL, 8)
+                c.setFillColor(colors.black)
 
             c.drawString(35, y, str(item['numero']))
 

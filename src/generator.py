@@ -37,10 +37,11 @@ class FacturaGenerator:
     ]
 
     TIPOS_FACTURA = [
-        "general",       # Factura normal
-        "hotel",         # Factura de hotel con check-in/out
-        "seguro",        # Factura de seguro/póliza
-        "con_descuento"  # Factura con descuentos
+        "general",          # Factura normal
+        "hotel",            # Factura de hotel con check-in/out
+        "seguro",           # Factura de seguro/póliza
+        "con_descuento",    # Factura con descuentos
+        "compra_grande"     # Factura con muchos items (30-50) para múltiples páginas
     ]
 
     def __init__(self):
@@ -77,11 +78,18 @@ class FacturaGenerator:
         if tipo_factura is None:
             tipo_factura = random.choice(self.TIPOS_FACTURA)
 
-        # Ajustar categoría según tipo de factura
+        # Ajustar categoría y número de items según tipo de factura
         if tipo_factura == 'hotel' and categoria_items is None:
             categoria_items = 'hoteles'
         elif tipo_factura == 'seguro' and categoria_items is None:
             categoria_items = 'seguros'
+        elif tipo_factura == 'compra_grande':
+            # Para compras grandes, generar muchos items (30-50)
+            if num_items is None:
+                num_items = random.randint(30, 50)
+            # Usar categoría de construcción o mixta para facturas grandes
+            if categoria_items is None:
+                categoria_items = random.choice(['construccion', 'alimentos', None])
 
         # Seleccionar moneda
         if moneda is None:

@@ -226,59 +226,93 @@ class DatasetExporter:
             ]
             glosa = random.choice(glosas)
 
-        # Observaciones (incluye monto en letras)
+        # Observaciones (solo monto en letras - formato varía según emisor)
         total_letras = factura.get("total_letras", "")
-        observaciones_parts = []
+        observaciones = None
         if total_letras:
-            observaciones_parts.append(f"SON: {total_letras}")
-
-        # Agregar datos de hotel si existen
-        if factura.get("datos_hotel"):
-            hotel = factura["datos_hotel"]
-            if hotel.get("huesped"):
-                observaciones_parts.append(f"Huesped: {hotel['huesped']}")
-            if hotel.get("reserva"):
-                observaciones_parts.append(f"Reserva: {hotel['reserva']}")
-
-        # Agregar nota de agente de retención
-        if random.random() < 0.2:
-            observaciones_parts.append("Agente de retencion de IGV incorporado por Resolucion de Superintendencia")
-
-        observaciones = " - ".join(observaciones_parts) if observaciones_parts else None
+            # Variar formato para realismo (basado en ejemplos reales)
+            formato = random.choice([
+                f"SON: {total_letras}",  # Formato más común
+                f"Monto en letra: {total_letras}",  # Hoteles
+                f"** ({total_letras}) **",  # Algunos hoteles
+            ])
+            observaciones = formato
 
         centro_costo = None
         proyecto = None
         ubicacion_obra = None
         numero_vale = None
         numero_placa = None
+
+        # Para hoteles, agregar datos a referencia_1 (NO a observaciones)
         referencia_1 = None
+        if factura.get("datos_hotel"):
+            hotel = factura["datos_hotel"]
+            hotel_parts = []
+
+            if hotel.get("checkin"):
+                checkin = hotel["checkin"]
+                if isinstance(checkin, datetime):
+                    checkin_str = checkin.strftime("%d-%m-%Y")
+                else:
+                    checkin_str = str(checkin)
+                hotel_parts.append(f"Checkin: {checkin_str}")
+
+            if hotel.get("checkout"):
+                checkout = hotel["checkout"]
+                if isinstance(checkout, datetime):
+                    checkout_str = checkout.strftime("%d-%m-%Y")
+                else:
+                    checkout_str = str(checkout)
+                hotel_parts.append(f"CheckOut: {checkout_str}")
+
+            if hotel.get("reserva"):
+                hotel_parts.append(f"Reserva: {hotel['reserva']}")
+
+            if hotel.get("noches"):
+                hotel_parts.append(f"Noches: {hotel['noches']}")
+
+            if hotel.get("huesped"):
+                # Convertir nombre a formato APELLIDOS,NOMBRES en mayúsculas
+                huesped = hotel["huesped"].upper()
+                hotel_parts.append(f"Huésped: {huesped}")
+
+            if hotel_parts:
+                referencia_1 = ", ".join(hotel_parts)
+
         referencia_2 = None
 
         # ========== SECCIÓN 7: ITEMS (Array) ==========
+
+        # Detectar si es factura de hotel
+        es_hotel = factura.get("tipo_factura") == "hotel" or factura.get("datos_hotel") is not None
 
         items = []
         for i, item_orig in enumerate(factura.get("items", []), 1):
             valor_venta = round(item_orig.get("valor_venta", 0), 2)
 
-            # Descuento del item
-            descuento_item = 0.0
+            # Código del item (solo hoteles tienen código 90111500)
+            codigo = "90111500" if es_hotel else None
+
+            # Descuento del item (null para hoteles, 0.0 para generales)
+            descuento_item = None if es_hotel else 0.0
 
             # Subtotal del item (después del descuento)
-            subtotal_item = valor_venta - descuento_item
+            subtotal_item = valor_venta
 
             # Determinar tipo de IGV
-            # Todos los items de consumo son GRAVADO (incluidos hoteles)
             tipo_igv = "GRAVADO"
             igv_item = round(subtotal_item * 0.18, 2)
 
             # ISC del item
             isc_item = None
 
-            # Otro tributo (aquí podríamos poner el cargo_item de hoteles si queremos)
+            # Otro tributo
+            # Para hoteles: 10% del valor_venta (cargo adicional por servicio)
+            # Para generales: null
             otro_tributo = None
-            if "cargo_item" in item_orig:
-                # Para hoteles: el cargo_item va en otro_tributo (cargos adicionales)
-                otro_tributo = round(item_orig["cargo_item"], 2)
+            if es_hotel:
+                otro_tributo = round(valor_venta * 0.10, 2)
 
             # Importe total del item
             # Fórmula oficial: subtotal_item + igv_item + otro_tributo
@@ -289,16 +323,16 @@ class DatasetExporter:
 
             item_data = {
                 "item": i,
-                "codigo": None,  # No tenemos códigos de producto
+                "codigo": codigo,
                 "descripcion": item_orig.get("descripcion", ""),
                 "cantidad": item_orig.get("cantidad", 0),
                 "unidad_medida": item_orig.get("unidad", "NIU"),
                 "precio_unitario": round(item_orig.get("precio_unitario", 0), 2),
                 "valor_venta": valor_venta,
-                "descuento_item": descuento_item if descuento_item > 0 else 0.0,
+                "descuento_item": descuento_item,
                 "subtotal_item": subtotal_item,
                 "tipo_igv": tipo_igv,
-                "igv_item": igv_item if igv_item > 0 else 0.0,
+                "igv_item": igv_item,
                 "isc_item": isc_item,
                 "otro_tributo": otro_tributo,
                 "importe_total_item": importe_total_item,
@@ -348,7 +382,7 @@ class DatasetExporter:
                     "numero": i,
                     "monto": monto_cuota,
                     "fecha_vencimiento": fecha_cuota_str,
-                    "estado": "PENDIENTE"
+                    "estado": None
                 })
 
         # ========== SECCIÓN 9: CAMPOS SUNAT (5 campos) ==========

@@ -60,180 +60,484 @@ class DatasetExporter:
 
     def convertir_factura_a_anotacion(self, factura: Dict) -> Dict:
         """
-        Convierte una factura generada al formato de anotación
+        Convierte una factura generada al formato de anotación oficial InvoiceX v5.5
         Args:
             factura: Diccionario con datos de factura generada
         Returns:
-            Diccionario con formato de anotación
+            Diccionario con formato de anotación (97 campos + items + cuotas)
         """
         import random
 
-        # Tipo de comprobante y factura
-        tipo_comprobante = factura.get("tipo_comprobante", "FACTURA ELECTRÓNICA")
-        tipo_factura = factura.get("tipo_factura", "general")
+        # ========== SECCIÓN 1: DOCUMENTO (5 campos) ==========
 
-        # Serie completa (ej: F689-799377)
-        numero_factura = factura.get("numero_factura", "F001-000001")
+        # Normalizar tipo de documento (sin tildes, mayúsculas)
+        tipo_doc = factura.get("tipo_comprobante", "FACTURA ELECTRONICA")
+        tipo_doc = tipo_doc.upper().replace("Ó", "O").replace("É", "E")
 
-        # Extraer serie y número
-        if "-" in numero_factura:
-            serie, numero = numero_factura.split("-", 1)
-        else:
-            serie = numero_factura[:4]
-            numero = numero_factura[4:]
+        # Serie completa
+        serie_completa = factura.get("numero_factura", "F001-000001")
 
-        # Fechas en formato ISO
+        # Fechas en formato YYYY-MM-DD (sin hora)
         fecha_emision = factura.get("fecha_emision")
         if isinstance(fecha_emision, datetime):
-            fecha_emision_str = fecha_emision.strftime("%Y-%m-%dT00:00:00")
+            fecha_emision_str = fecha_emision.strftime("%Y-%m-%d")
         else:
-            fecha_emision_str = str(fecha_emision)
+            fecha_emision_str = str(fecha_emision) if fecha_emision else None
 
         fecha_vencimiento = factura.get("fecha_vencimiento")
         if isinstance(fecha_vencimiento, datetime):
-            fecha_vencimiento_str = fecha_vencimiento.strftime("%Y-%m-%dT00:00:00")
+            fecha_vencimiento_str = fecha_vencimiento.strftime("%Y-%m-%d")
         else:
             fecha_vencimiento_str = fecha_emision_str
 
-        # Moneda
+        # Normalizar moneda según InvoiceX v5.5
         moneda_codigo = factura.get("moneda", "PEN")
-        if moneda_codigo == "PEN":
-            simbolo_moneda = "S/"
-            nombre_moneda = "SOLES"
-        elif moneda_codigo == "USD":
-            simbolo_moneda = "$"
-            nombre_moneda = "DOLARES"
-        elif moneda_codigo == "EUR":
-            simbolo_moneda = "€"
-            nombre_moneda = "EUROS"
+        if moneda_codigo in ["PEN", "S/", "SOLES"]:
+            moneda = "SOLES"
+        elif moneda_codigo in ["USD", "$", "DOLARES", "DÓLARES"]:
+            moneda = "DOLARES AMERICANOS"
+        elif moneda_codigo in ["EUR", "€", "EUROS"]:
+            moneda = "EUROS"
         else:
-            simbolo_moneda = moneda_codigo
-            nombre_moneda = moneda_codigo
+            moneda = moneda_codigo
 
-        # Emisor (nested object)
+        # ========== SECCIÓN 2: EMISOR (14 campos) ==========
+
         emisor_data = factura.get("emisor", {})
-        emisor = {
-            "ruc": emisor_data.get("ruc", ""),
-            "razon_social": emisor_data.get("razon_social", ""),
-            "direccion": emisor_data.get("direccion", ""),
-            "telefono": emisor_data.get("telefono", ""),
-            "email": emisor_data.get("email", "")
-        }
 
-        # Receptor (nested object)
+        # Extraer ubicación de la dirección si está disponible
+        direccion_emisor = emisor_data.get("direccion", "")
+        # Intentar parsear departamento, provincia, distrito de la dirección
+        # Formato típico: "Av. Principal 123, Distrito, Provincia"
+        partes_dir_emisor = [p.strip() for p in direccion_emisor.split(",")]
+
+        # ========== SECCIÓN 3: RECEPTOR (14 campos) ==========
+
         receptor_data = factura.get("receptor", {})
-        receptor = {
-            "ruc": receptor_data.get("ruc", ""),
-            "razon_social": receptor_data.get("razon_social", ""),
-            "direccion": receptor_data.get("direccion", ""),
-            "telefono": receptor_data.get("telefono", ""),
-            "email": receptor_data.get("email", "")
-        }
+        receptor_numero_doc = receptor_data.get("ruc", "")
 
-        # Calcular totales de items
+        # Determinar tipo de documento
+        if receptor_numero_doc:
+            if len(receptor_numero_doc) == 11:
+                receptor_tipo_doc = "RUC"
+            elif len(receptor_numero_doc) == 8:
+                receptor_tipo_doc = "DNI"
+            else:
+                receptor_tipo_doc = "RUC"
+        else:
+            receptor_tipo_doc = None
+
+        # Extraer ubicación del receptor
+        direccion_receptor = receptor_data.get("direccion", "")
+        partes_dir_receptor = [p.strip() for p in direccion_receptor.split(",")]
+
+        # ========== SECCIÓN 4: IMPORTES Y TRIBUTOS (19 campos) ==========
+
+        # Subtotal (op_gravada en el sistema anterior)
+        subtotal = round(factura.get("op_gravada", 0.0), 2)
+
+        # Descuento
+        descuento = factura.get("descuento_total", 0.0)
+        if descuento > 0:
+            descuento = round(descuento, 2)
+        else:
+            descuento = 0.0
+
+        # Subtotal con descuento
+        subtotal_con_descuento = round(subtotal - descuento, 2)
+
+        # IGV
+        igv = round(factura.get("igv", 0.0), 2)
+
+        # ISC (Impuesto Selectivo al Consumo) - no implementado aún
+        isc = None
+
+        # Otros cargos (para hoteles son los cargo_item)
+        otros_cargos = round(factura.get("total_cargos", 0.0), 2)
+        if otros_cargos == 0.0:
+            otros_cargos = 0.0
+
+        # Importe total
+        importe_total = round(factura.get("total", 0.0), 2)
+
+        # Tipo de cambio (solo si es moneda extranjera)
+        tipo_cambio = None
+        importe_total_moneda_base = None
+
+        # Retenciones, percepciones (no implementados)
+        retencion_monto = None
+        retencion_porcentaje = None
+        percepcion_monto = None
+        percepcion_porcentaje = None
+
+        # Detracción (aleatorio para construcción/servicios)
+        detraccion_monto = None
+        detraccion_porcentaje = None
+        detraccion_codigo_bienes = None
+        if random.random() < 0.15:  # 15% de facturas con detracción
+            detraccion_porcentaje = 10.0
+            detraccion_monto = round(importe_total * 0.10, 2)
+
+        # Anticipos (no implementados)
+        anticipo_monto = None
+        anticipo_numero = None
+
+        # ========== SECCIÓN 5: REFERENCIAS (9 campos) ==========
+
+        numero_contrato = f"CW{random.randint(100000, 999999)}"
+
+        # Orden de compra (aleatorio)
+        orden_compra = None
+        if random.random() < 0.3:
+            orden_compra = f"OC-2025-{random.randint(1000, 9999)}"
+
+        orden_servicio = None
+        numero_pedido = None
+
+        # Guía de remisión (aleatorio)
+        guia_remision = None
+        if random.random() < 0.25:
+            guia_remision = f"T001-{random.randint(10000, 99999):08d}"
+
+        # Condición y forma de pago
+        forma_pago_original = factura.get("forma_pago", "CONTADO")
+        if "CREDITO" in forma_pago_original.upper():
+            condicion_pago = "Credito 30 dias"
+            forma_pago = random.choice(["TRANSFERENCIA", "DEPOSITO EN CUENTA", "CREDITO"])
+        else:
+            condicion_pago = "Contado"
+            forma_pago = random.choice(["TRANSFERENCIA", "EFECTIVO", "TARJETA", "YAPE", "PLIN"])
+
+        cuenta_bancaria = None
+        numero_cuenta_detraccion = None
+        if detraccion_monto:
+            numero_cuenta_detraccion = f"00000{random.randint(100000, 999999)}"
+
+        # ========== SECCIÓN 6: INFORMACIÓN ADICIONAL (9 campos) ==========
+
+        # Glosa
+        glosa = None
+        if random.random() < 0.3:
+            glosas = [
+                "Venta de productos varios",
+                "Servicios profesionales",
+                "Provision de materiales",
+                "Servicios de construccion"
+            ]
+            glosa = random.choice(glosas)
+
+        # Observaciones (incluye monto en letras)
+        total_letras = factura.get("total_letras", "")
+        observaciones_parts = []
+        if total_letras:
+            observaciones_parts.append(f"SON: {total_letras}")
+
+        # Agregar datos de hotel si existen
+        if factura.get("datos_hotel"):
+            hotel = factura["datos_hotel"]
+            if hotel.get("huesped"):
+                observaciones_parts.append(f"Huesped: {hotel['huesped']}")
+            if hotel.get("reserva"):
+                observaciones_parts.append(f"Reserva: {hotel['reserva']}")
+
+        # Agregar nota de agente de retención
+        if random.random() < 0.2:
+            observaciones_parts.append("Agente de retencion de IGV incorporado por Resolucion de Superintendencia")
+
+        observaciones = " - ".join(observaciones_parts) if observaciones_parts else None
+
+        centro_costo = None
+        proyecto = None
+        ubicacion_obra = None
+        numero_vale = None
+        numero_placa = None
+        referencia_1 = None
+        referencia_2 = None
+
+        # ========== SECCIÓN 7: ITEMS (Array) ==========
+
         items = []
-        op_gravada = 0.0
-        total_cargos = 0.0
+        for i, item_orig in enumerate(factura.get("items", []), 1):
+            valor_venta = round(item_orig.get("valor_venta", 0), 2)
 
-        for item in factura.get("items", []):
-            valor_venta = round(item.get("valor_venta", 0), 2)
-            op_gravada += valor_venta
+            # Descuento del item
+            descuento_item = 0.0
+
+            # Subtotal del item (después del descuento)
+            subtotal_item = valor_venta - descuento_item
+
+            # Determinar tipo de IGV
+            # Todos los items de consumo son GRAVADO (incluidos hoteles)
+            tipo_igv = "GRAVADO"
+            igv_item = round(subtotal_item * 0.18, 2)
+
+            # ISC del item
+            isc_item = None
+
+            # Otro tributo (aquí podríamos poner el cargo_item de hoteles si queremos)
+            otro_tributo = None
+            if "cargo_item" in item_orig:
+                # Para hoteles: el cargo_item va en otro_tributo (cargos adicionales)
+                otro_tributo = round(item_orig["cargo_item"], 2)
+
+            # Importe total del item
+            # Fórmula oficial: subtotal_item + igv_item + otro_tributo
+            importe_total_item = subtotal_item + igv_item
+            if otro_tributo:
+                importe_total_item += otro_tributo
+            importe_total_item = round(importe_total_item, 2)
 
             item_data = {
-                "numero": item.get("numero"),
-                "descripcion": item.get("descripcion"),
-                "unidad": item.get("unidad"),
-                "cantidad": item.get("cantidad"),
-                "precio_unitario": round(item.get("precio_unitario", 0), 2),
-                "valor_venta": valor_venta
+                "item": i,
+                "codigo": None,  # No tenemos códigos de producto
+                "descripcion": item_orig.get("descripcion", ""),
+                "cantidad": item_orig.get("cantidad", 0),
+                "unidad_medida": item_orig.get("unidad", "NIU"),
+                "precio_unitario": round(item_orig.get("precio_unitario", 0), 2),
+                "valor_venta": valor_venta,
+                "descuento_item": descuento_item if descuento_item > 0 else 0.0,
+                "subtotal_item": subtotal_item,
+                "tipo_igv": tipo_igv,
+                "igv_item": igv_item if igv_item > 0 else 0.0,
+                "isc_item": isc_item,
+                "otro_tributo": otro_tributo,
+                "importe_total_item": importe_total_item,
+                "lote": None,
+                "fecha_vencimiento": None,
+                "serie": None,
+                "modelo": None,
+                "marca": None,
+                "placa": None,
+                "partida_arancelaria": None,
+                "centro_costo_item": None,
+                "cuenta_contable": None,
+                "proyecto_item": None,
+                "orden_item": None,
+                "ubicacion": None,
+                "observacion_item": None
             }
-
-            # Agregar cargo_item e importe_total si existe (típico en hoteles)
-            if "cargo_item" in item:
-                cargo = round(item["cargo_item"], 2)
-                item_data["cargo_item"] = cargo
-                item_data["importe_total"] = round(valor_venta + cargo, 2)
-                total_cargos += cargo
 
             items.append(item_data)
 
-        # Operaciones
-        op_gravada = round(op_gravada, 2)
-        op_exonerada = 0.0
-        op_inafecta = round(total_cargos, 2)  # Los cargos son inafectos (no tienen IGV)
-        op_gratuitas = 0.0
+        # ========== SECCIÓN 8: CUOTAS (Array) ==========
 
-        # IGV y total
-        igv = round(factura.get("igv", 0.0), 2)
-        total_cargos = round(total_cargos, 2)
-        otros_cargos = 0.0
-        total = round(factura.get("total", 0.0), 2)
-
-        # Total en letras
-        total_letras = factura.get("total_letras", "")
-
-        # Forma de pago
-        forma_pago = factura.get("forma_pago", "CONTADO")
-        con_credito = "CREDITO" in forma_pago.upper()
         cuotas = []
+        if "CREDITO" in forma_pago_original.upper() and random.random() < 0.4:
+            # Generar 2-4 cuotas
+            num_cuotas = random.choice([2, 3, 4])
+            monto_cuota = round(importe_total / num_cuotas, 2)
 
-        # Número de contrato (aleatorio)
-        numero_contrato = f"CW{random.randint(100000, 999999)}"
+            for i in range(1, num_cuotas + 1):
+                # Ajustar última cuota para redondeo
+                if i == num_cuotas:
+                    monto_cuota = round(importe_total - (monto_cuota * (num_cuotas - 1)), 2)
 
-        # Datos de hotel (nested object o null)
-        datos_hotel = None
-        if factura.get("datos_hotel"):
-            hotel_data = factura["datos_hotel"]
-            datos_hotel = {
-                "checkin": hotel_data["checkin"].strftime("%Y-%m-%dT00:00:00") if isinstance(hotel_data.get("checkin"), datetime) else str(hotel_data.get("checkin")),
-                "checkout": hotel_data["checkout"].strftime("%Y-%m-%dT00:00:00") if isinstance(hotel_data.get("checkout"), datetime) else str(hotel_data.get("checkout")),
-                "noches": hotel_data.get("noches"),
-                "reserva": str(hotel_data.get("reserva", "")),
-                "huesped": hotel_data.get("huesped", ""),
-                "codigo_grupo": hotel_data.get("codigo_grupo"),
-                "nombre_grupo": hotel_data.get("nombre_grupo"),
-                "habitacion": hotel_data.get("habitacion")
-            }
+                # Fecha de vencimiento: 30 días entre cuotas
+                if isinstance(fecha_vencimiento, str):
+                    from datetime import timedelta
+                    try:
+                        fecha_base = datetime.strptime(fecha_vencimiento_str, "%Y-%m-%d")
+                        fecha_cuota = fecha_base + timedelta(days=30 * (i - 1))
+                        fecha_cuota_str = fecha_cuota.strftime("%Y-%m-%d")
+                    except:
+                        fecha_cuota_str = fecha_vencimiento_str
+                else:
+                    fecha_cuota_str = fecha_vencimiento_str
 
-        # Descuento (si existe)
-        descuento = None
-        descuento_val = factura.get("descuento_total", 0.0)
-        if descuento_val > 0:
-            descuento = round(descuento_val, 2)
+                cuotas.append({
+                    "numero": i,
+                    "monto": monto_cuota,
+                    "fecha_vencimiento": fecha_cuota_str,
+                    "estado": "PENDIENTE"
+                })
 
-        # Crear anotación con nuevo formato
+        # ========== SECCIÓN 9: CAMPOS SUNAT (5 campos) ==========
+
+        cod_qr = None
+        hash_sunat = None
+        numero_autorizacion = None
+        serie_fisica = None
+        numero_fisico = None
+
+        # ========== SECCIÓN 10: DOCUMENTO RELACIONADO (4 campos) ==========
+
+        doc_relacionado_tipo = None
+        doc_relacionado_numero = None
+        doc_relacionado_fecha = None
+        motivo_emision = None
+
+        # ========== SECCIÓN 11: UBICACIÓN EMISOR (8 campos) ==========
+
+        # Intentar extraer de dirección o usar valores por defecto
+        emisor_departamento = len(partes_dir_emisor) >= 3 and partes_dir_emisor[-1] or "LIMA"
+        emisor_provincia = len(partes_dir_emisor) >= 2 and partes_dir_emisor[-2] or "LIMA"
+        emisor_distrito = len(partes_dir_emisor) >= 3 and partes_dir_emisor[-3] or None
+        emisor_ubigeo = None
+        emisor_codigo_postal = None
+        emisor_codigo_establecimiento = None
+
+        # ========== SECCIÓN 12: UBICACIÓN RECEPTOR (6 campos) ==========
+
+        receptor_departamento = len(partes_dir_receptor) >= 3 and partes_dir_receptor[-1] or None
+        receptor_provincia = len(partes_dir_receptor) >= 2 and partes_dir_receptor[-2] or None
+        receptor_distrito = len(partes_dir_receptor) >= 3 and partes_dir_receptor[-3] or None
+        receptor_ubigeo = None
+        receptor_codigo_postal = None
+
+        # ========== SECCIÓN 13: EXPORTACIÓN (6 campos) ==========
+
+        is_exportacion = False
+        incoterm = None
+        puerto_embarque = None
+        puerto_destino = None
+        nave = None
+        numero_contenedor = None
+
+        # ========== SECCIÓN 14: RÉGIMEN TRIBUTARIO (3 campos) ==========
+
+        agente_retencion = random.choice([True, False])
+        agente_percepcion = False
+        buen_contribuyente = random.choice([True, False])
+
+        # ========== SECCIÓN 15: PERSONAL (4 campos) ==========
+
+        vendedor_codigo = None
+        vendedor_nombre = None
+        cajero_codigo = None
+        cajero_nombre = None
+
+        # ========== SECCIÓN 16: FECHAS ADICIONALES (3 campos) ==========
+
+        fecha_registro = None
+        fecha_pago = None
+        fecha_cancelacion = None
+
+        # ========== CONSTRUIR JSON FINAL (Estructura InvoiceX v5.5) ==========
+
         anotacion = {
-            "tipo_comprobante": tipo_comprobante,
-            "tipo_factura": tipo_factura,
-            "numero_factura": numero_factura,
-            "serie": serie,
-            "numero": numero,
+            # SECCIÓN 1: DOCUMENTO (5 campos)
+            "tipo_documento": tipo_doc,
+            "serie_completa": serie_completa,
             "fecha_emision": fecha_emision_str,
             "fecha_vencimiento": fecha_vencimiento_str,
-            "emisor": emisor,
-            "receptor": receptor,
-            "moneda": moneda_codigo,
-            "simbolo_moneda": simbolo_moneda,
-            "nombre_moneda": nombre_moneda,
-            "items": items,
-            "op_gravada": op_gravada,
-            "op_exonerada": op_exonerada,
-            "op_inafecta": op_inafecta,
-            "op_gratuitas": op_gratuitas,
+            "moneda": moneda,
+
+            # SECCIÓN 2: EMISOR (14 campos)
+            "emisor_ruc": emisor_data.get("ruc", ""),
+            "emisor_razon_social": emisor_data.get("razon_social", ""),
+            "emisor_direccion": direccion_emisor,
+            "emisor_sucursal": None,
+            "emisor_telefono": emisor_data.get("telefono"),
+            "emisor_web": None,
+            "emisor_departamento": emisor_departamento,
+            "emisor_provincia": emisor_provincia,
+            "emisor_distrito": emisor_distrito,
+            "emisor_ubigeo": emisor_ubigeo,
+            "emisor_codigo_postal": emisor_codigo_postal,
+            "emisor_email": emisor_data.get("email"),
+            "emisor_nombre_comercial": emisor_data.get("nombre_comercial") or emisor_data.get("razon_social", ""),
+            "emisor_codigo_establecimiento": emisor_codigo_establecimiento,
+
+            # SECCIÓN 3: RECEPTOR (14 campos)
+            "receptor_numero_doc": receptor_numero_doc,
+            "receptor_tipo_doc": receptor_tipo_doc,
+            "receptor_razon_social": receptor_data.get("razon_social", ""),
+            "receptor_direccion": direccion_receptor,
+            "receptor_contacto": None,
+            "receptor_telefono": receptor_data.get("telefono"),
+            "receptor_email": receptor_data.get("email"),
+            "receptor_sucursal": None,
+            "receptor_departamento": receptor_departamento,
+            "receptor_provincia": receptor_provincia,
+            "receptor_distrito": receptor_distrito,
+            "receptor_ubigeo": receptor_ubigeo,
+            "receptor_codigo_postal": receptor_codigo_postal,
+            "receptor_nombre_comercial": None,
+
+            # SECCIÓN 4: IMPORTES Y TRIBUTOS (19 campos)
+            "subtotal": subtotal,
+            "descuento": descuento,
+            "subtotal_con_descuento": subtotal_con_descuento,
             "igv": igv,
-            "total_cargos": total_cargos,
+            "isc": isc,
             "otros_cargos": otros_cargos,
-            "total": total,
-            "total_letras": total_letras,
-            "forma_pago": forma_pago,
-            "con_credito": con_credito,
-            "cuotas": cuotas,
+            "importe_total": importe_total,
+            "tipo_cambio": tipo_cambio,
+            "importe_total_moneda_base": importe_total_moneda_base,
+            "retencion_monto": retencion_monto,
+            "retencion_porcentaje": retencion_porcentaje,
+            "percepcion_monto": percepcion_monto,
+            "percepcion_porcentaje": percepcion_porcentaje,
+            "detraccion_monto": detraccion_monto,
+            "detraccion_porcentaje": detraccion_porcentaje,
+            "detraccion_codigo_bienes": detraccion_codigo_bienes,
+            "anticipo_monto": anticipo_monto,
+            "anticipo_numero": anticipo_numero,
+
+            # SECCIÓN 5: REFERENCIAS (9 campos)
             "numero_contrato": numero_contrato,
-            "periodo_facturado": None,
-            "observaciones": None,
-            "datos_hotel": datos_hotel,
-            "datos_seguro": None,
-            "descuento": descuento
+            "orden_compra": orden_compra,
+            "orden_servicio": orden_servicio,
+            "numero_pedido": numero_pedido,
+            "guia_remision": guia_remision,
+            "condicion_pago": condicion_pago,
+            "forma_pago": forma_pago,
+            "cuenta_bancaria": cuenta_bancaria,
+            "numero_cuenta_detraccion": numero_cuenta_detraccion,
+
+            # SECCIÓN 6: INFORMACIÓN ADICIONAL (9 campos)
+            "glosa": glosa,
+            "observaciones": observaciones,
+            "centro_costo": centro_costo,
+            "proyecto": proyecto,
+            "ubicacion_obra": ubicacion_obra,
+            "numero_vale": numero_vale,
+            "numero_placa": numero_placa,
+            "referencia_1": referencia_1,
+            "referencia_2": referencia_2,
+
+            # SECCIÓN 9: CAMPOS SUNAT (5 campos)
+            "cod_qr": cod_qr,
+            "hash_sunat": hash_sunat,
+            "numero_autorizacion": numero_autorizacion,
+            "serie_fisica": serie_fisica,
+            "numero_fisico": numero_fisico,
+
+            # SECCIÓN 10: DOCUMENTO RELACIONADO (4 campos)
+            "doc_relacionado_tipo": doc_relacionado_tipo,
+            "doc_relacionado_numero": doc_relacionado_numero,
+            "doc_relacionado_fecha": doc_relacionado_fecha,
+            "motivo_emision": motivo_emision,
+
+            # SECCIÓN 13: EXPORTACIÓN (6 campos)
+            "is_exportacion": is_exportacion,
+            "incoterm": incoterm,
+            "puerto_embarque": puerto_embarque,
+            "puerto_destino": puerto_destino,
+            "nave": nave,
+            "numero_contenedor": numero_contenedor,
+
+            # SECCIÓN 14: RÉGIMEN TRIBUTARIO (3 campos)
+            "agente_retencion": agente_retencion,
+            "agente_percepcion": agente_percepcion,
+            "buen_contribuyente": buen_contribuyente,
+
+            # SECCIÓN 15: PERSONAL (4 campos)
+            "vendedor_codigo": vendedor_codigo,
+            "vendedor_nombre": vendedor_nombre,
+            "cajero_codigo": cajero_codigo,
+            "cajero_nombre": cajero_nombre,
+
+            # SECCIÓN 16: FECHAS ADICIONALES (3 campos)
+            "fecha_registro": fecha_registro,
+            "fecha_pago": fecha_pago,
+            "fecha_cancelacion": fecha_cancelacion,
+
+            # SECCIÓN 7: ITEMS (Array)
+            "items": items,
+
+            # SECCIÓN 8: CUOTAS (Array)
+            "cuotas": cuotas
         }
 
         return anotacion

@@ -177,27 +177,69 @@ class PDFFactura:
             c.drawRightString(width - 30, y_fecha, datos['periodo_facturado'])
 
     def _dibujar_info_hotel(self, c, datos, width, height):
-        """Dibuja información adicional de hotel"""
+        """Dibuja información adicional de hotel con formato mejorado"""
         y = height - 205
         hotel = datos['datos_hotel']
 
-        c.setFont(self.FONT_BOLD, 9)
-        c.drawString(30, y, "INFORMACIÓN ADICIONAL")
+        # Encabezado de sección con fondo
+        c.setFillColor(colors.HexColor('#2C3E50'))
+        c.rect(30, y - 2, width - 60, 16, fill=True, stroke=False)
 
-        y -= 15
+        c.setFillColor(colors.white)
+        c.setFont(self.FONT_BOLD, 9)
+        c.drawString(35, y + 3, "Información adicional")
+
+        c.setFillColor(colors.black)
+        y -= 18
+
+        # Datos de estadía
+        c.setFont(self.FONT_BOLD, 8)
+        c.drawString(30, y, "CheckIn:")
         c.setFont(self.FONT_NORMAL, 8)
-        c.drawString(30, y, f"CheckIn: {hotel['checkin'].strftime('%d-%m-%Y')}")
-        c.drawString(150, y, f"CheckOut: {hotel['checkout'].strftime('%d-%m-%Y')}")
-        c.drawString(280, y, f"Noches: {hotel['noches']}")
+        c.drawString(80, y, hotel['checkin'].strftime('%d-%m-%Y'))
+
+        c.setFont(self.FONT_BOLD, 8)
+        c.drawString(160, y, "CheckOut:")
+        c.setFont(self.FONT_NORMAL, 8)
+        c.drawString(215, y, hotel['checkout'].strftime('%d-%m-%Y'))
 
         y -= 12
-        c.drawString(30, y, f"Reserva: {hotel['reserva']}")
-        c.drawString(150, y, f"Huésped: {hotel['huesped'][:30]}")
+        c.setFont(self.FONT_BOLD, 8)
+        c.drawString(30, y, "Reserva:")
+        c.setFont(self.FONT_NORMAL, 8)
+        c.drawString(80, y, str(hotel['reserva']))
 
+        y -= 12
+        c.setFont(self.FONT_BOLD, 8)
+        c.drawString(30, y, "Huésped:")
+        c.setFont(self.FONT_NORMAL, 8)
+        c.drawString(80, y, hotel['huesped'][:50])
+
+        y -= 12
+        c.setFont(self.FONT_BOLD, 8)
+        c.drawString(30, y, "Noches:")
+        c.setFont(self.FONT_NORMAL, 8)
+        c.drawString(80, y, str(hotel['noches']))
+
+        # Habitación
+        if hotel.get('habitacion'):
+            c.setFont(self.FONT_BOLD, 8)
+            c.drawString(160, y, "Habitación:")
+            c.setFont(self.FONT_NORMAL, 8)
+            c.drawString(220, y, hotel['habitacion'])
+
+        # Grupo (si existe)
         if hotel.get('codigo_grupo'):
             y -= 12
-            c.drawString(30, y, f"Código de Grupo: {hotel['codigo_grupo']}")
-            c.drawString(150, y, f"Nombre de Grupo: {hotel['nombre_grupo']}")
+            c.setFont(self.FONT_BOLD, 8)
+            c.drawString(30, y, "Código de Grupo:")
+            c.setFont(self.FONT_NORMAL, 8)
+            c.drawString(110, y, str(hotel['codigo_grupo']))
+
+            c.setFont(self.FONT_BOLD, 8)
+            c.drawString(200, y, "Nombre de Grupo:")
+            c.setFont(self.FONT_NORMAL, 8)
+            c.drawString(285, y, str(hotel['nombre_grupo']))
 
     def _dibujar_info_seguro(self, c, datos, width, height):
         """Dibuja información adicional de seguro"""

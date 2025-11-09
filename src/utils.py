@@ -377,22 +377,39 @@ class ItemsGenerator:
                 fuente = cls.CONSTRUCCION + cls.COMIDA + cls.SERVICIOS
 
         for i in range(cantidad):
-            item_base = random.choice(fuente)
-            descripcion_base, unidad, rango_precio = item_base
-
-            # Aplicar variantes si usamos diccionarios mejorados
-            if USAR_DICCIONARIOS_MEJORADOS:
-                descripcion = diccionarios.generar_item_con_variantes(descripcion_base)
-            else:
-                descripcion = descripcion_base
-
-            # Para hoteles, la cantidad suele ser decimal (noches)
+            # Para hoteles, usar items simplificados (ALIMENTACION, ALOJAMIENTO)
             if categoria in ['hoteles', 'servicios_hotel']:
-                cantidad_item = round(random.uniform(1.0, 10.0), 3)
-            else:
-                cantidad_item = random.randint(1, 100)
+                # Items de hotel son simples: ALIMENTACION o ALOJAMIENTO
+                tipo_item = random.choice(['ALIMENTACION', 'ALOJAMIENTO'])
 
-            precio_unitario = round(random.uniform(*rango_precio), 2)
+                # Ocasionalmente agregar variante
+                if tipo_item == 'ALIMENTACION' and random.random() < 0.2:
+                    tipo_item += random.choice([' pack x6', '', '', ''])
+
+                descripcion = tipo_item
+                unidad = "NIU"
+                cantidad_item = round(random.uniform(1.0, 10.0), 3)
+
+                # Precios típicos de hotel
+                if 'ALOJAMIENTO' in tipo_item:
+                    precio_unitario = round(random.uniform(50.0, 150.0), 2)
+                else:  # ALIMENTACION
+                    precio_unitario = round(random.uniform(30.0, 100.0), 2)
+
+            else:
+                # Items normales para facturas generales
+                item_base = random.choice(fuente)
+                descripcion_base, unidad, rango_precio = item_base
+
+                # Aplicar variantes si usamos diccionarios mejorados
+                if USAR_DICCIONARIOS_MEJORADOS:
+                    descripcion = diccionarios.generar_item_con_variantes(descripcion_base)
+                else:
+                    descripcion = descripcion_base
+
+                cantidad_item = random.randint(1, 100)
+                precio_unitario = round(random.uniform(*rango_precio), 2)
+
             valor_venta = round(cantidad_item * precio_unitario, 2)
 
             item_dict = {

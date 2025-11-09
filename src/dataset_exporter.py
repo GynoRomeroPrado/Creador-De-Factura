@@ -66,156 +66,174 @@ class DatasetExporter:
         Returns:
             Diccionario con formato de anotación
         """
-        # Determinar tipo_documento
-        tipo_doc = factura.get("tipo_comprobante", "FACTURA ELECTRÓNICA")
+        import random
 
-        # Serie completa (ej: F020-00051515)
-        serie_completa = factura.get("numero_factura", "F001-000001")
+        # Tipo de comprobante y factura
+        tipo_comprobante = factura.get("tipo_comprobante", "FACTURA ELECTRÓNICA")
+        tipo_factura = factura.get("tipo_factura", "general")
 
-        # Fechas
+        # Serie completa (ej: F689-799377)
+        numero_factura = factura.get("numero_factura", "F001-000001")
+
+        # Extraer serie y número
+        if "-" in numero_factura:
+            serie, numero = numero_factura.split("-", 1)
+        else:
+            serie = numero_factura[:4]
+            numero = numero_factura[4:]
+
+        # Fechas en formato ISO
         fecha_emision = factura.get("fecha_emision")
         if isinstance(fecha_emision, datetime):
-            # Variar formato de fecha aleatoriamente para realismo
-            import random
-            formato = random.choice([
-                "%d-%m-%Y",      # 20-08-2025
-                "%d/%m/%Y",      # 11/07/2025
-                "%Y-%m-%d"       # 2025-07-24
-            ])
-            fecha_emision_str = fecha_emision.strftime(formato)
+            fecha_emision_str = fecha_emision.strftime("%Y-%m-%dT00:00:00")
         else:
             fecha_emision_str = str(fecha_emision)
 
-        # Fecha vencimiento (30 días después)
         fecha_vencimiento = factura.get("fecha_vencimiento")
-        if fecha_vencimiento:
-            if isinstance(fecha_vencimiento, datetime):
-                import random
-                formato = random.choice(["%d-%m-%Y", "%d/%m/%Y", "%Y-%m-%d"])
-                fecha_vencimiento_str = fecha_vencimiento.strftime(formato)
-            else:
-                fecha_vencimiento_str = str(fecha_vencimiento)
+        if isinstance(fecha_vencimiento, datetime):
+            fecha_vencimiento_str = fecha_vencimiento.strftime("%Y-%m-%dT00:00:00")
         else:
-            # 30 días después de emisión
-            from datetime import timedelta
-            if isinstance(fecha_emision, datetime):
-                fecha_venc = fecha_emision + timedelta(days=30)
-                import random
-                formato = random.choice(["%d-%m-%Y", "%d/%m/%Y", "%Y-%m-%d"])
-                fecha_vencimiento_str = fecha_venc.strftime(formato)
-            else:
-                fecha_vencimiento_str = None
+            fecha_vencimiento_str = fecha_emision_str
 
         # Moneda
         moneda_codigo = factura.get("moneda", "PEN")
         if moneda_codigo == "PEN":
-            moneda = "SOLES"
+            simbolo_moneda = "S/"
+            nombre_moneda = "SOLES"
         elif moneda_codigo == "USD":
-            moneda = "USD"
+            simbolo_moneda = "$"
+            nombre_moneda = "DOLARES"
         elif moneda_codigo == "EUR":
-            moneda = "EUROS"
+            simbolo_moneda = "€"
+            nombre_moneda = "EUROS"
         else:
-            moneda = moneda_codigo
+            simbolo_moneda = moneda_codigo
+            nombre_moneda = moneda_codigo
 
-        # Variar formato de moneda aleatoriamente
-        import random
-        if moneda == "USD":
-            moneda = random.choice(["USD", "DÓLARES AMERICANOS"])
-        elif moneda == "SOLES":
-            moneda = random.choice(["SOLES", "S/"])
+        # Emisor (nested object)
+        emisor_data = factura.get("emisor", {})
+        emisor = {
+            "ruc": emisor_data.get("ruc", ""),
+            "razon_social": emisor_data.get("razon_social", ""),
+            "direccion": emisor_data.get("direccion", ""),
+            "telefono": emisor_data.get("telefono", ""),
+            "email": emisor_data.get("email", "")
+        }
 
-        # Emisor
-        emisor = factura.get("emisor", {})
-        emisor_ruc = emisor.get("ruc", "")
-        emisor_razon_social = emisor.get("razon_social", "")
-        emisor_nombre_comercial = emisor.get("nombre_comercial") or emisor_razon_social
-        emisor_direccion = emisor.get("direccion", "")
-        emisor_telefono = emisor.get("telefono")
-        emisor_email = emisor.get("email")
+        # Receptor (nested object)
+        receptor_data = factura.get("receptor", {})
+        receptor = {
+            "ruc": receptor_data.get("ruc", ""),
+            "razon_social": receptor_data.get("razon_social", ""),
+            "direccion": receptor_data.get("direccion", ""),
+            "telefono": receptor_data.get("telefono", ""),
+            "email": receptor_data.get("email", "")
+        }
 
-        # Receptor
-        receptor = factura.get("receptor", {})
-        receptor_numero_doc = receptor.get("ruc", "")
-        receptor_razon_social = receptor.get("razon_social", "")
-        receptor_direccion = receptor.get("direccion", "")
-
-        # Importes
-        # El subtotal es la base imponible (op_gravada)
-        subtotal = factura.get("op_gravada", factura.get("subtotal", 0.0))
-        igv = factura.get("igv", 0.0)
-        importe_total = factura.get("total", 0.0)
-
-        # Redondear descuento y otros_cargos para evitar errores de punto flotante
-        descuento_val = factura.get("descuento_total", 0.0)
-        descuento = round(descuento_val, 2) if descuento_val > 0 else None
-
-        otros_cargos_val = factura.get("total_cargos", 0.0)
-        otros_cargos = round(otros_cargos_val, 2) if otros_cargos_val > 0 else None
-
-        # Condición de pago
-        forma_pago = factura.get("forma_pago", "")
-        if "CREDITO" in forma_pago.upper():
-            condicion_pago = random.choice(["Credito", "Crédito"])
-        else:
-            condicion_pago = "Contado"
-
-        # Observaciones
-        observaciones = self._generar_observaciones(factura)
-
-        # Glosa (monto en letras)
-        glosa = factura.get("monto_letras")
-        if glosa and moneda in ["SOLES", "S/"]:
-            glosa = glosa.upper()
-
-        # Extraer items detallados
+        # Calcular totales de items
         items = []
+        op_gravada = 0.0
+        total_cargos = 0.0
+
         for item in factura.get("items", []):
+            valor_venta = round(item.get("valor_venta", 0), 2)
+            op_gravada += valor_venta
+
             item_data = {
                 "numero": item.get("numero"),
                 "descripcion": item.get("descripcion"),
                 "unidad": item.get("unidad"),
                 "cantidad": item.get("cantidad"),
                 "precio_unitario": round(item.get("precio_unitario", 0), 2),
-                "valor_venta": round(item.get("valor_venta", 0), 2)
+                "valor_venta": valor_venta
             }
-            # Agregar cargo_item si existe (típico en hoteles)
+
+            # Agregar cargo_item e importe_total si existe (típico en hoteles)
             if "cargo_item" in item:
-                item_data["cargo_item"] = round(item["cargo_item"], 2)
+                cargo = round(item["cargo_item"], 2)
+                item_data["cargo_item"] = cargo
+                item_data["importe_total"] = round(valor_venta + cargo, 2)
+                total_cargos += cargo
 
             items.append(item_data)
 
-        # Crear anotación
+        # Operaciones
+        op_gravada = round(op_gravada, 2)
+        op_exonerada = 0.0
+        op_inafecta = round(total_cargos, 2)  # Los cargos son inafectos (no tienen IGV)
+        op_gratuitas = 0.0
+
+        # IGV y total
+        igv = round(factura.get("igv", 0.0), 2)
+        total_cargos = round(total_cargos, 2)
+        otros_cargos = 0.0
+        total = round(factura.get("total", 0.0), 2)
+
+        # Total en letras
+        total_letras = factura.get("total_letras", "")
+
+        # Forma de pago
+        forma_pago = factura.get("forma_pago", "CONTADO")
+        con_credito = "CREDITO" in forma_pago.upper()
+        cuotas = []
+
+        # Número de contrato (aleatorio)
+        numero_contrato = f"CW{random.randint(100000, 999999)}"
+
+        # Datos de hotel (nested object o null)
+        datos_hotel = None
+        if factura.get("datos_hotel"):
+            hotel_data = factura["datos_hotel"]
+            datos_hotel = {
+                "checkin": hotel_data["checkin"].strftime("%Y-%m-%dT00:00:00") if isinstance(hotel_data.get("checkin"), datetime) else str(hotel_data.get("checkin")),
+                "checkout": hotel_data["checkout"].strftime("%Y-%m-%dT00:00:00") if isinstance(hotel_data.get("checkout"), datetime) else str(hotel_data.get("checkout")),
+                "noches": hotel_data.get("noches"),
+                "reserva": str(hotel_data.get("reserva", "")),
+                "huesped": hotel_data.get("huesped", ""),
+                "codigo_grupo": hotel_data.get("codigo_grupo"),
+                "nombre_grupo": hotel_data.get("nombre_grupo"),
+                "habitacion": hotel_data.get("habitacion")
+            }
+
+        # Descuento (si existe)
+        descuento = None
+        descuento_val = factura.get("descuento_total", 0.0)
+        if descuento_val > 0:
+            descuento = round(descuento_val, 2)
+
+        # Crear anotación con nuevo formato
         anotacion = {
-            "tipo_documento": tipo_doc,
-            "serie_completa": serie_completa,
+            "tipo_comprobante": tipo_comprobante,
+            "tipo_factura": tipo_factura,
+            "numero_factura": numero_factura,
+            "serie": serie,
+            "numero": numero,
             "fecha_emision": fecha_emision_str,
             "fecha_vencimiento": fecha_vencimiento_str,
-            "moneda": moneda,
-            "emisor_ruc": emisor_ruc,
-            "emisor_razon_social": emisor_razon_social,
-            "emisor_nombre_comercial": emisor_nombre_comercial,
-            "emisor_direccion": emisor_direccion,
-            "emisor_telefono": emisor_telefono,
-            "emisor_email": emisor_email,
-            "receptor_numero_doc": receptor_numero_doc,
-            "receptor_tipo_doc": "RUC" if receptor_numero_doc else None,
-            "receptor_razon_social": receptor_razon_social,
-            "receptor_direccion": receptor_direccion,
-            "subtotal": round(subtotal, 2),
-            "igv": round(igv, 2),
-            "importe_total": round(importe_total, 2),
-            "descuento": descuento,
+            "emisor": emisor,
+            "receptor": receptor,
+            "moneda": moneda_codigo,
+            "simbolo_moneda": simbolo_moneda,
+            "nombre_moneda": nombre_moneda,
+            "items": items,
+            "op_gravada": op_gravada,
+            "op_exonerada": op_exonerada,
+            "op_inafecta": op_inafecta,
+            "op_gratuitas": op_gratuitas,
+            "igv": igv,
+            "total_cargos": total_cargos,
             "otros_cargos": otros_cargos,
-            "items": items,  # ← NUEVO: Lista completa de items
-            "numero_items": len(items),  # ← NUEVO: Cantidad total de items
-            "numero_contrato": None,
-            "orden_compra": None,
-            "guia_remision": None,
-            "condicion_pago": condicion_pago,
-            "observaciones": observaciones,
-            "glosa": glosa,
-            "detraccion_porcentaje": None,
-            "detraccion_monto": None
+            "total": total,
+            "total_letras": total_letras,
+            "forma_pago": forma_pago,
+            "con_credito": con_credito,
+            "cuotas": cuotas,
+            "numero_contrato": numero_contrato,
+            "periodo_facturado": None,
+            "observaciones": None,
+            "datos_hotel": datos_hotel,
+            "datos_seguro": None,
+            "descuento": descuento
         }
 
         return anotacion
@@ -225,8 +243,8 @@ class DatasetExporter:
         observaciones = []
 
         # Monto en letras
-        if factura.get("monto_letras"):
-            observaciones.append(f"Monto en letra: {factura['monto_letras']}.")
+        if factura.get("total_letras"):
+            observaciones.append(f"Monto en letra: {factura['total_letras']}.")
 
         # Datos de hotel si aplica
         if factura.get("datos_hotel"):

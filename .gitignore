@@ -43,3 +43,9 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Test output directories
+test_formato_completo/
+test_nuevo_formato/
+test_temp/
+test_items_json/

@@ -57,14 +57,15 @@ class PDFFactura:
         if datos.get('datos_seguro'):
             self._dibujar_info_seguro(c, datos, width, height)
 
-        self._dibujar_items(c, datos, width, height)
+        # Dibujar items y guardar posición Y final
+        y_despues_items = self._dibujar_items(c, datos, width, height)
 
         # Descuentos si aplica
         if datos.get('descuento'):
             self._dibujar_descuentos(c, datos, width, height)
 
-        # Dibujar totales y obtener posición final Y
-        y_final_totales = self._dibujar_totales(c, datos, width, height)
+        # Dibujar totales usando la posición Y final de items
+        y_final_totales = self._dibujar_totales(c, datos, width, height, y_inicio=y_despues_items)
 
         # Dibujar pie usando la posición Y del bloque anterior
         self._dibujar_pie(c, datos, width, height, y_inicial=y_final_totales)
@@ -387,11 +388,25 @@ class PDFFactura:
         c.drawString(420, y, f"{datos['simbolo_moneda']} {descuento['total']:.2f}")
         c.drawString(480, y, f"{datos['simbolo_moneda']} {descuento['detraccion']:.2f}")
 
-    def _dibujar_totales(self, c, datos, width, height):
-        """Dibuja los totales"""
-        # Posición inicial aumentada para evitar superposiciones
-        # ANTES: 300/320  →  AHORA: 340/360 (+40px)
-        y = 340 if datos.get('descuento') else 360
+    def _dibujar_totales(self, c, datos, width, height, y_inicio=None):
+        """
+        Dibuja los totales
+
+        Args:
+            c: Canvas de reportlab
+            datos: Datos de la factura
+            width: Ancho de página
+            height: Alto de página
+            y_inicio: Posición Y donde empezar (si None, usa posición fija para facturas simples)
+        """
+        # Si se proporciona y_inicio (facturas multipágina), usar esa posición
+        # Si no, usar posición fija (facturas de 1 página)
+        if y_inicio is not None:
+            # Dejar espacio después de los items
+            y = y_inicio - 25  # 25px de separación después de la tabla de items
+        else:
+            # Posición fija para facturas simples (1 página)
+            y = 340 if datos.get('descuento') else 360
 
         # Recuadro de totales
         x_inicio = width - 220

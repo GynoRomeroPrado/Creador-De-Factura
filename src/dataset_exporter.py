@@ -10,12 +10,53 @@ Estructura:
 """
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Dict, Optional
 
 
 class DatasetExporter:
     """Exporta facturas en estructura de dataset con anotaciones y PDFs"""
+
+    # Mapeo de ciudades/provincias a departamentos del Perú
+    DEPARTAMENTOS_PERU = {
+        # Ciudades principales a departamentos
+        "CHICLAYO": "LAMBAYEQUE",
+        "LAMBAYEQUE": "LAMBAYEQUE",
+        "CHIMBOTE": "ANCASH",
+        "HUARAZ": "ANCASH",
+        "TRUJILLO": "LA LIBERTAD",
+        "PIURA": "PIURA",
+        "SULLANA": "PIURA",
+        "TALARA": "PIURA",
+        "IQUITOS": "LORETO",
+        "CUSCO": "CUSCO",
+        "AREQUIPA": "AREQUIPA",
+        "TACNA": "TACNA",
+        "ICA": "ICA",
+        "HUANCAYO": "JUNIN",
+        "PUNO": "PUNO",
+        "AYACUCHO": "AYACUCHO",
+        "CAJAMARCA": "CAJAMARCA",
+        "HUÁNUCO": "HUANUCO",
+        "PUCALLPA": "UCAYALI",
+        "TARAPOTO": "SAN MARTIN",
+        "TUMBES": "TUMBES",
+        "MOQUEGUA": "MOQUEGUA",
+        "PUERTO MALDONADO": "MADRE DE DIOS",
+        "CHINCHA": "ICA",
+        "CALLAO": "CALLAO",
+        "JULIACA": "PUNO",
+        # Lima y provincias
+        "LIMA": "LIMA",
+        "SAN ISIDRO": "LIMA",
+        "MIRAFLORES": "LIMA",
+        "SAN BORJA": "LIMA",
+        "SURCO": "LIMA",
+        "LA MOLINA": "LIMA",
+        "SAN MIGUEL": "LIMA",
+        "BARRANCO": "LIMA",
+        "CHORRILLOS": "LIMA",
+    }
 
     def __init__(self, base_dir: str = "facturas_generadas"):
         """
@@ -71,8 +112,18 @@ class DatasetExporter:
         # ========== SECCIÓN 1: DOCUMENTO (5 campos) ==========
 
         # Normalizar tipo de documento (sin tildes, mayúsculas)
+        # Soporta: "FACTURA ELECTRONICA" y "BOLETA DE VENTA ELECTRONICA"
         tipo_doc = factura.get("tipo_comprobante", "FACTURA ELECTRONICA")
         tipo_doc = tipo_doc.upper().replace("Ó", "O").replace("É", "E")
+
+        # Asegurar que incluye "ELECTRONICA" y formato correcto
+        if "BOLETA" in tipo_doc:
+            tipo_doc = "BOLETA DE VENTA ELECTRONICA"
+        elif "FACTURA" in tipo_doc:
+            tipo_doc = "FACTURA ELECTRONICA"
+        else:
+            # Por defecto
+            tipo_doc = "FACTURA ELECTRONICA"
 
         # Serie completa
         serie_completa = factura.get("numero_factura", "F001-000001")
@@ -152,13 +203,11 @@ class DatasetExporter:
         percepcion_monto = None
         percepcion_porcentaje = None
 
-        # Detracción (aleatorio para construcción/servicios)
+        # Detracción (se calculará después de obtener importe_total)
         detraccion_monto = None
         detraccion_porcentaje = None
         detraccion_codigo_bienes = None
-        if random.random() < 0.15:  # 15% de facturas con detracción
-            detraccion_porcentaje = 10.0
-            detraccion_monto = round(importe_total * 0.10, 2)
+        tiene_detraccion = random.random() < 0.15  # 15% de facturas con detracción
 
         # Anticipos (no implementados)
         anticipo_monto = None
@@ -208,17 +257,9 @@ class DatasetExporter:
             ]
             glosa = random.choice(glosas)
 
-        # Observaciones (solo monto en letras - formato varía según emisor)
-        total_letras = factura.get("total_letras", "")
+        # Observaciones: se generará DESPUÉS de calcular importe_total
+        # (ver después del procesamiento de items)
         observaciones = None
-        if total_letras:
-            # Variar formato para realismo (basado en ejemplos reales)
-            formato = random.choice([
-                f"SON: {total_letras}",  # Formato más común
-                f"Monto en letra: {total_letras}",  # Hoteles
-                f"** ({total_letras}) **",  # Algunos hoteles
-            ])
-            observaciones = formato
 
         centro_costo = None
         proyecto = None
@@ -365,6 +406,38 @@ class DatasetExporter:
         # if abs(importe_total - importe_total_calculado) > 0.10:
         #     print(f"⚠️ Diferencia en totales: {importe_total} vs {importe_total_calculado}")
 
+        # ========== CALCULAR DETRACCIÓN (Ahora que tenemos importe_total) ==========
+        if tiene_detraccion:
+            detraccion_porcentaje = 10.0
+            detraccion_monto = round(importe_total * 0.10, 2)
+
+        # ========== GENERAR OBSERVACIONES (Monto en letras) ==========
+        # IMPORTANTE: Generamos observaciones AQUÍ (después de calcular importe_total)
+        # para asegurar que coincida con el total real
+
+        from .utils import MontoLetras
+
+        # Convertir moneda a formato esperado por MontoLetras
+        if moneda == "SOLES":
+            moneda_letras = "SOLES"
+        elif moneda == "DOLARES AMERICANOS":
+            moneda_letras = "DOLARES"
+        elif moneda == "EUROS":
+            moneda_letras = "EUROS"
+        else:
+            moneda_letras = moneda
+
+        # Convertir importe_total a letras
+        total_letras = MontoLetras.convertir(importe_total, moneda_letras)
+
+        # Variar formato para realismo (basado en ejemplos reales)
+        formato = random.choice([
+            f"SON: {total_letras}",  # Formato más común
+            f"Monto en letra: {total_letras}",  # Hoteles
+            f"** ({total_letras}) **",  # Algunos hoteles
+        ])
+        observaciones = formato
+
         # ========== SECCIÓN 8: CUOTAS (Array) ==========
 
         cuotas = []
@@ -378,16 +451,18 @@ class DatasetExporter:
                 if i == num_cuotas:
                     monto_cuota = round(importe_total - (monto_cuota * (num_cuotas - 1)), 2)
 
-                # Fecha de vencimiento: 30 días entre cuotas
-                if isinstance(fecha_vencimiento, str):
-                    from datetime import timedelta
-                    try:
-                        fecha_base = datetime.strptime(fecha_vencimiento_str, "%Y-%m-%d")
-                        fecha_cuota = fecha_base + timedelta(days=30 * (i - 1))
-                        fecha_cuota_str = fecha_cuota.strftime("%Y-%m-%d")
-                    except:
-                        fecha_cuota_str = fecha_vencimiento_str
-                else:
+                # Fecha de vencimiento: escalonar cada 30 días
+                # Cuota 1: fecha_vencimiento + 0 días
+                # Cuota 2: fecha_vencimiento + 30 días
+                # Cuota 3: fecha_vencimiento + 60 días, etc.
+                try:
+                    # Parsear fecha_vencimiento_str a datetime
+                    fecha_base = datetime.strptime(fecha_vencimiento_str, "%Y-%m-%d")
+                    # Escalonar: primera cuota en fecha_vencimiento, luego +30 días cada una
+                    fecha_cuota = fecha_base + timedelta(days=30 * (i - 1))
+                    fecha_cuota_str = fecha_cuota.strftime("%Y-%m-%d")
+                except Exception:
+                    # Si hay error, usar fecha_vencimiento_str
                     fecha_cuota_str = fecha_vencimiento_str
 
                 cuotas.append({
@@ -420,18 +495,23 @@ class DatasetExporter:
 
         if len(partes_dir_emisor) >= 4:
             # Formato completo: Calle, Distrito, Provincia, Departamento
-            emisor_departamento = partes_dir_emisor[-1].upper()
+            ciudad = partes_dir_emisor[-1].upper()
             emisor_provincia = partes_dir_emisor[-2].upper()
             emisor_distrito = partes_dir_emisor[-3].upper()
+            # Mapear ciudad a departamento correcto
+            emisor_departamento = self.DEPARTAMENTOS_PERU.get(ciudad, ciudad)
         elif len(partes_dir_emisor) >= 3:
             # Formato: Calle, Distrito, Ciudad (asumir que ciudad es departamento y provincia)
-            emisor_departamento = partes_dir_emisor[-1].upper()
-            emisor_provincia = partes_dir_emisor[-1].upper()  # Mismo que departamento
+            ciudad = partes_dir_emisor[-1].upper()
             emisor_distrito = partes_dir_emisor[-2].upper()
+            # Mapear ciudad a departamento correcto
+            emisor_departamento = self.DEPARTAMENTOS_PERU.get(ciudad, ciudad)
+            emisor_provincia = emisor_departamento  # Mismo que departamento
         elif len(partes_dir_emisor) >= 2:
             # Solo Calle, Ciudad
-            emisor_departamento = partes_dir_emisor[-1].upper()
-            emisor_provincia = partes_dir_emisor[-1].upper()
+            ciudad = partes_dir_emisor[-1].upper()
+            emisor_departamento = self.DEPARTAMENTOS_PERU.get(ciudad, ciudad)
+            emisor_provincia = emisor_departamento
             emisor_distrito = None
         else:
             # Por defecto
@@ -445,18 +525,23 @@ class DatasetExporter:
 
         # ========== SECCIÓN 12: UBICACIÓN RECEPTOR (6 campos) ==========
 
-        # Misma lógica para receptor
+        # Misma lógica para receptor con mapeo de departamentos
         if len(partes_dir_receptor) >= 4:
-            receptor_departamento = partes_dir_receptor[-1].upper()
+            ciudad = partes_dir_receptor[-1].upper()
             receptor_provincia = partes_dir_receptor[-2].upper()
             receptor_distrito = partes_dir_receptor[-3].upper()
+            # Mapear ciudad a departamento correcto
+            receptor_departamento = self.DEPARTAMENTOS_PERU.get(ciudad, ciudad)
         elif len(partes_dir_receptor) >= 3:
-            receptor_departamento = partes_dir_receptor[-1].upper()
-            receptor_provincia = partes_dir_receptor[-1].upper()
+            ciudad = partes_dir_receptor[-1].upper()
             receptor_distrito = partes_dir_receptor[-2].upper()
+            # Mapear ciudad a departamento correcto
+            receptor_departamento = self.DEPARTAMENTOS_PERU.get(ciudad, ciudad)
+            receptor_provincia = receptor_departamento  # Mismo que departamento
         elif len(partes_dir_receptor) >= 2:
-            receptor_departamento = partes_dir_receptor[-1].upper()
-            receptor_provincia = partes_dir_receptor[-1].upper()
+            ciudad = partes_dir_receptor[-1].upper()
+            receptor_departamento = self.DEPARTAMENTOS_PERU.get(ciudad, ciudad)
+            receptor_provincia = receptor_departamento
             receptor_distrito = None
         else:
             receptor_departamento = None

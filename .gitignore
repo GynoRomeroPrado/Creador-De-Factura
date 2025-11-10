@@ -33,7 +33,8 @@ env/
 *~
 
 # Facturas generadas
-facturas_generadas/*.pdf
+facturas_generadas/
+!facturas_generadas/.gitkeep
 facturas_originales/*
 !facturas_originales/.gitkeep
 

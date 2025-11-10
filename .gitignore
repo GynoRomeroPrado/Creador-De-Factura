@@ -53,3 +53,5 @@ test_items_json/
 test_invoicex_v5/
 test_final_hotel/
 test_final_general/
+test_diagnostico/
+test_diagnostico.py

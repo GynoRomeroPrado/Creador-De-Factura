@@ -1,0 +1,110 @@
+{
+  "tipo_comprobante": "FACTURA ELECTRÓNICA",
+  "tipo_factura": "hotel",
+  "numero_factura": "F282-233387",
+  "serie": "F282",
+  "numero": "233387",
+  "fecha_emision": "2025-06-01T00:00:00",
+  "fecha_vencimiento": "2025-08-30T00:00:00",
+  "emisor": {
+    "ruc": "20760755797",
+    "razon_social": "Radisson Garden Barranco",
+    "direccion": "Plaza de Armas 4890, Independencia, Chincha",
+    "telefono": "01-7883072",
+    "email": "facturacion@hotel.com.pe"
+  },
+  "receptor": {
+    "ruc": "20530118364",
+    "razon_social": "Flotación Industries S.C.R.L.",
+    "direccion": "Av. América 5233, Int. 9, Comas, Cusco",
+    "telefono": "01-7965199",
+    "email": "administracion@corp.pe"
+  },
+  "moneda": "PEN",
+  "simbolo_moneda": "S/",
+  "nombre_moneda": "SOLES",
+  "items": [
+    {
+      "numero": 1,
+      "descripcion": "ALIMENTACION",
+      "unidad": "NIU",
+      "cantidad": 7.077,
+      "precio_unitario": 43.68,
+      "valor_venta": 309.12,
+      "cargo_item": 55.64,
+      "importe_total": 364.76
+    },
+    {
+      "numero": 2,
+      "descripcion": "ALIMENTACION",
+      "unidad": "NIU",
+      "cantidad": 1.982,
+      "precio_unitario": 48.32,
+      "valor_venta": 95.77,
+      "cargo_item": 17.24,
+      "importe_total": 113.01
+    },
+    {
+      "numero": 3,
+      "descripcion": "ALIMENTACION",
+      "unidad": "NIU",
+      "cantidad": 2.043,
+      "precio_unitario": 74.83,
+      "valor_venta": 152.88,
+      "cargo_item": 27.52,
+      "importe_total": 180.4
+    }
+  ],
+  "op_gravada": 483.33,
+  "op_exonerada": 0.0,
+  "op_inafecta": 0.0,
+  "op_gratuitas": 0.0,
+  "igv": 87.0,
+  "total_cargos": 100.4,
+  "otros_cargos": 0.0,
+  "total": 670.73,
+  "total_letras": "SEISCIENTOS SETENTA CON 73/100 SOLES",
+  "forma_pago": "CREDITO 30 DIAS",
+  "con_credito": true,
+  "cuotas": [
+    {
+      "numero": 1,
+      "fecha_vencimiento": "2025-07-01T00:00:00",
+      "monto": 223.58
+    },
+    {
+      "numero": 2,
+      "fecha_vencimiento": "2025-07-31T00:00:00",
+      "monto": 223.58
+    },
+    {
+      "numero": 3,
+      "fecha_vencimiento": "2025-08-30T00:00:00",
+      "monto": 223.57
+    }
+  ],
+  "numero_contrato": null,
+  "periodo_facturado": "JUNIO 25",
+  "observaciones": null,
+  "datos_hotel": {
+    "checkin": "2025-05-29T00:00:00",
+    "checkout": "2025-06-08T00:00:00",
+    "noches": 10,
+    "reserva": "38783259",
+    "huesped": "Sergio Adrián Mamani Campos",
+    "codigo_grupo": null,
+    "nombre_grupo": null,
+    "habitacion": "Habitación Suite"
+  },
+  "datos_seguro": null,
+  "descuento": {
+    "descripcion": "Descuento",
+    "monto": 74.44,
+    "gravado": 63.27,
+    "exonerado": 0.0,
+    "igv": 11.17,
+    "icbper": 0.0,
+    "total": 74.44,
+    "detraccion": 0.0
+  }
+}

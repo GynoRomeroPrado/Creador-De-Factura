@@ -132,9 +132,8 @@ class DatasetExporter:
         partes_dir_receptor = [p.strip() for p in direccion_receptor.split(",")]
 
         # ========== SECCIÓN 4: IMPORTES Y TRIBUTOS (19 campos) ==========
-
-        # Subtotal (op_gravada en el sistema anterior)
-        subtotal = round(factura.get("op_gravada", 0.0), 2)
+        # IMPORTANTE: Los totales se calcularán DESPUÉS de procesar los items
+        # para asegurar coherencia matemática
 
         # Descuento
         descuento = factura.get("descuento_total", 0.0)
@@ -142,23 +141,6 @@ class DatasetExporter:
             descuento = round(descuento, 2)
         else:
             descuento = 0.0
-
-        # Subtotal con descuento
-        subtotal_con_descuento = round(subtotal - descuento, 2)
-
-        # IGV
-        igv = round(factura.get("igv", 0.0), 2)
-
-        # ISC (Impuesto Selectivo al Consumo) - no implementado aún
-        isc = None
-
-        # Otros cargos (para hoteles son los cargo_item)
-        otros_cargos = round(factura.get("total_cargos", 0.0), 2)
-        if otros_cargos == 0.0:
-            otros_cargos = 0.0
-
-        # Importe total
-        importe_total = round(factura.get("total", 0.0), 2)
 
         # Tipo de cambio (solo si es moneda extranjera)
         tipo_cambio = None
@@ -353,6 +335,36 @@ class DatasetExporter:
 
             items.append(item_data)
 
+        # ========== RECALCULAR TOTALES BASADOS EN ITEMS PROCESADOS ==========
+        # IMPORTANTE: Recalcular para asegurar coherencia matemática
+
+        # Subtotal: Suma de todos los valor_venta de los items
+        subtotal = round(sum(item["valor_venta"] for item in items), 2)
+
+        # Subtotal con descuento
+        subtotal_con_descuento = round(subtotal - descuento, 2)
+
+        # IGV: Suma de todos los igv_item
+        igv = round(sum(item["igv_item"] for item in items), 2)
+
+        # ISC (no implementado)
+        isc = None
+
+        # Otros cargos: Suma de todos los otro_tributo (cargo adicional hoteles)
+        otros_cargos = 0.0
+        for item in items:
+            if item["otro_tributo"] is not None:
+                otros_cargos += item["otro_tributo"]
+        otros_cargos = round(otros_cargos, 2)
+
+        # Importe total: Suma de todos los importe_total_item
+        importe_total = round(sum(item["importe_total_item"] for item in items), 2)
+
+        # Verificación matemática (opcional, para debugging)
+        # importe_total_calculado = subtotal_con_descuento + igv + otros_cargos
+        # if abs(importe_total - importe_total_calculado) > 0.10:
+        #     print(f"⚠️ Diferencia en totales: {importe_total} vs {importe_total_calculado}")
+
         # ========== SECCIÓN 8: CUOTAS (Array) ==========
 
         cuotas = []
@@ -402,19 +414,55 @@ class DatasetExporter:
 
         # ========== SECCIÓN 11: UBICACIÓN EMISOR (8 campos) ==========
 
-        # Intentar extraer de dirección o usar valores por defecto
-        emisor_departamento = len(partes_dir_emisor) >= 3 and partes_dir_emisor[-1] or "LIMA"
-        emisor_provincia = len(partes_dir_emisor) >= 2 and partes_dir_emisor[-2] or "LIMA"
-        emisor_distrito = len(partes_dir_emisor) >= 3 and partes_dir_emisor[-3] or None
+        # Intentar extraer de dirección
+        # Formato típico: "Calle 123, Distrito, Provincia, Departamento"
+        # o "Calle 123, Distrito, Ciudad" (cuando provincia = departamento)
+
+        if len(partes_dir_emisor) >= 4:
+            # Formato completo: Calle, Distrito, Provincia, Departamento
+            emisor_departamento = partes_dir_emisor[-1].upper()
+            emisor_provincia = partes_dir_emisor[-2].upper()
+            emisor_distrito = partes_dir_emisor[-3].upper()
+        elif len(partes_dir_emisor) >= 3:
+            # Formato: Calle, Distrito, Ciudad (asumir que ciudad es departamento y provincia)
+            emisor_departamento = partes_dir_emisor[-1].upper()
+            emisor_provincia = partes_dir_emisor[-1].upper()  # Mismo que departamento
+            emisor_distrito = partes_dir_emisor[-2].upper()
+        elif len(partes_dir_emisor) >= 2:
+            # Solo Calle, Ciudad
+            emisor_departamento = partes_dir_emisor[-1].upper()
+            emisor_provincia = partes_dir_emisor[-1].upper()
+            emisor_distrito = None
+        else:
+            # Por defecto
+            emisor_departamento = "LIMA"
+            emisor_provincia = "LIMA"
+            emisor_distrito = None
+
         emisor_ubigeo = None
         emisor_codigo_postal = None
         emisor_codigo_establecimiento = None
 
         # ========== SECCIÓN 12: UBICACIÓN RECEPTOR (6 campos) ==========
 
-        receptor_departamento = len(partes_dir_receptor) >= 3 and partes_dir_receptor[-1] or None
-        receptor_provincia = len(partes_dir_receptor) >= 2 and partes_dir_receptor[-2] or None
-        receptor_distrito = len(partes_dir_receptor) >= 3 and partes_dir_receptor[-3] or None
+        # Misma lógica para receptor
+        if len(partes_dir_receptor) >= 4:
+            receptor_departamento = partes_dir_receptor[-1].upper()
+            receptor_provincia = partes_dir_receptor[-2].upper()
+            receptor_distrito = partes_dir_receptor[-3].upper()
+        elif len(partes_dir_receptor) >= 3:
+            receptor_departamento = partes_dir_receptor[-1].upper()
+            receptor_provincia = partes_dir_receptor[-1].upper()
+            receptor_distrito = partes_dir_receptor[-2].upper()
+        elif len(partes_dir_receptor) >= 2:
+            receptor_departamento = partes_dir_receptor[-1].upper()
+            receptor_provincia = partes_dir_receptor[-1].upper()
+            receptor_distrito = None
+        else:
+            receptor_departamento = None
+            receptor_provincia = None
+            receptor_distrito = None
+
         receptor_ubigeo = None
         receptor_codigo_postal = None
 

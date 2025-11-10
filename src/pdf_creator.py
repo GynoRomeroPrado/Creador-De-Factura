@@ -561,11 +561,33 @@ class PDFFactura:
 
     def _dibujar_pie(self, c, datos, width, height, y_inicial=None):
         """Dibuja el pie de la factura"""
-        # Usar y_inicial si se proporciona, sino usar posición por defecto
-        # Asegurar que no baje más del margen inferior
+        # Calcular espacio necesario para el pie
+        espacio_necesario = 100  # Mínimo para forma de pago
+        if datos['con_credito'] and datos['cuotas']:
+            espacio_necesario += 60 + (len(datos['cuotas']) * 12)  # Cuotas
+        if datos.get('observaciones'):
+            espacio_necesario += 40  # Observaciones
+
+        # Determinar posición inicial
         if y_inicial is not None:
-            y = y_inicial - 5  # Solo 5px de separación ya que y_final tiene 25px de margen
-            y = max(y, 160)  # AUMENTADO: 180 → 160px del fondo (más espacio disponible)
+            y = y_inicial - 5
+
+            # Si no hay espacio suficiente, crear NUEVA PÁGINA
+            if y < espacio_necesario:
+                c.showPage()
+
+                # Encabezado simple en nueva página
+                c.setFont(self.FONT_BOLD, 12)
+                c.drawString(30, height - 40, f"{datos['emisor']['razon_social'][:50]}")
+                c.setFont(self.FONT_NORMAL, 9)
+                c.drawString(30, height - 55, f"Factura: {datos['numero_factura']}")
+
+                # Línea separadora
+                c.setStrokeColor(colors.grey)
+                c.line(30, height - 65, width - 30, height - 65)
+
+                # Empezar desde arriba en nueva página
+                y = height - 90
         else:
             y = 200
 
@@ -577,7 +599,7 @@ class PDFFactura:
 
         # Cuotas si es a crédito
         if datos['con_credito'] and datos['cuotas']:
-            y -= 22  # AUMENTADO: 20 → 22px
+            y -= 22
             c.setFont(self.FONT_BOLD, 8)
             c.drawString(30, y, "DATOS DE CUOTA:")
 
@@ -606,16 +628,16 @@ class PDFFactura:
 
         # Observaciones
         if datos.get('observaciones'):
-            y = max(y - 20, 55)  # AUMENTADO: 15 → 20px, margen 60 → 55px
+            y -= 20
             c.setFont(self.FONT_BOLD, 8)
             c.drawString(30, y, "OBSERVACIONES:")
             c.setFont(self.FONT_NORMAL, 7)
-            y -= 12  # AUMENTADO: 10 → 12px
+            y -= 12
             obs = datos['observaciones']
             if len(obs) > 80:
                 # Partir en dos líneas
                 c.drawString(35, y, obs[:80])
-                y -= 10  # AUMENTADO: 8 → 10px
+                y -= 10
                 c.drawString(35, y, obs[80:160])
             else:
                 c.drawString(35, y, obs)

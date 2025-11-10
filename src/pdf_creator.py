@@ -44,33 +44,37 @@ class PDFFactura:
         c = canvas.Canvas(filepath, pagesize=A4)
         width, height = A4
 
-        # Dibujar contenido
+        # ========== FLUJO DE DIBUJO CON POSICIONES RELATIVAS ==========
+        # Cada función retorna la posición Y donde terminó de dibujar
+        # La siguiente función comienza desde esa posición Y
+
+        # 1. Header (posición fija en top)
         self._dibujar_encabezado(c, datos, width, height)
         self._dibujar_datos_emisor(c, datos, width, height)
         self._dibujar_datos_receptor(c, datos, width, height)
 
-        # Datos específicos de hotel si aplica
+        # 2. Info adicional (hotel o seguro) - posición fija pero calculada
         if datos.get('datos_hotel'):
             self._dibujar_info_hotel(c, datos, width, height)
-
-        # Datos específicos de seguro si aplica
-        if datos.get('datos_seguro'):
+            y_inicio_items = height - 260  # Ajustar por info hotel
+        elif datos.get('datos_seguro'):
             self._dibujar_info_seguro(c, datos, width, height)
-
-        # Dibujar items y guardar posición Y final
-        y_despues_items = self._dibujar_items(c, datos, width, height)
-
-        # Descuentos si aplica (debe ir DESPUÉS de items, ANTES de totales)
-        if datos.get('descuento'):
-            y_despues_descuentos = self._dibujar_descuentos(c, datos, width, height, y_inicio=y_despues_items)
+            y_inicio_items = height - 260  # Ajustar por info seguro
         else:
-            y_despues_descuentos = y_despues_items
+            y_inicio_items = height - 220  # Sin info adicional
 
-        # Dibujar totales usando la posición Y final de items/descuentos
-        y_final_totales = self._dibujar_totales(c, datos, width, height, y_inicio=y_despues_descuentos)
+        # 3. Tabla de items (RETORNA posición Y final)
+        y_actual = self._dibujar_items(c, datos, width, height, y_inicio=y_inicio_items)
 
-        # Dibujar pie usando la posición Y del bloque anterior
-        self._dibujar_pie(c, datos, width, height, y_inicial=y_final_totales)
+        # 4. Descuentos (solo si aplica)
+        if datos.get('descuento'):
+            y_actual = self._dibujar_descuentos(c, datos, width, height, y_inicio=y_actual)
+
+        # 5. Totales (siempre)
+        y_actual = self._dibujar_totales(c, datos, width, height, y_inicio=y_actual)
+
+        # 6. Pie: forma de pago, cuotas, observaciones (TODO relativo)
+        self._dibujar_pie(c, datos, width, height, y_inicial=y_actual)
 
         c.save()
         return filepath
@@ -266,13 +270,29 @@ class PDFFactura:
         vig_fin = seguro['vigencia_fin'].strftime('%d/%m/%Y')
         c.drawString(30, y, f"Vigencia: {vig_inicio} - {vig_fin}")
 
-    def _dibujar_items(self, c, datos, width, height):
-        """Dibuja la tabla de items con soporte para múltiples páginas"""
-        # Ajustar posición inicial según si hay datos de hotel/seguro
-        if datos.get('datos_hotel') or datos.get('datos_seguro'):
-            y_start = height - 260
+    def _dibujar_items(self, c, datos, width, height, y_inicio=None):
+        """
+        Dibuja la tabla de items con soporte para múltiples páginas
+
+        Args:
+            c: Canvas de reportlab
+            datos: Datos de la factura
+            width: Ancho de página
+            height: Alto de página
+            y_inicio: Posición Y donde empezar (si None, calcula automáticamente)
+
+        Returns:
+            Posición Y final después de dibujar todos los items
+        """
+        # Usar posición proporcionada o calcular
+        if y_inicio is not None:
+            y_start = y_inicio
         else:
-            y_start = height - 220
+            # Calcular posición por defecto (para facturas sin flujo relativo)
+            if datos.get('datos_hotel') or datos.get('datos_seguro'):
+                y_start = height - 260
+            else:
+                y_start = height - 220
 
         # Función para dibujar encabezado de tabla
         def dibujar_encabezado_tabla(y_pos):

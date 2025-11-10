@@ -60,12 +60,14 @@ class PDFFactura:
         # Dibujar items y guardar posición Y final
         y_despues_items = self._dibujar_items(c, datos, width, height)
 
-        # Descuentos si aplica
+        # Descuentos si aplica (debe ir DESPUÉS de items, ANTES de totales)
         if datos.get('descuento'):
-            self._dibujar_descuentos(c, datos, width, height)
+            y_despues_descuentos = self._dibujar_descuentos(c, datos, width, height, y_inicio=y_despues_items)
+        else:
+            y_despues_descuentos = y_despues_items
 
-        # Dibujar totales usando la posición Y final de items
-        y_final_totales = self._dibujar_totales(c, datos, width, height, y_inicio=y_despues_items)
+        # Dibujar totales usando la posición Y final de items/descuentos
+        y_final_totales = self._dibujar_totales(c, datos, width, height, y_inicio=y_despues_descuentos)
 
         # Dibujar pie usando la posición Y del bloque anterior
         self._dibujar_pie(c, datos, width, height, y_inicial=y_final_totales)
@@ -353,9 +355,26 @@ class PDFFactura:
 
         return y
 
-    def _dibujar_descuentos(self, c, datos, width, height):
-        """Dibuja la tabla de descuentos si existe"""
-        y = 195
+    def _dibujar_descuentos(self, c, datos, width, height, y_inicio=None):
+        """
+        Dibuja la tabla de descuentos si existe
+
+        Args:
+            c: Canvas de reportlab
+            datos: Datos de la factura
+            width: Ancho de página
+            height: Alto de página
+            y_inicio: Posición Y donde empezar (si None, usa posición fija)
+
+        Returns:
+            Posición Y final después de dibujar descuentos
+        """
+        # Usar posición relativa si se proporciona, sino usar fija
+        if y_inicio is not None:
+            y = y_inicio - 30  # 30px de separación después de items
+        else:
+            y = 195  # Posición fija para facturas simples (retrocompatibilidad)
+
         descuento = datos['descuento']
 
         c.setFont(self.FONT_BOLD, 9)
@@ -387,6 +406,9 @@ class PDFFactura:
         c.drawString(370, y, f"{datos['simbolo_moneda']} {descuento['icbper']:.2f}")
         c.drawString(420, y, f"{datos['simbolo_moneda']} {descuento['total']:.2f}")
         c.drawString(480, y, f"{datos['simbolo_moneda']} {descuento['detraccion']:.2f}")
+
+        # Retornar posición Y final (con margen de 20px)
+        return y - 20
 
     def _dibujar_totales(self, c, datos, width, height, y_inicio=None):
         """

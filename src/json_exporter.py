@@ -1,5 +1,6 @@
 """
-Exportador de facturas a JSON
+Exportador de facturas a JSON en formato InvoiceX v5.5
+IMPORTANTE: Ahora exporta en formato plano con 97 campos según especificación InvoiceX v5.5
 """
 import json
 import os
@@ -8,32 +9,42 @@ from typing import Dict, List
 
 
 class JSONExporter:
-    """Exporta facturas a formato JSON"""
+    """Exporta facturas a formato JSON en formato InvoiceX v5.5 (estructura plana con 97 campos)"""
 
     def __init__(self, output_dir: str = "facturas_json"):
         self.output_dir = output_dir
         os.makedirs(output_dir, exist_ok=True)
 
+        # Importar DatasetExporter para usar su método de conversión a InvoiceX v5.5
+        from .dataset_exporter import DatasetExporter
+        self.dataset_exporter = DatasetExporter()
+
     def exportar_factura(self, datos: Dict, filename: str = None) -> str:
         """
-        Exporta una factura a JSON
+        Exporta una factura a JSON en formato InvoiceX v5.5 (estructura plana)
 
         Args:
-            datos: Diccionario con todos los datos de la factura
+            datos: Diccionario con todos los datos de la factura (formato interno)
             filename: Nombre del archivo (si None, se genera automático)
 
         Returns:
             Ruta del archivo generado
         """
         if filename is None:
-            fecha_str = datos['fecha_emision'].strftime('%Y%m%d')
+            fecha_emision = datos.get('fecha_emision')
+            if isinstance(fecha_emision, datetime):
+                fecha_str = fecha_emision.strftime('%Y%m%d')
+            else:
+                fecha_str = datetime.now().strftime('%Y%m%d')
             tipo = datos.get('tipo_factura', 'general')
-            filename = f"Factura_{tipo}_{datos['serie']}_{datos['numero']}_{fecha_str}.json"
+            serie = datos.get('serie', 'F001')
+            numero = datos.get('numero', '000001')
+            filename = f"Factura_{tipo}_{serie}_{numero}_{fecha_str}.json"
 
         filepath = os.path.join(self.output_dir, filename)
 
-        # Convertir fechas a strings para JSON
-        datos_json = self._preparar_para_json(datos)
+        # IMPORTANTE: Convertir al formato InvoiceX v5.5 (estructura plana con 97 campos)
+        datos_json = self.dataset_exporter.convertir_factura_a_anotacion(datos)
 
         # Guardar JSON
         with open(filepath, 'w', encoding='utf-8') as f:
@@ -43,10 +54,10 @@ class JSONExporter:
 
     def exportar_multiple(self, facturas: List[Dict], filename: str = "facturas.json") -> str:
         """
-        Exporta múltiples facturas a un solo archivo JSON
+        Exporta múltiples facturas a un solo archivo JSON (formato InvoiceX v5.5)
 
         Args:
-            facturas: Lista de facturas
+            facturas: Lista de facturas (formato interno)
             filename: Nombre del archivo
 
         Returns:
@@ -54,15 +65,19 @@ class JSONExporter:
         """
         filepath = os.path.join(self.output_dir, filename)
 
-        # Preparar todas las facturas
-        facturas_json = [self._preparar_para_json(f) for f in facturas]
+        # Convertir todas las facturas a formato InvoiceX v5.5
+        facturas_json = [
+            self.dataset_exporter.convertir_factura_a_anotacion(f)
+            for f in facturas
+        ]
 
         # Crear estructura con metadata
         output = {
             "metadata": {
                 "total_facturas": len(facturas_json),
-                "fecha_generacion": datetime.now().isoformat(),
-                "version": "1.0"
+                "fecha_generacion": datetime.now().strftime("%Y-%m-%d"),
+                "version": "5.5",
+                "formato": "InvoiceX v5.5 - Estructura plana con 97 campos"
             },
             "facturas": facturas_json
         }
@@ -73,59 +88,12 @@ class JSONExporter:
 
         return filepath
 
-    def _preparar_para_json(self, datos: Dict) -> Dict:
-        """
-        Prepara los datos para serialización JSON convirtiendo objetos datetime
-
-        Args:
-            datos: Diccionario con datos de factura
-
-        Returns:
-            Diccionario serializable a JSON
-        """
-        datos_copia = {}
-
-        for key, value in datos.items():
-            if isinstance(value, datetime):
-                # Convertir datetime a string ISO
-                datos_copia[key] = value.isoformat()
-            elif isinstance(value, dict):
-                # Recursivo para diccionarios anidados
-                datos_copia[key] = self._preparar_dict(value)
-            elif isinstance(value, list):
-                # Procesar listas
-                datos_copia[key] = [
-                    self._preparar_dict(item) if isinstance(item, dict) else item
-                    for item in value
-                ]
-            else:
-                datos_copia[key] = value
-
-        return datos_copia
-
-    def _preparar_dict(self, d: Dict) -> Dict:
-        """Prepara un diccionario anidado para JSON"""
-        resultado = {}
-        for key, value in d.items():
-            if isinstance(value, datetime):
-                resultado[key] = value.isoformat()
-            elif isinstance(value, dict):
-                resultado[key] = self._preparar_dict(value)
-            elif isinstance(value, list):
-                resultado[key] = [
-                    self._preparar_dict(item) if isinstance(item, dict) else item
-                    for item in value
-                ]
-            else:
-                resultado[key] = value
-        return resultado
-
     def crear_resumen(self, facturas: List[Dict]) -> Dict:
         """
         Crea un resumen estadístico de las facturas
 
         Args:
-            facturas: Lista de facturas
+            facturas: Lista de facturas (formato interno)
 
         Returns:
             Diccionario con estadísticas
@@ -145,14 +113,23 @@ class JSONExporter:
             tipo = f.get('tipo_factura', 'general')
             tipos[tipo] = tipos.get(tipo, 0) + 1
 
-            # Monedas
-            moneda = f['moneda']
+            # Monedas (normalizar)
+            moneda_codigo = f.get('moneda', 'PEN')
+            if moneda_codigo in ["PEN", "S/", "SOLES"]:
+                moneda = "SOLES"
+            elif moneda_codigo in ["USD", "$", "DOLARES", "DÓLARES"]:
+                moneda = "DOLARES AMERICANOS"
+            elif moneda_codigo in ["EUR", "€", "EUROS"]:
+                moneda = "EUROS"
+            else:
+                moneda = moneda_codigo
+
             monedas[moneda] = monedas.get(moneda, 0) + 1
 
             # Totales por moneda
             if moneda not in total_por_moneda:
                 total_por_moneda[moneda] = 0
-            total_por_moneda[moneda] += f['total']
+            total_por_moneda[moneda] += f.get('total', 0)
 
             # Créditos
             if f.get('con_credito'):
@@ -171,8 +148,9 @@ class JSONExporter:
             },
             "con_credito": con_credito,
             "con_descuento": con_descuento,
-            "porcentaje_credito": round(con_credito / len(facturas) * 100, 1),
-            "porcentaje_descuento": round(con_descuento / len(facturas) * 100, 1)
+            "porcentaje_credito": round(con_credito / len(facturas) * 100, 1) if facturas else 0,
+            "porcentaje_descuento": round(con_descuento / len(facturas) * 100, 1) if facturas else 0,
+            "formato": "InvoiceX v5.5"
         }
 
         return resumen
@@ -185,14 +163,18 @@ if __name__ == "__main__":
     gen = FacturaGenerator()
     exporter = JSONExporter(output_dir="test_json")
 
-    print("Generando y exportando facturas a JSON...")
+    print("=" * 70)
+    print("GENERANDO FACTURAS EN FORMATO INVOICEX v5.5".center(70))
+    print("=" * 70)
 
     facturas = []
-    for i in range(5):
+    for i in range(3):
+        print(f"\nGenerando factura {i+1}/3...")
         factura = gen.generar_factura()
         archivo = exporter.exportar_factura(factura)
         facturas.append(factura)
         print(f"✓ Exportada: {archivo}")
+        print(f"  Formato: InvoiceX v5.5 (estructura plana con 97 campos)")
 
     # Exportar todas juntas
     archivo_multiple = exporter.exportar_multiple(facturas, "todas_facturas.json")
@@ -202,3 +184,4 @@ if __name__ == "__main__":
     resumen = exporter.crear_resumen(facturas)
     print(f"\n=== RESUMEN ===")
     print(json.dumps(resumen, indent=2, ensure_ascii=False))
+    print("\n✅ Todas las facturas generadas en formato InvoiceX v5.5")

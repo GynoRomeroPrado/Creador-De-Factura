@@ -1,0 +1,96 @@
+{
+  "tipo_comprobante": "FACTURA",
+  "tipo_factura": "hotel",
+  "numero_factura": "F257-854469",
+  "serie": "F257",
+  "numero": "854469",
+  "fecha_emision": "2025-12-31T00:00:00",
+  "fecha_vencimiento": "2026-04-30T00:00:00",
+  "emisor": {
+    "ruc": "20316179747",
+    "razon_social": "Hilton Premium Puno",
+    "direccion": "Av. Javier Prado 7543, Int. 6, Carmen de la Legua, Puno",
+    "telefono": "957079706",
+    "email": "contacto@corp.pe"
+  },
+  "receptor": {
+    "ruc": "20281043731",
+    "razon_social": "Alimentos Import S.R.L.",
+    "direccion": "Av. Benavides 5384, Villa El Salvador, Ayacucho",
+    "telefono": "948703208",
+    "email": "reservas@negocio.com.pe"
+  },
+  "moneda": "PEN",
+  "simbolo_moneda": "S/",
+  "nombre_moneda": "SOLES",
+  "items": [
+    {
+      "numero": 1,
+      "descripcion": "ALIMENTACION",
+      "unidad": "NIU",
+      "cantidad": 8.94,
+      "precio_unitario": 74.64,
+      "valor_venta": 667.28,
+      "cargo_item": 120.11,
+      "importe_total": 787.39
+    },
+    {
+      "numero": 2,
+      "descripcion": "ALOJAMIENTO",
+      "unidad": "NIU",
+      "cantidad": 5.825,
+      "precio_unitario": 52.41,
+      "valor_venta": 305.29,
+      "cargo_item": 54.95,
+      "importe_total": 360.24
+    }
+  ],
+  "op_gravada": 852.28,
+  "op_exonerada": 120.29,
+  "op_inafecta": 0.0,
+  "op_gratuitas": 0.0,
+  "igv": 153.41,
+  "total_cargos": 175.06,
+  "otros_cargos": 0.0,
+  "total": 1301.04,
+  "total_letras": "MIL TRESCIENTOS UNO CON 04/100 SOLES",
+  "forma_pago": "CREDITO 30 DIAS",
+  "con_credito": true,
+  "cuotas": [
+    {
+      "numero": 1,
+      "fecha_vencimiento": "2026-01-30T00:00:00",
+      "monto": 325.26
+    },
+    {
+      "numero": 2,
+      "fecha_vencimiento": "2026-03-01T00:00:00",
+      "monto": 325.26
+    },
+    {
+      "numero": 3,
+      "fecha_vencimiento": "2026-03-31T00:00:00",
+      "monto": 325.26
+    },
+    {
+      "numero": 4,
+      "fecha_vencimiento": "2026-04-30T00:00:00",
+      "monto": 325.26
+    }
+  ],
+  "numero_contrato": null,
+  "periodo_facturado": null,
+  "observaciones": "Precio sujeto a disponibilidad de stock",
+  "datos_hotel": {
+    "checkin": "2025-12-26T00:00:00",
+    "checkout": "2026-01-04T00:00:00",
+    "noches": 9,
+    "reserva": "93718053",
+    "huesped": "Eugenia Romero Ortiz",
+    "codigo_grupo": null,
+    "nombre_grupo": null,
+    "habitacion": "Habitación Ejecutiva"
+  },
+  "datos_seguro": null,
+  "descuento": null
+}

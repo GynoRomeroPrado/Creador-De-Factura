@@ -108,16 +108,17 @@ class FacturaGenerator:
             "razon_social": razon_social_emisor,
             "direccion": self.datos_gen.generar_direccion(),
             "telefono": self.datos_gen.generar_telefono(),
-            "email": self._generar_email()
+            "email": self._generar_email(razon_social=razon_social_emisor, tipo_factura=tipo_factura)
         }
 
         # Generar receptor
+        razon_social_receptor = self.datos_gen.generar_razon_social()
         receptor = {
             "ruc": self.ruc_gen.generar_ruc(),
-            "razon_social": self.datos_gen.generar_razon_social(),
+            "razon_social": razon_social_receptor,
             "direccion": self.datos_gen.generar_direccion(),
             "telefono": self.datos_gen.generar_telefono(),
-            "email": self._generar_email()
+            "email": self._generar_email(razon_social=razon_social_receptor, tipo_factura='general')
         }
 
         # Fecha de emisión
@@ -299,11 +300,79 @@ class FacturaGenerator:
 
         return factura_data
 
-    def _generar_email(self) -> str:
-        """Genera un email corporativo ficticio"""
-        dominios = ["empresa.com", "corp.pe", "negocio.com.pe", "comercial.pe", "hotel.com.pe"]
-        prefijos = ["ventas", "facturacion", "contacto", "info", "administracion", "reservas"]
-        return f"{random.choice(prefijos)}@{random.choice(dominios)}"
+    def _generar_email(self, razon_social: str = None, tipo_factura: str = 'general') -> str:
+        """
+        Genera un email corporativo ficticio coherente con la razón social y tipo de factura
+
+        Args:
+            razon_social: Razón social de la empresa
+            tipo_factura: Tipo de factura (hotel, seguro, general, etc.)
+
+        Returns:
+            Email corporativo realista
+        """
+        # Prefijos comunes según tipo de factura
+        if tipo_factura == 'hotel':
+            prefijos = ["reservas", "recepcion", "facturacion", "contacto", "ventas", "info"]
+        elif tipo_factura == 'seguro':
+            prefijos = ["seguros", "polizas", "siniestros", "facturacion", "contacto", "ventas"]
+        else:
+            prefijos = ["ventas", "facturacion", "contacto", "info", "administracion", "cobranzas"]
+
+        # Generar dominio basado en la razón social
+        if razon_social:
+            # Extraer palabras clave de la razón social
+            palabras = razon_social.upper().split()
+
+            # Filtrar palabras comunes que no sirven para dominio
+            palabras_excluir = {'S.A.', 'S.A.C.', 'S.R.L.', 'E.I.R.L.', 'SAC', 'SRL',
+                               'EIRL', 'CIA', 'COMPAÑIA', 'EMPRESA', 'GRUPO', 'CORPORACION',
+                               'SOCIEDAD', 'ANONIMA', 'CERRADA', 'LIMITADA', 'DE', 'LA',
+                               'EL', 'LOS', 'LAS', 'DEL', 'Y', 'E'}
+
+            palabras_clave = [p.replace('.', '').replace(',', '') for p in palabras
+                             if p not in palabras_excluir and len(p) > 2]
+
+            if palabras_clave:
+                # Tomar 1-2 palabras clave para el dominio
+                if len(palabras_clave) >= 2:
+                    dominio_base = ''.join(palabras_clave[:2]).lower()
+                else:
+                    dominio_base = palabras_clave[0].lower()
+
+                # Limpiar caracteres especiales
+                dominio_base = dominio_base.replace('ñ', 'n').replace('á', 'a').replace('é', 'e')
+                dominio_base = dominio_base.replace('í', 'i').replace('ó', 'o').replace('ú', 'u')
+
+                # Limitar longitud del dominio
+                if len(dominio_base) > 15:
+                    dominio_base = dominio_base[:15]
+
+                # Extensiones específicas por tipo
+                if tipo_factura == 'hotel':
+                    extensiones = ['.com.pe', '.pe', 'hotel.com', 'hotels.pe']
+                elif tipo_factura == 'seguro':
+                    extensiones = ['.com.pe', '.pe', 'seguros.pe', 'insurance.pe']
+                else:
+                    extensiones = ['.com.pe', '.pe', '.com', 'corp.pe']
+
+                dominio = f"{dominio_base}{random.choice(extensiones)}"
+            else:
+                # Fallback a dominios genéricos pero corporativos
+                dominio = self._dominio_generico(tipo_factura)
+        else:
+            dominio = self._dominio_generico(tipo_factura)
+
+        return f"{random.choice(prefijos)}@{dominio}"
+
+    def _dominio_generico(self, tipo_factura: str) -> str:
+        """Genera un dominio genérico pero corporativo según tipo de factura"""
+        if tipo_factura == 'hotel':
+            return random.choice(["hotelcorp.pe", "hospitality.com.pe", "hotelesgroup.pe", "lodging.pe"])
+        elif tipo_factura == 'seguro':
+            return random.choice(["seguroscorp.pe", "insurance.com.pe", "aseguradoras.pe", "polizas.pe"])
+        else:
+            return random.choice(["empresa.com.pe", "comercial.pe", "negocios.com.pe", "corp.pe"])
 
     def _nombre_mes(self, num_mes: int) -> str:
         """Convierte número de mes a nombre"""

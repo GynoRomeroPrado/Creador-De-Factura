@@ -95,6 +95,45 @@ class PDFFactura:
                 simbolo_moneda = datos.get('simbolo_moneda', 'S/')
                 nombre_moneda = moneda_dato
 
+            # Normalizar items (formato plano usa campos diferentes)
+            items_normalizados = []
+            for item_plano in datos.get('items', []):
+                # Detectar si el item ya está en formato anidado
+                if 'numero' in item_plano:
+                    # Ya está normalizado, usar directamente
+                    items_normalizados.append(item_plano)
+                else:
+                    # Convertir de formato plano a anidado
+                    item_normalizado = {
+                        'numero': item_plano.get('item', item_plano.get('numero', 0)),
+                        'descripcion': item_plano.get('descripcion', ''),
+                        'cantidad': item_plano.get('cantidad', 0.0),
+                        'unidad': item_plano.get('unidad_medida', item_plano.get('unidad', 'NIU')),
+                        'precio_unitario': item_plano.get('precio_unitario', 0.0),
+                        'valor_venta': item_plano.get('valor_venta', 0.0)
+                    }
+
+                    # Campos opcionales
+                    if 'codigo' in item_plano and item_plano['codigo']:
+                        item_normalizado['codigo'] = item_plano['codigo']
+
+                    if 'descuento_item' in item_plano and item_plano['descuento_item'] > 0:
+                        item_normalizado['descuento'] = item_plano['descuento_item']
+
+                    if 'cargo_item' in item_plano and item_plano['cargo_item'] > 0:
+                        item_normalizado['cargo_item'] = item_plano['cargo_item']
+
+                    if 'tipo_igv' in item_plano:
+                        item_normalizado['tipo_igv'] = item_plano['tipo_igv']
+
+                    if 'igv_item' in item_plano:
+                        item_normalizado['igv'] = item_plano['igv_item']
+
+                    if 'importe_total_item' in item_plano:
+                        item_normalizado['importe_total'] = item_plano['importe_total_item']
+
+                    items_normalizados.append(item_normalizado)
+
             # Convertir a formato anidado
             return {
                 'emisor': {
@@ -135,7 +174,7 @@ class PDFFactura:
                 'moneda': moneda_codigo,
                 'simbolo_moneda': simbolo_moneda,
                 'nombre_moneda': nombre_moneda,
-                'items': datos.get('items', []),
+                'items': items_normalizados,
                 'op_gravada': datos.get('op_gravada', 0.0),
                 'op_exonerada': datos.get('op_exonerada', 0.0),
                 'op_inafecta': datos.get('op_inafecta', 0.0),

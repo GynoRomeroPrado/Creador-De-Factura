@@ -952,7 +952,7 @@ class PDFFactura:
                 if y < 60:  # Si no hay espacio
                     break
 
-        # Observaciones
+        # Observaciones (con word-wrapping inteligente)
         if datos.get('observaciones'):
             y -= 20
             c.setFont(self.FONT_BOLD, 8)
@@ -960,13 +960,52 @@ class PDFFactura:
             c.setFont(self.FONT_NORMAL, 7)
             y -= 12
             obs = datos['observaciones']
-            if len(obs) > 80:
-                # Partir en dos líneas
-                c.drawString(35, y, obs[:80])
-                y -= 10
-                c.drawString(35, y, obs[80:160])
-            else:
-                c.drawString(35, y, obs)
+
+            # Calcular ancho disponible
+            ancho_disponible = width - 70  # Margen izquierdo (35) + margen derecho (35)
+
+            # Dividir por palabras y aplicar word-wrapping
+            palabras = obs.split()
+            lineas = []
+            linea_actual = []
+
+            for palabra in palabras:
+                # Probar si la palabra cabe en la línea actual
+                linea_test = ' '.join(linea_actual + [palabra])
+                ancho_test = c.stringWidth(linea_test, self.FONT_NORMAL, 7)
+
+                if ancho_test <= ancho_disponible:
+                    # Cabe, agregar a la línea actual
+                    linea_actual.append(palabra)
+                else:
+                    # No cabe, guardar línea actual y empezar nueva
+                    if linea_actual:
+                        lineas.append(' '.join(linea_actual))
+                    linea_actual = [palabra]
+
+            # Agregar última línea si existe
+            if linea_actual:
+                lineas.append(' '.join(linea_actual))
+
+            # Dibujar cada línea (máximo 3 líneas)
+            for i, linea in enumerate(lineas[:3]):
+                c.drawString(35, y - (i * 10), linea)
+
+            # Si hay más de 3 líneas, agregar "..." en la última
+            if len(lineas) > 3:
+                ultima_linea = lineas[2]
+                ancho_ultima = c.stringWidth(ultima_linea, self.FONT_NORMAL, 7)
+                if ancho_ultima + c.stringWidth('...', self.FONT_NORMAL, 7) > ancho_disponible:
+                    # Acortar última línea para que quepa "..."
+                    palabras_ultima = lineas[2].split()
+                    while palabras_ultima:
+                        linea_test = ' '.join(palabras_ultima) + '...'
+                        if c.stringWidth(linea_test, self.FONT_NORMAL, 7) <= ancho_disponible:
+                            c.drawString(35, y - 20, linea_test)
+                            break
+                        palabras_ultima.pop()
+                else:
+                    c.drawString(35, y - 20, ultima_linea + '...')
 
         # Pie de página
         c.setFont(self.FONT_ITALIC, 7)

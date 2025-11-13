@@ -66,3 +66,5 @@ test_compatibilidad_formatos.py
 test_emails_realistas.py
 test_moneda_fix.py
 test_items_fix.py
+test_observaciones_fix.py
+test_observaciones_simple.py

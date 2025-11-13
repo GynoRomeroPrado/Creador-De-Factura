@@ -313,8 +313,38 @@ class PDFFactura:
         c.setFont(self.FONT_NORMAL, 8)
 
         for i, item in enumerate(datos['items']):
-            # Si no hay espacio suficiente, crear nueva página
-            espacio_necesario = 15 if 'cargo_item' not in item else 25
+            # Calcular cuántas líneas necesitará la descripción
+            desc = item['descripcion']
+            max_chars_por_linea = 35
+
+            if len(desc) <= max_chars_por_linea:
+                lineas_descripcion = 1
+            else:
+                # Calcular número de líneas
+                palabras = desc.split()
+                lineas_temp = []
+                linea_actual = []
+                longitud_actual = 0
+
+                for palabra in palabras:
+                    if longitud_actual + len(palabra) + 1 <= max_chars_por_linea:
+                        linea_actual.append(palabra)
+                        longitud_actual += len(palabra) + 1
+                    else:
+                        if linea_actual:
+                            lineas_temp.append(" ".join(linea_actual))
+                        linea_actual = [palabra]
+                        longitud_actual = len(palabra) + 1
+
+                if linea_actual:
+                    lineas_temp.append(" ".join(linea_actual))
+
+                lineas_descripcion = min(len(lineas_temp), 3)
+
+            # Calcular espacio necesario según líneas de descripción
+            espacio_base = 15 + ((lineas_descripcion - 1) * 9)
+            espacio_necesario = espacio_base if 'cargo_item' not in item else espacio_base + 10
+
             if y < (70 + espacio_necesario):
                 # Pie de página de continuación
                 c.setFont(self.FONT_ITALIC, 7)
@@ -341,11 +371,39 @@ class PDFFactura:
 
             c.drawString(35, y, str(item['numero']))
 
-            # Descripción (truncar si es muy larga)
+            # Descripción (dividir en líneas si es muy larga)
             desc = item['descripcion']
-            if len(desc) > 35:
-                desc = desc[:32] + "..."
-            c.drawString(65, y, desc)
+            max_chars_por_linea = 35
+
+            if len(desc) <= max_chars_por_linea:
+                # Descripción corta, una sola línea
+                c.drawString(65, y, desc)
+                lineas_desc = 1
+            else:
+                # Descripción larga, dividir en palabras y crear líneas
+                palabras = desc.split()
+                lineas = []
+                linea_actual = []
+                longitud_actual = 0
+
+                for palabra in palabras:
+                    if longitud_actual + len(palabra) + 1 <= max_chars_por_linea:
+                        linea_actual.append(palabra)
+                        longitud_actual += len(palabra) + 1
+                    else:
+                        if linea_actual:
+                            lineas.append(" ".join(linea_actual))
+                        linea_actual = [palabra]
+                        longitud_actual = len(palabra) + 1
+
+                if linea_actual:
+                    lineas.append(" ".join(linea_actual))
+
+                # Dibujar cada línea
+                for i, linea in enumerate(lineas[:3]):  # Máximo 3 líneas
+                    c.drawString(65, y - (i * 9), linea)
+
+                lineas_desc = min(len(lineas), 3)
 
             c.drawString(320, y, item['unidad'])
 
@@ -366,7 +424,8 @@ class PDFFactura:
                 c.drawRightString(width - 35, y, f"+ {datos['simbolo_moneda']} {item['cargo_item']:.2f}")
                 c.setFont(self.FONT_NORMAL, 8)
 
-            y -= 15
+            # Ajustar Y según líneas de descripción
+            y -= 15 + ((lineas_desc - 1) * 9)
 
         # Línea final de tabla
         c.setStrokeColor(colors.grey)

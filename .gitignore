@@ -64,3 +64,4 @@ test_descripciones_multilinea.py
 test_compatibilidad_formato/
 test_compatibilidad_formatos.py
 test_emails_realistas.py
+test_moneda_fix.py

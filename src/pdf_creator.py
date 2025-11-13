@@ -75,6 +75,26 @@ class PDFFactura:
                     'base': datos.get('descuento_base', 0.0)
                 }
 
+            # Mapear moneda (formato plano usa nombres completos, formato anidado usa códigos)
+            moneda_dato = datos.get('moneda', 'PEN')
+            if moneda_dato in ['SOLES', 'PEN', 'S/']:
+                moneda_codigo = 'PEN'
+                simbolo_moneda = 'S/'
+                nombre_moneda = 'SOLES'
+            elif moneda_dato in ['DOLARES AMERICANOS', 'DOLARES', 'DÓLARES', 'USD', '$']:
+                moneda_codigo = 'USD'
+                simbolo_moneda = '$'
+                nombre_moneda = 'DOLARES'
+            elif moneda_dato in ['EUROS', 'EUR', '€']:
+                moneda_codigo = 'EUR'
+                simbolo_moneda = '€'
+                nombre_moneda = 'EUROS'
+            else:
+                # Fallback: asumir que es código y generar valores por defecto
+                moneda_codigo = moneda_dato
+                simbolo_moneda = datos.get('simbolo_moneda', 'S/')
+                nombre_moneda = moneda_dato
+
             # Convertir a formato anidado
             return {
                 'emisor': {
@@ -112,8 +132,9 @@ class PDFFactura:
                 'numero_factura': datos.get('serie_completa', f"{datos.get('serie', 'F001')}-{datos.get('numero', '000001')}"),
                 'fecha_emision': fecha_emision,
                 'fecha_vencimiento': fecha_vencimiento,
-                'moneda': datos.get('moneda', 'PEN'),
-                'simbolo_moneda': datos.get('simbolo_moneda', 'S/'),
+                'moneda': moneda_codigo,
+                'simbolo_moneda': simbolo_moneda,
+                'nombre_moneda': nombre_moneda,
                 'items': datos.get('items', []),
                 'op_gravada': datos.get('op_gravada', 0.0),
                 'op_exonerada': datos.get('op_exonerada', 0.0),

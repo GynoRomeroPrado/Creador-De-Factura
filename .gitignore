@@ -55,3 +55,9 @@ test_final_hotel/
 test_final_general/
 test_diagnostico/
 test_diagnostico.py
+test_desc_rapido/
+test_descripcion_rapido.py
+test_correccion_final/
+test_correccion_final.py
+test_descripciones_multilinea/
+test_descripciones_multilinea.py

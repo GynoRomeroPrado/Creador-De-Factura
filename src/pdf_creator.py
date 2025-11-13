@@ -379,9 +379,38 @@ class PDFFactura:
             razon_social = razon_social[:42] + "..."
         c.drawString(30, y, razon_social)
 
+        # Dirección con word-wrapping inteligente
         c.setFont(self.FONT_NORMAL, 9)
         y -= 15
-        c.drawString(30, y, f"Dirección: {datos['emisor']['direccion'][:60]}")
+
+        direccion_emisor = datos['emisor']['direccion']
+        ancho_disponible_emisor = 500  # Ancho disponible en puntos
+
+        # Dividir dirección por palabras
+        palabras = direccion_emisor.split()
+        lineas_direccion = []
+        linea_actual = []
+
+        for palabra in palabras:
+            linea_test = ' '.join(linea_actual + [palabra])
+            ancho_test = c.stringWidth(linea_test, self.FONT_NORMAL, 9)
+
+            if ancho_test <= ancho_disponible_emisor:
+                linea_actual.append(palabra)
+            else:
+                if linea_actual:
+                    lineas_direccion.append(' '.join(linea_actual))
+                linea_actual = [palabra]
+
+        if linea_actual:
+            lineas_direccion.append(' '.join(linea_actual))
+
+        # Dibujar dirección (máximo 2 líneas)
+        if lineas_direccion:
+            c.drawString(30, y, f"Dirección: {lineas_direccion[0]}")
+            for i, linea_extra in enumerate(lineas_direccion[1:2], start=1):
+                y -= 10
+                c.drawString(110, y, linea_extra)  # Indentado
 
         y -= 12
         c.drawString(30, y, f"Teléfono: {datos['emisor']['telefono']}")
@@ -418,10 +447,36 @@ class PDFFactura:
         c.setFont(self.FONT_BOLD, 9)
         c.drawString(30, y, "DIRECCIÓN:")
         c.setFont(self.FONT_NORMAL, 9)
-        direccion = datos['receptor']['direccion']
-        if len(direccion) > 50:
-            direccion = direccion[:47] + "..."
-        c.drawString(100, y, direccion)
+
+        # Dirección receptor con word-wrapping inteligente
+        direccion_receptor = datos['receptor']['direccion']
+        ancho_disponible_receptor = 450  # Ancho disponible (considerando la fecha a la derecha)
+
+        # Dividir dirección por palabras
+        palabras_receptor = direccion_receptor.split()
+        lineas_receptor = []
+        linea_actual_receptor = []
+
+        for palabra in palabras_receptor:
+            linea_test = ' '.join(linea_actual_receptor + [palabra])
+            ancho_test = c.stringWidth(linea_test, self.FONT_NORMAL, 9)
+
+            if ancho_test <= ancho_disponible_receptor:
+                linea_actual_receptor.append(palabra)
+            else:
+                if linea_actual_receptor:
+                    lineas_receptor.append(' '.join(linea_actual_receptor))
+                linea_actual_receptor = [palabra]
+
+        if linea_actual_receptor:
+            lineas_receptor.append(' '.join(linea_actual_receptor))
+
+        # Dibujar dirección receptor (máximo 2 líneas)
+        if lineas_receptor:
+            c.drawString(100, y, lineas_receptor[0])
+            for linea_extra in lineas_receptor[1:2]:
+                y -= 10
+                c.drawString(100, y, linea_extra)
 
         # Fecha en el lado derecho
         y_fecha = height - 145

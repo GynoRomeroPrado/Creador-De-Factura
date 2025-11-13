@@ -68,3 +68,4 @@ test_moneda_fix.py
 test_items_fix.py
 test_observaciones_fix.py
 test_observaciones_simple.py
+test_direcciones_fix.py

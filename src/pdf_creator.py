@@ -22,21 +22,228 @@ class PDFFactura:
         self.output_dir = output_dir
         os.makedirs(output_dir, exist_ok=True)
 
+    def _normalizar_datos(self, datos: Dict) -> Dict:
+        """
+        Convierte formato plano (InvoiceX v5.5) a formato anidado si es necesario.
+        Mantiene compatibilidad con ambos formatos.
+
+        Args:
+            datos: Diccionario en formato plano o anidado
+
+        Returns:
+            Diccionario en formato anidado (compatible con pdf_creator)
+        """
+        # Detectar si es formato plano (tiene campos con prefijo emisor_)
+        if 'emisor_ruc' in datos or 'receptor_numero_doc' in datos:
+            # Convertir formato plano a anidado
+            from datetime import datetime
+
+            # Parsear fecha_emision si es string
+            fecha_emision = datos.get('fecha_emision')
+            if isinstance(fecha_emision, str):
+                try:
+                    fecha_emision = datetime.strptime(fecha_emision, '%Y-%m-%d')
+                except:
+                    fecha_emision = datetime.now()
+
+            # Parsear fecha_vencimiento si existe
+            fecha_vencimiento = datos.get('fecha_vencimiento')
+            if isinstance(fecha_vencimiento, str) and fecha_vencimiento:
+                try:
+                    fecha_vencimiento = datetime.strptime(fecha_vencimiento, '%Y-%m-%d')
+                except:
+                    fecha_vencimiento = None
+
+            # Parsear cuotas si existen
+            cuotas = datos.get('cuotas', [])
+            if cuotas:
+                for cuota in cuotas:
+                    if 'fecha_vencimiento' in cuota and isinstance(cuota['fecha_vencimiento'], str):
+                        try:
+                            cuota['fecha_vencimiento'] = datetime.strptime(cuota['fecha_vencimiento'], '%Y-%m-%d')
+                        except:
+                            pass
+
+            # Determinar descuento
+            descuento = None
+            if datos.get('descuento_total', 0) > 0:
+                descuento = {
+                    'codigo': datos.get('descuento_codigo', '00'),
+                    'motivo': datos.get('descuento_motivo', 'Descuento'),
+                    'factor': datos.get('descuento_factor', 0.0),
+                    'monto': datos.get('descuento_total', 0.0),
+                    'base': datos.get('descuento_base', 0.0)
+                }
+
+            # Convertir a formato anidado
+            return {
+                'emisor': {
+                    'ruc': datos.get('emisor_ruc', ''),
+                    'razon_social': datos.get('emisor_razon_social', ''),
+                    'nombre_comercial': datos.get('emisor_nombre_comercial', ''),
+                    'direccion': datos.get('emisor_direccion', ''),
+                    'ubigeo': datos.get('emisor_ubigeo', ''),
+                    'departamento': datos.get('emisor_departamento', ''),
+                    'provincia': datos.get('emisor_provincia', ''),
+                    'distrito': datos.get('emisor_distrito', ''),
+                    'urbanizacion': datos.get('emisor_urbanizacion', ''),
+                    'codigo_pais': datos.get('emisor_codigo_pais', 'PE'),
+                    'telefono': datos.get('emisor_telefono', ''),
+                    'email': datos.get('emisor_email', '')
+                },
+                'receptor': {
+                    'tipo_documento': datos.get('receptor_tipo_documento', '6'),
+                    'ruc': datos.get('receptor_numero_doc', ''),
+                    'razon_social': datos.get('receptor_razon_social', ''),
+                    'nombre_comercial': datos.get('receptor_nombre_comercial', ''),
+                    'direccion': datos.get('receptor_direccion', ''),
+                    'ubigeo': datos.get('receptor_ubigeo', ''),
+                    'departamento': datos.get('receptor_departamento', ''),
+                    'provincia': datos.get('receptor_provincia', ''),
+                    'distrito': datos.get('receptor_distrito', ''),
+                    'urbanizacion': datos.get('receptor_urbanizacion', ''),
+                    'codigo_pais': datos.get('receptor_codigo_pais', 'PE'),
+                    'telefono': datos.get('receptor_telefono', ''),
+                    'email': datos.get('receptor_email', '')
+                },
+                'tipo_comprobante': datos.get('tipo_documento', 'FACTURA ELECTRONICA'),
+                'serie': datos.get('serie', 'F001'),
+                'numero': datos.get('numero', '000001'),
+                'numero_factura': datos.get('serie_completa', f"{datos.get('serie', 'F001')}-{datos.get('numero', '000001')}"),
+                'fecha_emision': fecha_emision,
+                'fecha_vencimiento': fecha_vencimiento,
+                'moneda': datos.get('moneda', 'PEN'),
+                'simbolo_moneda': datos.get('simbolo_moneda', 'S/'),
+                'items': datos.get('items', []),
+                'op_gravada': datos.get('op_gravada', 0.0),
+                'op_exonerada': datos.get('op_exonerada', 0.0),
+                'op_inafecta': datos.get('op_inafecta', 0.0),
+                'op_gratuitas': datos.get('op_gratuitas', 0.0),
+                'igv': datos.get('igv', 0.0),
+                'total': datos.get('importe_total', datos.get('total', 0.0)),
+                'total_letras': datos.get('observaciones', ''),
+                'descuento': descuento,
+                'total_cargos': datos.get('total_cargos', 0.0),
+                'otros_cargos': datos.get('otros_cargos', 0.0),
+                'forma_pago': datos.get('forma_pago', 'CONTADO'),
+                'con_credito': len(datos.get('cuotas', [])) > 0,
+                'cuotas': cuotas,
+                'observaciones': datos.get('observaciones', ''),
+                'datos_hotel': self._extraer_datos_hotel(datos),
+                'datos_seguro': self._extraer_datos_seguro(datos),
+                'detraccion': datos.get('detraccion', 0.0),
+                'detraccion_porcentaje': datos.get('detraccion_porcentaje', 0.0)
+            }
+        else:
+            # Ya está en formato anidado, retornar sin cambios
+            return datos
+
+    def _extraer_datos_hotel(self, datos: Dict) -> Dict:
+        """Extrae datos de hotel desde referencia_1 si existe"""
+        referencia_1 = datos.get('referencia_1', '')
+        if not referencia_1:
+            return None
+
+        # Si tiene formato de hotel (Checkin/CheckOut)
+        if 'Checkin' in referencia_1 or 'CheckOut' in referencia_1:
+            try:
+                # Parsear la referencia_1
+                # Formato esperado: "Checkin: DD-MM-YYYY, CheckOut: DD-MM-YYYY, Reserva: XXX, Habitación: YYY"
+                partes = referencia_1.split(',')
+                hotel_data = {}
+
+                for parte in partes:
+                    if ':' in parte:
+                        clave, valor = parte.split(':', 1)
+                        clave = clave.strip()
+                        valor = valor.strip()
+
+                        if clave == 'Checkin':
+                            from datetime import datetime
+                            try:
+                                hotel_data['checkin'] = datetime.strptime(valor, '%d-%m-%Y')
+                            except:
+                                hotel_data['checkin'] = valor
+                        elif clave == 'CheckOut':
+                            from datetime import datetime
+                            try:
+                                hotel_data['checkout'] = datetime.strptime(valor, '%d-%m-%Y')
+                            except:
+                                hotel_data['checkout'] = valor
+                        elif clave == 'Reserva':
+                            hotel_data['codigo_reserva'] = valor
+                        elif clave == 'Habitación':
+                            hotel_data['numero_habitacion'] = valor
+                        elif clave == 'Huésped':
+                            hotel_data['nombre_huesped'] = valor
+
+                return hotel_data if hotel_data else None
+            except:
+                return None
+
+        return None
+
+    def _extraer_datos_seguro(self, datos: Dict) -> Dict:
+        """Extrae datos de seguro desde referencia_1 si existe"""
+        referencia_1 = datos.get('referencia_1', '')
+        if not referencia_1:
+            return None
+
+        # Si tiene formato de seguro (Póliza/Asegurado)
+        if 'Póliza' in referencia_1 or 'Asegurado' in referencia_1:
+            try:
+                partes = referencia_1.split(',')
+                seguro_data = {}
+
+                for parte in partes:
+                    if ':' in parte:
+                        clave, valor = parte.split(':', 1)
+                        clave = clave.strip()
+                        valor = valor.strip()
+
+                        if clave == 'Póliza':
+                            seguro_data['numero_poliza'] = valor
+                        elif clave == 'Asegurado':
+                            seguro_data['nombre_asegurado'] = valor
+                        elif clave == 'Vigencia':
+                            seguro_data['vigencia_poliza'] = valor
+                        elif clave == 'Tipo':
+                            seguro_data['tipo_seguro'] = valor
+
+                return seguro_data if seguro_data else None
+            except:
+                return None
+
+        return None
+
     def crear_factura(self, datos: Dict, filename: str = None) -> str:
         """
         Crea un PDF de factura
 
         Args:
-            datos: Diccionario con todos los datos de la factura
+            datos: Diccionario con todos los datos de la factura (formato plano o anidado)
             filename: Nombre del archivo (si None, se genera automático)
 
         Returns:
             Ruta del archivo generado
         """
+        # IMPORTANTE: Normalizar datos al formato anidado si es necesario
+        datos = self._normalizar_datos(datos)
+
         if filename is None:
-            fecha_str = datos['fecha_emision'].strftime('%Y%m%d')
+            # Generar nombre automático
+            fecha_emision = datos.get('fecha_emision')
+            if hasattr(fecha_emision, 'strftime'):
+                fecha_str = fecha_emision.strftime('%Y%m%d')
+            elif isinstance(fecha_emision, str):
+                fecha_str = fecha_emision.replace('-', '')[:8]
+            else:
+                fecha_str = 'YYYYMMDD'
+
+            serie = datos.get('serie', 'F001')
+            numero = datos.get('numero', '000001')
             tipo = datos.get('tipo_factura', 'general')
-            filename = f"Factura_{tipo}_{datos['serie']}_{datos['numero']}_{fecha_str}.pdf"
+            filename = f"Factura_{tipo}_{serie}_{numero}_{fecha_str}.pdf"
 
         filepath = os.path.join(self.output_dir, filename)
 

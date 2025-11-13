@@ -61,3 +61,6 @@ test_correccion_final/
 test_correccion_final.py
 test_descripciones_multilinea/
 test_descripciones_multilinea.py
+test_compatibilidad_formato/
+test_compatibilidad_formatos.py
+test_emails_realistas.py

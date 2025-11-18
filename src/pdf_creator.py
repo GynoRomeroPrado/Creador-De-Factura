@@ -10,17 +10,88 @@ import os
 
 
 class PDFFactura:
-    """Genera PDFs de facturas con diseño profesional y tipografía uniforme"""
+    """Genera PDFs de facturas con diseño profesional y soporte multi-tipografía"""
 
-    # Tipografía uniforme - Helvetica family
+    # Mapeo de tipografías disponibles (simulando las más usadas en facturas reales)
+    TIPOGRAFIAS_DISPONIBLES = {
+        'Courier': {
+            'normal': 'Courier',
+            'bold': 'Courier-Bold',
+            'italic': 'Courier-Oblique',
+            'bold_italic': 'Courier-BoldOblique'
+        },
+        'Arial': {  # Simulada con Helvetica (muy similar)
+            'normal': 'Helvetica',
+            'bold': 'Helvetica-Bold',
+            'italic': 'Helvetica-Oblique',
+            'bold_italic': 'Helvetica-BoldOblique'
+        },
+        'Helvetica': {
+            'normal': 'Helvetica',
+            'bold': 'Helvetica-Bold',
+            'italic': 'Helvetica-Oblique',
+            'bold_italic': 'Helvetica-BoldOblique'
+        },
+        'Times-Roman': {
+            'normal': 'Times-Roman',
+            'bold': 'Times-Bold',
+            'italic': 'Times-Italic',
+            'bold_italic': 'Times-BoldItalic'
+        },
+        'Calibri': {  # Simulada con Helvetica
+            'normal': 'Helvetica',
+            'bold': 'Helvetica-Bold',
+            'italic': 'Helvetica-Oblique',
+            'bold_italic': 'Helvetica-BoldOblique'
+        },
+        'Consolas': {  # Simulada con Courier
+            'normal': 'Courier',
+            'bold': 'Courier-Bold',
+            'italic': 'Courier-Oblique',
+            'bold_italic': 'Courier-BoldOblique'
+        },
+    }
+
+    # Tipografía por defecto (se puede cambiar en __init__)
     FONT_TITLE = "Helvetica-Bold"
     FONT_NORMAL = "Helvetica"
     FONT_BOLD = "Helvetica-Bold"
     FONT_ITALIC = "Helvetica-Oblique"
 
-    def __init__(self, output_dir: str = "facturas_generadas"):
+    def __init__(self, output_dir: str = "facturas_generadas", tipografia: str = 'Helvetica'):
+        """
+        Inicializa el generador de PDFs con tipografía configurable.
+
+        Args:
+            output_dir: Directorio donde se guardarán los PDFs
+            tipografia: Tipografía a usar ('Courier', 'Arial', 'Helvetica', 'Times-Roman', 'Calibri', 'Consolas')
+        """
         self.output_dir = output_dir
         os.makedirs(output_dir, exist_ok=True)
+
+        # Configurar tipografía
+        self._configurar_tipografia(tipografia)
+
+    def _configurar_tipografia(self, nombre_tipografia: str):
+        """
+        Configura la tipografía a usar en el PDF.
+
+        Args:
+            nombre_tipografia: Nombre de la tipografía (debe estar en TIPOGRAFIAS_DISPONIBLES)
+        """
+        if nombre_tipografia not in self.TIPOGRAFIAS_DISPONIBLES:
+            print(f"⚠️  Tipografía '{nombre_tipografia}' no disponible. Usando 'Helvetica' por defecto.")
+            nombre_tipografia = 'Helvetica'
+
+        fuentes = self.TIPOGRAFIAS_DISPONIBLES[nombre_tipografia]
+
+        # Actualizar constantes de clase
+        self.FONT_NORMAL = fuentes['normal']
+        self.FONT_BOLD = fuentes['bold']
+        self.FONT_ITALIC = fuentes['italic']
+        self.FONT_TITLE = fuentes['bold']  # Títulos siempre en negrita
+
+        self.tipografia_actual = nombre_tipografia
 
     def _normalizar_datos(self, datos: Dict) -> Dict:
         """
@@ -278,10 +349,11 @@ class PDFFactura:
 
     def crear_factura(self, datos: Dict, filename: str = None) -> str:
         """
-        Crea un PDF de factura
+        Crea un PDF de factura con tipografía configurable
 
         Args:
             datos: Diccionario con todos los datos de la factura (formato plano o anidado)
+                   Puede incluir campo 'tipografia' para cambiar la fuente
             filename: Nombre del archivo (si None, se genera automático)
 
         Returns:
@@ -289,6 +361,10 @@ class PDFFactura:
         """
         # IMPORTANTE: Normalizar datos al formato anidado si es necesario
         datos = self._normalizar_datos(datos)
+
+        # Detectar y aplicar tipografía si viene en los datos (modo realista)
+        if 'tipografia' in datos and datos['tipografia']:
+            self._configurar_tipografia(datos['tipografia'])
 
         if filename is None:
             # Generar nombre automático

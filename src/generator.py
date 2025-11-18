@@ -1,5 +1,7 @@
 """
-Generador de facturas ficticias
+Generador de facturas ficticias con datos realistas
+Versión mejorada con sectores específicos, direcciones reales,
+descripciones detalladas y patrones temporales.
 """
 import random
 from datetime import datetime
@@ -9,6 +11,37 @@ from .utils import (
     GeneradorFechas, ItemsGenerator, DatosHotel,
     DatosSeguro, GeneradorDescuentos
 )
+
+# Importar nuevos módulos de datos realistas
+try:
+    from .data.sectores_especificos import (
+        obtener_sector_aleatorio,
+        obtener_razon_social,
+        obtener_productos_sector,
+        generar_precio_realista,
+        obtener_rango_items_sector,
+        SECTORES_ESPECIFICOS
+    )
+    from .data.direcciones_reales import (
+        generar_direccion_realista,
+        generar_par_direcciones,
+        obtener_distrito_aleatorio
+    )
+    from .data.descripciones_detalladas import (
+        generar_descripcion_producto,
+        generar_descripcion_servicio
+    )
+    from .data.patrones_temporales import (
+        generar_fecha_hora_realista,
+        obtener_productos_estacionales,
+        obtener_factor_precio_estacional,
+        generar_ticket_promedio_estacional
+    )
+    MODO_REALISTA = True
+except ImportError as e:
+    print(f"⚠️  Advertencia: No se pudieron cargar módulos de datos realistas: {e}")
+    print("    Usando modo de generación básico")
+    MODO_REALISTA = False
 
 
 class FacturaGenerator:
@@ -44,7 +77,14 @@ class FacturaGenerator:
         "compra_grande"     # Factura con muchos items (30-50) para múltiples páginas
     ]
 
-    def __init__(self):
+    def __init__(self, usar_datos_realistas: bool = True):
+        """
+        Inicializa el generador de facturas.
+
+        Args:
+            usar_datos_realistas: Si True, usa los nuevos módulos de datos realistas
+                                  (sectores, direcciones, descripciones, temporalidad)
+        """
         self.ruc_gen = RUCGenerator()
         self.datos_gen = DatosPersonas()
         self.fecha_gen = GeneradorFechas()
@@ -52,6 +92,10 @@ class FacturaGenerator:
         self.hotel_gen = DatosHotel()
         self.seguro_gen = DatosSeguro()
         self.desc_gen = GeneradorDescuentos()
+        self.usar_datos_realistas = usar_datos_realistas and MODO_REALISTA
+
+        if self.usar_datos_realistas:
+            print("✅ Generador configurado con datos realistas (sectores, direcciones, descripciones)")
 
     def generar_factura(self,
                        categoria_items: Optional[str] = None,
@@ -97,16 +141,38 @@ class FacturaGenerator:
 
         moneda_info = self.MONEDAS[moneda]
 
-        # Generar emisor (ahora con contexto de tipo_factura)
-        if tipo_factura == 'hotel':
-            razon_social_emisor = self.hotel_gen.generar_nombre_hotel()
-        else:
-            razon_social_emisor = self.datos_gen.generar_razon_social(tipo_factura=tipo_factura)
+        # ============================================================
+        # MODO REALISTA: Usar sectores específicos
+        # ============================================================
+        sector_seleccionado = None
+        if self.usar_datos_realistas and tipo_factura != 'hotel' and tipo_factura != 'seguro':
+            # Seleccionar sector aleatorio
+            sector_seleccionado = obtener_sector_aleatorio()
 
+            # Generar razón social del sector
+            razon_social_emisor = obtener_razon_social(sector_seleccionado)
+
+            # Generar direcciones realistas (par emisor-receptor)
+            direccion_emisor, direccion_receptor = generar_par_direcciones()
+
+        # ============================================================
+        # MODO BÁSICO: Usar generadores tradicionales
+        # ============================================================
+        else:
+            # Generar emisor (con contexto de tipo_factura)
+            if tipo_factura == 'hotel':
+                razon_social_emisor = self.hotel_gen.generar_nombre_hotel()
+            else:
+                razon_social_emisor = self.datos_gen.generar_razon_social(tipo_factura=tipo_factura)
+
+            direccion_emisor = self.datos_gen.generar_direccion()
+            direccion_receptor = self.datos_gen.generar_direccion()
+
+        # Construir datos de emisor
         emisor = {
             "ruc": self.ruc_gen.generar_ruc(),
             "razon_social": razon_social_emisor,
-            "direccion": self.datos_gen.generar_direccion(),
+            "direccion": direccion_emisor,
             "telefono": self.datos_gen.generar_telefono(),
             "email": self._generar_email(razon_social=razon_social_emisor, tipo_factura=tipo_factura)
         }
@@ -116,13 +182,20 @@ class FacturaGenerator:
         receptor = {
             "ruc": self.ruc_gen.generar_ruc(),
             "razon_social": razon_social_receptor,
-            "direccion": self.datos_gen.generar_direccion(),
+            "direccion": direccion_receptor,
             "telefono": self.datos_gen.generar_telefono(),
             "email": self._generar_email(razon_social=razon_social_receptor, tipo_factura='general')
         }
 
-        # Fecha de emisión
-        fecha_emision = self.fecha_gen.generar_fecha_2025()
+        # ============================================================
+        # Fecha de emisión (con patrones temporales si disponible)
+        # ============================================================
+        if self.usar_datos_realistas and sector_seleccionado:
+            fecha_str, hora_str = generar_fecha_hora_realista(sector_seleccionado)
+            # Convertir a datetime
+            fecha_emision = datetime.strptime(fecha_str, '%Y-%m-%d')
+        else:
+            fecha_emision = self.fecha_gen.generar_fecha_2025()
 
         # Número de factura
         serie = f"F{random.randint(1, 999):03d}"
@@ -142,8 +215,19 @@ class FacturaGenerator:
         # Determinar si tiene cargos por item (típico de hoteles)
         con_cargo_item = (tipo_factura == 'hotel')
 
-        # Generar items
-        items = self.items_gen.generar_items(num_items, categoria_items, con_cargo_item)
+        # ============================================================
+        # Generar items (con descripciones realistas si disponible)
+        # ============================================================
+        if self.usar_datos_realistas and sector_seleccionado:
+            items = self._generar_items_realistas(
+                sector=sector_seleccionado,
+                num_items=num_items,
+                moneda_info=moneda_info,
+                fecha_emision=fecha_emision
+            )
+        else:
+            # Modo básico
+            items = self.items_gen.generar_items(num_items, categoria_items, con_cargo_item)
 
         # Calcular subtotales
         if con_cargo_item:
@@ -256,6 +340,29 @@ class FacturaGenerator:
             ]
             observaciones = random.choice(obs_opciones)
 
+        # ============================================================
+        # Metadata adicional para modo realista
+        # ============================================================
+        metadata_realista = {}
+        if self.usar_datos_realistas and sector_seleccionado:
+            # Seleccionar tipografía aleatoria (se usará en pdf_creator.py)
+            tipografias_disponibles = [
+                'Courier',       # 35% - térmica/matriz
+                'Arial',         # 25% - moderna
+                'Helvetica',     # 20% - profesional
+                'Times-Roman',   # 10% - tradicional
+                'Calibri',       # 7% - moderna (simulada con Helvetica)
+                'Consolas',      # 3% - técnica (simulada con Courier)
+            ]
+            pesos_tipografias = [35, 25, 20, 10, 7, 3]
+            tipografia_seleccionada = random.choices(tipografias_disponibles, weights=pesos_tipografias, k=1)[0]
+
+            metadata_realista = {
+                "sector": sector_seleccionado,
+                "tipografia": tipografia_seleccionada,
+                "modo_realista": True,
+            }
+
         factura_data = {
             "tipo_comprobante": tipo_comprobante,
             "tipo_factura": tipo_factura,
@@ -296,9 +403,106 @@ class FacturaGenerator:
             "datos_hotel": datos_hotel,
             "datos_seguro": datos_seguro,
             "descuento": descuento,
+
+            # Metadata de modo realista
+            **metadata_realista,
         }
 
         return factura_data
+
+    def _generar_items_realistas(self,
+                                 sector: str,
+                                 num_items: Optional[int],
+                                 moneda_info: Dict,
+                                 fecha_emision: datetime) -> List[Dict]:
+        """
+        Genera items de factura con datos realistas del sector.
+
+        Args:
+            sector: Sector del negocio (restaurante, farmacia, etc.)
+            num_items: Número de items (None para automático según sector)
+            moneda_info: Información de la moneda
+            fecha_emision: Fecha de emisión para determinar estacionalidad
+
+        Returns:
+            Lista de items con descripciones realistas
+        """
+        # Determinar número de items según sector si no se especifica
+        if num_items is None:
+            rango_min, rango_max = obtener_rango_items_sector(sector)
+            num_items = random.randint(rango_min, rango_max)
+
+        # Obtener lista de productos del sector
+        # Nota: obtener_productos_sector ya devuelve items completos con precios
+        productos_base = SECTORES_ESPECIFICOS[sector]['productos']
+
+        # Seleccionar productos aleatorios
+        if num_items > len(productos_base):
+            productos_seleccionados = random.choices(productos_base, k=num_items)
+        else:
+            productos_seleccionados = random.sample(productos_base, num_items)
+
+        # Factor de precio estacional
+        mes = fecha_emision.month
+        factor_estacional = obtener_factor_precio_estacional(mes)
+
+        items = []
+        for i, (producto_base, precio_min, precio_max) in enumerate(productos_seleccionados, 1):
+            # Generar descripción detallada
+            descripcion = generar_descripcion_producto(
+                sector=sector,
+                producto_base=producto_base,
+                incluir_marca=True,
+                incluir_presentacion=True,
+                incluir_variante=True,
+                incluir_especificaciones=True
+            )
+
+            # Generar precio realista con estacionalidad
+            precio_base = generar_precio_realista(precio_min, precio_max)
+            precio_unitario = round(precio_base * factor_estacional, 2)
+
+            # Cantidad (varía según el producto)
+            if sector in ['restaurante', 'spa', 'gym', 'odontologia']:
+                # Servicios: típicamente 1 unidad
+                cantidad = random.choices([1, 2, 3], weights=[70, 20, 10], k=1)[0]
+            elif sector in ['supermercado', 'panaderia']:
+                # Supermercado: cantidades variadas
+                cantidad = random.choices([1, 2, 3, 4, 5, 6, 12], weights=[20, 25, 20, 15, 10, 5, 5], k=1)[0]
+            elif sector in ['farmacia']:
+                # Farmacia: típicamente 1-3 unidades
+                cantidad = random.choices([1, 2, 3], weights=[60, 30, 10], k=1)[0]
+            elif sector in ['ferreteria', 'construccion']:
+                # Ferretería: cantidades variadas (materiales)
+                cantidad = random.choices([1, 2, 5, 10, 20, 50], weights=[30, 25, 20, 15, 7, 3], k=1)[0]
+            else:
+                # Genérico
+                cantidad = random.choices([1, 2, 3, 4, 5], weights=[40, 25, 15, 10, 10], k=1)[0]
+
+            # Unidad de medida
+            unidades_sector = SECTORES_ESPECIFICOS.get(sector, {}).get('unidades', ['UND'])
+            unidad = random.choice(unidades_sector)
+
+            # Cálculos
+            valor_venta = round(precio_unitario * cantidad, 2)
+            igv_item = round(valor_venta * 0.18, 2)
+            importe_total = round(valor_venta + igv_item, 2)
+
+            item = {
+                "numero": i,
+                "descripcion": descripcion,
+                "unidad": unidad,
+                "cantidad": cantidad,
+                "precio_unitario": precio_unitario,
+                "valor_venta": valor_venta,
+                "igv": igv_item,
+                "importe_total": importe_total,
+                "descuento": 0.00,
+            }
+
+            items.append(item)
+
+        return items
 
     def _generar_email(self, razon_social: str = None, tipo_factura: str = 'general') -> str:
         """

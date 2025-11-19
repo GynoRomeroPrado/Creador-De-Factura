@@ -1,16 +1,36 @@
 """
-Creador de PDFs de facturas - Versión mejorada con soporte completo
+Creador de PDFs de facturas - Versión mejorada con elementos visuales realistas
+Incluye: logos, códigos QR, íconos de pago y contacto
 """
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm, cm
 from reportlab.lib import colors
 from reportlab.pdfgen import canvas
-from typing import Dict
+from reportlab.lib.utils import ImageReader
+from typing import Dict, Optional
 import os
+import random
+
+# Imports para elementos visuales (con manejo de errores)
+try:
+    import requests
+    from PIL import Image
+    from io import BytesIO
+    ONLINE_RESOURCES_AVAILABLE = True
+except ImportError:
+    ONLINE_RESOURCES_AVAILABLE = False
+    print("⚠️ requests/PIL no disponible. Instalar con: pip install requests pillow")
+
+try:
+    import qrcode
+    QR_AVAILABLE = True
+except ImportError:
+    QR_AVAILABLE = False
+    print("⚠️ qrcode no disponible. Instalar con: pip install qrcode[pil]")
 
 
 class PDFFactura:
-    """Genera PDFs de facturas con diseño profesional y tipografía uniforme"""
+    """Genera PDFs de facturas con diseño profesional, tipografía uniforme y elementos visuales"""
 
     # Tipografía uniforme - Helvetica family
     FONT_TITLE = "Helvetica-Bold"
@@ -18,9 +38,291 @@ class PDFFactura:
     FONT_BOLD = "Helvetica-Bold"
     FONT_ITALIC = "Helvetica-Oblique"
 
-    def __init__(self, output_dir: str = "facturas_generadas"):
+    # Colores por tipo de empresa
+    EMPRESA_COLORES = {
+        'TURISMO': '1976D2',
+        'HOTEL': '7B1FA2',
+        'CONSTRUCCION': 'F57C00',
+        'SEGURO': '388E3C',
+        'INMOBILIARIA': 'E53935',
+        'RESTAURANTE': 'D84315',
+        'TRANSPORTE': '0277BD',
+    }
+
+    def __init__(self, output_dir: str = "facturas_generadas", use_visual_elements: bool = True):
         self.output_dir = output_dir
+        self.use_visual_elements = use_visual_elements
+        self.image_cache = {}  # Caché para imágenes descargadas
         os.makedirs(output_dir, exist_ok=True)
+
+    # ========================================
+    # MÉTODOS PARA ELEMENTOS VISUALES
+    # ========================================
+
+    def _descargar_imagen(self, url: str, max_retries: int = 2) -> Optional[BytesIO]:
+        """Descarga imagen desde URL con caché y reintentos"""
+        if not ONLINE_RESOURCES_AVAILABLE or not self.use_visual_elements:
+            return None
+
+        # Verificar caché
+        if url in self.image_cache:
+            cached = self.image_cache[url]
+            cached.seek(0)  # Reset posición
+            return cached
+
+        # Descargar
+        for intento in range(max_retries):
+            try:
+                response = requests.get(url, timeout=3)
+                if response.status_code == 200:
+                    img_data = BytesIO(response.content)
+                    self.image_cache[url] = img_data
+                    return img_data
+            except Exception:
+                if intento == max_retries - 1:
+                    return None
+                continue
+        return None
+
+    def _generar_logo_url(self, razon_social: str) -> str:
+        """Genera URL de logo usando UI Avatars"""
+        # Limpiar y limitar nombre
+        nombre = razon_social[:30].replace(" ", "+")
+
+        # Obtener color según tipo de empresa
+        bg_color = 'random'
+        for keyword, color in self.EMPRESA_COLORES.items():
+            if keyword in razon_social.upper():
+                bg_color = color
+                break
+
+        return f"https://ui-avatars.com/api/?name={nombre}&size=200&background={bg_color}&color=fff&bold=true&font-size=0.4&rounded=true"
+
+    def _generar_qr_local(self, datos_qr: str) -> Optional[BytesIO]:
+        """Genera código QR localmente"""
+        if not QR_AVAILABLE:
+            return None
+
+        try:
+            qr = qrcode.QRCode(
+                version=1,
+                error_correction=qrcode.constants.ERROR_CORRECT_L,
+                box_size=10,
+                border=2,
+            )
+            qr.add_data(datos_qr)
+            qr.make(fit=True)
+
+            img = qr.make_image(fill_color="black", back_color="white")
+
+            buffer = BytesIO()
+            img.save(buffer, format='PNG')
+            buffer.seek(0)
+            return buffer
+        except Exception:
+            return None
+
+    def _dibujar_logo_fallback(self, c, razon_social: str, x: float, y: float, size: float):
+        """Dibuja logo de respaldo cuando falla la descarga (círculo con iniciales)"""
+        # Obtener iniciales
+        palabras = razon_social.split()
+        iniciales = ''.join([p[0] for p in palabras[:3]]).upper()
+
+        # Dibujar círculo de fondo
+        c.setFillColor(colors.HexColor('#2C3E50'))
+        c.circle(x + size/2, y + size/2, size/2, fill=True, stroke=False)
+
+        # Dibujar iniciales
+        c.setFillColor(colors.white)
+        c.setFont(self.FONT_BOLD, size/3)
+        c.drawCentredString(x + size/2, y + size/2 - size/8, iniciales)
+        c.setFillColor(colors.black)
+
+    def _dibujar_logo_empresa(self, c, datos: Dict, width: float, height: float):
+        """Dibuja logo de la empresa en esquina superior izquierda"""
+        if not self.use_visual_elements:
+            return
+
+        razon_social = datos['emisor']['razon_social']
+        logo_url = self._generar_logo_url(razon_social)
+
+        # Posición del logo
+        logo_x = 30
+        logo_y = height - 120
+        logo_size = 90
+
+        # Intentar descargar logo
+        logo_data = self._descargar_imagen(logo_url)
+
+        if logo_data:
+            try:
+                logo_data.seek(0)
+                c.drawImage(
+                    ImageReader(logo_data),
+                    logo_x,
+                    logo_y,
+                    width=logo_size,
+                    height=logo_size,
+                    preserveAspectRatio=True,
+                    mask='auto'
+                )
+                return
+            except Exception:
+                pass
+
+        # Fallback: dibujar logo simple
+        self._dibujar_logo_fallback(c, razon_social, logo_x, logo_y, logo_size)
+
+    def _dibujar_qr_code(self, c, datos: Dict, width: float, height: float):
+        """Dibuja código QR en esquina inferior derecha"""
+        if not self.use_visual_elements:
+            return
+
+        # Datos del QR según formato SUNAT
+        ruc = datos['emisor']['ruc']
+        serie = datos['serie']
+        numero = datos['numero']
+        fecha = datos['fecha_emision'].strftime('%Y%m%d')
+        total = f"{datos['total']:.2f}"
+        qr_data = f"{ruc}|03|{serie}|{numero}|{fecha}|{total}"
+
+        # Generar QR localmente
+        qr_image = self._generar_qr_local(qr_data)
+
+        if qr_image:
+            try:
+                # Posición
+                qr_x = width - 130
+                qr_y = 50
+                qr_size = 80
+
+                qr_image.seek(0)
+                c.drawImage(
+                    ImageReader(qr_image),
+                    qr_x,
+                    qr_y,
+                    width=qr_size,
+                    height=qr_size,
+                    preserveAspectRatio=True
+                )
+
+                # Texto debajo del QR
+                c.setFont(self.FONT_ITALIC, 6)
+                c.setFillColor(colors.grey)
+                c.drawCentredString(qr_x + qr_size/2, qr_y - 8, "Escanea para verificar")
+                c.setFillColor(colors.black)
+            except Exception:
+                pass
+
+    def _dibujar_iconos_pago(self, c, datos: Dict, width: float, height: float):
+        """Dibuja íconos de métodos de pago en el pie"""
+        if not self.use_visual_elements or not ONLINE_RESOURCES_AVAILABLE:
+            return
+
+        payment_icons = [
+            ('Visa', 'https://cdn.simpleicons.org/visa/1A1F71'),
+            ('MC', 'https://cdn.simpleicons.org/mastercard/EB001B'),
+            ('Cash', 'https://api.iconify.design/mdi/cash.svg?color=%23388E3C'),
+        ]
+
+        x_start = 30
+        y = 38
+        icon_size = 18
+        spacing = 30
+
+        # Etiqueta
+        c.setFont(self.FONT_BOLD, 7)
+        c.setFillColor(colors.grey)
+        c.drawString(x_start, y + icon_size + 5, "Aceptamos:")
+
+        # Dibujar íconos
+        for i, (nombre, icon_url) in enumerate(payment_icons):
+            icon_data = self._descargar_imagen(icon_url)
+            if icon_data:
+                try:
+                    icon_data.seek(0)
+                    c.drawImage(
+                        ImageReader(icon_data),
+                        x_start + (i * spacing),
+                        y,
+                        width=icon_size,
+                        height=icon_size,
+                        preserveAspectRatio=True,
+                        mask='auto'
+                    )
+                except Exception:
+                    # Fallback: mostrar texto
+                    c.setFont(self.FONT_NORMAL, 6)
+                    c.drawString(x_start + (i * spacing), y, nombre)
+
+        c.setFillColor(colors.black)
+
+    def _dibujar_pie_con_iconos(self, c, datos: Dict, width: float, height: float):
+        """Pie de página con íconos de contacto"""
+        if not self.use_visual_elements or not ONLINE_RESOURCES_AVAILABLE:
+            return
+
+        y = 20
+        icon_size = 10
+
+        contactos = [
+            ('phone', datos['emisor']['telefono'], 'https://api.iconify.design/mdi/phone.svg?color=%23666666'),
+            ('email', datos['emisor']['email'], 'https://api.iconify.design/mdi/email.svg?color=%23666666'),
+        ]
+
+        x_start = width / 2 - 150
+        spacing = 150
+
+        for i, (tipo, texto, icon_url) in enumerate(contactos):
+            x = x_start + (i * spacing)
+
+            # Descargar y dibujar ícono
+            icon_data = self._descargar_imagen(icon_url)
+            if icon_data:
+                try:
+                    icon_data.seek(0)
+                    c.drawImage(
+                        ImageReader(icon_data),
+                        x,
+                        y - 2,
+                        width=icon_size,
+                        height=icon_size,
+                        preserveAspectRatio=True,
+                        mask='auto'
+                    )
+                except Exception:
+                    pass
+
+            # Texto al lado del ícono
+            c.setFont(self.FONT_NORMAL, 7)
+            c.setFillColor(colors.grey)
+            c.drawString(x + icon_size + 3, y, texto[:30])
+
+        c.setFillColor(colors.black)
+
+    def _dibujar_marca_agua(self, c, datos: Dict, width: float, height: float):
+        """Dibuja marca de agua diagonal 'FACTURA FICTICIA'"""
+        if not self.use_visual_elements:
+            return
+
+        c.saveState()
+
+        # Configurar transparencia y rotación
+        c.setFillColor(colors.grey, alpha=0.08)
+        c.setFont(self.FONT_BOLD, 55)
+
+        # Centrar y rotar
+        c.translate(width/2, height/2)
+        c.rotate(45)
+
+        # Dibujar texto
+        c.drawCentredString(0, 0, "FACTURA FICTICIA")
+
+        c.restoreState()
+
+    # ========================================
+    # MÉTODOS ORIGINALES (MODIFICADOS)
+    # ========================================
 
     def crear_factura(self, datos: Dict, filename: str = None) -> str:
         """
@@ -44,7 +346,19 @@ class PDFFactura:
         c = canvas.Canvas(filepath, pagesize=A4)
         width, height = A4
 
-        # Dibujar contenido
+        # ========================================
+        # 1. ELEMENTOS VISUALES DE FONDO
+        # ========================================
+        self._dibujar_marca_agua(c, datos, width, height)
+
+        # ========================================
+        # 2. LOGO DE EMPRESA (antes del encabezado)
+        # ========================================
+        self._dibujar_logo_empresa(c, datos, width, height)
+
+        # ========================================
+        # 3. CONTENIDO PRINCIPAL (código original)
+        # ========================================
         self._dibujar_encabezado(c, datos, width, height)
         self._dibujar_datos_emisor(c, datos, width, height)
         self._dibujar_datos_receptor(c, datos, width, height)
@@ -68,6 +382,13 @@ class PDFFactura:
 
         # Dibujar pie usando la posición Y del bloque anterior
         self._dibujar_pie(c, datos, width, height, y_inicial=y_final_totales)
+
+        # ========================================
+        # 4. ELEMENTOS VISUALES FINALES
+        # ========================================
+        self._dibujar_qr_code(c, datos, width, height)
+        self._dibujar_iconos_pago(c, datos, width, height)
+        self._dibujar_pie_con_iconos(c, datos, width, height)
 
         c.save()
         return filepath

@@ -7,11 +7,11 @@ Genera facturas de diferentes tipos para verificar logos, QR, íconos
 import sys
 import os
 
-# Agregar src al path
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+# Agregar el directorio actual al path
+sys.path.insert(0, os.path.dirname(__file__))
 
-from generator import FacturaGenerator
-from pdf_creator import PDFFactura
+from src.generator import FacturaGenerator
+from src.pdf_creator import PDFFactura
 
 def main():
     print("=" * 60)

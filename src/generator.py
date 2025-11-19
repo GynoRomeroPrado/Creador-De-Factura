@@ -4,7 +4,7 @@ Versión mejorada con sectores específicos, direcciones reales,
 descripciones detalladas y patrones temporales.
 """
 import random
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import Dict, List, Optional
 from .utils import (
     RUCGenerator, MontoLetras, DatosPersonas,
@@ -36,6 +36,25 @@ try:
         obtener_productos_estacionales,
         obtener_factor_precio_estacional,
         generar_ticket_promedio_estacional
+    )
+    from .data.nombres_comerciales import (
+        generar_nombre_comercial,
+        generar_tipo_documento
+    )
+    from .data.codigos_producto import (
+        generar_sku,
+        generar_ean13,
+        generar_lote
+    )
+    from .data.datos_bancarios import (
+        generar_cuenta_bancaria,
+        generar_cuenta_bancaria_completa,
+        generar_condiciones_pago,
+        generar_forma_pago_detalle
+    )
+    from .data.campos_sector import (
+        generar_campos_sector,
+        generar_otros_cargos
     )
     MODO_REALISTA = True
 except ImportError as e:
@@ -168,24 +187,46 @@ class FacturaGenerator:
             direccion_emisor = self.datos_gen.generar_direccion()
             direccion_receptor = self.datos_gen.generar_direccion()
 
+        # Generar RUC/DNI para emisor
+        ruc_emisor = self.ruc_gen.generar_ruc()
+
         # Construir datos de emisor
         emisor = {
-            "ruc": self.ruc_gen.generar_ruc(),
+            "ruc": ruc_emisor,
             "razon_social": razon_social_emisor,
             "direccion": direccion_emisor,
             "telefono": self.datos_gen.generar_telefono(),
             "email": self._generar_email(razon_social=razon_social_emisor, tipo_factura=tipo_factura)
         }
 
+        # Agregar nombre comercial si está en modo realista
+        if self.usar_datos_realistas and sector_seleccionado:
+            nombre_comercial_emisor = generar_nombre_comercial(sector_seleccionado, razon_social_emisor)
+            if nombre_comercial_emisor:
+                emisor["nombre_comercial"] = nombre_comercial_emisor
+
         # Generar receptor
         razon_social_receptor = self.datos_gen.generar_razon_social()
+        ruc_receptor = self.ruc_gen.generar_ruc()
+
         receptor = {
-            "ruc": self.ruc_gen.generar_ruc(),
+            "ruc": ruc_receptor,
             "razon_social": razon_social_receptor,
             "direccion": direccion_receptor,
             "telefono": self.datos_gen.generar_telefono(),
             "email": self._generar_email(razon_social=razon_social_receptor, tipo_factura='general')
         }
+
+        # Agregar tipo de documento y nombre comercial para receptor si está en modo realista
+        if self.usar_datos_realistas:
+            tipo_doc_receptor = generar_tipo_documento(ruc_receptor)
+            receptor["tipo_doc"] = tipo_doc_receptor
+
+            # Nombre comercial para receptor (menos probable, 30%)
+            if sector_seleccionado:
+                nombre_comercial_receptor = generar_nombre_comercial(sector_seleccionado, razon_social_receptor, probabilidad_usar=0.30)
+                if nombre_comercial_receptor:
+                    receptor["nombre_comercial"] = nombre_comercial_receptor
 
         # ============================================================
         # Fecha de emisión (con patrones temporales si disponible)
@@ -269,9 +310,14 @@ class FacturaGenerator:
         igv = round(op_gravada * 0.18, 2)
 
         # Otros cargos (opcionales, típicos en algunas facturas)
-        otros_cargos = 0.00
-        if random.random() < 0.1:  # 10% de probabilidad
-            otros_cargos = round(random.uniform(5.00, 50.00), 2)
+        # Usar el nuevo generador si está en modo realista y tiene sector
+        if self.usar_datos_realistas and sector_seleccionado:
+            otros_cargos = generar_otros_cargos(sector_seleccionado, subtotal) or 0.00
+        else:
+            # Modo básico: 10% de probabilidad
+            otros_cargos = 0.00
+            if random.random() < 0.1:
+                otros_cargos = round(random.uniform(5.00, 50.00), 2)
 
         # Total
         total = round(op_gravada + igv + op_exonerada + op_inafecta + total_cargos + otros_cargos, 2)
@@ -282,6 +328,27 @@ class FacturaGenerator:
         # Forma de pago y crédito
         if con_credito is None:
             con_credito = random.random() < 0.4  # 40% a crédito
+
+        # Condiciones de pago y forma de pago detallada (modo realista)
+        condiciones_pago = None
+        forma_pago_detalle = None
+        cuenta_bancaria = None
+
+        if self.usar_datos_realistas:
+            # Generar condiciones de pago según crédito
+            if con_credito:
+                # Seleccionar días de crédito aleatorios
+                dias_credito = random.choice([7, 15, 30, 45, 60, 90])
+                condiciones_pago = generar_condiciones_pago(dias_credito)
+            else:
+                condiciones_pago = generar_condiciones_pago(0)  # Contado
+
+            # Generar forma de pago detallada
+            forma_pago_basico, forma_pago_detalle = generar_forma_pago_detalle(moneda)
+
+            # Generar cuenta bancaria (70% de facturas)
+            if random.random() < 0.70:
+                cuenta_bancaria = generar_cuenta_bancaria(moneda)
 
         if con_credito:
             forma_pago = random.choice([f for f in self.FORMAS_PAGO if "CREDITO" in f or "Credito" in f])
@@ -339,6 +406,26 @@ class FacturaGenerator:
                 "SIRVASE ENTREGAR LA LLAVE A LA RECEPCION / PLEASE LEAVE THE KEY AT THE DESK"
             ]
             observaciones = random.choice(obs_opciones)
+
+        # ============================================================
+        # Campos específicos por sector (12 campos adicionales)
+        # ============================================================
+        campos_sector_especificos = {}
+        if self.usar_datos_realistas and sector_seleccionado:
+            # Generar campos específicos del sector
+            # Nota: Usar subtotal antes de otros cargos para calcular propina/detracción
+            total_sin_cargos = subtotal + igv
+            campos_sector_especificos = generar_campos_sector(
+                sector=sector_seleccionado,
+                total_factura=total_sin_cargos,
+                moneda=moneda
+            )
+
+            # Si hay propina o cargo_delivery en restaurante, recalcular total
+            if 'propina' in campos_sector_especificos:
+                total = round(total + campos_sector_especificos['propina'], 2)
+            if 'cargo_delivery' in campos_sector_especificos:
+                total = round(total + campos_sector_especificos['cargo_delivery'], 2)
 
         # ============================================================
         # Metadata adicional para modo realista
@@ -406,6 +493,14 @@ class FacturaGenerator:
 
             # Metadata de modo realista
             **metadata_realista,
+
+            # Nuevos campos generales (7 campos)
+            "condiciones_pago": condiciones_pago,
+            "cuenta_bancaria": cuenta_bancaria,
+            "forma_pago_detalle": forma_pago_detalle,
+
+            # Campos específicos por sector (12 campos)
+            **campos_sector_especificos,
         }
 
         return factura_data
@@ -499,6 +594,29 @@ class FacturaGenerator:
                 "importe_total": importe_total,
                 "descuento": 0.00,
             }
+
+            # Agregar 4 campos adicionales por item (modo realista)
+            if self.usar_datos_realistas:
+                # 1. Código de producto (SKU) - 80% de items
+                if random.random() < 0.80:
+                    item["codigo_producto"] = generar_sku(sector, producto_base)
+
+                # 2. Código de barras (EAN-13) - 60% de items
+                if random.random() < 0.60:
+                    item["codigo_barras"] = generar_ean13()
+
+                # 3. Lote - 50% de items (más común en farmacia, supermercado, panadería)
+                prob_lote = 0.70 if sector in ['farmacia', 'supermercado', 'panaderia'] else 0.40
+                if random.random() < prob_lote:
+                    item["lote"] = generar_lote(sector)
+
+                # 4. Fecha de vencimiento - 40% de items (más común en farmacia, supermercado, panadería)
+                prob_vencimiento = 0.80 if sector in ['farmacia', 'supermercado', 'panaderia'] else 0.30
+                if random.random() < prob_vencimiento:
+                    # Fecha de vencimiento entre 1 mes y 24 meses a futuro
+                    dias_futuro = random.randint(30, 730)
+                    fecha_vencimiento = fecha_emision + timedelta(days=dias_futuro)
+                    item["fecha_vencimiento"] = fecha_vencimiento
 
             items.append(item)
 

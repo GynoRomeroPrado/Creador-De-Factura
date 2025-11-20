@@ -1,6 +1,7 @@
 """
 Creador de PDFs de facturas - Versión mejorada con elementos visuales realistas
 Incluye: logos, códigos QR, íconos de pago y contacto
+Con soporte para layouts variables basados en facturas reales
 """
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm, cm
@@ -10,6 +11,14 @@ from reportlab.lib.utils import ImageReader
 from typing import Dict, Optional
 import os
 import random
+
+# Import layouts
+from src.pdf_layouts import (
+    obtener_layout_aleatorio,
+    obtener_layout_por_nombre,
+    calcular_posicion,
+    LAYOUTS_DISPONIBLES
+)
 
 # Imports para elementos visuales (con manejo de errores)
 try:
@@ -30,15 +39,12 @@ except ImportError:
 
 
 class PDFFactura:
-    """Genera PDFs de facturas con diseño profesional, tipografía uniforme y elementos visuales"""
+    """Genera PDFs de facturas con diseño profesional, tipografía uniforme y elementos visuales
 
-    # Tipografía uniforme - Helvetica family
-    FONT_TITLE = "Helvetica-Bold"
-    FONT_NORMAL = "Helvetica"
-    FONT_BOLD = "Helvetica-Bold"
-    FONT_ITALIC = "Helvetica-Oblique"
+    Con soporte para layouts variables basados en facturas reales peruanas.
+    """
 
-    # Colores por tipo de empresa
+    # Colores por tipo de empresa (usado para logos)
     EMPRESA_COLORES = {
         'TURISMO': '1976D2',
         'HOTEL': '7B1FA2',
@@ -49,11 +55,52 @@ class PDFFactura:
         'TRANSPORTE': '0277BD',
     }
 
-    def __init__(self, output_dir: str = "facturas_generadas", use_visual_elements: bool = True):
+    def __init__(
+        self,
+        output_dir: str = "facturas_generadas",
+        use_visual_elements: bool = True,
+        layout_name: str = None,
+        tipo_factura: str = None
+    ):
+        """
+        Inicializa el generador de PDFs de facturas
+
+        Args:
+            output_dir: Directorio de salida para PDFs
+            use_visual_elements: Si True, incluye logos, QR, íconos
+            layout_name: Nombre específico de layout ('costa_del_sol', 'casa_andina', etc.)
+                        Si None, selecciona aleatoriamente según tipo_factura
+            tipo_factura: Tipo de factura ('hotel', 'seguro', etc.) para selección automática de layout
+        """
         self.output_dir = output_dir
         self.use_visual_elements = use_visual_elements
         self.image_cache = {}  # Caché para imágenes descargadas
         os.makedirs(output_dir, exist_ok=True)
+
+        # Seleccionar layout
+        if layout_name:
+            self.layout = obtener_layout_por_nombre(layout_name)
+        else:
+            self.layout = obtener_layout_aleatorio(tipo_factura)
+
+        # Extraer características del layout
+        self.layout_config = self.layout['caracteristicas']
+
+        # Configurar fuentes del layout
+        self.FONT_COMPANY = self.layout_config['font_company'][0]
+        self.FONT_COMPANY_SIZE = self.layout_config['font_company'][1]
+        self.FONT_HEADERS = self.layout_config['font_headers'][0]
+        self.FONT_HEADERS_SIZE = self.layout_config['font_headers'][1]
+        self.FONT_CONTENT = self.layout_config['font_content'][0]
+        self.FONT_CONTENT_SIZE = self.layout_config['font_content'][1]
+        self.FONT_SMALL = self.layout_config['font_small'][0]
+        self.FONT_SMALL_SIZE = self.layout_config['font_small'][1]
+
+        # Fallbacks para compatibilidad
+        self.FONT_TITLE = self.FONT_HEADERS
+        self.FONT_NORMAL = self.FONT_CONTENT
+        self.FONT_BOLD = self.FONT_HEADERS
+        self.FONT_ITALIC = "Helvetica-Oblique"
 
     # ========================================
     # MÉTODOS PARA ELEMENTOS VISUALES
@@ -85,16 +132,21 @@ class PDFFactura:
         return None
 
     def _generar_logo_url(self, razon_social: str) -> str:
-        """Genera URL de logo usando UI Avatars"""
+        """Genera URL de logo usando UI Avatars con color del layout"""
         # Limpiar y limitar nombre
         nombre = razon_social[:30].replace(" ", "+")
 
-        # Obtener color según tipo de empresa
-        bg_color = 'random'
-        for keyword, color in self.EMPRESA_COLORES.items():
-            if keyword in razon_social.upper():
-                bg_color = color
-                break
+        # Usar color del layout
+        bg_color = self.layout_config['logo_color']
+
+        # Si no tiene color específico, buscar por tipo de empresa
+        if bg_color == 'random' or not bg_color:
+            for keyword, color in self.EMPRESA_COLORES.items():
+                if keyword in razon_social.upper():
+                    bg_color = color
+                    break
+            if bg_color == 'random':
+                bg_color = 'random'
 
         return f"https://ui-avatars.com/api/?name={nombre}&size=200&background={bg_color}&color=fff&bold=true&font-size=0.4&rounded=true"
 
@@ -139,17 +191,20 @@ class PDFFactura:
         c.setFillColor(colors.black)
 
     def _dibujar_logo_empresa(self, c, datos: Dict, width: float, height: float):
-        """Dibuja logo de la empresa en esquina superior izquierda"""
+        """Dibuja logo de la empresa usando configuración del layout"""
         if not self.use_visual_elements:
             return
 
         razon_social = datos['emisor']['razon_social']
         logo_url = self._generar_logo_url(razon_social)
 
-        # Posición del logo
-        logo_x = 30
-        logo_y = height - 120
-        logo_size = 90
+        # Obtener posición y tamaño del layout
+        logo_x, logo_y = calcular_posicion(
+            self.layout_config['logo_position'],
+            width,
+            height
+        )
+        logo_size = self.layout_config['logo_size']
 
         # Intentar descargar logo
         logo_data = self._descargar_imagen(logo_url)
@@ -174,7 +229,7 @@ class PDFFactura:
         self._dibujar_logo_fallback(c, razon_social, logo_x, logo_y, logo_size)
 
     def _dibujar_qr_code(self, c, datos: Dict, width: float, height: float):
-        """Dibuja código QR en esquina inferior derecha"""
+        """Dibuja código QR usando configuración del layout"""
         if not self.use_visual_elements:
             return
 
@@ -191,10 +246,13 @@ class PDFFactura:
 
         if qr_image:
             try:
-                # Posición
-                qr_x = width - 130
-                qr_y = 50
-                qr_size = 80
+                # Obtener posición y tamaño del layout
+                qr_x, qr_y = calcular_posicion(
+                    self.layout_config['qr_position'],
+                    width,
+                    height
+                )
+                qr_size = self.layout_config['qr_size']
 
                 qr_image.seek(0)
                 c.drawImage(
@@ -215,7 +273,7 @@ class PDFFactura:
                 pass
 
     def _dibujar_iconos_pago(self, c, datos: Dict, width: float, height: float):
-        """Dibuja íconos de métodos de pago en el pie"""
+        """Dibuja íconos de métodos de pago usando configuración del layout"""
         if not self.use_visual_elements or not ONLINE_RESOURCES_AVAILABLE:
             return
 
@@ -225,8 +283,12 @@ class PDFFactura:
             ('Cash', 'https://api.iconify.design/mdi/cash.svg?color=%23388E3C'),
         ]
 
-        x_start = 30
-        y = 38
+        # Obtener posición del layout
+        x_start, y = calcular_posicion(
+            self.layout_config['payment_icons_position'],
+            width,
+            height
+        )
         icon_size = 18
         spacing = 30
 
@@ -258,16 +320,19 @@ class PDFFactura:
         c.setFillColor(colors.black)
 
     def _dibujar_pie_con_iconos(self, c, datos: Dict, width: float, height: float):
-        """Pie de página con íconos de contacto"""
+        """Pie de página con íconos de contacto usando color del layout"""
         if not self.use_visual_elements or not ONLINE_RESOURCES_AVAILABLE:
             return
 
         y = 20
         icon_size = 10
 
+        # Obtener color de íconos del layout
+        icon_color = self.layout_config['contact_icons_color'].replace('#', '%23')
+
         contactos = [
-            ('phone', datos['emisor']['telefono'], 'https://api.iconify.design/mdi/phone.svg?color=%23666666'),
-            ('email', datos['emisor']['email'], 'https://api.iconify.design/mdi/email.svg?color=%23666666'),
+            ('phone', datos['emisor']['telefono'], f'https://api.iconify.design/mdi/phone.svg?color={icon_color}'),
+            ('email', datos['emisor']['email'], f'https://api.iconify.design/mdi/email.svg?color={icon_color}'),
         ]
 
         x_start = width / 2 - 150
@@ -301,19 +366,24 @@ class PDFFactura:
         c.setFillColor(colors.black)
 
     def _dibujar_marca_agua(self, c, datos: Dict, width: float, height: float):
-        """Dibuja marca de agua diagonal 'FACTURA FICTICIA'"""
+        """Dibuja marca de agua usando configuración del layout"""
         if not self.use_visual_elements:
             return
 
         c.saveState()
 
-        # Configurar transparencia y rotación
-        c.setFillColor(colors.grey, alpha=0.08)
-        c.setFont(self.FONT_BOLD, 55)
+        # Obtener configuración del layout
+        rotation = self.layout_config['watermark_rotation']
+        alpha = self.layout_config['watermark_alpha']
+        size = self.layout_config['watermark_size']
+
+        # Configurar transparencia y fuente
+        c.setFillColor(colors.grey, alpha=alpha)
+        c.setFont(self.FONT_BOLD, size)
 
         # Centrar y rotar
         c.translate(width/2, height/2)
-        c.rotate(45)
+        c.rotate(rotation)
 
         # Dibujar texto
         c.drawCentredString(0, 0, "FACTURA FICTICIA")
@@ -345,6 +415,14 @@ class PDFFactura:
         # Crear PDF
         c = canvas.Canvas(filepath, pagesize=A4)
         width, height = A4
+
+        # ========================================
+        # 0. FONDO DE PÁGINA (si el layout lo especifica)
+        # ========================================
+        if self.layout_config['background_shading']:
+            c.setFillColor(self.layout_config['background_color'])
+            c.rect(0, 0, width, height, fill=True, stroke=False)
+            c.setFillColor(colors.black)  # Restaurar
 
         # ========================================
         # 1. ELEMENTOS VISUALES DE FONDO
@@ -394,11 +472,25 @@ class PDFFactura:
         return filepath
 
     def _dibujar_encabezado(self, c, datos, width, height):
-        """Dibuja el encabezado de la factura"""
+        """Dibuja el encabezado de la factura usando configuración del layout"""
+        # Obtener configuración del layout
+        header_box_color = self.layout_config['header_box_color']
+        header_box_border = self.layout_config['header_box_border']
+        header_text_color = self.layout_config['header_text_color']
+
         # Recuadro del RUC y tipo de comprobante
-        c.setStrokeColor(colors.black)
-        c.setLineWidth(2)
-        c.rect(width - 180, height - 120, 150, 90)
+        c.setStrokeColor(header_box_color if header_box_color != colors.white else colors.black)
+        c.setLineWidth(header_box_border)
+
+        # Si el fondo del header no es blanco, rellenarlo
+        if header_box_color != colors.white:
+            c.setFillColor(header_box_color)
+            c.rect(width - 180, height - 120, 150, 90, fill=True, stroke=True)
+        else:
+            c.rect(width - 180, height - 120, 150, 90, fill=False, stroke=True)
+
+        # Configurar color de texto
+        c.setFillColor(header_text_color)
 
         # RUC
         c.setFont(self.FONT_BOLD, 14)
@@ -414,6 +506,9 @@ class PDFFactura:
         # Número
         c.setFont(self.FONT_BOLD, 14)
         c.drawCentredString(width - 105, height - 105, datos['numero_factura'])
+
+        # Restaurar color negro para el resto
+        c.setFillColor(colors.black)
 
     def _dibujar_datos_emisor(self, c, datos, width, height):
         """Dibuja los datos del emisor"""
@@ -592,11 +687,21 @@ class PDFFactura:
         else:
             y_start = height - 220
 
-        # Función para dibujar encabezado de tabla
+        # Función para dibujar encabezado de tabla usando layout
         def dibujar_encabezado_tabla(y_pos):
-            c.setFillColor(colors.HexColor('#E8E8E8'))
-            c.rect(30, y_pos - 18, width - 60, 18, fill=True, stroke=False)
-            c.setFillColor(colors.black)
+            # Usar colores del layout
+            table_header_bg = self.layout_config['table_header_bg']
+            table_header_text = self.layout_config['table_header_text']
+            table_border_color = self.layout_config['table_border_color']
+            table_border_width = self.layout_config['table_border_width']
+
+            # Dibujar encabezado con colores del layout
+            c.setFillColor(table_header_bg)
+            c.setStrokeColor(table_border_color)
+            c.setLineWidth(table_border_width)
+            c.rect(30, y_pos - 18, width - 60, 18, fill=True, stroke=True)
+
+            c.setFillColor(table_header_text)
             c.setFont(self.FONT_BOLD, 8)
             c.drawString(35, y_pos - 12, "ITEM")
             c.drawString(65, y_pos - 12, "DESCRIPCIÓN")
@@ -604,6 +709,8 @@ class PDFFactura:
             c.drawString(360, y_pos - 12, "CANT.")
             c.drawString(410, y_pos - 12, "P.UNIT")
             c.drawRightString(width - 35, y_pos - 12, "TOTAL")
+
+            c.setFillColor(colors.black)
             return y_pos - 35
 
         # Encabezado inicial

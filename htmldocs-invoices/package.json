@@ -1,0 +1,21 @@
+{
+  "name": "facturas-htmldocs",
+  "version": "1.0.0",
+  "description": "Generador de facturas peruanas con HTMLDocs",
+  "type": "module",
+  "scripts": {
+    "dev": "htmldocs dev",
+    "build": "htmldocs build",
+    "render": "node render.js",
+    "generate": "node generate-pdf.js"
+  },
+  "dependencies": {
+    "htmldocs": "^0.0.1",
+    "@htmldocs/react": "^0.0.1",
+    "@htmldocs/render": "^0.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "@types/node": "^20.0.0"
+  }
+}

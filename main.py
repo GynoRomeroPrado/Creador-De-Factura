@@ -5,6 +5,7 @@ Generador de Facturas Ficticias - Punto de entrada principal
 Uso:
     python main.py --cantidad 50 --output facturas_generadas/
     python main.py --analizar --input facturas_originales/
+    python main.py --cantidad 10 --renderer htmldocs  # Usar HTMLDocs
 """
 import argparse
 import os
@@ -13,8 +14,16 @@ from pathlib import Path
 from src.generator import FacturaGenerator
 from src.pdf_creator import PDFFactura
 
+# Renderer opcional - HTMLDocs
+HTMLDOCS_AVAILABLE = False
+try:
+    from src.htmldocs_renderer import HTMLDocsRenderer
+    HTMLDOCS_AVAILABLE = True
+except ImportError:
+    pass
 
-def generar_facturas(cantidad: int, output_dir: str, verbose: bool = True):
+
+def generar_facturas(cantidad: int, output_dir: str, verbose: bool = True, renderer: str = 'reportlab'):
     """
     Genera múltiples facturas ficticias con tipos variados
 
@@ -22,18 +31,31 @@ def generar_facturas(cantidad: int, output_dir: str, verbose: bool = True):
         cantidad: Número de facturas a generar
         output_dir: Directorio de salida
         verbose: Mostrar progreso
+        renderer: 'reportlab' (default) o 'htmldocs' para usar HTMLDocs
     """
     if verbose:
         print(f"{'='*60}")
-        print(f"Generador de Facturas Ficticias - Versión Mejorada")
+        print(f"Generador de Facturas Ficticias")
         print(f"{'='*60}")
         print(f"Cantidad a generar: {cantidad}")
         print(f"Directorio de salida: {output_dir}")
+        print(f"Renderer: {renderer.upper()}")
         print(f"{'='*60}\n")
 
     # Crear generadores
     gen_factura = FacturaGenerator()
-    gen_pdf = PDFFactura(output_dir=output_dir)
+
+    # Seleccionar renderer
+    if renderer == 'htmldocs':
+        if not HTMLDOCS_AVAILABLE:
+            print("ERROR: HTMLDocs no disponible. Instala con:")
+            print("  cd htmldocs-invoices && npm install")
+            sys.exit(1)
+        gen_pdf = HTMLDocsRenderer()
+        use_htmldocs = True
+    else:
+        gen_pdf = PDFFactura(output_dir=output_dir)
+        use_htmldocs = False
 
     facturas_generadas = []
 
@@ -75,7 +97,18 @@ def generar_facturas(cantidad: int, output_dir: str, verbose: bool = True):
             )
 
             # Crear PDF
-            archivo = gen_pdf.crear_factura(factura)
+            if use_htmldocs:
+                # Usar HTMLDocs renderer
+                os.makedirs(output_dir, exist_ok=True)
+                output_path = os.path.join(
+                    output_dir,
+                    f"Factura_{tipo}_{factura['serie']}_{factura['numero']}_{factura['fecha_emision'].replace('/', '-')}.pdf"
+                )
+                datos_htmldocs = gen_pdf.transformar_datos_factura(factura)
+                archivo = gen_pdf.render_factura(datos_htmldocs, output_path)
+            else:
+                # Usar reportlab (original)
+                archivo = gen_pdf.crear_factura(factura)
 
             facturas_generadas.append(archivo)
 
@@ -204,6 +237,14 @@ Ejemplos de uso:
         help='Modo silencioso (sin output detallado)'
     )
 
+    parser.add_argument(
+        '--renderer',
+        type=str,
+        choices=['reportlab', 'htmldocs'],
+        default='reportlab',
+        help='Motor de renderizado: reportlab (default) o htmldocs (React/Tailwind)'
+    )
+
     args = parser.parse_args()
 
     verbose = not args.quiet
@@ -218,7 +259,8 @@ Ejemplos de uso:
         generar_facturas(
             cantidad=args.cantidad,
             output_dir=args.output,
-            verbose=verbose
+            verbose=verbose,
+            renderer=args.renderer
         )
 
     except KeyboardInterrupt:

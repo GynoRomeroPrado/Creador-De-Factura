@@ -831,6 +831,16 @@ class PDFFactura:
 
         # Cuotas si es a crédito
         if datos['con_credito'] and datos['cuotas']:
+            # Calcular altura necesaria para las cuotas
+            # Encabezado (22) + Tabla Header (15) + Filas (12 * n)
+            altura_cuotas = 37 + (len(datos['cuotas']) * 12)
+            
+            # Verificar si cabe en el espacio actual (dejando 60 de margen para el pie fijo)
+            if y - altura_cuotas < 60:
+                c.showPage()
+                self._dibujar_encabezado_pagina_nueva(c, datos, width, height)
+                y = height - 100
+                
             y -= 22
             c.setFont(self.style.font_bold, self.style.size_small)
             c.drawString(x, y, "DATOS DE CUOTA:")

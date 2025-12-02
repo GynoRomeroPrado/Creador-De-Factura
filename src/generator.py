@@ -7,7 +7,8 @@ from typing import Dict, List, Optional
 from .utils import (
     RUCGenerator, MontoLetras, DatosPersonas,
     GeneradorFechas, ItemsGenerator, DatosHotel,
-    DatosSeguro, GeneradorDescuentos
+    DatosSeguro, GeneradorDescuentos, DatosRestaurante,
+    DatosTransporte, DatosServicios
 )
 
 
@@ -41,7 +42,10 @@ class FacturaGenerator:
         "hotel",            # Factura de hotel con check-in/out
         "seguro",           # Factura de seguro/póliza
         "con_descuento",    # Factura con descuentos
-        "compra_grande"     # Factura con muchos items (30-50) para múltiples páginas
+        "compra_grande",    # Factura con muchos items (30-50) para múltiples páginas
+        "restaurante",      # Factura de consumo en restaurante
+        "transporte",       # Factura de transporte de carga/pasajeros
+        "servicios_profesionales" # Factura por honorarios/servicios
     ]
 
     def __init__(self):
@@ -52,6 +56,9 @@ class FacturaGenerator:
         self.hotel_gen = DatosHotel()
         self.seguro_gen = DatosSeguro()
         self.desc_gen = GeneradorDescuentos()
+        self.rest_gen = DatosRestaurante()
+        self.trans_gen = DatosTransporte()
+        self.serv_gen = DatosServicios()
 
     def generar_factura(self,
                        categoria_items: Optional[str] = None,
@@ -90,6 +97,12 @@ class FacturaGenerator:
             # Usar categoría de construcción o mixta para facturas grandes
             if categoria_items is None:
                 categoria_items = random.choice(['construccion', 'alimentos', None])
+        elif tipo_factura == 'restaurante' and categoria_items is None:
+            categoria_items = 'restaurante'
+        elif tipo_factura == 'transporte' and categoria_items is None:
+            categoria_items = 'transporte'
+        elif tipo_factura == 'servicios_profesionales' and categoria_items is None:
+            categoria_items = 'servicios'
 
         # Seleccionar moneda
         if moneda is None:
@@ -137,6 +150,20 @@ class FacturaGenerator:
 
         if tipo_factura == 'seguro':
             datos_seguro = self.seguro_gen.generar_poliza(fecha_emision)
+
+        # Datos nuevos
+        datos_restaurante = None
+        datos_transporte = None
+        datos_servicios = None
+
+        if tipo_factura == 'restaurante':
+            datos_restaurante = self.rest_gen.generar_datos_restaurante()
+        
+        if tipo_factura == 'transporte':
+            datos_transporte = self.trans_gen.generar_datos_transporte()
+            
+        if tipo_factura == 'servicios_profesionales':
+            datos_servicios = self.serv_gen.generar_datos_servicio()
 
         # Determinar si tiene cargos por item (típico de hoteles)
         con_cargo_item = (tipo_factura == 'hotel')
@@ -294,6 +321,9 @@ class FacturaGenerator:
             # Datos específicos
             "datos_hotel": datos_hotel,
             "datos_seguro": datos_seguro,
+            "datos_restaurante": datos_restaurante,
+            "datos_transporte": datos_transporte,
+            "datos_servicios": datos_servicios,
             "descuento": descuento,
         }
 

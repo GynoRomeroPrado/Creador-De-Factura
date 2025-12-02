@@ -333,6 +333,25 @@ class ItemsGenerator:
         ("Central de Detección de Incendios", "UND", (1500.00, 3500.00)),
     ]
 
+    RESTAURANTE = [
+        ("Menú Ejecutivo", "UND", (15.00, 25.00)),
+        ("Lomo Saltado", "UND", (35.00, 45.00)),
+        ("Ceviche Mixto", "UND", (40.00, 50.00)),
+        ("Gaseosa 500ml", "UND", (5.00, 8.00)),
+        ("Jugo Natural", "UND", (10.00, 15.00)),
+        ("Postre del Día", "UND", (8.00, 12.00)),
+        ("Café Americano", "UND", (6.00, 10.00)),
+        ("Agua Mineral", "UND", (4.00, 7.00)),
+    ]
+
+    TRANSPORTE = [
+        ("Servicio de Transporte de Carga Lima-Trujillo", "VJE", (1500.00, 2500.00)),
+        ("Flete Local", "VJE", (200.00, 500.00)),
+        ("Transporte de Personal", "DIA", (300.00, 600.00)),
+        ("Servicio de Mudanza", "SRV", (800.00, 1500.00)),
+        ("Transporte de Maquinaria", "VJE", (2000.00, 4000.00)),
+    ]
+
     @classmethod
     def generar_items(cls, cantidad: int = None, categoria: str = None, con_cargo_item: bool = False) -> List[dict]:
         """
@@ -372,6 +391,10 @@ class ItemsGenerator:
                 fuente = cls.SEGUROS
             elif categoria == 'seguridad':
                 fuente = cls.SEGURIDAD
+            elif categoria == 'restaurante':
+                fuente = cls.RESTAURANTE
+            elif categoria == 'transporte':
+                fuente = cls.TRANSPORTE
             else:
                 # Mixto
                 fuente = cls.CONSTRUCCION + cls.COMIDA + cls.SERVICIOS
@@ -597,6 +620,65 @@ class GeneradorDescuentos:
             "icbper": 0.00,  # Impuesto a bolsas plásticas
             "total": monto,
             "detraccion": 0.00
+        }
+
+
+
+class DatosRestaurante:
+    """Generador de datos para facturas de restaurante"""
+
+    MESEROS = ["Juan P.", "María S.", "Carlos R.", "Ana M.", "Luis G."]
+    MESAS = [str(i) for i in range(1, 21)]
+
+    @classmethod
+    def generar_datos_restaurante(cls) -> dict:
+        """Genera datos específicos de consumo en restaurante"""
+        return {
+            "mesa": random.choice(cls.MESAS),
+            "mesero": random.choice(cls.MESEROS),
+            "propinas": round(random.uniform(5.00, 20.00), 2),
+            "hora_ingreso": f"{random.randint(12, 22)}:{random.randint(0, 59):02d}",
+            "personas": random.randint(1, 6)
+        }
+
+
+class DatosTransporte:
+    """Generador de datos para facturas de transporte"""
+
+    ORIGENES = ["Lima", "Callao", "Lurín", "Ventanilla"]
+    DESTINOS = ["Trujillo", "Arequipa", "Piura", "Chiclayo", "Huancayo", "Ica"]
+    PLACAS = [f"{chr(random.randint(65, 90))}{chr(random.randint(65, 90))}{chr(random.randint(65, 90))}-{random.randint(100, 999)}" for _ in range(10)]
+    CONDUCTORES = ["Roberto M.", "Jorge L.", "Miguel A.", "Víctor C."]
+
+    @classmethod
+    def generar_datos_transporte(cls) -> dict:
+        """Genera datos de guía de remisión y transporte"""
+        origen = random.choice(cls.ORIGENES)
+        destino = random.choice(cls.DESTINOS)
+        return {
+            "guia_remision": f"T001-{random.randint(1, 9999):06d}",
+            "placa_vehiculo": random.choice(cls.PLACAS),
+            "conductor": random.choice(cls.CONDUCTORES),
+            "origen": origen,
+            "destino": destino,
+            "licencia": f"Q{random.randint(10000000, 99999999)}"
+        }
+
+
+class DatosServicios:
+    """Generador de datos para servicios profesionales"""
+
+    PROYECTOS = ["Implementación ERP", "Auditoría 2024", "Consultoría Legal", "Desarrollo Web", "Capacitación Personal"]
+    AREAS = ["Sistemas", "Contabilidad", "Legal", "Recursos Humanos", "Gerencia"]
+
+    @classmethod
+    def generar_datos_servicio(cls) -> dict:
+        """Genera datos de orden de servicio"""
+        return {
+            "orden_servicio": f"OS-{random.randint(2024, 2025)}-{random.randint(1, 999):03d}",
+            "proyecto": random.choice(cls.PROYECTOS),
+            "area_solicitante": random.choice(cls.AREAS),
+            "conformidad_servicio": f"CS-{random.randint(1, 9999)}"
         }
 
 

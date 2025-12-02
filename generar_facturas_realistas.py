@@ -4,17 +4,16 @@ import random
 from src.generator import FacturaGenerator
 from src.pdf_creator import PDFFactura
 
-def generar_lote_final():
-    output_dir = "facturas_finales"
+def generar_lote_realista():
+    output_dir = "facturas_realistas_final"
     
-    # Limpiar directorio
     if os.path.exists(output_dir):
         shutil.rmtree(output_dir)
     os.makedirs(output_dir)
 
     gen = FacturaGenerator()
     
-    # Escenarios variados para asegurar cobertura
+    # Tipos y estilos variados
     escenarios = [
         ('hotel', 'corporativo'),
         ('restaurante', 'creativo'),
@@ -26,7 +25,7 @@ def generar_lote_final():
         ('compra_grande', 'industrial'),
     ]
     
-    print(f"Generando 20 facturas REALISTAS en '{output_dir}'...")
+    print(f"Generando 20 facturas realistas en '{output_dir}'...")
 
     for i in range(1, 21):
         if i <= len(escenarios):
@@ -45,7 +44,6 @@ def generar_lote_final():
         
         # Crear PDF
         pdf = PDFFactura(output_dir=output_dir, estilo=estilo)
-        # Nombre de archivo descriptivo
         filename = f"{i:02d}_{datos['industria'].capitalize()}_{estilo.capitalize()}.pdf"
         
         try:
@@ -53,8 +51,10 @@ def generar_lote_final():
             print(f"[{i}/20] Generada: {filename} (Industria: {datos['industria']})")
         except Exception as e:
             print(f"[{i}/20] Error generando {filename}: {e}")
+            import traceback
+            traceback.print_exc()
 
-    print(f"\n✅ Proceso completado. 20 facturas realistas disponibles en '{output_dir}'.")
+    print(f"\n✅ Proceso completado. Revisar '{output_dir}'.")
 
 if __name__ == "__main__":
-    generar_lote_final()
+    generar_lote_realista()

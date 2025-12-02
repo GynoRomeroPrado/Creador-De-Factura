@@ -324,7 +324,9 @@ class FacturaGenerator:
             "datos_restaurante": datos_restaurante,
             "datos_transporte": datos_transporte,
             "datos_servicios": datos_servicios,
+            "datos_servicios": datos_servicios,
             "descuento": descuento,
+            "industria": self._determinar_industria(tipo_factura, categoria_items),
         }
 
         return factura_data
@@ -342,6 +344,19 @@ class FacturaGenerator:
             "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
         ]
         return meses[num_mes - 1]
+
+    def _determinar_industria(self, tipo_factura, categoria_items):
+        """Determina el tipo de industria para el logo"""
+        if tipo_factura == 'hotel': return 'hotel'
+        if tipo_factura == 'restaurante': return 'restaurante'
+        if tipo_factura == 'transporte': return 'transporte'
+        
+        # Mapeo por categoría de items
+        if categoria_items == 'construccion': return 'construccion'
+        if categoria_items == 'tech': return 'tech'
+        if categoria_items == 'comida': return 'restaurante'
+        
+        return 'general'
 
     def generar_multiples(self, cantidad: int, **kwargs) -> List[Dict]:
         """Genera múltiples facturas"""

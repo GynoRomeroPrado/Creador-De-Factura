@@ -8,3 +8,5 @@ facturas_generadas/
 .venv
 env/
 venv/
+facturas_finales/
+facturas_realistas_final/

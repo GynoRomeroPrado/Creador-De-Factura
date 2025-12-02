@@ -9,6 +9,9 @@ from reportlab.lib.utils import simpleSplit
 from typing import Dict, Union
 import os
 from .styles import InvoiceStyle, STYLES, ESTILO_CLASICO
+from .logo_drawer import LogoDrawer
+from reportlab.pdfbase.ttfonts import TTFont
+from reportlab.pdfbase import pdfmetrics
 
 class PDFFactura:
     """Genera PDFs de facturas con diseño profesional, tipografía uniforme y estilos configurables"""
@@ -238,38 +241,61 @@ class PDFFactura:
         c.drawString(x, y, f"Proyecto: {serv['proyecto']}")
 
     def _dibujar_datos_emisor(self, c, datos, width, height):
-        """Dibuja los datos del emisor con lógica robusta de alineación"""
+        """Dibuja los datos del emisor con logo y lógica robusta de alineación"""
         y = height - 50
+        
+        # Configuración del Logo
+        logo_size = 60
+        logo_padding = 15
+        industria = datos.get('industria', 'general')
         
         c.setFont(self.style.font_title, self.style.size_title)
         c.setFillColor(self.style.color_primary)
         
         razon_social = datos['emisor']['razon_social']
         
-        # 1. Definir el área disponible para el bloque de texto
-        # Si align_header es left o center, el bloque está a la izquierda (RUC a la derecha)
-        # Si align_header es right, el bloque está a la derecha (RUC a la izquierda)
-        
+        # 1. Definir el área disponible y posición del logo
         if self.style.align_header == "right":
-            # Bloque a la derecha
-            # RUC está a la izquierda (ocupa ~180px + margen)
-            x_start = 200 # Margen izquierdo seguro
+            # Bloque a la derecha, RUC a la izquierda
+            x_start = 200 
             x_end = width - self.style.margin_x
-            ancho_disponible = x_end - x_start
+            
+            # Logo a la derecha del todo
+            logo_x = x_end - logo_size
+            logo_y = y - logo_size + 15
+            
+            # El texto termina antes del logo
+            x_end_text = x_end - logo_size - logo_padding
+            x_start_text = x_start
+            
+            # Dibujar Logo
+            LogoDrawer.draw_logo(c, logo_x, logo_y, logo_size, razon_social, industria)
+            
         else:
-            # Bloque a la izquierda (Default)
-            # RUC está a la derecha
+            # Bloque a la izquierda (Default), RUC a la derecha
             x_start = self.style.margin_x
-            x_end = width - 250 # Margen derecho seguro antes del RUC
-            ancho_disponible = x_end - x_start
+            x_end = width - 250
+            
+            # Logo a la izquierda del todo
+            logo_x = x_start
+            logo_y = y - logo_size + 15
+            
+            # El texto empieza después del logo
+            x_start_text = x_start + logo_size + logo_padding
+            x_end_text = x_end
+            
+            # Dibujar Logo
+            LogoDrawer.draw_logo(c, logo_x, logo_y, logo_size, razon_social, industria)
 
-        # 2. Calcular punto de anclaje (x_anchor) según la alineación del TEXTO
+        ancho_disponible = x_end_text - x_start_text
+
+        # 2. Calcular punto de anclaje (x_anchor)
         if self.style.align_title == 'right':
-            x_anchor = x_end
+            x_anchor = x_end_text
         elif self.style.align_title == 'center':
-            x_anchor = x_start + (ancho_disponible / 2)
+            x_anchor = x_start_text + (ancho_disponible / 2)
         else: # left
-            x_anchor = x_start
+            x_anchor = x_start_text
 
         # 3. Dibujar Razón Social
         y = self._draw_wrapped_text(c, razon_social, x_anchor, y, ancho_disponible, self.style.font_title, self.style.size_title, align=self.style.align_title)
@@ -278,11 +304,10 @@ class PDFFactura:
         c.setFont(self.style.font_normal, self.style.size_normal)
         y -= 5
         
-        # 4. Dibujar detalles (Dirección, Teléfono, Email) usando el mismo anclaje
-        # Nota: align_text debe coincidir con align_title para consistencia visual
+        # 4. Dibujar detalles
         align_text = self.style.align_title
         
-        y = self._draw_wrapped_text(c, f"Dirección: {datos['emisor']['direccion']}", x_anchor, y, 350, self.style.font_normal, self.style.size_normal, align=align_text)
+        y = self._draw_wrapped_text(c, f"Dirección: {datos['emisor']['direccion']}", x_anchor, y, ancho_disponible, self.style.font_normal, self.style.size_normal, align=align_text)
         
         if align_text == 'right':
             c.drawRightString(x_anchor, y, f"Teléfono: {datos['emisor']['telefono']}")
@@ -516,6 +541,7 @@ class PDFFactura:
                     c.showPage()
                     self._dibujar_encabezado_pagina_nueva(c, datos, width, height)
                     y = dibujar_encabezado_tabla(height - 90)
+                    c.setFont(self.style.font_normal, self.style.size_small)
                     
                     # Ahora estamos en nueva página, evaluamos de nuevo si cabe completo
                     espacio_disponible = y - 100
@@ -759,7 +785,7 @@ class PDFFactura:
         y -= 25
         c.setFillColor(self.style.table_header_bg)
         c.setStrokeColor(self.style.border_color)
-        c.rect(x_inicio - 10, y - 4, 200, 26, fill=True, stroke=True)
+        c.rect(x_inicio - 10, y - 4, 215, 26, fill=True, stroke=True)
 
         # Usar color de texto de encabezado para contraste correcto
         c.setFillColor(self.style.table_header_text)

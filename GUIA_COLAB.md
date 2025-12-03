@@ -40,6 +40,21 @@ Este documento explica cómo ejecutar el generador de facturas masivas directame
     files.download('facturas_finales.zip')
     ```
 
+5.  **Generar Pruebas con JSON**
+    Si deseas generar facturas de prueba que incluyan el archivo JSON con los datos estructurados, ejecuta:
+    ```python
+    !python generar_pruebas_json.py
+    ```
+    
+    Y para descargar estos resultados:
+    ```python
+    import shutil
+    from google.colab import files
+    
+    shutil.make_archive('pruebas_json', 'zip', 'pruebas_json')
+    files.download('pruebas_json.zip')
+    ```
+
 ## Notas Adicionales
 - Los archivos generados se encuentran en la carpeta `facturas_finales` dentro del entorno de Colab.
 - Puedes modificar los scripts `.py` directamente en Colab haciendo doble clic en ellos en el panel de archivos de la izquierda.

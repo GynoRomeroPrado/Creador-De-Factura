@@ -1,0 +1,82 @@
+{
+    "tipo_comprobante": "FACTURA",
+    "tipo_factura": "general",
+    "numero_factura": "F446-093463",
+    "serie": "F446",
+    "numero": "093463",
+    "fecha_emision": "2025-03-29T00:00:00",
+    "fecha_vencimiento": "2025-03-29T00:00:00",
+    "emisor": {
+        "ruc": "20193316248",
+        "razon_social": "Comercializadora Universal E.I.R.L.",
+        "direccion": "Av. La Marina 552, Santiago de Surco, Lima",
+        "telefono": "964291801",
+        "email": "reservas@negocio.com.pe"
+    },
+    "receptor": {
+        "ruc": "20057061210",
+        "razon_social": "Distribuidora Comercial Lima S.A.C.",
+        "direccion": "Av. Javier Prado Este 4261, Santiago de Surco, Lima",
+        "telefono": "01-2638372",
+        "email": "info@comercial.pe"
+    },
+    "moneda": "EUR",
+    "simbolo_moneda": "€",
+    "nombre_moneda": "EUROS",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detergente Ariel 2.5kg",
+            "unidad": "BLS",
+            "cantidad": 1,
+            "precio_unitario": 43.06,
+            "valor_venta": 43.06
+        },
+        {
+            "numero": 2,
+            "descripcion": "Impresora Multifuncional Epson L3210 (Oferta)",
+            "unidad": "UND",
+            "cantidad": 34,
+            "precio_unitario": 767.2,
+            "valor_venta": 26084.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Huevos Pardos La Calera x30 (Importado)",
+            "unidad": "JAB",
+            "cantidad": 39,
+            "precio_unitario": 21.9,
+            "valor_venta": 854.1
+        },
+        {
+            "numero": 4,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 43,
+            "precio_unitario": 1179.13,
+            "valor_venta": 50702.59
+        }
+    ],
+    "op_gravada": 77684.55,
+    "op_exonerada": 0.0,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 13983.22,
+    "total_cargos": 0.0,
+    "otros_cargos": 0.0,
+    "total": 91667.77,
+    "total_letras": "NOVENTA Y UNO MIL SEISCIENTOS SESENTA Y SIETE CON 77/100 EUROS",
+    "forma_pago": "TRANSFERENCIA BANCARIA",
+    "con_credito": false,
+    "cuotas": [],
+    "numero_contrato": "CW888051",
+    "periodo_facturado": "MARZO 25",
+    "observaciones": null,
+    "datos_hotel": null,
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": null,
+    "industria": "general"
+}

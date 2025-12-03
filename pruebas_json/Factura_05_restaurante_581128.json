@@ -1,0 +1,80 @@
+{
+    "tipo_comprobante": "FACTURA",
+    "tipo_factura": "restaurante",
+    "numero_factura": "F356-581128",
+    "serie": "F356",
+    "numero": "581128",
+    "fecha_emision": "2025-12-04T00:00:00",
+    "fecha_vencimiento": "2025-12-04T00:00:00",
+    "emisor": {
+        "ruc": "20486122502",
+        "razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+        "direccion": "Jr. de la Unión 3660, Miraflores, Lima",
+        "telefono": "995458730",
+        "email": "ventas@comercial.pe"
+    },
+    "receptor": {
+        "ruc": "20535774685",
+        "razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+        "direccion": "Jr. de la Unión 1646, Cercado de Lima, Lima",
+        "telefono": "01-7808876",
+        "email": "facturacion@negocio.com.pe"
+    },
+    "moneda": "EUR",
+    "simbolo_moneda": "€",
+    "nombre_moneda": "EUROS",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Chicha Morada Jarra 1L",
+            "unidad": "JAR",
+            "cantidad": 81,
+            "precio_unitario": 19.84,
+            "valor_venta": 1607.04
+        },
+        {
+            "numero": 2,
+            "descripcion": "Chicha Morada Jarra 1L",
+            "unidad": "JAR",
+            "cantidad": 28,
+            "precio_unitario": 21.73,
+            "valor_venta": 608.44
+        },
+        {
+            "numero": 3,
+            "descripcion": "Ají de Gallina Color: Negro",
+            "unidad": "PLAT",
+            "cantidad": 59,
+            "precio_unitario": 34.38,
+            "valor_venta": 2028.42
+        }
+    ],
+    "op_gravada": 4243.9,
+    "op_exonerada": 0.0,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 763.9,
+    "total_cargos": 0.0,
+    "otros_cargos": 0.0,
+    "total": 5007.8,
+    "total_letras": "CINCO MIL SIETE CON 80/100 EUROS",
+    "forma_pago": "TRANSFERENCIA BANCARIA",
+    "con_credito": false,
+    "cuotas": [],
+    "numero_contrato": null,
+    "periodo_facturado": "DICIEMBRE 25",
+    "observaciones": null,
+    "datos_hotel": null,
+    "datos_seguro": null,
+    "datos_restaurante": {
+        "mesa": "2",
+        "mesero": "Luis G.",
+        "propinas": 13.19,
+        "hora_ingreso": "22:32",
+        "personas": 6
+    },
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": null,
+    "industria": "restaurante"
+}

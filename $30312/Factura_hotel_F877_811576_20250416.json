@@ -1,0 +1,89 @@
+{
+    "tipo_comprobante": "FACTURA ELECTRÓNICA",
+    "tipo_factura": "hotel",
+    "numero_factura": "F877-811576",
+    "serie": "F877",
+    "numero": "811576",
+    "fecha_emision": "2025-04-16T00:00:00",
+    "fecha_vencimiento": "2025-04-16T00:00:00",
+    "emisor": {
+        "ruc": "20016524884",
+        "razon_social": "Sheraton Garden Tacna",
+        "direccion": "Av. La Marina 4657, La Victoria, Lima",
+        "telefono": "993417017",
+        "email": "reservas@hotel.com.pe"
+    },
+    "receptor": {
+        "ruc": "20824449911",
+        "razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+        "direccion": "Av. Javier Prado Este 4855, La Victoria, Lima",
+        "telefono": "01-7630184",
+        "email": "reservas@corp.pe"
+    },
+    "moneda": "EUR",
+    "simbolo_moneda": "€",
+    "nombre_moneda": "EUROS",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.854,
+            "precio_unitario": 74.41,
+            "valor_venta": 733.24,
+            "cargo_item": 131.98,
+            "importe_total": 865.22
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.936,
+            "precio_unitario": 126.79,
+            "valor_venta": 752.63,
+            "cargo_item": 135.47,
+            "importe_total": 888.1
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.922,
+            "precio_unitario": 60.37,
+            "valor_venta": 116.03,
+            "cargo_item": 20.89,
+            "importe_total": 136.92
+        }
+    ],
+    "op_gravada": 1601.9,
+    "op_exonerada": 0.0,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 288.34,
+    "total_cargos": 288.34,
+    "otros_cargos": 34.34,
+    "total": 2212.92,
+    "total_letras": "DOS MIL DOSCIENTOS DOCE CON 92/100 EUROS",
+    "forma_pago": "DEPOSITO EN CUENTA",
+    "con_credito": false,
+    "cuotas": [],
+    "numero_contrato": null,
+    "periodo_facturado": null,
+    "observaciones": null,
+    "datos_hotel": {
+        "checkin": "2025-04-10T00:00:00",
+        "checkout": "2025-04-15T00:00:00",
+        "noches": 5,
+        "reserva": "19624685",
+        "huesped": "Juan Perez Sanchez",
+        "codigo_grupo": null,
+        "nombre_grupo": null,
+        "habitacion": "Habitación Simple"
+    },
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": null,
+    "industria": "hotel"
+}

@@ -1,0 +1,82 @@
+{
+    "tipo_comprobante": "FACTURA ELECTRÓNICA",
+    "tipo_factura": "general",
+    "numero_factura": "F655-966025",
+    "serie": "F655",
+    "numero": "966025",
+    "fecha_emision": "2025-02-10T00:00:00",
+    "fecha_vencimiento": "2025-02-10T00:00:00",
+    "emisor": {
+        "ruc": "20837516766",
+        "razon_social": "Distribuidora Comercial Lima S.A.C.",
+        "direccion": "Av. Javier Prado Este 2460, Cercado de Lima, Lima",
+        "telefono": "01-7396507",
+        "email": "info@empresa.com"
+    },
+    "receptor": {
+        "ruc": "20782216423",
+        "razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+        "direccion": "Av. Javier Prado Este 1856, Santiago de Surco, Lima",
+        "telefono": "01-5296183",
+        "email": "administracion@empresa.com"
+    },
+    "moneda": "USD",
+    "simbolo_moneda": "$",
+    "nombre_moneda": "DOLARES",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 98,
+            "precio_unitario": 6.53,
+            "valor_venta": 639.94
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 35,
+            "precio_unitario": 5.4,
+            "valor_venta": 189.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Gasolina 90 (Oferta)",
+            "unidad": "GL",
+            "cantidad": 10,
+            "precio_unitario": 4.03,
+            "valor_venta": 40.3
+        },
+        {
+            "numero": 4,
+            "descripcion": "Diesel Serie X",
+            "unidad": "GL",
+            "cantidad": 30,
+            "precio_unitario": 4.18,
+            "valor_venta": 125.4
+        }
+    ],
+    "op_gravada": 854.81,
+    "op_exonerada": 139.83,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 153.87,
+    "total_cargos": 0.0,
+    "otros_cargos": 0.0,
+    "total": 1148.51,
+    "total_letras": "MIL CIENTO CUARENTA Y OCHO CON 51/100 DÓLARES",
+    "forma_pago": "TRANSFERENCIA BANCARIA",
+    "con_credito": false,
+    "cuotas": [],
+    "numero_contrato": null,
+    "periodo_facturado": null,
+    "observaciones": null,
+    "datos_hotel": null,
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": null,
+    "industria": "general"
+}

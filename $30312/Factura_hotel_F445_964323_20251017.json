@@ -1,0 +1,160 @@
+{
+    "tipo_comprobante": "FACTURA",
+    "tipo_factura": "hotel",
+    "numero_factura": "F445-964323",
+    "serie": "F445",
+    "numero": "964323",
+    "fecha_emision": "2025-10-17T00:00:00",
+    "fecha_vencimiento": "2025-12-16T00:00:00",
+    "emisor": {
+        "ruc": "20405713790",
+        "razon_social": "Costa del Sol Business Cusco",
+        "direccion": "Av. Benavides 981, Cercado de Lima, Lima",
+        "telefono": "932393592",
+        "email": "facturacion@corp.pe"
+    },
+    "receptor": {
+        "ruc": "20217369755",
+        "razon_social": "Innovación Tecnológica del Perú S.A.",
+        "direccion": "Av. Benavides 1076, Cercado de Lima, Lima",
+        "telefono": "913430058",
+        "email": "contacto@corp.pe"
+    },
+    "moneda": "PEN",
+    "simbolo_moneda": "S/",
+    "nombre_moneda": "SOLES",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.676,
+            "precio_unitario": 131.6,
+            "valor_venta": 1010.16,
+            "cargo_item": 181.83,
+            "importe_total": 1191.99
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.667,
+            "precio_unitario": 42.28,
+            "valor_venta": 197.32,
+            "cargo_item": 35.52,
+            "importe_total": 232.84
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.725,
+            "precio_unitario": 122.82,
+            "valor_venta": 825.96,
+            "cargo_item": 148.67,
+            "importe_total": 974.63
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.785,
+            "precio_unitario": 52.05,
+            "valor_venta": 144.96,
+            "cargo_item": 26.09,
+            "importe_total": 171.05
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.239,
+            "precio_unitario": 119.45,
+            "valor_venta": 625.8,
+            "cargo_item": 112.64,
+            "importe_total": 738.44
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.005,
+            "precio_unitario": 90.68,
+            "valor_venta": 91.13,
+            "cargo_item": 16.4,
+            "importe_total": 107.53
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.238,
+            "precio_unitario": 44.51,
+            "valor_venta": 99.61,
+            "cargo_item": 17.93,
+            "importe_total": 117.54
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.602,
+            "precio_unitario": 71.13,
+            "valor_venta": 398.47,
+            "cargo_item": 71.72,
+            "importe_total": 470.19
+        },
+        {
+            "numero": 9,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.756,
+            "precio_unitario": 73.29,
+            "valor_venta": 641.73,
+            "cargo_item": 115.51,
+            "importe_total": 757.24
+        }
+    ],
+    "op_gravada": 4035.14,
+    "op_exonerada": 0.0,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 726.33,
+    "total_cargos": 726.31,
+    "otros_cargos": 0.0,
+    "total": 5487.78,
+    "total_letras": "CINCO MIL CUATROCIENTOS OCHENTA Y SIETE CON 78/100 SOLES",
+    "forma_pago": "Credito",
+    "con_credito": true,
+    "cuotas": [
+        {
+            "numero": 1,
+            "fecha_vencimiento": "2025-11-16T00:00:00",
+            "monto": 2743.89
+        },
+        {
+            "numero": 2,
+            "fecha_vencimiento": "2025-12-16T00:00:00",
+            "monto": 2743.89
+        }
+    ],
+    "numero_contrato": "CW494268",
+    "periodo_facturado": null,
+    "observaciones": "Válido hasta fin de mes",
+    "datos_hotel": {
+        "checkin": "2025-10-11T00:00:00",
+        "checkout": "2025-10-18T00:00:00",
+        "noches": 7,
+        "reserva": "89328266",
+        "huesped": "Juan Lopez Rodriguez",
+        "codigo_grupo": null,
+        "nombre_grupo": null,
+        "habitacion": "Habitación Junior Suite"
+    },
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": null,
+    "industria": "hotel"
+}

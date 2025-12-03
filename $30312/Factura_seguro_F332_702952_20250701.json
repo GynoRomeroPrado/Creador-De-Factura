@@ -1,0 +1,129 @@
+{
+    "tipo_comprobante": "FACTURA",
+    "tipo_factura": "seguro",
+    "numero_factura": "F332-702952",
+    "serie": "F332",
+    "numero": "702952",
+    "fecha_emision": "2025-07-01T00:00:00",
+    "fecha_vencimiento": "2025-07-31T00:00:00",
+    "emisor": {
+        "ruc": "20842565601",
+        "razon_social": "Innovación Tecnológica del Perú S.A.",
+        "direccion": "Jr. de la Unión 817, Santiago de Surco, Lima",
+        "telefono": "01-6352249",
+        "email": "administracion@corp.pe"
+    },
+    "receptor": {
+        "ruc": "20346025043",
+        "razon_social": "Innovación Tecnológica del Perú S.A.",
+        "direccion": "Av. La Marina 2958, Cercado de Lima, Lima",
+        "telefono": "01-2851943",
+        "email": "contacto@comercial.pe"
+    },
+    "moneda": "PEN",
+    "simbolo_moneda": "S/",
+    "nombre_moneda": "SOLES",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Color: Negro",
+            "unidad": "POL",
+            "cantidad": 74,
+            "precio_unitario": 117.73,
+            "valor_venta": 8712.02
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 35,
+            "precio_unitario": 2495.6,
+            "valor_venta": 87346.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 20,
+            "precio_unitario": 343.0,
+            "valor_venta": 6860.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 20,
+            "precio_unitario": 2204.32,
+            "valor_venta": 44086.4
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 18,
+            "precio_unitario": 105.36,
+            "valor_venta": 1896.48
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 43,
+            "precio_unitario": 936.64,
+            "valor_venta": 40275.52
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 77,
+            "precio_unitario": 1009.08,
+            "valor_venta": 77699.16
+        }
+    ],
+    "op_gravada": 228991.9,
+    "op_exonerada": 0.0,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 41218.54,
+    "total_cargos": 0.0,
+    "otros_cargos": 0.0,
+    "total": 270210.44,
+    "total_letras": "DOSCIENTOS SETENTA MIL DOSCIENTOS DIEZ CON 44/100 SOLES",
+    "forma_pago": "CREDITO 90 DIAS",
+    "con_credito": true,
+    "cuotas": [
+        {
+            "numero": 1,
+            "fecha_vencimiento": "2025-07-31T00:00:00",
+            "monto": 270210.44
+        }
+    ],
+    "numero_contrato": null,
+    "periodo_facturado": null,
+    "observaciones": "Válido hasta fin de mes",
+    "datos_hotel": null,
+    "datos_seguro": {
+        "numero_documento": "VH 103955735",
+        "numero_poliza": "4146165263",
+        "giro": "6539493047",
+        "vigencia_inicio": "2025-07-01T00:00:00",
+        "vigencia_fin": "2026-07-01T00:00:00",
+        "prima": 249.46,
+        "vehiculo": "JKL708"
+    },
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": {
+        "descripcion": "Descuento",
+        "monto": 37883.68,
+        "gravado": 32201.13,
+        "exonerado": 0.0,
+        "igv": 5682.55,
+        "icbper": 0.0,
+        "total": 37883.68,
+        "detraccion": 0.0
+    },
+    "industria": "general"
+}

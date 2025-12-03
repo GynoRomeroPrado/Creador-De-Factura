@@ -1,0 +1,82 @@
+{
+    "tipo_comprobante": "FACTURA ELECTRÓNICA",
+    "tipo_factura": "general",
+    "numero_factura": "F393-058273",
+    "serie": "F393",
+    "numero": "058273",
+    "fecha_emision": "2025-11-03T00:00:00",
+    "fecha_vencimiento": "2025-11-03T00:00:00",
+    "emisor": {
+        "ruc": "20586089600",
+        "razon_social": "Importaciones Generales del Perú S.R.L.",
+        "direccion": "Calle Los Pinos 565, San Borja, Lima",
+        "telefono": "01-7323171",
+        "email": "facturacion@empresa.com"
+    },
+    "receptor": {
+        "ruc": "20720163030",
+        "razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+        "direccion": "Calle Los Pinos 3209, La Victoria, Lima",
+        "telefono": "960849453",
+        "email": "info@comercial.pe"
+    },
+    "moneda": "USD",
+    "simbolo_moneda": "$",
+    "nombre_moneda": "DOLARES",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detergente Ariel 2.5kg",
+            "unidad": "BLS",
+            "cantidad": 12,
+            "precio_unitario": 41.75,
+            "valor_venta": 501.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Papel Higiénico Elite Doble Hoja x12",
+            "unidad": "PAQ",
+            "cantidad": 78,
+            "precio_unitario": 19.81,
+            "valor_venta": 1545.18
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 49,
+            "precio_unitario": 1529.47,
+            "valor_venta": 74944.03
+        },
+        {
+            "numero": 4,
+            "descripcion": "Servicio de Mudanza Local (Camión 5TN) Serie X",
+            "unidad": "SRV",
+            "cantidad": 34,
+            "precio_unitario": 668.21,
+            "valor_venta": 22719.14
+        }
+    ],
+    "op_gravada": 89903.42,
+    "op_exonerada": 0.0,
+    "op_inafecta": 9805.93,
+    "op_gratuitas": 0.0,
+    "igv": 16182.62,
+    "total_cargos": 0.0,
+    "otros_cargos": 0.0,
+    "total": 115891.97,
+    "total_letras": "CIENTO QUINCE MIL OCHOCIENTOS NOVENTA Y UNO CON 97/100 DÓLARES",
+    "forma_pago": "DEPOSITO EN CUENTA",
+    "con_credito": false,
+    "cuotas": [],
+    "numero_contrato": "CW863670",
+    "periodo_facturado": null,
+    "observaciones": "SIRVASE ENTREGAR LA LLAVE A LA RECEPCION / PLEASE LEAVE THE KEY AT THE DESK",
+    "datos_hotel": null,
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": null,
+    "industria": "general"
+}

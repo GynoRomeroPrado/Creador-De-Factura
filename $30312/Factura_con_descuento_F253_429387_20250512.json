@@ -1,0 +1,81 @@
+{
+    "tipo_comprobante": "FACTURA ELECTRÓNICA",
+    "tipo_factura": "con_descuento",
+    "numero_factura": "F253-429387",
+    "serie": "F253",
+    "numero": "429387",
+    "fecha_emision": "2025-05-12T00:00:00",
+    "fecha_vencimiento": "2025-06-11T00:00:00",
+    "emisor": {
+        "ruc": "20071591523",
+        "razon_social": "Tecnología Digital Avanzada S.A.C.",
+        "direccion": "Av. Benavides 4767, La Victoria, Lima",
+        "telefono": "963126371",
+        "email": "info@empresa.com"
+    },
+    "receptor": {
+        "ruc": "20659951348",
+        "razon_social": "Constructora Los Andes S.A.C.",
+        "direccion": "Av. Javier Prado Este 483, Santiago de Surco, Lima",
+        "telefono": "01-2858398",
+        "email": "contacto@corp.pe"
+    },
+    "moneda": "PEN",
+    "simbolo_moneda": "S/",
+    "nombre_moneda": "SOLES",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.514,
+            "precio_unitario": 33.05,
+            "valor_venta": 215.29
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.286,
+            "precio_unitario": 53.83,
+            "valor_venta": 176.89
+        }
+    ],
+    "op_gravada": 366.19,
+    "op_exonerada": 0.0,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 65.91,
+    "total_cargos": 0.0,
+    "otros_cargos": 0.0,
+    "total": 432.1,
+    "total_letras": "CUATROCIENTOS TREINTA Y DOS CON 10/100 SOLES",
+    "forma_pago": "CREDITO 30 DIAS",
+    "con_credito": true,
+    "cuotas": [
+        {
+            "numero": 1,
+            "fecha_vencimiento": "2025-06-11T00:00:00",
+            "monto": 432.1
+        }
+    ],
+    "numero_contrato": null,
+    "periodo_facturado": null,
+    "observaciones": null,
+    "datos_hotel": null,
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": {
+        "descripcion": "Descuento",
+        "monto": 25.99,
+        "gravado": 22.09,
+        "exonerado": 0.0,
+        "igv": 3.9,
+        "icbper": 0.0,
+        "total": 25.99,
+        "detraccion": 0.0
+    },
+    "industria": "general"
+}

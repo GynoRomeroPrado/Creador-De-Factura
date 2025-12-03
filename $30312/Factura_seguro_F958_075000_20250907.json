@@ -1,0 +1,122 @@
+{
+    "tipo_comprobante": "FACTURA ELECTRÓNICA",
+    "tipo_factura": "seguro",
+    "numero_factura": "F958-075000",
+    "serie": "F958",
+    "numero": "075000",
+    "fecha_emision": "2025-09-07T00:00:00",
+    "fecha_vencimiento": "2025-09-07T00:00:00",
+    "emisor": {
+        "ruc": "20619895224",
+        "razon_social": "Innovación Tecnológica del Perú S.A.",
+        "direccion": "Jr. de la Unión 3526, Santiago de Surco, Lima",
+        "telefono": "01-2405290",
+        "email": "reservas@comercial.pe"
+    },
+    "receptor": {
+        "ruc": "20720433428",
+        "razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+        "direccion": "Av. Benavides 4790, Cercado de Lima, Lima",
+        "telefono": "928816643",
+        "email": "ventas@hotel.com.pe"
+    },
+    "moneda": "EUR",
+    "simbolo_moneda": "€",
+    "nombre_moneda": "EUROS",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 12,
+            "precio_unitario": 336.25,
+            "valor_venta": 4035.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 47,
+            "precio_unitario": 163.04,
+            "valor_venta": 7662.88
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 79,
+            "precio_unitario": 1326.44,
+            "valor_venta": 104788.76
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 26,
+            "precio_unitario": 410.55,
+            "valor_venta": 10674.3
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios (Oferta)",
+            "unidad": "POL",
+            "cantidad": 96,
+            "precio_unitario": 982.64,
+            "valor_venta": 94333.44
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 42,
+            "precio_unitario": 1014.97,
+            "valor_venta": 42628.74
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 91,
+            "precio_unitario": 483.24,
+            "valor_venta": 43974.84
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro Vehicular Todo Riesgo Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 42,
+            "precio_unitario": 2307.51,
+            "valor_venta": 96915.42
+        }
+    ],
+    "op_gravada": 405013.38,
+    "op_exonerada": 0.0,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 72902.41,
+    "total_cargos": 0.0,
+    "otros_cargos": 27.35,
+    "total": 477943.14,
+    "total_letras": "CUATROCIENTOS SETENTA Y SIETE MIL NOVECIENTOS CUARENTA Y TRES CON 14/100 EUROS",
+    "forma_pago": "DEPOSITO EN CUENTA",
+    "con_credito": false,
+    "cuotas": [],
+    "numero_contrato": null,
+    "periodo_facturado": null,
+    "observaciones": null,
+    "datos_hotel": null,
+    "datos_seguro": {
+        "numero_documento": "RP 900173692",
+        "numero_poliza": "7506958028",
+        "giro": "8241524335",
+        "vigencia_inicio": "2025-09-07T00:00:00",
+        "vigencia_fin": "2026-09-07T00:00:00",
+        "prima": 468.22,
+        "vehiculo": "ABC432"
+    },
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": null,
+    "industria": "general"
+}

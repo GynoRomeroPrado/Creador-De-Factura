@@ -1,0 +1,109 @@
+{
+    "tipo_comprobante": "FACTURA",
+    "tipo_factura": "hotel",
+    "numero_factura": "F057-021393",
+    "serie": "F057",
+    "numero": "021393",
+    "fecha_emision": "2025-09-26T00:00:00",
+    "fecha_vencimiento": "2025-09-26T00:00:00",
+    "emisor": {
+        "ruc": "20305146502",
+        "razon_social": "Sonesta Resort Arequipa",
+        "direccion": "Av. Javier Prado Este 179, San Borja, Lima",
+        "telefono": "990833282",
+        "email": "facturacion@empresa.com"
+    },
+    "receptor": {
+        "ruc": "20212476821",
+        "razon_social": "Servicios Empresariales Integrales S.A.",
+        "direccion": "Jr. de la Unión 2431, San Borja, Lima",
+        "telefono": "920829580",
+        "email": "administracion@empresa.com"
+    },
+    "moneda": "EUR",
+    "simbolo_moneda": "€",
+    "nombre_moneda": "EUROS",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.177,
+            "precio_unitario": 53.11,
+            "valor_venta": 221.84,
+            "cargo_item": 39.93,
+            "importe_total": 261.77
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.8,
+            "precio_unitario": 98.91,
+            "valor_venta": 870.41,
+            "cargo_item": 156.67,
+            "importe_total": 1027.08
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.901,
+            "precio_unitario": 81.1,
+            "valor_venta": 316.37,
+            "cargo_item": 56.95,
+            "importe_total": 373.32
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION pack x6",
+            "unidad": "NIU",
+            "cantidad": 3.982,
+            "precio_unitario": 49.07,
+            "valor_venta": 195.4,
+            "cargo_item": 35.17,
+            "importe_total": 230.57
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.775,
+            "precio_unitario": 116.0,
+            "valor_venta": 205.9,
+            "cargo_item": 37.06,
+            "importe_total": 242.96
+        }
+    ],
+    "op_gravada": 1809.92,
+    "op_exonerada": 0.0,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 325.79,
+    "total_cargos": 325.78,
+    "otros_cargos": 44.93,
+    "total": 2506.42,
+    "total_letras": "DOS MIL QUINIENTOS SEIS CON 42/100 EUROS",
+    "forma_pago": "EFECTIVO",
+    "con_credito": false,
+    "cuotas": [],
+    "numero_contrato": null,
+    "periodo_facturado": null,
+    "observaciones": "CREDITO 15 DIAS",
+    "datos_hotel": {
+        "checkin": "2025-09-19T00:00:00",
+        "checkout": "2025-09-28T00:00:00",
+        "noches": 9,
+        "reserva": "98698998",
+        "huesped": "Luis Lopez Rodriguez",
+        "codigo_grupo": null,
+        "nombre_grupo": null,
+        "habitacion": "Habitación Suite"
+    },
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": null,
+    "industria": "hotel"
+}

@@ -1,0 +1,79 @@
+{
+    "tipo_comprobante": "FACTURA",
+    "tipo_factura": "general",
+    "numero_factura": "F742-228018",
+    "serie": "F742",
+    "numero": "228018",
+    "fecha_emision": "2025-07-04T00:00:00",
+    "fecha_vencimiento": "2025-11-01T00:00:00",
+    "emisor": {
+        "ruc": "20169782416",
+        "razon_social": "Servicios Empresariales Integrales S.A.",
+        "direccion": "Av. Benavides 2091, Miraflores, Lima",
+        "telefono": "917001479",
+        "email": "facturacion@hotel.com.pe"
+    },
+    "receptor": {
+        "ruc": "20955686587",
+        "razon_social": "Gastronomía Peruana S.A.C.",
+        "direccion": "Av. La Marina 1866, San Borja, Lima",
+        "telefono": "927581976",
+        "email": "reservas@negocio.com.pe"
+    },
+    "moneda": "PEN",
+    "simbolo_moneda": "S/",
+    "nombre_moneda": "SOLES",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Thinner Acrílico Vencedor (Galón) Color: Negro",
+            "unidad": "GLN",
+            "cantidad": 36,
+            "precio_unitario": 25.61,
+            "valor_venta": 921.96
+        }
+    ],
+    "op_gravada": 921.96,
+    "op_exonerada": 0.0,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 165.95,
+    "total_cargos": 0.0,
+    "otros_cargos": 32.36,
+    "total": 1120.27,
+    "total_letras": "MIL CIENTO VEINTE CON 27/100 SOLES",
+    "forma_pago": "CREDITO 60 DIAS",
+    "con_credito": true,
+    "cuotas": [
+        {
+            "numero": 1,
+            "fecha_vencimiento": "2025-08-03T00:00:00",
+            "monto": 280.07
+        },
+        {
+            "numero": 2,
+            "fecha_vencimiento": "2025-09-02T00:00:00",
+            "monto": 280.07
+        },
+        {
+            "numero": 3,
+            "fecha_vencimiento": "2025-10-02T00:00:00",
+            "monto": 280.07
+        },
+        {
+            "numero": 4,
+            "fecha_vencimiento": "2025-11-01T00:00:00",
+            "monto": 280.06
+        }
+    ],
+    "numero_contrato": "CW942260",
+    "periodo_facturado": null,
+    "observaciones": "CREDITO 15 DIAS",
+    "datos_hotel": null,
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": null,
+    "industria": "construccion"
+}

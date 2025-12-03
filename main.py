@@ -9,9 +9,17 @@ Uso:
 import argparse
 import os
 import sys
+import json
+from datetime import date, datetime
 from pathlib import Path
 from src.generator import FacturaGenerator
 from src.pdf_creator import PDFFactura
+
+class DateEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, (date, datetime)):
+            return obj.isoformat()
+        return super().default(obj)
 
 
 def generar_facturas(cantidad: int, output_dir: str, verbose: bool = True):
@@ -76,12 +84,20 @@ def generar_facturas(cantidad: int, output_dir: str, verbose: bool = True):
 
             # Crear PDF
             archivo = gen_pdf.crear_factura(factura)
+            
+            # Guardar JSON
+            json_filename = os.path.basename(archivo).replace('.pdf', '.json')
+            json_path = os.path.join(output_dir, json_filename)
+            
+            with open(json_path, 'w', encoding='utf-8') as f:
+                json.dump(factura, f, cls=DateEncoder, indent=4, ensure_ascii=False)
 
             facturas_generadas.append(archivo)
 
             if verbose:
                 tipo_desc = f"[{tipo.upper()}]"
                 print(f"✓ {tipo_desc} {factura['numero_factura']} - {factura['simbolo_moneda']}{factura['total']:.2f}")
+                print(f"  -> JSON: {json_filename}")
 
         except Exception as e:
             if verbose:

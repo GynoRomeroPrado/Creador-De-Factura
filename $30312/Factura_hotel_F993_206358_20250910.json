@@ -1,0 +1,138 @@
+{
+    "tipo_comprobante": "FACTURA",
+    "tipo_factura": "hotel",
+    "numero_factura": "F993-206358",
+    "serie": "F993",
+    "numero": "206358",
+    "fecha_emision": "2025-09-10T00:00:00",
+    "fecha_vencimiento": "2025-09-10T00:00:00",
+    "emisor": {
+        "ruc": "20822166904",
+        "razon_social": "JW Marriott Wyndham Piura",
+        "direccion": "Calle Los Pinos 3032, La Victoria, Lima",
+        "telefono": "910367125",
+        "email": "contacto@hotel.com.pe"
+    },
+    "receptor": {
+        "ruc": "20449528914",
+        "razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+        "direccion": "Jr. de la Unión 1174, Cercado de Lima, Lima",
+        "telefono": "986550663",
+        "email": "info@negocio.com.pe"
+    },
+    "moneda": "USD",
+    "simbolo_moneda": "$",
+    "nombre_moneda": "DOLARES",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.996,
+            "precio_unitario": 36.65,
+            "valor_venta": 256.4,
+            "cargo_item": 46.15,
+            "importe_total": 302.55
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.531,
+            "precio_unitario": 131.89,
+            "valor_venta": 729.48,
+            "cargo_item": 131.31,
+            "importe_total": 860.79
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.668,
+            "precio_unitario": 76.63,
+            "valor_venta": 664.23,
+            "cargo_item": 119.56,
+            "importe_total": 783.79
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION pack x6",
+            "unidad": "NIU",
+            "cantidad": 4.366,
+            "precio_unitario": 50.33,
+            "valor_venta": 219.74,
+            "cargo_item": 39.55,
+            "importe_total": 259.29
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.625,
+            "precio_unitario": 127.93,
+            "valor_venta": 1231.33,
+            "cargo_item": 221.64,
+            "importe_total": 1452.97
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.097,
+            "precio_unitario": 87.34,
+            "valor_venta": 619.85,
+            "cargo_item": 111.57,
+            "importe_total": 731.42
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.367,
+            "precio_unitario": 30.25,
+            "valor_venta": 253.1,
+            "cargo_item": 45.56,
+            "importe_total": 298.66
+        }
+    ],
+    "op_gravada": 2777.63,
+    "op_exonerada": 980.74,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 499.97,
+    "total_cargos": 715.34,
+    "otros_cargos": 0.0,
+    "total": 4973.68,
+    "total_letras": "CUATRO MIL NOVECIENTOS SETENTA Y TRES CON 68/100 DÓLARES",
+    "forma_pago": "DEPOSITO EN CUENTA",
+    "con_credito": false,
+    "cuotas": [],
+    "numero_contrato": null,
+    "periodo_facturado": "SEPTIEMBRE 25",
+    "observaciones": null,
+    "datos_hotel": {
+        "checkin": "2025-09-10T00:00:00",
+        "checkout": "2025-09-12T00:00:00",
+        "noches": 2,
+        "reserva": "61543807",
+        "huesped": "Luis Garcia Garcia",
+        "codigo_grupo": 7433,
+        "nombre_grupo": "X3",
+        "habitacion": "Habitación Doble"
+    },
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": {
+        "descripcion": "Descuento",
+        "monto": 215.76,
+        "gravado": 183.4,
+        "exonerado": 0.0,
+        "igv": 32.36,
+        "icbper": 0.0,
+        "total": 215.76,
+        "detraccion": 0.0
+    },
+    "industria": "hotel"
+}

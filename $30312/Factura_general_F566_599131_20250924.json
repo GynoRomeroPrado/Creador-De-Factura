@@ -1,0 +1,98 @@
+{
+    "tipo_comprobante": "FACTURA ELECTRÓNICA",
+    "tipo_factura": "general",
+    "numero_factura": "F566-599131",
+    "serie": "F566",
+    "numero": "599131",
+    "fecha_emision": "2025-09-24T00:00:00",
+    "fecha_vencimiento": "2025-09-24T00:00:00",
+    "emisor": {
+        "ruc": "20699352749",
+        "razon_social": "Importaciones Generales del Perú S.R.L.",
+        "direccion": "Calle Los Pinos 2072, Santiago de Surco, Lima",
+        "telefono": "920228366",
+        "email": "contacto@hotel.com.pe"
+    },
+    "receptor": {
+        "ruc": "20975066445",
+        "razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+        "direccion": "Av. Benavides 3973, Miraflores, Lima",
+        "telefono": "963947387",
+        "email": "ventas@hotel.com.pe"
+    },
+    "moneda": "EUR",
+    "simbolo_moneda": "€",
+    "nombre_moneda": "EUROS",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Azúcar Blanca x 50kg (Importado)",
+            "unidad": "SAC",
+            "cantidad": 50,
+            "precio_unitario": 113.75,
+            "valor_venta": 5687.5
+        },
+        {
+            "numero": 2,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 59,
+            "precio_unitario": 141.3,
+            "valor_venta": 8336.7
+        },
+        {
+            "numero": 3,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 94,
+            "precio_unitario": 4.33,
+            "valor_venta": 407.02
+        },
+        {
+            "numero": 4,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 93,
+            "precio_unitario": 16.57,
+            "valor_venta": 1541.01
+        },
+        {
+            "numero": 5,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 89,
+            "precio_unitario": 24.59,
+            "valor_venta": 2188.51
+        },
+        {
+            "numero": 6,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 5,
+            "precio_unitario": 17.89,
+            "valor_venta": 89.45
+        }
+    ],
+    "op_gravada": 18250.19,
+    "op_exonerada": 0.0,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 3285.03,
+    "total_cargos": 0.0,
+    "otros_cargos": 0.0,
+    "total": 21535.22,
+    "total_letras": "VEINTIUNO MIL QUINIENTOS TREINTA Y CINCO CON 22/100 EUROS",
+    "forma_pago": "TRANSFERENCIA BANCARIA",
+    "con_credito": false,
+    "cuotas": [],
+    "numero_contrato": null,
+    "periodo_facturado": null,
+    "observaciones": null,
+    "datos_hotel": null,
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": null,
+    "industria": "restaurante"
+}

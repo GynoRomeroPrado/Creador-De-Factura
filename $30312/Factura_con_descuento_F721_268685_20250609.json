@@ -1,0 +1,99 @@
+{
+    "tipo_comprobante": "FACTURA",
+    "tipo_factura": "con_descuento",
+    "numero_factura": "F721-268685",
+    "serie": "F721",
+    "numero": "268685",
+    "fecha_emision": "2025-06-09T00:00:00",
+    "fecha_vencimiento": "2025-06-09T00:00:00",
+    "emisor": {
+        "ruc": "20515078437",
+        "razon_social": "CompuVentas Express E.I.R.L.",
+        "direccion": "Av. Arequipa 2783, Cercado de Lima, Lima",
+        "telefono": "977379680",
+        "email": "facturacion@empresa.com"
+    },
+    "receptor": {
+        "ruc": "20945438003",
+        "razon_social": "CompuVentas Express E.I.R.L.",
+        "direccion": "Av. Arequipa 3772, La Victoria, Lima",
+        "telefono": "01-2774485",
+        "email": "contacto@corp.pe"
+    },
+    "moneda": "USD",
+    "simbolo_moneda": "$",
+    "nombre_moneda": "DOLARES",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Cemento Sol Tipo I (42.5kg)",
+            "unidad": "BOL",
+            "cantidad": 59,
+            "precio_unitario": 27.92,
+            "valor_venta": 1647.28
+        },
+        {
+            "numero": 2,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 21,
+            "precio_unitario": 33.62,
+            "valor_venta": 706.02
+        },
+        {
+            "numero": 3,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt (Importado)",
+            "unidad": "UND",
+            "cantidad": 90,
+            "precio_unitario": 5.7,
+            "valor_venta": 513.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 87,
+            "precio_unitario": 19.05,
+            "valor_venta": 1657.35
+        },
+        {
+            "numero": 5,
+            "descripcion": "Piedra Chancada 1/2\" (m3) (Oferta)",
+            "unidad": "M3",
+            "cantidad": 23,
+            "precio_unitario": 69.95,
+            "valor_venta": 1608.85
+        }
+    ],
+    "op_gravada": 5290.72,
+    "op_exonerada": 0.0,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 952.33,
+    "total_cargos": 0.0,
+    "otros_cargos": 0.0,
+    "total": 6243.05,
+    "total_letras": "SEIS MIL DOSCIENTOS CUARENTA Y TRES CON 05/100 DÓLARES",
+    "forma_pago": "TRANSFERENCIA BANCARIA",
+    "con_credito": false,
+    "cuotas": [],
+    "numero_contrato": null,
+    "periodo_facturado": null,
+    "observaciones": null,
+    "datos_hotel": null,
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": {
+        "descripcion": "Descuento",
+        "monto": 841.78,
+        "gravado": 715.51,
+        "exonerado": 0.0,
+        "igv": 126.27,
+        "icbper": 0.0,
+        "total": 841.78,
+        "detraccion": 0.0
+    },
+    "industria": "construccion"
+}

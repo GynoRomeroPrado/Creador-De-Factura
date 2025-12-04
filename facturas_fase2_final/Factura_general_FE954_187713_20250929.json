@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE954-187713",
+    "fecha_emision": "2025-09-29T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20154178971",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 4466, Miraflores, Lima",
+    "receptor_numero_doc": "20721806694",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 4535, Miraflores, Lima",
+    "subtotal": 201187.06,
+    "igv": 25469.73,
+    "importe_total": 226656.79,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica Modelo 2025",
+            "unidad": "PROY",
+            "cantidad": 18,
+            "precio_unitario": 4516.73,
+            "valor_venta": 81301.14
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 97,
+            "precio_unitario": 1062.91,
+            "valor_venta": 103102.27
+        },
+        {
+            "numero": 3,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 19,
+            "precio_unitario": 883.35,
+            "valor_venta": 16783.65
+        }
+    ]
+}

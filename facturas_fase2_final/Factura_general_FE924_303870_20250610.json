@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE924-303870",
+    "fecha_emision": "2025-06-10T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20850296481",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Benavides 2772, San Isidro, Lima",
+    "receptor_numero_doc": "20160369656",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Benavides 2392, San Isidro, Lima",
+    "subtotal": 1003.81,
+    "igv": 180.69,
+    "importe_total": 1233.93,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 24,
+            "precio_unitario": 4.92,
+            "valor_venta": 118.08
+        },
+        {
+            "numero": 2,
+            "descripcion": "GLP (Importado)",
+            "unidad": "GL",
+            "cantidad": 89,
+            "precio_unitario": 2.32,
+            "valor_venta": 206.48
+        },
+        {
+            "numero": 3,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 23,
+            "precio_unitario": 5.41,
+            "valor_venta": 124.43
+        },
+        {
+            "numero": 4,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 84,
+            "precio_unitario": 4.47,
+            "valor_venta": 375.48
+        },
+        {
+            "numero": 5,
+            "descripcion": "GLP Color: Negro",
+            "unidad": "GL",
+            "cantidad": 61,
+            "precio_unitario": 2.94,
+            "valor_venta": 179.34
+        }
+    ]
+}

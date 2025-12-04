@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA350-220858",
+    "fecha_emision": "2025-10-29T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20186060726",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Arequipa 794, La Victoria, Lima",
+    "receptor_numero_doc": "20167987592",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 1138, San Isidro, Lima",
+    "subtotal": 119956.08,
+    "igv": 21592.09,
+    "importe_total": 141548.17,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 9,
+            "precio_unitario": 163.22,
+            "valor_venta": 1468.98
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 94,
+            "precio_unitario": 988.38,
+            "valor_venta": 92907.72
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 46,
+            "precio_unitario": 339.45,
+            "valor_venta": 15614.7
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 2,
+            "precio_unitario": 1320.66,
+            "valor_venta": 2641.32
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios Serie X",
+            "unidad": "POL",
+            "cantidad": 11,
+            "precio_unitario": 665.76,
+            "valor_venta": 7323.36
+        }
+    ]
+}

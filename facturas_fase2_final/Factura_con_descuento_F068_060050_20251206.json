@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F068-060050",
+    "fecha_emision": "2025-12-06T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20565443195",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 658, San Borja, Lima",
+    "receptor_numero_doc": "20327815742",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 2392, Santiago de Surco, Lima",
+    "subtotal": 1269.38,
+    "igv": 189.09,
+    "importe_total": 1458.47,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.688,
+            "precio_unitario": 56.87,
+            "valor_venta": 96.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION pack x6",
+            "unidad": "NIU",
+            "cantidad": 9.373,
+            "precio_unitario": 62.96,
+            "valor_venta": 590.12
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.979,
+            "precio_unitario": 67.92,
+            "valor_venta": 134.41
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.336,
+            "precio_unitario": 63.49,
+            "valor_venta": 465.76
+        }
+    ]
+}

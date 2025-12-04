@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F769-007432",
+    "fecha_emision": "2025-12-03T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20382018177",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Arequipa 3291, La Victoria, Lima",
+    "receptor_numero_doc": "20705596795",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 280, San Isidro, Lima",
+    "subtotal": 209373.27,
+    "igv": 37687.19,
+    "importe_total": 247060.46,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 73,
+            "precio_unitario": 457.23,
+            "valor_venta": 33377.79
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 12,
+            "precio_unitario": 124.66,
+            "valor_venta": 1495.92
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 2852.14,
+            "valor_venta": 151163.42
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 29,
+            "precio_unitario": 159.31,
+            "valor_venta": 4619.99
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida Color: Negro",
+            "unidad": "POL",
+            "cantidad": 82,
+            "precio_unitario": 235.17,
+            "valor_venta": 19283.94
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 24,
+            "precio_unitario": 442.65,
+            "valor_venta": 10623.6
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F428-073457",
+    "fecha_emision": "2025-06-23T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20556728381",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Jr. de la Unión 3816, Miraflores, Lima",
+    "receptor_numero_doc": "20264361355",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Benavides 3678, San Borja, Lima",
+    "subtotal": 96512.59,
+    "igv": 13633.82,
+    "importe_total": 110146.41,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 69,
+            "precio_unitario": 165.21,
+            "valor_venta": 11399.49
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 8,
+            "precio_unitario": 159.29,
+            "valor_venta": 1274.32
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Color: Negro",
+            "unidad": "POL",
+            "cantidad": 50,
+            "precio_unitario": 131.0,
+            "valor_venta": 6550.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 73,
+            "precio_unitario": 825.02,
+            "valor_venta": 60226.46
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Oferta)",
+            "unidad": "POL",
+            "cantidad": 88,
+            "precio_unitario": 193.89,
+            "valor_venta": 17062.32
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E856-111130",
+    "fecha_emision": "2025-06-28T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20834090423",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 2196, San Isidro, Lima",
+    "receptor_numero_doc": "20815962355",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Av. La Marina 4575, San Borja, Lima",
+    "subtotal": 86711.71,
+    "igv": 15608.11,
+    "importe_total": 102319.82,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 37,
+            "precio_unitario": 1067.0,
+            "valor_venta": 39479.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 11,
+            "precio_unitario": 2316.08,
+            "valor_venta": 25476.88
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 71,
+            "precio_unitario": 266.11,
+            "valor_venta": 18893.81
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo Serie X",
+            "unidad": "POL",
+            "cantidad": 1,
+            "precio_unitario": 2862.02,
+            "valor_venta": 2862.02
+        }
+    ]
+}

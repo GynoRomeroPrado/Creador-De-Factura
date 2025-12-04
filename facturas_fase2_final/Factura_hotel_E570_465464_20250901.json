@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E570-465464",
+    "fecha_emision": "2025-09-01T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20475879580",
+    "emisor_razon_social": "Marriott Premium Arequipa",
+    "emisor_direccion": "Av. Arequipa 2467, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20266541954",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 4912, Miraflores, Lima",
+    "subtotal": 1391.47,
+    "igv": 250.46,
+    "importe_total": 1892.39,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.735,
+            "precio_unitario": 45.29,
+            "valor_venta": 78.58,
+            "cargo_item": 14.14,
+            "importe_total": 92.72
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.441,
+            "precio_unitario": 100.28,
+            "valor_venta": 244.78,
+            "cargo_item": 44.06,
+            "importe_total": 288.84
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.472,
+            "precio_unitario": 92.94,
+            "valor_venta": 229.75,
+            "cargo_item": 41.35,
+            "importe_total": 271.1
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.987,
+            "precio_unitario": 67.08,
+            "valor_venta": 334.53,
+            "cargo_item": 60.22,
+            "importe_total": 394.75
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.474,
+            "precio_unitario": 53.18,
+            "valor_venta": 503.83,
+            "cargo_item": 90.69,
+            "importe_total": 594.52
+        }
+    ]
+}

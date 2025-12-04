@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE725-776604",
+    "fecha_emision": "2025-08-10T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20818485281",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 1455, La Victoria, Lima",
+    "receptor_numero_doc": "20509234397",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. La Marina 3968, Miraflores, Lima",
+    "subtotal": 3966.2,
+    "igv": 713.92,
+    "importe_total": 4680.12,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 48,
+            "precio_unitario": 59.74,
+            "valor_venta": 2867.52
+        },
+        {
+            "numero": 2,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 15,
+            "precio_unitario": 92.38,
+            "valor_venta": 1385.7
+        }
+    ]
+}

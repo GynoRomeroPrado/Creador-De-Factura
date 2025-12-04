@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE514-829448",
+    "fecha_emision": "2025-11-29T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20084484076",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Av. Arequipa 2513, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20803278394",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. La Marina 1064, La Victoria, Lima",
+    "subtotal": 1196.82,
+    "igv": 215.43,
+    "importe_total": 1444.22,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 13,
+            "precio_unitario": 5.82,
+            "valor_venta": 75.66
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 41,
+            "precio_unitario": 5.86,
+            "valor_venta": 240.26
+        },
+        {
+            "numero": 3,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 24,
+            "precio_unitario": 3.4,
+            "valor_venta": 81.6
+        },
+        {
+            "numero": 4,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 16,
+            "precio_unitario": 4.51,
+            "valor_venta": 72.16
+        },
+        {
+            "numero": 5,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 83,
+            "precio_unitario": 4.66,
+            "valor_venta": 386.78
+        },
+        {
+            "numero": 6,
+            "descripcion": "Gasolina 95 Color: Negro",
+            "unidad": "GL",
+            "cantidad": 98,
+            "precio_unitario": 4.83,
+            "valor_venta": 473.34
+        }
+    ]
+}

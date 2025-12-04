@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA439-629046",
+    "fecha_emision": "2025-06-23T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20326486826",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 137, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20440737553",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Benavides 3033, La Victoria, Lima",
+    "subtotal": 425.7,
+    "igv": 76.63,
+    "importe_total": 524.37,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 99,
+            "precio_unitario": 4.3,
+            "valor_venta": 425.7
+        }
+    ]
+}

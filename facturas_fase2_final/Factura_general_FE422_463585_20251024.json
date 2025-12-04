@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE422-463585",
+    "fecha_emision": "2025-10-24T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20378655081",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 2074, San Isidro, Lima",
+    "receptor_numero_doc": "20832451127",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 813, Cercado de Lima, Lima",
+    "subtotal": 59406.56,
+    "igv": 10693.18,
+    "importe_total": 70099.74,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas Color: Negro",
+            "unidad": "MES",
+            "cantidad": 25,
+            "precio_unitario": 2001.82,
+            "valor_venta": 50045.5
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Courier Local (Oferta)",
+            "unidad": "ENV",
+            "cantidad": 70,
+            "precio_unitario": 21.07,
+            "valor_venta": 1474.9
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 41,
+            "precio_unitario": 22.96,
+            "valor_venta": 941.36
+        },
+        {
+            "numero": 4,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 11,
+            "precio_unitario": 625.76,
+            "valor_venta": 6883.36
+        },
+        {
+            "numero": 5,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 4,
+            "precio_unitario": 15.36,
+            "valor_venta": 61.44
+        }
+    ]
+}

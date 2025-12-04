@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E676-905454",
+    "fecha_emision": "2025-03-05T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20609748045",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 4842, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20362266212",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. La Marina 1038, La Victoria, Lima",
+    "subtotal": 9247.7,
+    "igv": 1664.59,
+    "importe_total": 10912.29,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 46,
+            "precio_unitario": 65.82,
+            "valor_venta": 3027.72
+        },
+        {
+            "numero": 2,
+            "descripcion": "Central de Detección de Incendios Modelo 2025",
+            "unidad": "UND",
+            "cantidad": 2,
+            "precio_unitario": 3353.35,
+            "valor_venta": 6706.7
+        }
+    ]
+}

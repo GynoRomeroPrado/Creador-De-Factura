@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E827-787866",
+    "fecha_emision": "2025-09-12T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20824737178",
+    "emisor_razon_social": "Sonesta Business Miraflores",
+    "emisor_direccion": "Av. Benavides 1619, San Borja, Lima",
+    "receptor_numero_doc": "20398516746",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 3699, Santiago de Surco, Lima",
+    "subtotal": 409.68,
+    "igv": 62.75,
+    "importe_total": 546.17,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.922,
+            "precio_unitario": 69.18,
+            "valor_venta": 409.68,
+            "cargo_item": 73.74,
+            "importe_total": 483.42
+        }
+    ]
+}

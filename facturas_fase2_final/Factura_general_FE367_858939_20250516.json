@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE367-858939",
+    "fecha_emision": "2025-05-16T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20424668428",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Arequipa 149, Miraflores, Lima",
+    "receptor_numero_doc": "20269595036",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Benavides 1733, Miraflores, Lima",
+    "subtotal": 35428.64,
+    "igv": 6377.16,
+    "importe_total": 41805.8,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 28,
+            "precio_unitario": 129.19,
+            "valor_venta": 3617.32
+        },
+        {
+            "numero": 2,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 57,
+            "precio_unitario": 184.64,
+            "valor_venta": 10524.48
+        },
+        {
+            "numero": 3,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 1,
+            "precio_unitario": 129.98,
+            "valor_venta": 129.98
+        },
+        {
+            "numero": 4,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 86,
+            "precio_unitario": 246.01,
+            "valor_venta": 21156.86
+        }
+    ]
+}

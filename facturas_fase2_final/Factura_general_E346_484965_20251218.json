@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E346-484965",
+    "fecha_emision": "2025-12-18T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20036776138",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. La Marina 1823, Miraflores, Lima",
+    "receptor_numero_doc": "20838940103",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. Benavides 2178, Cercado de Lima, Lima",
+    "subtotal": 8372.48,
+    "igv": 1507.05,
+    "importe_total": 9879.53,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 15,
+            "precio_unitario": 84.69,
+            "valor_venta": 1270.35
+        },
+        {
+            "numero": 2,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 71,
+            "precio_unitario": 100.03,
+            "valor_venta": 7102.13
+        }
+    ]
+}

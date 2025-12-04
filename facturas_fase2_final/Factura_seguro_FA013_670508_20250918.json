@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA013-670508",
+    "fecha_emision": "2025-09-18T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20221666586",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Av. Benavides 3997, Miraflores, Lima",
+    "receptor_numero_doc": "20160410354",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 2328, San Borja, Lima",
+    "subtotal": 4612.16,
+    "igv": 830.19,
+    "importe_total": 5442.35,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 23,
+            "precio_unitario": 169.95,
+            "valor_venta": 3908.85
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 1,
+            "precio_unitario": 703.31,
+            "valor_venta": 703.31
+        }
+    ]
+}

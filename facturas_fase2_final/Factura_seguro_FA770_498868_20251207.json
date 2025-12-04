@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA770-498868",
+    "fecha_emision": "2025-12-07T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20009549014",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Calle Los Pinos 227, San Borja, Lima",
+    "receptor_numero_doc": "20701119364",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Benavides 1709, Santiago de Surco, Lima",
+    "subtotal": 222019.58,
+    "igv": 39963.52,
+    "importe_total": 261983.1,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida Serie X",
+            "unidad": "POL",
+            "cantidad": 99,
+            "precio_unitario": 447.79,
+            "valor_venta": 44331.21
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 44,
+            "precio_unitario": 266.14,
+            "valor_venta": 11710.16
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 94,
+            "precio_unitario": 1207.67,
+            "valor_venta": 113520.98
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 43,
+            "precio_unitario": 547.87,
+            "valor_venta": 23558.41
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida Color: Negro",
+            "unidad": "POL",
+            "cantidad": 93,
+            "precio_unitario": 310.74,
+            "valor_venta": 28898.82
+        }
+    ]
+}

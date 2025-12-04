@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E774-369005",
+    "fecha_emision": "2025-05-12T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20530768474",
+    "emisor_razon_social": "Casa Andina Resort Miraflores",
+    "emisor_direccion": "Jr. de la Unión 1354, San Isidro, Lima",
+    "receptor_numero_doc": "20788978422",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 800, Santiago de Surco, Lima",
+    "subtotal": 1018.37,
+    "igv": 183.31,
+    "importe_total": 1384.99,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.86,
+            "precio_unitario": 148.45,
+            "valor_venta": 1018.37,
+            "cargo_item": 183.31,
+            "importe_total": 1201.68
+        }
+    ]
+}

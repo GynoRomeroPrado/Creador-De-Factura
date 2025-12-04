@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F741-004426",
+    "fecha_emision": "2025-07-15T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20570871162",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. La Marina 521, San Borja, Lima",
+    "receptor_numero_doc": "20133311441",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Arequipa 4297, Santiago de Surco, Lima",
+    "subtotal": 315376.69,
+    "igv": 56767.8,
+    "importe_total": 372144.49,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios Serie X",
+            "unidad": "POL",
+            "cantidad": 59,
+            "precio_unitario": 788.85,
+            "valor_venta": 46542.15
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Color: Negro",
+            "unidad": "POL",
+            "cantidad": 32,
+            "precio_unitario": 158.7,
+            "valor_venta": 5078.4
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 68,
+            "precio_unitario": 113.99,
+            "valor_venta": 7751.32
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 100,
+            "precio_unitario": 1168.7,
+            "valor_venta": 116870.0
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 25,
+            "precio_unitario": 544.37,
+            "valor_venta": 13609.25
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 17,
+            "precio_unitario": 192.64,
+            "valor_venta": 3274.88
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 15,
+            "precio_unitario": 2917.98,
+            "valor_venta": 43769.7
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 60,
+            "precio_unitario": 1228.71,
+            "valor_venta": 73722.6
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 25,
+            "precio_unitario": 1592.01,
+            "valor_venta": 39800.25
+        }
+    ]
+}

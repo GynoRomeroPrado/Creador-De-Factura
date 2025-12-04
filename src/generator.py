@@ -137,7 +137,8 @@ class FacturaGenerator:
         fecha_emision = self.fecha_gen.generar_fecha_2025()
 
         # Número de factura
-        serie = f"F{random.randint(1, 999):03d}"
+        serie_prefix = random.choice(['F', 'FE', 'E', 'FA'])
+        serie = f"{serie_prefix}{random.randint(1, 999):03d}"
         numero = f"{random.randint(1, 999999):06d}"
         numero_factura = f"{serie}-{numero}"
 

@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA692-535156",
+    "fecha_emision": "2025-06-19T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20931367723",
+    "emisor_razon_social": "Costa del Sol Premium Cusco",
+    "emisor_direccion": "Av. La Marina 2191, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20377583338",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Arequipa 4128, San Borja, Lima",
+    "subtotal": 1139.12,
+    "igv": 205.04,
+    "importe_total": 1549.21,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.792,
+            "precio_unitario": 95.47,
+            "valor_venta": 457.49,
+            "cargo_item": 82.35,
+            "importe_total": 539.84
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.886,
+            "precio_unitario": 44.77,
+            "valor_venta": 442.6,
+            "cargo_item": 79.67,
+            "importe_total": 522.27
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.873,
+            "precio_unitario": 83.2,
+            "valor_venta": 239.03,
+            "cargo_item": 43.03,
+            "importe_total": 282.06
+        }
+    ]
+}

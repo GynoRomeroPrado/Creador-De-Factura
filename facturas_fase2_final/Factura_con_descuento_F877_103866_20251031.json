@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F877-103866",
+    "fecha_emision": "2025-10-31T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20155453380",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Jr. de la Unión 116, Miraflores, Lima",
+    "receptor_numero_doc": "20990149004",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Benavides 2637, La Victoria, Lima",
+    "subtotal": 84549.08,
+    "igv": 15218.83,
+    "importe_total": 99767.91,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 56,
+            "precio_unitario": 573.34,
+            "valor_venta": 32107.04
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 1270.99,
+            "valor_venta": 67362.47
+        }
+    ]
+}

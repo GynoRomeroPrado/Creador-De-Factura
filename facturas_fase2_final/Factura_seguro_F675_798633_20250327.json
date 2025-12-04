@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F675-798633",
+    "fecha_emision": "2025-03-27T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20874530876",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 909, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20640535360",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 2915, Miraflores, Lima",
+    "subtotal": 23927.16,
+    "igv": 4306.89,
+    "importe_total": 28234.05,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 9,
+            "precio_unitario": 222.45,
+            "valor_venta": 2002.05
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida (Importado)",
+            "unidad": "POL",
+            "cantidad": 55,
+            "precio_unitario": 475.41,
+            "valor_venta": 26147.55
+        }
+    ]
+}

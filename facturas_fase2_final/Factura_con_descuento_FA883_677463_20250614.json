@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA883-677463",
+    "fecha_emision": "2025-06-14T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20341318999",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Calle Los Pinos 383, San Borja, Lima",
+    "receptor_numero_doc": "20130519751",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Av. Arequipa 1449, Miraflores, Lima",
+    "subtotal": 1965.4,
+    "igv": 353.77,
+    "importe_total": 2319.17,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt Serie X",
+            "unidad": "UND",
+            "cantidad": 15,
+            "precio_unitario": 6.56,
+            "valor_venta": 98.4
+        },
+        {
+            "numero": 2,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt",
+            "unidad": "UND",
+            "cantidad": 32,
+            "precio_unitario": 6.82,
+            "valor_venta": 218.24
+        },
+        {
+            "numero": 3,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt Serie X",
+            "unidad": "UND",
+            "cantidad": 19,
+            "precio_unitario": 7.74,
+            "valor_venta": 147.06
+        },
+        {
+            "numero": 4,
+            "descripcion": "Cemento Sol Tipo I (42.5kg)",
+            "unidad": "BOL",
+            "cantidad": 16,
+            "precio_unitario": 28.76,
+            "valor_venta": 460.16
+        },
+        {
+            "numero": 5,
+            "descripcion": "Guantes de Cuero Reforzado",
+            "unidad": "PAR",
+            "cantidad": 97,
+            "precio_unitario": 13.73,
+            "valor_venta": 1331.81
+        }
+    ]
+}

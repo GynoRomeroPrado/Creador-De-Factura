@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE665-355154",
+    "fecha_emision": "2025-04-03T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20852748355",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Calle Los Pinos 1841, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20381012574",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 654, Cercado de Lima, Lima",
+    "subtotal": 452.23,
+    "igv": 81.4,
+    "importe_total": 533.63,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.682,
+            "precio_unitario": 79.59,
+            "valor_venta": 452.23
+        }
+    ]
+}

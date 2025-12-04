@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE466-912932",
+    "fecha_emision": "2025-04-16T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20244172432",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Arequipa 3301, San Isidro, Lima",
+    "receptor_numero_doc": "20667508763",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Av. Benavides 2597, La Victoria, Lima",
+    "subtotal": 1820.72,
+    "igv": 254.93,
+    "importe_total": 2075.65,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 99,
+            "precio_unitario": 6.13,
+            "valor_venta": 606.87
+        },
+        {
+            "numero": 2,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 50,
+            "precio_unitario": 1.73,
+            "valor_venta": 86.5
+        },
+        {
+            "numero": 3,
+            "descripcion": "Gasolina 95 (Oferta)",
+            "unidad": "GL",
+            "cantidad": 95,
+            "precio_unitario": 6.59,
+            "valor_venta": 626.05
+        },
+        {
+            "numero": 4,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 82,
+            "precio_unitario": 3.27,
+            "valor_venta": 268.14
+        },
+        {
+            "numero": 5,
+            "descripcion": "Diesel Serie X",
+            "unidad": "GL",
+            "cantidad": 20,
+            "precio_unitario": 3.37,
+            "valor_venta": 67.4
+        },
+        {
+            "numero": 6,
+            "descripcion": "GLP Serie X",
+            "unidad": "GL",
+            "cantidad": 56,
+            "precio_unitario": 2.96,
+            "valor_venta": 165.76
+        }
+    ]
+}

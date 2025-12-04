@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E165-045642",
+    "fecha_emision": "2025-09-21T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20166755124",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Av. Arequipa 195, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20156665046",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 2151, San Borja, Lima",
+    "subtotal": 128404.69,
+    "igv": 23112.84,
+    "importe_total": 151517.53,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 13,
+            "precio_unitario": 2198.57,
+            "valor_venta": 28581.41
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 5,
+            "precio_unitario": 191.87,
+            "valor_venta": 959.35
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 50,
+            "precio_unitario": 2261.51,
+            "valor_venta": 113075.5
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 13,
+            "precio_unitario": 112.58,
+            "valor_venta": 1463.54
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 54,
+            "precio_unitario": 121.14,
+            "valor_venta": 6541.56
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 50,
+            "precio_unitario": 197.69,
+            "valor_venta": 9884.5
+        }
+    ]
+}

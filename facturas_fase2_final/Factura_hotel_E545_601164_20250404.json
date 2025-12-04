@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E545-601164",
+    "fecha_emision": "2025-04-04T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20962956433",
+    "emisor_razon_social": "Casa Andina Business Cajamarca",
+    "emisor_direccion": "Jr. de la Unión 1510, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20324310259",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 1460, Santiago de Surco, Lima",
+    "subtotal": 521.09,
+    "igv": 93.8,
+    "importe_total": 718.9,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.064,
+            "precio_unitario": 114.11,
+            "valor_venta": 577.85,
+            "cargo_item": 104.01,
+            "importe_total": 681.86
+        }
+    ]
+}

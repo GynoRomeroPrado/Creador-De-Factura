@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F544-481267",
+    "fecha_emision": "2025-01-02T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20152364246",
+    "emisor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "emisor_direccion": "Av. La Marina 3368, La Victoria, Lima",
+    "receptor_numero_doc": "20104311521",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 537, Santiago de Surco, Lima",
+    "subtotal": 176526.31,
+    "igv": 24542.75,
+    "importe_total": 201099.77,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 7,
+            "precio_unitario": 2711.77,
+            "valor_venta": 18982.39
+        },
+        {
+            "numero": 2,
+            "descripcion": "Soporte Técnico Remoto Mensual (Oferta)",
+            "unidad": "MES",
+            "cantidad": 7,
+            "precio_unitario": 870.08,
+            "valor_venta": 6090.56
+        },
+        {
+            "numero": 3,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas) Color: Negro",
+            "unidad": "HOR",
+            "cantidad": 29,
+            "precio_unitario": 202.93,
+            "valor_venta": 5884.97
+        },
+        {
+            "numero": 4,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 81,
+            "precio_unitario": 34.29,
+            "valor_venta": 2777.49
+        },
+        {
+            "numero": 5,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 34,
+            "precio_unitario": 464.8,
+            "valor_venta": 15803.2
+        },
+        {
+            "numero": 6,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas Color: Negro",
+            "unidad": "MES",
+            "cantidad": 14,
+            "precio_unitario": 1490.64,
+            "valor_venta": 20868.96
+        },
+        {
+            "numero": 7,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 7,
+            "precio_unitario": 979.25,
+            "valor_venta": 6854.75
+        },
+        {
+            "numero": 8,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 83,
+            "precio_unitario": 446.95,
+            "valor_venta": 37096.85
+        },
+        {
+            "numero": 9,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 94,
+            "precio_unitario": 873.72,
+            "valor_venta": 82129.68
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA846-727058",
+    "fecha_emision": "2025-04-08T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20429581428",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Arequipa 2379, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20922381446",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Arequipa 1117, La Victoria, Lima",
+    "subtotal": 65440.13,
+    "igv": 11779.22,
+    "importe_total": 77219.35,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m",
+            "unidad": "VAR",
+            "cantidad": 89,
+            "precio_unitario": 40.41,
+            "valor_venta": 3596.49
+        },
+        {
+            "numero": 2,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 83,
+            "precio_unitario": 690.52,
+            "valor_venta": 57313.16
+        },
+        {
+            "numero": 3,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 74,
+            "precio_unitario": 34.42,
+            "valor_venta": 2547.08
+        },
+        {
+            "numero": 4,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt",
+            "unidad": "UND",
+            "cantidad": 61,
+            "precio_unitario": 5.81,
+            "valor_venta": 354.41
+        },
+        {
+            "numero": 5,
+            "descripcion": "Cemento Sol Tipo I (42.5kg)",
+            "unidad": "BOL",
+            "cantidad": 59,
+            "precio_unitario": 27.61,
+            "valor_venta": 1628.99
+        }
+    ]
+}

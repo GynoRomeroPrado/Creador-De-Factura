@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE747-290961",
+    "fecha_emision": "2025-04-02T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20904637441",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Av. Arequipa 3502, La Victoria, Lima",
+    "receptor_numero_doc": "20728229820",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 4035, La Victoria, Lima",
+    "subtotal": 145.83,
+    "igv": 26.25,
+    "importe_total": 172.08,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 43,
+            "precio_unitario": 3.92,
+            "valor_venta": 168.56
+        }
+    ]
+}

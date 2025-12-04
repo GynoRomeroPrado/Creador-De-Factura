@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE713-573229",
+    "fecha_emision": "2025-01-23T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20913625634",
+    "emisor_razon_social": "Marriott Standard Tacna",
+    "emisor_direccion": "Av. La Marina 127, Miraflores, Lima",
+    "receptor_numero_doc": "20242362609",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Benavides 3034, La Victoria, Lima",
+    "subtotal": 123.69,
+    "igv": 22.26,
+    "importe_total": 172.14,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.619,
+            "precio_unitario": 89.88,
+            "valor_venta": 145.52,
+            "cargo_item": 26.19,
+            "importe_total": 171.71
+        }
+    ]
+}

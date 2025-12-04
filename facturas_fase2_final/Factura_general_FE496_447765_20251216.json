@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE496-447765",
+    "fecha_emision": "2025-12-16T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20496524285",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 4111, Miraflores, Lima",
+    "receptor_numero_doc": "20217479500",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 180, La Victoria, Lima",
+    "subtotal": 190.08,
+    "igv": 25.65,
+    "importe_total": 215.73,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 44,
+            "precio_unitario": 4.32,
+            "valor_venta": 190.08
+        }
+    ]
+}

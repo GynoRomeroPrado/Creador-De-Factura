@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F781-630880",
+    "fecha_emision": "2025-01-30T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20872094866",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Calle Los Pinos 2097, La Victoria, Lima",
+    "receptor_numero_doc": "20807658191",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 1469, Santiago de Surco, Lima",
+    "subtotal": 13067.38,
+    "igv": 2352.13,
+    "importe_total": 15419.51,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Piedra Chancada 1/2\" (m3)",
+            "unidad": "M3",
+            "cantidad": 7,
+            "precio_unitario": 67.0,
+            "valor_venta": 469.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 18,
+            "precio_unitario": 699.91,
+            "valor_venta": 12598.38
+        }
+    ]
+}

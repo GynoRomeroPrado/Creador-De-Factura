@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE350-309380",
+    "fecha_emision": "2025-04-21T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20506713944",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Av. La Marina 3031, San Borja, Lima",
+    "receptor_numero_doc": "20039486467",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 3537, San Borja, Lima",
+    "subtotal": 24270.82,
+    "igv": 4368.75,
+    "importe_total": 28639.57,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 93,
+            "precio_unitario": 96.58,
+            "valor_venta": 8981.94
+        },
+        {
+            "numero": 2,
+            "descripcion": "Aceite Vegetal x 20L Modelo 2025",
+            "unidad": "BID",
+            "cantidad": 59,
+            "precio_unitario": 119.57,
+            "valor_venta": 7054.63
+        },
+        {
+            "numero": 3,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 69,
+            "precio_unitario": 172.0,
+            "valor_venta": 11868.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 9,
+            "precio_unitario": 24.4,
+            "valor_venta": 219.6
+        }
+    ]
+}

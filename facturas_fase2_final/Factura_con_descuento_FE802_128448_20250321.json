@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE802-128448",
+    "fecha_emision": "2025-03-21T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20570297636",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Av. Benavides 4616, San Borja, Lima",
+    "receptor_numero_doc": "20955090081",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. La Marina 3901, Cercado de Lima, Lima",
+    "subtotal": 1317.21,
+    "igv": 237.1,
+    "importe_total": 1554.31,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 90 (Importado)",
+            "unidad": "GL",
+            "cantidad": 52,
+            "precio_unitario": 4.84,
+            "valor_venta": 251.68
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 71,
+            "precio_unitario": 5.88,
+            "valor_venta": 417.48
+        },
+        {
+            "numero": 3,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 74,
+            "precio_unitario": 3.46,
+            "valor_venta": 256.04
+        },
+        {
+            "numero": 4,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 72,
+            "precio_unitario": 6.51,
+            "valor_venta": 468.72
+        }
+    ]
+}

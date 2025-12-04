@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F634-091516",
+    "fecha_emision": "2025-05-18T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20900274191",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 358, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20378310424",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 2496, La Victoria, Lima",
+    "subtotal": 35912.46,
+    "igv": 6464.24,
+    "importe_total": 42376.7,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Guantes de Cuero Reforzado (Importado)",
+            "unidad": "PAR",
+            "cantidad": 71,
+            "precio_unitario": 15.24,
+            "valor_venta": 1082.04
+        },
+        {
+            "numero": 2,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L) (Oferta)",
+            "unidad": "GLN",
+            "cantidad": 31,
+            "precio_unitario": 50.58,
+            "valor_venta": 1567.98
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal) Serie X",
+            "unidad": "UND",
+            "cantidad": 90,
+            "precio_unitario": 20.5,
+            "valor_venta": 1845.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Piedra Chancada 1/2\" (m3)",
+            "unidad": "M3",
+            "cantidad": 20,
+            "precio_unitario": 61.56,
+            "valor_venta": 1231.2
+        },
+        {
+            "numero": 5,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 42,
+            "precio_unitario": 718.72,
+            "valor_venta": 30186.24
+        }
+    ]
+}

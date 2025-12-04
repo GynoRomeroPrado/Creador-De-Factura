@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA605-625495",
+    "fecha_emision": "2025-01-06T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20601057841",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Calle Los Pinos 1251, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20921780398",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Jr. de la Unión 4940, Santiago de Surco, Lima",
+    "subtotal": 29028.49,
+    "igv": 5225.13,
+    "importe_total": 34253.62,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Arroz Superior x 50kg Color: Negro",
+            "unidad": "SAC",
+            "cantidad": 28,
+            "precio_unitario": 121.45,
+            "valor_venta": 3400.6
+        },
+        {
+            "numero": 2,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 41,
+            "precio_unitario": 140.57,
+            "valor_venta": 5763.37
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 14,
+            "precio_unitario": 18.92,
+            "valor_venta": 264.88
+        },
+        {
+            "numero": 4,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 68,
+            "precio_unitario": 146.31,
+            "valor_venta": 9949.08
+        },
+        {
+            "numero": 5,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 96,
+            "precio_unitario": 121.78,
+            "valor_venta": 11690.88
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E186-216447",
+    "fecha_emision": "2025-09-22T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20910658761",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Calle Los Pinos 4901, San Isidro, Lima",
+    "receptor_numero_doc": "20513600225",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Arequipa 2350, Cercado de Lima, Lima",
+    "subtotal": 363959.65,
+    "igv": 65512.74,
+    "importe_total": 429472.39,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 60,
+            "precio_unitario": 2959.69,
+            "valor_venta": 177581.4
+        },
+        {
+            "numero": 2,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 94,
+            "precio_unitario": 1708.1,
+            "valor_venta": 160561.4
+        },
+        {
+            "numero": 3,
+            "descripcion": "Batería 12V/7AH (Importado)",
+            "unidad": "UND",
+            "cantidad": 29,
+            "precio_unitario": 50.74,
+            "valor_venta": 1471.46
+        },
+        {
+            "numero": 4,
+            "descripcion": "Batería 12V/7AH",
+            "unidad": "UND",
+            "cantidad": 89,
+            "precio_unitario": 46.88,
+            "valor_venta": 4172.32
+        },
+        {
+            "numero": 5,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 22,
+            "precio_unitario": 120.54,
+            "valor_venta": 2651.88
+        },
+        {
+            "numero": 6,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 8,
+            "precio_unitario": 1087.74,
+            "valor_venta": 8701.92
+        },
+        {
+            "numero": 7,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 20,
+            "precio_unitario": 84.62,
+            "valor_venta": 1692.4
+        },
+        {
+            "numero": 8,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 19,
+            "precio_unitario": 986.46,
+            "valor_venta": 18742.74
+        },
+        {
+            "numero": 9,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 53,
+            "precio_unitario": 53.1,
+            "valor_venta": 2814.3
+        },
+        {
+            "numero": 10,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 88,
+            "precio_unitario": 53.7,
+            "valor_venta": 4725.6
+        }
+    ]
+}

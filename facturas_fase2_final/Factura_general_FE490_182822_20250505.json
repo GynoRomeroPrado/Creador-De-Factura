@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE490-182822",
+    "fecha_emision": "2025-05-05T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20637415159",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 4289, San Isidro, Lima",
+    "receptor_numero_doc": "20263684380",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 4304, Cercado de Lima, Lima",
+    "subtotal": 17236.74,
+    "igv": 3102.61,
+    "importe_total": 20339.35,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 17,
+            "precio_unitario": 85.35,
+            "valor_venta": 1450.95
+        },
+        {
+            "numero": 2,
+            "descripcion": "Batería 12V/7AH",
+            "unidad": "UND",
+            "cantidad": 88,
+            "precio_unitario": 60.61,
+            "valor_venta": 5333.68
+        },
+        {
+            "numero": 3,
+            "descripcion": "Extintor PQS 6kg (Oferta)",
+            "unidad": "UND",
+            "cantidad": 52,
+            "precio_unitario": 117.25,
+            "valor_venta": 6097.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Detector de Temperatura Térmico Convencional (Oferta)",
+            "unidad": "UND",
+            "cantidad": 70,
+            "precio_unitario": 52.6,
+            "valor_venta": 3682.0
+        },
+        {
+            "numero": 5,
+            "descripcion": "Batería 12V/7AH",
+            "unidad": "UND",
+            "cantidad": 9,
+            "precio_unitario": 74.79,
+            "valor_venta": 673.11
+        }
+    ]
+}

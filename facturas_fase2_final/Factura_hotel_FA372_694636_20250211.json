@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA372-694636",
+    "fecha_emision": "2025-02-11T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20953976871",
+    "emisor_razon_social": "Swissôtel Standard Huancayo",
+    "emisor_direccion": "Av. Benavides 1333, San Isidro, Lima",
+    "receptor_numero_doc": "20234963245",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 3613, Miraflores, Lima",
+    "subtotal": 1124.19,
+    "igv": 173.46,
+    "importe_total": 1500.01,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.095,
+            "precio_unitario": 79.81,
+            "valor_venta": 486.44,
+            "cargo_item": 87.56,
+            "importe_total": 574.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.529,
+            "precio_unitario": 97.68,
+            "valor_venta": 637.75,
+            "cargo_item": 114.8,
+            "importe_total": 752.55
+        }
+    ]
+}

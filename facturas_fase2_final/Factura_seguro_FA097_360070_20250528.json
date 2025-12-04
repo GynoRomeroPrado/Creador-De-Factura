@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA097-360070",
+    "fecha_emision": "2025-05-28T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20743393121",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Benavides 1056, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20329391583",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. La Marina 2460, Miraflores, Lima",
+    "subtotal": 756198.88,
+    "igv": 136115.8,
+    "importe_total": 892314.68,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 57,
+            "precio_unitario": 2414.17,
+            "valor_venta": 137607.69
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 26,
+            "precio_unitario": 890.64,
+            "valor_venta": 23156.64
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 59,
+            "precio_unitario": 110.35,
+            "valor_venta": 6510.65
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 80,
+            "precio_unitario": 2065.85,
+            "valor_venta": 165268.0
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Vehicular Todo Riesgo Color: Negro",
+            "unidad": "POL",
+            "cantidad": 84,
+            "precio_unitario": 2367.88,
+            "valor_venta": 198901.92
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo Color: Negro",
+            "unidad": "POL",
+            "cantidad": 10,
+            "precio_unitario": 1203.1,
+            "valor_venta": 12031.0
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 3,
+            "precio_unitario": 1013.84,
+            "valor_venta": 3041.52
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 71,
+            "precio_unitario": 2953.26,
+            "valor_venta": 209681.46
+        }
+    ]
+}

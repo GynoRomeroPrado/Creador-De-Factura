@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F536-573783",
+    "fecha_emision": "2025-08-30T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20032291041",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 4199, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20733785331",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 2604, Cercado de Lima, Lima",
+    "subtotal": 7863.66,
+    "igv": 1262.5,
+    "importe_total": 9126.16,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 21,
+            "precio_unitario": 374.46,
+            "valor_venta": 7863.66
+        }
+    ]
+}

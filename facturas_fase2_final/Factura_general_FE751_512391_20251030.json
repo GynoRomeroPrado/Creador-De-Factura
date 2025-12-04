@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE751-512391",
+    "fecha_emision": "2025-10-30T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20408301727",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 1093, Miraflores, Lima",
+    "receptor_numero_doc": "20230714046",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 2305, San Borja, Lima",
+    "subtotal": 251476.32,
+    "igv": 45265.74,
+    "importe_total": 296742.06,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Sirena Estroboscópica Modelo 2025",
+            "unidad": "UND",
+            "cantidad": 69,
+            "precio_unitario": 128.74,
+            "valor_venta": 8883.06
+        },
+        {
+            "numero": 2,
+            "descripcion": "Sirena Estroboscópica Color: Negro",
+            "unidad": "UND",
+            "cantidad": 23,
+            "precio_unitario": 101.46,
+            "valor_venta": 2333.58
+        },
+        {
+            "numero": 3,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V Color: Negro",
+            "unidad": "UND",
+            "cantidad": 83,
+            "precio_unitario": 1457.88,
+            "valor_venta": 121004.04
+        },
+        {
+            "numero": 4,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 53,
+            "precio_unitario": 45.0,
+            "valor_venta": 2385.0
+        },
+        {
+            "numero": 5,
+            "descripcion": "Central de Detección de Incendios (Importado)",
+            "unidad": "UND",
+            "cantidad": 46,
+            "precio_unitario": 2548.87,
+            "valor_venta": 117248.02
+        },
+        {
+            "numero": 6,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 41,
+            "precio_unitario": 918.39,
+            "valor_venta": 37653.99
+        },
+        {
+            "numero": 7,
+            "descripcion": "Batería 12V/7AH",
+            "unidad": "UND",
+            "cantidad": 23,
+            "precio_unitario": 69.47,
+            "valor_venta": 1597.81
+        },
+        {
+            "numero": 8,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 24,
+            "precio_unitario": 40.48,
+            "valor_venta": 971.52
+        },
+        {
+            "numero": 9,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 17,
+            "precio_unitario": 36.82,
+            "valor_venta": 625.94
+        }
+    ]
+}

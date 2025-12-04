@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE934-924883",
+    "fecha_emision": "2025-08-18T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20242053193",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Benavides 2269, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20262526292",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. La Marina 1393, Cercado de Lima, Lima",
+    "subtotal": 3143.0,
+    "igv": 565.74,
+    "importe_total": 3708.74,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 100,
+            "precio_unitario": 31.43,
+            "valor_venta": 3143.0
+        }
+    ]
+}

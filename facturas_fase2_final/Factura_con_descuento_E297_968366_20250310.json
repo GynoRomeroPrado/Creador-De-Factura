@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E297-968366",
+    "fecha_emision": "2025-03-10T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20411688373",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 2525, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20631261141",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 3394, San Borja, Lima",
+    "subtotal": 12485.08,
+    "igv": 2247.31,
+    "importe_total": 14732.39,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 47,
+            "precio_unitario": 3.76,
+            "valor_venta": 176.72
+        },
+        {
+            "numero": 2,
+            "descripcion": "Huevos Color x 30 unid Color: Negro",
+            "unidad": "CAJA",
+            "cantidad": 55,
+            "precio_unitario": 15.77,
+            "valor_venta": 867.35
+        },
+        {
+            "numero": 3,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 10,
+            "precio_unitario": 22.27,
+            "valor_venta": 222.7
+        },
+        {
+            "numero": 4,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 34,
+            "precio_unitario": 119.17,
+            "valor_venta": 4051.78
+        },
+        {
+            "numero": 5,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 77,
+            "precio_unitario": 4.18,
+            "valor_venta": 321.86
+        },
+        {
+            "numero": 6,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 14,
+            "precio_unitario": 235.42,
+            "valor_venta": 3295.88
+        },
+        {
+            "numero": 7,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 33,
+            "precio_unitario": 146.96,
+            "valor_venta": 4849.68
+        }
+    ]
+}

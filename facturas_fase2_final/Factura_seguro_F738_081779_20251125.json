@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F738-081779",
+    "fecha_emision": "2025-11-25T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20706185683",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Av. Arequipa 128, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20987609207",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 2500, Miraflores, Lima",
+    "subtotal": 88195.52,
+    "igv": 14155.98,
+    "importe_total": 102351.5,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 7,
+            "precio_unitario": 1255.82,
+            "valor_venta": 8790.74
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 86,
+            "precio_unitario": 677.21,
+            "valor_venta": 58240.06
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 87,
+            "precio_unitario": 197.52,
+            "valor_venta": 17184.24
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 4,
+            "precio_unitario": 170.69,
+            "valor_venta": 682.76
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 4,
+            "precio_unitario": 824.43,
+            "valor_venta": 3297.72
+        }
+    ]
+}

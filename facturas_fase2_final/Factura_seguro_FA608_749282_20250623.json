@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA608-749282",
+    "fecha_emision": "2025-06-23T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20372086778",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 4676, Miraflores, Lima",
+    "receptor_numero_doc": "20649969273",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 3095, Santiago de Surco, Lima",
+    "subtotal": 191063.07,
+    "igv": 34391.35,
+    "importe_total": 225454.42,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios Serie X",
+            "unidad": "POL",
+            "cantidad": 33,
+            "precio_unitario": 1409.67,
+            "valor_venta": 46519.11
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 18,
+            "precio_unitario": 792.47,
+            "valor_venta": 14264.46
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 65,
+            "precio_unitario": 2004.3,
+            "valor_venta": 130279.5
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F181-502454",
+    "fecha_emision": "2025-01-23T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20806206939",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Benavides 3702, Miraflores, Lima",
+    "receptor_numero_doc": "20228731928",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Arequipa 3170, San Isidro, Lima",
+    "subtotal": 189827.82,
+    "igv": 34169.01,
+    "importe_total": 224012.83,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 27,
+            "precio_unitario": 154.04,
+            "valor_venta": 4159.08
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 30,
+            "precio_unitario": 109.86,
+            "valor_venta": 3295.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo Serie X",
+            "unidad": "POL",
+            "cantidad": 56,
+            "precio_unitario": 2035.98,
+            "valor_venta": 114014.88
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Oferta)",
+            "unidad": "POL",
+            "cantidad": 33,
+            "precio_unitario": 179.6,
+            "valor_venta": 5926.8
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 86,
+            "precio_unitario": 611.98,
+            "valor_venta": 52630.28
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 12,
+            "precio_unitario": 519.37,
+            "valor_venta": 6232.44
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 50,
+            "precio_unitario": 1020.51,
+            "valor_venta": 51025.5
+        }
+    ]
+}

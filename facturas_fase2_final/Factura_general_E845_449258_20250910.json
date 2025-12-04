@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E845-449258",
+    "fecha_emision": "2025-09-10T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20913837267",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Calle Los Pinos 1230, San Borja, Lima",
+    "receptor_numero_doc": "20560412178",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Arequipa 3515, San Isidro, Lima",
+    "subtotal": 1404.86,
+    "igv": 191.39,
+    "importe_total": 1596.25,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.079,
+            "precio_unitario": 51.59,
+            "valor_venta": 468.39
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION pack x6",
+            "unidad": "NIU",
+            "cantidad": 7.96,
+            "precio_unitario": 59.53,
+            "valor_venta": 473.86
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.041,
+            "precio_unitario": 96.27,
+            "valor_venta": 100.22
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.883,
+            "precio_unitario": 125.7,
+            "valor_venta": 362.39
+        }
+    ]
+}

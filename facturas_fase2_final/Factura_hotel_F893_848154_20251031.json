@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F893-848154",
+    "fecha_emision": "2025-10-31T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20937737964",
+    "emisor_razon_social": "Swissôtel Standard Huancayo",
+    "emisor_direccion": "Calle Los Pinos 2480, Miraflores, Lima",
+    "receptor_numero_doc": "20084061981",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Benavides 457, San Borja, Lima",
+    "subtotal": 1181.37,
+    "igv": 185.11,
+    "importe_total": 1579.13,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.092,
+            "precio_unitario": 44.52,
+            "valor_venta": 360.26,
+            "cargo_item": 64.85,
+            "importe_total": 425.11
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.237,
+            "precio_unitario": 73.36,
+            "valor_venta": 457.55,
+            "cargo_item": 82.36,
+            "importe_total": 539.91
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.677,
+            "precio_unitario": 37.57,
+            "valor_venta": 363.56,
+            "cargo_item": 65.44,
+            "importe_total": 429.0
+        }
+    ]
+}

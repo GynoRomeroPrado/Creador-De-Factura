@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E747-351061",
+    "fecha_emision": "2025-03-19T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20339697478",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Jr. de la Unión 3400, Miraflores, Lima",
+    "receptor_numero_doc": "20274178389",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Benavides 1867, San Borja, Lima",
+    "subtotal": 12295.44,
+    "igv": 2213.18,
+    "importe_total": 14508.62,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Central de Detección de Incendios (Oferta)",
+            "unidad": "UND",
+            "cantidad": 8,
+            "precio_unitario": 1536.93,
+            "valor_venta": 12295.44
+        }
+    ]
+}

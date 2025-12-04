@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA862-034675",
+    "fecha_emision": "2025-02-12T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20011900004",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Av. Benavides 2185, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20914792445",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Benavides 981, Santiago de Surco, Lima",
+    "subtotal": 206592.73,
+    "igv": 37186.69,
+    "importe_total": 243779.42,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 11,
+            "precio_unitario": 1645.17,
+            "valor_venta": 18096.87
+        },
+        {
+            "numero": 2,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 11,
+            "precio_unitario": 78.6,
+            "valor_venta": 864.6
+        },
+        {
+            "numero": 3,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 28,
+            "precio_unitario": 41.58,
+            "valor_venta": 1164.24
+        },
+        {
+            "numero": 4,
+            "descripcion": "Batería 12V/7AH (Oferta)",
+            "unidad": "UND",
+            "cantidad": 32,
+            "precio_unitario": 50.72,
+            "valor_venta": 1623.04
+        },
+        {
+            "numero": 5,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 77,
+            "precio_unitario": 2531.64,
+            "valor_venta": 194936.28
+        }
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA621-593011",
+    "fecha_emision": "2025-02-28T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20094282137",
+    "emisor_razon_social": "Swissôtel Garden Arequipa",
+    "emisor_direccion": "Av. Javier Prado Este 697, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20915395482",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. La Marina 969, San Isidro, Lima",
+    "subtotal": 1520.28,
+    "igv": 256.58,
+    "importe_total": 2050.52,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.217,
+            "precio_unitario": 68.29,
+            "valor_venta": 561.14,
+            "cargo_item": 101.01,
+            "importe_total": 662.15
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.943,
+            "precio_unitario": 107.25,
+            "valor_venta": 959.14,
+            "cargo_item": 172.65,
+            "importe_total": 1131.79
+        }
+    ]
+}

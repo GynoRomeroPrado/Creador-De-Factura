@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F682-506051",
+    "fecha_emision": "2025-03-23T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20328181755",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Av. Arequipa 4569, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20355496628",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Calle Los Pinos 2584, Miraflores, Lima",
+    "subtotal": 170365.92,
+    "igv": 30665.87,
+    "importe_total": 201031.79,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional Serie X",
+            "unidad": "SES",
+            "cantidad": 47,
+            "precio_unitario": 560.13,
+            "valor_venta": 26326.11
+        },
+        {
+            "numero": 2,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 34,
+            "precio_unitario": 639.23,
+            "valor_venta": 21733.82
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores Serie X",
+            "unidad": "SRV",
+            "cantidad": 63,
+            "precio_unitario": 902.76,
+            "valor_venta": 56873.88
+        },
+        {
+            "numero": 4,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 17,
+            "precio_unitario": 4459.54,
+            "valor_venta": 75812.18
+        }
+    ]
+}

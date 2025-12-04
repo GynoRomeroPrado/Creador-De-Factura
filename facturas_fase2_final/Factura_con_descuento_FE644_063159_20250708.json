@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE644-063159",
+    "fecha_emision": "2025-07-08T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20739868271",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 267, La Victoria, Lima",
+    "receptor_numero_doc": "20170605064",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. La Marina 2989, Santiago de Surco, Lima",
+    "subtotal": 78118.24,
+    "igv": 14061.28,
+    "importe_total": 92179.52,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Soporte Técnico Remoto Mensual Color: Negro",
+            "unidad": "MES",
+            "cantidad": 32,
+            "precio_unitario": 607.84,
+            "valor_venta": 19450.88
+        },
+        {
+            "numero": 2,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 19,
+            "precio_unitario": 3304.15,
+            "valor_venta": 62778.85
+        }
+    ]
+}

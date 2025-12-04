@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA169-887543",
+    "fecha_emision": "2025-01-25T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20904847055",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 4834, San Borja, Lima",
+    "receptor_numero_doc": "20984406003",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 207, San Isidro, Lima",
+    "subtotal": 225113.87,
+    "igv": 36472.3,
+    "importe_total": 261586.17,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 94,
+            "precio_unitario": 940.02,
+            "valor_venta": 88361.88
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 26,
+            "precio_unitario": 1507.83,
+            "valor_venta": 39203.58
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 25,
+            "precio_unitario": 1489.36,
+            "valor_venta": 37234.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida Serie X",
+            "unidad": "POL",
+            "cantidad": 68,
+            "precio_unitario": 156.19,
+            "valor_venta": 10620.92
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 47,
+            "precio_unitario": 120.37,
+            "valor_venta": 5657.39
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 22,
+            "precio_unitario": 1014.75,
+            "valor_venta": 22324.5
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida Color: Negro",
+            "unidad": "POL",
+            "cantidad": 72,
+            "precio_unitario": 301.55,
+            "valor_venta": 21711.6
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E257-409608",
+    "fecha_emision": "2025-03-25T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20040994824",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 1939, San Isidro, Lima",
+    "receptor_numero_doc": "20223841539",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 4150, Santiago de Surco, Lima",
+    "subtotal": 166162.4,
+    "igv": 29909.23,
+    "importe_total": 196071.63,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 64,
+            "precio_unitario": 135.36,
+            "valor_venta": 8663.04
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 47,
+            "precio_unitario": 405.53,
+            "valor_venta": 19059.91
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 40,
+            "precio_unitario": 1710.4,
+            "valor_venta": 68416.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios Serie X",
+            "unidad": "POL",
+            "cantidad": 68,
+            "precio_unitario": 966.42,
+            "valor_venta": 65716.56
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 9,
+            "precio_unitario": 410.07,
+            "valor_venta": 3690.63
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 2,
+            "precio_unitario": 308.13,
+            "valor_venta": 616.26
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE507-407653",
+    "fecha_emision": "2025-07-11T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20821255164",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. La Marina 1662, San Isidro, Lima",
+    "receptor_numero_doc": "20183089189",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 571, Santiago de Surco, Lima",
+    "subtotal": 369204.96,
+    "igv": 66456.89,
+    "importe_total": 435661.85,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 36,
+            "precio_unitario": 1132.19,
+            "valor_venta": 40758.84
+        },
+        {
+            "numero": 2,
+            "descripcion": "Soporte Técnico Remoto Mensual Modelo 2025",
+            "unidad": "MES",
+            "cantidad": 79,
+            "precio_unitario": 895.73,
+            "valor_venta": 70762.67
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 99,
+            "precio_unitario": 1095.42,
+            "valor_venta": 108446.58
+        },
+        {
+            "numero": 4,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores Modelo 2025",
+            "unidad": "SRV",
+            "cantidad": 48,
+            "precio_unitario": 1098.45,
+            "valor_venta": 52725.6
+        },
+        {
+            "numero": 5,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 73,
+            "precio_unitario": 272.38,
+            "valor_venta": 19883.74
+        },
+        {
+            "numero": 6,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 21,
+            "precio_unitario": 24.96,
+            "valor_venta": 524.16
+        },
+        {
+            "numero": 7,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 12,
+            "precio_unitario": 2069.28,
+            "valor_venta": 24831.36
+        },
+        {
+            "numero": 8,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 42,
+            "precio_unitario": 1382.4,
+            "valor_venta": 58060.8
+        },
+        {
+            "numero": 9,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional (Oferta)",
+            "unidad": "SES",
+            "cantidad": 95,
+            "precio_unitario": 550.64,
+            "valor_venta": 52310.8
+        },
+        {
+            "numero": 10,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 13,
+            "precio_unitario": 465.71,
+            "valor_venta": 6054.23
+        }
+    ]
+}

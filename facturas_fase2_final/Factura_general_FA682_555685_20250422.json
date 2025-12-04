@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA682-555685",
+    "fecha_emision": "2025-04-22T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20383794651",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 1004, Miraflores, Lima",
+    "receptor_numero_doc": "20332241843",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Calle Los Pinos 2921, La Victoria, Lima",
+    "subtotal": 182129.2,
+    "igv": 29477.86,
+    "importe_total": 211607.06,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional (Importado)",
+            "unidad": "SES",
+            "cantidad": 85,
+            "precio_unitario": 487.97,
+            "valor_venta": 41477.45
+        },
+        {
+            "numero": 2,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas) (Oferta)",
+            "unidad": "HOR",
+            "cantidad": 21,
+            "precio_unitario": 287.03,
+            "valor_venta": 6027.63
+        },
+        {
+            "numero": 3,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 17,
+            "precio_unitario": 998.65,
+            "valor_venta": 16977.05
+        },
+        {
+            "numero": 4,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 8,
+            "precio_unitario": 153.86,
+            "valor_venta": 1230.88
+        },
+        {
+            "numero": 5,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 43,
+            "precio_unitario": 531.99,
+            "valor_venta": 22875.57
+        },
+        {
+            "numero": 6,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 94,
+            "precio_unitario": 894.8,
+            "valor_venta": 84111.2
+        },
+        {
+            "numero": 7,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 33,
+            "precio_unitario": 285.74,
+            "valor_venta": 9429.42
+        }
+    ]
+}

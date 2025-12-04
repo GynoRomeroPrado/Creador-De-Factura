@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E825-219149",
+    "fecha_emision": "2025-03-17T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20594055366",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Calle Los Pinos 439, Miraflores, Lima",
+    "receptor_numero_doc": "20212580997",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Benavides 4140, Santiago de Surco, Lima",
+    "subtotal": 407270.3,
+    "igv": 73308.65,
+    "importe_total": 480578.95,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 74,
+            "precio_unitario": 162.36,
+            "valor_venta": 12014.64
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 67,
+            "precio_unitario": 1339.96,
+            "valor_venta": 89777.32
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 35,
+            "precio_unitario": 2376.54,
+            "valor_venta": 83178.9
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo Serie X",
+            "unidad": "POL",
+            "cantidad": 10,
+            "precio_unitario": 1735.78,
+            "valor_venta": 17357.8
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 24,
+            "precio_unitario": 174.56,
+            "valor_venta": 4189.44
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida (Importado)",
+            "unidad": "POL",
+            "cantidad": 43,
+            "precio_unitario": 396.83,
+            "valor_venta": 17063.69
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 63,
+            "precio_unitario": 322.72,
+            "valor_venta": 20331.36
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 55,
+            "precio_unitario": 2970.13,
+            "valor_venta": 163357.15
+        }
+    ]
+}

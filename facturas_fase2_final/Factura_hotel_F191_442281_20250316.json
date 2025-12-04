@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F191-442281",
+    "fecha_emision": "2025-03-16T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20948364051",
+    "emisor_razon_social": "Hilton Luxury Iquitos",
+    "emisor_direccion": "Jr. de la Unión 4611, Miraflores, Lima",
+    "receptor_numero_doc": "20416616371",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. La Marina 3177, Cercado de Lima, Lima",
+    "subtotal": 2202.5,
+    "igv": 396.45,
+    "importe_total": 2995.4,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.885,
+            "precio_unitario": 42.51,
+            "valor_venta": 250.17,
+            "cargo_item": 45.03,
+            "importe_total": 295.2
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.867,
+            "precio_unitario": 127.16,
+            "valor_venta": 873.21,
+            "cargo_item": 157.18,
+            "importe_total": 1030.39
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.988,
+            "precio_unitario": 63.66,
+            "valor_venta": 508.52,
+            "cargo_item": 91.53,
+            "importe_total": 600.05
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.625,
+            "precio_unitario": 51.93,
+            "valor_venta": 84.39,
+            "cargo_item": 15.19,
+            "importe_total": 99.58
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.993,
+            "precio_unitario": 81.13,
+            "valor_venta": 486.21,
+            "cargo_item": 87.52,
+            "importe_total": 573.73
+        }
+    ]
+}

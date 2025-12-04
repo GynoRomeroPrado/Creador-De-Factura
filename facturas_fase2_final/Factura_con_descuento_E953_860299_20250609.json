@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E953-860299",
+    "fecha_emision": "2025-06-09T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20156745520",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Av. Benavides 1919, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20486497492",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 634, Cercado de Lima, Lima",
+    "subtotal": 127.29,
+    "igv": 22.91,
+    "importe_total": 158.44,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.881,
+            "precio_unitario": 38.33,
+            "valor_venta": 148.76
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F516-082262",
+    "fecha_emision": "2025-09-01T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20838197605",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Benavides 1776, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20983720421",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Arequipa 2260, La Victoria, Lima",
+    "subtotal": 600489.36,
+    "igv": 94347.19,
+    "importe_total": 694836.55,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Soporte Técnico Remoto Mensual (Oferta)",
+            "unidad": "MES",
+            "cantidad": 72,
+            "precio_unitario": 795.85,
+            "valor_venta": 57301.2
+        },
+        {
+            "numero": 2,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 30,
+            "precio_unitario": 240.33,
+            "valor_venta": 7209.9
+        },
+        {
+            "numero": 3,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 53,
+            "precio_unitario": 1008.42,
+            "valor_venta": 53446.26
+        },
+        {
+            "numero": 4,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 56,
+            "precio_unitario": 1521.03,
+            "valor_venta": 85177.68
+        },
+        {
+            "numero": 5,
+            "descripcion": "Alquiler de Sala de Conferencias (Día) Serie X",
+            "unidad": "DIA",
+            "cantidad": 69,
+            "precio_unitario": 1349.6,
+            "valor_venta": 93122.4
+        },
+        {
+            "numero": 6,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 59,
+            "precio_unitario": 1088.77,
+            "valor_venta": 64237.43
+        },
+        {
+            "numero": 7,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 42,
+            "precio_unitario": 918.61,
+            "valor_venta": 38581.62
+        },
+        {
+            "numero": 8,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 51,
+            "precio_unitario": 552.3,
+            "valor_venta": 28167.3
+        },
+        {
+            "numero": 9,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 25,
+            "precio_unitario": 1741.55,
+            "valor_venta": 43538.75
+        },
+        {
+            "numero": 10,
+            "descripcion": "Alquiler de Sala de Conferencias (Día) Color: Negro",
+            "unidad": "DIA",
+            "cantidad": 89,
+            "precio_unitario": 1457.38,
+            "valor_venta": 129706.82
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E210-443966",
+    "fecha_emision": "2025-05-22T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20892233374",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Av. Benavides 2074, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20977659451",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 1494, San Isidro, Lima",
+    "subtotal": 12342.3,
+    "igv": 2221.61,
+    "importe_total": 14563.91,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 72,
+            "precio_unitario": 183.07,
+            "valor_venta": 13181.04
+        }
+    ]
+}

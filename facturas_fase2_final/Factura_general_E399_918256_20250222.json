@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E399-918256",
+    "fecha_emision": "2025-02-22T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20354921759",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Calle Los Pinos 1826, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20341857172",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 1720, Cercado de Lima, Lima",
+    "subtotal": 631.51,
+    "igv": 113.67,
+    "importe_total": 766.5,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.968,
+            "precio_unitario": 65.5,
+            "valor_venta": 128.9
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.197,
+            "precio_unitario": 79.78,
+            "valor_venta": 95.5
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.657,
+            "precio_unitario": 85.55,
+            "valor_venta": 483.96
+        }
+    ]
+}

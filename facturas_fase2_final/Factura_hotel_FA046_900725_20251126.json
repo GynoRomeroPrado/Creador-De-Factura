@@ -1,0 +1,117 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA046-900725",
+    "fecha_emision": "2025-11-26T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20815785348",
+    "emisor_razon_social": "Novotel Wyndham Cusco",
+    "emisor_direccion": "Jr. de la Unión 3142, San Borja, Lima",
+    "receptor_numero_doc": "20716518729",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 461, Cercado de Lima, Lima",
+    "subtotal": 3613.18,
+    "igv": 650.37,
+    "importe_total": 4928.25,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.839,
+            "precio_unitario": 137.84,
+            "valor_venta": 804.85,
+            "cargo_item": 144.87,
+            "importe_total": 949.72
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.88,
+            "precio_unitario": 111.98,
+            "valor_venta": 882.4,
+            "cargo_item": 158.83,
+            "importe_total": 1041.23
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.055,
+            "precio_unitario": 128.63,
+            "valor_venta": 135.7,
+            "cargo_item": 24.43,
+            "importe_total": 160.13
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.216,
+            "precio_unitario": 71.64,
+            "valor_venta": 87.11,
+            "cargo_item": 15.68,
+            "importe_total": 102.79
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.697,
+            "precio_unitario": 48.76,
+            "valor_venta": 424.07,
+            "cargo_item": 76.33,
+            "importe_total": 500.4
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.508,
+            "precio_unitario": 104.14,
+            "valor_venta": 469.46,
+            "cargo_item": 84.5,
+            "importe_total": 553.96
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.348,
+            "precio_unitario": 53.01,
+            "valor_venta": 283.5,
+            "cargo_item": 51.03,
+            "importe_total": 334.53
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.962,
+            "precio_unitario": 30.37,
+            "valor_venta": 89.96,
+            "cargo_item": 16.19,
+            "importe_total": 106.15
+        },
+        {
+            "numero": 9,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.154,
+            "precio_unitario": 147.58,
+            "valor_venta": 317.89,
+            "cargo_item": 57.22,
+            "importe_total": 375.11
+        },
+        {
+            "numero": 10,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.361,
+            "precio_unitario": 86.88,
+            "valor_venta": 118.24,
+            "cargo_item": 21.28,
+            "importe_total": 139.52
+        }
+    ]
+}

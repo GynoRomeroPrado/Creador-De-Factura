@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E991-967708",
+    "fecha_emision": "2025-09-27T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20945074176",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Av. La Marina 751, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20155389738",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 2317, San Isidro, Lima",
+    "subtotal": 125577.78,
+    "igv": 22604.0,
+    "importe_total": 148181.78,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 2787.52,
+            "valor_venta": 147738.56
+        }
+    ]
+}

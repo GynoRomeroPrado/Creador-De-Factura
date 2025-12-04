@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F877-423216",
+    "fecha_emision": "2025-06-02T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20591279476",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Calle Los Pinos 1999, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20831413043",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. Arequipa 4076, Cercado de Lima, Lima",
+    "subtotal": 416329.95,
+    "igv": 74939.39,
+    "importe_total": 491269.34,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 63,
+            "precio_unitario": 323.54,
+            "valor_venta": 20383.02
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 86,
+            "precio_unitario": 504.82,
+            "valor_venta": 43414.52
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 12,
+            "precio_unitario": 507.72,
+            "valor_venta": 6092.64
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 72,
+            "precio_unitario": 232.11,
+            "valor_venta": 16711.92
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 52,
+            "precio_unitario": 1834.73,
+            "valor_venta": 95405.96
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios Serie X",
+            "unidad": "POL",
+            "cantidad": 98,
+            "precio_unitario": 977.65,
+            "valor_venta": 95809.7
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro contra Incendios Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 21,
+            "precio_unitario": 451.91,
+            "valor_venta": 9490.11
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 76,
+            "precio_unitario": 485.23,
+            "valor_venta": 36877.48
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 40,
+            "precio_unitario": 2094.64,
+            "valor_venta": 83785.6
+        },
+        {
+            "numero": 10,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 65,
+            "precio_unitario": 128.6,
+            "valor_venta": 8359.0
+        }
+    ]
+}

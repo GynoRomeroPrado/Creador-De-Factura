@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F167-969298",
+    "fecha_emision": "2025-07-27T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20322069325",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Jr. de la Unión 2817, Miraflores, Lima",
+    "receptor_numero_doc": "20823797134",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 3854, La Victoria, Lima",
+    "subtotal": 26248.02,
+    "igv": 4724.64,
+    "importe_total": 30972.66,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark Color: Negro",
+            "unidad": "MILLAR",
+            "cantidad": 43,
+            "precio_unitario": 718.14,
+            "valor_venta": 30880.02
+        }
+    ]
+}

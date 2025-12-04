@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F790-543710",
+    "fecha_emision": "2025-03-03T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20944985752",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. La Marina 4050, San Borja, Lima",
+    "receptor_numero_doc": "20892747408",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 4225, San Borja, Lima",
+    "subtotal": 547207.54,
+    "igv": 98497.36,
+    "importe_total": 645704.9,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 91,
+            "precio_unitario": 26.32,
+            "valor_venta": 2395.12
+        },
+        {
+            "numero": 2,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 42,
+            "precio_unitario": 260.01,
+            "valor_venta": 10920.42
+        },
+        {
+            "numero": 3,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas) (Importado)",
+            "unidad": "HOR",
+            "cantidad": 79,
+            "precio_unitario": 212.8,
+            "valor_venta": 16811.2
+        },
+        {
+            "numero": 4,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional Color: Negro",
+            "unidad": "SES",
+            "cantidad": 64,
+            "precio_unitario": 750.31,
+            "valor_venta": 48019.84
+        },
+        {
+            "numero": 5,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica (Oferta)",
+            "unidad": "PROY",
+            "cantidad": 97,
+            "precio_unitario": 4835.68,
+            "valor_venta": 469060.96
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E618-669188",
+    "fecha_emision": "2025-12-27T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20461340068",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 152, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20404320581",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 4193, Cercado de Lima, Lima",
+    "subtotal": 90845.8,
+    "igv": 16352.24,
+    "importe_total": 107198.04,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 28,
+            "precio_unitario": 145.33,
+            "valor_venta": 4069.24
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 7,
+            "precio_unitario": 122.06,
+            "valor_venta": 854.42
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 67,
+            "precio_unitario": 1282.42,
+            "valor_venta": 85922.14
+        }
+    ]
+}

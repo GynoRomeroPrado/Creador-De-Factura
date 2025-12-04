@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA588-842168",
+    "fecha_emision": "2025-08-30T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20262976158",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 3116, Miraflores, Lima",
+    "receptor_numero_doc": "20051377771",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 2669, Miraflores, Lima",
+    "subtotal": 171.82,
+    "igv": 30.93,
+    "importe_total": 202.75,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 8,
+            "precio_unitario": 5.89,
+            "valor_venta": 47.12
+        },
+        {
+            "numero": 2,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 58,
+            "precio_unitario": 2.15,
+            "valor_venta": 124.7
+        }
+    ]
+}

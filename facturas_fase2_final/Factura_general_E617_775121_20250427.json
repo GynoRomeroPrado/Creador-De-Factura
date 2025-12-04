@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E617-775121",
+    "fecha_emision": "2025-04-27T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20182816451",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 443, San Borja, Lima",
+    "receptor_numero_doc": "20509046841",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 1786, Cercado de Lima, Lima",
+    "subtotal": 409.36,
+    "igv": 73.68,
+    "importe_total": 483.04,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Diesel (Oferta)",
+            "unidad": "GL",
+            "cantidad": 79,
+            "precio_unitario": 3.1,
+            "valor_venta": 244.9
+        },
+        {
+            "numero": 2,
+            "descripcion": "Diesel Serie X",
+            "unidad": "GL",
+            "cantidad": 45,
+            "precio_unitario": 3.02,
+            "valor_venta": 135.9
+        },
+        {
+            "numero": 3,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 14,
+            "precio_unitario": 2.04,
+            "valor_venta": 28.56
+        }
+    ]
+}

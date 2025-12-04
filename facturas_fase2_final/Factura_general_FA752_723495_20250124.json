@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA752-723495",
+    "fecha_emision": "2025-01-24T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20480061307",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Jr. de la Unión 4184, San Borja, Lima",
+    "receptor_numero_doc": "20745220330",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 315, Santiago de Surco, Lima",
+    "subtotal": 77471.93,
+    "igv": 13944.95,
+    "importe_total": 91416.88,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 65,
+            "precio_unitario": 636.67,
+            "valor_venta": 41383.55
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 60,
+            "precio_unitario": 161.99,
+            "valor_venta": 9719.4
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 218.91,
+            "valor_venta": 11602.23
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 35,
+            "precio_unitario": 173.93,
+            "valor_venta": 6087.55
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 19,
+            "precio_unitario": 456.8,
+            "valor_venta": 8679.2
+        }
+    ]
+}

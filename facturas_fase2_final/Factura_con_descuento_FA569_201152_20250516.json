@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA569-201152",
+    "fecha_emision": "2025-05-16T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20843649484",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 4734, San Borja, Lima",
+    "receptor_numero_doc": "20461649620",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 3671, San Borja, Lima",
+    "subtotal": 1865.56,
+    "igv": 335.8,
+    "importe_total": 2201.36,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 14,
+            "precio_unitario": 3.81,
+            "valor_venta": 53.34
+        },
+        {
+            "numero": 2,
+            "descripcion": "GLP Serie X",
+            "unidad": "GL",
+            "cantidad": 84,
+            "precio_unitario": 1.76,
+            "valor_venta": 147.84
+        },
+        {
+            "numero": 3,
+            "descripcion": "Gasolina 90 Color: Negro",
+            "unidad": "GL",
+            "cantidad": 50,
+            "precio_unitario": 5.88,
+            "valor_venta": 294.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 59,
+            "precio_unitario": 4.45,
+            "valor_venta": 262.55
+        },
+        {
+            "numero": 5,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 79,
+            "precio_unitario": 6.83,
+            "valor_venta": 539.57
+        },
+        {
+            "numero": 6,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 26,
+            "precio_unitario": 1.67,
+            "valor_venta": 43.42
+        },
+        {
+            "numero": 7,
+            "descripcion": "Diesel (Oferta)",
+            "unidad": "GL",
+            "cantidad": 40,
+            "precio_unitario": 4.87,
+            "valor_venta": 194.8
+        },
+        {
+            "numero": 8,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 87,
+            "precio_unitario": 4.95,
+            "valor_venta": 430.65
+        }
+    ]
+}

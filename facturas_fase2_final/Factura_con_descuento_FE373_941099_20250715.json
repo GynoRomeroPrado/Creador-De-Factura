@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE373-941099",
+    "fecha_emision": "2025-07-15T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20446276523",
+    "emisor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 2363, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20868551365",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. La Marina 1410, La Victoria, Lima",
+    "subtotal": 224357.1,
+    "igv": 35691.49,
+    "importe_total": 260048.59,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 33,
+            "precio_unitario": 1458.65,
+            "valor_venta": 48135.45
+        },
+        {
+            "numero": 2,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 57,
+            "precio_unitario": 3308.01,
+            "valor_venta": 188556.57
+        }
+    ]
+}

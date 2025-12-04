@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E661-826293",
+    "fecha_emision": "2025-08-15T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20411076009",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 3882, Miraflores, Lima",
+    "receptor_numero_doc": "20580743677",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 3327, La Victoria, Lima",
+    "subtotal": 947723.39,
+    "igv": 130793.94,
+    "importe_total": 1078517.33,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores Modelo 2025",
+            "unidad": "SRV",
+            "cantidad": 96,
+            "precio_unitario": 1148.71,
+            "valor_venta": 110276.16
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 9,
+            "precio_unitario": 1894.39,
+            "valor_venta": 17049.51
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores (Importado)",
+            "unidad": "SRV",
+            "cantidad": 74,
+            "precio_unitario": 1070.67,
+            "valor_venta": 79229.58
+        },
+        {
+            "numero": 4,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 78,
+            "precio_unitario": 1519.57,
+            "valor_venta": 118526.46
+        },
+        {
+            "numero": 5,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 62,
+            "precio_unitario": 613.24,
+            "valor_venta": 38020.88
+        },
+        {
+            "numero": 6,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 98,
+            "precio_unitario": 4656.73,
+            "valor_venta": 456359.54
+        },
+        {
+            "numero": 7,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 54,
+            "precio_unitario": 1526.69,
+            "valor_venta": 82441.26
+        },
+        {
+            "numero": 8,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 80,
+            "precio_unitario": 572.75,
+            "valor_venta": 45820.0
+        }
+    ]
+}

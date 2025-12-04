@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA319-172590",
+    "fecha_emision": "2025-11-26T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20665998771",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Arequipa 4282, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20479313599",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Benavides 4036, Cercado de Lima, Lima",
+    "subtotal": 34497.23,
+    "igv": 6209.5,
+    "importe_total": 40706.73,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 28,
+            "precio_unitario": 150.93,
+            "valor_venta": 4226.04
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 24,
+            "precio_unitario": 177.77,
+            "valor_venta": 4266.48
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 19,
+            "precio_unitario": 274.43,
+            "valor_venta": 5214.17
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 54,
+            "precio_unitario": 385.01,
+            "valor_venta": 20790.54
+        }
+    ]
+}

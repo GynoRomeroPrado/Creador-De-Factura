@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA607-100384",
+    "fecha_emision": "2025-05-19T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20388222841",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Jr. de la Unión 1401, Miraflores, Lima",
+    "receptor_numero_doc": "20003370713",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 405, La Victoria, Lima",
+    "subtotal": 74924.38,
+    "igv": 13486.39,
+    "importe_total": 88419.89,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Arroz Superior x 50kg (Oferta)",
+            "unidad": "SAC",
+            "cantidad": 36,
+            "precio_unitario": 147.21,
+            "valor_venta": 5299.56
+        },
+        {
+            "numero": 2,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 24,
+            "precio_unitario": 102.46,
+            "valor_venta": 2459.04
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pescado Fresco kg Modelo 2025",
+            "unidad": "KG",
+            "cantidad": 36,
+            "precio_unitario": 18.12,
+            "valor_venta": 652.32
+        },
+        {
+            "numero": 4,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 64,
+            "precio_unitario": 243.53,
+            "valor_venta": 15585.92
+        },
+        {
+            "numero": 5,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 70,
+            "precio_unitario": 181.2,
+            "valor_venta": 12684.0
+        },
+        {
+            "numero": 6,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 69,
+            "precio_unitario": 98.68,
+            "valor_venta": 6808.92
+        },
+        {
+            "numero": 7,
+            "descripcion": "Leche Evaporada x 48 latas (Oferta)",
+            "unidad": "CJA",
+            "cantidad": 81,
+            "precio_unitario": 101.6,
+            "valor_venta": 8229.6
+        },
+        {
+            "numero": 8,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 30,
+            "precio_unitario": 134.38,
+            "valor_venta": 4031.4
+        },
+        {
+            "numero": 9,
+            "descripcion": "Aceite Vegetal x 20L Serie X",
+            "unidad": "BID",
+            "cantidad": 41,
+            "precio_unitario": 100.99,
+            "valor_venta": 4140.59
+        },
+        {
+            "numero": 10,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 69,
+            "precio_unitario": 217.87,
+            "valor_venta": 15033.03
+        }
+    ]
+}

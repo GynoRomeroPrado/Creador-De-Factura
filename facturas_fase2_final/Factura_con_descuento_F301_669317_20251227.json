@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F301-669317",
+    "fecha_emision": "2025-12-27T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20671883030",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 1222, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20195696781",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Arequipa 1508, La Victoria, Lima",
+    "subtotal": 237572.28,
+    "igv": 38384.82,
+    "importe_total": 275957.1,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 66,
+            "precio_unitario": 4030.33,
+            "valor_venta": 266001.78
+        }
+    ]
+}

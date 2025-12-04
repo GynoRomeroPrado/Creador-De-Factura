@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E224-582717",
+    "fecha_emision": "2025-05-24T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20610908234",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 2364, Miraflores, Lima",
+    "receptor_numero_doc": "20804042556",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 4317, Santiago de Surco, Lima",
+    "subtotal": 7932.83,
+    "igv": 1427.91,
+    "importe_total": 9360.74,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 65,
+            "precio_unitario": 22.79,
+            "valor_venta": 1481.35
+        },
+        {
+            "numero": 2,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 60,
+            "precio_unitario": 102.55,
+            "valor_venta": 6153.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 82,
+            "precio_unitario": 3.64,
+            "valor_venta": 298.48
+        }
+    ]
+}

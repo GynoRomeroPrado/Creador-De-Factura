@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F688-267356",
+    "fecha_emision": "2025-08-07T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20104611282",
+    "emisor_razon_social": "Westin Business Piura",
+    "emisor_direccion": "Jr. de la Unión 3970, La Victoria, Lima",
+    "receptor_numero_doc": "20527602735",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 2982, Cercado de Lima, Lima",
+    "subtotal": 1400.87,
+    "igv": 252.16,
+    "importe_total": 1905.19,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.634,
+            "precio_unitario": 39.75,
+            "valor_venta": 263.7,
+            "cargo_item": 47.47,
+            "importe_total": 311.17
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.67,
+            "precio_unitario": 94.16,
+            "valor_venta": 628.05,
+            "cargo_item": 113.05,
+            "importe_total": 741.1
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.535,
+            "precio_unitario": 92.94,
+            "valor_venta": 142.66,
+            "cargo_item": 25.68,
+            "importe_total": 168.34
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.571,
+            "precio_unitario": 102.62,
+            "valor_venta": 366.46,
+            "cargo_item": 65.96,
+            "importe_total": 432.42
+        }
+    ]
+}

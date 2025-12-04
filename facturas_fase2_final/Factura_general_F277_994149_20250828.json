@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F277-994149",
+    "fecha_emision": "2025-08-28T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20946636721",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Calle Los Pinos 167, Miraflores, Lima",
+    "receptor_numero_doc": "20447423287",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Benavides 3801, Santiago de Surco, Lima",
+    "subtotal": 1615.17,
+    "igv": 290.73,
+    "importe_total": 1925.99,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 17,
+            "precio_unitario": 95.01,
+            "valor_venta": 1615.17
+        }
+    ]
+}

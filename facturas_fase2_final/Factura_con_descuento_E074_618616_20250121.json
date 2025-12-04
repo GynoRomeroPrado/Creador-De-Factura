@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E074-618616",
+    "fecha_emision": "2025-01-21T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20467357469",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Av. Benavides 1394, La Victoria, Lima",
+    "receptor_numero_doc": "20771083197",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Calle Los Pinos 321, Cercado de Lima, Lima",
+    "subtotal": 13333.85,
+    "igv": 2236.12,
+    "importe_total": 15569.97,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal) (Importado)",
+            "unidad": "UND",
+            "cantidad": 61,
+            "precio_unitario": 24.64,
+            "valor_venta": 1503.04
+        },
+        {
+            "numero": 2,
+            "descripcion": "Guantes de Cuero Reforzado Serie X",
+            "unidad": "PAR",
+            "cantidad": 96,
+            "precio_unitario": 17.6,
+            "valor_venta": 1689.6
+        },
+        {
+            "numero": 3,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 96,
+            "precio_unitario": 25.27,
+            "valor_venta": 2425.92
+        },
+        {
+            "numero": 4,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m",
+            "unidad": "VAR",
+            "cantidad": 72,
+            "precio_unitario": 41.15,
+            "valor_venta": 2962.8
+        },
+        {
+            "numero": 5,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m",
+            "unidad": "VAR",
+            "cantidad": 88,
+            "precio_unitario": 41.25,
+            "valor_venta": 3630.0
+        },
+        {
+            "numero": 6,
+            "descripcion": "Casco de Seguridad 3M Blanco (Oferta)",
+            "unidad": "UND",
+            "cantidad": 60,
+            "precio_unitario": 29.89,
+            "valor_venta": 1793.4
+        },
+        {
+            "numero": 7,
+            "descripcion": "Cemento Sol Tipo I (42.5kg) Modelo 2025",
+            "unidad": "BOL",
+            "cantidad": 28,
+            "precio_unitario": 28.59,
+            "valor_venta": 800.52
+        },
+        {
+            "numero": 8,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt Serie X",
+            "unidad": "UND",
+            "cantidad": 54,
+            "precio_unitario": 7.27,
+            "valor_venta": 392.58
+        }
+    ]
+}

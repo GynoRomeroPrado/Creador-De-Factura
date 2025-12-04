@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA835-944269",
+    "fecha_emision": "2025-02-15T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20860716004",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Arequipa 2805, San Isidro, Lima",
+    "receptor_numero_doc": "20837912262",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Jr. de la Unión 2435, San Isidro, Lima",
+    "subtotal": 7105.37,
+    "igv": 1009.4,
+    "importe_total": 8114.77,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 12,
+            "precio_unitario": 166.28,
+            "valor_venta": 1995.36
+        },
+        {
+            "numero": 2,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas) (Oferta)",
+            "unidad": "HOR",
+            "cantidad": 45,
+            "precio_unitario": 153.03,
+            "valor_venta": 6886.35
+        }
+    ]
+}

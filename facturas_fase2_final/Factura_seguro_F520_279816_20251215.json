@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F520-279816",
+    "fecha_emision": "2025-12-15T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20934150113",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 1357, San Isidro, Lima",
+    "receptor_numero_doc": "20473926335",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 1325, San Isidro, Lima",
+    "subtotal": 538083.27,
+    "igv": 75339.78,
+    "importe_total": 613423.05,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 82,
+            "precio_unitario": 341.03,
+            "valor_venta": 27964.46
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 64,
+            "precio_unitario": 878.4,
+            "valor_venta": 56217.6
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 14,
+            "precio_unitario": 217.16,
+            "valor_venta": 3040.24
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Serie X",
+            "unidad": "POL",
+            "cantidad": 29,
+            "precio_unitario": 199.05,
+            "valor_venta": 5772.45
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 82,
+            "precio_unitario": 107.57,
+            "valor_venta": 8820.74
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 52,
+            "precio_unitario": 2381.15,
+            "valor_venta": 123819.8
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 54,
+            "precio_unitario": 910.18,
+            "valor_venta": 49149.72
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 60,
+            "precio_unitario": 2738.0,
+            "valor_venta": 164280.0
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 97,
+            "precio_unitario": 935.6,
+            "valor_venta": 90753.2
+        },
+        {
+            "numero": 10,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 73,
+            "precio_unitario": 113.22,
+            "valor_venta": 8265.06
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE622-566287",
+    "fecha_emision": "2025-12-30T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20267442631",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. La Marina 4764, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20253762161",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Arequipa 4568, San Isidro, Lima",
+    "subtotal": 8392.51,
+    "igv": 1265.09,
+    "importe_total": 9657.6,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 55,
+            "precio_unitario": 14.07,
+            "valor_venta": 773.85
+        },
+        {
+            "numero": 2,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 31,
+            "precio_unitario": 4.01,
+            "valor_venta": 124.31
+        },
+        {
+            "numero": 3,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 2,
+            "precio_unitario": 4.3,
+            "valor_venta": 8.6
+        },
+        {
+            "numero": 4,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 25,
+            "precio_unitario": 4.59,
+            "valor_venta": 114.75
+        },
+        {
+            "numero": 5,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 75,
+            "precio_unitario": 98.28,
+            "valor_venta": 7371.0
+        }
+    ]
+}

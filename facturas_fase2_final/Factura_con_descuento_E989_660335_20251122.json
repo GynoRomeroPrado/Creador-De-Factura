@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E989-660335",
+    "fecha_emision": "2025-11-22T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20246853887",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Av. Benavides 2225, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20113836084",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 3754, San Isidro, Lima",
+    "subtotal": 970.99,
+    "igv": 174.78,
+    "importe_total": 1145.77,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.539,
+            "precio_unitario": 60.0,
+            "valor_venta": 92.34
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.522,
+            "precio_unitario": 106.41,
+            "valor_venta": 268.37
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.986,
+            "precio_unitario": 63.84,
+            "valor_venta": 190.63
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.011,
+            "precio_unitario": 63.33,
+            "valor_venta": 254.02
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.767,
+            "precio_unitario": 78.33,
+            "valor_venta": 216.74
+        }
+    ]
+}

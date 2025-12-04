@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E401-826210",
+    "fecha_emision": "2025-01-22T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20486135639",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Calle Los Pinos 1604, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20527246360",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Arequipa 680, Miraflores, Lima",
+    "subtotal": 53376.26,
+    "igv": 9607.73,
+    "importe_total": 62983.99,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 32,
+            "precio_unitario": 1339.06,
+            "valor_venta": 42849.92
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 66,
+            "precio_unitario": 159.49,
+            "valor_venta": 10526.34
+        }
+    ]
+}

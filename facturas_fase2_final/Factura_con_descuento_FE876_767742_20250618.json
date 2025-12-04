@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE876-767742",
+    "fecha_emision": "2025-06-18T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20256890756",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 3882, San Isidro, Lima",
+    "receptor_numero_doc": "20260378024",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 3138, Santiago de Surco, Lima",
+    "subtotal": 49472.13,
+    "igv": 6904.07,
+    "importe_total": 56376.2,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 5,
+            "precio_unitario": 649.27,
+            "valor_venta": 3246.35
+        },
+        {
+            "numero": 2,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 63,
+            "precio_unitario": 872.32,
+            "valor_venta": 54956.16
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E816-785194",
+    "fecha_emision": "2025-05-29T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20967782468",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. La Marina 4917, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20844712139",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. La Marina 2063, Santiago de Surco, Lima",
+    "subtotal": 1860.26,
+    "igv": 239.66,
+    "importe_total": 2099.92,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Arena Gruesa (m3) (Importado)",
+            "unidad": "M3",
+            "cantidad": 45,
+            "precio_unitario": 46.12,
+            "valor_venta": 2075.4
+        }
+    ]
+}

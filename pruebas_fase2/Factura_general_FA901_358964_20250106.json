@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA901-358964",
+    "fecha_emision": "2025-01-06T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20254337839",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Arequipa 2403, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20135764672",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. Arequipa 1193, Santiago de Surco, Lima",
+    "subtotal": 17893.74,
+    "igv": 3220.87,
+    "importe_total": 21114.61,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m",
+            "unidad": "VAR",
+            "cantidad": 85,
+            "precio_unitario": 40.09,
+            "valor_venta": 3407.65
+        },
+        {
+            "numero": 2,
+            "descripcion": "Cemento Sol Tipo I (42.5kg) Color: Negro",
+            "unidad": "BOL",
+            "cantidad": 78,
+            "precio_unitario": 27.15,
+            "valor_venta": 2117.7
+        },
+        {
+            "numero": 3,
+            "descripcion": "Piedra Chancada 1/2\" (m3) (Oferta)",
+            "unidad": "M3",
+            "cantidad": 93,
+            "precio_unitario": 60.17,
+            "valor_venta": 5595.81
+        },
+        {
+            "numero": 4,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 84,
+            "precio_unitario": 28.92,
+            "valor_venta": 2429.28
+        },
+        {
+            "numero": 5,
+            "descripcion": "Arena Gruesa (m3)",
+            "unidad": "M3",
+            "cantidad": 83,
+            "precio_unitario": 55.47,
+            "valor_venta": 4604.01
+        }
+    ]
+}

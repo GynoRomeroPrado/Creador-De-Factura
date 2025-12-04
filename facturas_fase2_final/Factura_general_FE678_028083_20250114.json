@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE678-028083",
+    "fecha_emision": "2025-01-14T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20882836321",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Calle Los Pinos 1651, La Victoria, Lima",
+    "receptor_numero_doc": "20423281295",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 3272, Cercado de Lima, Lima",
+    "subtotal": 1686.49,
+    "igv": 303.57,
+    "importe_total": 1990.06,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 40,
+            "precio_unitario": 1.71,
+            "valor_venta": 68.4
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 42,
+            "precio_unitario": 6.29,
+            "valor_venta": 264.18
+        },
+        {
+            "numero": 3,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 67,
+            "precio_unitario": 3.69,
+            "valor_venta": 247.23
+        },
+        {
+            "numero": 4,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 100,
+            "precio_unitario": 5.95,
+            "valor_venta": 595.0
+        },
+        {
+            "numero": 5,
+            "descripcion": "GLP (Oferta)",
+            "unidad": "GL",
+            "cantidad": 6,
+            "precio_unitario": 1.68,
+            "valor_venta": 10.08
+        },
+        {
+            "numero": 6,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 95,
+            "precio_unitario": 5.28,
+            "valor_venta": 501.6
+        }
+    ]
+}

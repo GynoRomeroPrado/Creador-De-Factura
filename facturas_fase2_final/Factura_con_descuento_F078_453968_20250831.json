@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F078-453968",
+    "fecha_emision": "2025-08-31T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20005090483",
+    "emisor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "emisor_direccion": "Av. Arequipa 4614, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20193022171",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Arequipa 4794, San Isidro, Lima",
+    "subtotal": 1216.12,
+    "igv": 218.9,
+    "importe_total": 1435.02,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 28,
+            "precio_unitario": 2.84,
+            "valor_venta": 79.52
+        },
+        {
+            "numero": 2,
+            "descripcion": "GLP (Importado)",
+            "unidad": "GL",
+            "cantidad": 51,
+            "precio_unitario": 1.63,
+            "valor_venta": 83.13
+        },
+        {
+            "numero": 3,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 70,
+            "precio_unitario": 2.2,
+            "valor_venta": 154.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 67,
+            "precio_unitario": 6.92,
+            "valor_venta": 463.64
+        },
+        {
+            "numero": 5,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 85,
+            "precio_unitario": 3.57,
+            "valor_venta": 303.45
+        },
+        {
+            "numero": 6,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 7,
+            "precio_unitario": 4.17,
+            "valor_venta": 29.19
+        },
+        {
+            "numero": 7,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 89,
+            "precio_unitario": 1.99,
+            "valor_venta": 177.11
+        },
+        {
+            "numero": 8,
+            "descripcion": "Diesel Serie X",
+            "unidad": "GL",
+            "cantidad": 20,
+            "precio_unitario": 3.06,
+            "valor_venta": 61.2
+        }
+    ]
+}

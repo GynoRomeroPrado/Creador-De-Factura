@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE350-150352",
+    "fecha_emision": "2025-10-24T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20812922093",
+    "emisor_razon_social": "Novotel Business Barranco",
+    "emisor_direccion": "Calle Los Pinos 3952, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20685404614",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 3367, Cercado de Lima, Lima",
+    "subtotal": 1229.03,
+    "igv": 197.1,
+    "importe_total": 1647.36,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.36,
+            "precio_unitario": 115.12,
+            "valor_venta": 847.28,
+            "cargo_item": 152.51,
+            "importe_total": 999.79
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.249,
+            "precio_unitario": 80.93,
+            "valor_venta": 262.94,
+            "cargo_item": 47.33,
+            "importe_total": 310.27
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.812,
+            "precio_unitario": 42.25,
+            "valor_venta": 118.81,
+            "cargo_item": 21.39,
+            "importe_total": 140.2
+        }
+    ]
+}

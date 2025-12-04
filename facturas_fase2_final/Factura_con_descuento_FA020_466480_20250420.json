@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA020-466480",
+    "fecha_emision": "2025-04-20T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20864574379",
+    "emisor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "emisor_direccion": "Av. La Marina 1121, San Borja, Lima",
+    "receptor_numero_doc": "20949504469",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. Benavides 4380, San Isidro, Lima",
+    "subtotal": 67728.21,
+    "igv": 12191.08,
+    "importe_total": 79919.29,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Cemento Sol Tipo I (42.5kg) Serie X",
+            "unidad": "BOL",
+            "cantidad": 65,
+            "precio_unitario": 27.25,
+            "valor_venta": 1771.25
+        },
+        {
+            "numero": 2,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt",
+            "unidad": "UND",
+            "cantidad": 97,
+            "precio_unitario": 4.76,
+            "valor_venta": 461.72
+        },
+        {
+            "numero": 3,
+            "descripcion": "Arena Gruesa (m3)",
+            "unidad": "M3",
+            "cantidad": 17,
+            "precio_unitario": 47.88,
+            "valor_venta": 813.96
+        },
+        {
+            "numero": 4,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 92,
+            "precio_unitario": 723.04,
+            "valor_venta": 66519.68
+        }
+    ]
+}

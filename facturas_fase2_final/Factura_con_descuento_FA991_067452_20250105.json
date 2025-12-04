@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA991-067452",
+    "fecha_emision": "2025-01-05T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20520269101",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 2588, San Isidro, Lima",
+    "receptor_numero_doc": "20690120799",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 1407, San Borja, Lima",
+    "subtotal": 581.96,
+    "igv": 93.26,
+    "importe_total": 675.22,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Piedra Chancada 1/2\" (m3)",
+            "unidad": "M3",
+            "cantidad": 10,
+            "precio_unitario": 66.48,
+            "valor_venta": 664.8
+        }
+    ]
+}

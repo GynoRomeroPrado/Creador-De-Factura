@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F153-806903",
+    "fecha_emision": "2025-03-26T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20875969944",
+    "emisor_razon_social": "Sheraton Wyndham San Isidro",
+    "emisor_direccion": "Av. Javier Prado Este 2291, San Borja, Lima",
+    "receptor_numero_doc": "20520077414",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Arequipa 2306, Miraflores, Lima",
+    "subtotal": 2168.76,
+    "igv": 390.38,
+    "importe_total": 2949.52,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.049,
+            "precio_unitario": 146.7,
+            "valor_venta": 1034.09,
+            "cargo_item": 186.14,
+            "importe_total": 1220.23
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION pack x6",
+            "unidad": "NIU",
+            "cantidad": 3.455,
+            "precio_unitario": 31.4,
+            "valor_venta": 108.49,
+            "cargo_item": 19.53,
+            "importe_total": 128.02
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.96,
+            "precio_unitario": 147.44,
+            "valor_venta": 1026.18,
+            "cargo_item": 184.71,
+            "importe_total": 1210.89
+        }
+    ]
+}

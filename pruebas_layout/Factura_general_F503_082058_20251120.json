@@ -1,0 +1,90 @@
+{
+    "tipo_comprobante": "FACTURA ELECTRÓNICA",
+    "tipo_factura": "general",
+    "numero_factura": "F503-082058",
+    "serie": "F503",
+    "numero": "082058",
+    "fecha_emision": "2025-11-20T00:00:00",
+    "fecha_vencimiento": "2025-11-20T00:00:00",
+    "emisor": {
+        "ruc": "20756201701",
+        "razon_social": "Importaciones Generales del Perú S.R.L.",
+        "direccion": "Calle Los Pinos 2094, Santiago de Surco, Lima",
+        "telefono": "01-5552244",
+        "email": "ventas@negocio.com.pe"
+    },
+    "receptor": {
+        "ruc": "20949695370",
+        "razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+        "direccion": "Calle Los Pinos 272, La Victoria, Lima",
+        "telefono": "990489280",
+        "email": "ventas@comercial.pe"
+    },
+    "moneda": "USD",
+    "simbolo_moneda": "$",
+    "nombre_moneda": "DOLARES",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 61,
+            "precio_unitario": 3.21,
+            "valor_venta": 195.81
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 63,
+            "precio_unitario": 6.54,
+            "valor_venta": 412.02
+        },
+        {
+            "numero": 3,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 90,
+            "precio_unitario": 6.07,
+            "valor_venta": 546.3
+        },
+        {
+            "numero": 4,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 91,
+            "precio_unitario": 2.11,
+            "valor_venta": 192.01
+        },
+        {
+            "numero": 5,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 77,
+            "precio_unitario": 2.46,
+            "valor_venta": 189.42
+        }
+    ],
+    "op_gravada": 1535.56,
+    "op_exonerada": 0.0,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 276.4,
+    "total_cargos": 0.0,
+    "otros_cargos": 0.0,
+    "total": 1811.96,
+    "total_letras": "MIL OCHOCIENTOS ONCE CON 96/100 DÓLARES",
+    "forma_pago": "DEPOSITO EN CUENTA",
+    "con_credito": false,
+    "cuotas": [],
+    "numero_contrato": "CW779240",
+    "periodo_facturado": null,
+    "observaciones": null,
+    "datos_hotel": null,
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": null,
+    "industria": "general"
+}

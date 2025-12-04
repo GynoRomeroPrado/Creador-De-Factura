@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA168-327451",
+    "fecha_emision": "2025-02-01T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20415245468",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Benavides 2481, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20508071575",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Jr. de la Unión 4021, Miraflores, Lima",
+    "subtotal": 9103.53,
+    "igv": 1638.64,
+    "importe_total": 10742.17,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Cemento Sol Tipo I (42.5kg)",
+            "unidad": "BOL",
+            "cantidad": 24,
+            "precio_unitario": 26.88,
+            "valor_venta": 645.12
+        },
+        {
+            "numero": 2,
+            "descripcion": "Piedra Chancada 1/2\" (m3)",
+            "unidad": "M3",
+            "cantidad": 69,
+            "precio_unitario": 58.2,
+            "valor_venta": 4015.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L)",
+            "unidad": "GLN",
+            "cantidad": 93,
+            "precio_unitario": 47.77,
+            "valor_venta": 4442.61
+        }
+    ]
+}

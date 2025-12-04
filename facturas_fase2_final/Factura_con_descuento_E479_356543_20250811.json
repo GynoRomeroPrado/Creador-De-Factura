@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E479-356543",
+    "fecha_emision": "2025-08-11T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20964911429",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 2977, La Victoria, Lima",
+    "receptor_numero_doc": "20317487569",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Av. Benavides 4509, La Victoria, Lima",
+    "subtotal": 39424.36,
+    "igv": 7096.38,
+    "importe_total": 46520.74,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 66,
+            "precio_unitario": 120.41,
+            "valor_venta": 7947.06
+        },
+        {
+            "numero": 2,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 63,
+            "precio_unitario": 117.23,
+            "valor_venta": 7385.49
+        },
+        {
+            "numero": 3,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 12,
+            "precio_unitario": 213.63,
+            "valor_venta": 2563.56
+        },
+        {
+            "numero": 4,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 66,
+            "precio_unitario": 178.18,
+            "valor_venta": 11759.88
+        },
+        {
+            "numero": 5,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 30,
+            "precio_unitario": 115.37,
+            "valor_venta": 3461.1
+        },
+        {
+            "numero": 6,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 19,
+            "precio_unitario": 15.72,
+            "valor_venta": 298.68
+        },
+        {
+            "numero": 7,
+            "descripcion": "Pollo Entero kg",
+            "unidad": "KG",
+            "cantidad": 26,
+            "precio_unitario": 8.98,
+            "valor_venta": 233.48
+        },
+        {
+            "numero": 8,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 95,
+            "precio_unitario": 14.84,
+            "valor_venta": 1409.8
+        },
+        {
+            "numero": 9,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 13,
+            "precio_unitario": 116.3,
+            "valor_venta": 1511.9
+        },
+        {
+            "numero": 10,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 71,
+            "precio_unitario": 104.57,
+            "valor_venta": 7424.47
+        }
+    ]
+}

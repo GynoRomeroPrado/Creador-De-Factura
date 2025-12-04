@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE359-689338",
+    "fecha_emision": "2025-12-03T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20680353281",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. La Marina 3522, Miraflores, Lima",
+    "receptor_numero_doc": "20541678701",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 143, San Isidro, Lima",
+    "subtotal": 250566.49,
+    "igv": 45101.97,
+    "importe_total": 295668.46,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 14,
+            "precio_unitario": 245.65,
+            "valor_venta": 3439.1
+        },
+        {
+            "numero": 2,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 88,
+            "precio_unitario": 249.96,
+            "valor_venta": 21996.48
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 89,
+            "precio_unitario": 1023.38,
+            "valor_venta": 91080.82
+        },
+        {
+            "numero": 4,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 4,
+            "precio_unitario": 1370.6,
+            "valor_venta": 5482.4
+        },
+        {
+            "numero": 5,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 90,
+            "precio_unitario": 657.79,
+            "valor_venta": 59201.1
+        },
+        {
+            "numero": 6,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 87,
+            "precio_unitario": 1118.74,
+            "valor_venta": 97330.38
+        },
+        {
+            "numero": 7,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 1,
+            "precio_unitario": 1221.84,
+            "valor_venta": 1221.84
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA932-411042",
+    "fecha_emision": "2025-07-19T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20295326400",
+    "emisor_razon_social": "Swissôtel Garden Puno",
+    "emisor_direccion": "Jr. de la Unión 4452, San Borja, Lima",
+    "receptor_numero_doc": "20449479778",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Benavides 1712, Cercado de Lima, Lima",
+    "subtotal": 2589.37,
+    "igv": 466.09,
+    "importe_total": 3521.55,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.123,
+            "precio_unitario": 64.87,
+            "valor_venta": 267.46,
+            "cargo_item": 48.14,
+            "importe_total": 315.6
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.073,
+            "precio_unitario": 120.11,
+            "valor_venta": 489.21,
+            "cargo_item": 88.06,
+            "importe_total": 577.27
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.182,
+            "precio_unitario": 30.54,
+            "valor_venta": 66.64,
+            "cargo_item": 12.0,
+            "importe_total": 78.64
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.921,
+            "precio_unitario": 106.36,
+            "valor_venta": 842.48,
+            "cargo_item": 151.65,
+            "importe_total": 994.13
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.725,
+            "precio_unitario": 94.97,
+            "valor_venta": 923.58,
+            "cargo_item": 166.24,
+            "importe_total": 1089.82
+        }
+    ]
+}

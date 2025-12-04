@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E919-113298",
+    "fecha_emision": "2025-04-21T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20756402456",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Benavides 4242, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20287932368",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 4202, La Victoria, Lima",
+    "subtotal": 168964.51,
+    "igv": 30413.61,
+    "importe_total": 199378.12,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 92,
+            "precio_unitario": 684.7,
+            "valor_venta": 62992.4
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 82,
+            "precio_unitario": 143.09,
+            "valor_venta": 11733.38
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 70,
+            "precio_unitario": 305.2,
+            "valor_venta": 21364.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 697.98,
+            "valor_venta": 36992.94
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 3,
+            "precio_unitario": 2799.33,
+            "valor_venta": 8397.99
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 100,
+            "precio_unitario": 245.05,
+            "valor_venta": 24505.0
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 22,
+            "precio_unitario": 135.4,
+            "valor_venta": 2978.8
+        }
+    ]
+}

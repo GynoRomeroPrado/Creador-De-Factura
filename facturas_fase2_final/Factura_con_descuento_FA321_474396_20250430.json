@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA321-474396",
+    "fecha_emision": "2025-04-30T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20662886760",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 687, San Isidro, Lima",
+    "receptor_numero_doc": "20235705738",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. La Marina 4200, Miraflores, Lima",
+    "subtotal": 1354.97,
+    "igv": 243.89,
+    "importe_total": 1641.11,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Azúcar Blanca x 50kg (Oferta)",
+            "unidad": "SAC",
+            "cantidad": 10,
+            "precio_unitario": 144.55,
+            "valor_venta": 1445.5
+        }
+    ]
+}

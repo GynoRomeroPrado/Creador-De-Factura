@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE241-009878",
+    "fecha_emision": "2025-10-10T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20292969288",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 3370, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20542747171",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Benavides 2204, Cercado de Lima, Lima",
+    "subtotal": 20824.65,
+    "igv": 3748.44,
+    "importe_total": 24603.53,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 55,
+            "precio_unitario": 378.63,
+            "valor_venta": 20824.65
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F573-705154",
+    "fecha_emision": "2025-09-22T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20626348778",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Jr. de la Unión 3151, San Borja, Lima",
+    "receptor_numero_doc": "20401271172",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. La Marina 3390, Santiago de Surco, Lima",
+    "subtotal": 85137.44,
+    "igv": 15324.74,
+    "importe_total": 100462.18,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m",
+            "unidad": "VAR",
+            "cantidad": 89,
+            "precio_unitario": 39.12,
+            "valor_venta": 3481.68
+        },
+        {
+            "numero": 2,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt",
+            "unidad": "UND",
+            "cantidad": 33,
+            "precio_unitario": 7.37,
+            "valor_venta": 243.21
+        },
+        {
+            "numero": 3,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt",
+            "unidad": "UND",
+            "cantidad": 77,
+            "precio_unitario": 5.65,
+            "valor_venta": 435.05
+        },
+        {
+            "numero": 4,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m (Oferta)",
+            "unidad": "VAR",
+            "cantidad": 60,
+            "precio_unitario": 41.53,
+            "valor_venta": 2491.8
+        },
+        {
+            "numero": 5,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L)",
+            "unidad": "GLN",
+            "cantidad": 84,
+            "precio_unitario": 47.58,
+            "valor_venta": 3996.72
+        },
+        {
+            "numero": 6,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m (Oferta)",
+            "unidad": "VAR",
+            "cantidad": 61,
+            "precio_unitario": 41.15,
+            "valor_venta": 2510.15
+        },
+        {
+            "numero": 7,
+            "descripcion": "Piedra Chancada 1/2\" (m3)",
+            "unidad": "M3",
+            "cantidad": 1,
+            "precio_unitario": 60.83,
+            "valor_venta": 60.83
+        },
+        {
+            "numero": 8,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark Modelo 2025",
+            "unidad": "MILLAR",
+            "cantidad": 100,
+            "precio_unitario": 719.18,
+            "valor_venta": 71918.0
+        }
+    ]
+}

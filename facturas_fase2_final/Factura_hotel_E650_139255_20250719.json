@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E650-139255",
+    "fecha_emision": "2025-07-19T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20725867281",
+    "emisor_razon_social": "Swissôtel Premium Lima",
+    "emisor_direccion": "Av. Javier Prado Este 1759, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20297310225",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Arequipa 4731, San Borja, Lima",
+    "subtotal": 1012.65,
+    "igv": 182.28,
+    "importe_total": 1377.21,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.046,
+            "precio_unitario": 56.87,
+            "valor_venta": 514.45,
+            "cargo_item": 92.6,
+            "importe_total": 607.05
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.62,
+            "precio_unitario": 65.38,
+            "valor_venta": 498.2,
+            "cargo_item": 89.68,
+            "importe_total": 587.88
+        }
+    ]
+}

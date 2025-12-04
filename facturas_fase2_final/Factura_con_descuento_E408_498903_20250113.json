@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E408-498903",
+    "fecha_emision": "2025-01-13T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20097677108",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Av. Arequipa 4829, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20837179387",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 852, San Borja, Lima",
+    "subtotal": 755.73,
+    "igv": 119.65,
+    "importe_total": 875.38,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Diesel Modelo 2025",
+            "unidad": "GL",
+            "cantidad": 41,
+            "precio_unitario": 4.76,
+            "valor_venta": 195.16
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 88,
+            "precio_unitario": 6.93,
+            "valor_venta": 609.84
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F877-885251",
+    "fecha_emision": "2025-12-04T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20328325731",
+    "emisor_razon_social": "Marriott Wyndham Miraflores",
+    "emisor_direccion": "Calle Los Pinos 4667, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20013203971",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Arequipa 4442, La Victoria, Lima",
+    "subtotal": 199.54,
+    "igv": 35.92,
+    "importe_total": 271.38,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.334,
+            "precio_unitario": 59.85,
+            "valor_venta": 199.54,
+            "cargo_item": 35.92,
+            "importe_total": 235.46
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA304-083565",
+    "fecha_emision": "2025-04-19T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20322559322",
+    "emisor_razon_social": "Hampton Resort Iquitos",
+    "emisor_direccion": "Av. Benavides 4751, Miraflores, Lima",
+    "receptor_numero_doc": "20010865001",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Jr. de la Unión 478, Cercado de Lima, Lima",
+    "subtotal": 2609.33,
+    "igv": 416.29,
+    "importe_total": 3495.3,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.015,
+            "precio_unitario": 38.56,
+            "valor_venta": 116.26,
+            "cargo_item": 20.93,
+            "importe_total": 137.19
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.088,
+            "precio_unitario": 71.58,
+            "valor_venta": 77.88,
+            "cargo_item": 14.02,
+            "importe_total": 91.9
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.609,
+            "precio_unitario": 138.43,
+            "valor_venta": 1330.17,
+            "cargo_item": 239.43,
+            "importe_total": 1569.6
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.213,
+            "precio_unitario": 132.11,
+            "valor_venta": 1085.02,
+            "cargo_item": 195.3,
+            "importe_total": 1280.32
+        }
+    ]
+}

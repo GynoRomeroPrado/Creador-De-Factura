@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA513-587952",
+    "fecha_emision": "2025-02-25T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20747122611",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 1674, La Victoria, Lima",
+    "receptor_numero_doc": "20168324589",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Calle Los Pinos 1711, San Borja, Lima",
+    "subtotal": 14777.74,
+    "igv": 2659.99,
+    "importe_total": 17437.73,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Frijol Canario x 50kg Color: Negro",
+            "unidad": "SAC",
+            "cantidad": 68,
+            "precio_unitario": 214.57,
+            "valor_venta": 14590.76
+        },
+        {
+            "numero": 2,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 2,
+            "precio_unitario": 93.49,
+            "valor_venta": 186.98
+        }
+    ]
+}

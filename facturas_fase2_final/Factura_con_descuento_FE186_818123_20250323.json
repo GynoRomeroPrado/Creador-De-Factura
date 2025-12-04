@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE186-818123",
+    "fecha_emision": "2025-03-23T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20558879956",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 2950, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20208228235",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Arequipa 3520, La Victoria, Lima",
+    "subtotal": 242988.47,
+    "igv": 43737.92,
+    "importe_total": 286726.39,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 88,
+            "precio_unitario": 178.03,
+            "valor_venta": 15666.64
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Importado)",
+            "unidad": "POL",
+            "cantidad": 13,
+            "precio_unitario": 150.1,
+            "valor_venta": 1951.3
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 2,
+            "precio_unitario": 404.19,
+            "valor_venta": 808.38
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 46,
+            "precio_unitario": 1369.68,
+            "valor_venta": 63005.28
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 57,
+            "precio_unitario": 403.52,
+            "valor_venta": 23000.64
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 81,
+            "precio_unitario": 102.47,
+            "valor_venta": 8300.07
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 61,
+            "precio_unitario": 383.42,
+            "valor_venta": 23388.62
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 88,
+            "precio_unitario": 1110.29,
+            "valor_venta": 97705.52
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 74,
+            "precio_unitario": 261.23,
+            "valor_venta": 19331.02
+        },
+        {
+            "numero": 10,
+            "descripcion": "Seguro de Vida Color: Negro",
+            "unidad": "POL",
+            "cantidad": 48,
+            "precio_unitario": 289.22,
+            "valor_venta": 13882.56
+        }
+    ]
+}

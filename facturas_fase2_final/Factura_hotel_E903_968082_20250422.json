@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E903-968082",
+    "fecha_emision": "2025-04-22T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20791651817",
+    "emisor_razon_social": "Hilton Business Huancayo",
+    "emisor_direccion": "Av. Benavides 2650, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20826369427",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 1248, La Victoria, Lima",
+    "subtotal": 1722.47,
+    "igv": 266.78,
+    "importe_total": 2299.3,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.356,
+            "precio_unitario": 95.41,
+            "valor_venta": 320.2,
+            "cargo_item": 57.64,
+            "importe_total": 377.84
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.993,
+            "precio_unitario": 77.33,
+            "valor_venta": 540.77,
+            "cargo_item": 97.34,
+            "importe_total": 638.11
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.356,
+            "precio_unitario": 92.08,
+            "valor_venta": 861.5,
+            "cargo_item": 155.07,
+            "importe_total": 1016.57
+        }
+    ]
+}

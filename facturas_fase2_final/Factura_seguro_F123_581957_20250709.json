@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F123-581957",
+    "fecha_emision": "2025-07-09T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20483247771",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 3377, La Victoria, Lima",
+    "receptor_numero_doc": "20478338423",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Calle Los Pinos 3554, Santiago de Surco, Lima",
+    "subtotal": 30984.66,
+    "igv": 4668.47,
+    "importe_total": 35653.13,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 18,
+            "precio_unitario": 110.53,
+            "valor_venta": 1989.54
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 84,
+            "precio_unitario": 345.18,
+            "valor_venta": 28995.12
+        }
+    ]
+}

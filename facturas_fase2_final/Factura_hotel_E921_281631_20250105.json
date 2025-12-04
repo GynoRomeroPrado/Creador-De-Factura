@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E921-281631",
+    "fecha_emision": "2025-01-05T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20745657304",
+    "emisor_razon_social": "Swissôtel Garden Arequipa",
+    "emisor_direccion": "Av. Arequipa 4384, San Borja, Lima",
+    "receptor_numero_doc": "20698658976",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Jr. de la Unión 4149, Santiago de Surco, Lima",
+    "subtotal": 86.96,
+    "igv": 11.56,
+    "importe_total": 114.17,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.051,
+            "precio_unitario": 82.74,
+            "valor_venta": 86.96,
+            "cargo_item": 15.65,
+            "importe_total": 102.61
+        }
+    ]
+}

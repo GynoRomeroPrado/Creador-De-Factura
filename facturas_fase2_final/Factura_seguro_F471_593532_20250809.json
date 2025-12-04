@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F471-593532",
+    "fecha_emision": "2025-08-09T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20518674651",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. La Marina 649, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20984886498",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. La Marina 945, Miraflores, Lima",
+    "subtotal": 88470.55,
+    "igv": 15924.7,
+    "importe_total": 104395.25,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 59,
+            "precio_unitario": 384.38,
+            "valor_venta": 22678.42
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 67,
+            "precio_unitario": 197.54,
+            "valor_venta": 13235.18
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 14,
+            "precio_unitario": 442.89,
+            "valor_venta": 6200.46
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 75,
+            "precio_unitario": 171.92,
+            "valor_venta": 12894.0
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 21,
+            "precio_unitario": 343.11,
+            "valor_venta": 7205.31
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 58,
+            "precio_unitario": 452.71,
+            "valor_venta": 26257.18
+        }
+    ]
+}

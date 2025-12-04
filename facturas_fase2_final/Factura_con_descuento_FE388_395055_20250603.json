@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE388-395055",
+    "fecha_emision": "2025-06-03T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20973336054",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Arequipa 4320, Miraflores, Lima",
+    "receptor_numero_doc": "20425024168",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Arequipa 3280, Santiago de Surco, Lima",
+    "subtotal": 12349.06,
+    "igv": 2222.83,
+    "importe_total": 14571.89,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Alquiler de Sala de Conferencias (Día) Color: Negro",
+            "unidad": "DIA",
+            "cantidad": 9,
+            "precio_unitario": 1446.91,
+            "valor_venta": 13022.19
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 77,
+            "precio_unitario": 19.56,
+            "valor_venta": 1506.12
+        }
+    ]
+}

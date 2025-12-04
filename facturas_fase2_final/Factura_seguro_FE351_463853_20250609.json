@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE351-463853",
+    "fecha_emision": "2025-06-09T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20564729915",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Calle Los Pinos 700, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20840434550",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Av. La Marina 132, San Isidro, Lima",
+    "subtotal": 471339.92,
+    "igv": 84841.19,
+    "importe_total": 556181.11,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo Serie X",
+            "unidad": "POL",
+            "cantidad": 5,
+            "precio_unitario": 1046.46,
+            "valor_venta": 5232.3
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Color: Negro",
+            "unidad": "POL",
+            "cantidad": 70,
+            "precio_unitario": 177.23,
+            "valor_venta": 12406.1
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios (Oferta)",
+            "unidad": "POL",
+            "cantidad": 38,
+            "precio_unitario": 1414.36,
+            "valor_venta": 53745.68
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Serie X",
+            "unidad": "POL",
+            "cantidad": 92,
+            "precio_unitario": 195.7,
+            "valor_venta": 18004.4
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 23,
+            "precio_unitario": 861.19,
+            "valor_venta": 19807.37
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida (Oferta)",
+            "unidad": "POL",
+            "cantidad": 82,
+            "precio_unitario": 208.47,
+            "valor_venta": 17094.54
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro Vehicular Todo Riesgo Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 34,
+            "precio_unitario": 2760.41,
+            "valor_venta": 93853.94
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro Vehicular Todo Riesgo Serie X",
+            "unidad": "POL",
+            "cantidad": 82,
+            "precio_unitario": 2951.35,
+            "valor_venta": 242010.7
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 11,
+            "precio_unitario": 834.99,
+            "valor_venta": 9184.89
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F078-543123",
+    "fecha_emision": "2025-01-23T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20128687271",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 3896, Miraflores, Lima",
+    "receptor_numero_doc": "20722123345",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Calle Los Pinos 3879, Santiago de Surco, Lima",
+    "subtotal": 496379.11,
+    "igv": 89348.24,
+    "importe_total": 585727.35,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 88,
+            "precio_unitario": 1452.94,
+            "valor_venta": 127858.72
+        },
+        {
+            "numero": 2,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional (Oferta)",
+            "unidad": "SES",
+            "cantidad": 7,
+            "precio_unitario": 685.36,
+            "valor_venta": 4797.52
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 86,
+            "precio_unitario": 22.41,
+            "valor_venta": 1927.26
+        },
+        {
+            "numero": 4,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 18,
+            "precio_unitario": 3554.81,
+            "valor_venta": 63986.58
+        },
+        {
+            "numero": 5,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica (Importado)",
+            "unidad": "PROY",
+            "cantidad": 91,
+            "precio_unitario": 2961.08,
+            "valor_venta": 269458.28
+        },
+        {
+            "numero": 6,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 20,
+            "precio_unitario": 193.84,
+            "valor_venta": 3876.8
+        },
+        {
+            "numero": 7,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas (Oferta)",
+            "unidad": "MES",
+            "cantidad": 57,
+            "precio_unitario": 1431.17,
+            "valor_venta": 81576.69
+        },
+        {
+            "numero": 8,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 60,
+            "precio_unitario": 423.7,
+            "valor_venta": 25422.0
+        }
+    ]
+}

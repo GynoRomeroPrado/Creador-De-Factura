@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA668-099633",
+    "fecha_emision": "2025-09-11T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20970663569",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 2917, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20296013464",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 3667, Cercado de Lima, Lima",
+    "subtotal": 5779.33,
+    "igv": 1040.28,
+    "importe_total": 6819.61,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Arena Gruesa (m3)",
+            "unidad": "M3",
+            "cantidad": 17,
+            "precio_unitario": 48.14,
+            "valor_venta": 818.38
+        },
+        {
+            "numero": 2,
+            "descripcion": "Tubo PVC SAP Pavco 4\" Desague",
+            "unidad": "UND",
+            "cantidad": 93,
+            "precio_unitario": 24.09,
+            "valor_venta": 2240.37
+        },
+        {
+            "numero": 3,
+            "descripcion": "Tubo PVC SAP Pavco 4\" Desague",
+            "unidad": "UND",
+            "cantidad": 51,
+            "precio_unitario": 25.88,
+            "valor_venta": 1319.88
+        },
+        {
+            "numero": 4,
+            "descripcion": "Tubo PVC SAP Pavco 4\" Desague",
+            "unidad": "UND",
+            "cantidad": 20,
+            "precio_unitario": 25.93,
+            "valor_venta": 518.6
+        },
+        {
+            "numero": 5,
+            "descripcion": "Thinner Acrílico Vencedor (Galón) Modelo 2025",
+            "unidad": "GLN",
+            "cantidad": 10,
+            "precio_unitario": 32.55,
+            "valor_venta": 325.5
+        },
+        {
+            "numero": 6,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt",
+            "unidad": "UND",
+            "cantidad": 92,
+            "precio_unitario": 6.05,
+            "valor_venta": 556.6
+        }
+    ]
+}

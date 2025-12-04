@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E946-556032",
+    "fecha_emision": "2025-07-29T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20741847656",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. La Marina 1445, San Borja, Lima",
+    "receptor_numero_doc": "20324927175",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 1097, Miraflores, Lima",
+    "subtotal": 20406.06,
+    "igv": 3673.09,
+    "importe_total": 24079.15,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 55,
+            "precio_unitario": 60.93,
+            "valor_venta": 3351.15
+        },
+        {
+            "numero": 2,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 15,
+            "precio_unitario": 44.86,
+            "valor_venta": 672.9
+        },
+        {
+            "numero": 3,
+            "descripcion": "Extintor PQS 6kg Serie X",
+            "unidad": "UND",
+            "cantidad": 93,
+            "precio_unitario": 80.45,
+            "valor_venta": 7481.85
+        },
+        {
+            "numero": 4,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 8,
+            "precio_unitario": 1246.77,
+            "valor_venta": 9974.16
+        }
+    ]
+}

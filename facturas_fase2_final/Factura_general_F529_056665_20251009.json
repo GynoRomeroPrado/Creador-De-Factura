@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F529-056665",
+    "fecha_emision": "2025-10-09T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20712450224",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 3185, La Victoria, Lima",
+    "receptor_numero_doc": "20441342633",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 910, San Borja, Lima",
+    "subtotal": 1927.38,
+    "igv": 346.93,
+    "importe_total": 2274.31,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 86,
+            "precio_unitario": 4.12,
+            "valor_venta": 354.32
+        },
+        {
+            "numero": 2,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 73,
+            "precio_unitario": 4.15,
+            "valor_venta": 302.95
+        },
+        {
+            "numero": 3,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 43,
+            "precio_unitario": 4.33,
+            "valor_venta": 186.19
+        },
+        {
+            "numero": 4,
+            "descripcion": "GLP Color: Negro",
+            "unidad": "GL",
+            "cantidad": 69,
+            "precio_unitario": 2.47,
+            "valor_venta": 170.43
+        },
+        {
+            "numero": 5,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 43,
+            "precio_unitario": 4.38,
+            "valor_venta": 188.34
+        },
+        {
+            "numero": 6,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 92,
+            "precio_unitario": 4.76,
+            "valor_venta": 437.92
+        },
+        {
+            "numero": 7,
+            "descripcion": "Gasolina 90 (Oferta)",
+            "unidad": "GL",
+            "cantidad": 46,
+            "precio_unitario": 5.53,
+            "valor_venta": 254.38
+        },
+        {
+            "numero": 8,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 15,
+            "precio_unitario": 2.19,
+            "valor_venta": 32.85
+        }
+    ]
+}

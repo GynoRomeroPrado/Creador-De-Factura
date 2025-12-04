@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE866-003980",
+    "fecha_emision": "2025-08-10T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20702321221",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 4691, Miraflores, Lima",
+    "receptor_numero_doc": "20019544258",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. La Marina 2625, La Victoria, Lima",
+    "subtotal": 501321.0,
+    "igv": 90237.78,
+    "importe_total": 591558.78,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores Modelo 2025",
+            "unidad": "SRV",
+            "cantidad": 65,
+            "precio_unitario": 1177.87,
+            "valor_venta": 76561.55
+        },
+        {
+            "numero": 2,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional (Importado)",
+            "unidad": "SES",
+            "cantidad": 56,
+            "precio_unitario": 789.26,
+            "valor_venta": 44198.56
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 20,
+            "precio_unitario": 1785.57,
+            "valor_venta": 35711.4
+        },
+        {
+            "numero": 4,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 77,
+            "precio_unitario": 191.93,
+            "valor_venta": 14778.61
+        },
+        {
+            "numero": 5,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 74,
+            "precio_unitario": 625.94,
+            "valor_venta": 46319.56
+        },
+        {
+            "numero": 6,
+            "descripcion": "Alquiler de Sala de Conferencias (Día) (Oferta)",
+            "unidad": "DIA",
+            "cantidad": 25,
+            "precio_unitario": 1316.84,
+            "valor_venta": 32921.0
+        },
+        {
+            "numero": 7,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 38,
+            "precio_unitario": 4423.87,
+            "valor_venta": 168107.06
+        },
+        {
+            "numero": 8,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 96,
+            "precio_unitario": 1107.82,
+            "valor_venta": 106350.72
+        }
+    ]
+}

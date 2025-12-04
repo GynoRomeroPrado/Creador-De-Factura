@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA011-699865",
+    "fecha_emision": "2025-01-28T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20217498598",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Calle Los Pinos 742, San Isidro, Lima",
+    "receptor_numero_doc": "20814750125",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 1769, San Isidro, Lima",
+    "subtotal": 37442.96,
+    "igv": 6739.73,
+    "importe_total": 44182.69,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 88,
+            "precio_unitario": 15.87,
+            "valor_venta": 1396.56
+        },
+        {
+            "numero": 2,
+            "descripcion": "Huevos Color x 30 unid Modelo 2025",
+            "unidad": "CAJA",
+            "cantidad": 62,
+            "precio_unitario": 12.04,
+            "valor_venta": 746.48
+        },
+        {
+            "numero": 3,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 32,
+            "precio_unitario": 190.62,
+            "valor_venta": 6099.84
+        },
+        {
+            "numero": 4,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 77,
+            "precio_unitario": 101.4,
+            "valor_venta": 7807.8
+        },
+        {
+            "numero": 5,
+            "descripcion": "Arroz Superior x 50kg Color: Negro",
+            "unidad": "SAC",
+            "cantidad": 30,
+            "precio_unitario": 167.65,
+            "valor_venta": 5029.5
+        },
+        {
+            "numero": 6,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 62,
+            "precio_unitario": 246.52,
+            "valor_venta": 15284.24
+        },
+        {
+            "numero": 7,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 48,
+            "precio_unitario": 4.71,
+            "valor_venta": 226.08
+        },
+        {
+            "numero": 8,
+            "descripcion": "Aceite Vegetal x 20L (Importado)",
+            "unidad": "BID",
+            "cantidad": 5,
+            "precio_unitario": 88.68,
+            "valor_venta": 443.4
+        },
+        {
+            "numero": 9,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 59,
+            "precio_unitario": 110.73,
+            "valor_venta": 6533.07
+        },
+        {
+            "numero": 10,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 27,
+            "precio_unitario": 17.91,
+            "valor_venta": 483.57
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA311-431340",
+    "fecha_emision": "2025-05-03T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20286593471",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 3293, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20980153984",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. La Marina 139, Cercado de Lima, Lima",
+    "subtotal": 2359.93,
+    "igv": 333.3,
+    "importe_total": 2693.23,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.985,
+            "precio_unitario": 129.57,
+            "valor_venta": 257.2
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.655,
+            "precio_unitario": 83.6,
+            "valor_venta": 556.36
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.163,
+            "precio_unitario": 55.18,
+            "valor_venta": 340.07
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.617,
+            "precio_unitario": 31.73,
+            "valor_venta": 114.77
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.962,
+            "precio_unitario": 94.27,
+            "valor_venta": 939.12
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.712,
+            "precio_unitario": 56.2,
+            "valor_venta": 152.41
+        }
+    ]
+}

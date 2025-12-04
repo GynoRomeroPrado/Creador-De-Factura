@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F477-664305",
+    "fecha_emision": "2025-10-28T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20660430491",
+    "emisor_razon_social": "Novotel Business San Isidro",
+    "emisor_direccion": "Av. La Marina 1134, Miraflores, Lima",
+    "receptor_numero_doc": "20187663629",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 3877, La Victoria, Lima",
+    "subtotal": 631.41,
+    "igv": 113.65,
+    "importe_total": 858.72,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.286,
+            "precio_unitario": 63.91,
+            "valor_venta": 146.1,
+            "cargo_item": 26.3,
+            "importe_total": 172.4
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.732,
+            "precio_unitario": 102.56,
+            "valor_venta": 485.31,
+            "cargo_item": 87.36,
+            "importe_total": 572.67
+        }
+    ]
+}

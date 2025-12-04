@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA987-691420",
+    "fecha_emision": "2025-07-19T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20665505104",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Av. La Marina 3542, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20531415303",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Calle Los Pinos 4922, La Victoria, Lima",
+    "subtotal": 432286.77,
+    "igv": 77811.62,
+    "importe_total": 510098.39,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 86,
+            "precio_unitario": 3144.71,
+            "valor_venta": 270445.06
+        },
+        {
+            "numero": 2,
+            "descripcion": "Extintor PQS 6kg (Oferta)",
+            "unidad": "UND",
+            "cantidad": 5,
+            "precio_unitario": 102.69,
+            "valor_venta": 513.45
+        },
+        {
+            "numero": 3,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 100,
+            "precio_unitario": 47.01,
+            "valor_venta": 4701.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 25,
+            "precio_unitario": 144.33,
+            "valor_venta": 3608.25
+        },
+        {
+            "numero": 5,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 83,
+            "precio_unitario": 1305.79,
+            "valor_venta": 108380.57
+        },
+        {
+            "numero": 6,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 64,
+            "precio_unitario": 1841.83,
+            "valor_venta": 117877.12
+        },
+        {
+            "numero": 7,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 54,
+            "precio_unitario": 56.43,
+            "valor_venta": 3047.22
+        }
+    ]
+}

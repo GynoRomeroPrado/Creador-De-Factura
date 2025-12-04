@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE954-207662",
+    "fecha_emision": "2025-04-28T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20344732699",
+    "emisor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "emisor_direccion": "Av. Benavides 4758, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20757148537",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 4021, San Isidro, Lima",
+    "subtotal": 228614.73,
+    "igv": 41150.65,
+    "importe_total": 269765.38,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 24,
+            "precio_unitario": 122.75,
+            "valor_venta": 2946.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 91,
+            "precio_unitario": 292.02,
+            "valor_venta": 26573.82
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida (Oferta)",
+            "unidad": "POL",
+            "cantidad": 84,
+            "precio_unitario": 428.18,
+            "valor_venta": 35967.12
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 42,
+            "precio_unitario": 759.65,
+            "valor_venta": 31905.3
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 89,
+            "precio_unitario": 1474.41,
+            "valor_venta": 131222.49
+        }
+    ]
+}

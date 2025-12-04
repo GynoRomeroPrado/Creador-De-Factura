@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE206-495165",
+    "fecha_emision": "2025-04-18T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20642063660",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. La Marina 1233, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20144305206",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 3666, San Borja, Lima",
+    "subtotal": 41377.89,
+    "igv": 5465.72,
+    "importe_total": 46843.61,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 17,
+            "precio_unitario": 119.38,
+            "valor_venta": 2029.46
+        },
+        {
+            "numero": 2,
+            "descripcion": "Aceite Vegetal x 20L Modelo 2025",
+            "unidad": "BID",
+            "cantidad": 66,
+            "precio_unitario": 97.44,
+            "valor_venta": 6431.04
+        },
+        {
+            "numero": 3,
+            "descripcion": "Arroz Superior x 50kg Serie X",
+            "unidad": "SAC",
+            "cantidad": 44,
+            "precio_unitario": 163.6,
+            "valor_venta": 7198.4
+        },
+        {
+            "numero": 4,
+            "descripcion": "Pollo Entero kg",
+            "unidad": "KG",
+            "cantidad": 14,
+            "precio_unitario": 9.03,
+            "valor_venta": 126.42
+        },
+        {
+            "numero": 5,
+            "descripcion": "Pollo Entero kg",
+            "unidad": "KG",
+            "cantidad": 59,
+            "precio_unitario": 8.08,
+            "valor_venta": 476.72
+        },
+        {
+            "numero": 6,
+            "descripcion": "Aceite Vegetal x 20L Color: Negro",
+            "unidad": "BID",
+            "cantidad": 80,
+            "precio_unitario": 116.16,
+            "valor_venta": 9292.8
+        },
+        {
+            "numero": 7,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 83,
+            "precio_unitario": 190.5,
+            "valor_venta": 15811.5
+        },
+        {
+            "numero": 8,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 3,
+            "precio_unitario": 3.85,
+            "valor_venta": 11.55
+        }
+    ]
+}

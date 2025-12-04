@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E594-875612",
+    "fecha_emision": "2025-02-11T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20016443981",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. La Marina 286, San Borja, Lima",
+    "receptor_numero_doc": "20096494786",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. La Marina 3018, Miraflores, Lima",
+    "subtotal": 22802.77,
+    "igv": 4104.5,
+    "importe_total": 26907.27,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 24,
+            "precio_unitario": 675.19,
+            "valor_venta": 16204.56
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 17,
+            "precio_unitario": 388.13,
+            "valor_venta": 6598.21
+        }
+    ]
+}

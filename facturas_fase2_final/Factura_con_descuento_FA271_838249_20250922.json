@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA271-838249",
+    "fecha_emision": "2025-09-22T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20093049501",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 2114, Miraflores, Lima",
+    "receptor_numero_doc": "20667318760",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 1485, Cercado de Lima, Lima",
+    "subtotal": 1427.1,
+    "igv": 256.88,
+    "importe_total": 1683.98,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 1,
+            "precio_unitario": 5.7,
+            "valor_venta": 5.7
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 19,
+            "precio_unitario": 5.26,
+            "valor_venta": 99.94
+        },
+        {
+            "numero": 3,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 53,
+            "precio_unitario": 4.59,
+            "valor_venta": 243.27
+        },
+        {
+            "numero": 4,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 41,
+            "precio_unitario": 4.87,
+            "valor_venta": 199.67
+        },
+        {
+            "numero": 5,
+            "descripcion": "Diesel Modelo 2025",
+            "unidad": "GL",
+            "cantidad": 92,
+            "precio_unitario": 3.88,
+            "valor_venta": 356.96
+        },
+        {
+            "numero": 6,
+            "descripcion": "Gasolina 95 Modelo 2025",
+            "unidad": "GL",
+            "cantidad": 49,
+            "precio_unitario": 6.09,
+            "valor_venta": 298.41
+        },
+        {
+            "numero": 7,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 77,
+            "precio_unitario": 4.89,
+            "valor_venta": 376.53
+        },
+        {
+            "numero": 8,
+            "descripcion": "GLP Serie X",
+            "unidad": "GL",
+            "cantidad": 27,
+            "precio_unitario": 1.94,
+            "valor_venta": 52.38
+        },
+        {
+            "numero": 9,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 24,
+            "precio_unitario": 1.92,
+            "valor_venta": 46.08
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE356-616922",
+    "fecha_emision": "2025-06-25T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20867368508",
+    "emisor_razon_social": "Casa Andina Business Barranco",
+    "emisor_direccion": "Av. La Marina 288, La Victoria, Lima",
+    "receptor_numero_doc": "20312429609",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 4667, La Victoria, Lima",
+    "subtotal": 4178.94,
+    "igv": 752.21,
+    "importe_total": 5683.36,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.413,
+            "precio_unitario": 45.43,
+            "valor_venta": 155.05,
+            "cargo_item": 27.91,
+            "importe_total": 182.96
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.856,
+            "precio_unitario": 74.86,
+            "valor_venta": 213.8,
+            "cargo_item": 38.48,
+            "importe_total": 252.28
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.901,
+            "precio_unitario": 94.57,
+            "valor_venta": 841.77,
+            "cargo_item": 151.52,
+            "importe_total": 993.29
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.909,
+            "precio_unitario": 94.5,
+            "valor_venta": 463.9,
+            "cargo_item": 83.5,
+            "importe_total": 547.4
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.45,
+            "precio_unitario": 81.85,
+            "valor_venta": 773.48,
+            "cargo_item": 139.23,
+            "importe_total": 912.71
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION pack x6",
+            "unidad": "NIU",
+            "cantidad": 8.07,
+            "precio_unitario": 94.5,
+            "valor_venta": 762.62,
+            "cargo_item": 137.27,
+            "importe_total": 899.89
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.399,
+            "precio_unitario": 115.29,
+            "valor_venta": 968.32,
+            "cargo_item": 174.3,
+            "importe_total": 1142.62
+        }
+    ]
+}

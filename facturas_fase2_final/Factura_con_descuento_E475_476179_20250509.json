@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E475-476179",
+    "fecha_emision": "2025-05-09T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20396229502",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 1138, San Borja, Lima",
+    "receptor_numero_doc": "20706857533",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 892, San Isidro, Lima",
+    "subtotal": 665474.28,
+    "igv": 119785.37,
+    "importe_total": 785259.65,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 43,
+            "precio_unitario": 971.45,
+            "valor_venta": 41772.35
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 100,
+            "precio_unitario": 256.05,
+            "valor_venta": 25605.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 78,
+            "precio_unitario": 2316.24,
+            "valor_venta": 180666.72
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 38,
+            "precio_unitario": 2923.29,
+            "valor_venta": 111085.02
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 80,
+            "precio_unitario": 538.76,
+            "valor_venta": 43100.8
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 92,
+            "precio_unitario": 2653.25,
+            "valor_venta": 244099.0
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 26,
+            "precio_unitario": 391.4,
+            "valor_venta": 10176.4
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 73,
+            "precio_unitario": 1398.56,
+            "valor_venta": 102094.88
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 82,
+            "precio_unitario": 113.1,
+            "valor_venta": 9274.2
+        },
+        {
+            "numero": 10,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 89,
+            "precio_unitario": 168.95,
+            "valor_venta": 15036.55
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA175-970810",
+    "fecha_emision": "2025-03-30T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20785166311",
+    "emisor_razon_social": "Estelar Standard Chiclayo",
+    "emisor_direccion": "Jr. de la Unión 1187, Miraflores, Lima",
+    "receptor_numero_doc": "20524396697",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 1326, Santiago de Surco, Lima",
+    "subtotal": 2421.99,
+    "igv": 435.96,
+    "importe_total": 3293.92,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.262,
+            "precio_unitario": 79.63,
+            "valor_venta": 737.53,
+            "cargo_item": 132.76,
+            "importe_total": 870.29
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.311,
+            "precio_unitario": 79.92,
+            "valor_venta": 504.38,
+            "cargo_item": 90.79,
+            "importe_total": 595.17
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.117,
+            "precio_unitario": 82.58,
+            "valor_venta": 505.14,
+            "cargo_item": 90.93,
+            "importe_total": 596.07
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.809,
+            "precio_unitario": 140.35,
+            "valor_venta": 674.94,
+            "cargo_item": 121.49,
+            "importe_total": 796.43
+        }
+    ]
+}

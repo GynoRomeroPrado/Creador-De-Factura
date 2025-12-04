@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE314-824141",
+    "fecha_emision": "2025-01-02T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20920397850",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 3277, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20962323945",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Calle Los Pinos 3187, La Victoria, Lima",
+    "subtotal": 216.95,
+    "igv": 39.05,
+    "importe_total": 256.0,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.046,
+            "precio_unitario": 53.62,
+            "valor_venta": 216.95
+        }
+    ]
+}

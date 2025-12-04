@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE826-881914",
+    "fecha_emision": "2025-03-31T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20081317420",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 168, Miraflores, Lima",
+    "receptor_numero_doc": "20811748243",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 173, San Isidro, Lima",
+    "subtotal": 63513.68,
+    "igv": 8625.7,
+    "importe_total": 72139.38,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 11,
+            "precio_unitario": 26.38,
+            "valor_venta": 290.18
+        },
+        {
+            "numero": 2,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 90,
+            "precio_unitario": 696.53,
+            "valor_venta": 62687.7
+        },
+        {
+            "numero": 3,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt",
+            "unidad": "UND",
+            "cantidad": 95,
+            "precio_unitario": 5.64,
+            "valor_venta": 535.8
+        }
+    ]
+}

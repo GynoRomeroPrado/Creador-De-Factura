@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA709-485325",
+    "fecha_emision": "2025-01-13T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20670388761",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 3133, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20851874179",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 955, La Victoria, Lima",
+    "subtotal": 14597.17,
+    "igv": 2627.49,
+    "importe_total": 17224.66,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V Serie X",
+            "unidad": "UND",
+            "cantidad": 6,
+            "precio_unitario": 1493.26,
+            "valor_venta": 8959.56
+        },
+        {
+            "numero": 2,
+            "descripcion": "Batería 12V/7AH",
+            "unidad": "UND",
+            "cantidad": 96,
+            "precio_unitario": 75.62,
+            "valor_venta": 7259.52
+        }
+    ]
+}

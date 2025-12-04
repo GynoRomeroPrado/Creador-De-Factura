@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA402-662337",
+    "fecha_emision": "2025-02-23T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20942680938",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Av. Benavides 2325, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20630392358",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 4021, La Victoria, Lima",
+    "subtotal": 1180.48,
+    "igv": 198.49,
+    "importe_total": 1378.97,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 90 (Importado)",
+            "unidad": "GL",
+            "cantidad": 68,
+            "precio_unitario": 5.52,
+            "valor_venta": 375.36
+        },
+        {
+            "numero": 2,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 83,
+            "precio_unitario": 2.57,
+            "valor_venta": 213.31
+        },
+        {
+            "numero": 3,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 97,
+            "precio_unitario": 3.93,
+            "valor_venta": 381.21
+        },
+        {
+            "numero": 4,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 19,
+            "precio_unitario": 5.27,
+            "valor_venta": 100.13
+        },
+        {
+            "numero": 5,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 3,
+            "precio_unitario": 2.58,
+            "valor_venta": 7.74
+        },
+        {
+            "numero": 6,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 21,
+            "precio_unitario": 6.24,
+            "valor_venta": 131.04
+        }
+    ]
+}

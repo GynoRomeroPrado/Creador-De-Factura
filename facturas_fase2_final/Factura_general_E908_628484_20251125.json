@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E908-628484",
+    "fecha_emision": "2025-11-25T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20780632977",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 1051, Miraflores, Lima",
+    "receptor_numero_doc": "20400661058",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 1523, Miraflores, Lima",
+    "subtotal": 34571.95,
+    "igv": 3905.04,
+    "importe_total": 38476.99,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal) Modelo 2025",
+            "unidad": "UND",
+            "cantidad": 25,
+            "precio_unitario": 22.77,
+            "valor_venta": 569.25
+        },
+        {
+            "numero": 2,
+            "descripcion": "Piedra Chancada 1/2\" (m3)",
+            "unidad": "M3",
+            "cantidad": 62,
+            "precio_unitario": 66.0,
+            "valor_venta": 4092.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Tubo PVC SAP Pavco 4\" Desague",
+            "unidad": "UND",
+            "cantidad": 21,
+            "precio_unitario": 25.46,
+            "valor_venta": 534.66
+        },
+        {
+            "numero": 4,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m Serie X",
+            "unidad": "VAR",
+            "cantidad": 87,
+            "precio_unitario": 41.03,
+            "valor_venta": 3569.61
+        },
+        {
+            "numero": 5,
+            "descripcion": "Cemento Sol Tipo I (42.5kg)",
+            "unidad": "BOL",
+            "cantidad": 37,
+            "precio_unitario": 26.81,
+            "valor_venta": 991.97
+        },
+        {
+            "numero": 6,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 64,
+            "precio_unitario": 23.38,
+            "valor_venta": 1496.32
+        },
+        {
+            "numero": 7,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 25,
+            "precio_unitario": 722.56,
+            "valor_venta": 18064.0
+        },
+        {
+            "numero": 8,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m",
+            "unidad": "VAR",
+            "cantidad": 33,
+            "precio_unitario": 41.34,
+            "valor_venta": 1364.22
+        },
+        {
+            "numero": 9,
+            "descripcion": "Piedra Chancada 1/2\" (m3) Modelo 2025",
+            "unidad": "M3",
+            "cantidad": 64,
+            "precio_unitario": 60.78,
+            "valor_venta": 3889.92
+        }
+    ]
+}

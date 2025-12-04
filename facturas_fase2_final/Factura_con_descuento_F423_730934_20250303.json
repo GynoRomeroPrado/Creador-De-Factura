@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F423-730934",
+    "fecha_emision": "2025-03-03T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20547389604",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Calle Los Pinos 388, Miraflores, Lima",
+    "receptor_numero_doc": "20799831512",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. Benavides 2485, Miraflores, Lima",
+    "subtotal": 657260.98,
+    "igv": 118306.98,
+    "importe_total": 775567.96,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 47,
+            "precio_unitario": 175.92,
+            "valor_venta": 8268.24
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 61,
+            "precio_unitario": 2854.59,
+            "valor_venta": 174129.99
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 81,
+            "precio_unitario": 133.02,
+            "valor_venta": 10774.62
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 20,
+            "precio_unitario": 626.81,
+            "valor_venta": 12536.2
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 33,
+            "precio_unitario": 1057.39,
+            "valor_venta": 34893.87
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 71,
+            "precio_unitario": 1824.48,
+            "valor_venta": 129538.08
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 98,
+            "precio_unitario": 570.27,
+            "valor_venta": 55886.46
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 62,
+            "precio_unitario": 2141.6,
+            "valor_venta": 132779.2
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 62,
+            "precio_unitario": 2765.86,
+            "valor_venta": 171483.32
+        }
+    ]
+}

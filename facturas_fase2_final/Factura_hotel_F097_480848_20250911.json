@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F097-480848",
+    "fecha_emision": "2025-09-11T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20816458529",
+    "emisor_razon_social": "Sheraton Premium Arequipa",
+    "emisor_direccion": "Jr. de la Unión 3094, San Isidro, Lima",
+    "receptor_numero_doc": "20885743880",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Jr. de la Unión 1235, Cercado de Lima, Lima",
+    "subtotal": 1542.22,
+    "igv": 277.6,
+    "importe_total": 2143.53,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.63,
+            "precio_unitario": 82.61,
+            "valor_venta": 630.31,
+            "cargo_item": 113.46,
+            "importe_total": 743.77
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.884,
+            "precio_unitario": 131.48,
+            "valor_venta": 1168.07,
+            "cargo_item": 210.25,
+            "importe_total": 1378.32
+        }
+    ]
+}

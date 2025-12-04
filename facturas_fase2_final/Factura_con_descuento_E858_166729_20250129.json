@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E858-166729",
+    "fecha_emision": "2025-01-29T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20103091170",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 2739, Miraflores, Lima",
+    "receptor_numero_doc": "20629100475",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 850, Miraflores, Lima",
+    "subtotal": 213382.23,
+    "igv": 30367.49,
+    "importe_total": 243749.72,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 4,
+            "precio_unitario": 2083.63,
+            "valor_venta": 8334.52
+        },
+        {
+            "numero": 2,
+            "descripcion": "Alquiler de Sala de Conferencias (Día) (Oferta)",
+            "unidad": "DIA",
+            "cantidad": 29,
+            "precio_unitario": 1200.55,
+            "valor_venta": 34815.95
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 63,
+            "precio_unitario": 15.36,
+            "valor_venta": 967.68
+        },
+        {
+            "numero": 4,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 51,
+            "precio_unitario": 951.77,
+            "valor_venta": 48540.27
+        },
+        {
+            "numero": 5,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 59,
+            "precio_unitario": 2570.47,
+            "valor_venta": 151657.73
+        },
+        {
+            "numero": 6,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 19,
+            "precio_unitario": 1179.56,
+            "valor_venta": 22411.64
+        }
+    ]
+}

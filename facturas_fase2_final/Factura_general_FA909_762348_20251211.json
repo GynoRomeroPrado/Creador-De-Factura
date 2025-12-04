@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA909-762348",
+    "fecha_emision": "2025-12-11T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20723680981",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 4343, La Victoria, Lima",
+    "receptor_numero_doc": "20516468395",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 1004, San Isidro, Lima",
+    "subtotal": 39335.29,
+    "igv": 7080.35,
+    "importe_total": 46415.64,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 66,
+            "precio_unitario": 94.92,
+            "valor_venta": 6264.72
+        },
+        {
+            "numero": 2,
+            "descripcion": "Extintor PQS 6kg Serie X",
+            "unidad": "UND",
+            "cantidad": 29,
+            "precio_unitario": 62.36,
+            "valor_venta": 1808.44
+        },
+        {
+            "numero": 3,
+            "descripcion": "Sirena Estroboscópica (Importado)",
+            "unidad": "UND",
+            "cantidad": 61,
+            "precio_unitario": 92.96,
+            "valor_venta": 5670.56
+        },
+        {
+            "numero": 4,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 1,
+            "precio_unitario": 70.22,
+            "valor_venta": 70.22
+        },
+        {
+            "numero": 5,
+            "descripcion": "Batería 12V/7AH (Importado)",
+            "unidad": "UND",
+            "cantidad": 96,
+            "precio_unitario": 48.98,
+            "valor_venta": 4702.08
+        },
+        {
+            "numero": 6,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 73,
+            "precio_unitario": 88.09,
+            "valor_venta": 6430.57
+        },
+        {
+            "numero": 7,
+            "descripcion": "Sirena Estroboscópica (Importado)",
+            "unidad": "UND",
+            "cantidad": 51,
+            "precio_unitario": 103.89,
+            "valor_venta": 5298.39
+        },
+        {
+            "numero": 8,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 29,
+            "precio_unitario": 43.96,
+            "valor_venta": 1274.84
+        },
+        {
+            "numero": 9,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 64,
+            "precio_unitario": 69.12,
+            "valor_venta": 4423.68
+        },
+        {
+            "numero": 10,
+            "descripcion": "Sirena Estroboscópica Modelo 2025",
+            "unidad": "UND",
+            "cantidad": 37,
+            "precio_unitario": 91.67,
+            "valor_venta": 3391.79
+        }
+    ]
+}

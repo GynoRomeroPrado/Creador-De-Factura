@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE717-566578",
+    "fecha_emision": "2025-02-06T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20248629003",
+    "emisor_razon_social": "Estelar Wyndham San Isidro",
+    "emisor_direccion": "Av. Arequipa 4336, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20983960007",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 3575, San Isidro, Lima",
+    "subtotal": 2171.65,
+    "igv": 390.9,
+    "importe_total": 2959.12,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.301,
+            "precio_unitario": 131.28,
+            "valor_venta": 1221.04,
+            "cargo_item": 219.79,
+            "importe_total": 1440.83
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.04,
+            "precio_unitario": 142.67,
+            "valor_venta": 433.72,
+            "cargo_item": 78.07,
+            "importe_total": 511.79
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.889,
+            "precio_unitario": 132.91,
+            "valor_venta": 516.89,
+            "cargo_item": 93.04,
+            "importe_total": 609.93
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE629-700432",
+    "fecha_emision": "2025-08-26T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20436911883",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Arequipa 645, Miraflores, Lima",
+    "receptor_numero_doc": "20247059394",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. La Marina 4638, La Victoria, Lima",
+    "subtotal": 23439.4,
+    "igv": 3084.22,
+    "importe_total": 26523.62,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Piedra Chancada 1/2\" (m3) (Importado)",
+            "unidad": "M3",
+            "cantidad": 15,
+            "precio_unitario": 62.49,
+            "valor_venta": 937.35
+        },
+        {
+            "numero": 2,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark Color: Negro",
+            "unidad": "MILLAR",
+            "cantidad": 30,
+            "precio_unitario": 724.09,
+            "valor_venta": 21722.7
+        },
+        {
+            "numero": 3,
+            "descripcion": "Guantes de Cuero Reforzado",
+            "unidad": "PAR",
+            "cantidad": 55,
+            "precio_unitario": 14.17,
+            "valor_venta": 779.35
+        }
+    ]
+}

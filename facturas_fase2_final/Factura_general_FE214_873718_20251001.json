@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE214-873718",
+    "fecha_emision": "2025-10-01T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20872206630",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. La Marina 4812, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20118786760",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 592, San Borja, Lima",
+    "subtotal": 87230.81,
+    "igv": 15701.55,
+    "importe_total": 102932.36,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 93,
+            "precio_unitario": 466.94,
+            "valor_venta": 43425.42
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 43,
+            "precio_unitario": 1018.73,
+            "valor_venta": 43805.39
+        }
+    ]
+}

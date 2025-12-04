@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E768-825723",
+    "fecha_emision": "2025-06-21T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20273009508",
+    "emisor_razon_social": "JW Marriott Wyndham Miraflores",
+    "emisor_direccion": "Jr. de la Unión 3972, Miraflores, Lima",
+    "receptor_numero_doc": "20764638833",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. La Marina 278, Cercado de Lima, Lima",
+    "subtotal": 2130.11,
+    "igv": 383.42,
+    "importe_total": 2896.94,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.993,
+            "precio_unitario": 66.69,
+            "valor_venta": 199.6,
+            "cargo_item": 35.93,
+            "importe_total": 235.53
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.64,
+            "precio_unitario": 109.45,
+            "valor_venta": 617.3,
+            "cargo_item": 111.11,
+            "importe_total": 728.41
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.065,
+            "precio_unitario": 76.96,
+            "valor_venta": 389.8,
+            "cargo_item": 70.16,
+            "importe_total": 459.96
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.288,
+            "precio_unitario": 94.88,
+            "valor_venta": 311.97,
+            "cargo_item": 56.15,
+            "importe_total": 368.12
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.836,
+            "precio_unitario": 78.03,
+            "valor_venta": 611.44,
+            "cargo_item": 110.06,
+            "importe_total": 721.5
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE533-639445",
+    "fecha_emision": "2025-02-09T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20883984138",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 2937, Miraflores, Lima",
+    "receptor_numero_doc": "20158790123",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 3704, La Victoria, Lima",
+    "subtotal": 100515.16,
+    "igv": 18092.73,
+    "importe_total": 118607.89,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 39,
+            "precio_unitario": 917.03,
+            "valor_venta": 35764.17
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 66,
+            "precio_unitario": 908.61,
+            "valor_venta": 59968.26
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 5,
+            "precio_unitario": 1129.42,
+            "valor_venta": 5647.1
+        }
+    ]
+}

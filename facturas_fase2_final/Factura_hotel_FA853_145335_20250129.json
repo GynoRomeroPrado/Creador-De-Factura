@@ -1,0 +1,87 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA853-145335",
+    "fecha_emision": "2025-01-29T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20518480538",
+    "emisor_razon_social": "Hampton Wyndham Lima",
+    "emisor_direccion": "Av. Benavides 436, La Victoria, Lima",
+    "receptor_numero_doc": "20282012163",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 3234, La Victoria, Lima",
+    "subtotal": 3272.66,
+    "igv": 589.08,
+    "importe_total": 4450.83,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.773,
+            "precio_unitario": 82.6,
+            "valor_venta": 807.25,
+            "cargo_item": 145.31,
+            "importe_total": 952.56
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.702,
+            "precio_unitario": 55.62,
+            "valor_venta": 317.15,
+            "cargo_item": 57.09,
+            "importe_total": 374.24
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.374,
+            "precio_unitario": 84.36,
+            "valor_venta": 537.71,
+            "cargo_item": 96.79,
+            "importe_total": 634.5
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.599,
+            "precio_unitario": 94.4,
+            "valor_venta": 717.35,
+            "cargo_item": 129.12,
+            "importe_total": 846.47
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.326,
+            "precio_unitario": 33.32,
+            "valor_venta": 44.18,
+            "cargo_item": 7.95,
+            "importe_total": 52.13
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.373,
+            "precio_unitario": 89.28,
+            "valor_venta": 479.7,
+            "cargo_item": 86.35,
+            "importe_total": 566.05
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.178,
+            "precio_unitario": 59.78,
+            "valor_venta": 369.32,
+            "cargo_item": 66.48,
+            "importe_total": 435.8
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F497-270143",
+    "fecha_emision": "2025-04-04T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20598988243",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Calle Los Pinos 2548, Miraflores, Lima",
+    "receptor_numero_doc": "20974695872",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Jr. de la Unión 3278, San Borja, Lima",
+    "subtotal": 4229.5,
+    "igv": 761.31,
+    "importe_total": 4990.81,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.163,
+            "precio_unitario": 140.07,
+            "valor_venta": 863.25
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.567,
+            "precio_unitario": 73.78,
+            "valor_venta": 189.39
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.084,
+            "precio_unitario": 115.97,
+            "valor_venta": 125.71
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.618,
+            "precio_unitario": 97.85,
+            "valor_venta": 647.57
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.903,
+            "precio_unitario": 122.19,
+            "valor_venta": 476.91
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.586,
+            "precio_unitario": 79.46,
+            "valor_venta": 602.78
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.749,
+            "precio_unitario": 126.71,
+            "valor_venta": 1108.59
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.712,
+            "precio_unitario": 125.76,
+            "valor_venta": 215.3
+        }
+    ]
+}

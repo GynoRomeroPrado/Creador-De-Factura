@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA790-266220",
+    "fecha_emision": "2025-05-30T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20367978849",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 1794, Miraflores, Lima",
+    "receptor_numero_doc": "20198166953",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 1398, Cercado de Lima, Lima",
+    "subtotal": 170538.54,
+    "igv": 30696.94,
+    "importe_total": 201235.48,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 60,
+            "precio_unitario": 410.74,
+            "valor_venta": 24644.4
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 51,
+            "precio_unitario": 436.48,
+            "valor_venta": 22260.48
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 30,
+            "precio_unitario": 1073.4,
+            "valor_venta": 32202.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Importado)",
+            "unidad": "POL",
+            "cantidad": 92,
+            "precio_unitario": 197.46,
+            "valor_venta": 18166.32
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 52,
+            "precio_unitario": 142.67,
+            "valor_venta": 7418.84
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 4,
+            "precio_unitario": 1023.11,
+            "valor_venta": 4092.44
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 17,
+            "precio_unitario": 402.93,
+            "valor_venta": 6849.81
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 34,
+            "precio_unitario": 449.99,
+            "valor_venta": 15299.66
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 75,
+            "precio_unitario": 421.43,
+            "valor_venta": 31607.25
+        },
+        {
+            "numero": 10,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 78,
+            "precio_unitario": 102.53,
+            "valor_venta": 7997.34
+        }
+    ]
+}

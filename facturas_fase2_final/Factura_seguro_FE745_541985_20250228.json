@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE745-541985",
+    "fecha_emision": "2025-02-28T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20178254805",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Av. Arequipa 764, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20756408918",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Av. Arequipa 1547, San Borja, Lima",
+    "subtotal": 333601.7,
+    "igv": 60048.31,
+    "importe_total": 393650.01,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 12,
+            "precio_unitario": 142.72,
+            "valor_venta": 1712.64
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 58,
+            "precio_unitario": 876.56,
+            "valor_venta": 50840.48
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 62,
+            "precio_unitario": 313.33,
+            "valor_venta": 19426.46
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 2190.66,
+            "valor_venta": 116104.98
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 87,
+            "precio_unitario": 2034.89,
+            "valor_venta": 177035.43
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 11,
+            "precio_unitario": 2486.6,
+            "valor_venta": 27352.6
+        }
+    ]
+}

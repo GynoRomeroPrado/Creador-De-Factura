@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F413-754190",
+    "fecha_emision": "2025-08-27T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20795324314",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 3456, La Victoria, Lima",
+    "receptor_numero_doc": "20349540801",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. La Marina 3437, La Victoria, Lima",
+    "subtotal": 333687.68,
+    "igv": 60063.78,
+    "importe_total": 393751.46,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 34,
+            "precio_unitario": 1075.39,
+            "valor_venta": 36563.26
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 94,
+            "precio_unitario": 1070.32,
+            "valor_venta": 100610.08
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 36,
+            "precio_unitario": 148.08,
+            "valor_venta": 5330.88
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 23,
+            "precio_unitario": 563.01,
+            "valor_venta": 12949.23
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Color: Negro",
+            "unidad": "POL",
+            "cantidad": 62,
+            "precio_unitario": 120.46,
+            "valor_venta": 7468.52
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Serie X",
+            "unidad": "POL",
+            "cantidad": 98,
+            "precio_unitario": 107.5,
+            "valor_venta": 10535.0
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 1240.19,
+            "valor_venta": 65730.07
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro de Vida (Oferta)",
+            "unidad": "POL",
+            "cantidad": 83,
+            "precio_unitario": 467.88,
+            "valor_venta": 38834.04
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 59,
+            "precio_unitario": 390.8,
+            "valor_venta": 23057.2
+        },
+        {
+            "numero": 10,
+            "descripcion": "Seguro de Vida (Oferta)",
+            "unidad": "POL",
+            "cantidad": 68,
+            "precio_unitario": 479.55,
+            "valor_venta": 32609.4
+        }
+    ]
+}

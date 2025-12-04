@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F343-744025",
+    "fecha_emision": "2025-10-21T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20905316070",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. La Marina 1862, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20286866639",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Calle Los Pinos 3968, San Isidro, Lima",
+    "subtotal": 8443.08,
+    "igv": 1519.75,
+    "importe_total": 9962.83,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Sirena Estroboscópica Serie X",
+            "unidad": "UND",
+            "cantidad": 22,
+            "precio_unitario": 141.92,
+            "valor_venta": 3122.24
+        },
+        {
+            "numero": 2,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 38,
+            "precio_unitario": 89.34,
+            "valor_venta": 3394.92
+        },
+        {
+            "numero": 3,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 27,
+            "precio_unitario": 96.07,
+            "valor_venta": 2593.89
+        },
+        {
+            "numero": 4,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 5,
+            "precio_unitario": 54.03,
+            "valor_venta": 270.15
+        }
+    ]
+}

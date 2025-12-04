@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA415-369244",
+    "fecha_emision": "2025-11-22T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20484377112",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Jr. de la Unión 514, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20363419403",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 551, Cercado de Lima, Lima",
+    "subtotal": 10358.48,
+    "igv": 1864.53,
+    "importe_total": 12223.01,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Huevos Color x 30 unid Modelo 2025",
+            "unidad": "CAJA",
+            "cantidad": 10,
+            "precio_unitario": 14.21,
+            "valor_venta": 142.1
+        },
+        {
+            "numero": 2,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 82,
+            "precio_unitario": 124.59,
+            "valor_venta": 10216.38
+        }
+    ]
+}

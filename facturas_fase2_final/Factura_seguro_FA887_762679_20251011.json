@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA887-762679",
+    "fecha_emision": "2025-10-11T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20167894896",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Calle Los Pinos 2529, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20530524222",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 3998, Santiago de Surco, Lima",
+    "subtotal": 190046.06,
+    "igv": 34208.29,
+    "importe_total": 224254.35,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 44,
+            "precio_unitario": 2773.12,
+            "valor_venta": 122017.28
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 46,
+            "precio_unitario": 184.89,
+            "valor_venta": 8504.94
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 87,
+            "precio_unitario": 490.52,
+            "valor_venta": 42675.24
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 13,
+            "precio_unitario": 199.48,
+            "valor_venta": 2593.24
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 32,
+            "precio_unitario": 445.48,
+            "valor_venta": 14255.36
+        }
+    ]
+}

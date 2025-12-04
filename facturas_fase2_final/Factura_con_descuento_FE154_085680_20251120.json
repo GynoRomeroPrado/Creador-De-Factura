@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE154-085680",
+    "fecha_emision": "2025-11-20T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20033351535",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 3239, Miraflores, Lima",
+    "receptor_numero_doc": "20519397715",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 3967, Santiago de Surco, Lima",
+    "subtotal": 2695.26,
+    "igv": 485.15,
+    "importe_total": 3180.41,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 51,
+            "precio_unitario": 55.86,
+            "valor_venta": 2848.86
+        }
+    ]
+}

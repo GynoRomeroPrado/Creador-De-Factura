@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F250-685913",
+    "fecha_emision": "2025-02-14T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20502270762",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Arequipa 782, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20518380126",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Arequipa 2779, La Victoria, Lima",
+    "subtotal": 2009.68,
+    "igv": 361.74,
+    "importe_total": 2371.42,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.005,
+            "precio_unitario": 54.52,
+            "valor_venta": 54.79
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.184,
+            "precio_unitario": 63.65,
+            "valor_venta": 266.31
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.105,
+            "precio_unitario": 89.78,
+            "valor_venta": 727.67
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.335,
+            "precio_unitario": 144.03,
+            "valor_venta": 1200.49
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE016-267485",
+    "fecha_emision": "2025-11-29T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20404883195",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 3182, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20836940262",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 1789, Santiago de Surco, Lima",
+    "subtotal": 302609.57,
+    "igv": 54469.72,
+    "importe_total": 357079.29,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 58,
+            "precio_unitario": 1319.88,
+            "valor_venta": 76553.04
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 20,
+            "precio_unitario": 105.89,
+            "valor_venta": 2117.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 60,
+            "precio_unitario": 2044.55,
+            "valor_venta": 122673.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 97,
+            "precio_unitario": 352.26,
+            "valor_venta": 34169.22
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 23,
+            "precio_unitario": 1422.39,
+            "valor_venta": 32714.97
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 73,
+            "precio_unitario": 470.98,
+            "valor_venta": 34381.54
+        }
+    ]
+}

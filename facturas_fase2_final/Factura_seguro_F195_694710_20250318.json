@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F195-694710",
+    "fecha_emision": "2025-03-18T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20800685100",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 175, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20984054255",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. La Marina 4953, Santiago de Surco, Lima",
+    "subtotal": 422815.4,
+    "igv": 76106.77,
+    "importe_total": 498922.17,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 23,
+            "precio_unitario": 1052.68,
+            "valor_venta": 24211.64
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 52,
+            "precio_unitario": 178.32,
+            "valor_venta": 9272.64
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida (Oferta)",
+            "unidad": "POL",
+            "cantidad": 88,
+            "precio_unitario": 342.93,
+            "valor_venta": 30177.84
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 88,
+            "precio_unitario": 2605.84,
+            "valor_venta": 229313.92
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 69,
+            "precio_unitario": 157.36,
+            "valor_venta": 10857.84
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 91,
+            "precio_unitario": 355.91,
+            "valor_venta": 32387.81
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 29,
+            "precio_unitario": 2222.13,
+            "valor_venta": 64441.77
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro de Vida (Oferta)",
+            "unidad": "POL",
+            "cantidad": 36,
+            "precio_unitario": 462.82,
+            "valor_venta": 16661.52
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 26,
+            "precio_unitario": 211.17,
+            "valor_venta": 5490.42
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA662-642226",
+    "fecha_emision": "2025-11-13T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20159721761",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 1666, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20837260265",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. La Marina 2660, Miraflores, Lima",
+    "subtotal": 403608.61,
+    "igv": 72649.55,
+    "importe_total": 476258.16,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 52,
+            "precio_unitario": 509.0,
+            "valor_venta": 26468.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 33,
+            "precio_unitario": 555.3,
+            "valor_venta": 18324.9
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 39,
+            "precio_unitario": 869.01,
+            "valor_venta": 33891.39
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida Serie X",
+            "unidad": "POL",
+            "cantidad": 61,
+            "precio_unitario": 268.15,
+            "valor_venta": 16357.15
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 61,
+            "precio_unitario": 1072.79,
+            "valor_venta": 65440.19
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida Serie X",
+            "unidad": "POL",
+            "cantidad": 90,
+            "precio_unitario": 211.19,
+            "valor_venta": 19007.1
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 2,
+            "precio_unitario": 343.34,
+            "valor_venta": 686.68
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 94,
+            "precio_unitario": 2186.86,
+            "valor_venta": 205564.84
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 38,
+            "precio_unitario": 470.22,
+            "valor_venta": 17868.36
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F283-191857",
+    "fecha_emision": "2025-06-24T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20279590369",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Calle Los Pinos 4687, La Victoria, Lima",
+    "receptor_numero_doc": "20572503241",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Calle Los Pinos 2561, San Isidro, Lima",
+    "subtotal": 19330.9,
+    "igv": 3479.56,
+    "importe_total": 22810.46,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 55,
+            "precio_unitario": 17.69,
+            "valor_venta": 972.95
+        },
+        {
+            "numero": 2,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 46,
+            "precio_unitario": 21.33,
+            "valor_venta": 981.18
+        },
+        {
+            "numero": 3,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 94,
+            "precio_unitario": 221.15,
+            "valor_venta": 20788.1
+        }
+    ]
+}

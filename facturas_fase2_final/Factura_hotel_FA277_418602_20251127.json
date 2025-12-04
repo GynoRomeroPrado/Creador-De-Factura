@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA277-418602",
+    "fecha_emision": "2025-11-27T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20034898562",
+    "emisor_razon_social": "Swissôtel Plaza Tacna",
+    "emisor_direccion": "Av. La Marina 1945, Miraflores, Lima",
+    "receptor_numero_doc": "20811236579",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 2934, Miraflores, Lima",
+    "subtotal": 1989.1,
+    "igv": 358.04,
+    "importe_total": 2705.17,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.182,
+            "precio_unitario": 86.52,
+            "valor_venta": 707.91,
+            "cargo_item": 127.42,
+            "importe_total": 835.33
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.745,
+            "precio_unitario": 72.5,
+            "valor_venta": 634.01,
+            "cargo_item": 114.12,
+            "importe_total": 748.13
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.559,
+            "precio_unitario": 116.42,
+            "valor_venta": 647.18,
+            "cargo_item": 116.49,
+            "importe_total": 763.67
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E537-689330",
+    "fecha_emision": "2025-06-16T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20765321531",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Av. Benavides 4052, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20638625700",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 2478, Cercado de Lima, Lima",
+    "subtotal": 119637.72,
+    "igv": 21534.79,
+    "importe_total": 141172.51,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 34,
+            "precio_unitario": 334.06,
+            "valor_venta": 11358.04
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 60,
+            "precio_unitario": 211.38,
+            "valor_venta": 12682.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 44,
+            "precio_unitario": 2158.69,
+            "valor_venta": 94982.36
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 6,
+            "precio_unitario": 102.42,
+            "valor_venta": 614.52
+        }
+    ]
+}

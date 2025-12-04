@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE326-472752",
+    "fecha_emision": "2025-02-23T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20594602111",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 4883, San Borja, Lima",
+    "receptor_numero_doc": "20614805979",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 152, Miraflores, Lima",
+    "subtotal": 123384.33,
+    "igv": 22209.18,
+    "importe_total": 145593.51,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida Color: Negro",
+            "unidad": "POL",
+            "cantidad": 19,
+            "precio_unitario": 309.74,
+            "valor_venta": 5885.06
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 78,
+            "precio_unitario": 1110.58,
+            "valor_venta": 86625.24
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida Color: Negro",
+            "unidad": "POL",
+            "cantidad": 58,
+            "precio_unitario": 411.31,
+            "valor_venta": 23855.98
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 65,
+            "precio_unitario": 107.97,
+            "valor_venta": 7018.05
+        }
+    ]
+}

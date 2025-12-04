@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE756-295239",
+    "fecha_emision": "2025-09-08T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20435583271",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 2588, San Borja, Lima",
+    "receptor_numero_doc": "20695684020",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Jr. de la Unión 458, La Victoria, Lima",
+    "subtotal": 281508.78,
+    "igv": 50671.58,
+    "importe_total": 332180.36,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 75,
+            "precio_unitario": 878.57,
+            "valor_venta": 65892.75
+        },
+        {
+            "numero": 2,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 37,
+            "precio_unitario": 2528.0,
+            "valor_venta": 93536.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 26,
+            "precio_unitario": 175.52,
+            "valor_venta": 4563.52
+        },
+        {
+            "numero": 4,
+            "descripcion": "Alquiler de Sala de Conferencias (Día) (Importado)",
+            "unidad": "DIA",
+            "cantidad": 43,
+            "precio_unitario": 1008.37,
+            "valor_venta": 43359.91
+        },
+        {
+            "numero": 5,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 68,
+            "precio_unitario": 23.8,
+            "valor_venta": 1618.4
+        },
+        {
+            "numero": 6,
+            "descripcion": "Alquiler de Sala de Conferencias (Día) Color: Negro",
+            "unidad": "DIA",
+            "cantidad": 76,
+            "precio_unitario": 954.45,
+            "valor_venta": 72538.2
+        }
+    ]
+}

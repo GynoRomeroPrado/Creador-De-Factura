@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA968-602687",
+    "fecha_emision": "2025-08-25T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20736523281",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Arequipa 4213, Miraflores, Lima",
+    "receptor_numero_doc": "20281822951",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 3496, La Victoria, Lima",
+    "subtotal": 73385.58,
+    "igv": 13209.4,
+    "importe_total": 86594.98,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt (Oferta)",
+            "unidad": "UND",
+            "cantidad": 20,
+            "precio_unitario": 7.92,
+            "valor_venta": 158.4
+        },
+        {
+            "numero": 2,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L) (Importado)",
+            "unidad": "GLN",
+            "cantidad": 81,
+            "precio_unitario": 51.46,
+            "valor_venta": 4168.26
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 10,
+            "precio_unitario": 19.38,
+            "valor_venta": 193.8
+        },
+        {
+            "numero": 4,
+            "descripcion": "Casco de Seguridad 3M Blanco",
+            "unidad": "UND",
+            "cantidad": 90,
+            "precio_unitario": 42.94,
+            "valor_venta": 3864.6
+        },
+        {
+            "numero": 5,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 96,
+            "precio_unitario": 686.97,
+            "valor_venta": 65949.12
+        },
+        {
+            "numero": 6,
+            "descripcion": "Casco de Seguridad 3M Blanco",
+            "unidad": "UND",
+            "cantidad": 91,
+            "precio_unitario": 37.72,
+            "valor_venta": 3432.52
+        },
+        {
+            "numero": 7,
+            "descripcion": "Guantes de Cuero Reforzado",
+            "unidad": "PAR",
+            "cantidad": 48,
+            "precio_unitario": 17.98,
+            "valor_venta": 863.04
+        }
+    ]
+}

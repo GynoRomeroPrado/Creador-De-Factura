@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F045-149977",
+    "fecha_emision": "2025-05-27T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20198652424",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Av. La Marina 4268, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20220451063",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Av. Benavides 3406, La Victoria, Lima",
+    "subtotal": 86188.93,
+    "igv": 15514.01,
+    "importe_total": 101702.94,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 6,
+            "precio_unitario": 843.46,
+            "valor_venta": 5060.76
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 61,
+            "precio_unitario": 1329.97,
+            "valor_venta": 81128.17
+        }
+    ]
+}

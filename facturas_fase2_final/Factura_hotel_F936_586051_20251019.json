@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F936-586051",
+    "fecha_emision": "2025-10-19T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20137039011",
+    "emisor_razon_social": "Costa del Sol Garden Tacna",
+    "emisor_direccion": "Jr. de la Unión 4605, La Victoria, Lima",
+    "receptor_numero_doc": "20657637239",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Av. La Marina 1951, Miraflores, Lima",
+    "subtotal": 1547.47,
+    "igv": 278.54,
+    "importe_total": 2104.56,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.523,
+            "precio_unitario": 46.42,
+            "valor_venta": 349.22,
+            "cargo_item": 62.86,
+            "importe_total": 412.08
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.876,
+            "precio_unitario": 97.62,
+            "valor_venta": 671.24,
+            "cargo_item": 120.82,
+            "importe_total": 792.06
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.093,
+            "precio_unitario": 83.15,
+            "valor_venta": 340.33,
+            "cargo_item": 61.26,
+            "importe_total": 401.59
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.479,
+            "precio_unitario": 72.41,
+            "valor_venta": 107.09,
+            "cargo_item": 19.28,
+            "importe_total": 126.37
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.268,
+            "precio_unitario": 62.77,
+            "valor_venta": 79.59,
+            "cargo_item": 14.33,
+            "importe_total": 93.92
+        }
+    ]
+}

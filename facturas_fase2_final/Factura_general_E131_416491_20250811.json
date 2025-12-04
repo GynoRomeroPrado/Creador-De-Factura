@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E131-416491",
+    "fecha_emision": "2025-08-11T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20399843279",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 3680, San Isidro, Lima",
+    "receptor_numero_doc": "20453191363",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 1887, Santiago de Surco, Lima",
+    "subtotal": 2760.86,
+    "igv": 496.95,
+    "importe_total": 3257.81,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L)",
+            "unidad": "GLN",
+            "cantidad": 61,
+            "precio_unitario": 45.26,
+            "valor_venta": 2760.86
+        }
+    ]
+}

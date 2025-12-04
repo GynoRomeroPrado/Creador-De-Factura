@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E167-423960",
+    "fecha_emision": "2025-12-29T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20374482531",
+    "emisor_razon_social": "JW Marriott Business Tacna",
+    "emisor_direccion": "Av. Arequipa 862, Miraflores, Lima",
+    "receptor_numero_doc": "20573926685",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 2508, San Borja, Lima",
+    "subtotal": 375.65,
+    "igv": 67.62,
+    "importe_total": 514.44,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.232,
+            "precio_unitario": 71.76,
+            "valor_venta": 160.17,
+            "cargo_item": 28.83,
+            "importe_total": 189.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.556,
+            "precio_unitario": 92.04,
+            "valor_venta": 235.25,
+            "cargo_item": 42.34,
+            "importe_total": 277.59
+        }
+    ]
+}

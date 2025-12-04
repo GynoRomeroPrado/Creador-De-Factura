@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E093-558913",
+    "fecha_emision": "2025-05-25T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20607234613",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Calle Los Pinos 2032, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20032100750",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 3617, Cercado de Lima, Lima",
+    "subtotal": 445705.22,
+    "igv": 80226.94,
+    "importe_total": 525932.16,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 64,
+            "precio_unitario": 865.51,
+            "valor_venta": 55392.64
+        },
+        {
+            "numero": 2,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 77,
+            "precio_unitario": 526.49,
+            "valor_venta": 40539.73
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas Color: Negro",
+            "unidad": "MES",
+            "cantidad": 89,
+            "precio_unitario": 1955.03,
+            "valor_venta": 173997.67
+        },
+        {
+            "numero": 4,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 7,
+            "precio_unitario": 241.43,
+            "valor_venta": 1690.01
+        },
+        {
+            "numero": 5,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 43,
+            "precio_unitario": 33.27,
+            "valor_venta": 1430.61
+        },
+        {
+            "numero": 6,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas Color: Negro",
+            "unidad": "MES",
+            "cantidad": 67,
+            "precio_unitario": 1566.22,
+            "valor_venta": 104936.74
+        },
+        {
+            "numero": 7,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 62,
+            "precio_unitario": 692.84,
+            "valor_venta": 42956.08
+        },
+        {
+            "numero": 8,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 17,
+            "precio_unitario": 1362.99,
+            "valor_venta": 23170.83
+        },
+        {
+            "numero": 9,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 23,
+            "precio_unitario": 20.25,
+            "valor_venta": 465.75
+        },
+        {
+            "numero": 10,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 46,
+            "precio_unitario": 24.46,
+            "valor_venta": 1125.16
+        }
+    ]
+}

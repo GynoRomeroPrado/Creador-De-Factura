@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F266-742355",
+    "fecha_emision": "2025-03-31T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20991879693",
+    "emisor_razon_social": "Novotel Business Tacna",
+    "emisor_direccion": "Av. La Marina 3745, San Borja, Lima",
+    "receptor_numero_doc": "20625503991",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 456, San Borja, Lima",
+    "subtotal": 2060.76,
+    "igv": 370.94,
+    "importe_total": 2802.64,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.466,
+            "precio_unitario": 83.91,
+            "valor_venta": 290.83,
+            "cargo_item": 52.35,
+            "importe_total": 343.18
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION pack x6",
+            "unidad": "NIU",
+            "cantidad": 7.255,
+            "precio_unitario": 30.41,
+            "valor_venta": 220.62,
+            "cargo_item": 39.71,
+            "importe_total": 260.33
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.501,
+            "precio_unitario": 116.69,
+            "valor_venta": 991.98,
+            "cargo_item": 178.56,
+            "importe_total": 1170.54
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.473,
+            "precio_unitario": 86.1,
+            "valor_venta": 557.33,
+            "cargo_item": 100.32,
+            "importe_total": 657.65
+        }
+    ]
+}

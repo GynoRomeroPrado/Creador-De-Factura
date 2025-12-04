@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E943-481582",
+    "fecha_emision": "2025-05-17T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20065007895",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. La Marina 4913, Miraflores, Lima",
+    "receptor_numero_doc": "20099830001",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 2068, Santiago de Surco, Lima",
+    "subtotal": 422683.34,
+    "igv": 59053.79,
+    "importe_total": 481737.13,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica Color: Negro",
+            "unidad": "PROY",
+            "cantidad": 66,
+            "precio_unitario": 2740.69,
+            "valor_venta": 180885.54
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Courier Local (Oferta)",
+            "unidad": "ENV",
+            "cantidad": 77,
+            "precio_unitario": 21.73,
+            "valor_venta": 1673.21
+        },
+        {
+            "numero": 3,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 42,
+            "precio_unitario": 1357.43,
+            "valor_venta": 57012.06
+        },
+        {
+            "numero": 4,
+            "descripcion": "Alquiler de Sala de Conferencias (Día) (Importado)",
+            "unidad": "DIA",
+            "cantidad": 77,
+            "precio_unitario": 1335.36,
+            "valor_venta": 102822.72
+        },
+        {
+            "numero": 5,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 14,
+            "precio_unitario": 296.43,
+            "valor_venta": 4150.02
+        },
+        {
+            "numero": 6,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 19,
+            "precio_unitario": 939.9,
+            "valor_venta": 17858.1
+        },
+        {
+            "numero": 7,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas) (Importado)",
+            "unidad": "HOR",
+            "cantidad": 44,
+            "precio_unitario": 169.21,
+            "valor_venta": 7445.24
+        },
+        {
+            "numero": 8,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 35,
+            "precio_unitario": 1452.47,
+            "valor_venta": 50836.45
+        }
+    ]
+}

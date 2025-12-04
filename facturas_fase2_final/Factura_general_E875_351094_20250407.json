@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E875-351094",
+    "fecha_emision": "2025-04-07T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20632325623",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. La Marina 1115, San Borja, Lima",
+    "receptor_numero_doc": "20472557476",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 2064, Cercado de Lima, Lima",
+    "subtotal": 615850.71,
+    "igv": 110853.13,
+    "importe_total": 726703.84,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 35,
+            "precio_unitario": 152.56,
+            "valor_venta": 5339.6
+        },
+        {
+            "numero": 2,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 84,
+            "precio_unitario": 1407.54,
+            "valor_venta": 118233.36
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores Modelo 2025",
+            "unidad": "SRV",
+            "cantidad": 75,
+            "precio_unitario": 1194.58,
+            "valor_venta": 89593.5
+        },
+        {
+            "numero": 4,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 80,
+            "precio_unitario": 3875.1,
+            "valor_venta": 310008.0
+        },
+        {
+            "numero": 5,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 25,
+            "precio_unitario": 3707.05,
+            "valor_venta": 92676.25
+        }
+    ]
+}

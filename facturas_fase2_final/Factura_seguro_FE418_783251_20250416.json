@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE418-783251",
+    "fecha_emision": "2025-04-16T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20890358196",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. La Marina 1379, Miraflores, Lima",
+    "receptor_numero_doc": "20233056716",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 3999, Santiago de Surco, Lima",
+    "subtotal": 411295.89,
+    "igv": 58300.83,
+    "importe_total": 469596.72,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 7,
+            "precio_unitario": 167.24,
+            "valor_venta": 1170.68
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 79,
+            "precio_unitario": 1225.65,
+            "valor_venta": 96826.35
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Importado)",
+            "unidad": "POL",
+            "cantidad": 50,
+            "precio_unitario": 194.96,
+            "valor_venta": 9748.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 68,
+            "precio_unitario": 1224.66,
+            "valor_venta": 83276.88
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Vehicular Todo Riesgo Color: Negro",
+            "unidad": "POL",
+            "cantidad": 86,
+            "precio_unitario": 2025.93,
+            "valor_venta": 174229.98
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida (Importado)",
+            "unidad": "POL",
+            "cantidad": 100,
+            "precio_unitario": 460.44,
+            "valor_venta": 46044.0
+        }
+    ]
+}

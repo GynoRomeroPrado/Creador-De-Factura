@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E021-401125",
+    "fecha_emision": "2025-03-28T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20672469521",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 4078, La Victoria, Lima",
+    "receptor_numero_doc": "20551524851",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Arequipa 1279, Cercado de Lima, Lima",
+    "subtotal": 24658.16,
+    "igv": 4438.47,
+    "importe_total": 29125.28,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 57,
+            "precio_unitario": 234.31,
+            "valor_venta": 13355.67
+        },
+        {
+            "numero": 2,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 59,
+            "precio_unitario": 118.99,
+            "valor_venta": 7020.41
+        },
+        {
+            "numero": 3,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 4,
+            "precio_unitario": 4.63,
+            "valor_venta": 18.52
+        },
+        {
+            "numero": 4,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 31,
+            "precio_unitario": 4.31,
+            "valor_venta": 133.61
+        },
+        {
+            "numero": 5,
+            "descripcion": "Leche Evaporada x 48 latas Modelo 2025",
+            "unidad": "CJA",
+            "cantidad": 33,
+            "precio_unitario": 125.15,
+            "valor_venta": 4129.95
+        }
+    ]
+}

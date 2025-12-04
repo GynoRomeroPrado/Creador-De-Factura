@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA483-196593",
+    "fecha_emision": "2025-11-23T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20596746439",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Arequipa 2269, San Borja, Lima",
+    "receptor_numero_doc": "20936113983",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 1915, Cercado de Lima, Lima",
+    "subtotal": 462.2,
+    "igv": 83.2,
+    "importe_total": 545.4,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 32,
+            "precio_unitario": 3.44,
+            "valor_venta": 110.08
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 40,
+            "precio_unitario": 5.23,
+            "valor_venta": 209.2
+        },
+        {
+            "numero": 3,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 18,
+            "precio_unitario": 2.98,
+            "valor_venta": 53.64
+        },
+        {
+            "numero": 4,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 48,
+            "precio_unitario": 1.86,
+            "valor_venta": 89.28
+        }
+    ]
+}

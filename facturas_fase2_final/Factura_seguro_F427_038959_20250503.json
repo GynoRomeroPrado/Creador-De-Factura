@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F427-038959",
+    "fecha_emision": "2025-05-03T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20613802046",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Av. Benavides 4385, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20020081504",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 2854, Santiago de Surco, Lima",
+    "subtotal": 172543.08,
+    "igv": 31057.75,
+    "importe_total": 203600.83,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 461.01,
+            "valor_venta": 24433.53
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 49,
+            "precio_unitario": 947.65,
+            "valor_venta": 46434.85
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 1,
+            "precio_unitario": 1874.86,
+            "valor_venta": 1874.86
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 55,
+            "precio_unitario": 1494.22,
+            "valor_venta": 82182.1
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 55,
+            "precio_unitario": 185.5,
+            "valor_venta": 10202.5
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 13,
+            "precio_unitario": 176.51,
+            "valor_venta": 2294.63
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 33,
+            "precio_unitario": 155.17,
+            "valor_venta": 5120.61
+        }
+    ]
+}

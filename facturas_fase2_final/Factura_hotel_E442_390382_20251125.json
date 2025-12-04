@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E442-390382",
+    "fecha_emision": "2025-11-25T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20813300231",
+    "emisor_razon_social": "Estelar Standard San Isidro",
+    "emisor_direccion": "Av. Benavides 1442, San Isidro, Lima",
+    "receptor_numero_doc": "20244417818",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 4683, San Borja, Lima",
+    "subtotal": 1785.39,
+    "igv": 321.37,
+    "importe_total": 2435.76,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.217,
+            "precio_unitario": 69.77,
+            "valor_venta": 503.53,
+            "cargo_item": 90.64,
+            "importe_total": 594.17
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.25,
+            "precio_unitario": 130.11,
+            "valor_venta": 1073.41,
+            "cargo_item": 193.21,
+            "importe_total": 1266.62
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION pack x6",
+            "unidad": "NIU",
+            "cantidad": 3.528,
+            "precio_unitario": 71.09,
+            "valor_venta": 250.81,
+            "cargo_item": 45.15,
+            "importe_total": 295.96
+        }
+    ]
+}

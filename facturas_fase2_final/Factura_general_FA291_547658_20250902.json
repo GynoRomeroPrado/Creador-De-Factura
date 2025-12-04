@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA291-547658",
+    "fecha_emision": "2025-09-02T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20174142492",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 1928, San Isidro, Lima",
+    "receptor_numero_doc": "20324330471",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 3536, San Borja, Lima",
+    "subtotal": 46298.12,
+    "igv": 8333.66,
+    "importe_total": 54631.78,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 62,
+            "precio_unitario": 112.71,
+            "valor_venta": 6988.02
+        },
+        {
+            "numero": 2,
+            "descripcion": "Pollo Entero kg",
+            "unidad": "KG",
+            "cantidad": 58,
+            "precio_unitario": 9.48,
+            "valor_venta": 549.84
+        },
+        {
+            "numero": 3,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 22,
+            "precio_unitario": 3.67,
+            "valor_venta": 80.74
+        },
+        {
+            "numero": 4,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 61,
+            "precio_unitario": 116.29,
+            "valor_venta": 7093.69
+        },
+        {
+            "numero": 5,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 24,
+            "precio_unitario": 127.07,
+            "valor_venta": 3049.68
+        },
+        {
+            "numero": 6,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 79,
+            "precio_unitario": 152.29,
+            "valor_venta": 12030.91
+        },
+        {
+            "numero": 7,
+            "descripcion": "Pollo Entero kg Modelo 2025",
+            "unidad": "KG",
+            "cantidad": 72,
+            "precio_unitario": 9.23,
+            "valor_venta": 664.56
+        },
+        {
+            "numero": 8,
+            "descripcion": "Carne de Res kg (Oferta)",
+            "unidad": "KG",
+            "cantidad": 15,
+            "precio_unitario": 24.78,
+            "valor_venta": 371.7
+        },
+        {
+            "numero": 9,
+            "descripcion": "Frijol Canario x 50kg (Importado)",
+            "unidad": "SAC",
+            "cantidad": 88,
+            "precio_unitario": 194.13,
+            "valor_venta": 17083.44
+        },
+        {
+            "numero": 10,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 25,
+            "precio_unitario": 198.66,
+            "valor_venta": 4966.5
+        }
+    ]
+}

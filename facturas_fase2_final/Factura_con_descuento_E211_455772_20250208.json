@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E211-455772",
+    "fecha_emision": "2025-02-08T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20545858828",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Jr. de la Unión 584, San Isidro, Lima",
+    "receptor_numero_doc": "20143642586",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 626, San Isidro, Lima",
+    "subtotal": 108283.12,
+    "igv": 19490.96,
+    "importe_total": 127774.08,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 63,
+            "precio_unitario": 962.44,
+            "valor_venta": 60633.72
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida Color: Negro",
+            "unidad": "POL",
+            "cantidad": 10,
+            "precio_unitario": 422.64,
+            "valor_venta": 4226.4
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 8,
+            "precio_unitario": 151.26,
+            "valor_venta": 1210.08
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 36,
+            "precio_unitario": 1203.41,
+            "valor_venta": 43322.76
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 7,
+            "precio_unitario": 157.18,
+            "valor_venta": 1100.26
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida (Oferta)",
+            "unidad": "POL",
+            "cantidad": 16,
+            "precio_unitario": 223.84,
+            "valor_venta": 3581.44
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida Serie X",
+            "unidad": "POL",
+            "cantidad": 3,
+            "precio_unitario": 290.46,
+            "valor_venta": 871.38
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 41,
+            "precio_unitario": 130.94,
+            "valor_venta": 5368.54
+        }
+    ]
+}

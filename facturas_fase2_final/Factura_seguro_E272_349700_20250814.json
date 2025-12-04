@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E272-349700",
+    "fecha_emision": "2025-08-14T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20866004596",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 578, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20700390897",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 4764, Miraflores, Lima",
+    "subtotal": 84315.32,
+    "igv": 13382.03,
+    "importe_total": 97697.35,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 54,
+            "precio_unitario": 1388.9,
+            "valor_venta": 75000.6
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 4,
+            "precio_unitario": 2328.68,
+            "valor_venta": 9314.72
+        }
+    ]
+}

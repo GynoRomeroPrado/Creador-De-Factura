@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE353-046107",
+    "fecha_emision": "2025-01-17T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20595636702",
+    "emisor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "emisor_direccion": "Av. Benavides 1047, San Borja, Lima",
+    "receptor_numero_doc": "20461189335",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 633, Santiago de Surco, Lima",
+    "subtotal": 188774.74,
+    "igv": 33979.45,
+    "importe_total": 222797.01,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 18,
+            "precio_unitario": 483.97,
+            "valor_venta": 8711.46
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 40,
+            "precio_unitario": 2257.37,
+            "valor_venta": 90294.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 66,
+            "precio_unitario": 1291.78,
+            "valor_venta": 85257.48
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 13,
+            "precio_unitario": 347.0,
+            "valor_venta": 4511.0
+        }
+    ]
+}

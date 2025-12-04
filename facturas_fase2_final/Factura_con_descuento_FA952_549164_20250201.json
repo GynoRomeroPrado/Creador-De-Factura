@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA952-549164",
+    "fecha_emision": "2025-02-01T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20867188755",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 2130, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20888167855",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Benavides 2700, San Isidro, Lima",
+    "subtotal": 249225.63,
+    "igv": 44860.61,
+    "importe_total": 294086.24,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 66,
+            "precio_unitario": 279.97,
+            "valor_venta": 18478.02
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 58,
+            "precio_unitario": 28.68,
+            "valor_venta": 1663.44
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 25,
+            "precio_unitario": 1897.95,
+            "valor_venta": 47448.75
+        },
+        {
+            "numero": 4,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 52,
+            "precio_unitario": 1441.5,
+            "valor_venta": 74958.0
+        },
+        {
+            "numero": 5,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional Color: Negro",
+            "unidad": "SES",
+            "cantidad": 78,
+            "precio_unitario": 609.02,
+            "valor_venta": 47503.56
+        },
+        {
+            "numero": 6,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas Color: Negro",
+            "unidad": "MES",
+            "cantidad": 50,
+            "precio_unitario": 1445.82,
+            "valor_venta": 72291.0
+        }
+    ]
+}

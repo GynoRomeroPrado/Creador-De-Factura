@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F928-221661",
+    "fecha_emision": "2025-11-26T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20420612410",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 3700, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20766165282",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 1065, Santiago de Surco, Lima",
+    "subtotal": 163988.06,
+    "igv": 29517.85,
+    "importe_total": 193505.91,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 63,
+            "precio_unitario": 2760.51,
+            "valor_venta": 173912.13
+        }
+    ]
+}

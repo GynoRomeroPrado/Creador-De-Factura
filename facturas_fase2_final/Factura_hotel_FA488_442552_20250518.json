@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA488-442552",
+    "fecha_emision": "2025-05-18T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20950375320",
+    "emisor_razon_social": "JW Marriott Suites San Isidro",
+    "emisor_direccion": "Av. Javier Prado Este 4269, San Borja, Lima",
+    "receptor_numero_doc": "20030768931",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 4487, La Victoria, Lima",
+    "subtotal": 2191.27,
+    "igv": 394.43,
+    "importe_total": 2980.12,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.446,
+            "precio_unitario": 107.7,
+            "valor_venta": 155.73,
+            "cargo_item": 28.03,
+            "importe_total": 183.76
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.901,
+            "precio_unitario": 82.4,
+            "valor_venta": 815.84,
+            "cargo_item": 146.85,
+            "importe_total": 962.69
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.074,
+            "precio_unitario": 95.28,
+            "valor_venta": 578.73,
+            "cargo_item": 104.17,
+            "importe_total": 682.9
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.155,
+            "precio_unitario": 34.02,
+            "valor_venta": 141.35,
+            "cargo_item": 25.44,
+            "importe_total": 166.79
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.2,
+            "precio_unitario": 96.08,
+            "valor_venta": 499.62,
+            "cargo_item": 89.93,
+            "importe_total": 589.55
+        }
+    ]
+}

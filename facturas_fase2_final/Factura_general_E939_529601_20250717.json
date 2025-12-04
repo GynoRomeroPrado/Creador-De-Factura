@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E939-529601",
+    "fecha_emision": "2025-07-17T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20425270631",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 652, Miraflores, Lima",
+    "receptor_numero_doc": "20956676071",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. Benavides 1469, Cercado de Lima, Lima",
+    "subtotal": 2702.22,
+    "igv": 486.4,
+    "importe_total": 3217.17,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.801,
+            "precio_unitario": 133.45,
+            "valor_venta": 640.69
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.052,
+            "precio_unitario": 65.29,
+            "valor_venta": 329.85
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.47,
+            "precio_unitario": 85.21,
+            "valor_venta": 806.94
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.297,
+            "precio_unitario": 76.65,
+            "valor_venta": 559.32
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.28,
+            "precio_unitario": 111.41,
+            "valor_venta": 365.42
+        }
+    ]
+}

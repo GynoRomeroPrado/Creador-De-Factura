@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E125-107584",
+    "fecha_emision": "2025-01-10T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20182131343",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 3788, San Isidro, Lima",
+    "receptor_numero_doc": "20951308197",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 1011, San Isidro, Lima",
+    "subtotal": 77684.65,
+    "igv": 10255.17,
+    "importe_total": 87939.82,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 38,
+            "precio_unitario": 58.45,
+            "valor_venta": 2221.1
+        },
+        {
+            "numero": 2,
+            "descripcion": "Extintor PQS 6kg Serie X",
+            "unidad": "UND",
+            "cantidad": 12,
+            "precio_unitario": 63.3,
+            "valor_venta": 759.6
+        },
+        {
+            "numero": 3,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 61,
+            "precio_unitario": 828.71,
+            "valor_venta": 50551.31
+        },
+        {
+            "numero": 4,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 8,
+            "precio_unitario": 903.89,
+            "valor_venta": 7231.12
+        },
+        {
+            "numero": 5,
+            "descripcion": "Batería 12V/7AH (Importado)",
+            "unidad": "UND",
+            "cantidad": 74,
+            "precio_unitario": 55.27,
+            "valor_venta": 4089.98
+        },
+        {
+            "numero": 6,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 85,
+            "precio_unitario": 53.64,
+            "valor_venta": 4559.4
+        },
+        {
+            "numero": 7,
+            "descripcion": "Sirena Estroboscópica (Importado)",
+            "unidad": "UND",
+            "cantidad": 91,
+            "precio_unitario": 82.84,
+            "valor_venta": 7538.44
+        },
+        {
+            "numero": 8,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 11,
+            "precio_unitario": 66.7,
+            "valor_venta": 733.7
+        }
+    ]
+}

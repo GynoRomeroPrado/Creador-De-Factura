@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA117-729302",
+    "fecha_emision": "2025-01-22T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20268160320",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Benavides 2608, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20142585821",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Calle Los Pinos 3986, Miraflores, Lima",
+    "subtotal": 3583.86,
+    "igv": 645.09,
+    "importe_total": 4228.95,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Casco de Seguridad 3M Blanco (Oferta)",
+            "unidad": "UND",
+            "cantidad": 92,
+            "precio_unitario": 31.53,
+            "valor_venta": 2900.76
+        },
+        {
+            "numero": 2,
+            "descripcion": "Guantes de Cuero Reforzado Serie X",
+            "unidad": "PAR",
+            "cantidad": 19,
+            "precio_unitario": 14.92,
+            "valor_venta": 283.48
+        },
+        {
+            "numero": 3,
+            "descripcion": "Guantes de Cuero Reforzado (Oferta)",
+            "unidad": "PAR",
+            "cantidad": 26,
+            "precio_unitario": 15.37,
+            "valor_venta": 399.62
+        }
+    ]
+}

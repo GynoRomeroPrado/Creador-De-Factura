@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F655-782662",
+    "fecha_emision": "2025-07-01T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20153428191",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 835, San Isidro, Lima",
+    "receptor_numero_doc": "20393429870",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 1784, Miraflores, Lima",
+    "subtotal": 89970.89,
+    "igv": 14412.72,
+    "importe_total": 104383.61,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 15,
+            "precio_unitario": 2267.03,
+            "valor_venta": 34005.45
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 23,
+            "precio_unitario": 2433.28,
+            "valor_venta": 55965.44
+        }
+    ]
+}

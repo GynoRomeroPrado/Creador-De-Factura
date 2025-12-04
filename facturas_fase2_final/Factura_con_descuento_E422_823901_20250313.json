@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E422-823901",
+    "fecha_emision": "2025-03-13T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20360892434",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 3942, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20717993307",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Benavides 1973, San Isidro, Lima",
+    "subtotal": 53195.21,
+    "igv": 8336.7,
+    "importe_total": 61531.91,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 89,
+            "precio_unitario": 664.11,
+            "valor_venta": 59105.79
+        }
+    ]
+}

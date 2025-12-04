@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E919-557045",
+    "fecha_emision": "2025-02-20T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20719734139",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 1446, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20011331964",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. La Marina 1299, La Victoria, Lima",
+    "subtotal": 6777.84,
+    "igv": 1220.01,
+    "importe_total": 7997.85,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 24,
+            "precio_unitario": 282.41,
+            "valor_venta": 6777.84
+        }
+    ]
+}

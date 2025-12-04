@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E760-127432",
+    "fecha_emision": "2025-04-27T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20155548119",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Av. Benavides 3291, San Isidro, Lima",
+    "receptor_numero_doc": "20318739651",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. La Marina 429, San Borja, Lima",
+    "subtotal": 186479.55,
+    "igv": 33566.32,
+    "importe_total": 220045.87,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 69,
+            "precio_unitario": 293.88,
+            "valor_venta": 20277.72
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 90,
+            "precio_unitario": 176.29,
+            "valor_venta": 15866.1
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios Serie X",
+            "unidad": "POL",
+            "cantidad": 18,
+            "precio_unitario": 878.2,
+            "valor_venta": 15807.6
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Importado)",
+            "unidad": "POL",
+            "cantidad": 98,
+            "precio_unitario": 137.58,
+            "valor_venta": 13482.84
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida Serie X",
+            "unidad": "POL",
+            "cantidad": 38,
+            "precio_unitario": 177.43,
+            "valor_venta": 6742.34
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 72,
+            "precio_unitario": 1488.17,
+            "valor_venta": 107148.24
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 27,
+            "precio_unitario": 391.12,
+            "valor_venta": 10560.24
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 21,
+            "precio_unitario": 150.0,
+            "valor_venta": 3150.0
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 99,
+            "precio_unitario": 135.62,
+            "valor_venta": 13426.38
+        },
+        {
+            "numero": 10,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 4,
+            "precio_unitario": 184.51,
+            "valor_venta": 738.04
+        }
+    ]
+}

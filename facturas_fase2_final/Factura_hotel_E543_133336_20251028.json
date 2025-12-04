@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E543-133336",
+    "fecha_emision": "2025-10-28T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20427524184",
+    "emisor_razon_social": "Casa Andina Resort Cajamarca",
+    "emisor_direccion": "Av. La Marina 4926, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20300153977",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 907, Miraflores, Lima",
+    "subtotal": 2647.53,
+    "igv": 476.56,
+    "importe_total": 3600.63,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.691,
+            "precio_unitario": 111.85,
+            "valor_venta": 748.39,
+            "cargo_item": 134.71,
+            "importe_total": 883.1
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.808,
+            "precio_unitario": 132.02,
+            "valor_venta": 634.75,
+            "cargo_item": 114.25,
+            "importe_total": 749.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.8,
+            "precio_unitario": 37.34,
+            "valor_venta": 253.91,
+            "cargo_item": 45.7,
+            "importe_total": 299.61
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.163,
+            "precio_unitario": 83.98,
+            "valor_venta": 769.51,
+            "cargo_item": 138.51,
+            "importe_total": 908.02
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.514,
+            "precio_unitario": 95.85,
+            "valor_venta": 240.97,
+            "cargo_item": 43.37,
+            "importe_total": 284.34
+        }
+    ]
+}

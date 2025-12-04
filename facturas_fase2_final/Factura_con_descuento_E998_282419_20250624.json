@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E998-282419",
+    "fecha_emision": "2025-06-24T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20531705565",
+    "emisor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 1014, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20195092843",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Jr. de la Unión 269, San Borja, Lima",
+    "subtotal": 11752.86,
+    "igv": 2115.51,
+    "importe_total": 13868.37,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Casco de Seguridad 3M Blanco",
+            "unidad": "UND",
+            "cantidad": 11,
+            "precio_unitario": 27.93,
+            "valor_venta": 307.23
+        },
+        {
+            "numero": 2,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L) Serie X",
+            "unidad": "GLN",
+            "cantidad": 3,
+            "precio_unitario": 50.36,
+            "valor_venta": 151.08
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L)",
+            "unidad": "GLN",
+            "cantidad": 49,
+            "precio_unitario": 45.69,
+            "valor_venta": 2238.81
+        },
+        {
+            "numero": 4,
+            "descripcion": "Piedra Chancada 1/2\" (m3)",
+            "unidad": "M3",
+            "cantidad": 64,
+            "precio_unitario": 57.18,
+            "valor_venta": 3659.52
+        },
+        {
+            "numero": 5,
+            "descripcion": "Piedra Chancada 1/2\" (m3)",
+            "unidad": "M3",
+            "cantidad": 15,
+            "precio_unitario": 66.06,
+            "valor_venta": 990.9
+        },
+        {
+            "numero": 6,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m (Importado)",
+            "unidad": "VAR",
+            "cantidad": 100,
+            "precio_unitario": 38.53,
+            "valor_venta": 3853.0
+        },
+        {
+            "numero": 7,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m",
+            "unidad": "VAR",
+            "cantidad": 34,
+            "precio_unitario": 41.47,
+            "valor_venta": 1409.98
+        },
+        {
+            "numero": 8,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 8,
+            "precio_unitario": 28.32,
+            "valor_venta": 226.56
+        }
+    ]
+}

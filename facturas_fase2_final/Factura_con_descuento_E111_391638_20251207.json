@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E111-391638",
+    "fecha_emision": "2025-12-07T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20633050598",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Av. Arequipa 3375, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20094306371",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Av. Benavides 634, San Isidro, Lima",
+    "subtotal": 12076.77,
+    "igv": 1637.98,
+    "importe_total": 13732.18,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Huevos Color x 30 unid Modelo 2025",
+            "unidad": "CAJA",
+            "cantidad": 90,
+            "precio_unitario": 15.96,
+            "valor_venta": 1436.4
+        },
+        {
+            "numero": 2,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 22,
+            "precio_unitario": 135.07,
+            "valor_venta": 2971.54
+        },
+        {
+            "numero": 3,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 99,
+            "precio_unitario": 12.8,
+            "valor_venta": 1267.2
+        },
+        {
+            "numero": 4,
+            "descripcion": "Pescado Fresco kg Modelo 2025",
+            "unidad": "KG",
+            "cantidad": 8,
+            "precio_unitario": 15.16,
+            "valor_venta": 121.28
+        },
+        {
+            "numero": 5,
+            "descripcion": "Arroz Superior x 50kg (Oferta)",
+            "unidad": "SAC",
+            "cantidad": 13,
+            "precio_unitario": 136.05,
+            "valor_venta": 1768.65
+        },
+        {
+            "numero": 6,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 48,
+            "precio_unitario": 124.51,
+            "valor_venta": 5976.48
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E170-596402",
+    "fecha_emision": "2025-09-19T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20262240933",
+    "emisor_razon_social": "Sheraton Suites Huancayo",
+    "emisor_direccion": "Av. Javier Prado Este 335, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20322237392",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Benavides 3227, Santiago de Surco, Lima",
+    "subtotal": 2523.11,
+    "igv": 454.16,
+    "importe_total": 3431.44,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.924,
+            "precio_unitario": 78.34,
+            "valor_venta": 464.09,
+            "cargo_item": 83.54,
+            "importe_total": 547.63
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.348,
+            "precio_unitario": 84.75,
+            "valor_venta": 537.99,
+            "cargo_item": 96.84,
+            "importe_total": 634.83
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.031,
+            "precio_unitario": 97.84,
+            "valor_venta": 785.75,
+            "cargo_item": 141.44,
+            "importe_total": 927.19
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.574,
+            "precio_unitario": 97.08,
+            "valor_venta": 735.28,
+            "cargo_item": 132.35,
+            "importe_total": 867.63
+        }
+    ]
+}

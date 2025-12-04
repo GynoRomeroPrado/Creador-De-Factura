@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE248-486198",
+    "fecha_emision": "2025-11-19T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20463892092",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. La Marina 4287, San Borja, Lima",
+    "receptor_numero_doc": "20522356191",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 3906, Miraflores, Lima",
+    "subtotal": 559.08,
+    "igv": 100.63,
+    "importe_total": 659.71,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Casco de Seguridad 3M Blanco (Oferta)",
+            "unidad": "UND",
+            "cantidad": 18,
+            "precio_unitario": 31.06,
+            "valor_venta": 559.08
+        }
+    ]
+}

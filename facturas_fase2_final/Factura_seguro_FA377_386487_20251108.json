@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA377-386487",
+    "fecha_emision": "2025-11-08T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20311400348",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. La Marina 4184, San Borja, Lima",
+    "receptor_numero_doc": "20308458777",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 652, Santiago de Surco, Lima",
+    "subtotal": 163349.04,
+    "igv": 29402.83,
+    "importe_total": 192751.87,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 71,
+            "precio_unitario": 1304.48,
+            "valor_venta": 92618.08
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 50,
+            "precio_unitario": 128.42,
+            "valor_venta": 6421.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 34,
+            "precio_unitario": 927.45,
+            "valor_venta": 31533.3
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 11,
+            "precio_unitario": 2177.93,
+            "valor_venta": 23957.23
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 51,
+            "precio_unitario": 172.93,
+            "valor_venta": 8819.43
+        }
+    ]
+}

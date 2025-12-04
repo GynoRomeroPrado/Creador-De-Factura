@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA555-481532",
+    "fecha_emision": "2025-08-17T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20913389507",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Jr. de la Unión 4597, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20193800999",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 2765, Miraflores, Lima",
+    "subtotal": 235883.01,
+    "igv": 42458.94,
+    "importe_total": 278341.95,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 45,
+            "precio_unitario": 3734.03,
+            "valor_venta": 168031.35
+        },
+        {
+            "numero": 2,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 26,
+            "precio_unitario": 779.47,
+            "valor_venta": 20266.22
+        },
+        {
+            "numero": 3,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica (Oferta)",
+            "unidad": "PROY",
+            "cantidad": 14,
+            "precio_unitario": 3398.96,
+            "valor_venta": 47585.44
+        }
+    ]
+}

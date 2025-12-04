@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E341-829063",
+    "fecha_emision": "2025-06-10T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20766280936",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Benavides 1070, San Borja, Lima",
+    "receptor_numero_doc": "20242257481",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Calle Los Pinos 1817, San Isidro, Lima",
+    "subtotal": 4022.9,
+    "igv": 724.12,
+    "importe_total": 4747.02,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Humo Convencional 2 Hilos Color: Negro",
+            "unidad": "UND",
+            "cantidad": 70,
+            "precio_unitario": 57.47,
+            "valor_venta": 4022.9
+        }
+    ]
+}

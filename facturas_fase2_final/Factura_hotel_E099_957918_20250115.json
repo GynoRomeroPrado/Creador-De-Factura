@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E099-957918",
+    "fecha_emision": "2025-01-15T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20233218121",
+    "emisor_razon_social": "Holiday Inn Garden Cajamarca",
+    "emisor_direccion": "Calle Los Pinos 4033, La Victoria, Lima",
+    "receptor_numero_doc": "20845699560",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Arequipa 4942, La Victoria, Lima",
+    "subtotal": 265.52,
+    "igv": 47.79,
+    "importe_total": 361.1,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.535,
+            "precio_unitario": 40.63,
+            "valor_venta": 265.52,
+            "cargo_item": 47.79,
+            "importe_total": 313.31
+        }
+    ]
+}

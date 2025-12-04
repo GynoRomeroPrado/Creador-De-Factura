@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E998-613255",
+    "fecha_emision": "2025-06-27T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20262216773",
+    "emisor_razon_social": "Hilton Garden Barranco",
+    "emisor_direccion": "Calle Los Pinos 372, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20306699718",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 502, Miraflores, Lima",
+    "subtotal": 2788.87,
+    "igv": 502.0,
+    "importe_total": 3792.88,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.437,
+            "precio_unitario": 53.64,
+            "valor_venta": 506.2,
+            "cargo_item": 91.12,
+            "importe_total": 597.32
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.67,
+            "precio_unitario": 40.78,
+            "valor_venta": 272.0,
+            "cargo_item": 48.96,
+            "importe_total": 320.96
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.512,
+            "precio_unitario": 86.17,
+            "valor_venta": 561.14,
+            "cargo_item": 101.01,
+            "importe_total": 662.15
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.06,
+            "precio_unitario": 107.95,
+            "valor_venta": 978.03,
+            "cargo_item": 176.05,
+            "importe_total": 1154.08
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.181,
+            "precio_unitario": 65.66,
+            "valor_venta": 471.5,
+            "cargo_item": 84.87,
+            "importe_total": 556.37
+        }
+    ]
+}

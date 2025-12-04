@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA986-820350",
+    "fecha_emision": "2025-10-20T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20059817923",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. La Marina 2942, Miraflores, Lima",
+    "receptor_numero_doc": "20530736301",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 101, Cercado de Lima, Lima",
+    "subtotal": 224656.82,
+    "igv": 40438.23,
+    "importe_total": 265095.05,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional Serie X",
+            "unidad": "SES",
+            "cantidad": 68,
+            "precio_unitario": 619.18,
+            "valor_venta": 42104.24
+        },
+        {
+            "numero": 2,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 20,
+            "precio_unitario": 3199.65,
+            "valor_venta": 63993.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica Serie X",
+            "unidad": "PROY",
+            "cantidad": 5,
+            "precio_unitario": 3102.81,
+            "valor_venta": 15514.05
+        },
+        {
+            "numero": 4,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas Serie X",
+            "unidad": "MES",
+            "cantidad": 26,
+            "precio_unitario": 2108.84,
+            "valor_venta": 54829.84
+        },
+        {
+            "numero": 5,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 4,
+            "precio_unitario": 513.95,
+            "valor_venta": 2055.8
+        },
+        {
+            "numero": 6,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 20,
+            "precio_unitario": 1185.0,
+            "valor_venta": 23700.0
+        },
+        {
+            "numero": 7,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 13,
+            "precio_unitario": 1627.69,
+            "valor_venta": 21159.97
+        },
+        {
+            "numero": 8,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 8,
+            "precio_unitario": 162.49,
+            "valor_venta": 1299.92
+        }
+    ]
+}

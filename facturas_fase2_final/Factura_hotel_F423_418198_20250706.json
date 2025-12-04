@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F423-418198",
+    "fecha_emision": "2025-07-06T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20711723154",
+    "emisor_razon_social": "JW Marriott Plaza Cusco",
+    "emisor_direccion": "Av. Arequipa 701, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20653548568",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Benavides 1711, Miraflores, Lima",
+    "subtotal": 577.76,
+    "igv": 104.0,
+    "importe_total": 785.76,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.892,
+            "precio_unitario": 95.48,
+            "valor_venta": 180.65,
+            "cargo_item": 32.52,
+            "importe_total": 213.17
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.81,
+            "precio_unitario": 82.56,
+            "valor_venta": 397.11,
+            "cargo_item": 71.48,
+            "importe_total": 468.59
+        }
+    ]
+}

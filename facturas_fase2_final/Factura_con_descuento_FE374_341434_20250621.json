@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE374-341434",
+    "fecha_emision": "2025-06-21T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20117257216",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Av. La Marina 3350, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20378612765",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Arequipa 2762, La Victoria, Lima",
+    "subtotal": 14284.87,
+    "igv": 2571.28,
+    "importe_total": 16856.15,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Huevos Color x 30 unid Color: Negro",
+            "unidad": "CAJA",
+            "cantidad": 89,
+            "precio_unitario": 12.14,
+            "valor_venta": 1080.46
+        },
+        {
+            "numero": 2,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 85,
+            "precio_unitario": 12.96,
+            "valor_venta": 1101.6
+        },
+        {
+            "numero": 3,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 30,
+            "precio_unitario": 137.69,
+            "valor_venta": 4130.7
+        },
+        {
+            "numero": 4,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 51,
+            "precio_unitario": 161.98,
+            "valor_venta": 8260.98
+        },
+        {
+            "numero": 5,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 49,
+            "precio_unitario": 4.99,
+            "valor_venta": 244.51
+        }
+    ]
+}

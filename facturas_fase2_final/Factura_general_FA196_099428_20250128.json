@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA196-099428",
+    "fecha_emision": "2025-01-28T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20437740799",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 1537, San Isidro, Lima",
+    "receptor_numero_doc": "20587385164",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 1228, Santiago de Surco, Lima",
+    "subtotal": 665951.23,
+    "igv": 119871.22,
+    "importe_total": 785855.82,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 73,
+            "precio_unitario": 905.62,
+            "valor_venta": 66110.26
+        },
+        {
+            "numero": 2,
+            "descripcion": "Alquiler de Sala de Conferencias (Día) Color: Negro",
+            "unidad": "DIA",
+            "cantidad": 99,
+            "precio_unitario": 1239.47,
+            "valor_venta": 122707.53
+        },
+        {
+            "numero": 3,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 71,
+            "precio_unitario": 4912.37,
+            "valor_venta": 348778.27
+        },
+        {
+            "numero": 4,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 60,
+            "precio_unitario": 850.92,
+            "valor_venta": 51055.2
+        },
+        {
+            "numero": 5,
+            "descripcion": "Servicio de Courier Local (Oferta)",
+            "unidad": "ENV",
+            "cantidad": 85,
+            "precio_unitario": 28.54,
+            "valor_venta": 2425.9
+        },
+        {
+            "numero": 6,
+            "descripcion": "Soporte Técnico Remoto Mensual (Importado)",
+            "unidad": "MES",
+            "cantidad": 67,
+            "precio_unitario": 879.77,
+            "valor_venta": 58944.59
+        },
+        {
+            "numero": 7,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 93,
+            "precio_unitario": 153.31,
+            "valor_venta": 14257.83
+        },
+        {
+            "numero": 8,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 67,
+            "precio_unitario": 24.95,
+            "valor_venta": 1671.65
+        }
+    ]
+}

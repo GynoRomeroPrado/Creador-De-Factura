@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F071-534242",
+    "fecha_emision": "2025-06-18T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20625257256",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Calle Los Pinos 933, La Victoria, Lima",
+    "receptor_numero_doc": "20825718789",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Arequipa 2460, San Borja, Lima",
+    "subtotal": 180188.34,
+    "igv": 28282.0,
+    "importe_total": 208470.34,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 47,
+            "precio_unitario": 981.26,
+            "valor_venta": 46119.22
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 52,
+            "precio_unitario": 193.98,
+            "valor_venta": 10086.96
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida (Importado)",
+            "unidad": "POL",
+            "cantidad": 100,
+            "precio_unitario": 487.02,
+            "valor_venta": 48702.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 24,
+            "precio_unitario": 2922.46,
+            "valor_venta": 70139.04
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 29,
+            "precio_unitario": 177.28,
+            "valor_venta": 5141.12
+        }
+    ]
+}

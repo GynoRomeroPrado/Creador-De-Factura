@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F518-959895",
+    "fecha_emision": "2025-05-25T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20798569580",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 923, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20382680091",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Calle Los Pinos 1567, La Victoria, Lima",
+    "subtotal": 256242.79,
+    "igv": 37409.91,
+    "importe_total": 293652.7,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 22,
+            "precio_unitario": 932.34,
+            "valor_venta": 20511.48
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo Color: Negro",
+            "unidad": "POL",
+            "cantidad": 36,
+            "precio_unitario": 1447.06,
+            "valor_venta": 52094.16
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 32,
+            "precio_unitario": 412.26,
+            "valor_venta": 13192.32
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 22,
+            "precio_unitario": 2153.19,
+            "valor_venta": 47370.18
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 12,
+            "precio_unitario": 116.36,
+            "valor_venta": 1396.32
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 71,
+            "precio_unitario": 224.86,
+            "valor_venta": 15965.06
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida (Importado)",
+            "unidad": "POL",
+            "cantidad": 11,
+            "precio_unitario": 460.28,
+            "valor_venta": 5063.08
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 88,
+            "precio_unitario": 1461.11,
+            "valor_venta": 128577.68
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 15,
+            "precio_unitario": 374.07,
+            "valor_venta": 5611.05
+        },
+        {
+            "numero": 10,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 6,
+            "precio_unitario": 1581.56,
+            "valor_venta": 9489.36
+        }
+    ]
+}

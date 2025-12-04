@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E159-688240",
+    "fecha_emision": "2025-11-02T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20661019663",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 721, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20665917976",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 4090, La Victoria, Lima",
+    "subtotal": 40762.18,
+    "igv": 7337.19,
+    "importe_total": 48099.37,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 59,
+            "precio_unitario": 742.62,
+            "valor_venta": 43814.58
+        },
+        {
+            "numero": 2,
+            "descripcion": "Cemento Sol Tipo I (42.5kg)",
+            "unidad": "BOL",
+            "cantidad": 74,
+            "precio_unitario": 28.36,
+            "valor_venta": 2098.64
+        },
+        {
+            "numero": 3,
+            "descripcion": "Tubo PVC SAP Pavco 4\" Desague",
+            "unidad": "UND",
+            "cantidad": 9,
+            "precio_unitario": 22.17,
+            "valor_venta": 199.53
+        },
+        {
+            "numero": 4,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m",
+            "unidad": "VAR",
+            "cantidad": 45,
+            "precio_unitario": 40.95,
+            "valor_venta": 1842.75
+        }
+    ]
+}

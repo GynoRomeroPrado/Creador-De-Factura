@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA491-648094",
+    "fecha_emision": "2025-07-27T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20859727698",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 2631, La Victoria, Lima",
+    "receptor_numero_doc": "20748898906",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Benavides 3663, Santiago de Surco, Lima",
+    "subtotal": 336726.22,
+    "igv": 60610.72,
+    "importe_total": 397336.94,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 31,
+            "precio_unitario": 860.39,
+            "valor_venta": 26672.09
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 98,
+            "precio_unitario": 1131.73,
+            "valor_venta": 110909.54
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 77,
+            "precio_unitario": 341.95,
+            "valor_venta": 26330.15
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 67,
+            "precio_unitario": 2579.32,
+            "valor_venta": 172814.44
+        }
+    ]
+}

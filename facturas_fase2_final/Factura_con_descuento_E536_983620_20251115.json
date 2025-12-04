@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E536-983620",
+    "fecha_emision": "2025-11-15T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20074371257",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Calle Los Pinos 3760, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20004448686",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. La Marina 2171, Santiago de Surco, Lima",
+    "subtotal": 198927.34,
+    "igv": 32584.6,
+    "importe_total": 231511.94,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 8,
+            "precio_unitario": 3691.8,
+            "valor_venta": 29534.4
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 16,
+            "precio_unitario": 2446.43,
+            "valor_venta": 39142.88
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas Modelo 2025",
+            "unidad": "MES",
+            "cantidad": 65,
+            "precio_unitario": 2470.61,
+            "valor_venta": 160589.65
+        },
+        {
+            "numero": 4,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 41,
+            "precio_unitario": 23.66,
+            "valor_venta": 970.06
+        },
+        {
+            "numero": 5,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas (Importado)",
+            "unidad": "MES",
+            "cantidad": 14,
+            "precio_unitario": 1315.87,
+            "valor_venta": 18422.18
+        }
+    ]
+}

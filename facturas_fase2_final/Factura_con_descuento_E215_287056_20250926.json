@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E215-287056",
+    "fecha_emision": "2025-09-26T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20749543371",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 2602, San Isidro, Lima",
+    "receptor_numero_doc": "20962430211",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 2732, Miraflores, Lima",
+    "subtotal": 1838.94,
+    "igv": 331.01,
+    "importe_total": 2169.95,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Cemento Sol Tipo I (42.5kg)",
+            "unidad": "BOL",
+            "cantidad": 73,
+            "precio_unitario": 27.99,
+            "valor_venta": 2043.27
+        }
+    ]
+}

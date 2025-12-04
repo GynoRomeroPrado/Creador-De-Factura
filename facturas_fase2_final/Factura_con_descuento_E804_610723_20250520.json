@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E804-610723",
+    "fecha_emision": "2025-05-20T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20627770988",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 385, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20178953274",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 4514, San Borja, Lima",
+    "subtotal": 224946.29,
+    "igv": 37653.76,
+    "importe_total": 262600.05,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 73,
+            "precio_unitario": 273.83,
+            "valor_venta": 19989.59
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 80,
+            "precio_unitario": 2007.87,
+            "valor_venta": 160629.6
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 83,
+            "precio_unitario": 486.35,
+            "valor_venta": 40367.05
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 85,
+            "precio_unitario": 472.44,
+            "valor_venta": 40157.4
+        }
+    ]
+}

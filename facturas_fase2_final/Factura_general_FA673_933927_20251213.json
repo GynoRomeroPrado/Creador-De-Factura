@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA673-933927",
+    "fecha_emision": "2025-12-13T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20290373159",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 3695, Miraflores, Lima",
+    "receptor_numero_doc": "20624599102",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 3190, Cercado de Lima, Lima",
+    "subtotal": 23394.34,
+    "igv": 3695.48,
+    "importe_total": 27089.82,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 72,
+            "precio_unitario": 23.48,
+            "valor_venta": 1690.56
+        },
+        {
+            "numero": 2,
+            "descripcion": "Arroz Superior x 50kg (Oferta)",
+            "unidad": "SAC",
+            "cantidad": 51,
+            "precio_unitario": 138.61,
+            "valor_venta": 7069.11
+        },
+        {
+            "numero": 3,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 73,
+            "precio_unitario": 96.33,
+            "valor_venta": 7032.09
+        },
+        {
+            "numero": 4,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 14,
+            "precio_unitario": 12.86,
+            "valor_venta": 180.04
+        },
+        {
+            "numero": 5,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 72,
+            "precio_unitario": 22.12,
+            "valor_venta": 1592.64
+        },
+        {
+            "numero": 6,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 56,
+            "precio_unitario": 4.66,
+            "valor_venta": 260.96
+        },
+        {
+            "numero": 7,
+            "descripcion": "Leche Evaporada x 48 latas Serie X",
+            "unidad": "CJA",
+            "cantidad": 4,
+            "precio_unitario": 107.2,
+            "valor_venta": 428.8
+        },
+        {
+            "numero": 8,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 25,
+            "precio_unitario": 113.28,
+            "valor_venta": 2832.0
+        },
+        {
+            "numero": 9,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 9,
+            "precio_unitario": 110.6,
+            "valor_venta": 995.4
+        },
+        {
+            "numero": 10,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 78,
+            "precio_unitario": 16.83,
+            "valor_venta": 1312.74
+        }
+    ]
+}

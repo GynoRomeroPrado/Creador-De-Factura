@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F128-516467",
+    "fecha_emision": "2025-07-11T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20284562942",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Calle Los Pinos 3869, La Victoria, Lima",
+    "receptor_numero_doc": "20301695552",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 2035, San Borja, Lima",
+    "subtotal": 184010.67,
+    "igv": 29713.04,
+    "importe_total": 213723.71,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios (Oferta)",
+            "unidad": "POL",
+            "cantidad": 99,
+            "precio_unitario": 1457.63,
+            "valor_venta": 144305.37
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 1,
+            "precio_unitario": 135.66,
+            "valor_venta": 135.66
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 63,
+            "precio_unitario": 1141.24,
+            "valor_venta": 71898.12
+        }
+    ]
+}

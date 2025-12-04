@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE426-983265",
+    "fecha_emision": "2025-03-16T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20095716009",
+    "emisor_razon_social": "Hilton Garden Chiclayo",
+    "emisor_direccion": "Av. Arequipa 4166, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20272907341",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 858, Santiago de Surco, Lima",
+    "subtotal": 794.89,
+    "igv": 143.08,
+    "importe_total": 1081.05,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.354,
+            "precio_unitario": 60.54,
+            "valor_venta": 505.75,
+            "cargo_item": 91.03,
+            "importe_total": 596.78
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.446,
+            "precio_unitario": 30.61,
+            "valor_venta": 289.14,
+            "cargo_item": 52.05,
+            "importe_total": 341.19
+        }
+    ]
+}

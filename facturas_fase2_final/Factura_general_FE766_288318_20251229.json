@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE766-288318",
+    "fecha_emision": "2025-12-29T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20417143417",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Calle Los Pinos 1137, La Victoria, Lima",
+    "receptor_numero_doc": "20117169848",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. La Marina 4663, La Victoria, Lima",
+    "subtotal": 228788.29,
+    "igv": 41181.89,
+    "importe_total": 269970.18,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas) Serie X",
+            "unidad": "HOR",
+            "cantidad": 21,
+            "precio_unitario": 156.08,
+            "valor_venta": 3277.68
+        },
+        {
+            "numero": 2,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 52,
+            "precio_unitario": 660.96,
+            "valor_venta": 34369.92
+        },
+        {
+            "numero": 3,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 38,
+            "precio_unitario": 271.91,
+            "valor_venta": 10332.58
+        },
+        {
+            "numero": 4,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 16,
+            "precio_unitario": 694.59,
+            "valor_venta": 11113.44
+        },
+        {
+            "numero": 5,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 89,
+            "precio_unitario": 1444.53,
+            "valor_venta": 128563.17
+        },
+        {
+            "numero": 6,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 95,
+            "precio_unitario": 284.85,
+            "valor_venta": 27060.75
+        },
+        {
+            "numero": 7,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 73,
+            "precio_unitario": 192.75,
+            "valor_venta": 14070.75
+        }
+    ]
+}

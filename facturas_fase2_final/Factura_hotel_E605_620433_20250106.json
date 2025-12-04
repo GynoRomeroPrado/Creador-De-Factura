@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E605-620433",
+    "fecha_emision": "2025-01-06T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20406786588",
+    "emisor_razon_social": "Holiday Inn Premium Trujillo",
+    "emisor_direccion": "Av. Javier Prado Este 4553, San Borja, Lima",
+    "receptor_numero_doc": "20056497324",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. La Marina 2712, Santiago de Surco, Lima",
+    "subtotal": 367.93,
+    "igv": 66.23,
+    "importe_total": 500.39,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.432,
+            "precio_unitario": 109.53,
+            "valor_venta": 266.38,
+            "cargo_item": 47.95,
+            "importe_total": 314.33
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.813,
+            "precio_unitario": 36.1,
+            "valor_venta": 101.55,
+            "cargo_item": 18.28,
+            "importe_total": 119.83
+        }
+    ]
+}

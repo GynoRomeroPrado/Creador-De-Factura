@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE471-729132",
+    "fecha_emision": "2025-10-02T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20065213894",
+    "emisor_razon_social": "Marriott Wyndham Tacna",
+    "emisor_direccion": "Jr. de la Unión 4702, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20802255412",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 2260, Santiago de Surco, Lima",
+    "subtotal": 3179.87,
+    "igv": 460.8,
+    "importe_total": 4213.04,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.291,
+            "precio_unitario": 144.77,
+            "valor_venta": 910.75,
+            "cargo_item": 163.94,
+            "importe_total": 1074.69
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.841,
+            "precio_unitario": 103.02,
+            "valor_venta": 910.8,
+            "cargo_item": 163.94,
+            "importe_total": 1074.74
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.059,
+            "precio_unitario": 84.69,
+            "valor_venta": 259.07,
+            "cargo_item": 46.63,
+            "importe_total": 305.7
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.788,
+            "precio_unitario": 81.58,
+            "valor_venta": 227.45,
+            "cargo_item": 40.94,
+            "importe_total": 268.39
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.504,
+            "precio_unitario": 134.04,
+            "valor_venta": 871.8,
+            "cargo_item": 156.92,
+            "importe_total": 1028.72
+        }
+    ]
+}

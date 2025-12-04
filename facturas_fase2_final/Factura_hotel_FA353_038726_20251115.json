@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA353-038726",
+    "fecha_emision": "2025-11-15T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20218743804",
+    "emisor_razon_social": "Novotel Wyndham Barranco",
+    "emisor_direccion": "Jr. de la Unión 1723, San Isidro, Lima",
+    "receptor_numero_doc": "20025431473",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. La Marina 3699, Cercado de Lima, Lima",
+    "subtotal": 1043.86,
+    "igv": 167.13,
+    "importe_total": 1398.88,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.95,
+            "precio_unitario": 77.68,
+            "valor_venta": 695.24,
+            "cargo_item": 125.14,
+            "importe_total": 820.38
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.821,
+            "precio_unitario": 51.11,
+            "valor_venta": 348.62,
+            "cargo_item": 62.75,
+            "importe_total": 411.37
+        }
+    ]
+}

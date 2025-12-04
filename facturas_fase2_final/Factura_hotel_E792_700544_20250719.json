@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E792-700544",
+    "fecha_emision": "2025-07-19T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20309505876",
+    "emisor_razon_social": "Costa del Sol Wyndham Chiclayo",
+    "emisor_direccion": "Jr. de la Unión 4595, La Victoria, Lima",
+    "receptor_numero_doc": "20426294151",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Av. Benavides 3497, La Victoria, Lima",
+    "subtotal": 3330.55,
+    "igv": 497.33,
+    "importe_total": 4427.37,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.598,
+            "precio_unitario": 112.47,
+            "valor_venta": 404.67,
+            "cargo_item": 72.84,
+            "importe_total": 477.51
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.599,
+            "precio_unitario": 96.92,
+            "valor_venta": 542.66,
+            "cargo_item": 97.68,
+            "importe_total": 640.34
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.231,
+            "precio_unitario": 102.21,
+            "valor_venta": 330.24,
+            "cargo_item": 59.44,
+            "importe_total": 389.68
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.815,
+            "precio_unitario": 55.51,
+            "valor_venta": 211.77,
+            "cargo_item": 38.12,
+            "importe_total": 249.89
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.877,
+            "precio_unitario": 109.48,
+            "valor_venta": 1081.33,
+            "cargo_item": 194.64,
+            "importe_total": 1275.97
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.197,
+            "precio_unitario": 44.23,
+            "valor_venta": 185.63,
+            "cargo_item": 33.41,
+            "importe_total": 219.04
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.498,
+            "precio_unitario": 59.41,
+            "valor_venta": 148.41,
+            "cargo_item": 26.71,
+            "importe_total": 175.12
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.183,
+            "precio_unitario": 82.16,
+            "valor_venta": 425.84,
+            "cargo_item": 76.65,
+            "importe_total": 502.49
+        }
+    ]
+}

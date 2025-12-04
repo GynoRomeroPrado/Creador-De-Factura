@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE788-473960",
+    "fecha_emision": "2025-05-28T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20538429393",
+    "emisor_razon_social": "Westin Wyndham Arequipa",
+    "emisor_direccion": "Av. Benavides 2022, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20970496522",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 3683, Cercado de Lima, Lima",
+    "subtotal": 569.17,
+    "igv": 102.45,
+    "importe_total": 774.07,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.51,
+            "precio_unitario": 59.85,
+            "valor_venta": 569.17,
+            "cargo_item": 102.45,
+            "importe_total": 671.62
+        }
+    ]
+}

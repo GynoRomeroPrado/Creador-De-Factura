@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE362-426297",
+    "fecha_emision": "2025-03-16T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20379243721",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Calle Los Pinos 2345, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20056010425",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 894, Santiago de Surco, Lima",
+    "subtotal": 2084.56,
+    "igv": 375.22,
+    "importe_total": 2489.12,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Diesel Modelo 2025",
+            "unidad": "GL",
+            "cantidad": 22,
+            "precio_unitario": 3.21,
+            "valor_venta": 70.62
+        },
+        {
+            "numero": 2,
+            "descripcion": "GLP Serie X",
+            "unidad": "GL",
+            "cantidad": 62,
+            "precio_unitario": 2.04,
+            "valor_venta": 126.48
+        },
+        {
+            "numero": 3,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 36,
+            "precio_unitario": 3.3,
+            "valor_venta": 118.8
+        },
+        {
+            "numero": 4,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 64,
+            "precio_unitario": 5.38,
+            "valor_venta": 344.32
+        },
+        {
+            "numero": 5,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 9,
+            "precio_unitario": 4.86,
+            "valor_venta": 43.74
+        },
+        {
+            "numero": 6,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 43,
+            "precio_unitario": 3.49,
+            "valor_venta": 150.07
+        },
+        {
+            "numero": 7,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 78,
+            "precio_unitario": 6.06,
+            "valor_venta": 472.68
+        },
+        {
+            "numero": 8,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 75,
+            "precio_unitario": 3.4,
+            "valor_venta": 255.0
+        },
+        {
+            "numero": 9,
+            "descripcion": "Gasolina 95 Modelo 2025",
+            "unidad": "GL",
+            "cantidad": 89,
+            "precio_unitario": 5.65,
+            "valor_venta": 502.85
+        }
+    ]
+}

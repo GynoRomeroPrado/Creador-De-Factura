@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA501-310598",
+    "fecha_emision": "2025-11-02T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20081792845",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Benavides 3450, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20268083503",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. La Marina 3589, Cercado de Lima, Lima",
+    "subtotal": 98475.35,
+    "igv": 17725.56,
+    "importe_total": 116200.91,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 96,
+            "precio_unitario": 942.06,
+            "valor_venta": 90437.76
+        },
+        {
+            "numero": 2,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 73,
+            "precio_unitario": 99.26,
+            "valor_venta": 7245.98
+        },
+        {
+            "numero": 3,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 44,
+            "precio_unitario": 92.01,
+            "valor_venta": 4048.44
+        },
+        {
+            "numero": 4,
+            "descripcion": "Extintor PQS 6kg Color: Negro",
+            "unidad": "UND",
+            "cantidad": 13,
+            "precio_unitario": 77.84,
+            "valor_venta": 1011.92
+        },
+        {
+            "numero": 5,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 26,
+            "precio_unitario": 35.16,
+            "valor_venta": 914.16
+        }
+    ]
+}

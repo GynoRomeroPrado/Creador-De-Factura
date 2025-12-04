@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE793-543550",
+    "fecha_emision": "2025-10-27T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20029621501",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Calle Los Pinos 4793, Miraflores, Lima",
+    "receptor_numero_doc": "20362623198",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 3659, San Borja, Lima",
+    "subtotal": 4103.55,
+    "igv": 663.36,
+    "importe_total": 4766.91,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m",
+            "unidad": "VAR",
+            "cantidad": 99,
+            "precio_unitario": 41.45,
+            "valor_venta": 4103.55
+        }
+    ]
+}

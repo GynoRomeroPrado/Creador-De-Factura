@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F902-305177",
+    "fecha_emision": "2025-07-10T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20150540659",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 4427, San Isidro, Lima",
+    "receptor_numero_doc": "20570768957",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Benavides 1743, La Victoria, Lima",
+    "subtotal": 270970.12,
+    "igv": 43476.11,
+    "importe_total": 314446.23,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 63,
+            "precio_unitario": 2724.73,
+            "valor_venta": 171657.99
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 59,
+            "precio_unitario": 1210.75,
+            "valor_venta": 71434.25
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 74,
+            "precio_unitario": 156.63,
+            "valor_venta": 11590.62
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 77,
+            "precio_unitario": 163.65,
+            "valor_venta": 12601.05
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 23,
+            "precio_unitario": 160.27,
+            "valor_venta": 3686.21
+        }
+    ]
+}

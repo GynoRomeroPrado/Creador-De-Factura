@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F361-872880",
+    "fecha_emision": "2025-05-31T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20442283011",
+    "emisor_razon_social": "Swissôtel Wyndham Piura",
+    "emisor_direccion": "Calle Los Pinos 4095, La Victoria, Lima",
+    "receptor_numero_doc": "20983994769",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. Arequipa 887, Miraflores, Lima",
+    "subtotal": 1151.99,
+    "igv": 207.36,
+    "importe_total": 1566.71,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION pack x6",
+            "unidad": "NIU",
+            "cantidad": 4.159,
+            "precio_unitario": 66.05,
+            "valor_venta": 274.7,
+            "cargo_item": 49.45,
+            "importe_total": 324.15
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.857,
+            "precio_unitario": 99.05,
+            "valor_venta": 877.29,
+            "cargo_item": 157.91,
+            "importe_total": 1035.2
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA993-358778",
+    "fecha_emision": "2025-05-28T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20245817054",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Calle Los Pinos 659, Miraflores, Lima",
+    "receptor_numero_doc": "20160028875",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 972, San Borja, Lima",
+    "subtotal": 71892.64,
+    "igv": 12940.68,
+    "importe_total": 84833.32,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 10,
+            "precio_unitario": 471.61,
+            "valor_venta": 4716.1
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 24,
+            "precio_unitario": 238.77,
+            "valor_venta": 5730.48
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 95,
+            "precio_unitario": 483.57,
+            "valor_venta": 45939.15
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 16,
+            "precio_unitario": 394.46,
+            "valor_venta": 6311.36
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 47,
+            "precio_unitario": 195.65,
+            "valor_venta": 9195.55
+        }
+    ]
+}

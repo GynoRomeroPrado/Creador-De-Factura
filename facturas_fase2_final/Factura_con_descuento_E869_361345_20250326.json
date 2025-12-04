@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E869-361345",
+    "fecha_emision": "2025-03-26T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20052899771",
+    "emisor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "emisor_direccion": "Calle Los Pinos 2720, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20372223058",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. La Marina 4627, San Borja, Lima",
+    "subtotal": 460290.45,
+    "igv": 69402.18,
+    "importe_total": 529692.63,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 34,
+            "precio_unitario": 583.64,
+            "valor_venta": 19843.76
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 12,
+            "precio_unitario": 459.74,
+            "valor_venta": 5516.88
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 93,
+            "precio_unitario": 2249.17,
+            "valor_venta": 209172.81
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 30,
+            "precio_unitario": 2391.83,
+            "valor_venta": 71754.9
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 93,
+            "precio_unitario": 2023.25,
+            "valor_venta": 188162.25
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 24,
+            "precio_unitario": 611.9,
+            "valor_venta": 14685.6
+        }
+    ]
+}

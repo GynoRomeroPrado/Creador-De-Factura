@@ -1,0 +1,113 @@
+{
+    "tipo_comprobante": "FACTURA",
+    "tipo_factura": "con_descuento",
+    "numero_factura": "F733-064992",
+    "serie": "F733",
+    "numero": "064992",
+    "fecha_emision": "2025-04-30T00:00:00",
+    "fecha_vencimiento": "2025-05-30T00:00:00",
+    "emisor": {
+        "ruc": "20149160583",
+        "razon_social": "Constructora Los Andes S.A.C.",
+        "direccion": "Av. Benavides 3885, Cercado de Lima, Lima",
+        "telefono": "998109743",
+        "email": "facturacion@corp.pe"
+    },
+    "receptor": {
+        "ruc": "20669643242",
+        "razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+        "direccion": "Jr. de la Unión 3111, La Victoria, Lima",
+        "telefono": "01-5194695",
+        "email": "ventas@comercial.pe"
+    },
+    "moneda": "PEN",
+    "simbolo_moneda": "S/",
+    "nombre_moneda": "SOLES",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.841,
+            "precio_unitario": 96.62,
+            "valor_venta": 467.74
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.031,
+            "precio_unitario": 83.81,
+            "valor_venta": 254.03
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.188,
+            "precio_unitario": 83.09,
+            "valor_venta": 181.8
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.766,
+            "precio_unitario": 62.35,
+            "valor_venta": 484.21
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.44,
+            "precio_unitario": 63.42,
+            "valor_venta": 471.84
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.898,
+            "precio_unitario": 75.26,
+            "valor_venta": 519.14
+        }
+    ],
+    "op_gravada": 2140.88,
+    "op_exonerada": 0.0,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 385.36,
+    "total_cargos": 0.0,
+    "otros_cargos": 0.0,
+    "total": 2526.24,
+    "total_letras": "DOS MIL QUINIENTOS VEINTISÉIS CON 24/100 SOLES",
+    "forma_pago": "CREDITO 90 DIAS",
+    "con_credito": true,
+    "cuotas": [
+        {
+            "numero": 1,
+            "fecha_vencimiento": "2025-05-30T00:00:00",
+            "monto": 2526.24
+        }
+    ],
+    "numero_contrato": "CW503583",
+    "periodo_facturado": null,
+    "observaciones": null,
+    "datos_hotel": null,
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": {
+        "descripcion": "Descuento 10%",
+        "monto": 237.88,
+        "gravado": 202.2,
+        "exonerado": 0.0,
+        "igv": 35.68,
+        "icbper": 0.0,
+        "total": 237.88,
+        "detraccion": 0.0
+    },
+    "industria": "general"
+}

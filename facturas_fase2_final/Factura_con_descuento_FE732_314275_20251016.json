@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE732-314275",
+    "fecha_emision": "2025-10-16T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20483651997",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 642, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20470567806",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Arequipa 1457, Cercado de Lima, Lima",
+    "subtotal": 251423.62,
+    "igv": 36526.04,
+    "importe_total": 287949.66,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Estación Manual Doble Acción Color: Negro",
+            "unidad": "UND",
+            "cantidad": 37,
+            "precio_unitario": 63.25,
+            "valor_venta": 2340.25
+        },
+        {
+            "numero": 2,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 60,
+            "precio_unitario": 142.33,
+            "valor_venta": 8539.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 45,
+            "precio_unitario": 137.93,
+            "valor_venta": 6206.85
+        },
+        {
+            "numero": 4,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 92,
+            "precio_unitario": 2850.79,
+            "valor_venta": 262272.68
+        }
+    ]
+}

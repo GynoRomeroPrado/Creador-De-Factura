@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F427-619975",
+    "fecha_emision": "2025-07-20T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20215418848",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Av. La Marina 2809, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20556638790",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. La Marina 2548, Miraflores, Lima",
+    "subtotal": 407248.33,
+    "igv": 73304.7,
+    "importe_total": 480553.03,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 89,
+            "precio_unitario": 42.55,
+            "valor_venta": 3786.95
+        },
+        {
+            "numero": 2,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V Serie X",
+            "unidad": "UND",
+            "cantidad": 94,
+            "precio_unitario": 1159.08,
+            "valor_venta": 108953.52
+        },
+        {
+            "numero": 3,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 84,
+            "precio_unitario": 69.36,
+            "valor_venta": 5826.24
+        },
+        {
+            "numero": 4,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 24,
+            "precio_unitario": 48.38,
+            "valor_venta": 1161.12
+        },
+        {
+            "numero": 5,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 31,
+            "precio_unitario": 2495.18,
+            "valor_venta": 77350.58
+        },
+        {
+            "numero": 6,
+            "descripcion": "Central de Detección de Incendios Serie X",
+            "unidad": "UND",
+            "cantidad": 100,
+            "precio_unitario": 3119.82,
+            "valor_venta": 311982.0
+        }
+    ]
+}

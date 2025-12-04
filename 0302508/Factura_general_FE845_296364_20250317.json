@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE845-296364",
+    "fecha_emision": "2025-03-17T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20773393819",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. La Marina 3606, La Victoria, Lima",
+    "receptor_numero_doc": "20338527129",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 2524, San Isidro, Lima",
+    "subtotal": 95771.51,
+    "igv": 17238.87,
+    "importe_total": 113010.38,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 64,
+            "precio_unitario": 1333.25,
+            "valor_venta": 85328.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 99,
+            "precio_unitario": 105.49,
+            "valor_venta": 10443.51
+        }
+    ]
+}

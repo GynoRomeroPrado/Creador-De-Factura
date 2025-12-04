@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F754-210508",
+    "fecha_emision": "2025-01-17T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20695255749",
+    "emisor_razon_social": "Swissôtel Select Chiclayo",
+    "emisor_direccion": "Calle Los Pinos 2632, La Victoria, Lima",
+    "receptor_numero_doc": "20618324916",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Arequipa 197, Cercado de Lima, Lima",
+    "subtotal": 726.18,
+    "igv": 130.71,
+    "importe_total": 987.61,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.436,
+            "precio_unitario": 82.35,
+            "valor_venta": 447.65,
+            "cargo_item": 80.58,
+            "importe_total": 528.23
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.443,
+            "precio_unitario": 32.99,
+            "valor_venta": 278.53,
+            "cargo_item": 50.14,
+            "importe_total": 328.67
+        }
+    ]
+}

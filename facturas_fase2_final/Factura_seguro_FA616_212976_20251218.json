@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA616-212976",
+    "fecha_emision": "2025-12-18T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20347997405",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. La Marina 993, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20891332948",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Benavides 4804, San Borja, Lima",
+    "subtotal": 221635.15,
+    "igv": 39894.33,
+    "importe_total": 261529.48,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 23,
+            "precio_unitario": 2230.04,
+            "valor_venta": 51290.92
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 51,
+            "precio_unitario": 118.71,
+            "valor_venta": 6054.21
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 29,
+            "precio_unitario": 143.63,
+            "valor_venta": 4165.27
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 11,
+            "precio_unitario": 2504.05,
+            "valor_venta": 27544.55
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 4,
+            "precio_unitario": 323.51,
+            "valor_venta": 1294.04
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 55,
+            "precio_unitario": 1451.51,
+            "valor_venta": 79833.05
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 43,
+            "precio_unitario": 408.7,
+            "valor_venta": 17574.1
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 33,
+            "precio_unitario": 505.65,
+            "valor_venta": 16686.45
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 88,
+            "precio_unitario": 195.37,
+            "valor_venta": 17192.56
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E901-969993",
+    "fecha_emision": "2025-10-09T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20214080649",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 3992, Miraflores, Lima",
+    "receptor_numero_doc": "20504714251",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 4073, La Victoria, Lima",
+    "subtotal": 96806.43,
+    "igv": 12567.11,
+    "importe_total": 109394.25,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 22,
+            "precio_unitario": 2553.35,
+            "valor_venta": 56173.7
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 54,
+            "precio_unitario": 561.46,
+            "valor_venta": 30318.84
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 8,
+            "precio_unitario": 415.46,
+            "valor_venta": 3323.68
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 58,
+            "precio_unitario": 176.94,
+            "valor_venta": 10262.52
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 43,
+            "precio_unitario": 188.44,
+            "valor_venta": 8102.92
+        }
+    ]
+}

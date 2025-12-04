@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F911-866121",
+    "fecha_emision": "2025-10-22T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20201540993",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Jr. de la Unión 2603, La Victoria, Lima",
+    "receptor_numero_doc": "20825884158",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. La Marina 3146, San Borja, Lima",
+    "subtotal": 32121.0,
+    "igv": 5781.78,
+    "importe_total": 37902.78,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 75,
+            "precio_unitario": 428.28,
+            "valor_venta": 32121.0
+        }
+    ]
+}

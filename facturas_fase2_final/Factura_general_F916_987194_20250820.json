@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F916-987194",
+    "fecha_emision": "2025-08-20T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20069136851",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 4875, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20308855270",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 1084, Santiago de Surco, Lima",
+    "subtotal": 3933.42,
+    "igv": 708.02,
+    "importe_total": 4641.44,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.093,
+            "precio_unitario": 93.67,
+            "valor_venta": 383.39
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.074,
+            "precio_unitario": 84.54,
+            "valor_venta": 344.42
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.058,
+            "precio_unitario": 100.05,
+            "valor_venta": 706.15
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.791,
+            "precio_unitario": 57.1,
+            "valor_venta": 387.77
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.1,
+            "precio_unitario": 53.55,
+            "valor_venta": 219.55
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.681,
+            "precio_unitario": 84.5,
+            "valor_venta": 818.04
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.85,
+            "precio_unitario": 89.38,
+            "valor_venta": 165.35
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.91,
+            "precio_unitario": 58.65,
+            "valor_venta": 170.67
+        },
+        {
+            "numero": 9,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.31,
+            "precio_unitario": 95.1,
+            "valor_venta": 504.98
+        },
+        {
+            "numero": 10,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.513,
+            "precio_unitario": 51.65,
+            "valor_venta": 233.1
+        }
+    ]
+}

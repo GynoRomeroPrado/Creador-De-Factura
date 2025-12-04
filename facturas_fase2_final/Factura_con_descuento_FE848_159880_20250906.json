@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE848-159880",
+    "fecha_emision": "2025-09-06T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20076336866",
+    "emisor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "emisor_direccion": "Av. Benavides 433, Miraflores, Lima",
+    "receptor_numero_doc": "20807965132",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 2146, San Borja, Lima",
+    "subtotal": 18885.71,
+    "igv": 3399.43,
+    "importe_total": 22285.14,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Carne de Res kg (Importado)",
+            "unidad": "KG",
+            "cantidad": 44,
+            "precio_unitario": 22.43,
+            "valor_venta": 986.92
+        },
+        {
+            "numero": 2,
+            "descripcion": "Pollo Entero kg (Oferta)",
+            "unidad": "KG",
+            "cantidad": 12,
+            "precio_unitario": 7.88,
+            "valor_venta": 94.56
+        },
+        {
+            "numero": 3,
+            "descripcion": "Carne de Res kg (Oferta)",
+            "unidad": "KG",
+            "cantidad": 5,
+            "precio_unitario": 24.56,
+            "valor_venta": 122.8
+        },
+        {
+            "numero": 4,
+            "descripcion": "Carne de Res kg (Importado)",
+            "unidad": "KG",
+            "cantidad": 78,
+            "precio_unitario": 18.38,
+            "valor_venta": 1433.64
+        },
+        {
+            "numero": 5,
+            "descripcion": "Huevos Color x 30 unid Modelo 2025",
+            "unidad": "CAJA",
+            "cantidad": 7,
+            "precio_unitario": 15.58,
+            "valor_venta": 109.06
+        },
+        {
+            "numero": 6,
+            "descripcion": "Fideos a Granel kg Color: Negro",
+            "unidad": "KG",
+            "cantidad": 88,
+            "precio_unitario": 4.69,
+            "valor_venta": 412.72
+        },
+        {
+            "numero": 7,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 100,
+            "precio_unitario": 101.04,
+            "valor_venta": 10104.0
+        },
+        {
+            "numero": 8,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 60,
+            "precio_unitario": 147.96,
+            "valor_venta": 8877.6
+        }
+    ]
+}

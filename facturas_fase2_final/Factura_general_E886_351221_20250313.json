@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E886-351221",
+    "fecha_emision": "2025-03-13T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20008675539",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 2438, San Isidro, Lima",
+    "receptor_numero_doc": "20794399710",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Av. Arequipa 4836, San Isidro, Lima",
+    "subtotal": 732850.52,
+    "igv": 131913.09,
+    "importe_total": 864763.61,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Courier Local (Importado)",
+            "unidad": "ENV",
+            "cantidad": 1,
+            "precio_unitario": 21.52,
+            "valor_venta": 21.52
+        },
+        {
+            "numero": 2,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 38,
+            "precio_unitario": 629.28,
+            "valor_venta": 23912.64
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 83,
+            "precio_unitario": 2387.74,
+            "valor_venta": 198182.42
+        },
+        {
+            "numero": 4,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 29,
+            "precio_unitario": 4181.33,
+            "valor_venta": 121258.57
+        },
+        {
+            "numero": 5,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 6,
+            "precio_unitario": 788.5,
+            "valor_venta": 4731.0
+        },
+        {
+            "numero": 6,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 50,
+            "precio_unitario": 521.16,
+            "valor_venta": 26058.0
+        },
+        {
+            "numero": 7,
+            "descripcion": "Alquiler de Sala de Conferencias (Día) Modelo 2025",
+            "unidad": "DIA",
+            "cantidad": 26,
+            "precio_unitario": 1068.19,
+            "valor_venta": 27772.94
+        },
+        {
+            "numero": 8,
+            "descripcion": "Alquiler de Sala de Conferencias (Día) (Importado)",
+            "unidad": "DIA",
+            "cantidad": 27,
+            "precio_unitario": 1393.54,
+            "valor_venta": 37625.58
+        },
+        {
+            "numero": 9,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 60,
+            "precio_unitario": 4166.78,
+            "valor_venta": 250006.8
+        },
+        {
+            "numero": 10,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 95,
+            "precio_unitario": 455.59,
+            "valor_venta": 43281.05
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E089-843566",
+    "fecha_emision": "2025-01-20T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20014402382",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 865, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20321660950",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Jr. de la Unión 4386, Miraflores, Lima",
+    "subtotal": 1358.16,
+    "igv": 244.47,
+    "importe_total": 1602.63,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 12,
+            "precio_unitario": 113.18,
+            "valor_venta": 1358.16
+        }
+    ]
+}

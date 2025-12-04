@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA624-161069",
+    "fecha_emision": "2025-05-28T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20447942187",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Jr. de la Unión 4405, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20030396627",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 4560, San Isidro, Lima",
+    "subtotal": 7354.81,
+    "igv": 1323.87,
+    "importe_total": 8678.68,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 59,
+            "precio_unitario": 124.06,
+            "valor_venta": 7319.54
+        },
+        {
+            "numero": 2,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 17,
+            "precio_unitario": 12.49,
+            "valor_venta": 212.33
+        }
+    ]
+}

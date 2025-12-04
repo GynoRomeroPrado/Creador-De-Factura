@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E988-307626",
+    "fecha_emision": "2025-03-09T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20182227049",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Calle Los Pinos 1987, San Borja, Lima",
+    "receptor_numero_doc": "20726766844",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 911, San Isidro, Lima",
+    "subtotal": 6867.81,
+    "igv": 1236.21,
+    "importe_total": 8104.02,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Thinner Acrílico Vencedor (Galón) (Oferta)",
+            "unidad": "GLN",
+            "cantidad": 30,
+            "precio_unitario": 30.11,
+            "valor_venta": 903.3
+        },
+        {
+            "numero": 2,
+            "descripcion": "Casco de Seguridad 3M Blanco",
+            "unidad": "UND",
+            "cantidad": 41,
+            "precio_unitario": 27.96,
+            "valor_venta": 1146.36
+        },
+        {
+            "numero": 3,
+            "descripcion": "Thinner Acrílico Vencedor (Galón) Color: Negro",
+            "unidad": "GLN",
+            "cantidad": 70,
+            "precio_unitario": 33.37,
+            "valor_venta": 2335.9
+        },
+        {
+            "numero": 4,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 54,
+            "precio_unitario": 20.94,
+            "valor_venta": 1130.76
+        },
+        {
+            "numero": 5,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m",
+            "unidad": "VAR",
+            "cantidad": 30,
+            "precio_unitario": 39.89,
+            "valor_venta": 1196.7
+        },
+        {
+            "numero": 6,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 49,
+            "precio_unitario": 20.75,
+            "valor_venta": 1016.75
+        }
+    ]
+}

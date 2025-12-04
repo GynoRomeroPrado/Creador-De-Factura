@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F797-739315",
+    "fecha_emision": "2025-12-01T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20016424162",
+    "emisor_razon_social": "Holiday Inn Business Piura",
+    "emisor_direccion": "Jr. de la Unión 2631, La Victoria, Lima",
+    "receptor_numero_doc": "20271747854",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 3811, Miraflores, Lima",
+    "subtotal": 1411.47,
+    "igv": 232.39,
+    "importe_total": 1897.93,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.593,
+            "precio_unitario": 52.64,
+            "valor_venta": 504.98,
+            "cargo_item": 90.9,
+            "importe_total": 595.88
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.667,
+            "precio_unitario": 84.3,
+            "valor_venta": 140.53,
+            "cargo_item": 25.3,
+            "importe_total": 165.83
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.403,
+            "precio_unitario": 99.01,
+            "valor_venta": 435.94,
+            "cargo_item": 78.47,
+            "importe_total": 514.41
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.974,
+            "precio_unitario": 85.25,
+            "valor_venta": 168.28,
+            "cargo_item": 30.29,
+            "importe_total": 198.57
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.61,
+            "precio_unitario": 61.97,
+            "valor_venta": 161.74,
+            "cargo_item": 29.11,
+            "importe_total": 190.85
+        }
+    ]
+}

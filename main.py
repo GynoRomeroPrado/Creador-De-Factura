@@ -22,18 +22,44 @@ class DateEncoder(json.JSONEncoder):
         return super().default(obj)
 
 
+def flatten_json(factura: dict) -> dict:
+    """
+    Aplana la estructura del JSON para el dataset de entrenamiento VLM.
+    Convierte objetos anidados (emisor, receptor) en claves planas.
+    """
+    flat_data = {
+        "tipo_documento": "FACTURA ELECTRÓNICA", # Estandarizado
+        "serie_completa": factura['numero_factura'],
+        "fecha_emision": factura['fecha_emision'].isoformat() if hasattr(factura['fecha_emision'], 'isoformat') else factura['fecha_emision'],
+        "moneda": factura['nombre_moneda'],
+        
+        # Emisor plano
+        "emisor_ruc": factura['emisor']['ruc'],
+        "emisor_razon_social": factura['emisor']['razon_social'],
+        "emisor_direccion": factura['emisor']['direccion'],
+        
+        # Receptor plano
+        "receptor_numero_doc": factura['receptor']['ruc'],
+        "receptor_razon_social": factura['receptor']['razon_social'],
+        "receptor_direccion": factura['receptor']['direccion'],
+        
+        # Totales
+        "subtotal": round(factura['op_gravada'] + factura['op_exonerada'] + factura['op_inafecta'], 2),
+        "igv": factura['igv'],
+        "importe_total": factura['total'],
+        
+        # Items se mantienen igual (lista de objetos)
+        "items": factura['items']
+    }
+    return flat_data
+
 def generar_facturas(cantidad: int, output_dir: str, verbose: bool = True):
     """
     Genera múltiples facturas ficticias con tipos variados
-
-    Args:
-        cantidad: Número de facturas a generar
-        output_dir: Directorio de salida
-        verbose: Mostrar progreso
     """
     if verbose:
         print(f"{'='*60}")
-        print(f"Generador de Facturas Ficticias - Versión Mejorada")
+        print(f"Generador de Facturas Ficticias - Versión Mejorada (Fase 2)")
         print(f"{'='*60}")
         print(f"Cantidad a generar: {cantidad}")
         print(f"Directorio de salida: {output_dir}")
@@ -85,12 +111,15 @@ def generar_facturas(cantidad: int, output_dir: str, verbose: bool = True):
             # Crear PDF
             archivo = gen_pdf.crear_factura(factura)
             
-            # Guardar JSON
+            # Guardar JSON (Estructura Plana Fase 2)
             json_filename = os.path.basename(archivo).replace('.pdf', '.json')
             json_path = os.path.join(output_dir, json_filename)
             
+            # Aplanar datos antes de guardar
+            flat_factura = flatten_json(factura)
+            
             with open(json_path, 'w', encoding='utf-8') as f:
-                json.dump(factura, f, cls=DateEncoder, indent=4, ensure_ascii=False)
+                json.dump(flat_factura, f, cls=DateEncoder, indent=4, ensure_ascii=False)
 
             facturas_generadas.append(archivo)
 

@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA119-876531",
+    "fecha_emision": "2025-12-11T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20202067965",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 4255, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20076383864",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 2662, Miraflores, Lima",
+    "subtotal": 329722.26,
+    "igv": 48631.87,
+    "importe_total": 378354.13,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 58,
+            "precio_unitario": 309.91,
+            "valor_venta": 17974.78
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 23,
+            "precio_unitario": 355.45,
+            "valor_venta": 8175.35
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 89,
+            "precio_unitario": 483.18,
+            "valor_venta": 43003.02
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 61,
+            "precio_unitario": 822.12,
+            "valor_venta": 50149.32
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 25,
+            "precio_unitario": 1151.3,
+            "valor_venta": 28782.5
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 100,
+            "precio_unitario": 337.15,
+            "valor_venta": 33715.0
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 24,
+            "precio_unitario": 340.58,
+            "valor_venta": 8173.92
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 13,
+            "precio_unitario": 2257.41,
+            "valor_venta": 29346.33
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 84,
+            "precio_unitario": 1314.31,
+            "valor_venta": 110402.04
+        }
+    ]
+}

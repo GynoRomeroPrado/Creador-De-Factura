@@ -20,12 +20,11 @@ Este documento explica cómo ejecutar el generador de facturas masivas directame
     !pip install -r requirements.txt
     ```
 
-4.  **Ejecutar el Generador**
-    Para generar el lote de 20 facturas realistas, ejecuta:
+4.  **Ejecutar el Generador (Fase 2)**
+    Para generar el lote de 1,000 facturas con la nueva estructura plana y variabilidad, ejecuta:
     ```python
-    !python generar_lote_final.py
+    !python main.py --cantidad 1000 --output facturas_fase2_final
     ```
-    *Si deseas generar más facturas, puedes editar el archivo `generar_lote_final.py` o crear un script nuevo.*
 
 5.  **Descargar los Resultados**
     Para descargar todas las facturas generadas en un archivo ZIP, ejecuta el siguiente bloque de código:
@@ -34,25 +33,16 @@ Este documento explica cómo ejecutar el generador de facturas masivas directame
     from google.colab import files
 
     # Comprimir la carpeta de salida
-    shutil.make_archive('facturas_finales', 'zip', 'facturas_finales')
+    shutil.make_archive('facturas_fase2_final', 'zip', 'facturas_fase2_final')
 
     # Descargar el archivo zip
-    files.download('facturas_finales.zip')
+    files.download('facturas_fase2_final.zip')
     ```
 
-5.  **Generar Pruebas con JSON**
-    Si deseas generar facturas de prueba que incluyan el archivo JSON con los datos estructurados, ejecuta:
+6.  **Generar Pruebas Rápidas**
+    Si solo quieres verificar con un lote pequeño (ej. 15 facturas):
     ```python
-    !python generar_pruebas_json.py
-    ```
-    
-    Y para descargar estos resultados:
-    ```python
-    import shutil
-    from google.colab import files
-    
-    shutil.make_archive('pruebas_json', 'zip', 'pruebas_json')
-    files.download('pruebas_json.zip')
+    !python main.py --cantidad 15 --output pruebas_rapidas
     ```
 
 ## Notas Adicionales

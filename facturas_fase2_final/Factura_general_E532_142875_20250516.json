@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E532-142875",
+    "fecha_emision": "2025-05-16T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20293585530",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 3385, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20099811651",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 2326, Miraflores, Lima",
+    "subtotal": 9147.41,
+    "igv": 1646.53,
+    "importe_total": 10793.94,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 79,
+            "precio_unitario": 115.79,
+            "valor_venta": 9147.41
+        }
+    ]
+}

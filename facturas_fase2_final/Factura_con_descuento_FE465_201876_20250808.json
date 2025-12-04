@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE465-201876",
+    "fecha_emision": "2025-08-08T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20671480458",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 397, San Isidro, Lima",
+    "receptor_numero_doc": "20909311803",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Calle Los Pinos 1087, Santiago de Surco, Lima",
+    "subtotal": 162519.15,
+    "igv": 29253.45,
+    "importe_total": 191772.6,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 14,
+            "precio_unitario": 1284.86,
+            "valor_venta": 17988.04
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 43,
+            "precio_unitario": 1873.55,
+            "valor_venta": 80562.65
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 34,
+            "precio_unitario": 1890.83,
+            "valor_venta": 64288.22
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 96,
+            "precio_unitario": 184.77,
+            "valor_venta": 17737.92
+        }
+    ]
+}

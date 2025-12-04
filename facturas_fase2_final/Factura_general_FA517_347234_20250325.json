@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA517-347234",
+    "fecha_emision": "2025-03-25T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20724119655",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 2060, San Isidro, Lima",
+    "receptor_numero_doc": "20473862574",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 4379, Santiago de Surco, Lima",
+    "subtotal": 4464.05,
+    "igv": 803.53,
+    "importe_total": 5267.58,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 19,
+            "precio_unitario": 234.95,
+            "valor_venta": 4464.05
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE725-847704",
+    "fecha_emision": "2025-09-30T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20977595500",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Calle Los Pinos 4157, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20789551201",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Benavides 600, San Borja, Lima",
+    "subtotal": 611614.82,
+    "igv": 97269.97,
+    "importe_total": 708884.79,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 87,
+            "precio_unitario": 386.55,
+            "valor_venta": 33629.85
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 92,
+            "precio_unitario": 1485.21,
+            "valor_venta": 136639.32
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 56,
+            "precio_unitario": 135.2,
+            "valor_venta": 7571.2
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 59,
+            "precio_unitario": 1629.84,
+            "valor_venta": 96160.56
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 21,
+            "precio_unitario": 152.18,
+            "valor_venta": 3195.78
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 2,
+            "precio_unitario": 1045.45,
+            "valor_venta": 2090.9
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 84,
+            "precio_unitario": 1884.03,
+            "valor_venta": 158258.52
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro de Vida (Importado)",
+            "unidad": "POL",
+            "cantidad": 6,
+            "precio_unitario": 213.39,
+            "valor_venta": 1280.34
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 33,
+            "precio_unitario": 2015.3,
+            "valor_venta": 66504.9
+        },
+        {
+            "numero": 10,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 65,
+            "precio_unitario": 1635.13,
+            "valor_venta": 106283.45
+        }
+    ]
+}

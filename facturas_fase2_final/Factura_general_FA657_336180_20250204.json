@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA657-336180",
+    "fecha_emision": "2025-02-04T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20441802332",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Arequipa 3159, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20672410224",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 1943, Cercado de Lima, Lima",
+    "subtotal": 2733.54,
+    "igv": 492.04,
+    "importe_total": 3225.58,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.925,
+            "precio_unitario": 51.54,
+            "valor_venta": 202.29
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.525,
+            "precio_unitario": 133.02,
+            "valor_venta": 1000.98
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.99,
+            "precio_unitario": 38.74,
+            "valor_venta": 270.79
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.74,
+            "precio_unitario": 85.71,
+            "valor_venta": 491.98
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.769,
+            "precio_unitario": 98.79,
+            "valor_venta": 767.5
+        }
+    ]
+}

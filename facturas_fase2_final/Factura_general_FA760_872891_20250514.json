@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA760-872891",
+    "fecha_emision": "2025-05-14T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20027215603",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 978, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20247430921",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Arequipa 276, Santiago de Surco, Lima",
+    "subtotal": 41997.29,
+    "igv": 6573.41,
+    "importe_total": 48596.2,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 59,
+            "precio_unitario": 20.96,
+            "valor_venta": 1236.64
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores (Oferta)",
+            "unidad": "SRV",
+            "cantidad": 49,
+            "precio_unitario": 831.85,
+            "valor_venta": 40760.65
+        }
+    ]
+}

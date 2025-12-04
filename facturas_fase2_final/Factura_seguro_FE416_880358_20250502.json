@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE416-880358",
+    "fecha_emision": "2025-05-02T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20788131586",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Jr. de la Unión 3134, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20753852795",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 520, San Borja, Lima",
+    "subtotal": 13916.86,
+    "igv": 1879.89,
+    "importe_total": 15796.75,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 10,
+            "precio_unitario": 147.89,
+            "valor_venta": 1478.9
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Importado)",
+            "unidad": "POL",
+            "cantidad": 50,
+            "precio_unitario": 163.71,
+            "valor_venta": 8185.5
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 46,
+            "precio_unitario": 168.08,
+            "valor_venta": 7731.68
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA726-403172",
+    "fecha_emision": "2025-11-26T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20907367801",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 2384, Miraflores, Lima",
+    "receptor_numero_doc": "20289490796",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Benavides 842, Cercado de Lima, Lima",
+    "subtotal": 703.89,
+    "igv": 126.7,
+    "importe_total": 830.59,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.791,
+            "precio_unitario": 85.22,
+            "valor_venta": 663.95
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.242,
+            "precio_unitario": 92.21,
+            "valor_venta": 114.52
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.2,
+            "precio_unitario": 84.49,
+            "valor_venta": 101.39
+        }
+    ]
+}

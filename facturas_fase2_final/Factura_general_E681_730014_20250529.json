@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E681-730014",
+    "fecha_emision": "2025-05-29T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20213129580",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 4820, San Borja, Lima",
+    "receptor_numero_doc": "20981378700",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 2986, Cercado de Lima, Lima",
+    "subtotal": 1635.17,
+    "igv": 251.51,
+    "importe_total": 1886.68,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.26,
+            "precio_unitario": 72.88,
+            "valor_venta": 674.87
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.693,
+            "precio_unitario": 96.29,
+            "valor_venta": 548.18
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.088,
+            "precio_unitario": 95.81,
+            "valor_venta": 295.86
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.259,
+            "precio_unitario": 92.34,
+            "valor_venta": 116.26
+        }
+    ]
+}

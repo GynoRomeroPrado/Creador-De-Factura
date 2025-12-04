@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA802-177858",
+    "fecha_emision": "2025-02-10T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20596627197",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 1040, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20009151517",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 4128, San Borja, Lima",
+    "subtotal": 214711.46,
+    "igv": 38648.06,
+    "importe_total": 253359.52,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 33,
+            "precio_unitario": 2895.58,
+            "valor_venta": 95554.14
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 27,
+            "precio_unitario": 2875.56,
+            "valor_venta": 77640.12
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 30,
+            "precio_unitario": 329.17,
+            "valor_venta": 9875.1
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 85,
+            "precio_unitario": 372.26,
+            "valor_venta": 31642.1
+        }
+    ]
+}

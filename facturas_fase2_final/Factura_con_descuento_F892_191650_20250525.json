@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F892-191650",
+    "fecha_emision": "2025-05-25T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20165185332",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 267, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20452384435",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 4979, Cercado de Lima, Lima",
+    "subtotal": 511466.37,
+    "igv": 92063.95,
+    "importe_total": 603530.32,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica Color: Negro",
+            "unidad": "PROY",
+            "cantidad": 50,
+            "precio_unitario": 4514.68,
+            "valor_venta": 225734.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 59,
+            "precio_unitario": 1406.2,
+            "valor_venta": 82965.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica (Importado)",
+            "unidad": "PROY",
+            "cantidad": 4,
+            "precio_unitario": 4807.61,
+            "valor_venta": 19230.44
+        },
+        {
+            "numero": 4,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 59,
+            "precio_unitario": 2050.13,
+            "valor_venta": 120957.67
+        },
+        {
+            "numero": 5,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 49,
+            "precio_unitario": 1288.5,
+            "valor_venta": 63136.5
+        },
+        {
+            "numero": 6,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 64,
+            "precio_unitario": 870.52,
+            "valor_venta": 55713.28
+        },
+        {
+            "numero": 7,
+            "descripcion": "Servicio de Courier Local Color: Negro",
+            "unidad": "ENV",
+            "cantidad": 17,
+            "precio_unitario": 32.84,
+            "valor_venta": 558.28
+        }
+    ]
+}

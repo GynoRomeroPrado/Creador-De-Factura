@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE037-998155",
+    "fecha_emision": "2025-10-03T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20217113408",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 1934, San Isidro, Lima",
+    "receptor_numero_doc": "20451923740",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. La Marina 933, Santiago de Surco, Lima",
+    "subtotal": 363.44,
+    "igv": 65.42,
+    "importe_total": 459.1,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 88,
+            "precio_unitario": 4.13,
+            "valor_venta": 363.44
+        }
+    ]
+}

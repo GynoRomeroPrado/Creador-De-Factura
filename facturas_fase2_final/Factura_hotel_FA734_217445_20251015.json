@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA734-217445",
+    "fecha_emision": "2025-10-15T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20493647360",
+    "emisor_razon_social": "Novotel Business Iquitos",
+    "emisor_direccion": "Jr. de la Unión 1463, San Borja, Lima",
+    "receptor_numero_doc": "20442453960",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. La Marina 3840, Miraflores, Lima",
+    "subtotal": 216.1,
+    "igv": 38.9,
+    "importe_total": 293.9,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.467,
+            "precio_unitario": 62.33,
+            "valor_venta": 216.1,
+            "cargo_item": 38.9,
+            "importe_total": 255.0
+        }
+    ]
+}

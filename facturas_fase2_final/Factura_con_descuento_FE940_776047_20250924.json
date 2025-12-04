@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE940-776047",
+    "fecha_emision": "2025-09-24T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20856913253",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. La Marina 2811, Miraflores, Lima",
+    "receptor_numero_doc": "20074244123",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. Benavides 258, Miraflores, Lima",
+    "subtotal": 8444.65,
+    "igv": 1520.04,
+    "importe_total": 9964.69,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 74,
+            "precio_unitario": 33.02,
+            "valor_venta": 2443.48
+        },
+        {
+            "numero": 2,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 71,
+            "precio_unitario": 50.82,
+            "valor_venta": 3608.22
+        },
+        {
+            "numero": 3,
+            "descripcion": "Batería 12V/7AH",
+            "unidad": "UND",
+            "cantidad": 67,
+            "precio_unitario": 49.72,
+            "valor_venta": 3331.24
+        }
+    ]
+}

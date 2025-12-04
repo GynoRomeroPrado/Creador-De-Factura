@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA264-998558",
+    "fecha_emision": "2025-08-15T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20161826481",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Av. La Marina 1871, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20809244254",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 2225, San Borja, Lima",
+    "subtotal": 514877.78,
+    "igv": 92678.0,
+    "importe_total": 607555.78,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 12,
+            "precio_unitario": 672.44,
+            "valor_venta": 8069.28
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Serie X",
+            "unidad": "POL",
+            "cantidad": 35,
+            "precio_unitario": 152.0,
+            "valor_venta": 5320.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 66,
+            "precio_unitario": 890.0,
+            "valor_venta": 58740.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 93,
+            "precio_unitario": 600.7,
+            "valor_venta": 55865.1
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 99,
+            "precio_unitario": 161.66,
+            "valor_venta": 16004.34
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 82,
+            "precio_unitario": 238.89,
+            "valor_venta": 19588.98
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro Vehicular Todo Riesgo Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 71,
+            "precio_unitario": 2943.69,
+            "valor_venta": 209001.99
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 49,
+            "precio_unitario": 1175.37,
+            "valor_venta": 57593.13
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 77,
+            "precio_unitario": 440.9,
+            "valor_venta": 33949.3
+        },
+        {
+            "numero": 10,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 42,
+            "precio_unitario": 1208.23,
+            "valor_venta": 50745.66
+        }
+    ]
+}

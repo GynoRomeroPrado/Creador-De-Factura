@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E481-018453",
+    "fecha_emision": "2025-12-20T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20437241938",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 2167, San Borja, Lima",
+    "receptor_numero_doc": "20946921093",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. Benavides 202, Santiago de Surco, Lima",
+    "subtotal": 28619.93,
+    "igv": 5151.59,
+    "importe_total": 33771.52,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 50,
+            "precio_unitario": 145.88,
+            "valor_venta": 7294.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 21,
+            "precio_unitario": 101.84,
+            "valor_venta": 2138.64
+        },
+        {
+            "numero": 3,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 64,
+            "precio_unitario": 14.2,
+            "valor_venta": 908.8
+        },
+        {
+            "numero": 4,
+            "descripcion": "Pollo Entero kg",
+            "unidad": "KG",
+            "cantidad": 30,
+            "precio_unitario": 7.84,
+            "valor_venta": 235.2
+        },
+        {
+            "numero": 5,
+            "descripcion": "Arroz Superior x 50kg Serie X",
+            "unidad": "SAC",
+            "cantidad": 60,
+            "precio_unitario": 154.45,
+            "valor_venta": 9267.0
+        },
+        {
+            "numero": 6,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 18,
+            "precio_unitario": 119.2,
+            "valor_venta": 2145.6
+        },
+        {
+            "numero": 7,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 40,
+            "precio_unitario": 240.3,
+            "valor_venta": 9612.0
+        },
+        {
+            "numero": 8,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 12,
+            "precio_unitario": 18.98,
+            "valor_venta": 227.76
+        },
+        {
+            "numero": 9,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 88,
+            "precio_unitario": 15.01,
+            "valor_venta": 1320.88
+        }
+    ]
+}

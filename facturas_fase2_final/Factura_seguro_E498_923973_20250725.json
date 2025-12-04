@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E498-923973",
+    "fecha_emision": "2025-07-25T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20036841932",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Av. Benavides 4615, Miraflores, Lima",
+    "receptor_numero_doc": "20785939868",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 156, La Victoria, Lima",
+    "subtotal": 124650.78,
+    "igv": 19733.87,
+    "importe_total": 144384.65,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 71,
+            "precio_unitario": 1879.37,
+            "valor_venta": 133435.27
+        }
+    ]
+}

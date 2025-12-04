@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F037-674911",
+    "fecha_emision": "2025-11-19T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20293664596",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Av. Arequipa 2204, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20348779061",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Calle Los Pinos 2860, La Victoria, Lima",
+    "subtotal": 53389.8,
+    "igv": 9610.16,
+    "importe_total": 62999.96,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 30,
+            "precio_unitario": 192.78,
+            "valor_venta": 5783.4
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 27,
+            "precio_unitario": 1763.2,
+            "valor_venta": 47606.4
+        }
+    ]
+}

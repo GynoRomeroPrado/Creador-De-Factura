@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA360-340299",
+    "fecha_emision": "2025-07-14T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20168351781",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Av. Benavides 4178, Miraflores, Lima",
+    "receptor_numero_doc": "20549328122",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Jr. de la Unión 3287, La Victoria, Lima",
+    "subtotal": 164241.16,
+    "igv": 29563.41,
+    "importe_total": 193804.57,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 100,
+            "precio_unitario": 835.33,
+            "valor_venta": 83533.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 58,
+            "precio_unitario": 1391.52,
+            "valor_venta": 80708.16
+        }
+    ]
+}

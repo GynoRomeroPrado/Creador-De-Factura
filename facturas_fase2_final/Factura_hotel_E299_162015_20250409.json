@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E299-162015",
+    "fecha_emision": "2025-04-09T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20237959664",
+    "emisor_razon_social": "Swissôtel Wyndham Tacna",
+    "emisor_direccion": "Calle Los Pinos 2604, La Victoria, Lima",
+    "receptor_numero_doc": "20020578719",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. La Marina 2242, Santiago de Surco, Lima",
+    "subtotal": 1465.68,
+    "igv": 263.82,
+    "importe_total": 1993.32,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.685,
+            "precio_unitario": 103.45,
+            "valor_venta": 898.46,
+            "cargo_item": 161.72,
+            "importe_total": 1060.18
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.438,
+            "precio_unitario": 76.26,
+            "valor_venta": 567.22,
+            "cargo_item": 102.1,
+            "importe_total": 669.32
+        }
+    ]
+}

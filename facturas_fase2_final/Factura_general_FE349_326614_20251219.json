@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE349-326614",
+    "fecha_emision": "2025-12-19T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20295420023",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 536, Miraflores, Lima",
+    "receptor_numero_doc": "20835823009",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Benavides 4072, Santiago de Surco, Lima",
+    "subtotal": 432.76,
+    "igv": 77.9,
+    "importe_total": 510.66,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Diesel (Importado)",
+            "unidad": "GL",
+            "cantidad": 14,
+            "precio_unitario": 4.78,
+            "valor_venta": 66.92
+        },
+        {
+            "numero": 2,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 48,
+            "precio_unitario": 3.52,
+            "valor_venta": 168.96
+        },
+        {
+            "numero": 3,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 46,
+            "precio_unitario": 4.28,
+            "valor_venta": 196.88
+        }
+    ]
+}

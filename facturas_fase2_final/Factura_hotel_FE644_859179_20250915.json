@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE644-859179",
+    "fecha_emision": "2025-09-15T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20693998639",
+    "emisor_razon_social": "Hampton Luxury Iquitos",
+    "emisor_direccion": "Av. La Marina 801, Miraflores, Lima",
+    "receptor_numero_doc": "20891714174",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Calle Los Pinos 3623, Santiago de Surco, Lima",
+    "subtotal": 429.55,
+    "igv": 77.32,
+    "importe_total": 584.19,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.82,
+            "precio_unitario": 62.93,
+            "valor_venta": 240.39,
+            "cargo_item": 43.27,
+            "importe_total": 283.66
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.202,
+            "precio_unitario": 66.18,
+            "valor_venta": 145.73,
+            "cargo_item": 26.23,
+            "importe_total": 171.96
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.387,
+            "precio_unitario": 31.31,
+            "valor_venta": 43.43,
+            "cargo_item": 7.82,
+            "importe_total": 51.25
+        }
+    ]
+}

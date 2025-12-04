@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE141-530735",
+    "fecha_emision": "2025-12-28T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20112850571",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Calle Los Pinos 4090, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20116387582",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 3357, La Victoria, Lima",
+    "subtotal": 18056.69,
+    "igv": 2372.73,
+    "importe_total": 20429.42,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 50,
+            "precio_unitario": 379.35,
+            "valor_venta": 18967.5
+        }
+    ]
+}

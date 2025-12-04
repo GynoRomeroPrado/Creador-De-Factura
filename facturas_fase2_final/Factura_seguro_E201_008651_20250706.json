@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E201-008651",
+    "fecha_emision": "2025-07-06T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20304595290",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Calle Los Pinos 1329, San Isidro, Lima",
+    "receptor_numero_doc": "20464661019",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 2705, Cercado de Lima, Lima",
+    "subtotal": 230407.98,
+    "igv": 41473.44,
+    "importe_total": 271881.42,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 86,
+            "precio_unitario": 292.83,
+            "valor_venta": 25183.38
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 63,
+            "precio_unitario": 1908.16,
+            "valor_venta": 120214.08
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo Serie X",
+            "unidad": "POL",
+            "cantidad": 36,
+            "precio_unitario": 2175.99,
+            "valor_venta": 78335.64
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 34,
+            "precio_unitario": 196.32,
+            "valor_venta": 6674.88
+        }
+    ]
+}

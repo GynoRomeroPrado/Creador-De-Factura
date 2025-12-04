@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA316-375780",
+    "fecha_emision": "2025-07-16T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20384736794",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 4429, San Isidro, Lima",
+    "receptor_numero_doc": "20719650423",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Arequipa 3907, San Isidro, Lima",
+    "subtotal": 111891.01,
+    "igv": 20140.38,
+    "importe_total": 132031.39,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 32,
+            "precio_unitario": 896.15,
+            "valor_venta": 28676.8
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 49,
+            "precio_unitario": 1274.73,
+            "valor_venta": 62461.77
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 65,
+            "precio_unitario": 186.41,
+            "valor_venta": 12116.65
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida Serie X",
+            "unidad": "POL",
+            "cantidad": 74,
+            "precio_unitario": 494.71,
+            "valor_venta": 36608.54
+        }
+    ]
+}

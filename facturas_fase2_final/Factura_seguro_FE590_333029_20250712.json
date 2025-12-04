@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE590-333029",
+    "fecha_emision": "2025-07-12T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20216461330",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Av. La Marina 3814, San Borja, Lima",
+    "receptor_numero_doc": "20594527110",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 2756, Cercado de Lima, Lima",
+    "subtotal": 40816.22,
+    "igv": 7346.92,
+    "importe_total": 48163.14,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 76,
+            "precio_unitario": 136.23,
+            "valor_venta": 10353.48
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 22,
+            "precio_unitario": 1384.67,
+            "valor_venta": 30462.74
+        }
+    ]
+}

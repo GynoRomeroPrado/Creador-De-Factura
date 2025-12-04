@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE103-017376",
+    "fecha_emision": "2025-02-12T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20110101946",
+    "emisor_razon_social": "Hilton Luxury Huancayo",
+    "emisor_direccion": "Av. Arequipa 1719, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20393785579",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Arequipa 2882, Santiago de Surco, Lima",
+    "subtotal": 1440.5,
+    "igv": 203.92,
+    "importe_total": 1932.52,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.108,
+            "precio_unitario": 39.77,
+            "valor_venta": 163.38,
+            "cargo_item": 29.41,
+            "importe_total": 192.79
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.049,
+            "precio_unitario": 30.92,
+            "valor_venta": 32.44,
+            "cargo_item": 5.84,
+            "importe_total": 38.28
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.826,
+            "precio_unitario": 54.15,
+            "valor_venta": 532.08,
+            "cargo_item": 95.77,
+            "importe_total": 627.85
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.854,
+            "precio_unitario": 41.25,
+            "valor_venta": 158.98,
+            "cargo_item": 28.62,
+            "importe_total": 187.6
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION pack x6",
+            "unidad": "NIU",
+            "cantidad": 8.424,
+            "precio_unitario": 84.72,
+            "valor_venta": 713.68,
+            "cargo_item": 128.46,
+            "importe_total": 842.14
+        }
+    ]
+}

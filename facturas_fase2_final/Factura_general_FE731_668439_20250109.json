@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE731-668439",
+    "fecha_emision": "2025-01-09T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20895394573",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 4164, La Victoria, Lima",
+    "receptor_numero_doc": "20742348556",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Benavides 2982, Miraflores, Lima",
+    "subtotal": 215644.45,
+    "igv": 38816.0,
+    "importe_total": 254460.45,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 36,
+            "precio_unitario": 917.23,
+            "valor_venta": 33020.28
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 95,
+            "precio_unitario": 325.59,
+            "valor_venta": 30931.05
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 9,
+            "precio_unitario": 1334.93,
+            "valor_venta": 12014.37
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 15,
+            "precio_unitario": 2381.89,
+            "valor_venta": 35728.35
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 25,
+            "precio_unitario": 124.84,
+            "valor_venta": 3121.0
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 42,
+            "precio_unitario": 2400.7,
+            "valor_venta": 100829.4
+        }
+    ]
+}

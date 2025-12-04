@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA708-344465",
+    "fecha_emision": "2025-12-04T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20905264045",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 4879, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20024729096",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 4714, San Borja, Lima",
+    "subtotal": 85696.66,
+    "igv": 15425.4,
+    "importe_total": 101122.06,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 4,
+            "precio_unitario": 690.61,
+            "valor_venta": 2762.44
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 45,
+            "precio_unitario": 898.92,
+            "valor_venta": 40451.4
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 82,
+            "precio_unitario": 438.13,
+            "valor_venta": 35926.66
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 52,
+            "precio_unitario": 126.08,
+            "valor_venta": 6556.16
+        }
+    ]
+}

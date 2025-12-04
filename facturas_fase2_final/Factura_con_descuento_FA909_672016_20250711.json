@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA909-672016",
+    "fecha_emision": "2025-07-11T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20933762565",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 1485, La Victoria, Lima",
+    "receptor_numero_doc": "20911517974",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Av. Arequipa 693, San Borja, Lima",
+    "subtotal": 931.81,
+    "igv": 167.73,
+    "importe_total": 1099.54,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 29,
+            "precio_unitario": 4.04,
+            "valor_venta": 117.16
+        },
+        {
+            "numero": 2,
+            "descripcion": "GLP (Oferta)",
+            "unidad": "GL",
+            "cantidad": 57,
+            "precio_unitario": 2.63,
+            "valor_venta": 149.91
+        },
+        {
+            "numero": 3,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 39,
+            "precio_unitario": 2.35,
+            "valor_venta": 91.65
+        },
+        {
+            "numero": 4,
+            "descripcion": "Gasolina 95 (Oferta)",
+            "unidad": "GL",
+            "cantidad": 32,
+            "precio_unitario": 5.1,
+            "valor_venta": 163.2
+        },
+        {
+            "numero": 5,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 74,
+            "precio_unitario": 4.83,
+            "valor_venta": 357.42
+        },
+        {
+            "numero": 6,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 67,
+            "precio_unitario": 4.26,
+            "valor_venta": 285.42
+        }
+    ]
+}

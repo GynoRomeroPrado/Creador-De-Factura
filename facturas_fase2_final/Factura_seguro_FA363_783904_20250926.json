@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA363-783904",
+    "fecha_emision": "2025-09-26T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20878417063",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Av. Arequipa 752, La Victoria, Lima",
+    "receptor_numero_doc": "20484160687",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Arequipa 809, San Borja, Lima",
+    "subtotal": 416702.38,
+    "igv": 75006.43,
+    "importe_total": 491708.81,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 22,
+            "precio_unitario": 1789.37,
+            "valor_venta": 39366.14
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Importado)",
+            "unidad": "POL",
+            "cantidad": 69,
+            "precio_unitario": 152.26,
+            "valor_venta": 10505.94
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 98,
+            "precio_unitario": 1739.73,
+            "valor_venta": 170493.54
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 20,
+            "precio_unitario": 285.38,
+            "valor_venta": 5707.6
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 78,
+            "precio_unitario": 329.89,
+            "valor_venta": 25731.42
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 96,
+            "precio_unitario": 104.46,
+            "valor_venta": 10028.16
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 74,
+            "precio_unitario": 1272.58,
+            "valor_venta": 94170.92
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro de Vida Color: Negro",
+            "unidad": "POL",
+            "cantidad": 83,
+            "precio_unitario": 455.02,
+            "valor_venta": 37766.66
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 26,
+            "precio_unitario": 882.0,
+            "valor_venta": 22932.0
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA778-928765",
+    "fecha_emision": "2025-01-17T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20158963419",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Jr. de la Unión 1279, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20285774510",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Av. Arequipa 2168, Cercado de Lima, Lima",
+    "subtotal": 4233.08,
+    "igv": 533.73,
+    "importe_total": 4766.81,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.079,
+            "precio_unitario": 62.78,
+            "valor_venta": 507.2
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.972,
+            "precio_unitario": 64.11,
+            "valor_venta": 318.75
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.06,
+            "precio_unitario": 36.08,
+            "valor_venta": 38.24
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.422,
+            "precio_unitario": 61.34,
+            "valor_venta": 393.93
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.027,
+            "precio_unitario": 149.65,
+            "valor_venta": 1201.24
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.966,
+            "precio_unitario": 83.0,
+            "valor_venta": 412.18
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALIMENTACION pack x6",
+            "unidad": "NIU",
+            "cantidad": 8.176,
+            "precio_unitario": 67.38,
+            "valor_venta": 550.9
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.659,
+            "precio_unitario": 82.91,
+            "valor_venta": 303.37
+        },
+        {
+            "numero": 9,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.679,
+            "precio_unitario": 75.95,
+            "valor_venta": 507.27
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA011-909949",
+    "fecha_emision": "2025-03-20T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20902135996",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 4367, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20956473480",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. La Marina 3175, Cercado de Lima, Lima",
+    "subtotal": 11235.91,
+    "igv": 1882.96,
+    "importe_total": 13118.87,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 68,
+            "precio_unitario": 16.01,
+            "valor_venta": 1088.68
+        },
+        {
+            "numero": 2,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 30,
+            "precio_unitario": 234.48,
+            "valor_venta": 7034.4
+        },
+        {
+            "numero": 3,
+            "descripcion": "Fideos a Granel kg Color: Negro",
+            "unidad": "KG",
+            "cantidad": 81,
+            "precio_unitario": 4.65,
+            "valor_venta": 376.65
+        },
+        {
+            "numero": 4,
+            "descripcion": "Pollo Entero kg",
+            "unidad": "KG",
+            "cantidad": 79,
+            "precio_unitario": 7.87,
+            "valor_venta": 621.73
+        },
+        {
+            "numero": 5,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 87,
+            "precio_unitario": 4.4,
+            "valor_venta": 382.8
+        },
+        {
+            "numero": 6,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 18,
+            "precio_unitario": 151.71,
+            "valor_venta": 2730.78
+        },
+        {
+            "numero": 7,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 40,
+            "precio_unitario": 15.18,
+            "valor_venta": 607.2
+        }
+    ]
+}

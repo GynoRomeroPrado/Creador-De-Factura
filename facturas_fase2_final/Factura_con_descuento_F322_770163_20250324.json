@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F322-770163",
+    "fecha_emision": "2025-03-24T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20595441219",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 876, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20028184094",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. La Marina 1643, Miraflores, Lima",
+    "subtotal": 1129.54,
+    "igv": 203.32,
+    "importe_total": 1332.86,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.052,
+            "precio_unitario": 62.09,
+            "valor_venta": 65.32
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.856,
+            "precio_unitario": 95.27,
+            "valor_venta": 748.44
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.026,
+            "precio_unitario": 56.1,
+            "valor_venta": 57.56
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.227,
+            "precio_unitario": 65.71,
+            "valor_venta": 540.6
+        }
+    ]
+}

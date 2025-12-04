@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E674-059449",
+    "fecha_emision": "2025-12-04T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20178676378",
+    "emisor_razon_social": "Sonesta Garden Iquitos",
+    "emisor_direccion": "Calle Los Pinos 2005, Miraflores, Lima",
+    "receptor_numero_doc": "20134648938",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Arequipa 4234, Santiago de Surco, Lima",
+    "subtotal": 1326.93,
+    "igv": 238.85,
+    "importe_total": 1817.2,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.626,
+            "precio_unitario": 58.93,
+            "valor_venta": 508.33,
+            "cargo_item": 91.5,
+            "importe_total": 599.83
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.022,
+            "precio_unitario": 110.75,
+            "valor_venta": 888.44,
+            "cargo_item": 159.92,
+            "importe_total": 1048.36
+        }
+    ]
+}

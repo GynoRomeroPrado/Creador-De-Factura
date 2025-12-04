@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E720-021132",
+    "fecha_emision": "2025-01-05T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20772560037",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Av. Arequipa 3725, San Borja, Lima",
+    "receptor_numero_doc": "20739958921",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 4894, San Isidro, Lima",
+    "subtotal": 72896.07,
+    "igv": 13121.29,
+    "importe_total": 86017.36,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Arena Gruesa (m3)",
+            "unidad": "M3",
+            "cantidad": 44,
+            "precio_unitario": 48.77,
+            "valor_venta": 2145.88
+        },
+        {
+            "numero": 2,
+            "descripcion": "Cemento Sol Tipo I (42.5kg) (Oferta)",
+            "unidad": "BOL",
+            "cantidad": 28,
+            "precio_unitario": 27.95,
+            "valor_venta": 782.6
+        },
+        {
+            "numero": 3,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m",
+            "unidad": "VAR",
+            "cantidad": 23,
+            "precio_unitario": 39.68,
+            "valor_venta": 912.64
+        },
+        {
+            "numero": 4,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L)",
+            "unidad": "GLN",
+            "cantidad": 77,
+            "precio_unitario": 45.75,
+            "valor_venta": 3522.75
+        },
+        {
+            "numero": 5,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt (Importado)",
+            "unidad": "UND",
+            "cantidad": 99,
+            "precio_unitario": 5.33,
+            "valor_venta": 527.67
+        },
+        {
+            "numero": 6,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 100,
+            "precio_unitario": 724.57,
+            "valor_venta": 72457.0
+        },
+        {
+            "numero": 7,
+            "descripcion": "Cemento Sol Tipo I (42.5kg) Serie X",
+            "unidad": "BOL",
+            "cantidad": 34,
+            "precio_unitario": 26.73,
+            "valor_venta": 908.82
+        }
+    ]
+}

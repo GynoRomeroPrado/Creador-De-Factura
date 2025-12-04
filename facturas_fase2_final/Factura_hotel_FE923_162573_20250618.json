@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE923-162573",
+    "fecha_emision": "2025-06-18T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20261467713",
+    "emisor_razon_social": "Casa Andina Resort Piura",
+    "emisor_direccion": "Av. Arequipa 2299, La Victoria, Lima",
+    "receptor_numero_doc": "20942515368",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Av. La Marina 2462, La Victoria, Lima",
+    "subtotal": 1733.13,
+    "igv": 311.96,
+    "importe_total": 2357.05,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.188,
+            "precio_unitario": 90.71,
+            "valor_venta": 289.18,
+            "cargo_item": 52.05,
+            "importe_total": 341.23
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.048,
+            "precio_unitario": 78.75,
+            "valor_venta": 712.53,
+            "cargo_item": 128.26,
+            "importe_total": 840.79
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.339,
+            "precio_unitario": 69.52,
+            "valor_venta": 440.69,
+            "cargo_item": 79.32,
+            "importe_total": 520.01
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.77,
+            "precio_unitario": 60.95,
+            "valor_venta": 290.73,
+            "cargo_item": 52.33,
+            "importe_total": 343.06
+        }
+    ]
+}

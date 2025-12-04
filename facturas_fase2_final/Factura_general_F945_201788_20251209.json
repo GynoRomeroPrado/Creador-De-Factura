@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F945-201788",
+    "fecha_emision": "2025-12-09T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20832219763",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 1600, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20903695120",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Jr. de la Unión 1508, San Isidro, Lima",
+    "subtotal": 38010.12,
+    "igv": 4870.67,
+    "importe_total": 42900.15,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L) Modelo 2025",
+            "unidad": "GLN",
+            "cantidad": 26,
+            "precio_unitario": 47.61,
+            "valor_venta": 1237.86
+        },
+        {
+            "numero": 2,
+            "descripcion": "Casco de Seguridad 3M Blanco",
+            "unidad": "UND",
+            "cantidad": 60,
+            "precio_unitario": 30.71,
+            "valor_venta": 1842.6
+        },
+        {
+            "numero": 3,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt",
+            "unidad": "UND",
+            "cantidad": 32,
+            "precio_unitario": 6.97,
+            "valor_venta": 223.04
+        },
+        {
+            "numero": 4,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt",
+            "unidad": "UND",
+            "cantidad": 75,
+            "precio_unitario": 7.37,
+            "valor_venta": 552.75
+        },
+        {
+            "numero": 5,
+            "descripcion": "Tubo PVC SAP Pavco 4\" Desague Color: Negro",
+            "unidad": "UND",
+            "cantidad": 50,
+            "precio_unitario": 23.04,
+            "valor_venta": 1152.0
+        },
+        {
+            "numero": 6,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 2,
+            "precio_unitario": 29.7,
+            "valor_venta": 59.4
+        },
+        {
+            "numero": 7,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m",
+            "unidad": "VAR",
+            "cantidad": 29,
+            "precio_unitario": 39.91,
+            "valor_venta": 1157.39
+        },
+        {
+            "numero": 8,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 46,
+            "precio_unitario": 690.98,
+            "valor_venta": 31785.08
+        }
+    ]
+}

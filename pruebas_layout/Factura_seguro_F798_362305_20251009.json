@@ -1,0 +1,114 @@
+{
+    "tipo_comprobante": "FACTURA",
+    "tipo_factura": "seguro",
+    "numero_factura": "F798-362305",
+    "serie": "F798",
+    "numero": "362305",
+    "fecha_emision": "2025-10-09T00:00:00",
+    "fecha_vencimiento": "2025-10-09T00:00:00",
+    "emisor": {
+        "ruc": "20018027764",
+        "razon_social": "Comercializadora Universal E.I.R.L.",
+        "direccion": "Jr. de la Unión 2110, San Borja, Lima",
+        "telefono": "912497592",
+        "email": "reservas@empresa.com"
+    },
+    "receptor": {
+        "ruc": "20700678858",
+        "razon_social": "Distribuidora Comercial Lima S.A.C.",
+        "direccion": "Av. La Marina 955, San Borja, Lima",
+        "telefono": "01-4556678",
+        "email": "info@corp.pe"
+    },
+    "moneda": "EUR",
+    "simbolo_moneda": "€",
+    "nombre_moneda": "EUROS",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Serie X",
+            "unidad": "POL",
+            "cantidad": 52,
+            "precio_unitario": 129.39,
+            "valor_venta": 6728.28
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida (Importado)",
+            "unidad": "POL",
+            "cantidad": 16,
+            "precio_unitario": 409.57,
+            "valor_venta": 6553.12
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 1,
+            "precio_unitario": 735.97,
+            "valor_venta": 735.97
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 47,
+            "precio_unitario": 151.54,
+            "valor_venta": 7122.38
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 14,
+            "precio_unitario": 211.73,
+            "valor_venta": 2964.22
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 58,
+            "precio_unitario": 198.75,
+            "valor_venta": 11527.5
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 415.12,
+            "valor_venta": 22001.36
+        }
+    ],
+    "op_gravada": 49985.14,
+    "op_exonerada": 7647.69,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 8997.33,
+    "total_cargos": 0.0,
+    "otros_cargos": 0.0,
+    "total": 66630.16,
+    "total_letras": "SESENTA Y SEIS MIL SEISCIENTOS TREINTA CON 16/100 EUROS",
+    "forma_pago": "CHEQUE",
+    "con_credito": false,
+    "cuotas": [],
+    "numero_contrato": null,
+    "periodo_facturado": null,
+    "observaciones": null,
+    "datos_hotel": null,
+    "datos_seguro": {
+        "numero_documento": "RP 602624468",
+        "numero_poliza": "2818874544",
+        "giro": "1612086992",
+        "vigencia_inicio": "2025-10-09T00:00:00",
+        "vigencia_fin": "2026-10-09T00:00:00",
+        "prima": 377.8,
+        "vehiculo": "XYZ283"
+    },
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": null,
+    "industria": "general"
+}

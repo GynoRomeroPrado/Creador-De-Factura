@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA508-167467",
+    "fecha_emision": "2025-02-09T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20808377251",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 2870, La Victoria, Lima",
+    "receptor_numero_doc": "20506187991",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 4417, Cercado de Lima, Lima",
+    "subtotal": 2979.55,
+    "igv": 536.32,
+    "importe_total": 3515.87,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.889,
+            "precio_unitario": 84.3,
+            "valor_venta": 159.24
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.234,
+            "precio_unitario": 82.36,
+            "valor_venta": 101.63
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.874,
+            "precio_unitario": 42.04,
+            "valor_venta": 373.06
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.623,
+            "precio_unitario": 98.77,
+            "valor_venta": 851.69
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.123,
+            "precio_unitario": 74.59,
+            "valor_venta": 531.3
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.386,
+            "precio_unitario": 133.49,
+            "valor_venta": 1119.45
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F906-788970",
+    "fecha_emision": "2025-12-20T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20365450529",
+    "emisor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "emisor_direccion": "Jr. de la Unión 3895, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20252019767",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. La Marina 820, Cercado de Lima, Lima",
+    "subtotal": 13765.02,
+    "igv": 2477.7,
+    "importe_total": 16242.72,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Carne de Res kg (Oferta)",
+            "unidad": "KG",
+            "cantidad": 21,
+            "precio_unitario": 21.79,
+            "valor_venta": 457.59
+        },
+        {
+            "numero": 2,
+            "descripcion": "Carne de Res kg Modelo 2025",
+            "unidad": "KG",
+            "cantidad": 19,
+            "precio_unitario": 24.09,
+            "valor_venta": 457.71
+        },
+        {
+            "numero": 3,
+            "descripcion": "Azúcar Blanca x 50kg Color: Negro",
+            "unidad": "SAC",
+            "cantidad": 95,
+            "precio_unitario": 147.24,
+            "valor_venta": 13987.8
+        }
+    ]
+}

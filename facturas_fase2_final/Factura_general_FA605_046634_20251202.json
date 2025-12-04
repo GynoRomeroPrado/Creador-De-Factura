@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA605-046634",
+    "fecha_emision": "2025-12-02T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20811738817",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Calle Los Pinos 4909, San Borja, Lima",
+    "receptor_numero_doc": "20015922240",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 3783, Miraflores, Lima",
+    "subtotal": 132099.66,
+    "igv": 23777.94,
+    "importe_total": 155897.26,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 59,
+            "precio_unitario": 1104.79,
+            "valor_venta": 65182.61
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 25,
+            "precio_unitario": 965.38,
+            "valor_venta": 24134.5
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Serie X",
+            "unidad": "POL",
+            "cantidad": 58,
+            "precio_unitario": 129.65,
+            "valor_venta": 7519.7
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 37,
+            "precio_unitario": 953.05,
+            "valor_venta": 35262.85
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E240-719727",
+    "fecha_emision": "2025-10-01T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20997671148",
+    "emisor_razon_social": "Radisson Resort Miraflores",
+    "emisor_direccion": "Calle Los Pinos 2339, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20116699363",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Benavides 3565, Santiago de Surco, Lima",
+    "subtotal": 1608.37,
+    "igv": 249.04,
+    "importe_total": 2146.92,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.602,
+            "precio_unitario": 74.22,
+            "valor_venta": 193.12,
+            "cargo_item": 34.76,
+            "importe_total": 227.88
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.404,
+            "precio_unitario": 36.09,
+            "valor_venta": 339.39,
+            "cargo_item": 61.09,
+            "importe_total": 400.48
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.834,
+            "precio_unitario": 117.64,
+            "valor_venta": 686.31,
+            "cargo_item": 123.54,
+            "importe_total": 809.85
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.176,
+            "precio_unitario": 75.26,
+            "valor_venta": 389.55,
+            "cargo_item": 70.12,
+            "importe_total": 459.67
+        }
+    ]
+}

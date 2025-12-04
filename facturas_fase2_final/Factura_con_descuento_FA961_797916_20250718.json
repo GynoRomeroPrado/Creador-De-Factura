@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA961-797916",
+    "fecha_emision": "2025-07-18T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20869030466",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Jr. de la Unión 3953, San Isidro, Lima",
+    "receptor_numero_doc": "20096492104",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. Arequipa 1802, San Isidro, Lima",
+    "subtotal": 254355.88,
+    "igv": 45784.06,
+    "importe_total": 300139.94,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 69,
+            "precio_unitario": 923.1,
+            "valor_venta": 63693.9
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 60,
+            "precio_unitario": 1853.59,
+            "valor_venta": 111215.4
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 20,
+            "precio_unitario": 193.5,
+            "valor_venta": 3870.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 76,
+            "precio_unitario": 1533.06,
+            "valor_venta": 116512.56
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E331-060551",
+    "fecha_emision": "2025-11-21T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20298308577",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Calle Los Pinos 1367, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20035139266",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 2853, Santiago de Surco, Lima",
+    "subtotal": 29667.33,
+    "igv": 5340.12,
+    "importe_total": 35007.45,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 63,
+            "precio_unitario": 470.91,
+            "valor_venta": 29667.33
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E310-707348",
+    "fecha_emision": "2025-08-11T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20926788753",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Av. Benavides 4730, San Borja, Lima",
+    "receptor_numero_doc": "20265886991",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 2912, San Isidro, Lima",
+    "subtotal": 93308.33,
+    "igv": 16795.5,
+    "importe_total": 110103.83,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 73,
+            "precio_unitario": 149.73,
+            "valor_venta": 10930.29
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo Color: Negro",
+            "unidad": "POL",
+            "cantidad": 32,
+            "precio_unitario": 2441.13,
+            "valor_venta": 78116.16
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 31,
+            "precio_unitario": 137.48,
+            "valor_venta": 4261.88
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F641-949252",
+    "fecha_emision": "2025-05-19T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20738512376",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Calle Los Pinos 1497, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20742498906",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. La Marina 1296, Cercado de Lima, Lima",
+    "subtotal": 128244.82,
+    "igv": 23084.07,
+    "importe_total": 151328.89,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Estación Manual Doble Acción (Oferta)",
+            "unidad": "UND",
+            "cantidad": 24,
+            "precio_unitario": 68.86,
+            "valor_venta": 1652.64
+        },
+        {
+            "numero": 2,
+            "descripcion": "Detector de Temperatura Térmico Convencional (Oferta)",
+            "unidad": "UND",
+            "cantidad": 44,
+            "precio_unitario": 52.0,
+            "valor_venta": 2288.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V Modelo 2025",
+            "unidad": "UND",
+            "cantidad": 91,
+            "precio_unitario": 1365.98,
+            "valor_venta": 124304.18
+        }
+    ]
+}

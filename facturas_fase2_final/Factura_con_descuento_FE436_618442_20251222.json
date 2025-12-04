@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE436-618442",
+    "fecha_emision": "2025-12-22T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20254065693",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 4269, San Borja, Lima",
+    "receptor_numero_doc": "20740271289",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 2400, Miraflores, Lima",
+    "subtotal": 161706.98,
+    "igv": 21153.66,
+    "importe_total": 182860.64,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 61,
+            "precio_unitario": 309.24,
+            "valor_venta": 18863.64
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 55,
+            "precio_unitario": 1664.58,
+            "valor_venta": 91551.9
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 46,
+            "precio_unitario": 1149.57,
+            "valor_venta": 52880.22
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 29,
+            "precio_unitario": 413.17,
+            "valor_venta": 11981.93
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 88,
+            "precio_unitario": 154.0,
+            "valor_venta": 13552.0
+        }
+    ]
+}

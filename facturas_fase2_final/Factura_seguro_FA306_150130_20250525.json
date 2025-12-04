@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA306-150130",
+    "fecha_emision": "2025-05-25T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20515323849",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 1773, San Borja, Lima",
+    "receptor_numero_doc": "20839512482",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 3902, Santiago de Surco, Lima",
+    "subtotal": 229137.52,
+    "igv": 41244.75,
+    "importe_total": 270382.27,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 73,
+            "precio_unitario": 917.13,
+            "valor_venta": 66950.49
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 87,
+            "precio_unitario": 1943.04,
+            "valor_venta": 169044.48
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 31,
+            "precio_unitario": 167.82,
+            "valor_venta": 5202.42
+        }
+    ]
+}

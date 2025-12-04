@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE978-947899",
+    "fecha_emision": "2025-03-01T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20567392121",
+    "emisor_razon_social": "Sheraton Business Miraflores",
+    "emisor_direccion": "Av. Benavides 466, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20118539771",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. La Marina 1823, Cercado de Lima, Lima",
+    "subtotal": 1466.32,
+    "igv": 263.94,
+    "importe_total": 1994.19,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.267,
+            "precio_unitario": 138.31,
+            "valor_venta": 1143.41,
+            "cargo_item": 205.81,
+            "importe_total": 1349.22
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.011,
+            "precio_unitario": 56.48,
+            "valor_venta": 57.1,
+            "cargo_item": 10.28,
+            "importe_total": 67.38
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.389,
+            "precio_unitario": 84.26,
+            "valor_venta": 201.3,
+            "cargo_item": 36.23,
+            "importe_total": 237.53
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.317,
+            "precio_unitario": 48.98,
+            "valor_venta": 64.51,
+            "cargo_item": 11.61,
+            "importe_total": 76.12
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA155-528514",
+    "fecha_emision": "2025-11-20T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20676042106",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Av. La Marina 2273, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20576389117",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Calle Los Pinos 4118, Miraflores, Lima",
+    "subtotal": 22054.71,
+    "igv": 3969.85,
+    "importe_total": 26024.56,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 28,
+            "precio_unitario": 56.85,
+            "valor_venta": 1591.8
+        },
+        {
+            "numero": 2,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 18,
+            "precio_unitario": 62.01,
+            "valor_venta": 1116.18
+        },
+        {
+            "numero": 3,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 20,
+            "precio_unitario": 1132.6,
+            "valor_venta": 22652.0
+        }
+    ]
+}

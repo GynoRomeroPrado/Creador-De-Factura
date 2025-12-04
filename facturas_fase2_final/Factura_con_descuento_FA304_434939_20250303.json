@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA304-434939",
+    "fecha_emision": "2025-03-03T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20266954400",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 3449, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20657616941",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 2864, Cercado de Lima, Lima",
+    "subtotal": 7693.22,
+    "igv": 1384.78,
+    "importe_total": 9078.0,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L) (Importado)",
+            "unidad": "GLN",
+            "cantidad": 69,
+            "precio_unitario": 51.9,
+            "valor_venta": 3581.1
+        },
+        {
+            "numero": 2,
+            "descripcion": "Guantes de Cuero Reforzado",
+            "unidad": "PAR",
+            "cantidad": 43,
+            "precio_unitario": 14.9,
+            "valor_venta": 640.7
+        },
+        {
+            "numero": 3,
+            "descripcion": "Piedra Chancada 1/2\" (m3) Serie X",
+            "unidad": "M3",
+            "cantidad": 29,
+            "precio_unitario": 68.91,
+            "valor_venta": 1998.39
+        },
+        {
+            "numero": 4,
+            "descripcion": "Thinner Acrílico Vencedor (Galón) (Importado)",
+            "unidad": "GLN",
+            "cantidad": 87,
+            "precio_unitario": 27.1,
+            "valor_venta": 2357.7
+        }
+    ]
+}

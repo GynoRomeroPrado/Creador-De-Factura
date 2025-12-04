@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE050-818903",
+    "fecha_emision": "2025-12-14T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20004104804",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 4033, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20311221940",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 4573, Santiago de Surco, Lima",
+    "subtotal": 278109.67,
+    "igv": 50059.74,
+    "importe_total": 328169.41,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 77,
+            "precio_unitario": 251.91,
+            "valor_venta": 19397.07
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 19,
+            "precio_unitario": 1264.29,
+            "valor_venta": 24021.51
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 13,
+            "precio_unitario": 365.71,
+            "valor_venta": 4754.23
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios Serie X",
+            "unidad": "POL",
+            "cantidad": 18,
+            "precio_unitario": 1298.02,
+            "valor_venta": 23364.36
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 57,
+            "precio_unitario": 2452.65,
+            "valor_venta": 139801.05
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo Color: Negro",
+            "unidad": "POL",
+            "cantidad": 30,
+            "precio_unitario": 1161.16,
+            "valor_venta": 34834.8
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 81,
+            "precio_unitario": 755.13,
+            "valor_venta": 61165.53
+        }
+    ]
+}

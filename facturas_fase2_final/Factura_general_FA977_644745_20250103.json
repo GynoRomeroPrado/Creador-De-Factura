@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA977-644745",
+    "fecha_emision": "2025-01-03T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20279016301",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Calle Los Pinos 3860, Miraflores, Lima",
+    "receptor_numero_doc": "20971813726",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. La Marina 1336, Santiago de Surco, Lima",
+    "subtotal": 35743.56,
+    "igv": 6433.84,
+    "importe_total": 42177.4,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Aceite Vegetal x 20L Serie X",
+            "unidad": "BID",
+            "cantidad": 94,
+            "precio_unitario": 114.3,
+            "valor_venta": 10744.2
+        },
+        {
+            "numero": 2,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 96,
+            "precio_unitario": 90.95,
+            "valor_venta": 8731.2
+        },
+        {
+            "numero": 3,
+            "descripcion": "Arroz Superior x 50kg Modelo 2025",
+            "unidad": "SAC",
+            "cantidad": 96,
+            "precio_unitario": 169.46,
+            "valor_venta": 16268.16
+        }
+    ]
+}

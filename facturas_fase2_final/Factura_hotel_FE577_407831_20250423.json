@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE577-407831",
+    "fecha_emision": "2025-04-23T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20319583867",
+    "emisor_razon_social": "Novotel Select Miraflores",
+    "emisor_direccion": "Av. Arequipa 2118, La Victoria, Lima",
+    "receptor_numero_doc": "20706634429",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 4130, San Borja, Lima",
+    "subtotal": 2017.1,
+    "igv": 363.08,
+    "importe_total": 2743.25,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.07,
+            "precio_unitario": 79.12,
+            "valor_venta": 559.38,
+            "cargo_item": 100.69,
+            "importe_total": 660.07
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.526,
+            "precio_unitario": 70.36,
+            "valor_venta": 670.25,
+            "cargo_item": 120.64,
+            "importe_total": 790.89
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.112,
+            "precio_unitario": 64.28,
+            "valor_venta": 264.32,
+            "cargo_item": 47.58,
+            "importe_total": 311.9
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.778,
+            "precio_unitario": 58.53,
+            "valor_venta": 221.13,
+            "cargo_item": 39.8,
+            "importe_total": 260.93
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.084,
+            "precio_unitario": 97.93,
+            "valor_venta": 302.02,
+            "cargo_item": 54.36,
+            "importe_total": 356.38
+        }
+    ]
+}

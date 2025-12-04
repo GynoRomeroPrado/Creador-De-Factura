@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E553-614219",
+    "fecha_emision": "2025-02-17T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20531262183",
+    "emisor_razon_social": "Estelar Standard Cajamarca",
+    "emisor_direccion": "Jr. de la Unión 2712, La Victoria, Lima",
+    "receptor_numero_doc": "20854797931",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 1097, Miraflores, Lima",
+    "subtotal": 3692.51,
+    "igv": 664.65,
+    "importe_total": 5021.82,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.718,
+            "precio_unitario": 76.62,
+            "valor_venta": 667.97,
+            "cargo_item": 120.23,
+            "importe_total": 788.2
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.184,
+            "precio_unitario": 135.95,
+            "valor_venta": 704.76,
+            "cargo_item": 126.86,
+            "importe_total": 831.62
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.927,
+            "precio_unitario": 48.18,
+            "valor_venta": 141.02,
+            "cargo_item": 25.38,
+            "importe_total": 166.4
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.194,
+            "precio_unitario": 93.06,
+            "valor_venta": 855.59,
+            "cargo_item": 154.01,
+            "importe_total": 1009.6
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.849,
+            "precio_unitario": 115.43,
+            "valor_venta": 213.43,
+            "cargo_item": 38.42,
+            "importe_total": 251.85
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION pack x6",
+            "unidad": "NIU",
+            "cantidad": 4.142,
+            "precio_unitario": 82.23,
+            "valor_venta": 340.6,
+            "cargo_item": 61.31,
+            "importe_total": 401.91
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.509,
+            "precio_unitario": 59.04,
+            "valor_venta": 502.37,
+            "cargo_item": 90.43,
+            "importe_total": 592.8
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.819,
+            "precio_unitario": 30.25,
+            "valor_venta": 266.77,
+            "cargo_item": 48.02,
+            "importe_total": 314.79
+        }
+    ]
+}

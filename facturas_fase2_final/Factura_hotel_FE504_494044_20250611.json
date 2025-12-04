@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE504-494044",
+    "fecha_emision": "2025-06-11T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20349201713",
+    "emisor_razon_social": "Novotel Select Trujillo",
+    "emisor_direccion": "Av. La Marina 880, San Borja, Lima",
+    "receptor_numero_doc": "20232019043",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 1239, San Borja, Lima",
+    "subtotal": 1155.49,
+    "igv": 207.99,
+    "importe_total": 1571.48,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.027,
+            "precio_unitario": 34.61,
+            "valor_venta": 104.76,
+            "cargo_item": 18.86,
+            "importe_total": 123.62
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.095,
+            "precio_unitario": 75.01,
+            "valor_venta": 532.2,
+            "cargo_item": 95.8,
+            "importe_total": 628.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.111,
+            "precio_unitario": 72.92,
+            "valor_venta": 518.53,
+            "cargo_item": 93.34,
+            "importe_total": 611.87
+        }
+    ]
+}

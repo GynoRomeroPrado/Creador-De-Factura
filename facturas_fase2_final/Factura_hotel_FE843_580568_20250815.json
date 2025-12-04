@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE843-580568",
+    "fecha_emision": "2025-08-15T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20926879686",
+    "emisor_razon_social": "Novotel Premium Tacna",
+    "emisor_direccion": "Calle Los Pinos 4376, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20727346407",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. Arequipa 2762, La Victoria, Lima",
+    "subtotal": 242.75,
+    "igv": 38.2,
+    "importe_total": 324.65,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.249,
+            "precio_unitario": 57.13,
+            "valor_venta": 242.75,
+            "cargo_item": 43.7,
+            "importe_total": 286.45
+        }
+    ]
+}

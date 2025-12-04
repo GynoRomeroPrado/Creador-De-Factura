@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F878-535632",
+    "fecha_emision": "2025-12-07T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20797723623",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 2199, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20598084361",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 325, San Isidro, Lima",
+    "subtotal": 32424.3,
+    "igv": 5836.37,
+    "importe_total": 38279.16,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 459.61,
+            "valor_venta": 24359.33
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 31,
+            "precio_unitario": 315.21,
+            "valor_venta": 9771.51
+        }
+    ]
+}

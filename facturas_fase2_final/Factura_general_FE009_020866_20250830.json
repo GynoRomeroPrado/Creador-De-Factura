@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE009-020866",
+    "fecha_emision": "2025-08-30T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20410654394",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. La Marina 4139, San Isidro, Lima",
+    "receptor_numero_doc": "20215132570",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 1615, La Victoria, Lima",
+    "subtotal": 15971.01,
+    "igv": 2874.78,
+    "importe_total": 18845.79,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida Serie X",
+            "unidad": "POL",
+            "cantidad": 33,
+            "precio_unitario": 483.97,
+            "valor_venta": 15971.01
+        }
+    ]
+}

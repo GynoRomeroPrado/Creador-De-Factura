@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA978-906944",
+    "fecha_emision": "2025-05-02T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20753033271",
+    "emisor_razon_social": "Sonesta Suites Cajamarca",
+    "emisor_direccion": "Jr. de la Unión 3663, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20996834680",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 2368, Santiago de Surco, Lima",
+    "subtotal": 1134.44,
+    "igv": 204.2,
+    "importe_total": 1542.83,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.424,
+            "precio_unitario": 100.0,
+            "valor_venta": 242.4,
+            "cargo_item": 43.63,
+            "importe_total": 286.03
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.494,
+            "precio_unitario": 61.64,
+            "valor_venta": 400.29,
+            "cargo_item": 72.05,
+            "importe_total": 472.34
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.804,
+            "precio_unitario": 51.9,
+            "valor_venta": 93.63,
+            "cargo_item": 16.85,
+            "importe_total": 110.48
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.948,
+            "precio_unitario": 80.46,
+            "valor_venta": 398.12,
+            "cargo_item": 71.66,
+            "importe_total": 469.78
+        }
+    ]
+}

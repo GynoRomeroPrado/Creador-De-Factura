@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE984-645052",
+    "fecha_emision": "2025-03-07T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20246583626",
+    "emisor_razon_social": "Casa Andina Wyndham San Isidro",
+    "emisor_direccion": "Calle Los Pinos 1550, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20825498207",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. La Marina 2329, Cercado de Lima, Lima",
+    "subtotal": 969.31,
+    "igv": 174.48,
+    "importe_total": 1327.45,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.219,
+            "precio_unitario": 34.55,
+            "valor_venta": 111.22,
+            "cargo_item": 20.02,
+            "importe_total": 131.24
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.398,
+            "precio_unitario": 63.6,
+            "valor_venta": 343.31,
+            "cargo_item": 61.8,
+            "importe_total": 405.11
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.136,
+            "precio_unitario": 92.21,
+            "valor_venta": 565.8,
+            "cargo_item": 101.84,
+            "importe_total": 667.64
+        }
+    ]
+}

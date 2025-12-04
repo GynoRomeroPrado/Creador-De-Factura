@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E878-670267",
+    "fecha_emision": "2025-04-30T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20459944789",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 1840, San Isidro, Lima",
+    "receptor_numero_doc": "20450009556",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Benavides 930, Miraflores, Lima",
+    "subtotal": 5516.46,
+    "igv": 992.96,
+    "importe_total": 6509.42,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 23,
+            "precio_unitario": 37.44,
+            "valor_venta": 861.12
+        },
+        {
+            "numero": 2,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 54,
+            "precio_unitario": 86.21,
+            "valor_venta": 4655.34
+        }
+    ]
+}

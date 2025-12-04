@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE900-646025",
+    "fecha_emision": "2025-05-31T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20734076105",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Av. La Marina 1799, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20267072150",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 1071, La Victoria, Lima",
+    "subtotal": 67680.17,
+    "igv": 12182.43,
+    "importe_total": 79862.6,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 78,
+            "precio_unitario": 746.46,
+            "valor_venta": 58223.88
+        },
+        {
+            "numero": 2,
+            "descripcion": "Tubo PVC SAP Pavco 4\" Desague",
+            "unidad": "UND",
+            "cantidad": 11,
+            "precio_unitario": 27.21,
+            "valor_venta": 299.31
+        },
+        {
+            "numero": 3,
+            "descripcion": "Thinner Acrílico Vencedor (Galón) Modelo 2025",
+            "unidad": "GLN",
+            "cantidad": 52,
+            "precio_unitario": 26.08,
+            "valor_venta": 1356.16
+        },
+        {
+            "numero": 4,
+            "descripcion": "Guantes de Cuero Reforzado (Oferta)",
+            "unidad": "PAR",
+            "cantidad": 63,
+            "precio_unitario": 14.62,
+            "valor_venta": 921.06
+        },
+        {
+            "numero": 5,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt",
+            "unidad": "UND",
+            "cantidad": 5,
+            "precio_unitario": 7.39,
+            "valor_venta": 36.95
+        },
+        {
+            "numero": 6,
+            "descripcion": "Arena Gruesa (m3)",
+            "unidad": "M3",
+            "cantidad": 12,
+            "precio_unitario": 52.56,
+            "valor_venta": 630.72
+        },
+        {
+            "numero": 7,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 63,
+            "precio_unitario": 30.34,
+            "valor_venta": 1911.42
+        },
+        {
+            "numero": 8,
+            "descripcion": "Casco de Seguridad 3M Blanco Color: Negro",
+            "unidad": "UND",
+            "cantidad": 80,
+            "precio_unitario": 38.3,
+            "valor_venta": 3064.0
+        },
+        {
+            "numero": 9,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 81,
+            "precio_unitario": 19.05,
+            "valor_venta": 1543.05
+        }
+    ]
+}

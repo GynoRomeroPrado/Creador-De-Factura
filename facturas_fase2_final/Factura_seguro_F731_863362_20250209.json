@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F731-863362",
+    "fecha_emision": "2025-02-09T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20298168899",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 3376, La Victoria, Lima",
+    "receptor_numero_doc": "20476681031",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 3514, Cercado de Lima, Lima",
+    "subtotal": 273894.75,
+    "igv": 49301.06,
+    "importe_total": 323195.81,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 46,
+            "precio_unitario": 852.48,
+            "valor_venta": 39214.08
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 36,
+            "precio_unitario": 2493.32,
+            "valor_venta": 89759.52
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 55,
+            "precio_unitario": 2634.93,
+            "valor_venta": 144921.15
+        }
+    ]
+}

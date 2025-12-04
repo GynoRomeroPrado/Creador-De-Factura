@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE695-116094",
+    "fecha_emision": "2025-07-08T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20259906564",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Arequipa 3648, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20763309291",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 2775, Santiago de Surco, Lima",
+    "subtotal": 2491.77,
+    "igv": 395.29,
+    "importe_total": 2887.06,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 13,
+            "precio_unitario": 193.73,
+            "valor_venta": 2518.49
+        }
+    ]
+}

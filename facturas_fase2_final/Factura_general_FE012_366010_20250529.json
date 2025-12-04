@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE012-366010",
+    "fecha_emision": "2025-05-29T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20820254504",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. La Marina 3313, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20911427959",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 4698, Miraflores, Lima",
+    "subtotal": 13467.94,
+    "igv": 2121.44,
+    "importe_total": 15589.38,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Thinner Acrílico Vencedor (Galón) (Importado)",
+            "unidad": "GLN",
+            "cantidad": 84,
+            "precio_unitario": 34.28,
+            "valor_venta": 2879.52
+        },
+        {
+            "numero": 2,
+            "descripcion": "Piedra Chancada 1/2\" (m3)",
+            "unidad": "M3",
+            "cantidad": 60,
+            "precio_unitario": 62.64,
+            "valor_venta": 3758.4
+        },
+        {
+            "numero": 3,
+            "descripcion": "Guantes de Cuero Reforzado",
+            "unidad": "PAR",
+            "cantidad": 39,
+            "precio_unitario": 15.9,
+            "valor_venta": 620.1
+        },
+        {
+            "numero": 4,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 92,
+            "precio_unitario": 27.08,
+            "valor_venta": 2491.36
+        },
+        {
+            "numero": 5,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L)",
+            "unidad": "GLN",
+            "cantidad": 63,
+            "precio_unitario": 52.6,
+            "valor_venta": 3313.8
+        },
+        {
+            "numero": 6,
+            "descripcion": "Piedra Chancada 1/2\" (m3)",
+            "unidad": "M3",
+            "cantidad": 16,
+            "precio_unitario": 69.6,
+            "valor_venta": 1113.6
+        }
+    ]
+}

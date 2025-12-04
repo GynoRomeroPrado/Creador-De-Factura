@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E092-513855",
+    "fecha_emision": "2025-10-18T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20472091892",
+    "emisor_razon_social": "Westin Luxury Trujillo",
+    "emisor_direccion": "Calle Los Pinos 2662, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20126773979",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Calle Los Pinos 799, San Borja, Lima",
+    "subtotal": 1142.94,
+    "igv": 144.82,
+    "importe_total": 1493.49,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.436,
+            "precio_unitario": 44.32,
+            "valor_venta": 240.92,
+            "cargo_item": 43.37,
+            "importe_total": 284.29
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.752,
+            "precio_unitario": 116.36,
+            "valor_venta": 902.02,
+            "cargo_item": 162.36,
+            "importe_total": 1064.38
+        }
+    ]
+}

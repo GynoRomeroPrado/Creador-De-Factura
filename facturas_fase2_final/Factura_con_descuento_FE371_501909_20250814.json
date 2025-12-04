@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE371-501909",
+    "fecha_emision": "2025-08-14T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20442911518",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 3541, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20005879761",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Av. Benavides 1617, Miraflores, Lima",
+    "subtotal": 1130.63,
+    "igv": 203.51,
+    "importe_total": 1334.14,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 95 Serie X",
+            "unidad": "GL",
+            "cantidad": 77,
+            "precio_unitario": 6.93,
+            "valor_venta": 533.61
+        },
+        {
+            "numero": 2,
+            "descripcion": "GLP (Importado)",
+            "unidad": "GL",
+            "cantidad": 68,
+            "precio_unitario": 1.94,
+            "valor_venta": 131.92
+        },
+        {
+            "numero": 3,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 87,
+            "precio_unitario": 6.79,
+            "valor_venta": 590.73
+        }
+    ]
+}

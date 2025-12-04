@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F190-353927",
+    "fecha_emision": "2025-12-20T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20057124971",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Av. La Marina 2017, Miraflores, Lima",
+    "receptor_numero_doc": "20119705739",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 704, San Isidro, Lima",
+    "subtotal": 9336.6,
+    "igv": 1224.7,
+    "importe_total": 10561.3,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 90,
+            "precio_unitario": 103.74,
+            "valor_venta": 9336.6
+        }
+    ]
+}

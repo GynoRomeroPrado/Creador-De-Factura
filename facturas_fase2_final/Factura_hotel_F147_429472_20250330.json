@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F147-429472",
+    "fecha_emision": "2025-03-30T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20464211838",
+    "emisor_razon_social": "Novotel Plaza Surco",
+    "emisor_direccion": "Av. Arequipa 3329, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20290245550",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Av. Benavides 1484, La Victoria, Lima",
+    "subtotal": 958.99,
+    "igv": 172.62,
+    "importe_total": 1304.23,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.254,
+            "precio_unitario": 34.37,
+            "valor_venta": 77.47,
+            "cargo_item": 13.94,
+            "importe_total": 91.41
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.18,
+            "precio_unitario": 55.12,
+            "valor_venta": 340.64,
+            "cargo_item": 61.32,
+            "importe_total": 401.96
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.643,
+            "precio_unitario": 148.47,
+            "valor_venta": 540.88,
+            "cargo_item": 97.36,
+            "importe_total": 638.24
+        }
+    ]
+}

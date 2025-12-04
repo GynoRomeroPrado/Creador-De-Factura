@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA922-328687",
+    "fecha_emision": "2025-12-27T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20960640111",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Jr. de la Unión 4939, Miraflores, Lima",
+    "receptor_numero_doc": "20531025611",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 4064, San Isidro, Lima",
+    "subtotal": 10776.82,
+    "igv": 1939.83,
+    "importe_total": 12716.65,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 3,
+            "precio_unitario": 17.34,
+            "valor_venta": 52.02
+        },
+        {
+            "numero": 2,
+            "descripcion": "Huevos Color x 30 unid Modelo 2025",
+            "unidad": "CAJA",
+            "cantidad": 40,
+            "precio_unitario": 16.57,
+            "valor_venta": 662.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 72,
+            "precio_unitario": 139.75,
+            "valor_venta": 10062.0
+        }
+    ]
+}

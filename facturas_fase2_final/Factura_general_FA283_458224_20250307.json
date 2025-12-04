@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA283-458224",
+    "fecha_emision": "2025-03-07T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20959957798",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Arequipa 1795, Miraflores, Lima",
+    "receptor_numero_doc": "20626115269",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 1321, San Isidro, Lima",
+    "subtotal": 103.92,
+    "igv": 18.71,
+    "importe_total": 122.63,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 90 (Oferta)",
+            "unidad": "GL",
+            "cantidad": 24,
+            "precio_unitario": 4.33,
+            "valor_venta": 103.92
+        }
+    ]
+}

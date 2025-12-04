@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE318-144998",
+    "fecha_emision": "2025-03-09T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20400237671",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 1240, San Borja, Lima",
+    "receptor_numero_doc": "20585446026",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Benavides 2161, Cercado de Lima, Lima",
+    "subtotal": 30052.1,
+    "igv": 5409.38,
+    "importe_total": 35461.48,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 65,
+            "precio_unitario": 462.34,
+            "valor_venta": 30052.1
+        }
+    ]
+}

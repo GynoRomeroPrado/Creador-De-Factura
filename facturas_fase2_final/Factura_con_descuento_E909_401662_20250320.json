@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E909-401662",
+    "fecha_emision": "2025-03-20T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20170176481",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 1716, Miraflores, Lima",
+    "receptor_numero_doc": "20266486961",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. La Marina 4251, La Victoria, Lima",
+    "subtotal": 4660.86,
+    "igv": 838.95,
+    "importe_total": 5499.81,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 10,
+            "precio_unitario": 86.98,
+            "valor_venta": 869.8
+        },
+        {
+            "numero": 2,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 31,
+            "precio_unitario": 159.88,
+            "valor_venta": 4956.28
+        }
+    ]
+}

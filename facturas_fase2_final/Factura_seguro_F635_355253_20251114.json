@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F635-355253",
+    "fecha_emision": "2025-11-14T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20773873039",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 284, San Borja, Lima",
+    "receptor_numero_doc": "20207583953",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Calle Los Pinos 1300, Cercado de Lima, Lima",
+    "subtotal": 481348.75,
+    "igv": 86642.77,
+    "importe_total": 567991.52,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 66,
+            "precio_unitario": 2200.48,
+            "valor_venta": 145231.68
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios (Oferta)",
+            "unidad": "POL",
+            "cantidad": 46,
+            "precio_unitario": 1366.98,
+            "valor_venta": 62881.08
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 35,
+            "precio_unitario": 1324.31,
+            "valor_venta": 46350.85
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 45,
+            "precio_unitario": 856.86,
+            "valor_venta": 38558.7
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 72,
+            "precio_unitario": 1486.92,
+            "valor_venta": 107058.24
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 4,
+            "precio_unitario": 872.53,
+            "valor_venta": 3490.12
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 31,
+            "precio_unitario": 491.19,
+            "valor_venta": 15226.89
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 14,
+            "precio_unitario": 974.4,
+            "valor_venta": 13641.6
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 95,
+            "precio_unitario": 1094.35,
+            "valor_venta": 103963.25
+        }
+    ]
+}

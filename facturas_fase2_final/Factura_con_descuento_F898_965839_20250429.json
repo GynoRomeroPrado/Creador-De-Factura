@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F898-965839",
+    "fecha_emision": "2025-04-29T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20264157448",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Jr. de la Unión 2637, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20022191838",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Av. Arequipa 4129, Santiago de Surco, Lima",
+    "subtotal": 291.27,
+    "igv": 44.14,
+    "importe_total": 335.41,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.024,
+            "precio_unitario": 82.94,
+            "valor_venta": 250.81
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.227,
+            "precio_unitario": 51.25,
+            "valor_venta": 62.88
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE036-202710",
+    "fecha_emision": "2025-05-20T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20629644246",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Calle Los Pinos 4731, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20349602742",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Benavides 2584, La Victoria, Lima",
+    "subtotal": 238839.09,
+    "igv": 31801.02,
+    "importe_total": 270640.11,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 59,
+            "precio_unitario": 2675.46,
+            "valor_venta": 157852.14
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 97,
+            "precio_unitario": 800.6,
+            "valor_venta": 77658.2
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 5,
+            "precio_unitario": 665.75,
+            "valor_venta": 3328.75
+        }
+    ]
+}

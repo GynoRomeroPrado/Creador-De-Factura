@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E902-126685",
+    "fecha_emision": "2025-09-03T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20889329735",
+    "emisor_razon_social": "Hilton Business Tacna",
+    "emisor_direccion": "Av. La Marina 3810, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20952354931",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 2665, San Borja, Lima",
+    "subtotal": 905.73,
+    "igv": 127.27,
+    "importe_total": 1196.03,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.109,
+            "precio_unitario": 148.91,
+            "valor_venta": 611.87,
+            "cargo_item": 110.14,
+            "importe_total": 722.01
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.184,
+            "precio_unitario": 47.52,
+            "valor_venta": 293.86,
+            "cargo_item": 52.89,
+            "importe_total": 346.75
+        }
+    ]
+}

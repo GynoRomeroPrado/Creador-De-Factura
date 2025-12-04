@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE086-601708",
+    "fecha_emision": "2025-02-10T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20869520412",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Jr. de la Unión 3710, Miraflores, Lima",
+    "receptor_numero_doc": "20360379257",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 3849, Santiago de Surco, Lima",
+    "subtotal": 16874.05,
+    "igv": 3037.33,
+    "importe_total": 19911.38,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Courier Local (Oferta)",
+            "unidad": "ENV",
+            "cantidad": 48,
+            "precio_unitario": 33.05,
+            "valor_venta": 1586.4
+        },
+        {
+            "numero": 2,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 35,
+            "precio_unitario": 436.79,
+            "valor_venta": 15287.65
+        }
+    ]
+}

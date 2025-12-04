@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F746-633623",
+    "fecha_emision": "2025-07-10T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20361837488",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 1723, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20364789921",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Benavides 2094, La Victoria, Lima",
+    "subtotal": 405.54,
+    "igv": 73.0,
+    "importe_total": 478.54,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 78,
+            "precio_unitario": 2.95,
+            "valor_venta": 230.1
+        },
+        {
+            "numero": 2,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 43,
+            "precio_unitario": 4.08,
+            "valor_venta": 175.44
+        }
+    ]
+}

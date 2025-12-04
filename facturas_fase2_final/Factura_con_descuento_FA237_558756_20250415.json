@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA237-558756",
+    "fecha_emision": "2025-04-15T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20712507552",
+    "emisor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 3504, Miraflores, Lima",
+    "receptor_numero_doc": "20626744932",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. La Marina 670, Santiago de Surco, Lima",
+    "subtotal": 21855.15,
+    "igv": 2854.73,
+    "importe_total": 24718.8,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 84,
+            "precio_unitario": 130.75,
+            "valor_venta": 10983.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 43,
+            "precio_unitario": 218.62,
+            "valor_venta": 9400.66
+        },
+        {
+            "numero": 3,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 19,
+            "precio_unitario": 99.07,
+            "valor_venta": 1882.33
+        }
+    ]
+}

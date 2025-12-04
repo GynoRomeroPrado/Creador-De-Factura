@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E626-254395",
+    "fecha_emision": "2025-02-08T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20256519799",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 886, San Borja, Lima",
+    "receptor_numero_doc": "20745904301",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 4868, San Isidro, Lima",
+    "subtotal": 53711.0,
+    "igv": 8321.22,
+    "importe_total": 62032.22,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 32,
+            "precio_unitario": 303.18,
+            "valor_venta": 9701.76
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 16,
+            "precio_unitario": 1684.44,
+            "valor_venta": 26951.04
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 67,
+            "precio_unitario": 254.6,
+            "valor_venta": 17058.2
+        }
+    ]
+}

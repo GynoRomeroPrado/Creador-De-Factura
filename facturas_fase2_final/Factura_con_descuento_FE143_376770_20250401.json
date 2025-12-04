@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE143-376770",
+    "fecha_emision": "2025-04-01T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20543018351",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. La Marina 3327, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20808708001",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 2830, Miraflores, Lima",
+    "subtotal": 3431.4,
+    "igv": 477.76,
+    "importe_total": 3909.16,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.299,
+            "precio_unitario": 137.42,
+            "valor_venta": 453.35
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.925,
+            "precio_unitario": 79.15,
+            "valor_venta": 785.56
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.87,
+            "precio_unitario": 127.18,
+            "valor_venta": 746.55
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.17,
+            "precio_unitario": 75.26,
+            "valor_venta": 464.35
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.216,
+            "precio_unitario": 137.85,
+            "valor_venta": 1270.43
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E309-389753",
+    "fecha_emision": "2025-08-26T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20135045005",
+    "emisor_razon_social": "Marriott Suites Huancayo",
+    "emisor_direccion": "Calle Los Pinos 4350, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20274922436",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 3332, Santiago de Surco, Lima",
+    "subtotal": 1082.37,
+    "igv": 194.83,
+    "importe_total": 1472.03,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.01,
+            "precio_unitario": 33.93,
+            "valor_venta": 34.27,
+            "cargo_item": 6.17,
+            "importe_total": 40.44
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.493,
+            "precio_unitario": 107.5,
+            "valor_venta": 590.5,
+            "cargo_item": 106.29,
+            "importe_total": 696.79
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.45,
+            "precio_unitario": 112.45,
+            "valor_venta": 387.95,
+            "cargo_item": 69.83,
+            "importe_total": 457.78
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.04,
+            "precio_unitario": 66.97,
+            "valor_venta": 69.65,
+            "cargo_item": 12.54,
+            "importe_total": 82.19
+        }
+    ]
+}

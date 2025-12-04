@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA671-544766",
+    "fecha_emision": "2025-11-15T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20196525263",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 119, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20708161480",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 4980, Cercado de Lima, Lima",
+    "subtotal": 13089.29,
+    "igv": 1902.62,
+    "importe_total": 14991.91,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Carne de Res kg Color: Negro",
+            "unidad": "KG",
+            "cantidad": 82,
+            "precio_unitario": 19.33,
+            "valor_venta": 1585.06
+        },
+        {
+            "numero": 2,
+            "descripcion": "Arroz Superior x 50kg Color: Negro",
+            "unidad": "SAC",
+            "cantidad": 83,
+            "precio_unitario": 168.15,
+            "valor_venta": 13956.45
+        },
+        {
+            "numero": 3,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 47,
+            "precio_unitario": 17.14,
+            "valor_venta": 805.58
+        },
+        {
+            "numero": 4,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 4,
+            "precio_unitario": 3.63,
+            "valor_venta": 14.52
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE796-419435",
+    "fecha_emision": "2025-06-11T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20829107431",
+    "emisor_razon_social": "Westin Wyndham Miraflores",
+    "emisor_direccion": "Calle Los Pinos 3204, San Borja, Lima",
+    "receptor_numero_doc": "20388911060",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 2575, Miraflores, Lima",
+    "subtotal": 1816.68,
+    "igv": 327.0,
+    "importe_total": 2552.43,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.48,
+            "precio_unitario": 132.33,
+            "valor_venta": 328.18,
+            "cargo_item": 59.07,
+            "importe_total": 387.25
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.645,
+            "precio_unitario": 84.75,
+            "valor_venta": 478.41,
+            "cargo_item": 86.11,
+            "importe_total": 564.52
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.173,
+            "precio_unitario": 90.59,
+            "valor_venta": 830.98,
+            "cargo_item": 149.58,
+            "importe_total": 980.56
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.355,
+            "precio_unitario": 99.65,
+            "valor_venta": 633.28,
+            "cargo_item": 113.99,
+            "importe_total": 747.27
+        }
+    ]
+}

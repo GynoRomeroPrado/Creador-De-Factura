@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA985-622806",
+    "fecha_emision": "2025-04-17T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20262134220",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Jr. de la Unión 819, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20007295902",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Benavides 4634, Miraflores, Lima",
+    "subtotal": 53675.69,
+    "igv": 9661.62,
+    "importe_total": 63337.31,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 50,
+            "precio_unitario": 895.12,
+            "valor_venta": 44756.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas) (Oferta)",
+            "unidad": "HOR",
+            "cantidad": 56,
+            "precio_unitario": 166.74,
+            "valor_venta": 9337.44
+        }
+    ]
+}

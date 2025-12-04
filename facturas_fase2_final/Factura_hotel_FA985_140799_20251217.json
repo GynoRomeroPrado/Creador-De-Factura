@@ -1,0 +1,77 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA985-140799",
+    "fecha_emision": "2025-12-17T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20672651183",
+    "emisor_razon_social": "Holiday Inn Luxury Lima",
+    "emisor_direccion": "Av. Javier Prado Este 4362, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20156737179",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 223, Miraflores, Lima",
+    "subtotal": 2656.41,
+    "igv": 478.15,
+    "importe_total": 3612.71,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.233,
+            "precio_unitario": 59.85,
+            "valor_venta": 313.2,
+            "cargo_item": 56.38,
+            "importe_total": 369.58
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.345,
+            "precio_unitario": 50.58,
+            "valor_venta": 118.61,
+            "cargo_item": 21.35,
+            "importe_total": 139.96
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.293,
+            "precio_unitario": 91.47,
+            "valor_venta": 758.56,
+            "cargo_item": 136.54,
+            "importe_total": 895.1
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION pack x6",
+            "unidad": "NIU",
+            "cantidad": 2.149,
+            "precio_unitario": 65.17,
+            "valor_venta": 140.05,
+            "cargo_item": 25.21,
+            "importe_total": 165.26
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.565,
+            "precio_unitario": 49.25,
+            "valor_venta": 471.08,
+            "cargo_item": 84.79,
+            "importe_total": 555.87
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.922,
+            "precio_unitario": 95.82,
+            "valor_venta": 854.91,
+            "cargo_item": 153.88,
+            "importe_total": 1008.79
+        }
+    ]
+}

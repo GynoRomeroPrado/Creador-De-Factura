@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA776-578680",
+    "fecha_emision": "2025-12-29T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20733828961",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 4947, La Victoria, Lima",
+    "receptor_numero_doc": "20703182527",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. La Marina 3888, Miraflores, Lima",
+    "subtotal": 113918.41,
+    "igv": 20505.31,
+    "importe_total": 134423.72,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 31,
+            "precio_unitario": 96.9,
+            "valor_venta": 3003.9
+        },
+        {
+            "numero": 2,
+            "descripcion": "Batería 12V/7AH",
+            "unidad": "UND",
+            "cantidad": 17,
+            "precio_unitario": 48.05,
+            "valor_venta": 816.85
+        },
+        {
+            "numero": 3,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 58,
+            "precio_unitario": 1843.42,
+            "valor_venta": 106918.36
+        },
+        {
+            "numero": 4,
+            "descripcion": "Estación Manual Doble Acción Modelo 2025",
+            "unidad": "UND",
+            "cantidad": 69,
+            "precio_unitario": 52.69,
+            "valor_venta": 3635.61
+        },
+        {
+            "numero": 5,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 14,
+            "precio_unitario": 48.0,
+            "valor_venta": 672.0
+        },
+        {
+            "numero": 6,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 23,
+            "precio_unitario": 805.62,
+            "valor_venta": 18529.26
+        },
+        {
+            "numero": 7,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 6,
+            "precio_unitario": 74.28,
+            "valor_venta": 445.68
+        }
+    ]
+}

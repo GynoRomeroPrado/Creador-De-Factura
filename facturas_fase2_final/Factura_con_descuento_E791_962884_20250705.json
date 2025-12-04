@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E791-962884",
+    "fecha_emision": "2025-07-05T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20875276850",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Jr. de la Unión 4006, San Isidro, Lima",
+    "receptor_numero_doc": "20124492107",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 1423, San Borja, Lima",
+    "subtotal": 25329.0,
+    "igv": 4559.22,
+    "importe_total": 29888.22,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 53,
+            "precio_unitario": 486.54,
+            "valor_venta": 25786.62
+        }
+    ]
+}

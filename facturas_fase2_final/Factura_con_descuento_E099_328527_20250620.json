@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E099-328527",
+    "fecha_emision": "2025-06-20T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20035104373",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Calle Los Pinos 3931, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20110841133",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Benavides 3768, San Isidro, Lima",
+    "subtotal": 413492.22,
+    "igv": 74428.6,
+    "importe_total": 487920.82,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Humo Convencional 2 Hilos Serie X",
+            "unidad": "UND",
+            "cantidad": 71,
+            "precio_unitario": 63.43,
+            "valor_venta": 4503.53
+        },
+        {
+            "numero": 2,
+            "descripcion": "Estación Manual Doble Acción (Importado)",
+            "unidad": "UND",
+            "cantidad": 84,
+            "precio_unitario": 49.82,
+            "valor_venta": 4184.88
+        },
+        {
+            "numero": 3,
+            "descripcion": "Batería 12V/7AH",
+            "unidad": "UND",
+            "cantidad": 47,
+            "precio_unitario": 50.21,
+            "valor_venta": 2359.87
+        },
+        {
+            "numero": 4,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 48,
+            "precio_unitario": 3459.06,
+            "valor_venta": 166034.88
+        },
+        {
+            "numero": 5,
+            "descripcion": "Central de Detección de Incendios (Importado)",
+            "unidad": "UND",
+            "cantidad": 37,
+            "precio_unitario": 2469.35,
+            "valor_venta": 91365.95
+        },
+        {
+            "numero": 6,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 69,
+            "precio_unitario": 2300.12,
+            "valor_venta": 158708.28
+        },
+        {
+            "numero": 7,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V Color: Negro",
+            "unidad": "UND",
+            "cantidad": 2,
+            "precio_unitario": 905.36,
+            "valor_venta": 1810.72
+        },
+        {
+            "numero": 8,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 51,
+            "precio_unitario": 99.14,
+            "valor_venta": 5056.14
+        },
+        {
+            "numero": 9,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 31,
+            "precio_unitario": 71.71,
+            "valor_venta": 2223.01
+        },
+        {
+            "numero": 10,
+            "descripcion": "Detector de Temperatura Térmico Convencional (Importado)",
+            "unidad": "UND",
+            "cantidad": 25,
+            "precio_unitario": 56.38,
+            "valor_venta": 1409.5
+        }
+    ]
+}

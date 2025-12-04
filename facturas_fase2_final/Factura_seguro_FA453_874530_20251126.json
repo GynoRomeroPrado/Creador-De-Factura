@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA453-874530",
+    "fecha_emision": "2025-11-26T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20481286337",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Calle Los Pinos 1477, Miraflores, Lima",
+    "receptor_numero_doc": "20101289444",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. Arequipa 4103, San Borja, Lima",
+    "subtotal": 84786.91,
+    "igv": 15261.64,
+    "importe_total": 100048.55,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 43,
+            "precio_unitario": 241.2,
+            "valor_venta": 10371.6
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 85,
+            "precio_unitario": 369.28,
+            "valor_venta": 31388.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 32,
+            "precio_unitario": 187.18,
+            "valor_venta": 5989.76
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 72,
+            "precio_unitario": 195.17,
+            "valor_venta": 14052.24
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 24,
+            "precio_unitario": 1350.22,
+            "valor_venta": 32405.28
+        }
+    ]
+}

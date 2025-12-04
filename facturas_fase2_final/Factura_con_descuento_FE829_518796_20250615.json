@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE829-518796",
+    "fecha_emision": "2025-06-15T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20121321859",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Calle Los Pinos 2409, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20689982345",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 4102, Santiago de Surco, Lima",
+    "subtotal": 297412.29,
+    "igv": 53534.21,
+    "importe_total": 350946.5,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 100,
+            "precio_unitario": 3368.98,
+            "valor_venta": 336898.0
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F733-125973",
+    "fecha_emision": "2025-04-17T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20008186350",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Jr. de la Unión 1291, Miraflores, Lima",
+    "receptor_numero_doc": "20142264782",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 2684, Cercado de Lima, Lima",
+    "subtotal": 2321.1,
+    "igv": 417.8,
+    "importe_total": 2738.9,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 46,
+            "precio_unitario": 17.56,
+            "valor_venta": 807.76
+        },
+        {
+            "numero": 2,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 16,
+            "precio_unitario": 12.95,
+            "valor_venta": 207.2
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 93,
+            "precio_unitario": 19.22,
+            "valor_venta": 1787.46
+        },
+        {
+            "numero": 4,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 1,
+            "precio_unitario": 98.96,
+            "valor_venta": 98.96
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE719-500565",
+    "fecha_emision": "2025-03-18T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20046476990",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 226, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20662629155",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Benavides 1321, San Borja, Lima",
+    "subtotal": 473988.53,
+    "igv": 85317.94,
+    "importe_total": 559306.47,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Oferta)",
+            "unidad": "POL",
+            "cantidad": 35,
+            "precio_unitario": 2486.91,
+            "valor_venta": 87041.85
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 10,
+            "precio_unitario": 2945.09,
+            "valor_venta": 29450.9
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 59,
+            "precio_unitario": 683.62,
+            "valor_venta": 40333.58
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 77,
+            "precio_unitario": 1596.63,
+            "valor_venta": 122940.51
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 84,
+            "precio_unitario": 364.27,
+            "valor_venta": 30598.68
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 3,
+            "precio_unitario": 1139.76,
+            "valor_venta": 3419.28
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 1,
+            "precio_unitario": 2088.68,
+            "valor_venta": 2088.68
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Importado)",
+            "unidad": "POL",
+            "cantidad": 58,
+            "precio_unitario": 189.62,
+            "valor_venta": 10997.96
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 59,
+            "precio_unitario": 2493.51,
+            "valor_venta": 147117.09
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F476-098197",
+    "fecha_emision": "2025-05-19T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20406871828",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 1663, San Borja, Lima",
+    "receptor_numero_doc": "20312262038",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 4809, Miraflores, Lima",
+    "subtotal": 2753.7,
+    "igv": 495.67,
+    "importe_total": 3249.37,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.631,
+            "precio_unitario": 68.75,
+            "valor_venta": 318.38
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.262,
+            "precio_unitario": 80.76,
+            "valor_venta": 505.72
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.494,
+            "precio_unitario": 134.49,
+            "valor_venta": 1007.87
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.262,
+            "precio_unitario": 82.17,
+            "valor_venta": 432.38
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.272,
+            "precio_unitario": 64.76,
+            "valor_venta": 535.69
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.182,
+            "precio_unitario": 83.41,
+            "valor_venta": 98.59
+        }
+    ]
+}

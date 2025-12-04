@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F224-630319",
+    "fecha_emision": "2025-04-27T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20786414297",
+    "emisor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "emisor_direccion": "Av. Benavides 2372, Miraflores, Lima",
+    "receptor_numero_doc": "20914421196",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 1586, Santiago de Surco, Lima",
+    "subtotal": 74853.06,
+    "igv": 13473.55,
+    "importe_total": 88326.61,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Casco de Seguridad 3M Blanco",
+            "unidad": "UND",
+            "cantidad": 17,
+            "precio_unitario": 41.51,
+            "valor_venta": 705.67
+        },
+        {
+            "numero": 2,
+            "descripcion": "Piedra Chancada 1/2\" (m3)",
+            "unidad": "M3",
+            "cantidad": 28,
+            "precio_unitario": 55.63,
+            "valor_venta": 1557.64
+        },
+        {
+            "numero": 3,
+            "descripcion": "Guantes de Cuero Reforzado",
+            "unidad": "PAR",
+            "cantidad": 45,
+            "precio_unitario": 17.96,
+            "valor_venta": 808.2
+        },
+        {
+            "numero": 4,
+            "descripcion": "Arena Gruesa (m3)",
+            "unidad": "M3",
+            "cantidad": 50,
+            "precio_unitario": 46.1,
+            "valor_venta": 2305.0
+        },
+        {
+            "numero": 5,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 31,
+            "precio_unitario": 702.46,
+            "valor_venta": 21776.26
+        },
+        {
+            "numero": 6,
+            "descripcion": "Piedra Chancada 1/2\" (m3)",
+            "unidad": "M3",
+            "cantidad": 41,
+            "precio_unitario": 58.68,
+            "valor_venta": 2405.88
+        },
+        {
+            "numero": 7,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 68,
+            "precio_unitario": 724.03,
+            "valor_venta": 49234.04
+        }
+    ]
+}

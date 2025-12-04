@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA213-121807",
+    "fecha_emision": "2025-09-30T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20296882039",
+    "emisor_razon_social": "Ibis Plaza Piura",
+    "emisor_direccion": "Av. Arequipa 178, La Victoria, Lima",
+    "receptor_numero_doc": "20297308085",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 175, San Borja, Lima",
+    "subtotal": 815.11,
+    "igv": 146.72,
+    "importe_total": 1108.55,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.888,
+            "precio_unitario": 53.19,
+            "valor_venta": 525.94,
+            "cargo_item": 94.67,
+            "importe_total": 620.61
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.398,
+            "precio_unitario": 85.1,
+            "valor_venta": 289.17,
+            "cargo_item": 52.05,
+            "importe_total": 341.22
+        }
+    ]
+}

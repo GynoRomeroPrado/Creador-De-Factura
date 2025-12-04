@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA222-501981",
+    "fecha_emision": "2025-04-08T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20125535802",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Av. La Marina 1113, Miraflores, Lima",
+    "receptor_numero_doc": "20965409301",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 3326, Miraflores, Lima",
+    "subtotal": 1651.44,
+    "igv": 297.26,
+    "importe_total": 1948.7,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 74,
+            "precio_unitario": 5.74,
+            "valor_venta": 424.76
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 95 (Importado)",
+            "unidad": "GL",
+            "cantidad": 1,
+            "precio_unitario": 5.45,
+            "valor_venta": 5.45
+        },
+        {
+            "numero": 3,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 66,
+            "precio_unitario": 5.98,
+            "valor_venta": 394.68
+        },
+        {
+            "numero": 4,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 63,
+            "precio_unitario": 2.03,
+            "valor_venta": 127.89
+        },
+        {
+            "numero": 5,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 93,
+            "precio_unitario": 3.58,
+            "valor_venta": 332.94
+        },
+        {
+            "numero": 6,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 14,
+            "precio_unitario": 3.75,
+            "valor_venta": 52.5
+        },
+        {
+            "numero": 7,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 89,
+            "precio_unitario": 2.55,
+            "valor_venta": 226.95
+        },
+        {
+            "numero": 8,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 42,
+            "precio_unitario": 3.16,
+            "valor_venta": 132.72
+        },
+        {
+            "numero": 9,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 6,
+            "precio_unitario": 1.54,
+            "valor_venta": 9.24
+        },
+        {
+            "numero": 10,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 76,
+            "precio_unitario": 2.08,
+            "valor_venta": 158.08
+        }
+    ]
+}

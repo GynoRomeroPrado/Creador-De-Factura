@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E228-003120",
+    "fecha_emision": "2025-04-10T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20386269077",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 3697, Miraflores, Lima",
+    "receptor_numero_doc": "20517746763",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 1112, Cercado de Lima, Lima",
+    "subtotal": 6606.32,
+    "igv": 1189.14,
+    "importe_total": 7795.46,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 56,
+            "precio_unitario": 117.97,
+            "valor_venta": 6606.32
+        }
+    ]
+}

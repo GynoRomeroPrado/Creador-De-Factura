@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA178-914890",
+    "fecha_emision": "2025-11-03T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20170448091",
+    "emisor_razon_social": "Casa Andina Suites Barranco",
+    "emisor_direccion": "Av. Benavides 2119, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20055836079",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Calle Los Pinos 4593, Cercado de Lima, Lima",
+    "subtotal": 808.41,
+    "igv": 121.41,
+    "importe_total": 1075.34,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.617,
+            "precio_unitario": 75.68,
+            "valor_venta": 425.09,
+            "cargo_item": 76.52,
+            "importe_total": 501.61
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.854,
+            "precio_unitario": 78.97,
+            "valor_venta": 383.32,
+            "cargo_item": 69.0,
+            "importe_total": 452.32
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA078-491947",
+    "fecha_emision": "2025-07-16T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20794954373",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Benavides 201, La Victoria, Lima",
+    "receptor_numero_doc": "20553135835",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 4648, Miraflores, Lima",
+    "subtotal": 3652.46,
+    "igv": 587.58,
+    "importe_total": 4240.04,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Humo Convencional 2 Hilos Serie X",
+            "unidad": "UND",
+            "cantidad": 6,
+            "precio_unitario": 50.76,
+            "valor_venta": 304.56
+        },
+        {
+            "numero": 2,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 13,
+            "precio_unitario": 99.68,
+            "valor_venta": 1295.84
+        },
+        {
+            "numero": 3,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 8,
+            "precio_unitario": 67.49,
+            "valor_venta": 539.92
+        },
+        {
+            "numero": 4,
+            "descripcion": "Extintor PQS 6kg Modelo 2025",
+            "unidad": "UND",
+            "cantidad": 31,
+            "precio_unitario": 61.87,
+            "valor_venta": 1917.97
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE195-655773",
+    "fecha_emision": "2025-06-22T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20588560776",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. La Marina 4393, San Borja, Lima",
+    "receptor_numero_doc": "20059135814",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 2045, La Victoria, Lima",
+    "subtotal": 4190.48,
+    "igv": 754.29,
+    "importe_total": 4944.77,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 28,
+            "precio_unitario": 149.66,
+            "valor_venta": 4190.48
+        }
+    ]
+}

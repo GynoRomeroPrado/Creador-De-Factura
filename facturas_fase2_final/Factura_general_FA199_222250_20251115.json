@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA199-222250",
+    "fecha_emision": "2025-11-15T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20639943721",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 2633, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20110373750",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Benavides 4198, Cercado de Lima, Lima",
+    "subtotal": 43723.6,
+    "igv": 5486.47,
+    "importe_total": 49210.07,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 33,
+            "precio_unitario": 24.49,
+            "valor_venta": 808.17
+        },
+        {
+            "numero": 2,
+            "descripcion": "Cemento Sol Tipo I (42.5kg)",
+            "unidad": "BOL",
+            "cantidad": 17,
+            "precio_unitario": 27.51,
+            "valor_venta": 467.67
+        },
+        {
+            "numero": 3,
+            "descripcion": "Casco de Seguridad 3M Blanco",
+            "unidad": "UND",
+            "cantidad": 24,
+            "precio_unitario": 38.79,
+            "valor_venta": 930.96
+        },
+        {
+            "numero": 4,
+            "descripcion": "Cemento Sol Tipo I (42.5kg)",
+            "unidad": "BOL",
+            "cantidad": 61,
+            "precio_unitario": 28.24,
+            "valor_venta": 1722.64
+        },
+        {
+            "numero": 5,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark (Oferta)",
+            "unidad": "MILLAR",
+            "cantidad": 54,
+            "precio_unitario": 728.16,
+            "valor_venta": 39320.64
+        },
+        {
+            "numero": 6,
+            "descripcion": "Guantes de Cuero Reforzado",
+            "unidad": "PAR",
+            "cantidad": 95,
+            "precio_unitario": 12.59,
+            "valor_venta": 1196.05
+        },
+        {
+            "numero": 7,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 89,
+            "precio_unitario": 33.93,
+            "valor_venta": 3019.77
+        }
+    ]
+}

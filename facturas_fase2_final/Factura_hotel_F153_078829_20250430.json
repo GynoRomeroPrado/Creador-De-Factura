@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F153-078829",
+    "fecha_emision": "2025-04-30T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20565565860",
+    "emisor_razon_social": "Sonesta Plaza Trujillo",
+    "emisor_direccion": "Calle Los Pinos 1682, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20783926696",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 1536, Santiago de Surco, Lima",
+    "subtotal": 2695.35,
+    "igv": 485.16,
+    "importe_total": 3665.67,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.836,
+            "precio_unitario": 75.22,
+            "valor_venta": 739.86,
+            "cargo_item": 133.17,
+            "importe_total": 873.03
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.345,
+            "precio_unitario": 54.25,
+            "valor_venta": 72.97,
+            "cargo_item": 13.13,
+            "importe_total": 86.1
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.484,
+            "precio_unitario": 61.63,
+            "valor_venta": 522.87,
+            "cargo_item": 94.12,
+            "importe_total": 616.99
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.24,
+            "precio_unitario": 126.42,
+            "valor_venta": 1168.12,
+            "cargo_item": 210.26,
+            "importe_total": 1378.38
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.902,
+            "precio_unitario": 100.7,
+            "valor_venta": 191.53,
+            "cargo_item": 34.48,
+            "importe_total": 226.01
+        }
+    ]
+}

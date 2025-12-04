@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE758-835705",
+    "fecha_emision": "2025-07-04T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20475449321",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Calle Los Pinos 3952, La Victoria, Lima",
+    "receptor_numero_doc": "20755391396",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Arequipa 812, Miraflores, Lima",
+    "subtotal": 4933.61,
+    "igv": 688.11,
+    "importe_total": 5621.72,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.145,
+            "precio_unitario": 40.33,
+            "valor_venta": 167.17
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.078,
+            "precio_unitario": 62.9,
+            "valor_venta": 193.61
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.418,
+            "precio_unitario": 62.22,
+            "valor_venta": 88.23
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.173,
+            "precio_unitario": 81.51,
+            "valor_venta": 177.12
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.595,
+            "precio_unitario": 85.36,
+            "valor_venta": 306.87
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.052,
+            "precio_unitario": 144.35,
+            "valor_venta": 1306.66
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.198,
+            "precio_unitario": 106.91,
+            "valor_venta": 448.81
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.464,
+            "precio_unitario": 141.96,
+            "valor_venta": 775.67
+        },
+        {
+            "numero": 9,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.878,
+            "precio_unitario": 89.3,
+            "valor_venta": 346.31
+        },
+        {
+            "numero": 10,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.21,
+            "precio_unitario": 121.95,
+            "valor_venta": 1123.16
+        }
+    ]
+}

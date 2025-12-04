@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E429-563156",
+    "fecha_emision": "2025-05-14T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20860735203",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 1981, San Isidro, Lima",
+    "receptor_numero_doc": "20386483451",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 4701, San Borja, Lima",
+    "subtotal": 11199.14,
+    "igv": 2015.85,
+    "importe_total": 13214.99,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 85,
+            "precio_unitario": 120.34,
+            "valor_venta": 10228.9
+        },
+        {
+            "numero": 2,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 17,
+            "precio_unitario": 21.17,
+            "valor_venta": 359.89
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pollo Entero kg",
+            "unidad": "KG",
+            "cantidad": 65,
+            "precio_unitario": 9.39,
+            "valor_venta": 610.35
+        }
+    ]
+}

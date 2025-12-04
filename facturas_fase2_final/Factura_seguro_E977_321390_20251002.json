@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E977-321390",
+    "fecha_emision": "2025-10-02T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20668811001",
+    "emisor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "emisor_direccion": "Jr. de la Unión 3747, Miraflores, Lima",
+    "receptor_numero_doc": "20866907634",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 3412, San Borja, Lima",
+    "subtotal": 280813.26,
+    "igv": 50546.39,
+    "importe_total": 331359.65,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 191.41,
+            "valor_venta": 10144.73
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 23,
+            "precio_unitario": 1932.72,
+            "valor_venta": 44452.56
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 99,
+            "precio_unitario": 481.38,
+            "valor_venta": 47656.62
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Importado)",
+            "unidad": "POL",
+            "cantidad": 55,
+            "precio_unitario": 189.13,
+            "valor_venta": 10402.15
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Color: Negro",
+            "unidad": "POL",
+            "cantidad": 22,
+            "precio_unitario": 192.18,
+            "valor_venta": 4227.96
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 74,
+            "precio_unitario": 2215.26,
+            "valor_venta": 163929.24
+        }
+    ]
+}

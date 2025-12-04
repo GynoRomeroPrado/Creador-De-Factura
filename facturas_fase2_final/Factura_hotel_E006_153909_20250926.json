@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E006-153909",
+    "fecha_emision": "2025-09-26T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20918700839",
+    "emisor_razon_social": "JW Marriott Luxury Cusco",
+    "emisor_direccion": "Jr. de la Unión 3819, San Isidro, Lima",
+    "receptor_numero_doc": "20452229511",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Calle Los Pinos 1643, Santiago de Surco, Lima",
+    "subtotal": 496.04,
+    "igv": 89.29,
+    "importe_total": 674.62,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.78,
+            "precio_unitario": 85.82,
+            "valor_venta": 496.04,
+            "cargo_item": 89.29,
+            "importe_total": 585.33
+        }
+    ]
+}

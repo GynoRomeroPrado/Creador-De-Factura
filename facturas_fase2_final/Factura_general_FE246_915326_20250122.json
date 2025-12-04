@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE246-915326",
+    "fecha_emision": "2025-01-22T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20284000090",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Jr. de la Unión 4741, Miraflores, Lima",
+    "receptor_numero_doc": "20267590801",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Calle Los Pinos 4047, Santiago de Surco, Lima",
+    "subtotal": 170061.38,
+    "igv": 24304.89,
+    "importe_total": 194366.27,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 46,
+            "precio_unitario": 1338.48,
+            "valor_venta": 61570.08
+        },
+        {
+            "numero": 2,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 50,
+            "precio_unitario": 480.22,
+            "valor_venta": 24011.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica Color: Negro",
+            "unidad": "PROY",
+            "cantidad": 18,
+            "precio_unitario": 4693.35,
+            "valor_venta": 84480.3
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE435-180685",
+    "fecha_emision": "2025-09-22T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20672801011",
+    "emisor_razon_social": "Casa Andina Standard Chiclayo",
+    "emisor_direccion": "Av. Arequipa 597, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20585730352",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 4976, Santiago de Surco, Lima",
+    "subtotal": 3337.48,
+    "igv": 600.75,
+    "importe_total": 4538.97,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.589,
+            "precio_unitario": 83.86,
+            "valor_venta": 384.83,
+            "cargo_item": 69.27,
+            "importe_total": 454.1
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.635,
+            "precio_unitario": 96.68,
+            "valor_venta": 351.43,
+            "cargo_item": 63.26,
+            "importe_total": 414.69
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.609,
+            "precio_unitario": 82.35,
+            "valor_venta": 214.85,
+            "cargo_item": 38.67,
+            "importe_total": 253.52
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.721,
+            "precio_unitario": 74.72,
+            "valor_venta": 352.75,
+            "cargo_item": 63.49,
+            "importe_total": 416.24
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.637,
+            "precio_unitario": 69.37,
+            "valor_venta": 529.78,
+            "cargo_item": 95.36,
+            "importe_total": 625.14
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.938,
+            "precio_unitario": 64.18,
+            "valor_venta": 445.28,
+            "cargo_item": 80.15,
+            "importe_total": 525.43
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.426,
+            "precio_unitario": 81.27,
+            "valor_venta": 766.05,
+            "cargo_item": 137.89,
+            "importe_total": 903.94
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.253,
+            "precio_unitario": 89.92,
+            "valor_venta": 292.51,
+            "cargo_item": 52.65,
+            "importe_total": 345.16
+        }
+    ]
+}

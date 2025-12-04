@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA340-219231",
+    "fecha_emision": "2025-03-15T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20384230980",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Calle Los Pinos 4744, La Victoria, Lima",
+    "receptor_numero_doc": "20195595578",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 413, La Victoria, Lima",
+    "subtotal": 1325.96,
+    "igv": 238.67,
+    "importe_total": 1564.63,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.477,
+            "precio_unitario": 149.58,
+            "valor_venta": 1267.99
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.519,
+            "precio_unitario": 61.62,
+            "valor_venta": 155.22
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.168,
+            "precio_unitario": 117.07,
+            "valor_venta": 136.74
+        }
+    ]
+}

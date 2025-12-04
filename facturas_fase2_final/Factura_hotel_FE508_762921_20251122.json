@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE508-762921",
+    "fecha_emision": "2025-11-22T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20667139806",
+    "emisor_razon_social": "JW Marriott Premium Puno",
+    "emisor_direccion": "Av. Benavides 4021, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20933206638",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Benavides 4172, Cercado de Lima, Lima",
+    "subtotal": 311.0,
+    "igv": 55.98,
+    "importe_total": 438.31,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.333,
+            "precio_unitario": 69.92,
+            "valor_venta": 163.12,
+            "cargo_item": 29.36,
+            "importe_total": 192.48
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.702,
+            "precio_unitario": 54.73,
+            "valor_venta": 147.88,
+            "cargo_item": 26.62,
+            "importe_total": 174.5
+        }
+    ]
+}

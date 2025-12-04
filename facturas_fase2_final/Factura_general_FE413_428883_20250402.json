@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE413-428883",
+    "fecha_emision": "2025-04-02T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20552457774",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 1443, Miraflores, Lima",
+    "receptor_numero_doc": "20926852397",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Calle Los Pinos 1301, Santiago de Surco, Lima",
+    "subtotal": 30671.94,
+    "igv": 4516.05,
+    "importe_total": 35187.99,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 37,
+            "precio_unitario": 182.09,
+            "valor_venta": 6737.33
+        },
+        {
+            "numero": 2,
+            "descripcion": "Aceite Vegetal x 20L (Oferta)",
+            "unidad": "BID",
+            "cantidad": 85,
+            "precio_unitario": 111.97,
+            "valor_venta": 9517.45
+        },
+        {
+            "numero": 3,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 56,
+            "precio_unitario": 196.18,
+            "valor_venta": 10986.08
+        },
+        {
+            "numero": 4,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 9,
+            "precio_unitario": 108.2,
+            "valor_venta": 973.8
+        },
+        {
+            "numero": 5,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 4,
+            "precio_unitario": 85.61,
+            "valor_venta": 342.44
+        },
+        {
+            "numero": 6,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 91,
+            "precio_unitario": 23.24,
+            "valor_venta": 2114.84
+        }
+    ]
+}

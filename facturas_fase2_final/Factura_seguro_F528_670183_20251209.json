@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F528-670183",
+    "fecha_emision": "2025-12-09T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20500264943",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Benavides 4349, San Borja, Lima",
+    "receptor_numero_doc": "20887596884",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Jr. de la Unión 4349, La Victoria, Lima",
+    "subtotal": 35344.29,
+    "igv": 4653.6,
+    "importe_total": 39997.89,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 90,
+            "precio_unitario": 448.41,
+            "valor_venta": 40356.9
+        }
+    ]
+}

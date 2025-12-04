@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA019-752040",
+    "fecha_emision": "2025-08-19T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20751562692",
+    "emisor_razon_social": "Ibis Luxury Arequipa",
+    "emisor_direccion": "Calle Los Pinos 4771, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20542274191",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Benavides 4125, Miraflores, Lima",
+    "subtotal": 920.55,
+    "igv": 165.7,
+    "importe_total": 1251.95,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.598,
+            "precio_unitario": 67.71,
+            "valor_venta": 108.2,
+            "cargo_item": 19.48,
+            "importe_total": 127.68
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.798,
+            "precio_unitario": 82.91,
+            "valor_venta": 812.35,
+            "cargo_item": 146.22,
+            "importe_total": 958.57
+        }
+    ]
+}

@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F083-292509",
+    "fecha_emision": "2025-06-27T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20954860940",
+    "emisor_razon_social": "Casa Andina Luxury San Isidro",
+    "emisor_direccion": "Av. La Marina 4029, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20456692011",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Arequipa 328, San Isidro, Lima",
+    "subtotal": 1917.55,
+    "igv": 345.16,
+    "importe_total": 2607.87,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.014,
+            "precio_unitario": 91.15,
+            "valor_venta": 821.63,
+            "cargo_item": 147.89,
+            "importe_total": 969.52
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.935,
+            "precio_unitario": 57.23,
+            "valor_venta": 282.43,
+            "cargo_item": 50.84,
+            "importe_total": 333.27
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.222,
+            "precio_unitario": 51.93,
+            "valor_venta": 375.04,
+            "cargo_item": 67.51,
+            "importe_total": 442.55
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.427,
+            "precio_unitario": 36.86,
+            "valor_venta": 126.32,
+            "cargo_item": 22.74,
+            "importe_total": 149.06
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.62,
+            "precio_unitario": 55.54,
+            "valor_venta": 312.13,
+            "cargo_item": 56.18,
+            "importe_total": 368.31
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F636-163978",
+    "fecha_emision": "2025-11-30T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20750535705",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 4374, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20803920894",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Benavides 4685, Cercado de Lima, Lima",
+    "subtotal": 28781.82,
+    "igv": 5180.73,
+    "importe_total": 33962.55,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 54,
+            "precio_unitario": 149.51,
+            "valor_venta": 8073.54
+        },
+        {
+            "numero": 2,
+            "descripcion": "Azúcar Blanca x 50kg (Importado)",
+            "unidad": "SAC",
+            "cantidad": 94,
+            "precio_unitario": 128.49,
+            "valor_venta": 12078.06
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pollo Entero kg",
+            "unidad": "KG",
+            "cantidad": 23,
+            "precio_unitario": 7.56,
+            "valor_venta": 173.88
+        },
+        {
+            "numero": 4,
+            "descripcion": "Pollo Entero kg Modelo 2025",
+            "unidad": "KG",
+            "cantidad": 40,
+            "precio_unitario": 9.21,
+            "valor_venta": 368.4
+        },
+        {
+            "numero": 5,
+            "descripcion": "Arroz Superior x 50kg Modelo 2025",
+            "unidad": "SAC",
+            "cantidad": 49,
+            "precio_unitario": 165.06,
+            "valor_venta": 8087.94
+        }
+    ]
+}

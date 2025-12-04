@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E887-587656",
+    "fecha_emision": "2025-06-24T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20052443220",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 1238, San Borja, Lima",
+    "receptor_numero_doc": "20323703656",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. Arequipa 402, Cercado de Lima, Lima",
+    "subtotal": 92571.96,
+    "igv": 16662.95,
+    "importe_total": 109234.91,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 6,
+            "precio_unitario": 382.08,
+            "valor_venta": 2292.48
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida (Importado)",
+            "unidad": "POL",
+            "cantidad": 60,
+            "precio_unitario": 268.85,
+            "valor_venta": 16131.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios (Oferta)",
+            "unidad": "POL",
+            "cantidad": 47,
+            "precio_unitario": 546.42,
+            "valor_venta": 25681.74
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida Serie X",
+            "unidad": "POL",
+            "cantidad": 37,
+            "precio_unitario": 463.03,
+            "valor_venta": 17132.11
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 59,
+            "precio_unitario": 187.53,
+            "valor_venta": 11064.27
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 46,
+            "precio_unitario": 440.66,
+            "valor_venta": 20270.36
+        }
+    ]
+}

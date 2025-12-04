@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F965-763373",
+    "fecha_emision": "2025-10-29T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20552838786",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 2139, La Victoria, Lima",
+    "receptor_numero_doc": "20974969077",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Benavides 3284, San Borja, Lima",
+    "subtotal": 128760.83,
+    "igv": 23176.95,
+    "importe_total": 151937.78,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 96,
+            "precio_unitario": 45.28,
+            "valor_venta": 4346.88
+        },
+        {
+            "numero": 2,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 47,
+            "precio_unitario": 2578.26,
+            "valor_venta": 121178.22
+        },
+        {
+            "numero": 3,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 16,
+            "precio_unitario": 58.64,
+            "valor_venta": 938.24
+        },
+        {
+            "numero": 4,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 39,
+            "precio_unitario": 58.91,
+            "valor_venta": 2297.49
+        }
+    ]
+}

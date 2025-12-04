@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F603-658497",
+    "fecha_emision": "2025-09-02T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20496479727",
+    "emisor_razon_social": "Westin Luxury Surco",
+    "emisor_direccion": "Av. La Marina 1011, Miraflores, Lima",
+    "receptor_numero_doc": "20070787050",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Jr. de la Unión 2464, San Borja, Lima",
+    "subtotal": 1316.19,
+    "igv": 236.91,
+    "importe_total": 1790.01,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.919,
+            "precio_unitario": 58.25,
+            "valor_venta": 228.28,
+            "cargo_item": 41.09,
+            "importe_total": 269.37
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.66,
+            "precio_unitario": 86.19,
+            "valor_venta": 660.22,
+            "cargo_item": 118.84,
+            "importe_total": 779.06
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.298,
+            "precio_unitario": 87.16,
+            "valor_venta": 287.45,
+            "cargo_item": 51.74,
+            "importe_total": 339.19
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.791,
+            "precio_unitario": 78.3,
+            "valor_venta": 140.24,
+            "cargo_item": 25.24,
+            "importe_total": 165.48
+        }
+    ]
+}

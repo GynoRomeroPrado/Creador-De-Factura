@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA479-085207",
+    "fecha_emision": "2025-12-24T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20015350271",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 4510, La Victoria, Lima",
+    "receptor_numero_doc": "20765817065",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. Benavides 1308, San Borja, Lima",
+    "subtotal": 511142.47,
+    "igv": 80527.85,
+    "importe_total": 591692.54,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 98,
+            "precio_unitario": 1367.31,
+            "valor_venta": 133996.38
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 57,
+            "precio_unitario": 1090.33,
+            "valor_venta": 62148.81
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Oferta)",
+            "unidad": "POL",
+            "cantidad": 97,
+            "precio_unitario": 1542.12,
+            "valor_venta": 149585.64
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 48,
+            "precio_unitario": 2862.33,
+            "valor_venta": 137391.84
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 29,
+            "precio_unitario": 966.2,
+            "valor_venta": 28019.8
+        }
+    ]
+}

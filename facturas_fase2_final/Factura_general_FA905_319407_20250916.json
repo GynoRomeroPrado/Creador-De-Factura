@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA905-319407",
+    "fecha_emision": "2025-09-16T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20162237340",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 3658, San Borja, Lima",
+    "receptor_numero_doc": "20796060141",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 1424, La Victoria, Lima",
+    "subtotal": 363.94,
+    "igv": 54.77,
+    "importe_total": 418.71,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 96,
+            "precio_unitario": 4.46,
+            "valor_venta": 428.16
+        }
+    ]
+}

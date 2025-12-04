@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E266-472185",
+    "fecha_emision": "2025-02-28T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20582536601",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 3905, San Borja, Lima",
+    "receptor_numero_doc": "20782914236",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 4509, San Isidro, Lima",
+    "subtotal": 197981.21,
+    "igv": 35636.62,
+    "importe_total": 233617.83,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas Serie X",
+            "unidad": "MES",
+            "cantidad": 10,
+            "precio_unitario": 2412.9,
+            "valor_venta": 24129.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 73,
+            "precio_unitario": 2769.41,
+            "valor_venta": 202166.93
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA450-582282",
+    "fecha_emision": "2025-06-04T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20683835987",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Calle Los Pinos 2460, San Isidro, Lima",
+    "receptor_numero_doc": "20922819981",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Benavides 3070, Miraflores, Lima",
+    "subtotal": 3263.3,
+    "igv": 587.39,
+    "importe_total": 3850.69,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.463,
+            "precio_unitario": 117.06,
+            "valor_venta": 1107.74
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.323,
+            "precio_unitario": 86.66,
+            "valor_venta": 374.63
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.933,
+            "precio_unitario": 78.1,
+            "valor_venta": 619.57
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.111,
+            "precio_unitario": 95.74,
+            "valor_venta": 776.55
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.915,
+            "precio_unitario": 60.81,
+            "valor_venta": 177.26
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.711,
+            "precio_unitario": 76.56,
+            "valor_venta": 207.55
+        }
+    ]
+}

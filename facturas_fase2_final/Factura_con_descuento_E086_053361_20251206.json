@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E086-053361",
+    "fecha_emision": "2025-12-06T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20918727711",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 734, La Victoria, Lima",
+    "receptor_numero_doc": "20949332668",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Benavides 2021, Miraflores, Lima",
+    "subtotal": 2712.73,
+    "igv": 488.29,
+    "importe_total": 3201.02,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.892,
+            "precio_unitario": 138.52,
+            "valor_venta": 539.12
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.958,
+            "precio_unitario": 93.54,
+            "valor_venta": 744.39
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.955,
+            "precio_unitario": 77.58,
+            "valor_venta": 461.99
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.062,
+            "precio_unitario": 127.2,
+            "valor_venta": 643.89
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.195,
+            "precio_unitario": 79.6,
+            "valor_venta": 333.92
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.593,
+            "precio_unitario": 50.38,
+            "valor_venta": 130.64
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.584,
+            "precio_unitario": 41.33,
+            "valor_venta": 148.13
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.242,
+            "precio_unitario": 58.41,
+            "valor_venta": 189.37
+        }
+    ]
+}

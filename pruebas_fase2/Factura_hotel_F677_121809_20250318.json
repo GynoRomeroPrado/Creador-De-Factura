@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F677-121809",
+    "fecha_emision": "2025-03-18T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20270071954",
+    "emisor_razon_social": "JW Marriott Wyndham Miraflores",
+    "emisor_direccion": "Av. Arequipa 2737, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20116782309",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Jr. de la Unión 2777, Miraflores, Lima",
+    "subtotal": 2726.25,
+    "igv": 490.72,
+    "importe_total": 3707.69,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.813,
+            "precio_unitario": 83.62,
+            "valor_venta": 486.08,
+            "cargo_item": 87.49,
+            "importe_total": 573.57
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.775,
+            "precio_unitario": 113.85,
+            "valor_venta": 202.08,
+            "cargo_item": 36.37,
+            "importe_total": 238.45
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.838,
+            "precio_unitario": 76.02,
+            "valor_venta": 367.78,
+            "cargo_item": 66.2,
+            "importe_total": 433.98
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.257,
+            "precio_unitario": 98.31,
+            "valor_venta": 123.58,
+            "cargo_item": 22.24,
+            "importe_total": 145.82
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.927,
+            "precio_unitario": 75.18,
+            "valor_venta": 746.31,
+            "cargo_item": 134.34,
+            "importe_total": 880.65
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.423,
+            "precio_unitario": 86.74,
+            "valor_venta": 210.17,
+            "cargo_item": 37.83,
+            "importe_total": 248.0
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.163,
+            "precio_unitario": 34.11,
+            "valor_venta": 176.11,
+            "cargo_item": 31.7,
+            "importe_total": 207.81
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.535,
+            "precio_unitario": 91.32,
+            "valor_venta": 414.14,
+            "cargo_item": 74.55,
+            "importe_total": 488.69
+        }
+    ]
+}

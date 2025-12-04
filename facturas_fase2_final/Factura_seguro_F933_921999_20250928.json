@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F933-921999",
+    "fecha_emision": "2025-09-28T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20488000137",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. La Marina 3538, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20818004002",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 1686, La Victoria, Lima",
+    "subtotal": 308838.42,
+    "igv": 55590.92,
+    "importe_total": 364429.34,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 73,
+            "precio_unitario": 1092.55,
+            "valor_venta": 79756.15
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida Serie X",
+            "unidad": "POL",
+            "cantidad": 89,
+            "precio_unitario": 363.68,
+            "valor_venta": 32367.52
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 59,
+            "precio_unitario": 882.75,
+            "valor_venta": 52082.25
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 90,
+            "precio_unitario": 1473.51,
+            "valor_venta": 132615.9
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 10,
+            "precio_unitario": 1201.66,
+            "valor_venta": 12016.6
+        }
+    ]
+}

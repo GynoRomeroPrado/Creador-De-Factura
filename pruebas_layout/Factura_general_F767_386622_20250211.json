@@ -1,0 +1,130 @@
+{
+    "tipo_comprobante": "FACTURA ELECTRÓNICA",
+    "tipo_factura": "general",
+    "numero_factura": "F767-386622",
+    "serie": "F767",
+    "numero": "386622",
+    "fecha_emision": "2025-02-11T00:00:00",
+    "fecha_vencimiento": "2025-02-11T00:00:00",
+    "emisor": {
+        "ruc": "20264161755",
+        "razon_social": "Distribuidora Comercial Lima S.A.C.",
+        "direccion": "Av. Javier Prado Este 1774, Miraflores, Lima",
+        "telefono": "948769251",
+        "email": "facturacion@hotel.com.pe"
+    },
+    "receptor": {
+        "ruc": "20360968074",
+        "razon_social": "Tecnología Digital Avanzada S.A.C.",
+        "direccion": "Av. Benavides 1419, San Borja, Lima",
+        "telefono": "01-6840793",
+        "email": "administracion@corp.pe"
+    },
+    "moneda": "EUR",
+    "simbolo_moneda": "€",
+    "nombre_moneda": "EUROS",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 24,
+            "precio_unitario": 130.46,
+            "valor_venta": 3131.04
+        },
+        {
+            "numero": 2,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 36,
+            "precio_unitario": 20.41,
+            "valor_venta": 734.76
+        },
+        {
+            "numero": 3,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 100,
+            "precio_unitario": 4.97,
+            "valor_venta": 497.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 40,
+            "precio_unitario": 13.8,
+            "valor_venta": 552.0
+        },
+        {
+            "numero": 5,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 60,
+            "precio_unitario": 200.61,
+            "valor_venta": 12036.6
+        },
+        {
+            "numero": 6,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 59,
+            "precio_unitario": 12.67,
+            "valor_venta": 747.53
+        },
+        {
+            "numero": 7,
+            "descripcion": "Frijol Canario x 50kg Modelo 2025",
+            "unidad": "SAC",
+            "cantidad": 17,
+            "precio_unitario": 219.9,
+            "valor_venta": 3738.3
+        },
+        {
+            "numero": 8,
+            "descripcion": "Huevos Color x 30 unid Modelo 2025",
+            "unidad": "CAJA",
+            "cantidad": 87,
+            "precio_unitario": 13.84,
+            "valor_venta": 1204.08
+        },
+        {
+            "numero": 9,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 14,
+            "precio_unitario": 195.09,
+            "valor_venta": 2731.26
+        },
+        {
+            "numero": 10,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 63,
+            "precio_unitario": 176.77,
+            "valor_venta": 11136.51
+        }
+    ],
+    "op_gravada": 36509.08,
+    "op_exonerada": 0.0,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 6571.63,
+    "total_cargos": 0.0,
+    "otros_cargos": 0.0,
+    "total": 43080.71,
+    "total_letras": "CUARENTA Y TRES MIL OCHENTA CON 71/100 EUROS",
+    "forma_pago": "DEPOSITO EN CUENTA",
+    "con_credito": false,
+    "cuotas": [],
+    "numero_contrato": "CW959571",
+    "periodo_facturado": null,
+    "observaciones": null,
+    "datos_hotel": null,
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": null,
+    "industria": "restaurante"
+}

@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE701-151440",
+    "fecha_emision": "2025-08-18T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20116084164",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 354, San Borja, Lima",
+    "receptor_numero_doc": "20006868658",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 2297, San Isidro, Lima",
+    "subtotal": 487.81,
+    "igv": 87.81,
+    "importe_total": 575.62,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 84,
+            "precio_unitario": 1.89,
+            "valor_venta": 158.76
+        },
+        {
+            "numero": 2,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 60,
+            "precio_unitario": 4.35,
+            "valor_venta": 261.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 33,
+            "precio_unitario": 2.84,
+            "valor_venta": 93.72
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE500-104103",
+    "fecha_emision": "2025-02-28T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20477289241",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 1767, San Borja, Lima",
+    "receptor_numero_doc": "20484479616",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Calle Los Pinos 460, San Isidro, Lima",
+    "subtotal": 628.91,
+    "igv": 113.2,
+    "importe_total": 742.11,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.158,
+            "precio_unitario": 35.69,
+            "valor_venta": 112.71
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.767,
+            "precio_unitario": 145.82,
+            "valor_venta": 549.3
+        }
+    ]
+}

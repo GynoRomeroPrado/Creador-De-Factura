@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA035-978953",
+    "fecha_emision": "2025-10-06T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20403124550",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 2752, Miraflores, Lima",
+    "receptor_numero_doc": "20462910691",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Arequipa 4758, Miraflores, Lima",
+    "subtotal": 231321.8,
+    "igv": 30652.26,
+    "importe_total": 261974.06,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 35,
+            "precio_unitario": 1271.23,
+            "valor_venta": 44493.05
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 75,
+            "precio_unitario": 2491.05,
+            "valor_venta": 186828.75
+        }
+    ]
+}

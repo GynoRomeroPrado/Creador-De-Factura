@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE718-718344",
+    "fecha_emision": "2025-06-29T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20164434312",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Av. La Marina 3425, San Isidro, Lima",
+    "receptor_numero_doc": "20329477445",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 2393, Santiago de Surco, Lima",
+    "subtotal": 13353.76,
+    "igv": 2403.68,
+    "importe_total": 15757.44,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 39,
+            "precio_unitario": 23.2,
+            "valor_venta": 904.8
+        },
+        {
+            "numero": 2,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 45,
+            "precio_unitario": 13.54,
+            "valor_venta": 609.3
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pescado Fresco kg (Oferta)",
+            "unidad": "KG",
+            "cantidad": 55,
+            "precio_unitario": 12.31,
+            "valor_venta": 677.05
+        },
+        {
+            "numero": 4,
+            "descripcion": "Arroz Superior x 50kg (Oferta)",
+            "unidad": "SAC",
+            "cantidad": 68,
+            "precio_unitario": 128.81,
+            "valor_venta": 8759.08
+        },
+        {
+            "numero": 5,
+            "descripcion": "Azúcar Blanca x 50kg (Importado)",
+            "unidad": "SAC",
+            "cantidad": 22,
+            "precio_unitario": 131.95,
+            "valor_venta": 2902.9
+        },
+        {
+            "numero": 6,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 55,
+            "precio_unitario": 20.84,
+            "valor_venta": 1146.2
+        }
+    ]
+}

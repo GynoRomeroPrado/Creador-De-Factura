@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E365-429798",
+    "fecha_emision": "2025-11-14T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20418976668",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Calle Los Pinos 4229, Miraflores, Lima",
+    "receptor_numero_doc": "20939441400",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 2332, Cercado de Lima, Lima",
+    "subtotal": 59249.93,
+    "igv": 8854.86,
+    "importe_total": 68104.79,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Tubo PVC SAP Pavco 4\" Desague",
+            "unidad": "UND",
+            "cantidad": 18,
+            "precio_unitario": 24.17,
+            "valor_venta": 435.06
+        },
+        {
+            "numero": 2,
+            "descripcion": "Guantes de Cuero Reforzado Color: Negro",
+            "unidad": "PAR",
+            "cantidad": 65,
+            "precio_unitario": 12.18,
+            "valor_venta": 791.7
+        },
+        {
+            "numero": 3,
+            "descripcion": "Arena Gruesa (m3)",
+            "unidad": "M3",
+            "cantidad": 20,
+            "precio_unitario": 53.89,
+            "valor_venta": 1077.8
+        },
+        {
+            "numero": 4,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 6,
+            "precio_unitario": 32.33,
+            "valor_venta": 193.98
+        },
+        {
+            "numero": 5,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt",
+            "unidad": "UND",
+            "cantidad": 61,
+            "precio_unitario": 5.03,
+            "valor_venta": 306.83
+        },
+        {
+            "numero": 6,
+            "descripcion": "Piedra Chancada 1/2\" (m3)",
+            "unidad": "M3",
+            "cantidad": 24,
+            "precio_unitario": 57.44,
+            "valor_venta": 1378.56
+        },
+        {
+            "numero": 7,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt (Oferta)",
+            "unidad": "UND",
+            "cantidad": 6,
+            "precio_unitario": 4.52,
+            "valor_venta": 27.12
+        },
+        {
+            "numero": 8,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt (Oferta)",
+            "unidad": "UND",
+            "cantidad": 61,
+            "precio_unitario": 5.73,
+            "valor_venta": 349.53
+        },
+        {
+            "numero": 9,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 37,
+            "precio_unitario": 19.88,
+            "valor_venta": 735.56
+        },
+        {
+            "numero": 10,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 83,
+            "precio_unitario": 685.64,
+            "valor_venta": 56908.12
+        }
+    ]
+}

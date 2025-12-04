@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F261-691047",
+    "fecha_emision": "2025-03-05T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20960673329",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Benavides 2356, La Victoria, Lima",
+    "receptor_numero_doc": "20983105816",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 1253, La Victoria, Lima",
+    "subtotal": 158488.83,
+    "igv": 25321.56,
+    "importe_total": 183810.39,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 41,
+            "precio_unitario": 405.44,
+            "valor_venta": 16623.04
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 82,
+            "precio_unitario": 140.16,
+            "valor_venta": 11493.12
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 37,
+            "precio_unitario": 2376.52,
+            "valor_venta": 87931.24
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 89,
+            "precio_unitario": 476.87,
+            "valor_venta": 42441.43
+        }
+    ]
+}

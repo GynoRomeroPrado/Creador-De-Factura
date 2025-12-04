@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE324-709260",
+    "fecha_emision": "2025-12-09T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20665686460",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 2638, La Victoria, Lima",
+    "receptor_numero_doc": "20343077531",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 2397, Miraflores, Lima",
+    "subtotal": 103228.37,
+    "igv": 18581.11,
+    "importe_total": 121809.48,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 97,
+            "precio_unitario": 1064.21,
+            "valor_venta": 103228.37
+        }
+    ]
+}

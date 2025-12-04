@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA470-443142",
+    "fecha_emision": "2025-11-16T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20526317115",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Benavides 2321, La Victoria, Lima",
+    "receptor_numero_doc": "20279608306",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 2241, Santiago de Surco, Lima",
+    "subtotal": 1688.7,
+    "igv": 303.97,
+    "importe_total": 1992.67,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 87,
+            "precio_unitario": 1.77,
+            "valor_venta": 153.99
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 90 Serie X",
+            "unidad": "GL",
+            "cantidad": 27,
+            "precio_unitario": 4.15,
+            "valor_venta": 112.05
+        },
+        {
+            "numero": 3,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 26,
+            "precio_unitario": 2.61,
+            "valor_venta": 67.86
+        },
+        {
+            "numero": 4,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 22,
+            "precio_unitario": 6.42,
+            "valor_venta": 141.24
+        },
+        {
+            "numero": 5,
+            "descripcion": "Gasolina 95 (Importado)",
+            "unidad": "GL",
+            "cantidad": 30,
+            "precio_unitario": 5.7,
+            "valor_venta": 171.0
+        },
+        {
+            "numero": 6,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 72,
+            "precio_unitario": 5.54,
+            "valor_venta": 398.88
+        },
+        {
+            "numero": 7,
+            "descripcion": "GLP Color: Negro",
+            "unidad": "GL",
+            "cantidad": 91,
+            "precio_unitario": 2.62,
+            "valor_venta": 238.42
+        },
+        {
+            "numero": 8,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 72,
+            "precio_unitario": 4.71,
+            "valor_venta": 339.12
+        },
+        {
+            "numero": 9,
+            "descripcion": "GLP Serie X",
+            "unidad": "GL",
+            "cantidad": 20,
+            "precio_unitario": 1.76,
+            "valor_venta": 35.2
+        },
+        {
+            "numero": 10,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 13,
+            "precio_unitario": 2.38,
+            "valor_venta": 30.94
+        }
+    ]
+}

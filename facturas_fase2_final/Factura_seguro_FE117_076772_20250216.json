@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE117-076772",
+    "fecha_emision": "2025-02-16T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20678126366",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 3836, La Victoria, Lima",
+    "receptor_numero_doc": "20141617851",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 1557, San Isidro, Lima",
+    "subtotal": 382749.45,
+    "igv": 58070.06,
+    "importe_total": 440819.51,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo Color: Negro",
+            "unidad": "POL",
+            "cantidad": 38,
+            "precio_unitario": 1461.1,
+            "valor_venta": 55521.8
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 31,
+            "precio_unitario": 472.6,
+            "valor_venta": 14650.6
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 81,
+            "precio_unitario": 897.83,
+            "valor_venta": 72724.23
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 27,
+            "precio_unitario": 488.81,
+            "valor_venta": 13197.87
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 186.68,
+            "valor_venta": 9894.04
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 70,
+            "precio_unitario": 1163.69,
+            "valor_venta": 81458.3
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 59,
+            "precio_unitario": 215.94,
+            "valor_venta": 12740.46
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro de Vida Color: Negro",
+            "unidad": "POL",
+            "cantidad": 41,
+            "precio_unitario": 279.43,
+            "valor_venta": 11456.63
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 28,
+            "precio_unitario": 856.54,
+            "valor_venta": 23983.12
+        },
+        {
+            "numero": 10,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 93,
+            "precio_unitario": 936.8,
+            "valor_venta": 87122.4
+        }
+    ]
+}

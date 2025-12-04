@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA255-384548",
+    "fecha_emision": "2025-10-22T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20710479012",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 1014, San Isidro, Lima",
+    "receptor_numero_doc": "20010883491",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 2734, San Borja, Lima",
+    "subtotal": 703.29,
+    "igv": 117.63,
+    "importe_total": 820.92,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 51,
+            "precio_unitario": 4.65,
+            "valor_venta": 237.15
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 90 Serie X",
+            "unidad": "GL",
+            "cantidad": 92,
+            "precio_unitario": 5.64,
+            "valor_venta": 518.88
+        }
+    ]
+}

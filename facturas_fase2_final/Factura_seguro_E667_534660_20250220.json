@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E667-534660",
+    "fecha_emision": "2025-02-20T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20186011229",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Av. Benavides 2592, La Victoria, Lima",
+    "receptor_numero_doc": "20632685239",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 2473, Santiago de Surco, Lima",
+    "subtotal": 274401.69,
+    "igv": 49392.3,
+    "importe_total": 323793.99,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 1264.16,
+            "valor_venta": 67000.48
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 7,
+            "precio_unitario": 418.62,
+            "valor_venta": 2930.34
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 49,
+            "precio_unitario": 323.34,
+            "valor_venta": 15843.66
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 47,
+            "precio_unitario": 2251.91,
+            "valor_venta": 105839.77
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 17,
+            "precio_unitario": 178.34,
+            "valor_venta": 3031.78
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 1,
+            "precio_unitario": 1314.09,
+            "valor_venta": 1314.09
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 99,
+            "precio_unitario": 241.76,
+            "valor_venta": 23934.24
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 50,
+            "precio_unitario": 471.32,
+            "valor_venta": 23566.0
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 49,
+            "precio_unitario": 447.47,
+            "valor_venta": 21926.03
+        },
+        {
+            "numero": 10,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 70,
+            "precio_unitario": 128.79,
+            "valor_venta": 9015.3
+        }
+    ]
+}

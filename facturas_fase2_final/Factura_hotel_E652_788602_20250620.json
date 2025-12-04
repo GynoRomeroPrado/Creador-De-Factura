@@ -1,0 +1,87 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E652-788602",
+    "fecha_emision": "2025-06-20T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20837315329",
+    "emisor_razon_social": "Novotel Premium Surco",
+    "emisor_direccion": "Av. Benavides 4096, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20789473243",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Benavides 1311, Miraflores, Lima",
+    "subtotal": 2296.49,
+    "igv": 413.37,
+    "importe_total": 3226.58,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.302,
+            "precio_unitario": 116.48,
+            "valor_venta": 268.14,
+            "cargo_item": 48.27,
+            "importe_total": 316.41
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.174,
+            "precio_unitario": 103.56,
+            "valor_venta": 225.14,
+            "cargo_item": 40.53,
+            "importe_total": 265.67
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.617,
+            "precio_unitario": 32.34,
+            "valor_venta": 213.99,
+            "cargo_item": 38.52,
+            "importe_total": 252.51
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.614,
+            "precio_unitario": 94.88,
+            "valor_venta": 817.3,
+            "cargo_item": 147.11,
+            "importe_total": 964.41
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.212,
+            "precio_unitario": 94.72,
+            "valor_venta": 588.4,
+            "cargo_item": 105.91,
+            "importe_total": 694.31
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.43,
+            "precio_unitario": 51.05,
+            "valor_venta": 277.2,
+            "cargo_item": 49.9,
+            "importe_total": 327.1
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.982,
+            "precio_unitario": 60.19,
+            "valor_venta": 480.44,
+            "cargo_item": 86.48,
+            "importe_total": 566.92
+        }
+    ]
+}

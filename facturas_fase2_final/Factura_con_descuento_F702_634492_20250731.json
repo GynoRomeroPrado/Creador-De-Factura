@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F702-634492",
+    "fecha_emision": "2025-07-31T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20446268385",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Arequipa 3172, San Borja, Lima",
+    "receptor_numero_doc": "20196000900",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Benavides 3638, La Victoria, Lima",
+    "subtotal": 2216.29,
+    "igv": 398.93,
+    "importe_total": 2615.22,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.666,
+            "precio_unitario": 56.74,
+            "valor_venta": 491.71
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.818,
+            "precio_unitario": 59.12,
+            "valor_venta": 521.32
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.692,
+            "precio_unitario": 92.17,
+            "valor_venta": 432.46
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION pack x6",
+            "unidad": "NIU",
+            "cantidad": 8.82,
+            "precio_unitario": 79.61,
+            "valor_venta": 702.16
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.132,
+            "precio_unitario": 61.36,
+            "valor_venta": 314.9
+        }
+    ]
+}

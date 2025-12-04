@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA428-736520",
+    "fecha_emision": "2025-12-31T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20206118254",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Jr. de la Unión 3806, San Borja, Lima",
+    "receptor_numero_doc": "20878155581",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 1512, La Victoria, Lima",
+    "subtotal": 3864.65,
+    "igv": 695.64,
+    "importe_total": 4560.29,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.495,
+            "precio_unitario": 78.21,
+            "valor_venta": 664.39
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.748,
+            "precio_unitario": 42.93,
+            "valor_venta": 375.55
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.344,
+            "precio_unitario": 147.48,
+            "valor_venta": 640.65
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.314,
+            "precio_unitario": 65.62,
+            "valor_venta": 611.18
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.64,
+            "precio_unitario": 50.09,
+            "valor_venta": 182.33
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.29,
+            "precio_unitario": 82.82,
+            "valor_venta": 520.94
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.768,
+            "precio_unitario": 99.18,
+            "valor_venta": 869.61
+        }
+    ]
+}

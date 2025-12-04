@@ -1,0 +1,93 @@
+{
+    "tipo_comprobante": "FACTURA",
+    "tipo_factura": "seguro",
+    "numero_factura": "F616-238587",
+    "serie": "F616",
+    "numero": "238587",
+    "fecha_emision": "2025-11-10T00:00:00",
+    "fecha_vencimiento": "2026-01-09T00:00:00",
+    "emisor": {
+        "ruc": "20420086921",
+        "razon_social": "Constructora Los Andes S.A.C.",
+        "direccion": "Jr. de la Unión 1785, San Borja, Lima",
+        "telefono": "958318386",
+        "email": "ventas@comercial.pe"
+    },
+    "receptor": {
+        "ruc": "20958939095",
+        "razon_social": "Distribuidora Comercial Lima S.A.C.",
+        "direccion": "Av. Arequipa 958, Cercado de Lima, Lima",
+        "telefono": "01-4565364",
+        "email": "facturacion@comercial.pe"
+    },
+    "moneda": "PEN",
+    "simbolo_moneda": "S/",
+    "nombre_moneda": "SOLES",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Oferta)",
+            "unidad": "POL",
+            "cantidad": 59,
+            "precio_unitario": 877.41,
+            "valor_venta": 51767.19
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 42,
+            "precio_unitario": 2587.48,
+            "valor_venta": 108674.16
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 38,
+            "precio_unitario": 172.68,
+            "valor_venta": 6561.84
+        }
+    ],
+    "op_gravada": 167003.19,
+    "op_exonerada": 0.0,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 30060.57,
+    "total_cargos": 0.0,
+    "otros_cargos": 0.0,
+    "total": 197063.76,
+    "total_letras": "CIENTO NOVENTA Y SIETE MIL SESENTA Y TRES CON 76/100 SOLES",
+    "forma_pago": "CREDITO 30 DIAS",
+    "con_credito": true,
+    "cuotas": [
+        {
+            "numero": 1,
+            "fecha_vencimiento": "2025-12-10T00:00:00",
+            "monto": 98531.88
+        },
+        {
+            "numero": 2,
+            "fecha_vencimiento": "2026-01-09T00:00:00",
+            "monto": 98531.88
+        }
+    ],
+    "numero_contrato": "CW908806",
+    "periodo_facturado": null,
+    "observaciones": null,
+    "datos_hotel": null,
+    "datos_seguro": {
+        "numero_documento": "CI 862406339",
+        "numero_poliza": "6961062206",
+        "giro": "9237041169",
+        "vigencia_inicio": "2025-11-10T00:00:00",
+        "vigencia_fin": "2026-11-10T00:00:00",
+        "prima": 231.38,
+        "vehiculo": "MNO990"
+    },
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": null,
+    "industria": "general"
+}

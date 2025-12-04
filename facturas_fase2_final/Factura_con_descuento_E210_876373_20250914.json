@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E210-876373",
+    "fecha_emision": "2025-09-14T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20982933944",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Av. Arequipa 4351, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20113946343",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 2355, Miraflores, Lima",
+    "subtotal": 7608.34,
+    "igv": 1369.5,
+    "importe_total": 8977.84,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Casco de Seguridad 3M Blanco",
+            "unidad": "UND",
+            "cantidad": 57,
+            "precio_unitario": 44.76,
+            "valor_venta": 2551.32
+        },
+        {
+            "numero": 2,
+            "descripcion": "Cemento Sol Tipo I (42.5kg) (Oferta)",
+            "unidad": "BOL",
+            "cantidad": 16,
+            "precio_unitario": 28.01,
+            "valor_venta": 448.16
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 41,
+            "precio_unitario": 21.16,
+            "valor_venta": 867.56
+        },
+        {
+            "numero": 4,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt Serie X",
+            "unidad": "UND",
+            "cantidad": 19,
+            "precio_unitario": 5.63,
+            "valor_venta": 106.97
+        },
+        {
+            "numero": 5,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L)",
+            "unidad": "GLN",
+            "cantidad": 67,
+            "precio_unitario": 47.52,
+            "valor_venta": 3183.84
+        },
+        {
+            "numero": 6,
+            "descripcion": "Casco de Seguridad 3M Blanco",
+            "unidad": "UND",
+            "cantidad": 41,
+            "precio_unitario": 38.18,
+            "valor_venta": 1565.38
+        }
+    ]
+}

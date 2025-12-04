@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA429-482506",
+    "fecha_emision": "2025-09-07T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20799412099",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 1092, La Victoria, Lima",
+    "receptor_numero_doc": "20534353376",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Benavides 1574, San Borja, Lima",
+    "subtotal": 3044.98,
+    "igv": 548.1,
+    "importe_total": 3593.08,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.056,
+            "precio_unitario": 99.87,
+            "valor_venta": 604.81
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.033,
+            "precio_unitario": 43.71,
+            "valor_venta": 351.12
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.486,
+            "precio_unitario": 114.03,
+            "valor_venta": 397.51
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.689,
+            "precio_unitario": 67.31,
+            "valor_venta": 113.69
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.384,
+            "precio_unitario": 63.24,
+            "valor_venta": 340.48
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.042,
+            "precio_unitario": 54.54,
+            "valor_venta": 384.07
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.059,
+            "precio_unitario": 70.19,
+            "valor_venta": 214.71
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.101,
+            "precio_unitario": 125.19,
+            "valor_venta": 638.59
+        }
+    ]
+}

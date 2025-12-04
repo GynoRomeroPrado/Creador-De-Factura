@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F598-333376",
+    "fecha_emision": "2025-10-08T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20069384499",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 406, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20894476258",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Benavides 4652, La Victoria, Lima",
+    "subtotal": 573.25,
+    "igv": 90.23,
+    "importe_total": 663.48,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.002,
+            "precio_unitario": 84.28,
+            "valor_venta": 674.41
+        }
+    ]
+}

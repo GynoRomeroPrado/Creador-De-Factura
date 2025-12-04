@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E881-261157",
+    "fecha_emision": "2025-07-14T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20742093515",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 621, Miraflores, Lima",
+    "receptor_numero_doc": "20380911931",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 2611, San Borja, Lima",
+    "subtotal": 213294.55,
+    "igv": 30107.27,
+    "importe_total": 243401.82,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 92,
+            "precio_unitario": 112.27,
+            "valor_venta": 10328.84
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 83,
+            "precio_unitario": 2445.37,
+            "valor_venta": 202965.71
+        }
+    ]
+}

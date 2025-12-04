@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E757-253220",
+    "fecha_emision": "2025-07-21T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20594834772",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Benavides 3330, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20487536092",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 1869, San Isidro, Lima",
+    "subtotal": 666932.51,
+    "igv": 120047.85,
+    "importe_total": 786980.36,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 62,
+            "precio_unitario": 744.82,
+            "valor_venta": 46178.84
+        },
+        {
+            "numero": 2,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 56,
+            "precio_unitario": 244.28,
+            "valor_venta": 13679.68
+        },
+        {
+            "numero": 3,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 82,
+            "precio_unitario": 1038.69,
+            "valor_venta": 85172.58
+        },
+        {
+            "numero": 4,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 88,
+            "precio_unitario": 769.93,
+            "valor_venta": 67753.84
+        },
+        {
+            "numero": 5,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 78,
+            "precio_unitario": 295.49,
+            "valor_venta": 23048.22
+        },
+        {
+            "numero": 6,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 78,
+            "precio_unitario": 4438.66,
+            "valor_venta": 346215.48
+        },
+        {
+            "numero": 7,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 52,
+            "precio_unitario": 810.04,
+            "valor_venta": 42122.08
+        },
+        {
+            "numero": 8,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 5,
+            "precio_unitario": 693.52,
+            "valor_venta": 3467.6
+        },
+        {
+            "numero": 9,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 4,
+            "precio_unitario": 4429.12,
+            "valor_venta": 17716.48
+        },
+        {
+            "numero": 10,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 11,
+            "precio_unitario": 1961.61,
+            "valor_venta": 21577.71
+        }
+    ]
+}

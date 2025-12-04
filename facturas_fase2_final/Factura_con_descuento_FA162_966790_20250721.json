@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA162-966790",
+    "fecha_emision": "2025-07-21T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20689139524",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Av. La Marina 3488, San Isidro, Lima",
+    "receptor_numero_doc": "20846418921",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 4841, Miraflores, Lima",
+    "subtotal": 422895.81,
+    "igv": 76121.25,
+    "importe_total": 499017.06,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 23,
+            "precio_unitario": 2751.86,
+            "valor_venta": 63292.78
+        },
+        {
+            "numero": 2,
+            "descripcion": "Central de Detección de Incendios (Oferta)",
+            "unidad": "UND",
+            "cantidad": 64,
+            "precio_unitario": 2497.45,
+            "valor_venta": 159836.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 1,
+            "precio_unitario": 64.66,
+            "valor_venta": 64.66
+        },
+        {
+            "numero": 4,
+            "descripcion": "Batería 12V/7AH",
+            "unidad": "UND",
+            "cantidad": 46,
+            "precio_unitario": 40.64,
+            "valor_venta": 1869.44
+        },
+        {
+            "numero": 5,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 46,
+            "precio_unitario": 58.42,
+            "valor_venta": 2687.32
+        },
+        {
+            "numero": 6,
+            "descripcion": "Estación Manual Doble Acción (Oferta)",
+            "unidad": "UND",
+            "cantidad": 88,
+            "precio_unitario": 63.74,
+            "valor_venta": 5609.12
+        },
+        {
+            "numero": 7,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 100,
+            "precio_unitario": 2133.58,
+            "valor_venta": 213358.0
+        },
+        {
+            "numero": 8,
+            "descripcion": "Batería 12V/7AH",
+            "unidad": "UND",
+            "cantidad": 24,
+            "precio_unitario": 44.71,
+            "valor_venta": 1073.04
+        },
+        {
+            "numero": 9,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 53,
+            "precio_unitario": 139.87,
+            "valor_venta": 7413.11
+        }
+    ]
+}

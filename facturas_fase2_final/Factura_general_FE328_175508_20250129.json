@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE328-175508",
+    "fecha_emision": "2025-01-29T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20006826700",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Benavides 2891, San Isidro, Lima",
+    "receptor_numero_doc": "20618114032",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Av. Arequipa 2648, La Victoria, Lima",
+    "subtotal": 1671.69,
+    "igv": 300.9,
+    "importe_total": 1972.59,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.665,
+            "precio_unitario": 38.53,
+            "valor_venta": 256.8
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.519,
+            "precio_unitario": 109.46,
+            "valor_venta": 1041.95
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.834,
+            "precio_unitario": 77.15,
+            "valor_venta": 372.94
+        }
+    ]
+}

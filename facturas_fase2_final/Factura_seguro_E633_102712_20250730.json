@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E633-102712",
+    "fecha_emision": "2025-07-30T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20195250210",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 4785, La Victoria, Lima",
+    "receptor_numero_doc": "20242359527",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Benavides 4878, La Victoria, Lima",
+    "subtotal": 59123.76,
+    "igv": 10642.28,
+    "importe_total": 69780.34,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Oferta)",
+            "unidad": "POL",
+            "cantidad": 84,
+            "precio_unitario": 140.26,
+            "valor_venta": 11781.84
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 67,
+            "precio_unitario": 173.59,
+            "valor_venta": 11630.53
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 39,
+            "precio_unitario": 395.9,
+            "valor_venta": 15440.1
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 87,
+            "precio_unitario": 164.15,
+            "valor_venta": 14281.05
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios Serie X",
+            "unidad": "POL",
+            "cantidad": 16,
+            "precio_unitario": 374.39,
+            "valor_venta": 5990.24
+        }
+    ]
+}

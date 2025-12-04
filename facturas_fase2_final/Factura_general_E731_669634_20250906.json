@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E731-669634",
+    "fecha_emision": "2025-09-06T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20148484687",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Benavides 611, San Borja, Lima",
+    "receptor_numero_doc": "20852069083",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Av. Benavides 3543, Cercado de Lima, Lima",
+    "subtotal": 170365.87,
+    "igv": 27871.88,
+    "importe_total": 198237.75,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 86,
+            "precio_unitario": 43.09,
+            "valor_venta": 3705.74
+        },
+        {
+            "numero": 2,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 72,
+            "precio_unitario": 1499.64,
+            "valor_venta": 107974.08
+        },
+        {
+            "numero": 3,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 28,
+            "precio_unitario": 43.03,
+            "valor_venta": 1204.84
+        },
+        {
+            "numero": 4,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 22,
+            "precio_unitario": 54.9,
+            "valor_venta": 1207.8
+        },
+        {
+            "numero": 5,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 57,
+            "precio_unitario": 1319.35,
+            "valor_venta": 75202.95
+        }
+    ]
+}

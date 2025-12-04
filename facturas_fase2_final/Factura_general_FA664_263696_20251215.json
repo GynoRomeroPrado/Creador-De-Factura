@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA664-263696",
+    "fecha_emision": "2025-12-15T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20489175445",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Jr. de la Unión 928, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20726395161",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 2829, San Isidro, Lima",
+    "subtotal": 589830.32,
+    "igv": 96121.23,
+    "importe_total": 685980.92,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas) Serie X",
+            "unidad": "HOR",
+            "cantidad": 42,
+            "precio_unitario": 225.27,
+            "valor_venta": 9461.34
+        },
+        {
+            "numero": 2,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 72,
+            "precio_unitario": 4059.76,
+            "valor_venta": 292302.72
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 69,
+            "precio_unitario": 1255.74,
+            "valor_venta": 86646.06
+        },
+        {
+            "numero": 4,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica Color: Negro",
+            "unidad": "PROY",
+            "cantidad": 46,
+            "precio_unitario": 4378.7,
+            "valor_venta": 201420.2
+        }
+    ]
+}

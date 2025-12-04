@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F107-278196",
+    "fecha_emision": "2025-06-08T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20256591511",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Av. La Marina 4481, San Borja, Lima",
+    "receptor_numero_doc": "20588217281",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 1594, San Borja, Lima",
+    "subtotal": 144045.94,
+    "igv": 25928.27,
+    "importe_total": 169974.21,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Oferta)",
+            "unidad": "POL",
+            "cantidad": 32,
+            "precio_unitario": 2248.43,
+            "valor_venta": 71949.76
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 84,
+            "precio_unitario": 161.34,
+            "valor_venta": 13552.56
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 69,
+            "precio_unitario": 808.38,
+            "valor_venta": 55778.22
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 15,
+            "precio_unitario": 184.36,
+            "valor_venta": 2765.4
+        }
+    ]
+}

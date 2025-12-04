@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F337-123038",
+    "fecha_emision": "2025-05-04T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20688479399",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 3301, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20772648147",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Arequipa 4438, Miraflores, Lima",
+    "subtotal": 631750.45,
+    "igv": 113715.08,
+    "importe_total": 745465.53,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 1,
+            "precio_unitario": 60.49,
+            "valor_venta": 60.49
+        },
+        {
+            "numero": 2,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 93,
+            "precio_unitario": 2738.0,
+            "valor_venta": 254634.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 37,
+            "precio_unitario": 61.54,
+            "valor_venta": 2276.98
+        },
+        {
+            "numero": 4,
+            "descripcion": "Estación Manual Doble Acción (Oferta)",
+            "unidad": "UND",
+            "cantidad": 98,
+            "precio_unitario": 64.56,
+            "valor_venta": 6326.88
+        },
+        {
+            "numero": 5,
+            "descripcion": "Central de Detección de Incendios Modelo 2025",
+            "unidad": "UND",
+            "cantidad": 62,
+            "precio_unitario": 3229.82,
+            "valor_venta": 200248.84
+        },
+        {
+            "numero": 6,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 5,
+            "precio_unitario": 806.6,
+            "valor_venta": 4033.0
+        },
+        {
+            "numero": 7,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 57,
+            "precio_unitario": 2880.18,
+            "valor_venta": 164170.26
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F817-130665",
+    "fecha_emision": "2025-08-04T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20341840547",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 1184, San Borja, Lima",
+    "receptor_numero_doc": "20462989947",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Arequipa 226, La Victoria, Lima",
+    "subtotal": 580415.73,
+    "igv": 104474.83,
+    "importe_total": 684906.78,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 4,
+            "precio_unitario": 2693.64,
+            "valor_venta": 10774.56
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 57,
+            "precio_unitario": 1965.64,
+            "valor_venta": 112041.48
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 95,
+            "precio_unitario": 1773.8,
+            "valor_venta": 168511.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Soporte Técnico Remoto Mensual Serie X",
+            "unidad": "MES",
+            "cantidad": 63,
+            "precio_unitario": 748.92,
+            "valor_venta": 47181.96
+        },
+        {
+            "numero": 5,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas Color: Negro",
+            "unidad": "MES",
+            "cantidad": 78,
+            "precio_unitario": 1778.67,
+            "valor_venta": 138736.26
+        },
+        {
+            "numero": 6,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 86,
+            "precio_unitario": 975.04,
+            "valor_venta": 83853.44
+        },
+        {
+            "numero": 7,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 97,
+            "precio_unitario": 723.84,
+            "valor_venta": 70212.48
+        },
+        {
+            "numero": 8,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 66,
+            "precio_unitario": 457.83,
+            "valor_venta": 30216.78
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE402-005948",
+    "fecha_emision": "2025-02-11T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20843518193",
+    "emisor_razon_social": "Sheraton Business San Isidro",
+    "emisor_direccion": "Av. Arequipa 3305, San Borja, Lima",
+    "receptor_numero_doc": "20758649131",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 2993, La Victoria, Lima",
+    "subtotal": 1572.37,
+    "igv": 283.03,
+    "importe_total": 2169.87,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.013,
+            "precio_unitario": 139.22,
+            "valor_venta": 837.13,
+            "cargo_item": 150.68,
+            "importe_total": 987.81
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.283,
+            "precio_unitario": 63.19,
+            "valor_venta": 586.59,
+            "cargo_item": 105.59,
+            "importe_total": 692.18
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.451,
+            "precio_unitario": 93.7,
+            "valor_venta": 323.36,
+            "cargo_item": 58.2,
+            "importe_total": 381.56
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F705-039714",
+    "fecha_emision": "2025-05-12T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20973377303",
+    "emisor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "emisor_direccion": "Calle Los Pinos 4842, San Isidro, Lima",
+    "receptor_numero_doc": "20974509670",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Arequipa 3156, San Borja, Lima",
+    "subtotal": 4534.51,
+    "igv": 816.21,
+    "importe_total": 5350.72,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas) Serie X",
+            "unidad": "HOR",
+            "cantidad": 15,
+            "precio_unitario": 220.6,
+            "valor_venta": 3309.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 9,
+            "precio_unitario": 192.15,
+            "valor_venta": 1729.35
+        }
+    ]
+}

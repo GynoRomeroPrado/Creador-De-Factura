@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA398-910955",
+    "fecha_emision": "2025-12-26T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20937680431",
+    "emisor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 2129, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20632420049",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. La Marina 4404, Miraflores, Lima",
+    "subtotal": 13788.17,
+    "igv": 2481.87,
+    "importe_total": 16270.04,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 47,
+            "precio_unitario": 197.11,
+            "valor_venta": 9264.17
+        },
+        {
+            "numero": 2,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 52,
+            "precio_unitario": 22.29,
+            "valor_venta": 1159.08
+        },
+        {
+            "numero": 3,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 33,
+            "precio_unitario": 130.85,
+            "valor_venta": 4318.05
+        },
+        {
+            "numero": 4,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 13,
+            "precio_unitario": 102.49,
+            "valor_venta": 1332.37
+        },
+        {
+            "numero": 5,
+            "descripcion": "Pollo Entero kg",
+            "unidad": "KG",
+            "cantidad": 20,
+            "precio_unitario": 9.17,
+            "valor_venta": 183.4
+        },
+        {
+            "numero": 6,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 82,
+            "precio_unitario": 4.19,
+            "valor_venta": 343.58
+        },
+        {
+            "numero": 7,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 48,
+            "precio_unitario": 13.22,
+            "valor_venta": 634.56
+        }
+    ]
+}

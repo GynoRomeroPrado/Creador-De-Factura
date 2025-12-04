@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE049-855489",
+    "fecha_emision": "2025-12-15T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20435389202",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Av. Benavides 3988, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20352593924",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 1859, Cercado de Lima, Lima",
+    "subtotal": 754.39,
+    "igv": 135.79,
+    "importe_total": 925.49,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 72,
+            "precio_unitario": 6.68,
+            "valor_venta": 480.96
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 68,
+            "precio_unitario": 4.86,
+            "valor_venta": 330.48
+        }
+    ]
+}

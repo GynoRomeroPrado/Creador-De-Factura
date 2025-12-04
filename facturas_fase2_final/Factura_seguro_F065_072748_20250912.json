@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F065-072748",
+    "fecha_emision": "2025-09-12T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20788265060",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Av. La Marina 566, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20117758347",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 1240, San Borja, Lima",
+    "subtotal": 332251.89,
+    "igv": 59805.34,
+    "importe_total": 392057.23,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 43,
+            "precio_unitario": 239.67,
+            "valor_venta": 10305.81
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 39,
+            "precio_unitario": 1157.16,
+            "valor_venta": 45129.24
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 55,
+            "precio_unitario": 1094.48,
+            "valor_venta": 60196.4
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida (Importado)",
+            "unidad": "POL",
+            "cantidad": 51,
+            "precio_unitario": 464.73,
+            "valor_venta": 23701.23
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 59,
+            "precio_unitario": 958.15,
+            "valor_venta": 56530.85
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios (Oferta)",
+            "unidad": "POL",
+            "cantidad": 62,
+            "precio_unitario": 1300.7,
+            "valor_venta": 80643.4
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 57,
+            "precio_unitario": 324.12,
+            "valor_venta": 18474.84
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 92,
+            "precio_unitario": 405.11,
+            "valor_venta": 37270.12
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E964-611284",
+    "fecha_emision": "2025-02-10T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20901081337",
+    "emisor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "emisor_direccion": "Av. Arequipa 401, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20777881761",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. La Marina 2302, Santiago de Surco, Lima",
+    "subtotal": 21278.38,
+    "igv": 3504.09,
+    "importe_total": 24782.47,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Carne de Res kg (Oferta)",
+            "unidad": "KG",
+            "cantidad": 78,
+            "precio_unitario": 22.14,
+            "valor_venta": 1726.92
+        },
+        {
+            "numero": 2,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 79,
+            "precio_unitario": 19.44,
+            "valor_venta": 1535.76
+        },
+        {
+            "numero": 3,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 10,
+            "precio_unitario": 205.16,
+            "valor_venta": 2051.6
+        },
+        {
+            "numero": 4,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 7,
+            "precio_unitario": 209.16,
+            "valor_venta": 1464.12
+        },
+        {
+            "numero": 5,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 52,
+            "precio_unitario": 149.87,
+            "valor_venta": 7793.24
+        },
+        {
+            "numero": 6,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 43,
+            "precio_unitario": 20.2,
+            "valor_venta": 868.6
+        },
+        {
+            "numero": 7,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 90,
+            "precio_unitario": 97.81,
+            "valor_venta": 8802.9
+        },
+        {
+            "numero": 8,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 13,
+            "precio_unitario": 13.61,
+            "valor_venta": 176.93
+        },
+        {
+            "numero": 9,
+            "descripcion": "Pollo Entero kg",
+            "unidad": "KG",
+            "cantidad": 76,
+            "precio_unitario": 8.07,
+            "valor_venta": 613.32
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE179-950160",
+    "fecha_emision": "2025-12-31T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20093883625",
+    "emisor_razon_social": "Swissôtel Plaza Cusco",
+    "emisor_direccion": "Calle Los Pinos 3819, San Isidro, Lima",
+    "receptor_numero_doc": "20434812519",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 3447, Santiago de Surco, Lima",
+    "subtotal": 2530.3,
+    "igv": 455.45,
+    "importe_total": 3467.27,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.4,
+            "precio_unitario": 91.7,
+            "valor_venta": 403.48,
+            "cargo_item": 72.63,
+            "importe_total": 476.11
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.243,
+            "precio_unitario": 144.59,
+            "valor_venta": 1191.86,
+            "cargo_item": 214.53,
+            "importe_total": 1406.39
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.911,
+            "precio_unitario": 106.06,
+            "valor_venta": 732.98,
+            "cargo_item": 131.94,
+            "importe_total": 864.92
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.379,
+            "precio_unitario": 146.47,
+            "valor_venta": 201.98,
+            "cargo_item": 36.36,
+            "importe_total": 238.34
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA429-075714",
+    "fecha_emision": "2025-09-19T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20988857832",
+    "emisor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 4042, Miraflores, Lima",
+    "receptor_numero_doc": "20877759246",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Av. La Marina 4336, Cercado de Lima, Lima",
+    "subtotal": 230773.59,
+    "igv": 41539.25,
+    "importe_total": 272312.84,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Oferta)",
+            "unidad": "POL",
+            "cantidad": 31,
+            "precio_unitario": 2542.5,
+            "valor_venta": 78817.5
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 93,
+            "precio_unitario": 170.0,
+            "valor_venta": 15810.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida Color: Negro",
+            "unidad": "POL",
+            "cantidad": 73,
+            "precio_unitario": 151.19,
+            "valor_venta": 11036.87
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 54,
+            "precio_unitario": 543.83,
+            "valor_venta": 29366.82
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Color: Negro",
+            "unidad": "POL",
+            "cantidad": 52,
+            "precio_unitario": 104.64,
+            "valor_venta": 5441.28
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 98,
+            "precio_unitario": 921.44,
+            "valor_venta": 90301.12
+        }
+    ]
+}

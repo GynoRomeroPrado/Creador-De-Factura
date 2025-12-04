@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE021-975806",
+    "fecha_emision": "2025-05-22T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20919594587",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Arequipa 1749, San Borja, Lima",
+    "receptor_numero_doc": "20642919602",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. La Marina 3671, San Isidro, Lima",
+    "subtotal": 139096.1,
+    "igv": 25037.3,
+    "importe_total": 164180.16,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 95,
+            "precio_unitario": 1405.09,
+            "valor_venta": 133483.55
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Oferta)",
+            "unidad": "POL",
+            "cantidad": 51,
+            "precio_unitario": 110.05,
+            "valor_venta": 5612.55
+        }
+    ]
+}

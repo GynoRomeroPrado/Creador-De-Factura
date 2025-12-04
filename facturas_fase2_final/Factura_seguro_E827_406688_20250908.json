@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E827-406688",
+    "fecha_emision": "2025-09-08T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20565952685",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Calle Los Pinos 4877, San Borja, Lima",
+    "receptor_numero_doc": "20896196180",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Arequipa 1042, San Borja, Lima",
+    "subtotal": 320035.2,
+    "igv": 57606.34,
+    "importe_total": 377641.54,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 93,
+            "precio_unitario": 340.12,
+            "valor_venta": 31631.16
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 46,
+            "precio_unitario": 389.3,
+            "valor_venta": 17907.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 72,
+            "precio_unitario": 307.87,
+            "valor_venta": 22166.64
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 98,
+            "precio_unitario": 2479.76,
+            "valor_venta": 243016.48
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 22,
+            "precio_unitario": 1007.14,
+            "valor_venta": 22157.08
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F105-887191",
+    "fecha_emision": "2025-03-30T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20933667708",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 873, San Borja, Lima",
+    "receptor_numero_doc": "20440319638",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Benavides 4639, Miraflores, Lima",
+    "subtotal": 321293.9,
+    "igv": 42893.24,
+    "importe_total": 364187.14,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 34,
+            "precio_unitario": 1803.29,
+            "valor_venta": 61311.86
+        },
+        {
+            "numero": 2,
+            "descripcion": "Extintor PQS 6kg Modelo 2025",
+            "unidad": "UND",
+            "cantidad": 50,
+            "precio_unitario": 118.51,
+            "valor_venta": 5925.5
+        },
+        {
+            "numero": 3,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 12,
+            "precio_unitario": 132.31,
+            "valor_venta": 1587.72
+        },
+        {
+            "numero": 4,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 55,
+            "precio_unitario": 2696.5,
+            "valor_venta": 148307.5
+        },
+        {
+            "numero": 5,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 59,
+            "precio_unitario": 1923.02,
+            "valor_venta": 113458.18
+        },
+        {
+            "numero": 6,
+            "descripcion": "Detector de Humo Convencional 2 Hilos Modelo 2025",
+            "unidad": "UND",
+            "cantidad": 26,
+            "precio_unitario": 83.06,
+            "valor_venta": 2159.56
+        }
+    ]
+}

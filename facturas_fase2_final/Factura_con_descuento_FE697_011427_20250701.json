@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE697-011427",
+    "fecha_emision": "2025-07-01T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20691048030",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Av. La Marina 4152, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20041083965",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 1454, San Isidro, Lima",
+    "subtotal": 35792.27,
+    "igv": 6442.61,
+    "importe_total": 42234.88,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Guantes de Cuero Reforzado (Oferta)",
+            "unidad": "PAR",
+            "cantidad": 16,
+            "precio_unitario": 12.27,
+            "valor_venta": 196.32
+        },
+        {
+            "numero": 2,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 55,
+            "precio_unitario": 691.75,
+            "valor_venta": 38046.25
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE382-635233",
+    "fecha_emision": "2025-11-22T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20859601953",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 2365, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20486903156",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. La Marina 3847, San Borja, Lima",
+    "subtotal": 193467.99,
+    "igv": 34824.24,
+    "importe_total": 228292.23,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios (Oferta)",
+            "unidad": "POL",
+            "cantidad": 17,
+            "precio_unitario": 1068.61,
+            "valor_venta": 18166.37
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 85,
+            "precio_unitario": 364.97,
+            "valor_venta": 31022.45
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Serie X",
+            "unidad": "POL",
+            "cantidad": 6,
+            "precio_unitario": 122.93,
+            "valor_venta": 737.58
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 98,
+            "precio_unitario": 165.41,
+            "valor_venta": 16210.18
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 50,
+            "precio_unitario": 2369.39,
+            "valor_venta": 118469.5
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 7,
+            "precio_unitario": 1834.02,
+            "valor_venta": 12838.14
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA200-526494",
+    "fecha_emision": "2025-05-02T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20339930474",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 127, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20784103171",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 386, San Isidro, Lima",
+    "subtotal": 15375.8,
+    "igv": 2336.75,
+    "importe_total": 17712.55,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 44,
+            "precio_unitario": 349.45,
+            "valor_venta": 15375.8
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA594-241885",
+    "fecha_emision": "2025-03-22T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20139575831",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Av. Benavides 4559, San Borja, Lima",
+    "receptor_numero_doc": "20480682247",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 2161, Miraflores, Lima",
+    "subtotal": 59198.44,
+    "igv": 10655.72,
+    "importe_total": 69854.16,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 2,
+            "precio_unitario": 301.3,
+            "valor_venta": 602.6
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 44,
+            "precio_unitario": 1292.8,
+            "valor_venta": 56883.2
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 3,
+            "precio_unitario": 172.78,
+            "valor_venta": 518.34
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 62,
+            "precio_unitario": 133.9,
+            "valor_venta": 8301.8
+        }
+    ]
+}

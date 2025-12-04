@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA809-240857",
+    "fecha_emision": "2025-07-31T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20732067508",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. La Marina 3203, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20310175499",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Jr. de la Unión 3132, Miraflores, Lima",
+    "subtotal": 3813.29,
+    "igv": 686.39,
+    "importe_total": 4499.68,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 13,
+            "precio_unitario": 61.63,
+            "valor_venta": 801.19
+        },
+        {
+            "numero": 2,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 25,
+            "precio_unitario": 45.87,
+            "valor_venta": 1146.75
+        },
+        {
+            "numero": 3,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 25,
+            "precio_unitario": 82.67,
+            "valor_venta": 2066.75
+        }
+    ]
+}

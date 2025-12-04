@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E991-697174",
+    "fecha_emision": "2025-07-13T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20308422136",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 1924, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20861176852",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. La Marina 117, San Borja, Lima",
+    "subtotal": 497476.93,
+    "igv": 89545.85,
+    "importe_total": 587022.78,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 84,
+            "precio_unitario": 274.4,
+            "valor_venta": 23049.6
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas (Oferta)",
+            "unidad": "MES",
+            "cantidad": 30,
+            "precio_unitario": 2090.26,
+            "valor_venta": 62707.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 96,
+            "precio_unitario": 828.12,
+            "valor_venta": 79499.52
+        },
+        {
+            "numero": 4,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 10,
+            "precio_unitario": 469.84,
+            "valor_venta": 4698.4
+        },
+        {
+            "numero": 5,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 69,
+            "precio_unitario": 4746.69,
+            "valor_venta": 327521.61
+        }
+    ]
+}

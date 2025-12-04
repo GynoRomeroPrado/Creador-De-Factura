@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA034-268376",
+    "fecha_emision": "2025-06-05T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20453146376",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. La Marina 2753, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20935190763",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 245, Cercado de Lima, Lima",
+    "subtotal": 317.46,
+    "igv": 57.14,
+    "importe_total": 374.6,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.131,
+            "precio_unitario": 126.74,
+            "valor_venta": 396.82
+        }
+    ]
+}

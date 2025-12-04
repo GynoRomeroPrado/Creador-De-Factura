@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA724-939726",
+    "fecha_emision": "2025-11-01T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20441271795",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 4233, San Isidro, Lima",
+    "receptor_numero_doc": "20215954472",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Benavides 4583, San Isidro, Lima",
+    "subtotal": 1256.69,
+    "igv": 226.2,
+    "importe_total": 1490.25,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.128,
+            "precio_unitario": 49.62,
+            "valor_venta": 105.59
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.742,
+            "precio_unitario": 31.75,
+            "valor_venta": 55.31
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.557,
+            "precio_unitario": 122.12,
+            "valor_venta": 556.5
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.825,
+            "precio_unitario": 77.92,
+            "valor_venta": 298.04
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.541,
+            "precio_unitario": 57.69,
+            "valor_venta": 377.35
+        }
+    ]
+}

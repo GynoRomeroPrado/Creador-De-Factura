@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F337-588572",
+    "fecha_emision": "2025-09-12T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20732533681",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Av. Arequipa 1347, San Isidro, Lima",
+    "receptor_numero_doc": "20350504053",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Calle Los Pinos 3927, San Isidro, Lima",
+    "subtotal": 1737.47,
+    "igv": 312.74,
+    "importe_total": 2050.21,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 6,
+            "precio_unitario": 2.83,
+            "valor_venta": 16.98
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 81,
+            "precio_unitario": 6.8,
+            "valor_venta": 550.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Gasolina 90 Color: Negro",
+            "unidad": "GL",
+            "cantidad": 27,
+            "precio_unitario": 5.18,
+            "valor_venta": 139.86
+        },
+        {
+            "numero": 4,
+            "descripcion": "Diesel Serie X",
+            "unidad": "GL",
+            "cantidad": 77,
+            "precio_unitario": 4.26,
+            "valor_venta": 328.02
+        },
+        {
+            "numero": 5,
+            "descripcion": "Gasolina 95 Modelo 2025",
+            "unidad": "GL",
+            "cantidad": 2,
+            "precio_unitario": 4.76,
+            "valor_venta": 9.52
+        },
+        {
+            "numero": 6,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 44,
+            "precio_unitario": 6.99,
+            "valor_venta": 307.56
+        },
+        {
+            "numero": 7,
+            "descripcion": "Diesel (Importado)",
+            "unidad": "GL",
+            "cantidad": 69,
+            "precio_unitario": 4.19,
+            "valor_venta": 289.11
+        },
+        {
+            "numero": 8,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 6,
+            "precio_unitario": 4.3,
+            "valor_venta": 25.8
+        },
+        {
+            "numero": 9,
+            "descripcion": "Gasolina 90 (Oferta)",
+            "unidad": "GL",
+            "cantidad": 44,
+            "precio_unitario": 4.08,
+            "valor_venta": 179.52
+        }
+    ]
+}

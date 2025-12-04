@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E608-786466",
+    "fecha_emision": "2025-10-21T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20904031594",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Arequipa 925, Miraflores, Lima",
+    "receptor_numero_doc": "20260102622",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 1841, La Victoria, Lima",
+    "subtotal": 404782.29,
+    "igv": 72860.81,
+    "importe_total": 477643.1,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 10,
+            "precio_unitario": 32.05,
+            "valor_venta": 320.5
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 52,
+            "precio_unitario": 1280.97,
+            "valor_venta": 66610.44
+        },
+        {
+            "numero": 3,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 100,
+            "precio_unitario": 787.0,
+            "valor_venta": 78700.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 86,
+            "precio_unitario": 629.12,
+            "valor_venta": 54104.32
+        },
+        {
+            "numero": 5,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas) Serie X",
+            "unidad": "HOR",
+            "cantidad": 66,
+            "precio_unitario": 220.27,
+            "valor_venta": 14537.82
+        },
+        {
+            "numero": 6,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 30,
+            "precio_unitario": 644.85,
+            "valor_venta": 19345.5
+        },
+        {
+            "numero": 7,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 78,
+            "precio_unitario": 637.37,
+            "valor_venta": 49714.86
+        },
+        {
+            "numero": 8,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional Serie X",
+            "unidad": "SES",
+            "cantidad": 75,
+            "precio_unitario": 696.99,
+            "valor_venta": 52274.25
+        },
+        {
+            "numero": 9,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 21,
+            "precio_unitario": 3829.17,
+            "valor_venta": 80412.57
+        },
+        {
+            "numero": 10,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 4,
+            "precio_unitario": 1565.11,
+            "valor_venta": 6260.44
+        }
+    ]
+}

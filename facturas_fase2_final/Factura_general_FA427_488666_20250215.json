@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA427-488666",
+    "fecha_emision": "2025-02-15T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20702146594",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 707, San Borja, Lima",
+    "receptor_numero_doc": "20340240830",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Calle Los Pinos 1009, San Isidro, Lima",
+    "subtotal": 392216.57,
+    "igv": 52433.29,
+    "importe_total": 444649.86,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 29,
+            "precio_unitario": 137.04,
+            "valor_venta": 3974.16
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 84,
+            "precio_unitario": 1838.82,
+            "valor_venta": 154460.88
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 72,
+            "precio_unitario": 2932.52,
+            "valor_venta": 211141.44
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios Serie X",
+            "unidad": "POL",
+            "cantidad": 8,
+            "precio_unitario": 798.97,
+            "valor_venta": 6391.76
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 21,
+            "precio_unitario": 498.75,
+            "valor_venta": 10473.75
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 6,
+            "precio_unitario": 962.43,
+            "valor_venta": 5774.58
+        }
+    ]
+}

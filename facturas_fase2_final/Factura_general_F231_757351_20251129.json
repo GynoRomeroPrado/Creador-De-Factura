@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F231-757351",
+    "fecha_emision": "2025-11-29T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20840560091",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Calle Los Pinos 2091, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20334805680",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Av. La Marina 3762, Cercado de Lima, Lima",
+    "subtotal": 490361.6,
+    "igv": 59572.79,
+    "importe_total": 549934.39,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Sirena Estroboscópica Color: Negro",
+            "unidad": "UND",
+            "cantidad": 11,
+            "precio_unitario": 113.05,
+            "valor_venta": 1243.55
+        },
+        {
+            "numero": 2,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 59,
+            "precio_unitario": 92.57,
+            "valor_venta": 5461.63
+        },
+        {
+            "numero": 3,
+            "descripcion": "Detector de Humo Convencional 2 Hilos (Oferta)",
+            "unidad": "UND",
+            "cantidad": 15,
+            "precio_unitario": 99.97,
+            "valor_venta": 1499.55
+        },
+        {
+            "numero": 4,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 94,
+            "precio_unitario": 56.58,
+            "valor_venta": 5318.52
+        },
+        {
+            "numero": 5,
+            "descripcion": "Central de Detección de Incendios (Oferta)",
+            "unidad": "UND",
+            "cantidad": 66,
+            "precio_unitario": 2592.34,
+            "valor_venta": 171094.44
+        },
+        {
+            "numero": 6,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 3,
+            "precio_unitario": 2128.23,
+            "valor_venta": 6384.69
+        },
+        {
+            "numero": 7,
+            "descripcion": "Batería 12V/7AH",
+            "unidad": "UND",
+            "cantidad": 24,
+            "precio_unitario": 62.44,
+            "valor_venta": 1498.56
+        },
+        {
+            "numero": 8,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 39,
+            "precio_unitario": 1295.53,
+            "valor_venta": 50525.67
+        },
+        {
+            "numero": 9,
+            "descripcion": "Central de Detección de Incendios Serie X",
+            "unidad": "UND",
+            "cantidad": 81,
+            "precio_unitario": 2990.01,
+            "valor_venta": 242190.81
+        },
+        {
+            "numero": 10,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 53,
+            "precio_unitario": 97.06,
+            "valor_venta": 5144.18
+        }
+    ]
+}

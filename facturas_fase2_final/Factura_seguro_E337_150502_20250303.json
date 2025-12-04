@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E337-150502",
+    "fecha_emision": "2025-03-03T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20136280831",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 732, San Isidro, Lima",
+    "receptor_numero_doc": "20011403035",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Jr. de la Unión 2041, San Isidro, Lima",
+    "subtotal": 328821.4,
+    "igv": 59187.85,
+    "importe_total": 388009.25,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 54,
+            "precio_unitario": 1643.89,
+            "valor_venta": 88770.06
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 81,
+            "precio_unitario": 428.77,
+            "valor_venta": 34730.37
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida (Importado)",
+            "unidad": "POL",
+            "cantidad": 77,
+            "precio_unitario": 488.64,
+            "valor_venta": 37625.28
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 56,
+            "precio_unitario": 608.66,
+            "valor_venta": 34084.96
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 88,
+            "precio_unitario": 1094.17,
+            "valor_venta": 96286.96
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 90,
+            "precio_unitario": 797.55,
+            "valor_venta": 71779.5
+        }
+    ]
+}

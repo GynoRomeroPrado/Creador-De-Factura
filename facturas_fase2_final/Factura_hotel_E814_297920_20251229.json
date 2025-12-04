@@ -1,0 +1,87 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E814-297920",
+    "fecha_emision": "2025-12-29T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20552972580",
+    "emisor_razon_social": "Hilton Standard Miraflores",
+    "emisor_direccion": "Av. Arequipa 759, San Borja, Lima",
+    "receptor_numero_doc": "20663402332",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. La Marina 4369, San Isidro, Lima",
+    "subtotal": 3682.75,
+    "igv": 551.93,
+    "importe_total": 4897.58,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.663,
+            "precio_unitario": 98.09,
+            "valor_venta": 947.84,
+            "cargo_item": 170.61,
+            "importe_total": 1118.45
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.2,
+            "precio_unitario": 89.46,
+            "valor_venta": 375.73,
+            "cargo_item": 67.63,
+            "importe_total": 443.36
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.533,
+            "precio_unitario": 119.01,
+            "valor_venta": 658.48,
+            "cargo_item": 118.53,
+            "importe_total": 777.01
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.868,
+            "precio_unitario": 44.03,
+            "valor_venta": 302.4,
+            "cargo_item": 54.43,
+            "importe_total": 356.83
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.496,
+            "precio_unitario": 71.05,
+            "valor_venta": 461.54,
+            "cargo_item": 83.08,
+            "importe_total": 544.62
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.794,
+            "precio_unitario": 64.33,
+            "valor_venta": 565.72,
+            "cargo_item": 101.83,
+            "importe_total": 667.55
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.1,
+            "precio_unitario": 119.69,
+            "valor_venta": 371.04,
+            "cargo_item": 66.79,
+            "importe_total": 437.83
+        }
+    ]
+}

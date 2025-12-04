@@ -1,0 +1,149 @@
+{
+    "tipo_comprobante": "FACTURA ELECTRÓNICA",
+    "tipo_factura": "hotel",
+    "numero_factura": "F115-251527",
+    "serie": "F115",
+    "numero": "251527",
+    "fecha_emision": "2025-01-17T00:00:00",
+    "fecha_vencimiento": "2025-05-17T00:00:00",
+    "emisor": {
+        "ruc": "20576793996",
+        "razon_social": "Ibis Wyndham Piura",
+        "direccion": "Calle Los Pinos 3205, Santiago de Surco, Lima",
+        "telefono": "971301336",
+        "email": "facturacion@empresa.com"
+    },
+    "receptor": {
+        "ruc": "20389513581",
+        "razon_social": "Tecnología Digital Avanzada S.A.C.",
+        "direccion": "Av. Javier Prado Este 1549, Santiago de Surco, Lima",
+        "telefono": "01-7669025",
+        "email": "ventas@hotel.com.pe"
+    },
+    "moneda": "PEN",
+    "simbolo_moneda": "S/",
+    "nombre_moneda": "SOLES",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.745,
+            "precio_unitario": 54.97,
+            "valor_venta": 535.68,
+            "cargo_item": 96.42,
+            "importe_total": 632.1
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.146,
+            "precio_unitario": 62.61,
+            "valor_venta": 134.36,
+            "cargo_item": 24.18,
+            "importe_total": 158.54
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.914,
+            "precio_unitario": 69.12,
+            "valor_venta": 132.3,
+            "cargo_item": 23.81,
+            "importe_total": 156.11
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.569,
+            "precio_unitario": 135.41,
+            "valor_venta": 483.28,
+            "cargo_item": 86.99,
+            "importe_total": 570.27
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.29,
+            "precio_unitario": 146.41,
+            "valor_venta": 1213.74,
+            "cargo_item": 218.47,
+            "importe_total": 1432.21
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.829,
+            "precio_unitario": 72.04,
+            "valor_venta": 419.92,
+            "cargo_item": 75.59,
+            "importe_total": 495.51
+        }
+    ],
+    "op_gravada": 1951.93,
+    "op_exonerada": 529.46,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 351.35,
+    "total_cargos": 525.46,
+    "otros_cargos": 0.0,
+    "total": 3358.2,
+    "total_letras": "TRES MIL TRESCIENTOS CINCUENTA Y OCHO CON 20/100 SOLES",
+    "forma_pago": "Credito",
+    "con_credito": true,
+    "cuotas": [
+        {
+            "numero": 1,
+            "fecha_vencimiento": "2025-02-16T00:00:00",
+            "monto": 839.55
+        },
+        {
+            "numero": 2,
+            "fecha_vencimiento": "2025-03-18T00:00:00",
+            "monto": 839.55
+        },
+        {
+            "numero": 3,
+            "fecha_vencimiento": "2025-04-17T00:00:00",
+            "monto": 839.55
+        },
+        {
+            "numero": 4,
+            "fecha_vencimiento": "2025-05-17T00:00:00",
+            "monto": 839.55
+        }
+    ],
+    "numero_contrato": null,
+    "periodo_facturado": null,
+    "observaciones": "SIRVASE ENTREGAR LA LLAVE A LA RECEPCION / PLEASE LEAVE THE KEY AT THE DESK",
+    "datos_hotel": {
+        "checkin": "2025-01-13T00:00:00",
+        "checkout": "2025-01-19T00:00:00",
+        "noches": 6,
+        "reserva": "96421660",
+        "huesped": "Ana Sanchez Sanchez",
+        "codigo_grupo": null,
+        "nombre_grupo": null,
+        "habitacion": "Habitación Doble"
+    },
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": {
+        "descripcion": "Descuento 15%",
+        "monto": 437.89,
+        "gravado": 372.21,
+        "exonerado": 0.0,
+        "igv": 65.68,
+        "icbper": 0.0,
+        "total": 437.89,
+        "detraccion": 0.0
+    },
+    "industria": "hotel"
+}

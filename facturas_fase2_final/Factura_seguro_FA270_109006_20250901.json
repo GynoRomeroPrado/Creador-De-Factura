@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA270-109006",
+    "fecha_emision": "2025-09-01T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20347673031",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Benavides 3921, Miraflores, Lima",
+    "receptor_numero_doc": "20034487139",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 2900, Cercado de Lima, Lima",
+    "subtotal": 347303.95,
+    "igv": 62514.71,
+    "importe_total": 409818.66,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 100,
+            "precio_unitario": 369.52,
+            "valor_venta": 36952.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Importado)",
+            "unidad": "POL",
+            "cantidad": 64,
+            "precio_unitario": 181.15,
+            "valor_venta": 11593.6
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 91,
+            "precio_unitario": 2704.0,
+            "valor_venta": 246064.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 43,
+            "precio_unitario": 1225.45,
+            "valor_venta": 52694.35
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F693-213790",
+    "fecha_emision": "2025-10-12T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20135672727",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. La Marina 2428, Miraflores, Lima",
+    "receptor_numero_doc": "20938538540",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 1089, San Isidro, Lima",
+    "subtotal": 52981.17,
+    "igv": 9536.61,
+    "importe_total": 62517.78,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Temperatura Térmico Convencional Color: Negro",
+            "unidad": "UND",
+            "cantidad": 59,
+            "precio_unitario": 34.53,
+            "valor_venta": 2037.27
+        },
+        {
+            "numero": 2,
+            "descripcion": "Central de Detección de Incendios (Importado)",
+            "unidad": "UND",
+            "cantidad": 17,
+            "precio_unitario": 2996.7,
+            "valor_venta": 50943.9
+        }
+    ]
+}

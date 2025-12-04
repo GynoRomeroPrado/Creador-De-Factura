@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F784-714449",
+    "fecha_emision": "2025-04-25T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20725609834",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Arequipa 3893, Miraflores, Lima",
+    "receptor_numero_doc": "20466009734",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 2977, Santiago de Surco, Lima",
+    "subtotal": 178.37,
+    "igv": 32.11,
+    "importe_total": 210.48,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pescado Fresco kg Color: Negro",
+            "unidad": "KG",
+            "cantidad": 10,
+            "precio_unitario": 19.19,
+            "valor_venta": 191.9
+        }
+    ]
+}

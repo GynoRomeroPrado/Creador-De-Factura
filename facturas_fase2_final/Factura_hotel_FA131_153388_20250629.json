@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA131-153388",
+    "fecha_emision": "2025-06-29T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20364779691",
+    "emisor_razon_social": "JW Marriott Suites Miraflores",
+    "emisor_direccion": "Jr. de la Unión 2031, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20424227073",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 585, Cercado de Lima, Lima",
+    "subtotal": 520.37,
+    "igv": 93.67,
+    "importe_total": 707.71,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.651,
+            "precio_unitario": 78.24,
+            "valor_venta": 520.37,
+            "cargo_item": 93.67,
+            "importe_total": 614.04
+        }
+    ]
+}

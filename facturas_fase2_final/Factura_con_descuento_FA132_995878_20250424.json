@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA132-995878",
+    "fecha_emision": "2025-04-24T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20028544317",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 3314, San Isidro, Lima",
+    "receptor_numero_doc": "20280246582",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 3019, La Victoria, Lima",
+    "subtotal": 1125.58,
+    "igv": 202.6,
+    "importe_total": 1351.82,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.58,
+            "precio_unitario": 145.66,
+            "valor_venta": 958.44
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.763,
+            "precio_unitario": 106.61,
+            "valor_venta": 294.56
+        }
+    ]
+}

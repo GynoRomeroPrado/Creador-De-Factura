@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E182-326073",
+    "fecha_emision": "2025-06-14T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20115601289",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Av. Arequipa 803, Miraflores, Lima",
+    "receptor_numero_doc": "20924794799",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Jr. de la Unión 398, Cercado de Lima, Lima",
+    "subtotal": 435352.15,
+    "igv": 78363.39,
+    "importe_total": 513715.54,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Extintor PQS 6kg Serie X",
+            "unidad": "UND",
+            "cantidad": 16,
+            "precio_unitario": 91.56,
+            "valor_venta": 1464.96
+        },
+        {
+            "numero": 2,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 84,
+            "precio_unitario": 69.79,
+            "valor_venta": 5862.36
+        },
+        {
+            "numero": 3,
+            "descripcion": "Estación Manual Doble Acción Modelo 2025",
+            "unidad": "UND",
+            "cantidad": 62,
+            "precio_unitario": 49.63,
+            "valor_venta": 3077.06
+        },
+        {
+            "numero": 4,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 25,
+            "precio_unitario": 59.1,
+            "valor_venta": 1477.5
+        },
+        {
+            "numero": 5,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 9,
+            "precio_unitario": 35.99,
+            "valor_venta": 323.91
+        },
+        {
+            "numero": 6,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V (Oferta)",
+            "unidad": "UND",
+            "cantidad": 100,
+            "precio_unitario": 938.6,
+            "valor_venta": 93860.0
+        },
+        {
+            "numero": 7,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 71,
+            "precio_unitario": 51.4,
+            "valor_venta": 3649.4
+        },
+        {
+            "numero": 8,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 80,
+            "precio_unitario": 3203.73,
+            "valor_venta": 256298.4
+        },
+        {
+            "numero": 9,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V Serie X",
+            "unidad": "UND",
+            "cantidad": 64,
+            "precio_unitario": 1396.66,
+            "valor_venta": 89386.24
+        },
+        {
+            "numero": 10,
+            "descripcion": "Estación Manual Doble Acción (Importado)",
+            "unidad": "UND",
+            "cantidad": 47,
+            "precio_unitario": 60.97,
+            "valor_venta": 2865.59
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E650-602638",
+    "fecha_emision": "2025-08-24T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20840934625",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 4912, San Borja, Lima",
+    "receptor_numero_doc": "20530714005",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 3495, San Borja, Lima",
+    "subtotal": 64414.98,
+    "igv": 9266.54,
+    "importe_total": 73681.52,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 63,
+            "precio_unitario": 1022.46,
+            "valor_venta": 64414.98
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F833-631082",
+    "fecha_emision": "2025-10-26T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20715008298",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 1505, San Borja, Lima",
+    "receptor_numero_doc": "20511774897",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Av. Benavides 1193, San Borja, Lima",
+    "subtotal": 276328.95,
+    "igv": 44559.19,
+    "importe_total": 320921.69,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 2074.83,
+            "valor_venta": 109965.99
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Color: Negro",
+            "unidad": "POL",
+            "cantidad": 94,
+            "precio_unitario": 165.58,
+            "valor_venta": 15564.52
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 93,
+            "precio_unitario": 1478.08,
+            "valor_venta": 137461.44
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 49,
+            "precio_unitario": 354.08,
+            "valor_venta": 17349.92
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 10,
+            "precio_unitario": 166.27,
+            "valor_venta": 1662.7
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 77,
+            "precio_unitario": 498.55,
+            "valor_venta": 38388.35
+        }
+    ]
+}

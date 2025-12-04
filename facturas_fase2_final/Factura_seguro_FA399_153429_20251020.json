@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA399-153429",
+    "fecha_emision": "2025-10-20T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20866796786",
+    "emisor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "emisor_direccion": "Av. Benavides 2220, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20023021260",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Benavides 3276, San Isidro, Lima",
+    "subtotal": 527520.57,
+    "igv": 94953.7,
+    "importe_total": 622474.27,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 83,
+            "precio_unitario": 2918.71,
+            "valor_venta": 242252.93
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida (Oferta)",
+            "unidad": "POL",
+            "cantidad": 71,
+            "precio_unitario": 482.83,
+            "valor_venta": 34280.93
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 97,
+            "precio_unitario": 143.4,
+            "valor_venta": 13909.8
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 301.67,
+            "valor_venta": 15988.51
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 82,
+            "precio_unitario": 2696.2,
+            "valor_venta": 221088.4
+        }
+    ]
+}

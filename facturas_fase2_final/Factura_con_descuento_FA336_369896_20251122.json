@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA336-369896",
+    "fecha_emision": "2025-11-22T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20559553582",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Av. La Marina 747, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20154815563",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 2141, Cercado de Lima, Lima",
+    "subtotal": 47642.09,
+    "igv": 8575.58,
+    "importe_total": 56217.67,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 2,
+            "precio_unitario": 26.57,
+            "valor_venta": 53.14
+        },
+        {
+            "numero": 2,
+            "descripcion": "Casco de Seguridad 3M Blanco",
+            "unidad": "UND",
+            "cantidad": 61,
+            "precio_unitario": 37.22,
+            "valor_venta": 2270.42
+        },
+        {
+            "numero": 3,
+            "descripcion": "Arena Gruesa (m3)",
+            "unidad": "M3",
+            "cantidad": 91,
+            "precio_unitario": 49.45,
+            "valor_venta": 4499.95
+        },
+        {
+            "numero": 4,
+            "descripcion": "Casco de Seguridad 3M Blanco",
+            "unidad": "UND",
+            "cantidad": 63,
+            "precio_unitario": 34.66,
+            "valor_venta": 2183.58
+        },
+        {
+            "numero": 5,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L)",
+            "unidad": "GLN",
+            "cantidad": 3,
+            "precio_unitario": 50.73,
+            "valor_venta": 152.19
+        },
+        {
+            "numero": 6,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt Serie X",
+            "unidad": "UND",
+            "cantidad": 25,
+            "precio_unitario": 5.54,
+            "valor_venta": 138.5
+        },
+        {
+            "numero": 7,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 48,
+            "precio_unitario": 21.82,
+            "valor_venta": 1047.36
+        },
+        {
+            "numero": 8,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 22,
+            "precio_unitario": 18.87,
+            "valor_venta": 415.14
+        },
+        {
+            "numero": 9,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 73,
+            "precio_unitario": 24.68,
+            "valor_venta": 1801.64
+        },
+        {
+            "numero": 10,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 50,
+            "precio_unitario": 718.7,
+            "valor_venta": 35935.0
+        }
+    ]
+}

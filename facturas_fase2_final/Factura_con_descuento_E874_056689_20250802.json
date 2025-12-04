@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E874-056689",
+    "fecha_emision": "2025-08-02T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20152892650",
+    "emisor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "emisor_direccion": "Calle Los Pinos 2409, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20172459677",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Av. La Marina 2018, Miraflores, Lima",
+    "subtotal": 283310.2,
+    "igv": 50995.84,
+    "importe_total": 334306.04,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 98,
+            "precio_unitario": 200.51,
+            "valor_venta": 19649.98
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 17,
+            "precio_unitario": 2062.46,
+            "valor_venta": 35061.82
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 4,
+            "precio_unitario": 896.76,
+            "valor_venta": 3587.04
+        },
+        {
+            "numero": 4,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 46,
+            "precio_unitario": 183.0,
+            "valor_venta": 8418.0
+        },
+        {
+            "numero": 5,
+            "descripcion": "Soporte Técnico Remoto Mensual Serie X",
+            "unidad": "MES",
+            "cantidad": 96,
+            "precio_unitario": 1077.02,
+            "valor_venta": 103393.92
+        },
+        {
+            "numero": 6,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 17,
+            "precio_unitario": 1179.74,
+            "valor_venta": 20055.58
+        },
+        {
+            "numero": 7,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 79,
+            "precio_unitario": 1706.11,
+            "valor_venta": 134782.69
+        }
+    ]
+}

@@ -1,0 +1,148 @@
+{
+    "tipo_comprobante": "FACTURA ELECTRÓNICA",
+    "tipo_factura": "hotel",
+    "numero_factura": "F158-034699",
+    "serie": "F158",
+    "numero": "034699",
+    "fecha_emision": "2025-08-13T00:00:00",
+    "fecha_vencimiento": "2025-08-13T00:00:00",
+    "emisor": {
+        "ruc": "20104757228",
+        "razon_social": "Westin Suites Cajamarca",
+        "direccion": "Av. Javier Prado Este 4483, Cercado de Lima, Lima",
+        "telefono": "915517581",
+        "email": "info@negocio.com.pe"
+    },
+    "receptor": {
+        "ruc": "20491830892",
+        "razon_social": "Constructora Los Andes S.A.C.",
+        "direccion": "Calle Los Pinos 1361, La Victoria, Lima",
+        "telefono": "01-2739864",
+        "email": "reservas@negocio.com.pe"
+    },
+    "moneda": "EUR",
+    "simbolo_moneda": "€",
+    "nombre_moneda": "EUROS",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.887,
+            "precio_unitario": 84.76,
+            "valor_venta": 159.94,
+            "cargo_item": 28.79,
+            "importe_total": 188.73
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.664,
+            "precio_unitario": 89.88,
+            "valor_venta": 329.32,
+            "cargo_item": 59.28,
+            "importe_total": 388.6
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.931,
+            "precio_unitario": 80.77,
+            "valor_venta": 802.13,
+            "cargo_item": 144.38,
+            "importe_total": 946.51
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.287,
+            "precio_unitario": 59.01,
+            "valor_venta": 252.98,
+            "cargo_item": 45.54,
+            "importe_total": 298.52
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.459,
+            "precio_unitario": 112.54,
+            "valor_venta": 614.36,
+            "cargo_item": 110.58,
+            "importe_total": 724.94
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.673,
+            "precio_unitario": 87.22,
+            "valor_venta": 756.46,
+            "cargo_item": 136.16,
+            "importe_total": 892.62
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.702,
+            "precio_unitario": 135.84,
+            "valor_venta": 910.4,
+            "cargo_item": 163.87,
+            "importe_total": 1074.27
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.662,
+            "precio_unitario": 82.64,
+            "valor_venta": 302.63,
+            "cargo_item": 54.47,
+            "importe_total": 357.1
+        }
+    ],
+    "op_gravada": 2784.64,
+    "op_exonerada": 1137.17,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 501.24,
+    "total_cargos": 743.07,
+    "otros_cargos": 0.0,
+    "total": 5166.12,
+    "total_letras": "CINCO MIL CIENTO SESENTA Y SEIS CON 12/100 EUROS",
+    "forma_pago": "TRANSFERENCIA BANCARIA",
+    "con_credito": false,
+    "cuotas": [],
+    "numero_contrato": "CW785332",
+    "periodo_facturado": null,
+    "observaciones": null,
+    "datos_hotel": {
+        "checkin": "2025-08-07T00:00:00",
+        "checkout": "2025-08-10T00:00:00",
+        "noches": 3,
+        "reserva": "51048073",
+        "huesped": "Ana Rodriguez Perez",
+        "codigo_grupo": null,
+        "nombre_grupo": null,
+        "habitacion": "Habitación Simple"
+    },
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": {
+        "descripcion": "Descuento 5%",
+        "monto": 206.41,
+        "gravado": 175.45,
+        "exonerado": 0.0,
+        "igv": 30.96,
+        "icbper": 0.0,
+        "total": 206.41,
+        "detraccion": 0.0
+    },
+    "industria": "hotel"
+}

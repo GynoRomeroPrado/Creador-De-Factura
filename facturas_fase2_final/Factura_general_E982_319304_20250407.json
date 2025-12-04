@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E982-319304",
+    "fecha_emision": "2025-04-07T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20733530651",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Calle Los Pinos 388, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20206668777",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Jr. de la Unión 581, Miraflores, Lima",
+    "subtotal": 22091.11,
+    "igv": 3976.4,
+    "importe_total": 26067.51,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 19,
+            "precio_unitario": 1162.69,
+            "valor_venta": 22091.11
+        }
+    ]
+}

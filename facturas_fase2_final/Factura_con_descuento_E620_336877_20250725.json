@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E620-336877",
+    "fecha_emision": "2025-07-25T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20374466501",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Av. La Marina 2132, San Borja, Lima",
+    "receptor_numero_doc": "20471160394",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Benavides 2418, Miraflores, Lima",
+    "subtotal": 45283.37,
+    "igv": 8151.01,
+    "importe_total": 53434.38,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m",
+            "unidad": "VAR",
+            "cantidad": 23,
+            "precio_unitario": 38.68,
+            "valor_venta": 889.64
+        },
+        {
+            "numero": 2,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal) Color: Negro",
+            "unidad": "UND",
+            "cantidad": 69,
+            "precio_unitario": 20.63,
+            "valor_venta": 1423.47
+        },
+        {
+            "numero": 3,
+            "descripcion": "Arena Gruesa (m3) (Oferta)",
+            "unidad": "M3",
+            "cantidad": 23,
+            "precio_unitario": 49.16,
+            "valor_venta": 1130.68
+        },
+        {
+            "numero": 4,
+            "descripcion": "Piedra Chancada 1/2\" (m3) (Importado)",
+            "unidad": "M3",
+            "cantidad": 14,
+            "precio_unitario": 69.83,
+            "valor_venta": 977.62
+        },
+        {
+            "numero": 5,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 70,
+            "precio_unitario": 21.32,
+            "valor_venta": 1492.4
+        },
+        {
+            "numero": 6,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark Serie X",
+            "unidad": "MILLAR",
+            "cantidad": 59,
+            "precio_unitario": 744.41,
+            "valor_venta": 43920.19
+        },
+        {
+            "numero": 7,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt",
+            "unidad": "UND",
+            "cantidad": 98,
+            "precio_unitario": 4.74,
+            "valor_venta": 464.52
+        },
+        {
+            "numero": 8,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 77,
+            "precio_unitario": 24.24,
+            "valor_venta": 1866.48
+        },
+        {
+            "numero": 9,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt",
+            "unidad": "UND",
+            "cantidad": 54,
+            "precio_unitario": 5.45,
+            "valor_venta": 294.3
+        },
+        {
+            "numero": 10,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L)",
+            "unidad": "GLN",
+            "cantidad": 15,
+            "precio_unitario": 54.35,
+            "valor_venta": 815.25
+        }
+    ]
+}

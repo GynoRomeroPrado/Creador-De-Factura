@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E303-112065",
+    "fecha_emision": "2025-11-14T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20949200494",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Calle Los Pinos 853, Miraflores, Lima",
+    "receptor_numero_doc": "20610447334",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Jr. de la Unión 3673, Santiago de Surco, Lima",
+    "subtotal": 17330.9,
+    "igv": 3119.56,
+    "importe_total": 20479.98,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L)",
+            "unidad": "GLN",
+            "cantidad": 49,
+            "precio_unitario": 47.38,
+            "valor_venta": 2321.62
+        },
+        {
+            "numero": 2,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 22,
+            "precio_unitario": 682.24,
+            "valor_venta": 15009.28
+        }
+    ]
+}

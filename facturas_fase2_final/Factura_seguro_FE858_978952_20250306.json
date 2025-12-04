@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE858-978952",
+    "fecha_emision": "2025-03-06T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20556152684",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 371, La Victoria, Lima",
+    "receptor_numero_doc": "20289084275",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 337, La Victoria, Lima",
+    "subtotal": 202471.55,
+    "igv": 36444.88,
+    "importe_total": 238916.43,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 2,
+            "precio_unitario": 114.01,
+            "valor_venta": 228.02
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Importado)",
+            "unidad": "POL",
+            "cantidad": 48,
+            "precio_unitario": 173.99,
+            "valor_venta": 8351.52
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 15,
+            "precio_unitario": 1194.94,
+            "valor_venta": 17924.1
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 44,
+            "precio_unitario": 1109.49,
+            "valor_venta": 48817.56
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 33,
+            "precio_unitario": 484.21,
+            "valor_venta": 15978.93
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 35,
+            "precio_unitario": 2339.22,
+            "valor_venta": 81872.7
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida (Oferta)",
+            "unidad": "POL",
+            "cantidad": 88,
+            "precio_unitario": 332.94,
+            "valor_venta": 29298.72
+        }
+    ]
+}

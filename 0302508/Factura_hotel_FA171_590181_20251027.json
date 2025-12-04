@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA171-590181",
+    "fecha_emision": "2025-10-27T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20401014056",
+    "emisor_razon_social": "Swissôtel Luxury Puno",
+    "emisor_direccion": "Av. La Marina 3346, La Victoria, Lima",
+    "receptor_numero_doc": "20394959619",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Arequipa 1080, Santiago de Surco, Lima",
+    "subtotal": 1532.56,
+    "igv": 275.86,
+    "importe_total": 2084.28,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.276,
+            "precio_unitario": 75.78,
+            "valor_venta": 627.16,
+            "cargo_item": 112.89,
+            "importe_total": 740.05
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.503,
+            "precio_unitario": 81.55,
+            "valor_venta": 448.77,
+            "cargo_item": 80.78,
+            "importe_total": 529.55
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.26,
+            "precio_unitario": 107.19,
+            "valor_venta": 456.63,
+            "cargo_item": 82.19,
+            "importe_total": 538.82
+        }
+    ]
+}

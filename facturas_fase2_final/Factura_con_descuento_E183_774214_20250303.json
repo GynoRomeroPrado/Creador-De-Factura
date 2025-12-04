@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E183-774214",
+    "fecha_emision": "2025-03-03T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20089461422",
+    "emisor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "emisor_direccion": "Av. Benavides 2750, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20660117343",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 3836, Miraflores, Lima",
+    "subtotal": 17777.45,
+    "igv": 3199.94,
+    "importe_total": 20977.39,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 7,
+            "precio_unitario": 442.56,
+            "valor_venta": 3097.92
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida Color: Negro",
+            "unidad": "POL",
+            "cantidad": 6,
+            "precio_unitario": 316.67,
+            "valor_venta": 1900.02
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 37,
+            "precio_unitario": 465.51,
+            "valor_venta": 17223.87
+        }
+    ]
+}

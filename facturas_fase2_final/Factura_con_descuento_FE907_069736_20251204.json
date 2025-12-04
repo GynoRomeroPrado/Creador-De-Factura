@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE907-069736",
+    "fecha_emision": "2025-12-04T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20345636626",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 2250, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20275805727",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Jr. de la Unión 2184, San Isidro, Lima",
+    "subtotal": 657371.38,
+    "igv": 118326.85,
+    "importe_total": 775698.23,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 71,
+            "precio_unitario": 47.01,
+            "valor_venta": 3337.71
+        },
+        {
+            "numero": 2,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 27,
+            "precio_unitario": 58.37,
+            "valor_venta": 1575.99
+        },
+        {
+            "numero": 3,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 30,
+            "precio_unitario": 889.63,
+            "valor_venta": 26688.9
+        },
+        {
+            "numero": 4,
+            "descripcion": "Central de Detección de Incendios Serie X",
+            "unidad": "UND",
+            "cantidad": 99,
+            "precio_unitario": 3026.95,
+            "valor_venta": 299668.05
+        },
+        {
+            "numero": 5,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 69,
+            "precio_unitario": 1198.04,
+            "valor_venta": 82664.76
+        },
+        {
+            "numero": 6,
+            "descripcion": "Central de Detección de Incendios Color: Negro",
+            "unidad": "UND",
+            "cantidad": 30,
+            "precio_unitario": 2347.35,
+            "valor_venta": 70420.5
+        },
+        {
+            "numero": 7,
+            "descripcion": "Sirena Estroboscópica Serie X",
+            "unidad": "UND",
+            "cantidad": 91,
+            "precio_unitario": 132.2,
+            "valor_venta": 12030.2
+        },
+        {
+            "numero": 8,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 89,
+            "precio_unitario": 921.74,
+            "valor_venta": 82034.86
+        },
+        {
+            "numero": 9,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 68,
+            "precio_unitario": 857.01,
+            "valor_venta": 58276.68
+        },
+        {
+            "numero": 10,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V Serie X",
+            "unidad": "UND",
+            "cantidad": 58,
+            "precio_unitario": 1380.03,
+            "valor_venta": 80041.74
+        }
+    ]
+}

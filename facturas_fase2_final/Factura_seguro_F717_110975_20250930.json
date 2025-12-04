@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F717-110975",
+    "fecha_emision": "2025-09-30T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20664053501",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 4037, La Victoria, Lima",
+    "receptor_numero_doc": "20771880348",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 3162, Santiago de Surco, Lima",
+    "subtotal": 141477.05,
+    "igv": 25465.87,
+    "importe_total": 166942.92,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 65,
+            "precio_unitario": 2176.57,
+            "valor_venta": 141477.05
+        }
+    ]
+}

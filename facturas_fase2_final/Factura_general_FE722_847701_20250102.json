@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE722-847701",
+    "fecha_emision": "2025-01-02T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20889365294",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Jr. de la Unión 4516, San Isidro, Lima",
+    "receptor_numero_doc": "20275636615",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 2418, Miraflores, Lima",
+    "subtotal": 32609.52,
+    "igv": 5869.71,
+    "importe_total": 38479.23,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 82,
+            "precio_unitario": 382.7,
+            "valor_venta": 31381.4
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida Serie X",
+            "unidad": "POL",
+            "cantidad": 24,
+            "precio_unitario": 161.27,
+            "valor_venta": 3870.48
+        }
+    ]
+}

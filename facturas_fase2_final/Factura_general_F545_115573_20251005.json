@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F545-115573",
+    "fecha_emision": "2025-10-05T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20992624214",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 4890, San Borja, Lima",
+    "receptor_numero_doc": "20697939301",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 3563, San Borja, Lima",
+    "subtotal": 978.68,
+    "igv": 176.16,
+    "importe_total": 1177.77,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 43,
+            "precio_unitario": 22.76,
+            "valor_venta": 978.68
+        }
+    ]
+}

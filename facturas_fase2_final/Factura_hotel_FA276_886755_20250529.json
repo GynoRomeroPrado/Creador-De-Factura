@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA276-886755",
+    "fecha_emision": "2025-05-29T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20051702183",
+    "emisor_razon_social": "Sheraton Plaza Iquitos",
+    "emisor_direccion": "Jr. de la Unión 1780, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20162225376",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 4519, La Victoria, Lima",
+    "subtotal": 2916.02,
+    "igv": 524.88,
+    "importe_total": 3965.79,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.008,
+            "precio_unitario": 91.36,
+            "valor_venta": 457.53,
+            "cargo_item": 82.36,
+            "importe_total": 539.89
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.463,
+            "precio_unitario": 108.5,
+            "valor_venta": 592.74,
+            "cargo_item": 106.69,
+            "importe_total": 699.43
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.956,
+            "precio_unitario": 62.34,
+            "valor_venta": 495.98,
+            "cargo_item": 89.28,
+            "importe_total": 585.26
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.756,
+            "precio_unitario": 83.69,
+            "valor_venta": 816.48,
+            "cargo_item": 146.97,
+            "importe_total": 963.45
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.106,
+            "precio_unitario": 108.36,
+            "valor_venta": 553.29,
+            "cargo_item": 99.59,
+            "importe_total": 652.88
+        }
+    ]
+}

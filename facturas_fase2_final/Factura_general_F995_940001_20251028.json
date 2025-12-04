@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F995-940001",
+    "fecha_emision": "2025-10-28T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20056065084",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Benavides 601, La Victoria, Lima",
+    "receptor_numero_doc": "20248454939",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 2991, San Borja, Lima",
+    "subtotal": 114962.92,
+    "igv": 18070.16,
+    "importe_total": 133033.08,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 34,
+            "precio_unitario": 2611.19,
+            "valor_venta": 88780.46
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 78,
+            "precio_unitario": 349.05,
+            "valor_venta": 27225.9
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 28,
+            "precio_unitario": 178.83,
+            "valor_venta": 5007.24
+        }
+    ]
+}

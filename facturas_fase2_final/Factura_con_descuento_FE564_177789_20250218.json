@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE564-177789",
+    "fecha_emision": "2025-02-18T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20387859757",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Arequipa 566, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20599271121",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 1569, San Isidro, Lima",
+    "subtotal": 1012269.09,
+    "igv": 130614.97,
+    "importe_total": 1142884.06,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Courier Local (Importado)",
+            "unidad": "ENV",
+            "cantidad": 74,
+            "precio_unitario": 32.01,
+            "valor_venta": 2368.74
+        },
+        {
+            "numero": 2,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 45,
+            "precio_unitario": 237.56,
+            "valor_venta": 10690.2
+        },
+        {
+            "numero": 3,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 29,
+            "precio_unitario": 3422.56,
+            "valor_venta": 99254.24
+        },
+        {
+            "numero": 4,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 91,
+            "precio_unitario": 3655.76,
+            "valor_venta": 332674.16
+        },
+        {
+            "numero": 5,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 99,
+            "precio_unitario": 3583.04,
+            "valor_venta": 354720.96
+        },
+        {
+            "numero": 6,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 54,
+            "precio_unitario": 2965.14,
+            "valor_venta": 160117.56
+        },
+        {
+            "numero": 7,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 65,
+            "precio_unitario": 4654.85,
+            "valor_venta": 302565.25
+        },
+        {
+            "numero": 8,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 15,
+            "precio_unitario": 196.35,
+            "valor_venta": 2945.25
+        }
+    ]
+}

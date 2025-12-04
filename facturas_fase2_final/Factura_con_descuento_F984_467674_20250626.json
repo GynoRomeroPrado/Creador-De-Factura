@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F984-467674",
+    "fecha_emision": "2025-06-26T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20490670468",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 1980, San Isidro, Lima",
+    "receptor_numero_doc": "20869341313",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 1335, San Borja, Lima",
+    "subtotal": 3282.35,
+    "igv": 590.82,
+    "importe_total": 3873.17,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt (Oferta)",
+            "unidad": "UND",
+            "cantidad": 20,
+            "precio_unitario": 5.41,
+            "valor_venta": 108.2
+        },
+        {
+            "numero": 2,
+            "descripcion": "Tubo PVC SAP Pavco 4\" Desague (Importado)",
+            "unidad": "UND",
+            "cantidad": 34,
+            "precio_unitario": 25.73,
+            "valor_venta": 874.82
+        },
+        {
+            "numero": 3,
+            "descripcion": "Casco de Seguridad 3M Blanco",
+            "unidad": "UND",
+            "cantidad": 31,
+            "precio_unitario": 34.04,
+            "valor_venta": 1055.24
+        },
+        {
+            "numero": 4,
+            "descripcion": "Guantes de Cuero Reforzado",
+            "unidad": "PAR",
+            "cantidad": 95,
+            "precio_unitario": 17.41,
+            "valor_venta": 1653.95
+        }
+    ]
+}

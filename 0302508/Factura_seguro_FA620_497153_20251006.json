@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA620-497153",
+    "fecha_emision": "2025-10-06T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20728040514",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Arequipa 2882, Miraflores, Lima",
+    "receptor_numero_doc": "20536312529",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. La Marina 934, San Borja, Lima",
+    "subtotal": 3292.04,
+    "igv": 523.52,
+    "importe_total": 3815.56,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Oferta)",
+            "unidad": "POL",
+            "cantidad": 6,
+            "precio_unitario": 136.85,
+            "valor_venta": 821.1
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 17,
+            "precio_unitario": 157.86,
+            "valor_venta": 2683.62
+        }
+    ]
+}

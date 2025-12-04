@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E851-974556",
+    "fecha_emision": "2025-06-20T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20004780443",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 1608, Miraflores, Lima",
+    "receptor_numero_doc": "20814440771",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. La Marina 1364, Cercado de Lima, Lima",
+    "subtotal": 4537.4,
+    "igv": 816.73,
+    "importe_total": 5354.13,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 4,
+            "precio_unitario": 1134.35,
+            "valor_venta": 4537.4
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA247-846477",
+    "fecha_emision": "2025-06-13T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20056428284",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. La Marina 1091, Miraflores, Lima",
+    "receptor_numero_doc": "20529766875",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 3773, Miraflores, Lima",
+    "subtotal": 26858.51,
+    "igv": 4446.17,
+    "importe_total": 31304.68,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 87,
+            "precio_unitario": 4.83,
+            "valor_venta": 420.21
+        },
+        {
+            "numero": 2,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 94,
+            "precio_unitario": 13.66,
+            "valor_venta": 1284.04
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 49,
+            "precio_unitario": 15.08,
+            "valor_venta": 738.92
+        },
+        {
+            "numero": 4,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 67,
+            "precio_unitario": 100.71,
+            "valor_venta": 6747.57
+        },
+        {
+            "numero": 5,
+            "descripcion": "Aceite Vegetal x 20L Modelo 2025",
+            "unidad": "BID",
+            "cantidad": 63,
+            "precio_unitario": 99.57,
+            "valor_venta": 6272.91
+        },
+        {
+            "numero": 6,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 51,
+            "precio_unitario": 17.75,
+            "valor_venta": 905.25
+        },
+        {
+            "numero": 7,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 94,
+            "precio_unitario": 126.63,
+            "valor_venta": 11903.22
+        }
+    ]
+}

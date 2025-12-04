@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA143-459627",
+    "fecha_emision": "2025-07-02T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20816769699",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Benavides 4124, San Isidro, Lima",
+    "receptor_numero_doc": "20182536629",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 3888, Cercado de Lima, Lima",
+    "subtotal": 1321.05,
+    "igv": 237.79,
+    "importe_total": 1558.84,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.818,
+            "precio_unitario": 91.14,
+            "valor_venta": 530.25
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.172,
+            "precio_unitario": 93.8,
+            "valor_venta": 860.33
+        }
+    ]
+}

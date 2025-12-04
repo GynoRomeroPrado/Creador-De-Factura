@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F004-266647",
+    "fecha_emision": "2025-04-15T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20766801952",
+    "emisor_razon_social": "Casa Andina Luxury Cajamarca",
+    "emisor_direccion": "Calle Los Pinos 2333, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20280179869",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 2868, Miraflores, Lima",
+    "subtotal": 799.43,
+    "igv": 96.84,
+    "importe_total": 1040.17,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.742,
+            "precio_unitario": 82.06,
+            "valor_venta": 799.43,
+            "cargo_item": 143.9,
+            "importe_total": 943.33
+        }
+    ]
+}

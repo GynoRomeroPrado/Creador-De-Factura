@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E027-855719",
+    "fecha_emision": "2025-05-06T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20307309581",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 1679, San Borja, Lima",
+    "receptor_numero_doc": "20869784363",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 662, Santiago de Surco, Lima",
+    "subtotal": 619.3,
+    "igv": 111.47,
+    "importe_total": 730.77,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.746,
+            "precio_unitario": 79.19,
+            "valor_venta": 296.65
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.272,
+            "precio_unitario": 98.61,
+            "valor_venta": 322.65
+        }
+    ]
+}

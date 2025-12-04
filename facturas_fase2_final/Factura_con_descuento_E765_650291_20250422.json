@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E765-650291",
+    "fecha_emision": "2025-04-22T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20996582958",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 4511, San Isidro, Lima",
+    "receptor_numero_doc": "20107209841",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. Arequipa 4705, Santiago de Surco, Lima",
+    "subtotal": 24803.41,
+    "igv": 4464.61,
+    "importe_total": 29268.02,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 22,
+            "precio_unitario": 666.78,
+            "valor_venta": 14669.16
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 31,
+            "precio_unitario": 420.07,
+            "valor_venta": 13022.17
+        }
+    ]
+}

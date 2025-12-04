@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E031-975941",
+    "fecha_emision": "2025-06-18T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20765730431",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Av. Arequipa 3188, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20382289472",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 4676, Miraflores, Lima",
+    "subtotal": 674208.58,
+    "igv": 121357.54,
+    "importe_total": 795566.12,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 38,
+            "precio_unitario": 272.76,
+            "valor_venta": 10364.88
+        },
+        {
+            "numero": 2,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica Serie X",
+            "unidad": "PROY",
+            "cantidad": 95,
+            "precio_unitario": 4437.81,
+            "valor_venta": 421591.95
+        },
+        {
+            "numero": 3,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 21,
+            "precio_unitario": 476.83,
+            "valor_venta": 10013.43
+        },
+        {
+            "numero": 4,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 66,
+            "precio_unitario": 21.49,
+            "valor_venta": 1418.34
+        },
+        {
+            "numero": 5,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 69,
+            "precio_unitario": 4559.25,
+            "valor_venta": 314588.25
+        },
+        {
+            "numero": 6,
+            "descripcion": "Servicio de Courier Local Color: Negro",
+            "unidad": "ENV",
+            "cantidad": 33,
+            "precio_unitario": 20.98,
+            "valor_venta": 692.34
+        }
+    ]
+}

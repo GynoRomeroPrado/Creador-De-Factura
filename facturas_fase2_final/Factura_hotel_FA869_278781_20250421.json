@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA869-278781",
+    "fecha_emision": "2025-04-21T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20807292367",
+    "emisor_razon_social": "Radisson Select San Isidro",
+    "emisor_direccion": "Av. Javier Prado Este 873, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20056234595",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 2832, Miraflores, Lima",
+    "subtotal": 420.12,
+    "igv": 75.62,
+    "importe_total": 571.36,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.105,
+            "precio_unitario": 59.13,
+            "valor_venta": 420.12,
+            "cargo_item": 75.62,
+            "importe_total": 495.74
+        }
+    ]
+}

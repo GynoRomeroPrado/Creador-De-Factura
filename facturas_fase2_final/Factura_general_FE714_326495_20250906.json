@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE714-326495",
+    "fecha_emision": "2025-09-06T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20183209206",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Arequipa 906, San Isidro, Lima",
+    "receptor_numero_doc": "20377744170",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 331, La Victoria, Lima",
+    "subtotal": 88278.84,
+    "igv": 15890.19,
+    "importe_total": 104198.68,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Courier Local Modelo 2025",
+            "unidad": "ENV",
+            "cantidad": 78,
+            "precio_unitario": 25.74,
+            "valor_venta": 2007.72
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores Serie X",
+            "unidad": "SRV",
+            "cantidad": 72,
+            "precio_unitario": 1198.21,
+            "valor_venta": 86271.12
+        }
+    ]
+}

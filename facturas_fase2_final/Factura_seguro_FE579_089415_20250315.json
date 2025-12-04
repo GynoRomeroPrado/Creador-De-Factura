@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE579-089415",
+    "fecha_emision": "2025-03-15T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20929086512",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 4746, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20919727374",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Calle Los Pinos 1254, Miraflores, Lima",
+    "subtotal": 209028.97,
+    "igv": 37625.21,
+    "importe_total": 246654.18,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 38,
+            "precio_unitario": 282.12,
+            "valor_venta": 10720.56
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 15,
+            "precio_unitario": 1218.15,
+            "valor_venta": 18272.25
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 100,
+            "precio_unitario": 1356.86,
+            "valor_venta": 135686.0
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Importado)",
+            "unidad": "POL",
+            "cantidad": 40,
+            "precio_unitario": 189.5,
+            "valor_venta": 7580.0
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 86,
+            "precio_unitario": 427.56,
+            "valor_venta": 36770.16
+        }
+    ]
+}

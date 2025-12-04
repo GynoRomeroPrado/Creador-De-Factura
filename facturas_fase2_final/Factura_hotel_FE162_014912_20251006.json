@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE162-014912",
+    "fecha_emision": "2025-10-06T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20622438250",
+    "emisor_razon_social": "Swissôtel Luxury Barranco",
+    "emisor_direccion": "Av. Benavides 3954, San Isidro, Lima",
+    "receptor_numero_doc": "20106097870",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 1961, San Borja, Lima",
+    "subtotal": 556.74,
+    "igv": 72.35,
+    "importe_total": 737.9,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.068,
+            "precio_unitario": 41.21,
+            "valor_venta": 44.01,
+            "cargo_item": 7.92,
+            "importe_total": 51.93
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.537,
+            "precio_unitario": 66.71,
+            "valor_venta": 102.53,
+            "cargo_item": 18.46,
+            "importe_total": 120.99
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.654,
+            "precio_unitario": 42.49,
+            "valor_venta": 410.2,
+            "cargo_item": 73.84,
+            "importe_total": 484.04
+        }
+    ]
+}

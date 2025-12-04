@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F018-808154",
+    "fecha_emision": "2025-12-17T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20477189963",
+    "emisor_razon_social": "Marriott Wyndham Barranco",
+    "emisor_direccion": "Av. La Marina 3633, San Isidro, Lima",
+    "receptor_numero_doc": "20213486544",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Arequipa 272, San Isidro, Lima",
+    "subtotal": 2050.96,
+    "igv": 344.49,
+    "importe_total": 2808.9,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.43,
+            "precio_unitario": 135.34,
+            "valor_venta": 599.56,
+            "cargo_item": 107.92,
+            "importe_total": 707.48
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.05,
+            "precio_unitario": 53.17,
+            "valor_venta": 55.83,
+            "cargo_item": 10.05,
+            "importe_total": 65.88
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.976,
+            "precio_unitario": 33.16,
+            "valor_venta": 297.64,
+            "cargo_item": 53.58,
+            "importe_total": 351.22
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.426,
+            "precio_unitario": 56.15,
+            "valor_venta": 473.12,
+            "cargo_item": 85.16,
+            "importe_total": 558.28
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.845,
+            "precio_unitario": 91.28,
+            "valor_venta": 624.81,
+            "cargo_item": 112.47,
+            "importe_total": 737.28
+        }
+    ]
+}

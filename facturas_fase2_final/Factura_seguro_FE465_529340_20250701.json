@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE465-529340",
+    "fecha_emision": "2025-07-01T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20010073457",
+    "emisor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "emisor_direccion": "Av. La Marina 2431, San Isidro, Lima",
+    "receptor_numero_doc": "20137913519",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Benavides 234, San Isidro, Lima",
+    "subtotal": 66012.29,
+    "igv": 11882.21,
+    "importe_total": 77894.5,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 64,
+            "precio_unitario": 691.91,
+            "valor_venta": 44282.24
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 29,
+            "precio_unitario": 201.49,
+            "valor_venta": 5843.21
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 7,
+            "precio_unitario": 270.42,
+            "valor_venta": 1892.94
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 5,
+            "precio_unitario": 2798.78,
+            "valor_venta": 13993.9
+        }
+    ]
+}

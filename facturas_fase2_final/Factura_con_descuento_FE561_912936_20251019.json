@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE561-912936",
+    "fecha_emision": "2025-10-19T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20454663501",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 4927, San Isidro, Lima",
+    "receptor_numero_doc": "20433202776",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. La Marina 143, San Borja, Lima",
+    "subtotal": 11067.49,
+    "igv": 1992.15,
+    "importe_total": 13059.64,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Sirena Estroboscópica Modelo 2025",
+            "unidad": "UND",
+            "cantidad": 76,
+            "precio_unitario": 88.55,
+            "valor_venta": 6729.8
+        },
+        {
+            "numero": 2,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 82,
+            "precio_unitario": 46.66,
+            "valor_venta": 3826.12
+        },
+        {
+            "numero": 3,
+            "descripcion": "Extintor PQS 6kg Serie X",
+            "unidad": "UND",
+            "cantidad": 31,
+            "precio_unitario": 78.84,
+            "valor_venta": 2444.04
+        }
+    ]
+}

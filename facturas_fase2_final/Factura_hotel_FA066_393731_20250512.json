@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA066-393731",
+    "fecha_emision": "2025-05-12T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20727410491",
+    "emisor_razon_social": "Marriott Luxury San Isidro",
+    "emisor_direccion": "Av. Javier Prado Este 4303, La Victoria, Lima",
+    "receptor_numero_doc": "20758518290",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 1317, San Isidro, Lima",
+    "subtotal": 170.8,
+    "igv": 27.83,
+    "importe_total": 237.52,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.888,
+            "precio_unitario": 43.93,
+            "valor_venta": 170.8,
+            "cargo_item": 30.74,
+            "importe_total": 201.54
+        }
+    ]
+}

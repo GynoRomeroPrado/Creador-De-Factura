@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA284-057263",
+    "fecha_emision": "2025-10-06T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20493972821",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. La Marina 4815, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20404795792",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 836, Miraflores, Lima",
+    "subtotal": 157222.39,
+    "igv": 26019.86,
+    "importe_total": 183242.25,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida (Oferta)",
+            "unidad": "POL",
+            "cantidad": 75,
+            "precio_unitario": 454.65,
+            "valor_venta": 34098.75
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 1073.54,
+            "valor_venta": 56897.62
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 43,
+            "precio_unitario": 1540.14,
+            "valor_venta": 66226.02
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE764-515196",
+    "fecha_emision": "2025-07-27T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20525735304",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 1163, Miraflores, Lima",
+    "receptor_numero_doc": "20991331485",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 1377, San Isidro, Lima",
+    "subtotal": 305341.99,
+    "igv": 54961.56,
+    "importe_total": 360303.55,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica Modelo 2025",
+            "unidad": "PROY",
+            "cantidad": 6,
+            "precio_unitario": 4915.94,
+            "valor_venta": 29495.64
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 57,
+            "precio_unitario": 22.66,
+            "valor_venta": 1291.62
+        },
+        {
+            "numero": 3,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 94,
+            "precio_unitario": 1166.78,
+            "valor_venta": 109677.32
+        },
+        {
+            "numero": 4,
+            "descripcion": "Alquiler de Sala de Conferencias (Día) Serie X",
+            "unidad": "DIA",
+            "cantidad": 54,
+            "precio_unitario": 1204.78,
+            "valor_venta": 65058.12
+        },
+        {
+            "numero": 5,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas) Serie X",
+            "unidad": "HOR",
+            "cantidad": 17,
+            "precio_unitario": 175.26,
+            "valor_venta": 2979.42
+        },
+        {
+            "numero": 6,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 45,
+            "precio_unitario": 2482.75,
+            "valor_venta": 111723.75
+        }
+    ]
+}

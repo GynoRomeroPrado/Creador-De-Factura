@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F313-500664",
+    "fecha_emision": "2025-01-02T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20163698677",
+    "emisor_razon_social": "Westin Suites Iquitos",
+    "emisor_direccion": "Jr. de la Unión 4030, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20785706243",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 3227, La Victoria, Lima",
+    "subtotal": 2442.21,
+    "igv": 439.6,
+    "importe_total": 3347.89,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.947,
+            "precio_unitario": 66.76,
+            "valor_venta": 664.06,
+            "cargo_item": 119.53,
+            "importe_total": 783.59
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.227,
+            "precio_unitario": 79.23,
+            "valor_venta": 572.6,
+            "cargo_item": 103.07,
+            "importe_total": 675.67
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.842,
+            "precio_unitario": 85.0,
+            "valor_venta": 326.57,
+            "cargo_item": 58.78,
+            "importe_total": 385.35
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.042,
+            "precio_unitario": 49.26,
+            "valor_venta": 346.89,
+            "cargo_item": 62.44,
+            "importe_total": 409.33
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.53,
+            "precio_unitario": 149.94,
+            "valor_venta": 679.23,
+            "cargo_item": 122.26,
+            "importe_total": 801.49
+        }
+    ]
+}

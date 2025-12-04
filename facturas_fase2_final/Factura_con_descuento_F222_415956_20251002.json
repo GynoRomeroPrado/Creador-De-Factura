@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F222-415956",
+    "fecha_emision": "2025-10-02T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20761859634",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Arequipa 4724, San Isidro, Lima",
+    "receptor_numero_doc": "20937020458",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 3732, Cercado de Lima, Lima",
+    "subtotal": 1960.46,
+    "igv": 352.88,
+    "importe_total": 2313.34,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 91,
+            "precio_unitario": 12.42,
+            "valor_venta": 1130.22
+        },
+        {
+            "numero": 2,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 68,
+            "precio_unitario": 15.41,
+            "valor_venta": 1047.88
+        }
+    ]
+}

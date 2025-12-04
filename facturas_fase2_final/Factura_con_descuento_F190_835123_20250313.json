@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F190-835123",
+    "fecha_emision": "2025-03-13T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20937000431",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 1156, La Victoria, Lima",
+    "receptor_numero_doc": "20549118772",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 1385, Santiago de Surco, Lima",
+    "subtotal": 964.43,
+    "igv": 173.6,
+    "importe_total": 1138.03,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Cemento Sol Tipo I (42.5kg)",
+            "unidad": "BOL",
+            "cantidad": 38,
+            "precio_unitario": 26.78,
+            "valor_venta": 1017.64
+        }
+    ]
+}

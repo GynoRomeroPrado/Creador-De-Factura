@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F065-281740",
+    "fecha_emision": "2025-07-29T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20051200382",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 243, La Victoria, Lima",
+    "receptor_numero_doc": "20482003924",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Benavides 2690, Cercado de Lima, Lima",
+    "subtotal": 411378.14,
+    "igv": 74048.07,
+    "importe_total": 485426.21,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 89,
+            "precio_unitario": 736.17,
+            "valor_venta": 65519.13
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores Modelo 2025",
+            "unidad": "SRV",
+            "cantidad": 68,
+            "precio_unitario": 1388.83,
+            "valor_venta": 94440.44
+        },
+        {
+            "numero": 3,
+            "descripcion": "Alquiler de Sala de Conferencias (Día) (Oferta)",
+            "unidad": "DIA",
+            "cantidad": 98,
+            "precio_unitario": 959.91,
+            "valor_venta": 94071.18
+        },
+        {
+            "numero": 4,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 25,
+            "precio_unitario": 779.65,
+            "valor_venta": 19491.25
+        },
+        {
+            "numero": 5,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 74,
+            "precio_unitario": 23.7,
+            "valor_venta": 1753.8
+        },
+        {
+            "numero": 6,
+            "descripcion": "Servicio de Courier Local (Importado)",
+            "unidad": "ENV",
+            "cantidad": 25,
+            "precio_unitario": 29.54,
+            "valor_venta": 738.5
+        },
+        {
+            "numero": 7,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas Modelo 2025",
+            "unidad": "MES",
+            "cantidad": 87,
+            "precio_unitario": 1575.48,
+            "valor_venta": 137066.76
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE492-452384",
+    "fecha_emision": "2025-08-02T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20094118086",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 4425, Miraflores, Lima",
+    "receptor_numero_doc": "20506551812",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 1436, La Victoria, Lima",
+    "subtotal": 20716.29,
+    "igv": 3352.69,
+    "importe_total": 24068.98,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 48,
+            "precio_unitario": 528.67,
+            "valor_venta": 25376.16
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Courier Local Serie X",
+            "unidad": "ENV",
+            "cantidad": 16,
+            "precio_unitario": 32.45,
+            "valor_venta": 519.2
+        }
+    ]
+}

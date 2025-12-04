@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E839-663967",
+    "fecha_emision": "2025-07-03T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20226783351",
+    "emisor_razon_social": "Sheraton Premium Tacna",
+    "emisor_direccion": "Jr. de la Unión 2731, San Isidro, Lima",
+    "receptor_numero_doc": "20606186941",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Arequipa 3018, Miraflores, Lima",
+    "subtotal": 350.7,
+    "igv": 63.13,
+    "importe_total": 482.33,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.532,
+            "precio_unitario": 114.74,
+            "valor_venta": 290.52,
+            "cargo_item": 52.29,
+            "importe_total": 342.81
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.244,
+            "precio_unitario": 40.13,
+            "valor_venta": 90.05,
+            "cargo_item": 16.21,
+            "importe_total": 106.26
+        }
+    ]
+}

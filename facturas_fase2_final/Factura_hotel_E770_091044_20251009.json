@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E770-091044",
+    "fecha_emision": "2025-10-09T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20478000767",
+    "emisor_razon_social": "Hilton Wyndham Lima",
+    "emisor_direccion": "Av. La Marina 4860, Miraflores, Lima",
+    "receptor_numero_doc": "20961081972",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 3943, Santiago de Surco, Lima",
+    "subtotal": 484.78,
+    "igv": 63.36,
+    "importe_total": 635.4,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.827,
+            "precio_unitario": 54.92,
+            "valor_venta": 484.78,
+            "cargo_item": 87.26,
+            "importe_total": 572.04
+        }
+    ]
+}

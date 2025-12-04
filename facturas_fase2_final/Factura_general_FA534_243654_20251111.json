@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA534-243654",
+    "fecha_emision": "2025-11-11T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20561330019",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 4092, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20006992944",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 4950, La Victoria, Lima",
+    "subtotal": 169715.64,
+    "igv": 30548.82,
+    "importe_total": 200264.46,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 72,
+            "precio_unitario": 446.21,
+            "valor_venta": 32127.12
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 28,
+            "precio_unitario": 2324.11,
+            "valor_venta": 65075.08
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 66,
+            "precio_unitario": 316.58,
+            "valor_venta": 20894.28
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 69,
+            "precio_unitario": 168.3,
+            "valor_venta": 11612.7
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 21,
+            "precio_unitario": 412.06,
+            "valor_venta": 8653.26
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 48,
+            "precio_unitario": 442.41,
+            "valor_venta": 21235.68
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro contra Incendios Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 49,
+            "precio_unitario": 810.11,
+            "valor_venta": 39695.39
+        }
+    ]
+}

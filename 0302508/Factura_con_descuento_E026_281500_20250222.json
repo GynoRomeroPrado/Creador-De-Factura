@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E026-281500",
+    "fecha_emision": "2025-02-22T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20037172341",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Av. Arequipa 4231, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20063402878",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. La Marina 2275, Cercado de Lima, Lima",
+    "subtotal": 1640.72,
+    "igv": 295.33,
+    "importe_total": 1936.05,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.989,
+            "precio_unitario": 146.47,
+            "valor_venta": 1170.15
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.726,
+            "precio_unitario": 75.22,
+            "valor_venta": 430.71
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.329,
+            "precio_unitario": 98.95,
+            "valor_venta": 329.4
+        }
+    ]
+}

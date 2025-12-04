@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA894-649649",
+    "fecha_emision": "2025-03-29T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20416673536",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Av. Benavides 1300, San Borja, Lima",
+    "receptor_numero_doc": "20251508799",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Jr. de la Unión 3364, Miraflores, Lima",
+    "subtotal": 732818.84,
+    "igv": 131907.39,
+    "importe_total": 864726.23,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas) Serie X",
+            "unidad": "HOR",
+            "cantidad": 66,
+            "precio_unitario": 165.47,
+            "valor_venta": 10921.02
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas Serie X",
+            "unidad": "MES",
+            "cantidad": 32,
+            "precio_unitario": 2317.77,
+            "valor_venta": 74168.64
+        },
+        {
+            "numero": 3,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica Serie X",
+            "unidad": "PROY",
+            "cantidad": 65,
+            "precio_unitario": 4528.74,
+            "valor_venta": 294368.1
+        },
+        {
+            "numero": 4,
+            "descripcion": "Servicio de Courier Local (Oferta)",
+            "unidad": "ENV",
+            "cantidad": 79,
+            "precio_unitario": 22.56,
+            "valor_venta": 1782.24
+        },
+        {
+            "numero": 5,
+            "descripcion": "Alquiler de Sala de Conferencias (Día) (Importado)",
+            "unidad": "DIA",
+            "cantidad": 72,
+            "precio_unitario": 1061.22,
+            "valor_venta": 76407.84
+        },
+        {
+            "numero": 6,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica Serie X",
+            "unidad": "PROY",
+            "cantidad": 90,
+            "precio_unitario": 3253.0,
+            "valor_venta": 292770.0
+        }
+    ]
+}

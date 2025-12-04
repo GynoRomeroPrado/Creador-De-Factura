@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA341-066422",
+    "fecha_emision": "2025-02-19T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20471294536",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 2637, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20356797397",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 2942, Miraflores, Lima",
+    "subtotal": 151587.82,
+    "igv": 23789.53,
+    "importe_total": 175377.35,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 49,
+            "precio_unitario": 2777.02,
+            "valor_venta": 136073.98
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 36,
+            "precio_unitario": 430.94,
+            "valor_venta": 15513.84
+        }
+    ]
+}

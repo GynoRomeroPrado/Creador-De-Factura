@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE280-732692",
+    "fecha_emision": "2025-03-25T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20734010881",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 1527, La Victoria, Lima",
+    "receptor_numero_doc": "20830274635",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Arequipa 2350, Cercado de Lima, Lima",
+    "subtotal": 492540.49,
+    "igv": 88657.29,
+    "importe_total": 581197.78,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 5,
+            "precio_unitario": 1366.68,
+            "valor_venta": 6833.4
+        },
+        {
+            "numero": 2,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 33,
+            "precio_unitario": 2578.22,
+            "valor_venta": 85081.26
+        },
+        {
+            "numero": 3,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 85,
+            "precio_unitario": 1127.53,
+            "valor_venta": 95840.05
+        },
+        {
+            "numero": 4,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 88,
+            "precio_unitario": 4119.79,
+            "valor_venta": 362541.52
+        },
+        {
+            "numero": 5,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas) Modelo 2025",
+            "unidad": "HOR",
+            "cantidad": 97,
+            "precio_unitario": 285.84,
+            "valor_venta": 27726.48
+        },
+        {
+            "numero": 6,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 20,
+            "precio_unitario": 16.61,
+            "valor_venta": 332.2
+        },
+        {
+            "numero": 7,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 1,
+            "precio_unitario": 1104.49,
+            "valor_venta": 1104.49
+        }
+    ]
+}

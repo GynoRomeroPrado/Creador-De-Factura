@@ -1,0 +1,91 @@
+{
+    "tipo_comprobante": "FACTURA",
+    "tipo_factura": "con_descuento",
+    "numero_factura": "F945-128092",
+    "serie": "F945",
+    "numero": "128092",
+    "fecha_emision": "2025-08-27T00:00:00",
+    "fecha_vencimiento": "2025-08-27T00:00:00",
+    "emisor": {
+        "ruc": "20455246416",
+        "razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+        "direccion": "Av. Benavides 4889, Miraflores, Lima",
+        "telefono": "01-6953473",
+        "email": "facturacion@empresa.com"
+    },
+    "receptor": {
+        "ruc": "20039089719",
+        "razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+        "direccion": "Av. Benavides 1024, Cercado de Lima, Lima",
+        "telefono": "952003807",
+        "email": "administracion@corp.pe"
+    },
+    "moneda": "USD",
+    "simbolo_moneda": "$",
+    "nombre_moneda": "DOLARES",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Guantes de Cuero Reforzado",
+            "unidad": "PAR",
+            "cantidad": 76,
+            "precio_unitario": 14.18,
+            "valor_venta": 1077.68
+        },
+        {
+            "numero": 2,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L)",
+            "unidad": "GLN",
+            "cantidad": 76,
+            "precio_unitario": 46.75,
+            "valor_venta": 3553.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 33,
+            "precio_unitario": 706.01,
+            "valor_venta": 23298.33
+        },
+        {
+            "numero": 4,
+            "descripcion": "Tubo PVC SAP Pavco 4\" Desague",
+            "unidad": "UND",
+            "cantidad": 21,
+            "precio_unitario": 22.99,
+            "valor_venta": 482.79
+        }
+    ],
+    "op_gravada": 24699.29,
+    "op_exonerada": 0.0,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 4445.87,
+    "total_cargos": 0.0,
+    "otros_cargos": 0.0,
+    "total": 29145.16,
+    "total_letras": "VEINTINUEVE MIL CIENTO CUARENTA Y CINCO CON 16/100 DÓLARES",
+    "forma_pago": "TRANSFERENCIA BANCARIA",
+    "con_credito": false,
+    "cuotas": [],
+    "numero_contrato": null,
+    "periodo_facturado": "AGOSTO 25",
+    "observaciones": null,
+    "datos_hotel": null,
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": {
+        "descripcion": "Descuento",
+        "monto": 3712.51,
+        "gravado": 3155.63,
+        "exonerado": 0.0,
+        "igv": 556.88,
+        "icbper": 0.0,
+        "total": 3712.51,
+        "detraccion": 0.0
+    },
+    "industria": "construccion"
+}

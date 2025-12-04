@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F921-556059",
+    "fecha_emision": "2025-05-28T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20187933855",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Jr. de la Unión 4801, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20123269374",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 1487, Santiago de Surco, Lima",
+    "subtotal": 1436.31,
+    "igv": 258.54,
+    "importe_total": 1694.85,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.758,
+            "precio_unitario": 74.38,
+            "valor_venta": 279.52
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.95,
+            "precio_unitario": 116.26,
+            "valor_venta": 1156.79
+        }
+    ]
+}

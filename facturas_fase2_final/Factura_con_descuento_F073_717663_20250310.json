@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F073-717663",
+    "fecha_emision": "2025-03-10T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20975850316",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Av. Arequipa 859, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20843198695",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. La Marina 352, Miraflores, Lima",
+    "subtotal": 62843.33,
+    "igv": 11311.8,
+    "importe_total": 74174.5,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 8,
+            "precio_unitario": 2296.56,
+            "valor_venta": 18372.48
+        },
+        {
+            "numero": 2,
+            "descripcion": "Soporte Técnico Remoto Mensual (Oferta)",
+            "unidad": "MES",
+            "cantidad": 55,
+            "precio_unitario": 687.97,
+            "valor_venta": 37838.35
+        },
+        {
+            "numero": 3,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 58,
+            "precio_unitario": 171.38,
+            "valor_venta": 9940.04
+        }
+    ]
+}

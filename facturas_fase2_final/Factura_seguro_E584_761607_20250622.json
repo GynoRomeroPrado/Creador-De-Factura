@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E584-761607",
+    "fecha_emision": "2025-06-22T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20876568838",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. La Marina 545, San Isidro, Lima",
+    "receptor_numero_doc": "20793336552",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 2342, Miraflores, Lima",
+    "subtotal": 102260.26,
+    "igv": 18406.85,
+    "importe_total": 120667.11,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 34,
+            "precio_unitario": 1940.44,
+            "valor_venta": 65974.96
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 96,
+            "precio_unitario": 273.84,
+            "valor_venta": 26288.64
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 57,
+            "precio_unitario": 175.38,
+            "valor_venta": 9996.66
+        }
+    ]
+}

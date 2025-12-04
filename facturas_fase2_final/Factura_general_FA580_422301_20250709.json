@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA580-422301",
+    "fecha_emision": "2025-07-09T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20982288194",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. La Marina 3300, San Isidro, Lima",
+    "receptor_numero_doc": "20597722304",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Jr. de la Unión 205, San Isidro, Lima",
+    "subtotal": 206662.51,
+    "igv": 37199.25,
+    "importe_total": 243861.76,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 28,
+            "precio_unitario": 172.08,
+            "valor_venta": 4818.24
+        },
+        {
+            "numero": 2,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 39,
+            "precio_unitario": 1131.45,
+            "valor_venta": 44126.55
+        },
+        {
+            "numero": 3,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 33,
+            "precio_unitario": 227.14,
+            "valor_venta": 7495.62
+        },
+        {
+            "numero": 4,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 79,
+            "precio_unitario": 615.39,
+            "valor_venta": 48615.81
+        },
+        {
+            "numero": 5,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 3,
+            "precio_unitario": 1405.45,
+            "valor_venta": 4216.35
+        },
+        {
+            "numero": 6,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 39,
+            "precio_unitario": 1744.26,
+            "valor_venta": 68026.14
+        },
+        {
+            "numero": 7,
+            "descripcion": "Servicio de Courier Local",
+            "unidad": "ENV",
+            "cantidad": 69,
+            "precio_unitario": 23.05,
+            "valor_venta": 1590.45
+        },
+        {
+            "numero": 8,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 8,
+            "precio_unitario": 2711.69,
+            "valor_venta": 21693.52
+        },
+        {
+            "numero": 9,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 9,
+            "precio_unitario": 240.97,
+            "valor_venta": 2168.73
+        },
+        {
+            "numero": 10,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 6,
+            "precio_unitario": 651.85,
+            "valor_venta": 3911.1
+        }
+    ]
+}

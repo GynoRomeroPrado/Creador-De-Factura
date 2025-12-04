@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE316-217878",
+    "fecha_emision": "2025-07-08T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20498262695",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 4927, San Isidro, Lima",
+    "receptor_numero_doc": "20403106306",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 1279, San Isidro, Lima",
+    "subtotal": 10194.62,
+    "igv": 1835.03,
+    "importe_total": 12029.65,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 58,
+            "precio_unitario": 23.86,
+            "valor_venta": 1383.88
+        },
+        {
+            "numero": 2,
+            "descripcion": "Piedra Chancada 1/2\" (m3) (Importado)",
+            "unidad": "M3",
+            "cantidad": 18,
+            "precio_unitario": 66.22,
+            "valor_venta": 1191.96
+        },
+        {
+            "numero": 3,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 26,
+            "precio_unitario": 27.81,
+            "valor_venta": 723.06
+        },
+        {
+            "numero": 4,
+            "descripcion": "Arena Gruesa (m3)",
+            "unidad": "M3",
+            "cantidad": 59,
+            "precio_unitario": 45.08,
+            "valor_venta": 2659.72
+        },
+        {
+            "numero": 5,
+            "descripcion": "Piedra Chancada 1/2\" (m3) (Importado)",
+            "unidad": "M3",
+            "cantidad": 30,
+            "precio_unitario": 69.55,
+            "valor_venta": 2086.5
+        },
+        {
+            "numero": 6,
+            "descripcion": "Cemento Sol Tipo I (42.5kg)",
+            "unidad": "BOL",
+            "cantidad": 75,
+            "precio_unitario": 28.66,
+            "valor_venta": 2149.5
+        }
+    ]
+}

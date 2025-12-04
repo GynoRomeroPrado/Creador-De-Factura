@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE294-908399",
+    "fecha_emision": "2025-06-23T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20922316199",
+    "emisor_razon_social": "Marriott Premium Miraflores",
+    "emisor_direccion": "Jr. de la Unión 269, San Isidro, Lima",
+    "receptor_numero_doc": "20738031017",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Arequipa 1656, La Victoria, Lima",
+    "subtotal": 2670.25,
+    "igv": 480.64,
+    "importe_total": 3677.34,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.787,
+            "precio_unitario": 122.1,
+            "valor_venta": 950.79,
+            "cargo_item": 171.14,
+            "importe_total": 1121.93
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.444,
+            "precio_unitario": 95.95,
+            "valor_venta": 618.3,
+            "cargo_item": 111.29,
+            "importe_total": 729.59
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.006,
+            "precio_unitario": 122.27,
+            "valor_venta": 1101.16,
+            "cargo_item": 198.21,
+            "importe_total": 1299.37
+        }
+    ]
+}

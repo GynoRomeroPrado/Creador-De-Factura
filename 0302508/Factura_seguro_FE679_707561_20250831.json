@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE679-707561",
+    "fecha_emision": "2025-08-31T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20617516714",
+    "emisor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "emisor_direccion": "Av. Benavides 3548, Miraflores, Lima",
+    "receptor_numero_doc": "20357915377",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Benavides 3051, Miraflores, Lima",
+    "subtotal": 100655.2,
+    "igv": 16248.87,
+    "importe_total": 116904.07,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 59,
+            "precio_unitario": 221.54,
+            "valor_venta": 13070.86
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 34,
+            "precio_unitario": 2576.01,
+            "valor_venta": 87584.34
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA463-852393",
+    "fecha_emision": "2025-02-19T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20148433811",
+    "emisor_razon_social": "Costa del Sol Business Tacna",
+    "emisor_direccion": "Jr. de la Unión 709, Miraflores, Lima",
+    "receptor_numero_doc": "20147221348",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Jr. de la Unión 3993, San Isidro, Lima",
+    "subtotal": 1613.85,
+    "igv": 290.49,
+    "importe_total": 2194.83,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.525,
+            "precio_unitario": 88.48,
+            "valor_venta": 400.37,
+            "cargo_item": 72.07,
+            "importe_total": 472.44
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.917,
+            "precio_unitario": 71.29,
+            "valor_venta": 421.82,
+            "cargo_item": 75.93,
+            "importe_total": 497.75
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.385,
+            "precio_unitario": 81.75,
+            "valor_venta": 358.47,
+            "cargo_item": 64.52,
+            "importe_total": 422.99
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.769,
+            "precio_unitario": 75.09,
+            "valor_venta": 433.19,
+            "cargo_item": 77.97,
+            "importe_total": 511.16
+        }
+    ]
+}

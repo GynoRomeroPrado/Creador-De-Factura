@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E522-567513",
+    "fecha_emision": "2025-06-29T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20462165928",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 4263, La Victoria, Lima",
+    "receptor_numero_doc": "20512493204",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 922, San Borja, Lima",
+    "subtotal": 404.16,
+    "igv": 72.75,
+    "importe_total": 508.11,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 30,
+            "precio_unitario": 16.84,
+            "valor_venta": 505.2
+        }
+    ]
+}

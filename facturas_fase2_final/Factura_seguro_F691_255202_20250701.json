@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F691-255202",
+    "fecha_emision": "2025-07-01T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20094120099",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Benavides 4745, La Victoria, Lima",
+    "receptor_numero_doc": "20986059360",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. Arequipa 2725, La Victoria, Lima",
+    "subtotal": 216431.79,
+    "igv": 38957.72,
+    "importe_total": 255389.51,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 69,
+            "precio_unitario": 227.74,
+            "valor_venta": 15714.06
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 57,
+            "precio_unitario": 417.35,
+            "valor_venta": 23788.95
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios (Oferta)",
+            "unidad": "POL",
+            "cantidad": 79,
+            "precio_unitario": 1136.52,
+            "valor_venta": 89785.08
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 62,
+            "precio_unitario": 1304.31,
+            "valor_venta": 80867.22
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 56,
+            "precio_unitario": 112.08,
+            "valor_venta": 6276.48
+        }
+    ]
+}

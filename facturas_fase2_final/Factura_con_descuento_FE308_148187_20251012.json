@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE308-148187",
+    "fecha_emision": "2025-10-12T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20249981525",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. La Marina 2261, San Borja, Lima",
+    "receptor_numero_doc": "20571775931",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. La Marina 4573, San Isidro, Lima",
+    "subtotal": 121024.58,
+    "igv": 21784.42,
+    "importe_total": 142809.0,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 66,
+            "precio_unitario": 1313.92,
+            "valor_venta": 86718.72
+        },
+        {
+            "numero": 2,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional Serie X",
+            "unidad": "SES",
+            "cantidad": 78,
+            "precio_unitario": 713.63,
+            "valor_venta": 55663.14
+        }
+    ]
+}

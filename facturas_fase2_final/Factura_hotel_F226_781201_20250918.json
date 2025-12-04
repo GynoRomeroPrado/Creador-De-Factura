@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F226-781201",
+    "fecha_emision": "2025-09-18T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20230347825",
+    "emisor_razon_social": "Westin Plaza Lima",
+    "emisor_direccion": "Calle Los Pinos 2640, Miraflores, Lima",
+    "receptor_numero_doc": "20626813993",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 2342, San Isidro, Lima",
+    "subtotal": 251.04,
+    "igv": 39.3,
+    "importe_total": 335.53,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.11,
+            "precio_unitario": 80.72,
+            "valor_venta": 251.04,
+            "cargo_item": 45.19,
+            "importe_total": 296.23
+        }
+    ]
+}

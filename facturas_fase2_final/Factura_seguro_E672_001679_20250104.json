@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E672-001679",
+    "fecha_emision": "2025-01-04T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20371208594",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Benavides 918, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20357817405",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 241, Miraflores, Lima",
+    "subtotal": 220699.06,
+    "igv": 39725.83,
+    "importe_total": 260424.89,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 4,
+            "precio_unitario": 980.9,
+            "valor_venta": 3923.6
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 16,
+            "precio_unitario": 1519.01,
+            "valor_venta": 24304.16
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 90,
+            "precio_unitario": 2138.57,
+            "valor_venta": 192471.3
+        }
+    ]
+}

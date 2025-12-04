@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F074-261175",
+    "fecha_emision": "2025-05-01T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20204130508",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 4294, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20878352697",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 4523, Santiago de Surco, Lima",
+    "subtotal": 311035.38,
+    "igv": 55986.37,
+    "importe_total": 367021.75,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 41,
+            "precio_unitario": 485.47,
+            "valor_venta": 19904.27
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 8,
+            "precio_unitario": 552.25,
+            "valor_venta": 4418.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 98,
+            "precio_unitario": 298.48,
+            "valor_venta": 29251.04
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 7,
+            "precio_unitario": 2152.13,
+            "valor_venta": 15064.91
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 88,
+            "precio_unitario": 1114.28,
+            "valor_venta": 98056.64
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 68,
+            "precio_unitario": 2929.84,
+            "valor_venta": 199229.12
+        }
+    ]
+}

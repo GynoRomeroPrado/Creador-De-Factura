@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE009-255565",
+    "fecha_emision": "2025-06-21T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20136974573",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 4138, Miraflores, Lima",
+    "receptor_numero_doc": "20585168603",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 1068, La Victoria, Lima",
+    "subtotal": 191679.82,
+    "igv": 31677.48,
+    "importe_total": 223357.3,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores Color: Negro",
+            "unidad": "SRV",
+            "cantidad": 31,
+            "precio_unitario": 1454.12,
+            "valor_venta": 45077.72
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 95,
+            "precio_unitario": 1543.18,
+            "valor_venta": 146602.1
+        }
+    ]
+}

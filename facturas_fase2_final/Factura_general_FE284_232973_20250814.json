@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE284-232973",
+    "fecha_emision": "2025-08-14T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20962161244",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Benavides 1838, Miraflores, Lima",
+    "receptor_numero_doc": "20014388029",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. La Marina 1936, San Borja, Lima",
+    "subtotal": 1772.39,
+    "igv": 319.03,
+    "importe_total": 2091.42,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 12,
+            "precio_unitario": 6.45,
+            "valor_venta": 77.4
+        },
+        {
+            "numero": 2,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 47,
+            "precio_unitario": 4.64,
+            "valor_venta": 218.08
+        },
+        {
+            "numero": 3,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 95,
+            "precio_unitario": 3.46,
+            "valor_venta": 328.7
+        },
+        {
+            "numero": 4,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 94,
+            "precio_unitario": 6.75,
+            "valor_venta": 634.5
+        },
+        {
+            "numero": 5,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 47,
+            "precio_unitario": 5.05,
+            "valor_venta": 237.35
+        },
+        {
+            "numero": 6,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 49,
+            "precio_unitario": 5.64,
+            "valor_venta": 276.36
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F322-945550",
+    "fecha_emision": "2025-04-19T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20735626575",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 435, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20566578141",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 2828, Miraflores, Lima",
+    "subtotal": 15624.56,
+    "igv": 2214.81,
+    "importe_total": 17839.37,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 44,
+            "precio_unitario": 61.44,
+            "valor_venta": 2703.36
+        },
+        {
+            "numero": 2,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 1,
+            "precio_unitario": 48.6,
+            "valor_venta": 48.6
+        },
+        {
+            "numero": 3,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 97,
+            "precio_unitario": 63.8,
+            "valor_venta": 6188.6
+        },
+        {
+            "numero": 4,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 58,
+            "precio_unitario": 54.48,
+            "valor_venta": 3159.84
+        },
+        {
+            "numero": 5,
+            "descripcion": "Detector de Temperatura Térmico Convencional Modelo 2025",
+            "unidad": "UND",
+            "cantidad": 10,
+            "precio_unitario": 56.82,
+            "valor_venta": 568.2
+        },
+        {
+            "numero": 6,
+            "descripcion": "Batería 12V/7AH",
+            "unidad": "UND",
+            "cantidad": 51,
+            "precio_unitario": 57.96,
+            "valor_venta": 2955.96
+        }
+    ]
+}

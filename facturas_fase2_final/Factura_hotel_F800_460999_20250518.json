@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F800-460999",
+    "fecha_emision": "2025-05-18T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20491394863",
+    "emisor_razon_social": "Sonesta Resort Miraflores",
+    "emisor_direccion": "Av. La Marina 276, La Victoria, Lima",
+    "receptor_numero_doc": "20987709881",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 1078, San Borja, Lima",
+    "subtotal": 835.25,
+    "igv": 117.3,
+    "importe_total": 1102.89,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.044,
+            "precio_unitario": 132.41,
+            "valor_venta": 270.65,
+            "cargo_item": 48.72,
+            "importe_total": 319.37
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.976,
+            "precio_unitario": 50.78,
+            "valor_venta": 100.34,
+            "cargo_item": 18.06,
+            "importe_total": 118.4
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.272,
+            "precio_unitario": 51.3,
+            "valor_venta": 167.85,
+            "cargo_item": 30.21,
+            "importe_total": 198.06
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.401,
+            "precio_unitario": 67.35,
+            "valor_venta": 296.41,
+            "cargo_item": 53.35,
+            "importe_total": 349.76
+        }
+    ]
+}

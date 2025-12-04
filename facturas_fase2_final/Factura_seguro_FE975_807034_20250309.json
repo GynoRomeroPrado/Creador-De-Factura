@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE975-807034",
+    "fecha_emision": "2025-03-09T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20556947156",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 3513, San Isidro, Lima",
+    "receptor_numero_doc": "20361154046",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Arequipa 1124, Cercado de Lima, Lima",
+    "subtotal": 6616.49,
+    "igv": 928.0,
+    "importe_total": 7544.49,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 131.41,
+            "valor_venta": 6964.73
+        }
+    ]
+}

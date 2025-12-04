@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA741-512699",
+    "fecha_emision": "2025-10-07T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20502535201",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Av. Benavides 3018, Miraflores, Lima",
+    "receptor_numero_doc": "20746690691",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 4391, Santiago de Surco, Lima",
+    "subtotal": 185536.47,
+    "igv": 33396.56,
+    "importe_total": 218933.03,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 62,
+            "precio_unitario": 320.13,
+            "valor_venta": 19848.06
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 71,
+            "precio_unitario": 199.31,
+            "valor_venta": 14151.01
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 69,
+            "precio_unitario": 1943.8,
+            "valor_venta": 134122.2
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 80,
+            "precio_unitario": 217.69,
+            "valor_venta": 17415.2
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA366-433779",
+    "fecha_emision": "2025-10-05T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20929842074",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Benavides 1677, Miraflores, Lima",
+    "receptor_numero_doc": "20317067934",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Calle Los Pinos 279, San Borja, Lima",
+    "subtotal": 45790.57,
+    "igv": 5836.56,
+    "importe_total": 51627.13,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 100,
+            "precio_unitario": 119.19,
+            "valor_venta": 11919.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 85,
+            "precio_unitario": 136.02,
+            "valor_venta": 11561.7
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pescado Fresco kg Modelo 2025",
+            "unidad": "KG",
+            "cantidad": 63,
+            "precio_unitario": 16.81,
+            "valor_venta": 1059.03
+        },
+        {
+            "numero": 4,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 17,
+            "precio_unitario": 4.97,
+            "valor_venta": 84.49
+        },
+        {
+            "numero": 5,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 35,
+            "precio_unitario": 94.15,
+            "valor_venta": 3295.25
+        },
+        {
+            "numero": 6,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 53,
+            "precio_unitario": 210.38,
+            "valor_venta": 11150.14
+        },
+        {
+            "numero": 7,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 37,
+            "precio_unitario": 125.36,
+            "valor_venta": 4638.32
+        },
+        {
+            "numero": 8,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 14,
+            "precio_unitario": 148.76,
+            "valor_venta": 2082.64
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E238-640625",
+    "fecha_emision": "2025-01-19T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20126843241",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. La Marina 4947, San Borja, Lima",
+    "receptor_numero_doc": "20424995046",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 1171, San Borja, Lima",
+    "subtotal": 11281.97,
+    "igv": 1795.77,
+    "importe_total": 13077.74,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 76,
+            "precio_unitario": 19.94,
+            "valor_venta": 1515.44
+        },
+        {
+            "numero": 2,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 17,
+            "precio_unitario": 31.71,
+            "valor_venta": 539.07
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L) (Oferta)",
+            "unidad": "GLN",
+            "cantidad": 67,
+            "precio_unitario": 52.67,
+            "valor_venta": 3528.89
+        },
+        {
+            "numero": 4,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m",
+            "unidad": "VAR",
+            "cantidad": 72,
+            "precio_unitario": 41.65,
+            "valor_venta": 2998.8
+        },
+        {
+            "numero": 5,
+            "descripcion": "Thinner Acrílico Vencedor (Galón) Serie X",
+            "unidad": "GLN",
+            "cantidad": 43,
+            "precio_unitario": 32.84,
+            "valor_venta": 1412.12
+        },
+        {
+            "numero": 6,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal) Serie X",
+            "unidad": "UND",
+            "cantidad": 86,
+            "precio_unitario": 21.78,
+            "valor_venta": 1873.08
+        }
+    ]
+}

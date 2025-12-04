@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F724-576972",
+    "fecha_emision": "2025-03-25T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20447163145",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. La Marina 1244, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20731074179",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Jr. de la Unión 4265, Miraflores, Lima",
+    "subtotal": 44.33,
+    "igv": 7.98,
+    "importe_total": 52.31,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 1,
+            "precio_unitario": 4.63,
+            "valor_venta": 4.63
+        },
+        {
+            "numero": 2,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 12,
+            "precio_unitario": 3.96,
+            "valor_venta": 47.52
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE625-435255",
+    "fecha_emision": "2025-06-01T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20084997570",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. La Marina 2107, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20111749834",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 1681, San Borja, Lima",
+    "subtotal": 115489.58,
+    "igv": 20788.12,
+    "importe_total": 136277.7,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 63,
+            "precio_unitario": 804.26,
+            "valor_venta": 50668.38
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 87,
+            "precio_unitario": 443.36,
+            "valor_venta": 38572.32
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 76,
+            "precio_unitario": 345.38,
+            "valor_venta": 26248.88
+        }
+    ]
+}

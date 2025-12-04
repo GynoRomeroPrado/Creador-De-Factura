@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E796-348786",
+    "fecha_emision": "2025-07-12T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20283943756",
+    "emisor_razon_social": "Swissôtel Select Puno",
+    "emisor_direccion": "Av. Benavides 1298, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20755116786",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 3054, Cercado de Lima, Lima",
+    "subtotal": 1040.05,
+    "igv": 142.31,
+    "importe_total": 1417.61,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.079,
+            "precio_unitario": 99.66,
+            "valor_venta": 904.81,
+            "cargo_item": 162.87,
+            "importe_total": 1067.68
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.987,
+            "precio_unitario": 50.29,
+            "valor_venta": 250.8,
+            "cargo_item": 45.14,
+            "importe_total": 295.94
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F062-638923",
+    "fecha_emision": "2025-09-02T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20865681594",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Jr. de la Unión 1664, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20652479473",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Benavides 230, San Isidro, Lima",
+    "subtotal": 474883.18,
+    "igv": 69098.41,
+    "importe_total": 544004.53,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 76,
+            "precio_unitario": 2442.66,
+            "valor_venta": 185642.16
+        },
+        {
+            "numero": 2,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas) Modelo 2025",
+            "unidad": "HOR",
+            "cantidad": 65,
+            "precio_unitario": 269.58,
+            "valor_venta": 17522.7
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores Modelo 2025",
+            "unidad": "SRV",
+            "cantidad": 25,
+            "precio_unitario": 1284.06,
+            "valor_venta": 32101.5
+        },
+        {
+            "numero": 4,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 80,
+            "precio_unitario": 1196.59,
+            "valor_venta": 95727.2
+        },
+        {
+            "numero": 5,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 92,
+            "precio_unitario": 1325.81,
+            "valor_venta": 121974.52
+        },
+        {
+            "numero": 6,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional (Importado)",
+            "unidad": "SES",
+            "cantidad": 30,
+            "precio_unitario": 711.23,
+            "valor_venta": 21336.9
+        },
+        {
+            "numero": 7,
+            "descripcion": "Servicio de Courier Local Modelo 2025",
+            "unidad": "ENV",
+            "cantidad": 28,
+            "precio_unitario": 20.65,
+            "valor_venta": 578.2
+        }
+    ]
+}

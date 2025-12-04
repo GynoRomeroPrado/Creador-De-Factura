@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E160-460632",
+    "fecha_emision": "2025-01-27T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20441648813",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 3802, La Victoria, Lima",
+    "receptor_numero_doc": "20264143196",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 2413, La Victoria, Lima",
+    "subtotal": 247508.47,
+    "igv": 44551.52,
+    "importe_total": 292059.99,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 46,
+            "precio_unitario": 31.62,
+            "valor_venta": 1454.52
+        },
+        {
+            "numero": 2,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 71,
+            "precio_unitario": 1177.58,
+            "valor_venta": 83608.18
+        },
+        {
+            "numero": 3,
+            "descripcion": "Central de Detección de Incendios (Importado)",
+            "unidad": "UND",
+            "cantidad": 78,
+            "precio_unitario": 2000.19,
+            "valor_venta": 156014.82
+        },
+        {
+            "numero": 4,
+            "descripcion": "Estación Manual Doble Acción Color: Negro",
+            "unidad": "UND",
+            "cantidad": 31,
+            "precio_unitario": 46.02,
+            "valor_venta": 1426.62
+        },
+        {
+            "numero": 5,
+            "descripcion": "Detector de Humo Convencional 2 Hilos Serie X",
+            "unidad": "UND",
+            "cantidad": 93,
+            "precio_unitario": 53.81,
+            "valor_venta": 5004.33
+        }
+    ]
+}

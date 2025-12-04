@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E516-192451",
+    "fecha_emision": "2025-11-10T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20852591731",
+    "emisor_razon_social": "Novotel Wyndham San Isidro",
+    "emisor_direccion": "Jr. de la Unión 4776, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20987104881",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Jr. de la Unión 2314, Santiago de Surco, Lima",
+    "subtotal": 1301.45,
+    "igv": 234.26,
+    "importe_total": 1769.97,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.209,
+            "precio_unitario": 136.43,
+            "valor_venta": 983.52,
+            "cargo_item": 177.03,
+            "importe_total": 1160.55
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.037,
+            "precio_unitario": 45.18,
+            "valor_venta": 317.93,
+            "cargo_item": 57.23,
+            "importe_total": 375.16
+        }
+    ]
+}

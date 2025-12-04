@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E351-246553",
+    "fecha_emision": "2025-05-04T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20993542068",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 1608, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20748586599",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 4325, San Borja, Lima",
+    "subtotal": 165420.69,
+    "igv": 29775.72,
+    "importe_total": 195196.41,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 253.78,
+            "valor_venta": 13450.34
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 78,
+            "precio_unitario": 1071.93,
+            "valor_venta": 83610.54
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 62,
+            "precio_unitario": 1233.92,
+            "valor_venta": 76503.04
+        }
+    ]
+}

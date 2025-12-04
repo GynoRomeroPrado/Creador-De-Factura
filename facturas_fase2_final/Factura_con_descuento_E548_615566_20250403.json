@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E548-615566",
+    "fecha_emision": "2025-04-03T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20892914398",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 3368, La Victoria, Lima",
+    "receptor_numero_doc": "20634774859",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 3710, Miraflores, Lima",
+    "subtotal": 910.35,
+    "igv": 148.21,
+    "importe_total": 1058.56,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 76,
+            "precio_unitario": 4.08,
+            "valor_venta": 310.08
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 90,
+            "precio_unitario": 5.95,
+            "valor_venta": 535.5
+        },
+        {
+            "numero": 3,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 32,
+            "precio_unitario": 4.78,
+            "valor_venta": 152.96
+        }
+    ]
+}

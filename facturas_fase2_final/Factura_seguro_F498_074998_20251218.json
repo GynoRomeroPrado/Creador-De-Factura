@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F498-074998",
+    "fecha_emision": "2025-12-18T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20155430720",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 4745, Miraflores, Lima",
+    "receptor_numero_doc": "20156341321",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Calle Los Pinos 4676, San Isidro, Lima",
+    "subtotal": 5855.68,
+    "igv": 1054.02,
+    "importe_total": 6909.7,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 3,
+            "precio_unitario": 480.61,
+            "valor_venta": 1441.83
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 35,
+            "precio_unitario": 126.11,
+            "valor_venta": 4413.85
+        }
+    ]
+}

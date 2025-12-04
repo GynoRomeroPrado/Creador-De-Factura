@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA025-685985",
+    "fecha_emision": "2025-06-12T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20198855601",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Benavides 3363, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20252659677",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Benavides 206, San Borja, Lima",
+    "subtotal": 321111.75,
+    "igv": 57800.11,
+    "importe_total": 378911.86,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 37,
+            "precio_unitario": 41.72,
+            "valor_venta": 1543.64
+        },
+        {
+            "numero": 2,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 33,
+            "precio_unitario": 3232.24,
+            "valor_venta": 106663.92
+        },
+        {
+            "numero": 3,
+            "descripcion": "Extintor PQS 6kg (Oferta)",
+            "unidad": "UND",
+            "cantidad": 68,
+            "precio_unitario": 83.58,
+            "valor_venta": 5683.44
+        },
+        {
+            "numero": 4,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 67,
+            "precio_unitario": 2719.19,
+            "valor_venta": 182185.73
+        },
+        {
+            "numero": 5,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 21,
+            "precio_unitario": 1076.22,
+            "valor_venta": 22600.62
+        },
+        {
+            "numero": 6,
+            "descripcion": "Batería 12V/7AH",
+            "unidad": "UND",
+            "cantidad": 34,
+            "precio_unitario": 71.6,
+            "valor_venta": 2434.4
+        }
+    ]
+}

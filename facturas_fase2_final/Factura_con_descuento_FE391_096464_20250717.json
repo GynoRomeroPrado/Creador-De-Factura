@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE391-096464",
+    "fecha_emision": "2025-07-17T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20274687003",
+    "emisor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "emisor_direccion": "Av. Benavides 2926, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20151000861",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Arequipa 3548, San Borja, Lima",
+    "subtotal": 1265.92,
+    "igv": 227.87,
+    "importe_total": 1493.79,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 41,
+            "precio_unitario": 4.86,
+            "valor_venta": 199.26
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 80,
+            "precio_unitario": 4.48,
+            "valor_venta": 358.4
+        },
+        {
+            "numero": 3,
+            "descripcion": "Gasolina 95 (Oferta)",
+            "unidad": "GL",
+            "cantidad": 48,
+            "precio_unitario": 4.99,
+            "valor_venta": 239.52
+        },
+        {
+            "numero": 4,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 83,
+            "precio_unitario": 5.86,
+            "valor_venta": 486.38
+        },
+        {
+            "numero": 5,
+            "descripcion": "Gasolina 95 Modelo 2025",
+            "unidad": "GL",
+            "cantidad": 9,
+            "precio_unitario": 5.25,
+            "valor_venta": 47.25
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E771-295630",
+    "fecha_emision": "2025-06-26T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20506486131",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Calle Los Pinos 2913, San Borja, Lima",
+    "receptor_numero_doc": "20845084654",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Jr. de la Unión 2250, Miraflores, Lima",
+    "subtotal": 42756.46,
+    "igv": 7696.16,
+    "importe_total": 50452.62,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Oferta)",
+            "unidad": "POL",
+            "cantidad": 34,
+            "precio_unitario": 134.44,
+            "valor_venta": 4570.96
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Serie X",
+            "unidad": "POL",
+            "cantidad": 40,
+            "precio_unitario": 135.78,
+            "valor_venta": 5431.2
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 47,
+            "precio_unitario": 696.9,
+            "valor_venta": 32754.3
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA318-756313",
+    "fecha_emision": "2025-07-22T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20849694708",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. La Marina 2759, San Borja, Lima",
+    "receptor_numero_doc": "20598799157",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. La Marina 1792, Miraflores, Lima",
+    "subtotal": 1006.24,
+    "igv": 181.12,
+    "importe_total": 1187.36,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.697,
+            "precio_unitario": 42.24,
+            "valor_venta": 325.12
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.687,
+            "precio_unitario": 90.84,
+            "valor_venta": 425.77
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.538,
+            "precio_unitario": 56.27,
+            "valor_venta": 255.35
+        }
+    ]
+}

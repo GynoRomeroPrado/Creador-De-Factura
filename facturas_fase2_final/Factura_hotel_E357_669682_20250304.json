@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E357-669682",
+    "fecha_emision": "2025-03-04T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20767126990",
+    "emisor_razon_social": "Radisson Plaza Iquitos",
+    "emisor_direccion": "Jr. de la Unión 4632, Miraflores, Lima",
+    "receptor_numero_doc": "20922130826",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 4452, Santiago de Surco, Lima",
+    "subtotal": 600.3,
+    "igv": 95.55,
+    "importe_total": 803.91,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.022,
+            "precio_unitario": 43.78,
+            "valor_venta": 263.64,
+            "cargo_item": 47.46,
+            "importe_total": 311.1
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.049,
+            "precio_unitario": 47.76,
+            "valor_venta": 336.66,
+            "cargo_item": 60.6,
+            "importe_total": 397.26
+        }
+    ]
+}

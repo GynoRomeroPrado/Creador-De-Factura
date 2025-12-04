@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA130-237560",
+    "fecha_emision": "2025-11-30T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20976455160",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Arequipa 750, San Isidro, Lima",
+    "receptor_numero_doc": "20417295535",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 817, Santiago de Surco, Lima",
+    "subtotal": 735.45,
+    "igv": 120.2,
+    "importe_total": 855.65,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 57,
+            "precio_unitario": 5.36,
+            "valor_venta": 305.52
+        },
+        {
+            "numero": 2,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 25,
+            "precio_unitario": 4.19,
+            "valor_venta": 104.75
+        },
+        {
+            "numero": 3,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 58,
+            "precio_unitario": 1.98,
+            "valor_venta": 114.84
+        },
+        {
+            "numero": 4,
+            "descripcion": "Diesel Color: Negro",
+            "unidad": "GL",
+            "cantidad": 14,
+            "precio_unitario": 4.76,
+            "valor_venta": 66.64
+        },
+        {
+            "numero": 5,
+            "descripcion": "Diesel Modelo 2025",
+            "unidad": "GL",
+            "cantidad": 30,
+            "precio_unitario": 4.79,
+            "valor_venta": 143.7
+        }
+    ]
+}

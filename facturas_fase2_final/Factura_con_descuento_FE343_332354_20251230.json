@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE343-332354",
+    "fecha_emision": "2025-12-30T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20664061733",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 4943, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20205832107",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 1180, Santiago de Surco, Lima",
+    "subtotal": 55467.63,
+    "igv": 8608.04,
+    "importe_total": 64075.67,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 36,
+            "precio_unitario": 22.23,
+            "valor_venta": 800.28
+        },
+        {
+            "numero": 2,
+            "descripcion": "Guantes de Cuero Reforzado",
+            "unidad": "PAR",
+            "cantidad": 58,
+            "precio_unitario": 17.84,
+            "valor_venta": 1034.72
+        },
+        {
+            "numero": 3,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 73,
+            "precio_unitario": 729.67,
+            "valor_venta": 53265.91
+        },
+        {
+            "numero": 4,
+            "descripcion": "Guantes de Cuero Reforzado",
+            "unidad": "PAR",
+            "cantidad": 74,
+            "precio_unitario": 13.54,
+            "valor_venta": 1001.96
+        },
+        {
+            "numero": 5,
+            "descripcion": "Piedra Chancada 1/2\" (m3)",
+            "unidad": "M3",
+            "cantidad": 39,
+            "precio_unitario": 62.63,
+            "valor_venta": 2442.57
+        }
+    ]
+}

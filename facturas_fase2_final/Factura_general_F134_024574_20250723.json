@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F134-024574",
+    "fecha_emision": "2025-07-23T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20828374258",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 1104, San Isidro, Lima",
+    "receptor_numero_doc": "20532354791",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Benavides 3344, Santiago de Surco, Lima",
+    "subtotal": 407862.96,
+    "igv": 73415.33,
+    "importe_total": 481291.72,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 31,
+            "precio_unitario": 852.77,
+            "valor_venta": 26435.87
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores (Importado)",
+            "unidad": "SRV",
+            "cantidad": 66,
+            "precio_unitario": 1343.5,
+            "valor_venta": 88671.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 26,
+            "precio_unitario": 1067.93,
+            "valor_venta": 27766.18
+        },
+        {
+            "numero": 4,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 49,
+            "precio_unitario": 742.6,
+            "valor_venta": 36387.4
+        },
+        {
+            "numero": 5,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 97,
+            "precio_unitario": 155.54,
+            "valor_venta": 15087.38
+        },
+        {
+            "numero": 6,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 6,
+            "precio_unitario": 4044.33,
+            "valor_venta": 24265.98
+        },
+        {
+            "numero": 7,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 96,
+            "precio_unitario": 291.97,
+            "valor_venta": 28029.12
+        },
+        {
+            "numero": 8,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 83,
+            "precio_unitario": 1942.41,
+            "valor_venta": 161220.03
+        }
+    ]
+}

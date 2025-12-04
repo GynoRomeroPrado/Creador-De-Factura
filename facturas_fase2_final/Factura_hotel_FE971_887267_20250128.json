@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE971-887267",
+    "fecha_emision": "2025-01-28T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20082766031",
+    "emisor_razon_social": "Novotel Premium Miraflores",
+    "emisor_direccion": "Av. La Marina 1184, La Victoria, Lima",
+    "receptor_numero_doc": "20494712203",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 748, La Victoria, Lima",
+    "subtotal": 1541.6,
+    "igv": 277.49,
+    "importe_total": 2096.58,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.602,
+            "precio_unitario": 114.5,
+            "valor_venta": 984.93,
+            "cargo_item": 177.29,
+            "importe_total": 1162.22
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.596,
+            "precio_unitario": 49.01,
+            "valor_venta": 176.24,
+            "cargo_item": 31.72,
+            "importe_total": 207.96
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.684,
+            "precio_unitario": 81.22,
+            "valor_venta": 380.43,
+            "cargo_item": 68.48,
+            "importe_total": 448.91
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE030-489720",
+    "fecha_emision": "2025-10-09T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20533588281",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 1843, La Victoria, Lima",
+    "receptor_numero_doc": "20921981385",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Jr. de la Unión 493, San Isidro, Lima",
+    "subtotal": 1364.45,
+    "igv": 245.6,
+    "importe_total": 1610.05,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 5,
+            "precio_unitario": 1.51,
+            "valor_venta": 7.55
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 95 Serie X",
+            "unidad": "GL",
+            "cantidad": 42,
+            "precio_unitario": 5.05,
+            "valor_venta": 212.1
+        },
+        {
+            "numero": 3,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 5,
+            "precio_unitario": 5.01,
+            "valor_venta": 25.05
+        },
+        {
+            "numero": 4,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 75,
+            "precio_unitario": 3.4,
+            "valor_venta": 255.0
+        },
+        {
+            "numero": 5,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 5,
+            "precio_unitario": 5.87,
+            "valor_venta": 29.35
+        },
+        {
+            "numero": 6,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 90,
+            "precio_unitario": 5.48,
+            "valor_venta": 493.2
+        },
+        {
+            "numero": 7,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 46,
+            "precio_unitario": 6.79,
+            "valor_venta": 312.34
+        },
+        {
+            "numero": 8,
+            "descripcion": "Gasolina 90 Serie X",
+            "unidad": "GL",
+            "cantidad": 41,
+            "precio_unitario": 4.47,
+            "valor_venta": 183.27
+        }
+    ]
+}

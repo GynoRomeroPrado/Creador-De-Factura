@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE926-912561",
+    "fecha_emision": "2025-01-27T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20381349722",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 2142, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20400317462",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Benavides 3902, Cercado de Lima, Lima",
+    "subtotal": 3120.0,
+    "igv": 561.6,
+    "importe_total": 3681.6,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.672,
+            "precio_unitario": 98.7,
+            "valor_venta": 559.83
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.569,
+            "precio_unitario": 149.64,
+            "valor_venta": 384.43
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.203,
+            "precio_unitario": 91.97,
+            "valor_venta": 110.64
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.84,
+            "precio_unitario": 37.39,
+            "valor_venta": 68.8
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.836,
+            "precio_unitario": 111.21,
+            "valor_venta": 649.02
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.148,
+            "precio_unitario": 102.91,
+            "valor_venta": 426.87
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.613,
+            "precio_unitario": 118.52,
+            "valor_venta": 1139.33
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.498,
+            "precio_unitario": 74.83,
+            "valor_venta": 561.08
+        }
+    ]
+}

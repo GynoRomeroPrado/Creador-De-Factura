@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE050-245539",
+    "fecha_emision": "2025-10-25T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20352768180",
+    "emisor_razon_social": "Radisson Resort Piura",
+    "emisor_direccion": "Jr. de la Unión 2636, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20015670615",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 1809, San Borja, Lima",
+    "subtotal": 983.35,
+    "igv": 177.0,
+    "importe_total": 1337.36,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.074,
+            "precio_unitario": 39.3,
+            "valor_venta": 238.71,
+            "cargo_item": 42.97,
+            "importe_total": 281.68
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.516,
+            "precio_unitario": 87.44,
+            "valor_venta": 744.64,
+            "cargo_item": 134.04,
+            "importe_total": 878.68
+        }
+    ]
+}

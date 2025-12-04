@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE972-204903",
+    "fecha_emision": "2025-03-22T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20478995599",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Calle Los Pinos 3666, San Borja, Lima",
+    "receptor_numero_doc": "20493065689",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Jr. de la Unión 3456, Santiago de Surco, Lima",
+    "subtotal": 307.33,
+    "igv": 55.32,
+    "importe_total": 362.65,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 69,
+            "precio_unitario": 5.24,
+            "valor_venta": 361.56
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA143-115944",
+    "fecha_emision": "2025-06-27T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20051546831",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 4812, Miraflores, Lima",
+    "receptor_numero_doc": "20627381370",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 1559, La Victoria, Lima",
+    "subtotal": 61915.87,
+    "igv": 11144.86,
+    "importe_total": 73060.73,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Estación Manual Doble Acción (Importado)",
+            "unidad": "UND",
+            "cantidad": 100,
+            "precio_unitario": 43.12,
+            "valor_venta": 4312.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Extintor PQS 6kg Modelo 2025",
+            "unidad": "UND",
+            "cantidad": 81,
+            "precio_unitario": 91.28,
+            "valor_venta": 7393.68
+        },
+        {
+            "numero": 3,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 25,
+            "precio_unitario": 1509.89,
+            "valor_venta": 37747.25
+        },
+        {
+            "numero": 4,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 93,
+            "precio_unitario": 50.69,
+            "valor_venta": 4714.17
+        },
+        {
+            "numero": 5,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 100,
+            "precio_unitario": 137.04,
+            "valor_venta": 13704.0
+        }
+    ]
+}

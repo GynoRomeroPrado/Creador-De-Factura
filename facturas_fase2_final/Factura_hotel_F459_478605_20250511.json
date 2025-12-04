@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F459-478605",
+    "fecha_emision": "2025-05-11T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20946226166",
+    "emisor_razon_social": "Marriott Wyndham Huancayo",
+    "emisor_direccion": "Av. Arequipa 172, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20890223487",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 1643, Santiago de Surco, Lima",
+    "subtotal": 571.81,
+    "igv": 102.93,
+    "importe_total": 777.67,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.752,
+            "precio_unitario": 99.41,
+            "valor_venta": 571.81,
+            "cargo_item": 102.93,
+            "importe_total": 674.74
+        }
+    ]
+}

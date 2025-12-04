@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA312-816598",
+    "fecha_emision": "2025-09-24T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20058189198",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 2141, La Victoria, Lima",
+    "receptor_numero_doc": "20939024353",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 2690, Miraflores, Lima",
+    "subtotal": 235207.92,
+    "igv": 42337.43,
+    "importe_total": 277545.35,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 100,
+            "precio_unitario": 1290.54,
+            "valor_venta": 129054.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 23,
+            "precio_unitario": 1345.47,
+            "valor_venta": 30945.81
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo Serie X",
+            "unidad": "POL",
+            "cantidad": 37,
+            "precio_unitario": 2910.26,
+            "valor_venta": 107679.62
+        }
+    ]
+}

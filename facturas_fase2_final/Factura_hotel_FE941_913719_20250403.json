@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE941-913719",
+    "fecha_emision": "2025-04-03T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20282048371",
+    "emisor_razon_social": "JW Marriott Plaza Surco",
+    "emisor_direccion": "Av. Javier Prado Este 1039, La Victoria, Lima",
+    "receptor_numero_doc": "20694283901",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Arequipa 433, Cercado de Lima, Lima",
+    "subtotal": 1485.46,
+    "igv": 267.38,
+    "importe_total": 2020.23,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.741,
+            "precio_unitario": 33.89,
+            "valor_venta": 262.34,
+            "cargo_item": 47.22,
+            "importe_total": 309.56
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.33,
+            "precio_unitario": 132.02,
+            "valor_venta": 175.59,
+            "cargo_item": 31.61,
+            "importe_total": 207.2
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.549,
+            "precio_unitario": 109.7,
+            "valor_venta": 1047.53,
+            "cargo_item": 188.56,
+            "importe_total": 1236.09
+        }
+    ]
+}

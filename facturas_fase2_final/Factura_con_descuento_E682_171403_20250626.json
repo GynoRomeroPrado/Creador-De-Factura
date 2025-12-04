@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E682-171403",
+    "fecha_emision": "2025-06-26T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20897085896",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 4825, La Victoria, Lima",
+    "receptor_numero_doc": "20801455094",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Benavides 1232, La Victoria, Lima",
+    "subtotal": 175989.09,
+    "igv": 28388.79,
+    "importe_total": 204377.88,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida Color: Negro",
+            "unidad": "POL",
+            "cantidad": 29,
+            "precio_unitario": 298.0,
+            "valor_venta": 8642.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 7,
+            "precio_unitario": 2948.25,
+            "valor_venta": 20637.75
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 86,
+            "precio_unitario": 1466.64,
+            "valor_venta": 126131.04
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 96,
+            "precio_unitario": 466.66,
+            "valor_venta": 44799.36
+        }
+    ]
+}

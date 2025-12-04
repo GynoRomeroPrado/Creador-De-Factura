@@ -1,0 +1,77 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F257-992084",
+    "fecha_emision": "2025-07-07T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20165266057",
+    "emisor_razon_social": "Novotel Plaza Tacna",
+    "emisor_direccion": "Av. Benavides 3221, San Borja, Lima",
+    "receptor_numero_doc": "20241383408",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Arequipa 1482, La Victoria, Lima",
+    "subtotal": 1927.83,
+    "igv": 347.01,
+    "importe_total": 2621.85,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.114,
+            "precio_unitario": 97.89,
+            "valor_venta": 109.05,
+            "cargo_item": 19.63,
+            "importe_total": 128.68
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.079,
+            "precio_unitario": 31.01,
+            "valor_venta": 219.52,
+            "cargo_item": 39.51,
+            "importe_total": 259.03
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.725,
+            "precio_unitario": 36.55,
+            "valor_venta": 63.05,
+            "cargo_item": 11.35,
+            "importe_total": 74.4
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.421,
+            "precio_unitario": 71.0,
+            "valor_venta": 668.89,
+            "cargo_item": 120.4,
+            "importe_total": 789.29
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.181,
+            "precio_unitario": 60.7,
+            "valor_venta": 557.29,
+            "cargo_item": 100.31,
+            "importe_total": 657.6
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.35,
+            "precio_unitario": 57.95,
+            "valor_venta": 310.03,
+            "cargo_item": 55.81,
+            "importe_total": 365.84
+        }
+    ]
+}

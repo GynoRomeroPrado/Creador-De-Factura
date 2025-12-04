@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E590-397389",
+    "fecha_emision": "2025-07-09T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20900537787",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 4607, Miraflores, Lima",
+    "receptor_numero_doc": "20924948681",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 4084, San Borja, Lima",
+    "subtotal": 386241.58,
+    "igv": 69523.48,
+    "importe_total": 455765.06,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 9,
+            "precio_unitario": 1662.5,
+            "valor_venta": 14962.5
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 77,
+            "precio_unitario": 420.57,
+            "valor_venta": 32383.89
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 69,
+            "precio_unitario": 421.95,
+            "valor_venta": 29114.55
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 31,
+            "precio_unitario": 893.26,
+            "valor_venta": 27691.06
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 94,
+            "precio_unitario": 494.1,
+            "valor_venta": 46445.4
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 64,
+            "precio_unitario": 1349.92,
+            "valor_venta": 86394.88
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 16,
+            "precio_unitario": 189.17,
+            "valor_venta": 3026.72
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 54,
+            "precio_unitario": 1211.3,
+            "valor_venta": 65410.2
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 31,
+            "precio_unitario": 2481.82,
+            "valor_venta": 76936.42
+        },
+        {
+            "numero": 10,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 23,
+            "precio_unitario": 168.52,
+            "valor_venta": 3875.96
+        }
+    ]
+}

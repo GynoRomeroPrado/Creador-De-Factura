@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE738-126872",
+    "fecha_emision": "2025-04-05T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20618768741",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 3599, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20012326875",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Benavides 2780, San Borja, Lima",
+    "subtotal": 7189.53,
+    "igv": 1294.12,
+    "importe_total": 8483.65,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Arena Gruesa (m3)",
+            "unidad": "M3",
+            "cantidad": 81,
+            "precio_unitario": 52.82,
+            "valor_venta": 4278.42
+        },
+        {
+            "numero": 2,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L)",
+            "unidad": "GLN",
+            "cantidad": 68,
+            "precio_unitario": 48.12,
+            "valor_venta": 3272.16
+        }
+    ]
+}

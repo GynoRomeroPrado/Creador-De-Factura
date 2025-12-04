@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA592-241835",
+    "fecha_emision": "2025-03-15T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20177291421",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Arequipa 705, La Victoria, Lima",
+    "receptor_numero_doc": "20667871841",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Arequipa 4704, Cercado de Lima, Lima",
+    "subtotal": 2257.2,
+    "igv": 406.3,
+    "importe_total": 2663.5,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 54,
+            "precio_unitario": 41.8,
+            "valor_venta": 2257.2
+        }
+    ]
+}

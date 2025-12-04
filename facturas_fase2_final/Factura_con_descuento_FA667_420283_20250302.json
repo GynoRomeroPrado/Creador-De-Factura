@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA667-420283",
+    "fecha_emision": "2025-03-02T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20104737928",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Arequipa 569, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20488407261",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. La Marina 2895, Miraflores, Lima",
+    "subtotal": 448546.7,
+    "igv": 80738.41,
+    "importe_total": 529285.11,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 5,
+            "precio_unitario": 1386.38,
+            "valor_venta": 6931.9
+        },
+        {
+            "numero": 2,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores Color: Negro",
+            "unidad": "SRV",
+            "cantidad": 66,
+            "precio_unitario": 1293.61,
+            "valor_venta": 85378.26
+        },
+        {
+            "numero": 3,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 32,
+            "precio_unitario": 696.83,
+            "valor_venta": 22298.56
+        },
+        {
+            "numero": 4,
+            "descripcion": "Servicio de Courier Local Modelo 2025",
+            "unidad": "ENV",
+            "cantidad": 41,
+            "precio_unitario": 24.32,
+            "valor_venta": 997.12
+        },
+        {
+            "numero": 5,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 29,
+            "precio_unitario": 4765.02,
+            "valor_venta": 138185.58
+        },
+        {
+            "numero": 6,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 68,
+            "precio_unitario": 517.72,
+            "valor_venta": 35204.96
+        },
+        {
+            "numero": 7,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas) Serie X",
+            "unidad": "HOR",
+            "cantidad": 10,
+            "precio_unitario": 276.25,
+            "valor_venta": 2762.5
+        },
+        {
+            "numero": 8,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional Modelo 2025",
+            "unidad": "SES",
+            "cantidad": 94,
+            "precio_unitario": 484.63,
+            "valor_venta": 45555.22
+        },
+        {
+            "numero": 9,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 96,
+            "precio_unitario": 574.38,
+            "valor_venta": 55140.48
+        },
+        {
+            "numero": 10,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 77,
+            "precio_unitario": 1756.46,
+            "valor_venta": 135247.42
+        }
+    ]
+}

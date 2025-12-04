@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE401-378905",
+    "fecha_emision": "2025-05-02T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20453212875",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Av. Benavides 4095, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20480045263",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Benavides 4602, San Isidro, Lima",
+    "subtotal": 1651.75,
+    "igv": 278.59,
+    "importe_total": 1930.34,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 95 Modelo 2025",
+            "unidad": "GL",
+            "cantidad": 20,
+            "precio_unitario": 6.48,
+            "valor_venta": 129.6
+        },
+        {
+            "numero": 2,
+            "descripcion": "GLP (Importado)",
+            "unidad": "GL",
+            "cantidad": 3,
+            "precio_unitario": 2.89,
+            "valor_venta": 8.67
+        },
+        {
+            "numero": 3,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 86,
+            "precio_unitario": 5.4,
+            "valor_venta": 464.4
+        },
+        {
+            "numero": 4,
+            "descripcion": "Gasolina 90 Color: Negro",
+            "unidad": "GL",
+            "cantidad": 35,
+            "precio_unitario": 5.29,
+            "valor_venta": 185.15
+        },
+        {
+            "numero": 5,
+            "descripcion": "GLP (Oferta)",
+            "unidad": "GL",
+            "cantidad": 66,
+            "precio_unitario": 2.1,
+            "valor_venta": 138.6
+        },
+        {
+            "numero": 6,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 35,
+            "precio_unitario": 5.92,
+            "valor_venta": 207.2
+        },
+        {
+            "numero": 7,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 26,
+            "precio_unitario": 6.74,
+            "valor_venta": 175.24
+        },
+        {
+            "numero": 8,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 77,
+            "precio_unitario": 3.53,
+            "valor_venta": 271.81
+        },
+        {
+            "numero": 9,
+            "descripcion": "Diesel Color: Negro",
+            "unidad": "GL",
+            "cantidad": 79,
+            "precio_unitario": 3.14,
+            "valor_venta": 248.06
+        },
+        {
+            "numero": 10,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 34,
+            "precio_unitario": 6.94,
+            "valor_venta": 235.96
+        }
+    ]
+}

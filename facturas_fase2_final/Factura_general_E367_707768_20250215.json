@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E367-707768",
+    "fecha_emision": "2025-02-15T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20299744966",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. La Marina 4338, La Victoria, Lima",
+    "receptor_numero_doc": "20074335765",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 907, Cercado de Lima, Lima",
+    "subtotal": 450922.14,
+    "igv": 60124.51,
+    "importe_total": 511046.65,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 96,
+            "precio_unitario": 429.08,
+            "valor_venta": 41191.68
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 93,
+            "precio_unitario": 1465.72,
+            "valor_venta": 136311.96
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 66,
+            "precio_unitario": 178.13,
+            "valor_venta": 11756.58
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 19,
+            "precio_unitario": 257.39,
+            "valor_venta": 4890.41
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 21,
+            "precio_unitario": 1975.59,
+            "valor_venta": 41487.39
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 26,
+            "precio_unitario": 1424.85,
+            "valor_venta": 37046.1
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 100,
+            "precio_unitario": 904.07,
+            "valor_venta": 90407.0
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 1,
+            "precio_unitario": 242.12,
+            "valor_venta": 242.12
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 70,
+            "precio_unitario": 1251.27,
+            "valor_venta": 87588.9
+        }
+    ]
+}

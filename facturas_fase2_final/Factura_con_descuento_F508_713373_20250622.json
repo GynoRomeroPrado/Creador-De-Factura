@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F508-713373",
+    "fecha_emision": "2025-06-22T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20912652018",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Av. La Marina 4841, San Isidro, Lima",
+    "receptor_numero_doc": "20987041235",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Calle Los Pinos 3195, Cercado de Lima, Lima",
+    "subtotal": 50616.12,
+    "igv": 7360.75,
+    "importe_total": 57976.87,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Casco de Seguridad 3M Blanco",
+            "unidad": "UND",
+            "cantidad": 13,
+            "precio_unitario": 37.08,
+            "valor_venta": 482.04
+        },
+        {
+            "numero": 2,
+            "descripcion": "Cemento Sol Tipo I (42.5kg) Serie X",
+            "unidad": "BOL",
+            "cantidad": 83,
+            "precio_unitario": 28.22,
+            "valor_venta": 2342.26
+        },
+        {
+            "numero": 3,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m",
+            "unidad": "VAR",
+            "cantidad": 6,
+            "precio_unitario": 39.26,
+            "valor_venta": 235.56
+        },
+        {
+            "numero": 4,
+            "descripcion": "Guantes de Cuero Reforzado (Oferta)",
+            "unidad": "PAR",
+            "cantidad": 63,
+            "precio_unitario": 12.76,
+            "valor_venta": 803.88
+        },
+        {
+            "numero": 5,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 26,
+            "precio_unitario": 709.33,
+            "valor_venta": 18442.58
+        },
+        {
+            "numero": 6,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 6,
+            "precio_unitario": 34.53,
+            "valor_venta": 207.18
+        },
+        {
+            "numero": 7,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 43,
+            "precio_unitario": 716.93,
+            "valor_venta": 30827.99
+        },
+        {
+            "numero": 8,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal) (Oferta)",
+            "unidad": "UND",
+            "cantidad": 35,
+            "precio_unitario": 18.51,
+            "valor_venta": 647.85
+        }
+    ]
+}

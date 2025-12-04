@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA202-559900",
+    "fecha_emision": "2025-11-30T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20909563276",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Benavides 3428, San Borja, Lima",
+    "receptor_numero_doc": "20969557283",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Benavides 3433, San Borja, Lima",
+    "subtotal": 103885.09,
+    "igv": 18699.32,
+    "importe_total": 122584.41,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 50,
+            "precio_unitario": 1305.75,
+            "valor_venta": 65287.5
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 96,
+            "precio_unitario": 211.64,
+            "valor_venta": 20317.44
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 65,
+            "precio_unitario": 175.58,
+            "valor_venta": 11412.7
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 45,
+            "precio_unitario": 152.61,
+            "valor_venta": 6867.45
+        }
+    ]
+}

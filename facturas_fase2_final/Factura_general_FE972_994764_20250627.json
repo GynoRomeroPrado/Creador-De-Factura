@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE972-994764",
+    "fecha_emision": "2025-06-27T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20679007034",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Arequipa 877, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20524346622",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 967, Cercado de Lima, Lima",
+    "subtotal": 18913.1,
+    "igv": 3404.36,
+    "importe_total": 22317.46,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pollo Entero kg",
+            "unidad": "KG",
+            "cantidad": 78,
+            "precio_unitario": 8.01,
+            "valor_venta": 624.78
+        },
+        {
+            "numero": 2,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 33,
+            "precio_unitario": 19.38,
+            "valor_venta": 639.54
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pollo Entero kg",
+            "unidad": "KG",
+            "cantidad": 49,
+            "precio_unitario": 8.51,
+            "valor_venta": 416.99
+        },
+        {
+            "numero": 4,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 2,
+            "precio_unitario": 4.15,
+            "valor_venta": 8.3
+        },
+        {
+            "numero": 5,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 17,
+            "precio_unitario": 164.47,
+            "valor_venta": 2795.99
+        },
+        {
+            "numero": 6,
+            "descripcion": "Arroz Superior x 50kg (Oferta)",
+            "unidad": "SAC",
+            "cantidad": 63,
+            "precio_unitario": 140.88,
+            "valor_venta": 8875.44
+        },
+        {
+            "numero": 7,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 89,
+            "precio_unitario": 18.46,
+            "valor_venta": 1642.94
+        },
+        {
+            "numero": 8,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 32,
+            "precio_unitario": 122.16,
+            "valor_venta": 3909.12
+        }
+    ]
+}

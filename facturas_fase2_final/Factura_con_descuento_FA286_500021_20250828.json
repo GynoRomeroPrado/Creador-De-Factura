@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA286-500021",
+    "fecha_emision": "2025-08-28T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20790511868",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. La Marina 2234, San Borja, Lima",
+    "receptor_numero_doc": "20197346826",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. La Marina 194, Cercado de Lima, Lima",
+    "subtotal": 199695.55,
+    "igv": 35945.2,
+    "importe_total": 235640.75,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 66,
+            "precio_unitario": 3154.72,
+            "valor_venta": 208211.52
+        },
+        {
+            "numero": 2,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 30,
+            "precio_unitario": 53.45,
+            "valor_venta": 1603.5
+        },
+        {
+            "numero": 3,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 86,
+            "precio_unitario": 51.05,
+            "valor_venta": 4390.3
+        },
+        {
+            "numero": 4,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 87,
+            "precio_unitario": 88.26,
+            "valor_venta": 7678.62
+        }
+    ]
+}

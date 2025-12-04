@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E770-388272",
+    "fecha_emision": "2025-08-03T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20102641311",
+    "emisor_razon_social": "Radisson Select Barranco",
+    "emisor_direccion": "Av. Benavides 1708, Miraflores, Lima",
+    "receptor_numero_doc": "20147978279",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. La Marina 4333, La Victoria, Lima",
+    "subtotal": 1466.9,
+    "igv": 264.04,
+    "importe_total": 1994.98,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.312,
+            "precio_unitario": 134.77,
+            "valor_venta": 715.9,
+            "cargo_item": 128.86,
+            "importe_total": 844.76
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.288,
+            "precio_unitario": 142.02,
+            "valor_venta": 751.0,
+            "cargo_item": 135.18,
+            "importe_total": 886.18
+        }
+    ]
+}

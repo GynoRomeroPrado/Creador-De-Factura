@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE611-129040",
+    "fecha_emision": "2025-10-11T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20427371949",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. Arequipa 3281, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20661984181",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Jr. de la Unión 2279, Santiago de Surco, Lima",
+    "subtotal": 5979.27,
+    "igv": 1076.27,
+    "importe_total": 7055.54,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Arena Gruesa (m3)",
+            "unidad": "M3",
+            "cantidad": 87,
+            "precio_unitario": 47.93,
+            "valor_venta": 4169.91
+        },
+        {
+            "numero": 2,
+            "descripcion": "Cemento Sol Tipo I (42.5kg)",
+            "unidad": "BOL",
+            "cantidad": 63,
+            "precio_unitario": 28.72,
+            "valor_venta": 1809.36
+        }
+    ]
+}

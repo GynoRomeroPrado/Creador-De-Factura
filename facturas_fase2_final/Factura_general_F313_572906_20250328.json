@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F313-572906",
+    "fecha_emision": "2025-03-28T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20092777112",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 3222, La Victoria, Lima",
+    "receptor_numero_doc": "20780879131",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Benavides 477, La Victoria, Lima",
+    "subtotal": 113968.07,
+    "igv": 15241.9,
+    "importe_total": 129209.97,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 10,
+            "precio_unitario": 160.68,
+            "valor_venta": 1606.8
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 14,
+            "precio_unitario": 926.86,
+            "valor_venta": 12976.04
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 44,
+            "precio_unitario": 497.43,
+            "valor_venta": 21886.92
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 28,
+            "precio_unitario": 1286.71,
+            "valor_venta": 36027.88
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 29,
+            "precio_unitario": 1421.71,
+            "valor_venta": 41229.59
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 19,
+            "precio_unitario": 423.4,
+            "valor_venta": 8044.6
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 22,
+            "precio_unitario": 216.15,
+            "valor_venta": 4755.3
+        }
+    ]
+}

@@ -1,0 +1,107 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE819-502326",
+    "fecha_emision": "2025-03-19T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20278840264",
+    "emisor_razon_social": "Swissôtel Standard Cajamarca",
+    "emisor_direccion": "Calle Los Pinos 4747, La Victoria, Lima",
+    "receptor_numero_doc": "20193223797",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 344, Cercado de Lima, Lima",
+    "subtotal": 2529.77,
+    "igv": 455.36,
+    "importe_total": 3440.48,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.988,
+            "precio_unitario": 47.14,
+            "valor_venta": 376.55,
+            "cargo_item": 67.78,
+            "importe_total": 444.33
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.97,
+            "precio_unitario": 127.8,
+            "valor_venta": 379.57,
+            "cargo_item": 68.32,
+            "importe_total": 447.89
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.838,
+            "precio_unitario": 61.14,
+            "valor_venta": 418.08,
+            "cargo_item": 75.25,
+            "importe_total": 493.33
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.388,
+            "precio_unitario": 102.85,
+            "valor_venta": 245.61,
+            "cargo_item": 44.21,
+            "importe_total": 289.82
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.68,
+            "precio_unitario": 39.74,
+            "valor_venta": 106.5,
+            "cargo_item": 19.17,
+            "importe_total": 125.67
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.541,
+            "precio_unitario": 50.96,
+            "valor_venta": 78.53,
+            "cargo_item": 14.14,
+            "importe_total": 92.67
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.649,
+            "precio_unitario": 90.09,
+            "valor_venta": 148.56,
+            "cargo_item": 26.74,
+            "importe_total": 175.3
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.902,
+            "precio_unitario": 75.47,
+            "valor_venta": 596.36,
+            "cargo_item": 107.34,
+            "importe_total": 703.7
+        },
+        {
+            "numero": 9,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.244,
+            "precio_unitario": 55.49,
+            "valor_venta": 180.01,
+            "cargo_item": 32.4,
+            "importe_total": 212.41
+        }
+    ]
+}

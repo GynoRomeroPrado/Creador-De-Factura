@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E360-353013",
+    "fecha_emision": "2025-06-12T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20161621545",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Arequipa 1645, Miraflores, Lima",
+    "receptor_numero_doc": "20874087409",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 1056, San Isidro, Lima",
+    "subtotal": 222134.64,
+    "igv": 39984.24,
+    "importe_total": 262118.88,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 30,
+            "precio_unitario": 1435.79,
+            "valor_venta": 43073.7
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida (Importado)",
+            "unidad": "POL",
+            "cantidad": 97,
+            "precio_unitario": 351.92,
+            "valor_venta": 34136.24
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 74,
+            "precio_unitario": 809.91,
+            "valor_venta": 59933.34
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 23,
+            "precio_unitario": 301.3,
+            "valor_venta": 6929.9
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Vehicular Todo Riesgo Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 6,
+            "precio_unitario": 2812.89,
+            "valor_venta": 16877.34
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 43,
+            "precio_unitario": 496.09,
+            "valor_venta": 21331.87
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 85,
+            "precio_unitario": 468.85,
+            "valor_venta": 39852.25
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F779-202612",
+    "fecha_emision": "2025-04-16T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20343569638",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 3445, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20493899164",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 4421, La Victoria, Lima",
+    "subtotal": 183633.14,
+    "igv": 33053.97,
+    "importe_total": 216687.11,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 7,
+            "precio_unitario": 101.83,
+            "valor_venta": 712.81
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Color: Negro",
+            "unidad": "POL",
+            "cantidad": 24,
+            "precio_unitario": 110.44,
+            "valor_venta": 2650.56
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 97,
+            "precio_unitario": 1189.81,
+            "valor_venta": 115411.57
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 82,
+            "precio_unitario": 438.06,
+            "valor_venta": 35920.92
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Serie X",
+            "unidad": "POL",
+            "cantidad": 11,
+            "precio_unitario": 109.17,
+            "valor_venta": 1200.87
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 1,
+            "precio_unitario": 460.1,
+            "valor_venta": 460.1
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 57,
+            "precio_unitario": 113.33,
+            "valor_venta": 6459.81
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 55,
+            "precio_unitario": 468.22,
+            "valor_venta": 25752.1
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 96,
+            "precio_unitario": 156.5,
+            "valor_venta": 15024.0
+        },
+        {
+            "numero": 10,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 41,
+            "precio_unitario": 137.09,
+            "valor_venta": 5620.69
+        }
+    ]
+}

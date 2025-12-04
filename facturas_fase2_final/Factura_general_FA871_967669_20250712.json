@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA871-967669",
+    "fecha_emision": "2025-07-12T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20495286925",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 2757, La Victoria, Lima",
+    "receptor_numero_doc": "20019574521",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Jr. de la Unión 1774, Miraflores, Lima",
+    "subtotal": 619.01,
+    "igv": 111.42,
+    "importe_total": 730.43,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Huevos Color x 30 unid (Importado)",
+            "unidad": "CAJA",
+            "cantidad": 37,
+            "precio_unitario": 16.73,
+            "valor_venta": 619.01
+        }
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E939-824128",
+    "fecha_emision": "2025-02-16T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20976031351",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 1913, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20512200410",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Jr. de la Unión 938, La Victoria, Lima",
+    "subtotal": 259833.56,
+    "igv": 41788.33,
+    "importe_total": 301621.89,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 22,
+            "precio_unitario": 563.76,
+            "valor_venta": 12402.72
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 58,
+            "precio_unitario": 1919.44,
+            "valor_venta": 111327.52
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 65,
+            "precio_unitario": 608.98,
+            "valor_venta": 39583.7
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Serie X",
+            "unidad": "POL",
+            "cantidad": 19,
+            "precio_unitario": 143.84,
+            "valor_venta": 2732.96
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios Serie X",
+            "unidad": "POL",
+            "cantidad": 81,
+            "precio_unitario": 1157.86,
+            "valor_venta": 93786.66
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE768-128517",
+    "fecha_emision": "2025-02-03T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20732073940",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 1405, Miraflores, Lima",
+    "receptor_numero_doc": "20830866168",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. Arequipa 4722, Santiago de Surco, Lima",
+    "subtotal": 203014.92,
+    "igv": 36542.69,
+    "importe_total": 239557.61,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 75,
+            "precio_unitario": 1384.84,
+            "valor_venta": 103863.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 72,
+            "precio_unitario": 1377.11,
+            "valor_venta": 99151.92
+        }
+    ]
+}

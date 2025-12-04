@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F882-483996",
+    "fecha_emision": "2025-10-18T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20726965901",
+    "emisor_razon_social": "Novotel Premium Cusco",
+    "emisor_direccion": "Av. Arequipa 4169, Miraflores, Lima",
+    "receptor_numero_doc": "20237417608",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Arequipa 1620, Santiago de Surco, Lima",
+    "subtotal": 123.48,
+    "igv": 22.23,
+    "importe_total": 167.94,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.821,
+            "precio_unitario": 67.81,
+            "valor_venta": 123.48,
+            "cargo_item": 22.23,
+            "importe_total": 145.71
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA007-008017",
+    "fecha_emision": "2025-06-20T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20332415949",
+    "emisor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "emisor_direccion": "Av. La Marina 4933, La Victoria, Lima",
+    "receptor_numero_doc": "20511236674",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 427, Santiago de Surco, Lima",
+    "subtotal": 258857.72,
+    "igv": 46594.39,
+    "importe_total": 305452.11,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 61,
+            "precio_unitario": 281.43,
+            "valor_venta": 17167.23
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Color: Negro",
+            "unidad": "POL",
+            "cantidad": 20,
+            "precio_unitario": 177.05,
+            "valor_venta": 3541.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 95,
+            "precio_unitario": 421.7,
+            "valor_venta": 40061.5
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Oferta)",
+            "unidad": "POL",
+            "cantidad": 52,
+            "precio_unitario": 1104.72,
+            "valor_venta": 57445.44
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 25,
+            "precio_unitario": 1235.25,
+            "valor_venta": 30881.25
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 60,
+            "precio_unitario": 441.22,
+            "valor_venta": 26473.2
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro Vehicular Todo Riesgo Serie X",
+            "unidad": "POL",
+            "cantidad": 28,
+            "precio_unitario": 2807.29,
+            "valor_venta": 78604.12
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro contra Incendios Serie X",
+            "unidad": "POL",
+            "cantidad": 14,
+            "precio_unitario": 334.57,
+            "valor_venta": 4683.98
+        }
+    ]
+}

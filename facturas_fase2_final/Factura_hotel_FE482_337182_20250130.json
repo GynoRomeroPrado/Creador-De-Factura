@@ -1,0 +1,77 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE482-337182",
+    "fecha_emision": "2025-01-30T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20817251421",
+    "emisor_razon_social": "Holiday Inn Premium Piura",
+    "emisor_direccion": "Av. Benavides 1733, San Isidro, Lima",
+    "receptor_numero_doc": "20182650588",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. La Marina 4371, Miraflores, Lima",
+    "subtotal": 3020.27,
+    "igv": 465.02,
+    "importe_total": 4028.95,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.473,
+            "precio_unitario": 67.66,
+            "valor_venta": 302.64,
+            "cargo_item": 54.48,
+            "importe_total": 357.12
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.9,
+            "precio_unitario": 83.25,
+            "valor_venta": 407.93,
+            "cargo_item": 73.43,
+            "importe_total": 481.36
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.632,
+            "precio_unitario": 38.77,
+            "valor_venta": 179.58,
+            "cargo_item": 32.32,
+            "importe_total": 211.9
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.755,
+            "precio_unitario": 146.35,
+            "valor_venta": 988.59,
+            "cargo_item": 177.95,
+            "importe_total": 1166.54
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.852,
+            "precio_unitario": 56.58,
+            "valor_venta": 557.43,
+            "cargo_item": 100.34,
+            "importe_total": 657.77
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.557,
+            "precio_unitario": 105.11,
+            "valor_venta": 584.1,
+            "cargo_item": 105.14,
+            "importe_total": 689.24
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE318-654162",
+    "fecha_emision": "2025-08-30T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20440032703",
+    "emisor_razon_social": "Estelar Luxury Cusco",
+    "emisor_direccion": "Av. La Marina 4490, Miraflores, Lima",
+    "receptor_numero_doc": "20274937590",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 4312, San Borja, Lima",
+    "subtotal": 1409.19,
+    "igv": 253.65,
+    "importe_total": 1916.5,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.098,
+            "precio_unitario": 65.32,
+            "valor_venta": 463.64,
+            "cargo_item": 83.46,
+            "importe_total": 547.1
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.331,
+            "precio_unitario": 65.39,
+            "valor_venta": 544.76,
+            "cargo_item": 98.06,
+            "importe_total": 642.82
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.191,
+            "precio_unitario": 48.93,
+            "valor_venta": 400.79,
+            "cargo_item": 72.14,
+            "importe_total": 472.93
+        }
+    ]
+}

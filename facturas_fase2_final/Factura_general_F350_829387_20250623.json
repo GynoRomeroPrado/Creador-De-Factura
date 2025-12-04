@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F350-829387",
+    "fecha_emision": "2025-06-23T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20360864821",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Benavides 1450, San Isidro, Lima",
+    "receptor_numero_doc": "20038562097",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Benavides 1968, San Isidro, Lima",
+    "subtotal": 51167.25,
+    "igv": 9210.1,
+    "importe_total": 60377.35,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 75,
+            "precio_unitario": 378.03,
+            "valor_venta": 28352.25
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 78,
+            "precio_unitario": 292.5,
+            "valor_venta": 22815.0
+        }
+    ]
+}

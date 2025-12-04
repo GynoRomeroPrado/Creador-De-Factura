@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE100-098151",
+    "fecha_emision": "2025-01-19T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20552459122",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 3964, La Victoria, Lima",
+    "receptor_numero_doc": "20382506864",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. La Marina 2688, Santiago de Surco, Lima",
+    "subtotal": 91789.37,
+    "igv": 16522.09,
+    "importe_total": 108311.46,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal) Modelo 2025",
+            "unidad": "UND",
+            "cantidad": 32,
+            "precio_unitario": 21.94,
+            "valor_venta": 702.08
+        },
+        {
+            "numero": 2,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 71,
+            "precio_unitario": 705.54,
+            "valor_venta": 50093.34
+        },
+        {
+            "numero": 3,
+            "descripcion": "Arena Gruesa (m3)",
+            "unidad": "M3",
+            "cantidad": 24,
+            "precio_unitario": 53.84,
+            "valor_venta": 1292.16
+        },
+        {
+            "numero": 4,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L)",
+            "unidad": "GLN",
+            "cantidad": 18,
+            "precio_unitario": 47.42,
+            "valor_venta": 853.56
+        },
+        {
+            "numero": 5,
+            "descripcion": "Ladrillo King Kong 18 Huecos Lark",
+            "unidad": "MILLAR",
+            "cantidad": 48,
+            "precio_unitario": 710.18,
+            "valor_venta": 34088.64
+        },
+        {
+            "numero": 6,
+            "descripcion": "Guantes de Cuero Reforzado",
+            "unidad": "PAR",
+            "cantidad": 29,
+            "precio_unitario": 17.8,
+            "valor_venta": 516.2
+        },
+        {
+            "numero": 7,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 9,
+            "precio_unitario": 33.89,
+            "valor_venta": 305.01
+        },
+        {
+            "numero": 8,
+            "descripcion": "Tubo PVC SAP Pavco 4\" Desague",
+            "unidad": "UND",
+            "cantidad": 33,
+            "precio_unitario": 27.49,
+            "valor_venta": 907.17
+        },
+        {
+            "numero": 9,
+            "descripcion": "Thinner Acrílico Vencedor (Galón) Color: Negro",
+            "unidad": "GLN",
+            "cantidad": 91,
+            "precio_unitario": 33.31,
+            "valor_venta": 3031.21
+        }
+    ]
+}

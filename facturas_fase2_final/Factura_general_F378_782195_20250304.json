@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F378-782195",
+    "fecha_emision": "2025-03-04T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20011832939",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 205, La Victoria, Lima",
+    "receptor_numero_doc": "20645674619",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 4833, Miraflores, Lima",
+    "subtotal": 464.31,
+    "igv": 77.46,
+    "importe_total": 541.77,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 79,
+            "precio_unitario": 3.57,
+            "valor_venta": 282.03
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 12,
+            "precio_unitario": 6.16,
+            "valor_venta": 73.92
+        },
+        {
+            "numero": 3,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 63,
+            "precio_unitario": 1.72,
+            "valor_venta": 108.36
+        }
+    ]
+}

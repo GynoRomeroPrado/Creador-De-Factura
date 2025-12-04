@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE405-469638",
+    "fecha_emision": "2025-05-09T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20202908226",
+    "emisor_razon_social": "Radisson Plaza Lima",
+    "emisor_direccion": "Av. Arequipa 324, Miraflores, Lima",
+    "receptor_numero_doc": "20486489759",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Jr. de la Unión 3987, San Borja, Lima",
+    "subtotal": 2051.92,
+    "igv": 299.76,
+    "importe_total": 2721.02,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.409,
+            "precio_unitario": 131.91,
+            "valor_venta": 1109.23,
+            "cargo_item": 199.66,
+            "importe_total": 1308.89
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.958,
+            "precio_unitario": 87.08,
+            "valor_venta": 518.82,
+            "cargo_item": 93.39,
+            "importe_total": 612.21
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.211,
+            "precio_unitario": 89.1,
+            "valor_venta": 107.9,
+            "cargo_item": 19.42,
+            "importe_total": 127.32
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.616,
+            "precio_unitario": 87.38,
+            "valor_venta": 315.97,
+            "cargo_item": 56.87,
+            "importe_total": 372.84
+        }
+    ]
+}

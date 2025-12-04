@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F587-653765",
+    "fecha_emision": "2025-09-25T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20388718928",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 401, San Borja, Lima",
+    "receptor_numero_doc": "20577845141",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 821, La Victoria, Lima",
+    "subtotal": 57570.02,
+    "igv": 10362.6,
+    "importe_total": 67932.62,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 46,
+            "precio_unitario": 1311.93,
+            "valor_venta": 60348.78
+        }
+    ]
+}

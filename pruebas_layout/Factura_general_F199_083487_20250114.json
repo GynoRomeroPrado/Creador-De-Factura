@@ -1,0 +1,69 @@
+{
+    "tipo_comprobante": "FACTURA ELECTRÓNICA",
+    "tipo_factura": "general",
+    "numero_factura": "F199-083487",
+    "serie": "F199",
+    "numero": "083487",
+    "fecha_emision": "2025-01-14T00:00:00",
+    "fecha_vencimiento": "2025-03-15T00:00:00",
+    "emisor": {
+        "ruc": "20871433829",
+        "razon_social": "Comercializadora Universal E.I.R.L.",
+        "direccion": "Av. Arequipa 4098, San Isidro, Lima",
+        "telefono": "01-3546139",
+        "email": "reservas@hotel.com.pe"
+    },
+    "receptor": {
+        "ruc": "20225599816",
+        "razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+        "direccion": "Av. Arequipa 287, Miraflores, Lima",
+        "telefono": "974665759",
+        "email": "facturacion@negocio.com.pe"
+    },
+    "moneda": "PEN",
+    "simbolo_moneda": "S/",
+    "nombre_moneda": "SOLES",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Casco de Seguridad 3M Blanco",
+            "unidad": "UND",
+            "cantidad": 1,
+            "precio_unitario": 42.24,
+            "valor_venta": 42.24
+        }
+    ],
+    "op_gravada": 38.88,
+    "op_exonerada": 0.0,
+    "op_inafecta": 3.36,
+    "op_gratuitas": 0.0,
+    "igv": 7.0,
+    "total_cargos": 0.0,
+    "otros_cargos": 0.0,
+    "total": 49.24,
+    "total_letras": "CUARENTA Y NUEVE CON 24/100 SOLES",
+    "forma_pago": "Credito",
+    "con_credito": true,
+    "cuotas": [
+        {
+            "numero": 1,
+            "fecha_vencimiento": "2025-02-13T00:00:00",
+            "monto": 24.62
+        },
+        {
+            "numero": 2,
+            "fecha_vencimiento": "2025-03-15T00:00:00",
+            "monto": 24.62
+        }
+    ],
+    "numero_contrato": null,
+    "periodo_facturado": null,
+    "observaciones": null,
+    "datos_hotel": null,
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": null,
+    "industria": "construccion"
+}

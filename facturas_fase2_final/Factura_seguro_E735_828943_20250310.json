@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E735-828943",
+    "fecha_emision": "2025-03-10T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20683381307",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Av. Arequipa 3828, San Isidro, Lima",
+    "receptor_numero_doc": "20005007411",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. La Marina 2559, La Victoria, Lima",
+    "subtotal": 234418.76,
+    "igv": 42195.38,
+    "importe_total": 276614.14,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida (Oferta)",
+            "unidad": "POL",
+            "cantidad": 32,
+            "precio_unitario": 476.3,
+            "valor_venta": 15241.6
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 64,
+            "precio_unitario": 396.81,
+            "valor_venta": 25395.84
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 2,
+            "precio_unitario": 2277.12,
+            "valor_venta": 4554.24
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Oferta)",
+            "unidad": "POL",
+            "cantidad": 58,
+            "precio_unitario": 161.88,
+            "valor_venta": 9389.04
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 78,
+            "precio_unitario": 329.92,
+            "valor_venta": 25733.76
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 85,
+            "precio_unitario": 476.34,
+            "valor_venta": 40488.9
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 57,
+            "precio_unitario": 187.7,
+            "valor_venta": 10698.9
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro contra Incendios (Oferta)",
+            "unidad": "POL",
+            "cantidad": 93,
+            "precio_unitario": 910.56,
+            "valor_venta": 84682.08
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 80,
+            "precio_unitario": 227.93,
+            "valor_venta": 18234.4
+        }
+    ]
+}

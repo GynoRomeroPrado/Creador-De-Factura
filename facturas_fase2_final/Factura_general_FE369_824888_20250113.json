@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE369-824888",
+    "fecha_emision": "2025-01-13T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20334306519",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 2264, Miraflores, Lima",
+    "receptor_numero_doc": "20292745991",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Arequipa 2391, Santiago de Surco, Lima",
+    "subtotal": 4468.7,
+    "igv": 804.37,
+    "importe_total": 5273.07,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m",
+            "unidad": "VAR",
+            "cantidad": 60,
+            "precio_unitario": 40.29,
+            "valor_venta": 2417.4
+        },
+        {
+            "numero": 2,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt",
+            "unidad": "UND",
+            "cantidad": 11,
+            "precio_unitario": 4.81,
+            "valor_venta": 52.91
+        },
+        {
+            "numero": 3,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt",
+            "unidad": "UND",
+            "cantidad": 70,
+            "precio_unitario": 5.51,
+            "valor_venta": 385.7
+        },
+        {
+            "numero": 4,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 67,
+            "precio_unitario": 24.07,
+            "valor_venta": 1612.69
+        }
+    ]
+}

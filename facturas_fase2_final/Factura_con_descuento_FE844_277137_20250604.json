@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE844-277137",
+    "fecha_emision": "2025-06-04T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20297173147",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Calle Los Pinos 1857, Miraflores, Lima",
+    "receptor_numero_doc": "20044858569",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 1240, Santiago de Surco, Lima",
+    "subtotal": 715.64,
+    "igv": 113.1,
+    "importe_total": 828.74,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.734,
+            "precio_unitario": 31.64,
+            "valor_venta": 181.42
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.596,
+            "precio_unitario": 52.63,
+            "valor_venta": 452.41
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.988,
+            "precio_unitario": 86.53,
+            "valor_venta": 172.02
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.061,
+            "precio_unitario": 83.6,
+            "valor_venta": 88.7
+        }
+    ]
+}

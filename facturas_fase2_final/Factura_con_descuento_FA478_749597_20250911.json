@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA478-749597",
+    "fecha_emision": "2025-09-11T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20197798000",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 2958, San Isidro, Lima",
+    "receptor_numero_doc": "20277478154",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Jr. de la Unión 2378, Santiago de Surco, Lima",
+    "subtotal": 408.9,
+    "igv": 73.6,
+    "importe_total": 482.5,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 81,
+            "precio_unitario": 5.59,
+            "valor_venta": 452.79
+        }
+    ]
+}

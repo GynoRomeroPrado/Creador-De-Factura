@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E583-148153",
+    "fecha_emision": "2025-11-02T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20162563832",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 3172, San Isidro, Lima",
+    "receptor_numero_doc": "20944989235",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 1015, San Borja, Lima",
+    "subtotal": 7.12,
+    "igv": 1.09,
+    "importe_total": 8.21,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 2,
+            "precio_unitario": 3.56,
+            "valor_venta": 7.12
+        }
+    ]
+}

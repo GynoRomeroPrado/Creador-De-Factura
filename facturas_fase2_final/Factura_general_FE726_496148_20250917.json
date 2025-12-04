@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE726-496148",
+    "fecha_emision": "2025-09-17T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20848459381",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 3867, La Victoria, Lima",
+    "receptor_numero_doc": "20486104075",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. Arequipa 3461, Santiago de Surco, Lima",
+    "subtotal": 1004.52,
+    "igv": 130.94,
+    "importe_total": 1135.46,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 33,
+            "precio_unitario": 4.36,
+            "valor_venta": 143.88
+        },
+        {
+            "numero": 2,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 39,
+            "precio_unitario": 2.71,
+            "valor_venta": 105.69
+        },
+        {
+            "numero": 3,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 46,
+            "precio_unitario": 5.16,
+            "valor_venta": 237.36
+        },
+        {
+            "numero": 4,
+            "descripcion": "Gasolina 90 Modelo 2025",
+            "unidad": "GL",
+            "cantidad": 58,
+            "precio_unitario": 5.13,
+            "valor_venta": 297.54
+        },
+        {
+            "numero": 5,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 45,
+            "precio_unitario": 4.89,
+            "valor_venta": 220.05
+        }
+    ]
+}

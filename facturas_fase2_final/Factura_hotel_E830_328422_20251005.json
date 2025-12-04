@@ -1,0 +1,87 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E830-328422",
+    "fecha_emision": "2025-10-05T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20713418111",
+    "emisor_razon_social": "Westin Suites Huancayo",
+    "emisor_direccion": "Av. Arequipa 1593, San Borja, Lima",
+    "receptor_numero_doc": "20099746379",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Arequipa 4228, Santiago de Surco, Lima",
+    "subtotal": 3297.33,
+    "igv": 593.52,
+    "importe_total": 4484.38,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.855,
+            "precio_unitario": 95.98,
+            "valor_venta": 370.0,
+            "cargo_item": 66.6,
+            "importe_total": 436.6
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.648,
+            "precio_unitario": 79.04,
+            "valor_venta": 446.42,
+            "cargo_item": 80.36,
+            "importe_total": 526.78
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.096,
+            "precio_unitario": 87.16,
+            "valor_venta": 792.81,
+            "cargo_item": 142.71,
+            "importe_total": 935.52
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.613,
+            "precio_unitario": 52.28,
+            "valor_venta": 398.01,
+            "cargo_item": 71.64,
+            "importe_total": 469.65
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.562,
+            "precio_unitario": 73.47,
+            "valor_venta": 629.05,
+            "cargo_item": 113.23,
+            "importe_total": 742.28
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.944,
+            "precio_unitario": 56.33,
+            "valor_venta": 165.84,
+            "cargo_item": 29.85,
+            "importe_total": 195.69
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.83,
+            "precio_unitario": 84.94,
+            "valor_venta": 495.2,
+            "cargo_item": 89.14,
+            "importe_total": 584.34
+        }
+    ]
+}

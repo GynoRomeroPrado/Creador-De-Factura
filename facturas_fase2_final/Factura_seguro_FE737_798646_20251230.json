@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE737-798646",
+    "fecha_emision": "2025-12-30T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20140065448",
+    "emisor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "emisor_direccion": "Av. Benavides 3013, San Borja, Lima",
+    "receptor_numero_doc": "20105782838",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Benavides 2403, San Isidro, Lima",
+    "subtotal": 128777.12,
+    "igv": 21053.2,
+    "importe_total": 149830.32,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 63,
+            "precio_unitario": 1219.97,
+            "valor_venta": 76858.11
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 44,
+            "precio_unitario": 119.34,
+            "valor_venta": 5250.96
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 72,
+            "precio_unitario": 328.1,
+            "valor_venta": 23623.2
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida (Oferta)",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 251.85,
+            "valor_venta": 13348.05
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 16,
+            "precio_unitario": 606.05,
+            "valor_venta": 9696.8
+        }
+    ]
+}

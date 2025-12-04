@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F395-484601",
+    "fecha_emision": "2025-04-29T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20129020599",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 4532, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20905889878",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. La Marina 2454, Santiago de Surco, Lima",
+    "subtotal": 293665.72,
+    "igv": 41477.19,
+    "importe_total": 335142.91,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios (Oferta)",
+            "unidad": "POL",
+            "cantidad": 2,
+            "precio_unitario": 321.08,
+            "valor_venta": 642.16
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 56,
+            "precio_unitario": 142.46,
+            "valor_venta": 7977.76
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 64,
+            "precio_unitario": 2768.87,
+            "valor_venta": 177207.68
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 85,
+            "precio_unitario": 1152.37,
+            "valor_venta": 97951.45
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 34,
+            "precio_unitario": 138.4,
+            "valor_venta": 4705.6
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Oferta)",
+            "unidad": "POL",
+            "cantidad": 11,
+            "precio_unitario": 105.45,
+            "valor_venta": 1159.95
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 16,
+            "precio_unitario": 251.32,
+            "valor_venta": 4021.12
+        }
+    ]
+}

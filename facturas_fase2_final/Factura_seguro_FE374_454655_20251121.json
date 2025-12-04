@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE374-454655",
+    "fecha_emision": "2025-11-21T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20368493008",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 1321, San Borja, Lima",
+    "receptor_numero_doc": "20527005583",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 2243, Miraflores, Lima",
+    "subtotal": 339323.73,
+    "igv": 54495.13,
+    "importe_total": 393818.86,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 16,
+            "precio_unitario": 2941.54,
+            "valor_venta": 47064.64
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 29,
+            "precio_unitario": 232.39,
+            "valor_venta": 6739.31
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo Serie X",
+            "unidad": "POL",
+            "cantidad": 23,
+            "precio_unitario": 1170.28,
+            "valor_venta": 26916.44
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 51,
+            "precio_unitario": 280.32,
+            "valor_venta": 14296.32
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida (Oferta)",
+            "unidad": "POL",
+            "cantidad": 88,
+            "precio_unitario": 218.23,
+            "valor_venta": 19204.24
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 89,
+            "precio_unitario": 261.12,
+            "valor_venta": 23239.68
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 57,
+            "precio_unitario": 1388.18,
+            "valor_venta": 79126.26
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 63,
+            "precio_unitario": 350.72,
+            "valor_venta": 22095.36
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 31,
+            "precio_unitario": 2961.48,
+            "valor_venta": 91805.88
+        },
+        {
+            "numero": 10,
+            "descripcion": "Seguro contra Incendios Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 15,
+            "precio_unitario": 589.04,
+            "valor_venta": 8835.6
+        }
+    ]
+}

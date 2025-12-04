@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E219-630451",
+    "fecha_emision": "2025-02-21T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20806318991",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 3271, Miraflores, Lima",
+    "receptor_numero_doc": "20549424563",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Calle Los Pinos 1015, Miraflores, Lima",
+    "subtotal": 48243.0,
+    "igv": 7202.73,
+    "importe_total": 55445.73,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores (Importado)",
+            "unidad": "SRV",
+            "cantidad": 39,
+            "precio_unitario": 1237.0,
+            "valor_venta": 48243.0
+        }
+    ]
+}

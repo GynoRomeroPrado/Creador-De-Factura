@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E612-691397",
+    "fecha_emision": "2025-04-25T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20495349391",
+    "emisor_razon_social": "Westin Plaza Cajamarca",
+    "emisor_direccion": "Av. Benavides 3176, Miraflores, Lima",
+    "receptor_numero_doc": "20873099098",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 4209, Santiago de Surco, Lima",
+    "subtotal": 2953.26,
+    "igv": 531.59,
+    "importe_total": 4027.47,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.056,
+            "precio_unitario": 64.85,
+            "valor_venta": 198.18,
+            "cargo_item": 35.67,
+            "importe_total": 233.85
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.913,
+            "precio_unitario": 64.31,
+            "valor_venta": 187.34,
+            "cargo_item": 33.72,
+            "importe_total": 221.06
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.608,
+            "precio_unitario": 68.74,
+            "valor_venta": 522.97,
+            "cargo_item": 94.13,
+            "importe_total": 617.1
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.124,
+            "precio_unitario": 99.22,
+            "valor_venta": 905.28,
+            "cargo_item": 162.95,
+            "importe_total": 1068.23
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.05,
+            "precio_unitario": 125.91,
+            "valor_venta": 1139.49,
+            "cargo_item": 205.11,
+            "importe_total": 1344.6
+        }
+    ]
+}

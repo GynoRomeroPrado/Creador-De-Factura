@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E654-899135",
+    "fecha_emision": "2025-06-30T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20346803470",
+    "emisor_razon_social": "Holiday Inn Select Chiclayo",
+    "emisor_direccion": "Calle Los Pinos 3475, La Victoria, Lima",
+    "receptor_numero_doc": "20376752926",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Benavides 4096, Miraflores, Lima",
+    "subtotal": 1603.23,
+    "igv": 288.58,
+    "importe_total": 2180.39,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.999,
+            "precio_unitario": 99.11,
+            "valor_venta": 594.56,
+            "cargo_item": 107.02,
+            "importe_total": 701.58
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.93,
+            "precio_unitario": 41.05,
+            "valor_venta": 366.58,
+            "cargo_item": 65.98,
+            "importe_total": 432.56
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.32,
+            "precio_unitario": 48.97,
+            "valor_venta": 407.43,
+            "cargo_item": 73.34,
+            "importe_total": 480.77
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.609,
+            "precio_unitario": 30.84,
+            "valor_venta": 234.66,
+            "cargo_item": 42.24,
+            "importe_total": 276.9
+        }
+    ]
+}

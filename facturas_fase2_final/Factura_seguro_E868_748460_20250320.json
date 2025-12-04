@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E868-748460",
+    "fecha_emision": "2025-03-20T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20341469822",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 2732, San Isidro, Lima",
+    "receptor_numero_doc": "20033050730",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. Arequipa 3053, San Borja, Lima",
+    "subtotal": 185263.42,
+    "igv": 26373.17,
+    "importe_total": 211636.59,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 67,
+            "precio_unitario": 2737.06,
+            "valor_venta": 183383.02
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida Color: Negro",
+            "unidad": "POL",
+            "cantidad": 6,
+            "precio_unitario": 313.4,
+            "valor_venta": 1880.4
+        }
+    ]
+}

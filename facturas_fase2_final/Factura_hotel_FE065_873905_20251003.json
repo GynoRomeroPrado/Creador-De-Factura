@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE065-873905",
+    "fecha_emision": "2025-10-03T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20320558949",
+    "emisor_razon_social": "Hampton Select Puno",
+    "emisor_direccion": "Av. La Marina 3305, La Victoria, Lima",
+    "receptor_numero_doc": "20054512911",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 580, Cercado de Lima, Lima",
+    "subtotal": 802.97,
+    "igv": 144.53,
+    "importe_total": 1092.04,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.862,
+            "precio_unitario": 85.31,
+            "valor_venta": 414.78,
+            "cargo_item": 74.66,
+            "importe_total": 489.44
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.038,
+            "precio_unitario": 101.83,
+            "valor_venta": 207.53,
+            "cargo_item": 37.36,
+            "importe_total": 244.89
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.71,
+            "precio_unitario": 105.65,
+            "valor_venta": 180.66,
+            "cargo_item": 32.52,
+            "importe_total": 213.18
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE515-095332",
+    "fecha_emision": "2025-04-25T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20169267422",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 4202, Miraflores, Lima",
+    "receptor_numero_doc": "20750204504",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 1115, La Victoria, Lima",
+    "subtotal": 620.51,
+    "igv": 111.69,
+    "importe_total": 732.2,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 53,
+            "precio_unitario": 2.85,
+            "valor_venta": 151.05
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 40,
+            "precio_unitario": 4.97,
+            "valor_venta": 198.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 88,
+            "precio_unitario": 4.32,
+            "valor_venta": 380.16
+        }
+    ]
+}

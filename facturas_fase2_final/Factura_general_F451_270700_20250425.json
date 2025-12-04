@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F451-270700",
+    "fecha_emision": "2025-04-25T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20970189484",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 392, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20135523012",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Arequipa 385, Miraflores, Lima",
+    "subtotal": 717.79,
+    "igv": 129.2,
+    "importe_total": 846.99,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Tubo PVC SAP Pavco 4\" Desague Serie X",
+            "unidad": "UND",
+            "cantidad": 25,
+            "precio_unitario": 24.47,
+            "valor_venta": 611.75
+        },
+        {
+            "numero": 2,
+            "descripcion": "Cemento Sol Tipo I (42.5kg) Serie X",
+            "unidad": "BOL",
+            "cantidad": 4,
+            "precio_unitario": 26.51,
+            "valor_venta": 106.04
+        }
+    ]
+}

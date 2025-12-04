@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E778-287243",
+    "fecha_emision": "2025-06-19T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20463786110",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Jr. de la Unión 2708, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20102206321",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 824, San Borja, Lima",
+    "subtotal": 97967.76,
+    "igv": 17634.2,
+    "importe_total": 115638.78,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 68,
+            "precio_unitario": 121.79,
+            "valor_venta": 8281.72
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Oferta)",
+            "unidad": "POL",
+            "cantidad": 32,
+            "precio_unitario": 2963.82,
+            "valor_venta": 94842.24
+        }
+    ]
+}

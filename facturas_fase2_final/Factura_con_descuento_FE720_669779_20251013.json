@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE720-669779",
+    "fecha_emision": "2025-10-13T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20280419304",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. La Marina 2373, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20554276092",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 224, Santiago de Surco, Lima",
+    "subtotal": 5368.57,
+    "igv": 966.34,
+    "importe_total": 6334.91,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Humo Convencional 2 Hilos (Oferta)",
+            "unidad": "UND",
+            "cantidad": 69,
+            "precio_unitario": 86.86,
+            "valor_venta": 5993.34
+        }
+    ]
+}

@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E496-770080",
+    "fecha_emision": "2025-09-29T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20517197158",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 3436, Miraflores, Lima",
+    "receptor_numero_doc": "20042776891",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 4713, Cercado de Lima, Lima",
+    "subtotal": 355513.87,
+    "igv": 63992.5,
+    "importe_total": 419506.37,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 71,
+            "precio_unitario": 1153.81,
+            "valor_venta": 81920.51
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida Serie X",
+            "unidad": "POL",
+            "cantidad": 90,
+            "precio_unitario": 463.7,
+            "valor_venta": 41733.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 78,
+            "precio_unitario": 232.59,
+            "valor_venta": 18142.02
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 24,
+            "precio_unitario": 1348.36,
+            "valor_venta": 32360.64
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 90,
+            "precio_unitario": 368.25,
+            "valor_venta": 33142.5
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 55,
+            "precio_unitario": 2573.64,
+            "valor_venta": 141550.2
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 50,
+            "precio_unitario": 133.3,
+            "valor_venta": 6665.0
+        }
+    ]
+}

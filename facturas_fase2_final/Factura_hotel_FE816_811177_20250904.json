@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE816-811177",
+    "fecha_emision": "2025-09-04T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20426429919",
+    "emisor_razon_social": "Casa Andina Resort Surco",
+    "emisor_direccion": "Calle Los Pinos 2531, San Isidro, Lima",
+    "receptor_numero_doc": "20079539229",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Benavides 3003, San Isidro, Lima",
+    "subtotal": 1606.85,
+    "igv": 226.9,
+    "importe_total": 2122.99,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.675,
+            "precio_unitario": 68.17,
+            "valor_venta": 182.35,
+            "cargo_item": 32.82,
+            "importe_total": 215.17
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.13,
+            "precio_unitario": 30.48,
+            "valor_venta": 217.32,
+            "cargo_item": 39.12,
+            "importe_total": 256.44
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.821,
+            "precio_unitario": 95.64,
+            "valor_venta": 174.16,
+            "cargo_item": 31.35,
+            "importe_total": 205.51
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.296,
+            "precio_unitario": 80.93,
+            "valor_venta": 509.54,
+            "cargo_item": 91.72,
+            "importe_total": 601.26
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.333,
+            "precio_unitario": 62.82,
+            "valor_venta": 523.48,
+            "cargo_item": 94.23,
+            "importe_total": 617.71
+        }
+    ]
+}

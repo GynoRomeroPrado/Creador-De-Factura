@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F953-795244",
+    "fecha_emision": "2025-06-01T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20385676264",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Jr. de la Unión 776, La Victoria, Lima",
+    "receptor_numero_doc": "20640892391",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Benavides 1872, La Victoria, Lima",
+    "subtotal": 104600.79,
+    "igv": 18828.14,
+    "importe_total": 123471.34,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 28,
+            "precio_unitario": 2933.22,
+            "valor_venta": 82130.16
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida (Oferta)",
+            "unidad": "POL",
+            "cantidad": 91,
+            "precio_unitario": 246.93,
+            "valor_venta": 22470.63
+        }
+    ]
+}

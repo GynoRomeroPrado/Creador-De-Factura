@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F390-306759",
+    "fecha_emision": "2025-11-20T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20931164270",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Benavides 544, Miraflores, Lima",
+    "receptor_numero_doc": "20786801657",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. La Marina 101, Cercado de Lima, Lima",
+    "subtotal": 1297.44,
+    "igv": 233.54,
+    "importe_total": 1530.98,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 90 Color: Negro",
+            "unidad": "GL",
+            "cantidad": 88,
+            "precio_unitario": 4.36,
+            "valor_venta": 383.68
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 17,
+            "precio_unitario": 4.95,
+            "valor_venta": 84.15
+        },
+        {
+            "numero": 3,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 38,
+            "precio_unitario": 2.51,
+            "valor_venta": 95.38
+        },
+        {
+            "numero": 4,
+            "descripcion": "GLP (Oferta)",
+            "unidad": "GL",
+            "cantidad": 12,
+            "precio_unitario": 2.56,
+            "valor_venta": 30.72
+        },
+        {
+            "numero": 5,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 100,
+            "precio_unitario": 4.8,
+            "valor_venta": 480.0
+        },
+        {
+            "numero": 6,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 21,
+            "precio_unitario": 3.41,
+            "valor_venta": 71.61
+        },
+        {
+            "numero": 7,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 98,
+            "precio_unitario": 1.55,
+            "valor_venta": 151.9
+        }
+    ]
+}

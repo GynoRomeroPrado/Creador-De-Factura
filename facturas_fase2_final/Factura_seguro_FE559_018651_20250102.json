@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE559-018651",
+    "fecha_emision": "2025-01-02T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20499615826",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 1842, San Borja, Lima",
+    "receptor_numero_doc": "20472181166",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Benavides 3465, Miraflores, Lima",
+    "subtotal": 243697.02,
+    "igv": 43865.46,
+    "importe_total": 287562.48,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 4,
+            "precio_unitario": 1035.06,
+            "valor_venta": 4140.24
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 77,
+            "precio_unitario": 148.02,
+            "valor_venta": 11397.54
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 35,
+            "precio_unitario": 178.35,
+            "valor_venta": 6242.25
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 1183.97,
+            "valor_venta": 62750.41
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 11,
+            "precio_unitario": 630.65,
+            "valor_venta": 6937.15
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios Serie X",
+            "unidad": "POL",
+            "cantidad": 79,
+            "precio_unitario": 1460.63,
+            "valor_venta": 115389.77
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Oferta)",
+            "unidad": "POL",
+            "cantidad": 93,
+            "precio_unitario": 152.46,
+            "valor_venta": 14178.78
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 74,
+            "precio_unitario": 162.52,
+            "valor_venta": 12026.48
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Importado)",
+            "unidad": "POL",
+            "cantidad": 90,
+            "precio_unitario": 118.16,
+            "valor_venta": 10634.4
+        }
+    ]
+}

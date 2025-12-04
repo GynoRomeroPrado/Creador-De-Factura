@@ -1,0 +1,159 @@
+{
+    "tipo_comprobante": "FACTURA ELECTRÓNICA",
+    "tipo_factura": "hotel",
+    "numero_factura": "F007-579415",
+    "serie": "F007",
+    "numero": "579415",
+    "fecha_emision": "2025-05-22T00:00:00",
+    "fecha_vencimiento": "2025-05-22T00:00:00",
+    "emisor": {
+        "ruc": "20445481506",
+        "razon_social": "Holiday Inn Premium Lima",
+        "direccion": "Jr. de la Unión 4587, San Isidro, Lima",
+        "telefono": "01-6824887",
+        "email": "ventas@negocio.com.pe"
+    },
+    "receptor": {
+        "ruc": "20988031608",
+        "razon_social": "Innovación Tecnológica del Perú S.A.",
+        "direccion": "Jr. de la Unión 658, Cercado de Lima, Lima",
+        "telefono": "924251828",
+        "email": "contacto@negocio.com.pe"
+    },
+    "moneda": "USD",
+    "simbolo_moneda": "$",
+    "nombre_moneda": "DOLARES",
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.162,
+            "precio_unitario": 147.24,
+            "valor_venta": 465.57,
+            "cargo_item": 83.8,
+            "importe_total": 549.37
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.221,
+            "precio_unitario": 78.28,
+            "valor_venta": 486.98,
+            "cargo_item": 87.66,
+            "importe_total": 574.64
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.43,
+            "precio_unitario": 76.63,
+            "valor_venta": 262.84,
+            "cargo_item": 47.31,
+            "importe_total": 310.15
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.548,
+            "precio_unitario": 127.24,
+            "valor_venta": 1087.65,
+            "cargo_item": 195.78,
+            "importe_total": 1283.43
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.776,
+            "precio_unitario": 81.52,
+            "valor_venta": 470.86,
+            "cargo_item": 84.75,
+            "importe_total": 555.61
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.885,
+            "precio_unitario": 80.4,
+            "valor_venta": 312.35,
+            "cargo_item": 56.22,
+            "importe_total": 368.57
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.992,
+            "precio_unitario": 74.05,
+            "valor_venta": 517.76,
+            "cargo_item": 93.2,
+            "importe_total": 610.96
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.468,
+            "precio_unitario": 89.78,
+            "valor_venta": 670.48,
+            "cargo_item": 120.69,
+            "importe_total": 791.17
+        },
+        {
+            "numero": 9,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.202,
+            "precio_unitario": 148.99,
+            "valor_venta": 1371.01,
+            "cargo_item": 246.78,
+            "importe_total": 1617.79
+        },
+        {
+            "numero": 10,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.829,
+            "precio_unitario": 144.79,
+            "valor_venta": 1133.56,
+            "cargo_item": 204.04,
+            "importe_total": 1337.6
+        }
+    ],
+    "op_gravada": 6779.06,
+    "op_exonerada": 0.0,
+    "op_inafecta": 0.0,
+    "op_gratuitas": 0.0,
+    "igv": 1220.23,
+    "total_cargos": 1220.23,
+    "otros_cargos": 0.0,
+    "total": 9219.52,
+    "total_letras": "NUEVE MIL DOSCIENTOS DIECINUEVE CON 52/100 DÓLARES",
+    "forma_pago": "TRANSFERENCIA BANCARIA",
+    "con_credito": false,
+    "cuotas": [],
+    "numero_contrato": null,
+    "periodo_facturado": null,
+    "observaciones": null,
+    "datos_hotel": {
+        "checkin": "2025-05-22T00:00:00",
+        "checkout": "2025-05-23T00:00:00",
+        "noches": 1,
+        "reserva": "18570519",
+        "huesped": "Jorge Rodriguez Lopez",
+        "codigo_grupo": null,
+        "nombre_grupo": null,
+        "habitacion": "Habitación Junior Suite"
+    },
+    "datos_seguro": null,
+    "datos_restaurante": null,
+    "datos_transporte": null,
+    "datos_servicios": null,
+    "descuento": null,
+    "industria": "hotel"
+}

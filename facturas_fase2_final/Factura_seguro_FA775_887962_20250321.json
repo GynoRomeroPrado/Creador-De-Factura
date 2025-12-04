@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA775-887962",
+    "fecha_emision": "2025-03-21T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20010468176",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Av. Benavides 217, San Isidro, Lima",
+    "receptor_numero_doc": "20668621431",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Arequipa 663, San Borja, Lima",
+    "subtotal": 50707.36,
+    "igv": 7977.62,
+    "importe_total": 58684.98,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 112.26,
+            "valor_venta": 5949.78
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 26,
+            "precio_unitario": 124.86,
+            "valor_venta": 3246.36
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Oferta)",
+            "unidad": "POL",
+            "cantidad": 16,
+            "precio_unitario": 1890.74,
+            "valor_venta": 30251.84
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 61,
+            "precio_unitario": 184.58,
+            "valor_venta": 11259.38
+        }
+    ]
+}

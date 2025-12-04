@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA779-747889",
+    "fecha_emision": "2025-07-23T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20442103705",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Javier Prado Este 795, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20251361763",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 3928, Cercado de Lima, Lima",
+    "subtotal": 228197.77,
+    "igv": 41075.6,
+    "importe_total": 269273.37,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Batería 12V/7AH",
+            "unidad": "UND",
+            "cantidad": 75,
+            "precio_unitario": 71.99,
+            "valor_venta": 5399.25
+        },
+        {
+            "numero": 2,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 53,
+            "precio_unitario": 52.36,
+            "valor_venta": 2775.08
+        },
+        {
+            "numero": 3,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 63,
+            "precio_unitario": 1076.49,
+            "valor_venta": 67818.87
+        },
+        {
+            "numero": 4,
+            "descripcion": "Batería 12V/7AH (Oferta)",
+            "unidad": "UND",
+            "cantidad": 88,
+            "precio_unitario": 79.5,
+            "valor_venta": 6996.0
+        },
+        {
+            "numero": 5,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 50,
+            "precio_unitario": 55.0,
+            "valor_venta": 2750.0
+        },
+        {
+            "numero": 6,
+            "descripcion": "Central de Detección de Incendios (Importado)",
+            "unidad": "UND",
+            "cantidad": 57,
+            "precio_unitario": 2450.33,
+            "valor_venta": 139668.81
+        },
+        {
+            "numero": 7,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 48,
+            "precio_unitario": 58.12,
+            "valor_venta": 2789.76
+        }
+    ]
+}

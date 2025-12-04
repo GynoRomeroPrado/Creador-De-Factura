@@ -1,0 +1,117 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F002-342806",
+    "fecha_emision": "2025-02-08T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20515273965",
+    "emisor_razon_social": "Costa del Sol Suites Trujillo",
+    "emisor_direccion": "Calle Los Pinos 2030, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20553327611",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Arequipa 913, San Borja, Lima",
+    "subtotal": 5522.86,
+    "igv": 994.11,
+    "importe_total": 7511.09,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.463,
+            "precio_unitario": 68.35,
+            "valor_venta": 373.4,
+            "cargo_item": 67.21,
+            "importe_total": 440.61
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.902,
+            "precio_unitario": 57.78,
+            "valor_venta": 572.14,
+            "cargo_item": 102.99,
+            "importe_total": 675.13
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.174,
+            "precio_unitario": 62.44,
+            "valor_venta": 385.5,
+            "cargo_item": 69.39,
+            "importe_total": 454.89
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.191,
+            "precio_unitario": 59.81,
+            "valor_venta": 430.09,
+            "cargo_item": 77.42,
+            "importe_total": 507.51
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.057,
+            "precio_unitario": 97.18,
+            "valor_venta": 880.16,
+            "cargo_item": 158.43,
+            "importe_total": 1038.59
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.627,
+            "precio_unitario": 123.2,
+            "valor_venta": 570.05,
+            "cargo_item": 102.61,
+            "importe_total": 672.66
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.75,
+            "precio_unitario": 71.89,
+            "valor_venta": 629.04,
+            "cargo_item": 113.23,
+            "importe_total": 742.27
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.625,
+            "precio_unitario": 33.94,
+            "valor_venta": 292.73,
+            "cargo_item": 52.69,
+            "importe_total": 345.42
+        },
+        {
+            "numero": 9,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.626,
+            "precio_unitario": 135.23,
+            "valor_venta": 625.57,
+            "cargo_item": 112.6,
+            "importe_total": 738.17
+        },
+        {
+            "numero": 10,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.217,
+            "precio_unitario": 93.0,
+            "valor_venta": 764.18,
+            "cargo_item": 137.55,
+            "importe_total": 901.73
+        }
+    ]
+}

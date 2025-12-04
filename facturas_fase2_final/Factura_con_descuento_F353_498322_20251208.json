@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F353-498322",
+    "fecha_emision": "2025-12-08T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20667831327",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. La Marina 3366, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20975538584",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 1700, Santiago de Surco, Lima",
+    "subtotal": 7695.41,
+    "igv": 1385.17,
+    "importe_total": 9080.58,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 45,
+            "precio_unitario": 94.92,
+            "valor_venta": 4271.4
+        },
+        {
+            "numero": 2,
+            "descripcion": "Batería 12V/7AH (Oferta)",
+            "unidad": "UND",
+            "cantidad": 48,
+            "precio_unitario": 79.79,
+            "valor_venta": 3829.92
+        }
+    ]
+}

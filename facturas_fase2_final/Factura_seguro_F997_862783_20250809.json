@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F997-862783",
+    "fecha_emision": "2025-08-09T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20098709917",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 3428, Miraflores, Lima",
+    "receptor_numero_doc": "20763713891",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Av. Benavides 3694, Cercado de Lima, Lima",
+    "subtotal": 18566.46,
+    "igv": 3021.68,
+    "importe_total": 21588.14,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 62,
+            "precio_unitario": 119.97,
+            "valor_venta": 7438.14
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 69,
+            "precio_unitario": 161.28,
+            "valor_venta": 11128.32
+        }
+    ]
+}

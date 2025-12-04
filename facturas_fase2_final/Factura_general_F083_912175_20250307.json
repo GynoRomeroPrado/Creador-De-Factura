@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F083-912175",
+    "fecha_emision": "2025-03-07T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20131856912",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Jr. de la Unión 4157, La Victoria, Lima",
+    "receptor_numero_doc": "20626215905",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 1802, La Victoria, Lima",
+    "subtotal": 125244.71,
+    "igv": 22544.05,
+    "importe_total": 147788.76,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida Color: Negro",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 178.27,
+            "valor_venta": 9448.31
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios Serie X",
+            "unidad": "POL",
+            "cantidad": 52,
+            "precio_unitario": 1140.65,
+            "valor_venta": 59313.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 85,
+            "precio_unitario": 481.12,
+            "valor_venta": 40895.2
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 70,
+            "precio_unitario": 188.61,
+            "valor_venta": 13202.7
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 5,
+            "precio_unitario": 476.94,
+            "valor_venta": 2384.7
+        }
+    ]
+}

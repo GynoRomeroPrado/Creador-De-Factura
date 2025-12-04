@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA661-026057",
+    "fecha_emision": "2025-05-17T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20062464284",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 4166, San Borja, Lima",
+    "receptor_numero_doc": "20047652104",
+    "receptor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "receptor_direccion": "Av. Benavides 3899, San Isidro, Lima",
+    "subtotal": 364.91,
+    "igv": 65.68,
+    "importe_total": 430.59,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 90 (Importado)",
+            "unidad": "GL",
+            "cantidad": 91,
+            "precio_unitario": 4.01,
+            "valor_venta": 364.91
+        }
+    ]
+}

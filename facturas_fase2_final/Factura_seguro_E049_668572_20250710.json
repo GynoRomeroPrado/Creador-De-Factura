@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E049-668572",
+    "fecha_emision": "2025-07-10T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20524862132",
+    "emisor_razon_social": "Constructora Los Andes S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 2158, La Victoria, Lima",
+    "receptor_numero_doc": "20709219422",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 3635, Cercado de Lima, Lima",
+    "subtotal": 226225.3,
+    "igv": 40720.55,
+    "importe_total": 266945.85,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida (Oferta)",
+            "unidad": "POL",
+            "cantidad": 27,
+            "precio_unitario": 203.37,
+            "valor_venta": 5490.99
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Oferta)",
+            "unidad": "POL",
+            "cantidad": 97,
+            "precio_unitario": 2086.09,
+            "valor_venta": 202350.73
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 82,
+            "precio_unitario": 224.19,
+            "valor_venta": 18383.58
+        }
+    ]
+}

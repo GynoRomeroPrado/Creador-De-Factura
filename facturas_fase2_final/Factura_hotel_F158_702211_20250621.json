@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F158-702211",
+    "fecha_emision": "2025-06-21T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20330582147",
+    "emisor_razon_social": "Holiday Inn Plaza Puno",
+    "emisor_direccion": "Av. Arequipa 4161, San Isidro, Lima",
+    "receptor_numero_doc": "20339921271",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 4259, Cercado de Lima, Lima",
+    "subtotal": 1312.38,
+    "igv": 236.23,
+    "importe_total": 1784.83,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.789,
+            "precio_unitario": 123.67,
+            "valor_venta": 221.25,
+            "cargo_item": 39.82,
+            "importe_total": 261.07
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.938,
+            "precio_unitario": 73.75,
+            "valor_venta": 511.68,
+            "cargo_item": 92.1,
+            "importe_total": 603.78
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.399,
+            "precio_unitario": 44.25,
+            "valor_venta": 327.41,
+            "cargo_item": 58.93,
+            "importe_total": 386.34
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.029,
+            "precio_unitario": 83.21,
+            "valor_venta": 252.04,
+            "cargo_item": 45.37,
+            "importe_total": 297.41
+        }
+    ]
+}

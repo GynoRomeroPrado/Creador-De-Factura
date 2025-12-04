@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E079-457737",
+    "fecha_emision": "2025-12-11T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20484229903",
+    "emisor_razon_social": "Westin Premium Piura",
+    "emisor_direccion": "Av. Benavides 928, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20469035931",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. La Marina 4081, Santiago de Surco, Lima",
+    "subtotal": 2276.98,
+    "igv": 409.86,
+    "importe_total": 3096.69,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.979,
+            "precio_unitario": 37.85,
+            "valor_venta": 339.86,
+            "cargo_item": 61.17,
+            "importe_total": 401.03
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.264,
+            "precio_unitario": 103.06,
+            "valor_venta": 233.33,
+            "cargo_item": 42.0,
+            "importe_total": 275.33
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.208,
+            "precio_unitario": 95.52,
+            "valor_venta": 688.51,
+            "cargo_item": 123.93,
+            "importe_total": 812.44
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.036,
+            "precio_unitario": 32.28,
+            "valor_venta": 98.0,
+            "cargo_item": 17.64,
+            "importe_total": 115.64
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.607,
+            "precio_unitario": 95.48,
+            "valor_venta": 917.28,
+            "cargo_item": 165.11,
+            "importe_total": 1082.39
+        }
+    ]
+}

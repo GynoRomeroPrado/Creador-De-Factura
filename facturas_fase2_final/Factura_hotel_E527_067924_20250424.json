@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E527-067924",
+    "fecha_emision": "2025-04-24T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20946284581",
+    "emisor_razon_social": "Sonesta Suites Chiclayo",
+    "emisor_direccion": "Av. Javier Prado Este 1295, La Victoria, Lima",
+    "receptor_numero_doc": "20756078217",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Javier Prado Este 3510, San Borja, Lima",
+    "subtotal": 831.33,
+    "igv": 149.64,
+    "importe_total": 1130.61,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.274,
+            "precio_unitario": 61.73,
+            "valor_venta": 387.29,
+            "cargo_item": 69.71,
+            "importe_total": 457.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.615,
+            "precio_unitario": 130.49,
+            "valor_venta": 341.23,
+            "cargo_item": 61.42,
+            "importe_total": 402.65
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.463,
+            "precio_unitario": 70.27,
+            "valor_venta": 102.81,
+            "cargo_item": 18.51,
+            "importe_total": 121.32
+        }
+    ]
+}

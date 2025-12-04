@@ -8,6 +8,8 @@ from reportlab.pdfgen import canvas
 from reportlab.lib.utils import simpleSplit
 from typing import Dict, Union
 import os
+import random
+import copy
 from .styles import InvoiceStyle, STYLES, ESTILO_CLASICO
 from .logo_drawer import LogoDrawer
 from reportlab.pdfbase.ttfonts import TTFont
@@ -36,51 +38,80 @@ class PDFFactura:
 
         filepath = os.path.join(self.output_dir, filename)
 
-        # Crear PDF
-        c = canvas.Canvas(filepath, pagesize=A4)
-        width, height = A4
+        # Guardar estilo original para restaurarlo al final
+        original_style = self.style
+        
+        try:
+            # --- LÓGICA DE RANDOMIZACIÓN (AUMENTO DE DATOS) ---
+            # 1. Moneda al aire para layout invertido (50% probabilidad)
+            layout_variant = random.choice(['standard', 'inverted'])
+            
+            # Crear una copia superficial del estilo para modificarlo temporalmente
+            # Usamos copy.copy() porque InvoiceStyle es un dataclass (mutable)
+            temp_style = copy.copy(self.style)
+            
+            if layout_variant == 'inverted':
+                # Invertir alineaciones: Emisor a la derecha, Receptor a la izquierda
+                temp_style.align_header = 'right'
+                temp_style.align_title = 'right'
+            
+            # 2. Variación de tamaño de fuente del Emisor (10pt - 14pt)
+            # Esto ayuda a que el modelo no dependa del tamaño para identificar al emisor
+            temp_style.size_title = random.randint(10, 14)
+            
+            # Aplicar estilo temporal
+            self.style = temp_style
+            # --------------------------------------------------
 
-        # Dibujar contenido
-        self._dibujar_encabezado(c, datos, width, height)
-        self._dibujar_datos_emisor(c, datos, width, height)
-        self._dibujar_datos_receptor(c, datos, width, height)
+            # Crear PDF
+            c = canvas.Canvas(filepath, pagesize=A4)
+            width, height = A4
 
-        # Datos específicos de hotel si aplica
-        if datos.get('datos_hotel'):
-            self._dibujar_info_hotel(c, datos, width, height)
+            # Dibujar contenido
+            self._dibujar_encabezado(c, datos, width, height)
+            self._dibujar_datos_emisor(c, datos, width, height)
+            self._dibujar_datos_receptor(c, datos, width, height)
 
-        # Datos específicos de seguro si aplica
-        if datos.get('datos_seguro'):
-            self._dibujar_info_seguro(c, datos, width, height)
+            # Datos específicos de hotel si aplica
+            if datos.get('datos_hotel'):
+                self._dibujar_info_hotel(c, datos, width, height)
 
-        # Datos específicos de restaurante
-        if datos.get('datos_restaurante'):
-            self._dibujar_info_restaurante(c, datos, width, height)
+            # Datos específicos de seguro si aplica
+            if datos.get('datos_seguro'):
+                self._dibujar_info_seguro(c, datos, width, height)
 
-        # Datos específicos de transporte
-        if datos.get('datos_transporte'):
-            self._dibujar_info_transporte(c, datos, width, height)
+            # Datos específicos de restaurante
+            if datos.get('datos_restaurante'):
+                self._dibujar_info_restaurante(c, datos, width, height)
 
-        # Datos específicos de servicios
-        if datos.get('datos_servicios'):
-            self._dibujar_info_servicios(c, datos, width, height)
+            # Datos específicos de transporte
+            if datos.get('datos_transporte'):
+                self._dibujar_info_transporte(c, datos, width, height)
 
-        # Dibujar items y obtener posición final Y
-        y_final_items = self._dibujar_items(c, datos, width, height)
+            # Datos específicos de servicios
+            if datos.get('datos_servicios'):
+                self._dibujar_info_servicios(c, datos, width, height)
 
-        # Descuentos si aplica, usando la posición Y de items
-        if datos.get('descuento'):
-            y_final_items = self._dibujar_descuentos(c, datos, width, height, y_inicial=y_final_items)
+            # Dibujar items y obtener posición final Y
+            y_final_items = self._dibujar_items(c, datos, width, height)
 
-        # Dibujar totales y obtener posición final Y
-        # Pasamos y_final_items como punto de partida
-        y_final_totales = self._dibujar_totales(c, datos, width, height, y_inicial=y_final_items)
+            # Descuentos si aplica, usando la posición Y de items
+            if datos.get('descuento'):
+                y_final_items = self._dibujar_descuentos(c, datos, width, height, y_inicial=y_final_items)
 
-        # Dibujar pie usando la posición Y del bloque anterior
-        self._dibujar_pie(c, datos, width, height, y_inicial=y_final_totales)
+            # Dibujar totales y obtener posición final Y
+            # Pasamos y_final_items como punto de partida
+            y_final_totales = self._dibujar_totales(c, datos, width, height, y_inicial=y_final_items)
 
-        c.save()
-        return filepath
+            # Dibujar pie usando la posición Y del bloque anterior
+            self._dibujar_pie(c, datos, width, height, y_inicial=y_final_totales)
+
+            c.save()
+            return filepath
+            
+        finally:
+            # Restaurar estilo original para no afectar siguientes facturas
+            self.style = original_style
 
     def _get_string_width(self, c, text, font, size):
         return c.stringWidth(text, font, size)

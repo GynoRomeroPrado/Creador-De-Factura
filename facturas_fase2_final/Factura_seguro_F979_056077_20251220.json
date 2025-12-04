@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F979-056077",
+    "fecha_emision": "2025-12-20T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20214429773",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 351, Miraflores, Lima",
+    "receptor_numero_doc": "20998328820",
+    "receptor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 4344, San Isidro, Lima",
+    "subtotal": 321138.16,
+    "igv": 57804.87,
+    "importe_total": 378943.03,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Oferta)",
+            "unidad": "POL",
+            "cantidad": 98,
+            "precio_unitario": 2470.81,
+            "valor_venta": 242139.38
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 131.01,
+            "valor_venta": 6943.53
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 1,
+            "precio_unitario": 111.24,
+            "valor_venta": 111.24
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios (Oferta)",
+            "unidad": "POL",
+            "cantidad": 59,
+            "precio_unitario": 1219.39,
+            "valor_venta": 71944.01
+        }
+    ]
+}

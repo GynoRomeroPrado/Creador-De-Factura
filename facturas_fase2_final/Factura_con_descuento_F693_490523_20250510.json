@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F693-490523",
+    "fecha_emision": "2025-05-10T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20978102370",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 4872, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20601361664",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Calle Los Pinos 4051, La Victoria, Lima",
+    "subtotal": 10470.73,
+    "igv": 1478.6,
+    "importe_total": 11949.33,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 68,
+            "precio_unitario": 19.96,
+            "valor_venta": 1357.28
+        },
+        {
+            "numero": 2,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 3,
+            "precio_unitario": 3.57,
+            "valor_venta": 10.71
+        },
+        {
+            "numero": 3,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 89,
+            "precio_unitario": 108.47,
+            "valor_venta": 9653.83
+        }
+    ]
+}

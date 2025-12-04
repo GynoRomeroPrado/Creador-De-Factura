@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E132-261410",
+    "fecha_emision": "2025-03-30T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20297821459",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Jr. de la Unión 1583, San Borja, Lima",
+    "receptor_numero_doc": "20962983252",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 2875, Miraflores, Lima",
+    "subtotal": 241661.07,
+    "igv": 43498.99,
+    "importe_total": 285160.06,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 75,
+            "precio_unitario": 2000.97,
+            "valor_venta": 150072.75
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 81,
+            "precio_unitario": 1130.72,
+            "valor_venta": 91588.32
+        }
+    ]
+}

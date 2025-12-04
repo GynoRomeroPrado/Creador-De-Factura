@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA321-218836",
+    "fecha_emision": "2025-12-25T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20514034444",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 4544, Miraflores, Lima",
+    "receptor_numero_doc": "20755443965",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 401, La Victoria, Lima",
+    "subtotal": 353.86,
+    "igv": 63.69,
+    "importe_total": 417.55,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 97,
+            "precio_unitario": 4.56,
+            "valor_venta": 442.32
+        }
+    ]
+}

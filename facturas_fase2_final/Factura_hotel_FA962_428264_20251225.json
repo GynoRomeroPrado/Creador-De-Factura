@@ -1,0 +1,87 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA962-428264",
+    "fecha_emision": "2025-12-25T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20895786854",
+    "emisor_razon_social": "Estelar Standard Surco",
+    "emisor_direccion": "Av. La Marina 2599, Miraflores, Lima",
+    "receptor_numero_doc": "20373562611",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 3560, Santiago de Surco, Lima",
+    "subtotal": 3131.96,
+    "igv": 563.75,
+    "importe_total": 4259.46,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.285,
+            "precio_unitario": 44.18,
+            "valor_venta": 233.49,
+            "cargo_item": 42.03,
+            "importe_total": 275.52
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.623,
+            "precio_unitario": 138.41,
+            "valor_venta": 501.46,
+            "cargo_item": 90.26,
+            "importe_total": 591.72
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.725,
+            "precio_unitario": 135.24,
+            "valor_venta": 233.29,
+            "cargo_item": 41.99,
+            "importe_total": 275.28
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.883,
+            "precio_unitario": 56.41,
+            "valor_venta": 219.04,
+            "cargo_item": 39.43,
+            "importe_total": 258.47
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 7.827,
+            "precio_unitario": 87.09,
+            "valor_venta": 681.65,
+            "cargo_item": 122.7,
+            "importe_total": 804.35
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.868,
+            "precio_unitario": 49.87,
+            "valor_venta": 492.12,
+            "cargo_item": 88.58,
+            "importe_total": 580.7
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALIMENTACION pack x6",
+            "unidad": "NIU",
+            "cantidad": 9.719,
+            "precio_unitario": 79.32,
+            "valor_venta": 770.91,
+            "cargo_item": 138.76,
+            "importe_total": 909.67
+        }
+    ]
+}

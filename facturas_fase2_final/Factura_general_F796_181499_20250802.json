@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F796-181499",
+    "fecha_emision": "2025-08-02T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20416634514",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 4169, La Victoria, Lima",
+    "receptor_numero_doc": "20757698235",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. La Marina 2198, San Isidro, Lima",
+    "subtotal": 287446.93,
+    "igv": 51740.45,
+    "importe_total": 339187.38,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 79,
+            "precio_unitario": 2834.48,
+            "valor_venta": 223923.92
+        },
+        {
+            "numero": 2,
+            "descripcion": "Central de Detección de Incendios (Importado)",
+            "unidad": "UND",
+            "cantidad": 15,
+            "precio_unitario": 2906.19,
+            "valor_venta": 43592.85
+        },
+        {
+            "numero": 3,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 45,
+            "precio_unitario": 112.08,
+            "valor_venta": 5043.6
+        },
+        {
+            "numero": 4,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 68,
+            "precio_unitario": 51.53,
+            "valor_venta": 3504.04
+        },
+        {
+            "numero": 5,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 54,
+            "precio_unitario": 122.73,
+            "valor_venta": 6627.42
+        },
+        {
+            "numero": 6,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 70,
+            "precio_unitario": 67.93,
+            "valor_venta": 4755.1
+        }
+    ]
+}

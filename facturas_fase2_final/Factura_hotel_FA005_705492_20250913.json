@@ -1,0 +1,77 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA005-705492",
+    "fecha_emision": "2025-09-13T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20552346492",
+    "emisor_razon_social": "Costa del Sol Garden San Isidro",
+    "emisor_direccion": "Calle Los Pinos 2976, Miraflores, Lima",
+    "receptor_numero_doc": "20243938971",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 476, Miraflores, Lima",
+    "subtotal": 2332.11,
+    "igv": 419.78,
+    "importe_total": 3171.67,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.225,
+            "precio_unitario": 91.81,
+            "valor_venta": 387.9,
+            "cargo_item": 69.82,
+            "importe_total": 457.72
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.481,
+            "precio_unitario": 58.43,
+            "valor_venta": 495.54,
+            "cargo_item": 89.2,
+            "importe_total": 584.74
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.237,
+            "precio_unitario": 138.54,
+            "valor_venta": 448.45,
+            "cargo_item": 80.72,
+            "importe_total": 529.17
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.65,
+            "precio_unitario": 95.04,
+            "valor_venta": 632.02,
+            "cargo_item": 113.76,
+            "importe_total": 745.78
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.065,
+            "precio_unitario": 72.91,
+            "valor_venta": 150.56,
+            "cargo_item": 27.1,
+            "importe_total": 177.66
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.121,
+            "precio_unitario": 102.61,
+            "valor_venta": 217.64,
+            "cargo_item": 39.18,
+            "importe_total": 256.82
+        }
+    ]
+}

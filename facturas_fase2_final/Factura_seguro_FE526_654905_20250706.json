@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE526-654905",
+    "fecha_emision": "2025-07-06T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20160734061",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Benavides 2554, San Isidro, Lima",
+    "receptor_numero_doc": "20706759141",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 4068, Miraflores, Lima",
+    "subtotal": 7320.96,
+    "igv": 900.33,
+    "importe_total": 8221.29,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 30,
+            "precio_unitario": 156.2,
+            "valor_venta": 4686.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 6,
+            "precio_unitario": 439.16,
+            "valor_venta": 2634.96
+        }
+    ]
+}

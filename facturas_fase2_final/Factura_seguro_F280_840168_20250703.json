@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F280-840168",
+    "fecha_emision": "2025-07-03T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20950560798",
+    "emisor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "emisor_direccion": "Av. Javier Prado Este 4761, San Isidro, Lima",
+    "receptor_numero_doc": "20192862443",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 164, La Victoria, Lima",
+    "subtotal": 22294.4,
+    "igv": 3551.14,
+    "importe_total": 25845.54,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 40,
+            "precio_unitario": 557.36,
+            "valor_venta": 22294.4
+        }
+    ]
+}

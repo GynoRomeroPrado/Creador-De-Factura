@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E011-034272",
+    "fecha_emision": "2025-12-13T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20889974941",
+    "emisor_razon_social": "Costa del Sol Garden San Isidro",
+    "emisor_direccion": "Av. Benavides 363, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20838958631",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 4037, Santiago de Surco, Lima",
+    "subtotal": 464.5,
+    "igv": 62.55,
+    "importe_total": 610.66,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.426,
+            "precio_unitario": 62.55,
+            "valor_venta": 464.5,
+            "cargo_item": 83.61,
+            "importe_total": 548.11
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA639-029468",
+    "fecha_emision": "2025-07-21T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20316376321",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Benavides 1248, San Isidro, Lima",
+    "receptor_numero_doc": "20973712986",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Arequipa 3820, San Isidro, Lima",
+    "subtotal": 22125.73,
+    "igv": 3982.63,
+    "importe_total": 26108.36,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pintura Latex Vencedor Supermate Blanco (4L)",
+            "unidad": "GLN",
+            "cantidad": 69,
+            "precio_unitario": 45.29,
+            "valor_venta": 3125.01
+        },
+        {
+            "numero": 2,
+            "descripcion": "Tubo PVC SAP Pavco 4\" Desague",
+            "unidad": "UND",
+            "cantidad": 56,
+            "precio_unitario": 27.49,
+            "valor_venta": 1539.44
+        },
+        {
+            "numero": 3,
+            "descripcion": "Arena Gruesa (m3)",
+            "unidad": "M3",
+            "cantidad": 95,
+            "precio_unitario": 54.24,
+            "valor_venta": 5152.8
+        },
+        {
+            "numero": 4,
+            "descripcion": "Cemento Sol Tipo I (42.5kg)",
+            "unidad": "BOL",
+            "cantidad": 44,
+            "precio_unitario": 26.9,
+            "valor_venta": 1183.6
+        },
+        {
+            "numero": 5,
+            "descripcion": "Guantes de Cuero Reforzado",
+            "unidad": "PAR",
+            "cantidad": 44,
+            "precio_unitario": 16.13,
+            "valor_venta": 709.72
+        },
+        {
+            "numero": 6,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m",
+            "unidad": "VAR",
+            "cantidad": 22,
+            "precio_unitario": 40.38,
+            "valor_venta": 888.36
+        },
+        {
+            "numero": 7,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt",
+            "unidad": "UND",
+            "cantidad": 90,
+            "precio_unitario": 4.69,
+            "valor_venta": 422.1
+        },
+        {
+            "numero": 8,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 81,
+            "precio_unitario": 33.41,
+            "valor_venta": 2706.21
+        },
+        {
+            "numero": 9,
+            "descripcion": "Arena Gruesa (m3) Serie X",
+            "unidad": "M3",
+            "cantidad": 98,
+            "precio_unitario": 54.13,
+            "valor_venta": 5304.74
+        },
+        {
+            "numero": 10,
+            "descripcion": "Arena Gruesa (m3)",
+            "unidad": "M3",
+            "cantidad": 50,
+            "precio_unitario": 50.01,
+            "valor_venta": 2500.5
+        }
+    ]
+}

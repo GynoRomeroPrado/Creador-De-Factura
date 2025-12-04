@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE883-186638",
+    "fecha_emision": "2025-02-25T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20770710139",
+    "emisor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "emisor_direccion": "Av. Arequipa 4331, San Borja, Lima",
+    "receptor_numero_doc": "20908242310",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Calle Los Pinos 4927, Cercado de Lima, Lima",
+    "subtotal": 157952.69,
+    "igv": 28431.48,
+    "importe_total": 186384.17,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 67,
+            "precio_unitario": 1492.17,
+            "valor_venta": 99975.39
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 60,
+            "precio_unitario": 592.1,
+            "valor_venta": 35526.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 49,
+            "precio_unitario": 183.14,
+            "valor_venta": 8973.86
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 96,
+            "precio_unitario": 140.39,
+            "valor_venta": 13477.44
+        }
+    ]
+}

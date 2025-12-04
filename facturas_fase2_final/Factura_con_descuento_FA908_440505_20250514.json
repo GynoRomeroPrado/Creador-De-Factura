@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA908-440505",
+    "fecha_emision": "2025-05-14T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20744556725",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 3825, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20217790167",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Benavides 2367, Cercado de Lima, Lima",
+    "subtotal": 1720.52,
+    "igv": 279.67,
+    "importe_total": 2000.19,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 44,
+            "precio_unitario": 5.74,
+            "valor_venta": 252.56
+        },
+        {
+            "numero": 2,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 23,
+            "precio_unitario": 2.85,
+            "valor_venta": 65.55
+        },
+        {
+            "numero": 3,
+            "descripcion": "GLP Color: Negro",
+            "unidad": "GL",
+            "cantidad": 85,
+            "precio_unitario": 1.5,
+            "valor_venta": 127.5
+        },
+        {
+            "numero": 4,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 80,
+            "precio_unitario": 4.64,
+            "valor_venta": 371.2
+        },
+        {
+            "numero": 5,
+            "descripcion": "Gasolina 90 (Importado)",
+            "unidad": "GL",
+            "cantidad": 77,
+            "precio_unitario": 4.27,
+            "valor_venta": 328.79
+        },
+        {
+            "numero": 6,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 95,
+            "precio_unitario": 6.85,
+            "valor_venta": 650.75
+        },
+        {
+            "numero": 7,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 18,
+            "precio_unitario": 2.38,
+            "valor_venta": 42.84
+        },
+        {
+            "numero": 8,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 80,
+            "precio_unitario": 1.95,
+            "valor_venta": 156.0
+        }
+    ]
+}

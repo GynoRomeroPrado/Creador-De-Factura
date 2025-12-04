@@ -1,0 +1,87 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA705-506582",
+    "fecha_emision": "2025-08-19T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20490055682",
+    "emisor_razon_social": "Sonesta Premium Trujillo",
+    "emisor_direccion": "Jr. de la Unión 950, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20118788045",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. La Marina 1542, San Isidro, Lima",
+    "subtotal": 2550.76,
+    "igv": 459.14,
+    "importe_total": 3469.03,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.413,
+            "precio_unitario": 73.67,
+            "valor_venta": 398.78,
+            "cargo_item": 71.78,
+            "importe_total": 470.56
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.313,
+            "precio_unitario": 64.97,
+            "valor_venta": 540.1,
+            "cargo_item": 97.22,
+            "importe_total": 637.32
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.236,
+            "precio_unitario": 52.81,
+            "valor_venta": 329.32,
+            "cargo_item": 59.28,
+            "importe_total": 388.6
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.355,
+            "precio_unitario": 77.87,
+            "valor_venta": 494.86,
+            "cargo_item": 89.07,
+            "importe_total": 583.93
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.865,
+            "precio_unitario": 92.77,
+            "valor_venta": 173.02,
+            "cargo_item": 31.14,
+            "importe_total": 204.16
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.201,
+            "precio_unitario": 82.35,
+            "valor_venta": 345.95,
+            "cargo_item": 62.27,
+            "importe_total": 408.22
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.336,
+            "precio_unitario": 115.04,
+            "valor_venta": 268.73,
+            "cargo_item": 48.37,
+            "importe_total": 317.1
+        }
+    ]
+}

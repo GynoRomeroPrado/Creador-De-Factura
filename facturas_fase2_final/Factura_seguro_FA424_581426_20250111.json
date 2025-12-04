@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA424-581426",
+    "fecha_emision": "2025-01-11T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20414956646",
+    "emisor_razon_social": "CompuVentas Express E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 637, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20122521461",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 3312, Miraflores, Lima",
+    "subtotal": 355432.55,
+    "igv": 63977.86,
+    "importe_total": 419410.41,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 99,
+            "precio_unitario": 427.23,
+            "valor_venta": 42295.77
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 18,
+            "precio_unitario": 119.1,
+            "valor_venta": 2143.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida (Importado)",
+            "unidad": "POL",
+            "cantidad": 74,
+            "precio_unitario": 457.25,
+            "valor_venta": 33836.5
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida Color: Negro",
+            "unidad": "POL",
+            "cantidad": 90,
+            "precio_unitario": 452.95,
+            "valor_venta": 40765.5
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios (Importado)",
+            "unidad": "POL",
+            "cantidad": 47,
+            "precio_unitario": 615.99,
+            "valor_venta": 28951.53
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro contra Incendios (Oferta)",
+            "unidad": "POL",
+            "cantidad": 90,
+            "precio_unitario": 1401.26,
+            "valor_venta": 126113.4
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 65,
+            "precio_unitario": 1251.17,
+            "valor_venta": 81326.05
+        }
+    ]
+}

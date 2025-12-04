@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E787-553420",
+    "fecha_emision": "2025-03-22T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20895888410",
+    "emisor_razon_social": "JW Marriott Business Trujillo",
+    "emisor_direccion": "Calle Los Pinos 3334, San Borja, Lima",
+    "receptor_numero_doc": "20825459589",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 4319, Cercado de Lima, Lima",
+    "subtotal": 186.12,
+    "igv": 28.14,
+    "importe_total": 247.76,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.342,
+            "precio_unitario": 138.69,
+            "valor_venta": 186.12,
+            "cargo_item": 33.5,
+            "importe_total": 219.62
+        }
+    ]
+}

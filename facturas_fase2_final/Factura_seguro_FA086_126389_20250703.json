@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA086-126389",
+    "fecha_emision": "2025-07-03T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20011071229",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. La Marina 2256, La Victoria, Lima",
+    "receptor_numero_doc": "20211633329",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Benavides 2425, La Victoria, Lima",
+    "subtotal": 508182.22,
+    "igv": 60567.85,
+    "importe_total": 568783.14,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 77,
+            "precio_unitario": 1975.3,
+            "valor_venta": 152098.1
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 11,
+            "precio_unitario": 180.62,
+            "valor_venta": 1986.82
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 15,
+            "precio_unitario": 1341.83,
+            "valor_venta": 20127.45
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 89,
+            "precio_unitario": 2395.77,
+            "valor_venta": 213223.53
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida Color: Negro",
+            "unidad": "POL",
+            "cantidad": 12,
+            "precio_unitario": 490.15,
+            "valor_venta": 5881.8
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 82,
+            "precio_unitario": 332.97,
+            "valor_venta": 27303.54
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida Serie X",
+            "unidad": "POL",
+            "cantidad": 45,
+            "precio_unitario": 356.18,
+            "valor_venta": 16028.1
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 67,
+            "precio_unitario": 688.46,
+            "valor_venta": 46126.82
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro de Vida Serie X",
+            "unidad": "POL",
+            "cantidad": 82,
+            "precio_unitario": 309.83,
+            "valor_venta": 25406.06
+        }
+    ]
+}

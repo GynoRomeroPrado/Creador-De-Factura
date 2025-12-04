@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E480-127132",
+    "fecha_emision": "2025-11-06T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20936723641",
+    "emisor_razon_social": "Marriott Wyndham Miraflores",
+    "emisor_direccion": "Jr. de la Unión 3602, Miraflores, Lima",
+    "receptor_numero_doc": "20380642647",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 3189, Miraflores, Lima",
+    "subtotal": 43.13,
+    "igv": 7.76,
+    "importe_total": 59.52,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.362,
+            "precio_unitario": 35.18,
+            "valor_venta": 47.92,
+            "cargo_item": 8.63,
+            "importe_total": 56.55
+        }
+    ]
+}

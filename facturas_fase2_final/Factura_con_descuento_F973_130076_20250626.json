@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F973-130076",
+    "fecha_emision": "2025-06-26T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20233395804",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 1642, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20987312069",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 2181, San Borja, Lima",
+    "subtotal": 239496.86,
+    "igv": 43109.43,
+    "importe_total": 282606.29,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 72,
+            "precio_unitario": 118.17,
+            "valor_venta": 8508.24
+        },
+        {
+            "numero": 2,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 94,
+            "precio_unitario": 1704.48,
+            "valor_venta": 160221.12
+        },
+        {
+            "numero": 3,
+            "descripcion": "Batería 12V/7AH",
+            "unidad": "UND",
+            "cantidad": 86,
+            "precio_unitario": 58.85,
+            "valor_venta": 5061.1
+        },
+        {
+            "numero": 4,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 56,
+            "precio_unitario": 1120.92,
+            "valor_venta": 62771.52
+        },
+        {
+            "numero": 5,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 13,
+            "precio_unitario": 96.81,
+            "valor_venta": 1258.53
+        },
+        {
+            "numero": 6,
+            "descripcion": "Batería 12V/7AH",
+            "unidad": "UND",
+            "cantidad": 20,
+            "precio_unitario": 62.01,
+            "valor_venta": 1240.2
+        },
+        {
+            "numero": 7,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 76,
+            "precio_unitario": 89.68,
+            "valor_venta": 6815.68
+        }
+    ]
+}

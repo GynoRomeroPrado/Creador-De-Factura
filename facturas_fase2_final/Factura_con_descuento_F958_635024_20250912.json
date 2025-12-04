@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F958-635024",
+    "fecha_emision": "2025-09-12T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20595072710",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Av. La Marina 3039, La Victoria, Lima",
+    "receptor_numero_doc": "20426039291",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 4796, San Borja, Lima",
+    "subtotal": 370.76,
+    "igv": 66.74,
+    "importe_total": 437.5,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 8,
+            "precio_unitario": 44.7,
+            "valor_venta": 357.6
+        },
+        {
+            "numero": 2,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 1,
+            "precio_unitario": 44.28,
+            "valor_venta": 44.28
+        }
+    ]
+}

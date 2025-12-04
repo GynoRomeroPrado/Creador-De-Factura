@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE633-589826",
+    "fecha_emision": "2025-11-19T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20327424280",
+    "emisor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 4451, La Victoria, Lima",
+    "receptor_numero_doc": "20578356372",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 4053, La Victoria, Lima",
+    "subtotal": 205775.56,
+    "igv": 31910.16,
+    "importe_total": 237685.72,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 91,
+            "precio_unitario": 422.68,
+            "valor_venta": 38463.88
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 67,
+            "precio_unitario": 166.2,
+            "valor_venta": 11135.4
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 69,
+            "precio_unitario": 775.78,
+            "valor_venta": 53528.82
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 69,
+            "precio_unitario": 884.53,
+            "valor_venta": 61032.57
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 18,
+            "precio_unitario": 161.93,
+            "valor_venta": 2914.74
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 19,
+            "precio_unitario": 2036.85,
+            "valor_venta": 38700.15
+        }
+    ]
+}

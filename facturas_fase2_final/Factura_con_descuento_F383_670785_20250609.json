@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F383-670785",
+    "fecha_emision": "2025-06-09T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20640515300",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 1927, San Borja, Lima",
+    "receptor_numero_doc": "20527227021",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Benavides 3313, Miraflores, Lima",
+    "subtotal": 1691.34,
+    "igv": 223.35,
+    "importe_total": 1914.69,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 95,
+            "precio_unitario": 19.17,
+            "valor_venta": 1821.15
+        }
+    ]
+}

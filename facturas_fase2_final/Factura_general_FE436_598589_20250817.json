@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE436-598589",
+    "fecha_emision": "2025-08-17T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20723524912",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Jr. de la Unión 3325, Miraflores, Lima",
+    "receptor_numero_doc": "20154753606",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 4254, San Isidro, Lima",
+    "subtotal": 23110.53,
+    "igv": 4159.9,
+    "importe_total": 27270.43,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Carne de Res kg (Oferta)",
+            "unidad": "KG",
+            "cantidad": 73,
+            "precio_unitario": 22.54,
+            "valor_venta": 1645.42
+        },
+        {
+            "numero": 2,
+            "descripcion": "Aceite Vegetal x 20L (Importado)",
+            "unidad": "BID",
+            "cantidad": 69,
+            "precio_unitario": 99.43,
+            "valor_venta": 6860.67
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 47,
+            "precio_unitario": 19.48,
+            "valor_venta": 915.56
+        },
+        {
+            "numero": 4,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 81,
+            "precio_unitario": 110.95,
+            "valor_venta": 8986.95
+        },
+        {
+            "numero": 5,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 5,
+            "precio_unitario": 18.34,
+            "valor_venta": 91.7
+        },
+        {
+            "numero": 6,
+            "descripcion": "Aceite Vegetal x 20L (Importado)",
+            "unidad": "BID",
+            "cantidad": 3,
+            "precio_unitario": 105.46,
+            "valor_venta": 316.38
+        },
+        {
+            "numero": 7,
+            "descripcion": "Aceite Vegetal x 20L (Oferta)",
+            "unidad": "BID",
+            "cantidad": 45,
+            "precio_unitario": 96.45,
+            "valor_venta": 4340.25
+        },
+        {
+            "numero": 8,
+            "descripcion": "Pescado Fresco kg Color: Negro",
+            "unidad": "KG",
+            "cantidad": 21,
+            "precio_unitario": 12.31,
+            "valor_venta": 258.51
+        },
+        {
+            "numero": 9,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 42,
+            "precio_unitario": 15.36,
+            "valor_venta": 645.12
+        },
+        {
+            "numero": 10,
+            "descripcion": "Pollo Entero kg",
+            "unidad": "KG",
+            "cantidad": 33,
+            "precio_unitario": 8.07,
+            "valor_venta": 266.31
+        }
+    ]
+}

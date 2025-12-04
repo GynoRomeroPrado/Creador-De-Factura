@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE947-835834",
+    "fecha_emision": "2025-03-05T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20816752915",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Benavides 4788, San Isidro, Lima",
+    "receptor_numero_doc": "20114071782",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 2569, La Victoria, Lima",
+    "subtotal": 1305.48,
+    "igv": 234.99,
+    "importe_total": 1540.47,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Diesel",
+            "unidad": "GL",
+            "cantidad": 36,
+            "precio_unitario": 4.44,
+            "valor_venta": 159.84
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 95 (Importado)",
+            "unidad": "GL",
+            "cantidad": 21,
+            "precio_unitario": 5.0,
+            "valor_venta": 105.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Diesel (Oferta)",
+            "unidad": "GL",
+            "cantidad": 86,
+            "precio_unitario": 3.13,
+            "valor_venta": 269.18
+        },
+        {
+            "numero": 4,
+            "descripcion": "Gasolina 90 Serie X",
+            "unidad": "GL",
+            "cantidad": 40,
+            "precio_unitario": 4.96,
+            "valor_venta": 198.4
+        },
+        {
+            "numero": 5,
+            "descripcion": "Diesel Color: Negro",
+            "unidad": "GL",
+            "cantidad": 29,
+            "precio_unitario": 3.63,
+            "valor_venta": 105.27
+        },
+        {
+            "numero": 6,
+            "descripcion": "Gasolina 90 (Importado)",
+            "unidad": "GL",
+            "cantidad": 93,
+            "precio_unitario": 5.03,
+            "valor_venta": 467.79
+        }
+    ]
+}

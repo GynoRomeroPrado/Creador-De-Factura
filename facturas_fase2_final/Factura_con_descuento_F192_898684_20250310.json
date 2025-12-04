@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F192-898684",
+    "fecha_emision": "2025-03-10T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20774686038",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Benavides 3265, San Isidro, Lima",
+    "receptor_numero_doc": "20012630949",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 1797, Santiago de Surco, Lima",
+    "subtotal": 86980.45,
+    "igv": 15656.48,
+    "importe_total": 102673.81,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Capacitación en Seguridad y Salud Ocupacional",
+            "unidad": "SES",
+            "cantidad": 31,
+            "precio_unitario": 427.6,
+            "valor_venta": 13255.6
+        },
+        {
+            "numero": 2,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 40,
+            "precio_unitario": 168.45,
+            "valor_venta": 6738.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 48,
+            "precio_unitario": 555.93,
+            "valor_venta": 26684.64
+        },
+        {
+            "numero": 4,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 2,
+            "precio_unitario": 3785.83,
+            "valor_venta": 7571.66
+        },
+        {
+            "numero": 5,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores (Importado)",
+            "unidad": "SRV",
+            "cantidad": 27,
+            "precio_unitario": 1222.93,
+            "valor_venta": 33019.11
+        }
+    ]
+}

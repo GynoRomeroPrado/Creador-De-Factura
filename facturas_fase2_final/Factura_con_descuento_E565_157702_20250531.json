@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E565-157702",
+    "fecha_emision": "2025-05-31T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20272719871",
+    "emisor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "emisor_direccion": "Av. La Marina 2280, Miraflores, Lima",
+    "receptor_numero_doc": "20087528708",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 2149, Miraflores, Lima",
+    "subtotal": 364.91,
+    "igv": 65.68,
+    "importe_total": 430.59,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 90 Modelo 2025",
+            "unidad": "GL",
+            "cantidad": 66,
+            "precio_unitario": 5.82,
+            "valor_venta": 384.12
+        }
+    ]
+}

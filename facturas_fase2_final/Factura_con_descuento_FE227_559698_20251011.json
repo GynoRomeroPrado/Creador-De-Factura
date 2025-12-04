@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE227-559698",
+    "fecha_emision": "2025-10-11T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20979377364",
+    "emisor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "emisor_direccion": "Calle Los Pinos 2172, La Victoria, Lima",
+    "receptor_numero_doc": "20984379685",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 1093, San Borja, Lima",
+    "subtotal": 830.81,
+    "igv": 149.55,
+    "importe_total": 980.36,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.128,
+            "precio_unitario": 47.2,
+            "valor_venta": 100.44
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.021,
+            "precio_unitario": 103.24,
+            "valor_venta": 724.85
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 4.39,
+            "precio_unitario": 48.57,
+            "valor_venta": 213.22
+        }
+    ]
+}

@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F676-643439",
+    "fecha_emision": "2025-07-31T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20620415619",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Calle Los Pinos 1369, Miraflores, Lima",
+    "receptor_numero_doc": "20080095377",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. La Marina 3746, San Borja, Lima",
+    "subtotal": 83533.42,
+    "igv": 12327.1,
+    "importe_total": 95879.89,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 91,
+            "precio_unitario": 104.55,
+            "valor_venta": 9514.05
+        },
+        {
+            "numero": 2,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 94,
+            "precio_unitario": 58.92,
+            "valor_venta": 5538.48
+        },
+        {
+            "numero": 3,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 9,
+            "precio_unitario": 78.61,
+            "valor_venta": 707.49
+        },
+        {
+            "numero": 4,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 24,
+            "precio_unitario": 44.72,
+            "valor_venta": 1073.28
+        },
+        {
+            "numero": 5,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 11,
+            "precio_unitario": 923.11,
+            "valor_venta": 10154.21
+        },
+        {
+            "numero": 6,
+            "descripcion": "Batería 12V/7AH Serie X",
+            "unidad": "UND",
+            "cantidad": 52,
+            "precio_unitario": 58.07,
+            "valor_venta": 3019.64
+        },
+        {
+            "numero": 7,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 34,
+            "precio_unitario": 1838.5,
+            "valor_venta": 62509.0
+        },
+        {
+            "numero": 8,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 7,
+            "precio_unitario": 42.68,
+            "valor_venta": 298.76
+        }
+    ]
+}

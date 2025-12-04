@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E486-717820",
+    "fecha_emision": "2025-01-15T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20744995672",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 2900, San Isidro, Lima",
+    "receptor_numero_doc": "20350534424",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. La Marina 4991, Cercado de Lima, Lima",
+    "subtotal": 12575.24,
+    "igv": 2263.54,
+    "importe_total": 14867.94,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 68,
+            "precio_unitario": 184.93,
+            "valor_venta": 12575.24
+        }
+    ]
+}

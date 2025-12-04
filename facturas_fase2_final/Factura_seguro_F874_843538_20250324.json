@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F874-843538",
+    "fecha_emision": "2025-03-24T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20620000559",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Av. Benavides 2684, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20756192087",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. La Marina 2088, Miraflores, Lima",
+    "subtotal": 72872.36,
+    "igv": 13117.02,
+    "importe_total": 85989.38,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 14,
+            "precio_unitario": 448.05,
+            "valor_venta": 6272.7
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Oferta)",
+            "unidad": "POL",
+            "cantidad": 80,
+            "precio_unitario": 150.12,
+            "valor_venta": 12009.6
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 56,
+            "precio_unitario": 152.13,
+            "valor_venta": 8519.28
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 75,
+            "precio_unitario": 153.94,
+            "valor_venta": 11545.5
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 82,
+            "precio_unitario": 421.04,
+            "valor_venta": 34525.28
+        }
+    ]
+}

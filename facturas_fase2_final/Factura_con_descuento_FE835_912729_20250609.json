@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE835-912729",
+    "fecha_emision": "2025-06-09T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20591839714",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 347, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20922689301",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Av. Benavides 1133, San Borja, Lima",
+    "subtotal": 25389.76,
+    "igv": 4056.44,
+    "importe_total": 29446.2,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 20,
+            "precio_unitario": 772.1,
+            "valor_venta": 15442.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 80,
+            "precio_unitario": 203.69,
+            "valor_venta": 16295.2
+        }
+    ]
+}

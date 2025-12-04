@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE508-670081",
+    "fecha_emision": "2025-11-12T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20432804217",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Av. Arequipa 217, San Isidro, Lima",
+    "receptor_numero_doc": "20253974550",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Jr. de la Unión 2821, San Borja, Lima",
+    "subtotal": 76577.93,
+    "igv": 13784.03,
+    "importe_total": 90361.96,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 57,
+            "precio_unitario": 412.35,
+            "valor_venta": 23503.95
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 9,
+            "precio_unitario": 162.37,
+            "valor_venta": 1461.33
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida (Importado)",
+            "unidad": "POL",
+            "cantidad": 36,
+            "precio_unitario": 356.64,
+            "valor_venta": 12839.04
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 40,
+            "precio_unitario": 265.97,
+            "valor_venta": 10638.8
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Color: Negro",
+            "unidad": "POL",
+            "cantidad": 57,
+            "precio_unitario": 137.81,
+            "valor_venta": 7855.17
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 6,
+            "precio_unitario": 1040.24,
+            "valor_venta": 6241.44
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 3,
+            "precio_unitario": 1121.56,
+            "valor_venta": 3364.68
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro de Vida Color: Negro",
+            "unidad": "POL",
+            "cantidad": 24,
+            "precio_unitario": 444.73,
+            "valor_venta": 10673.52
+        }
+    ]
+}

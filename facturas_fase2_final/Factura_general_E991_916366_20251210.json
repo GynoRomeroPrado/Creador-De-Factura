@@ -1,0 +1,73 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E991-916366",
+    "fecha_emision": "2025-12-10T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20081657468",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 1145, La Victoria, Lima",
+    "receptor_numero_doc": "20304969581",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 1765, Santiago de Surco, Lima",
+    "subtotal": 3363.14,
+    "igv": 518.99,
+    "importe_total": 3882.13,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.484,
+            "precio_unitario": 70.28,
+            "valor_venta": 174.58
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.699,
+            "precio_unitario": 102.89,
+            "valor_venta": 792.15
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.775,
+            "precio_unitario": 67.2,
+            "valor_venta": 656.88
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.698,
+            "precio_unitario": 53.77,
+            "valor_venta": 360.15
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.879,
+            "precio_unitario": 118.12,
+            "valor_venta": 1048.79
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION pack x6",
+            "unidad": "NIU",
+            "cantidad": 3.718,
+            "precio_unitario": 73.98,
+            "valor_venta": 275.06
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.848,
+            "precio_unitario": 30.05,
+            "valor_venta": 55.53
+        }
+    ]
+}

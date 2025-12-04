@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA978-054253",
+    "fecha_emision": "2025-03-17T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20447990602",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Javier Prado Este 2429, San Isidro, Lima",
+    "receptor_numero_doc": "20964897574",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. La Marina 587, La Victoria, Lima",
+    "subtotal": 170279.28,
+    "igv": 30650.27,
+    "importe_total": 200960.23,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 46,
+            "precio_unitario": 843.23,
+            "valor_venta": 38788.58
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 96,
+            "precio_unitario": 175.2,
+            "valor_venta": 16819.2
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 32,
+            "precio_unitario": 112.95,
+            "valor_venta": 3614.4
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 92,
+            "precio_unitario": 152.2,
+            "valor_venta": 14002.4
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 15,
+            "precio_unitario": 165.86,
+            "valor_venta": 2487.9
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 40,
+            "precio_unitario": 186.97,
+            "valor_venta": 7478.8
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro de Vida Serie X",
+            "unidad": "POL",
+            "cantidad": 18,
+            "precio_unitario": 234.48,
+            "valor_venta": 4220.64
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro contra Incendios Serie X",
+            "unidad": "POL",
+            "cantidad": 95,
+            "precio_unitario": 608.68,
+            "valor_venta": 57824.6
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 83,
+            "precio_unitario": 301.72,
+            "valor_venta": 25042.76
+        }
+    ]
+}

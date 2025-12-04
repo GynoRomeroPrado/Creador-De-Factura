@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA054-301575",
+    "fecha_emision": "2025-11-26T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20827710297",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 3340, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20600719701",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Av. La Marina 4199, Cercado de Lima, Lima",
+    "subtotal": 185100.08,
+    "igv": 33318.01,
+    "importe_total": 218418.09,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Central de Detección de Incendios Modelo 2025",
+            "unidad": "UND",
+            "cantidad": 88,
+            "precio_unitario": 2103.41,
+            "valor_venta": 185100.08
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E993-882009",
+    "fecha_emision": "2025-08-09T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20189164859",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Arequipa 1632, San Borja, Lima",
+    "receptor_numero_doc": "20482770852",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 807, San Isidro, Lima",
+    "subtotal": 231981.54,
+    "igv": 36603.61,
+    "importe_total": 268585.15,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 33,
+            "precio_unitario": 1215.13,
+            "valor_venta": 40099.29
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo Color: Negro",
+            "unidad": "POL",
+            "cantidad": 49,
+            "precio_unitario": 1054.55,
+            "valor_venta": 51672.95
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 70,
+            "precio_unitario": 174.24,
+            "valor_venta": 12196.8
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 81,
+            "precio_unitario": 147.38,
+            "valor_venta": 11937.78
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 87,
+            "precio_unitario": 242.45,
+            "valor_venta": 21093.15
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 10,
+            "precio_unitario": 1999.49,
+            "valor_venta": 19994.9
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 47,
+            "precio_unitario": 901.5,
+            "valor_venta": 42370.5
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro de Vida (Importado)",
+            "unidad": "POL",
+            "cantidad": 53,
+            "precio_unitario": 282.61,
+            "valor_venta": 14978.33
+        },
+        {
+            "numero": 9,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 44,
+            "precio_unitario": 400.86,
+            "valor_venta": 17637.84
+        }
+    ]
+}

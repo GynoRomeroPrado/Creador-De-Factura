@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E272-951042",
+    "fecha_emision": "2025-04-06T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20710504947",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. La Marina 3401, San Borja, Lima",
+    "receptor_numero_doc": "20577192716",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Av. Arequipa 1608, San Isidro, Lima",
+    "subtotal": 695438.99,
+    "igv": 125179.02,
+    "importe_total": 820618.01,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Alquiler de Sala de Conferencias (Día)",
+            "unidad": "DIA",
+            "cantidad": 98,
+            "precio_unitario": 1126.23,
+            "valor_venta": 110370.54
+        },
+        {
+            "numero": 2,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 50,
+            "precio_unitario": 225.09,
+            "valor_venta": 11254.5
+        },
+        {
+            "numero": 3,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 71,
+            "precio_unitario": 1001.38,
+            "valor_venta": 71097.98
+        },
+        {
+            "numero": 4,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica",
+            "unidad": "PROY",
+            "cantidad": 96,
+            "precio_unitario": 3791.39,
+            "valor_venta": 363973.44
+        },
+        {
+            "numero": 5,
+            "descripcion": "Consultoría en Gestión de Procesos (Horas)",
+            "unidad": "HOR",
+            "cantidad": 23,
+            "precio_unitario": 170.39,
+            "valor_venta": 3918.97
+        },
+        {
+            "numero": 6,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 88,
+            "precio_unitario": 1283.57,
+            "valor_venta": 112954.16
+        },
+        {
+            "numero": 7,
+            "descripcion": "Servicio de Mantenimiento Preventivo de Servidores",
+            "unidad": "SRV",
+            "cantidad": 12,
+            "precio_unitario": 954.42,
+            "valor_venta": 11453.04
+        },
+        {
+            "numero": 8,
+            "descripcion": "Soporte Técnico Remoto Mensual",
+            "unidad": "MES",
+            "cantidad": 12,
+            "precio_unitario": 868.03,
+            "valor_venta": 10416.36
+        }
+    ]
+}

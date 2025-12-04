@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE028-383266",
+    "fecha_emision": "2025-11-02T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20171263493",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 2767, La Victoria, Lima",
+    "receptor_numero_doc": "20027831762",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 4383, La Victoria, Lima",
+    "subtotal": 1057.83,
+    "igv": 190.41,
+    "importe_total": 1248.24,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Azúcar Blanca x 50kg (Importado)",
+            "unidad": "SAC",
+            "cantidad": 5,
+            "precio_unitario": 113.73,
+            "valor_venta": 568.65
+        },
+        {
+            "numero": 2,
+            "descripcion": "Carne de Res kg Modelo 2025",
+            "unidad": "KG",
+            "cantidad": 14,
+            "precio_unitario": 18.5,
+            "valor_venta": 259.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pescado Fresco kg",
+            "unidad": "KG",
+            "cantidad": 17,
+            "precio_unitario": 13.54,
+            "valor_venta": 230.18
+        }
+    ]
+}

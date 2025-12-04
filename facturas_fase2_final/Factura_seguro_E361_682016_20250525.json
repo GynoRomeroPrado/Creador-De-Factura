@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E361-682016",
+    "fecha_emision": "2025-05-25T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20613232681",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Calle Los Pinos 1164, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20247296507",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. Arequipa 3188, Cercado de Lima, Lima",
+    "subtotal": 125768.52,
+    "igv": 22638.33,
+    "importe_total": 148406.85,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 93,
+            "precio_unitario": 1439.83,
+            "valor_venta": 133904.19
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 29,
+            "precio_unitario": 280.09,
+            "valor_venta": 8122.61
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 95,
+            "precio_unitario": 159.83,
+            "valor_venta": 15183.85
+        }
+    ]
+}

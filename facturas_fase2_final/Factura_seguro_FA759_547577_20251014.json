@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA759-547577",
+    "fecha_emision": "2025-10-14T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20555545038",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Benavides 4512, San Borja, Lima",
+    "receptor_numero_doc": "20627373849",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Arequipa 119, San Borja, Lima",
+    "subtotal": 226389.01,
+    "igv": 40750.02,
+    "importe_total": 267139.03,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 87,
+            "precio_unitario": 1259.11,
+            "valor_venta": 109542.57
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 62,
+            "precio_unitario": 1884.62,
+            "valor_venta": 116846.44
+        }
+    ]
+}

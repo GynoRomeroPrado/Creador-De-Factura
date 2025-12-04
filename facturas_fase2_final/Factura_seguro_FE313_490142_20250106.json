@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE313-490142",
+    "fecha_emision": "2025-01-06T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20648208643",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Calle Los Pinos 3565, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20291784721",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Av. Arequipa 2214, San Borja, Lima",
+    "subtotal": 351197.01,
+    "igv": 47861.64,
+    "importe_total": 399058.65,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 23,
+            "precio_unitario": 1721.2,
+            "valor_venta": 39587.6
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 35,
+            "precio_unitario": 423.81,
+            "valor_venta": 14833.35
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 63,
+            "precio_unitario": 277.94,
+            "valor_venta": 17510.22
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro contra Incendios Color: Negro",
+            "unidad": "POL",
+            "cantidad": 90,
+            "precio_unitario": 700.6,
+            "valor_venta": 63054.0
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 67,
+            "precio_unitario": 992.82,
+            "valor_venta": 66518.94
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 100,
+            "precio_unitario": 161.18,
+            "valor_venta": 16118.0
+        },
+        {
+            "numero": 7,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) (Importado)",
+            "unidad": "POL",
+            "cantidad": 88,
+            "precio_unitario": 166.4,
+            "valor_venta": 14643.2
+        },
+        {
+            "numero": 8,
+            "descripcion": "Seguro Vehicular Todo Riesgo Color: Negro",
+            "unidad": "POL",
+            "cantidad": 61,
+            "precio_unitario": 1949.7,
+            "valor_venta": 118931.7
+        }
+    ]
+}

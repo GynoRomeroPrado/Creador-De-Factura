@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE381-788746",
+    "fecha_emision": "2025-08-06T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20557823591",
+    "emisor_razon_social": "Radisson Plaza Chiclayo",
+    "emisor_direccion": "Calle Los Pinos 1004, San Isidro, Lima",
+    "receptor_numero_doc": "20736456452",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Jr. de la Unión 4837, La Victoria, Lima",
+    "subtotal": 452.86,
+    "igv": 70.59,
+    "importe_total": 604.96,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.994,
+            "precio_unitario": 64.75,
+            "valor_venta": 452.86,
+            "cargo_item": 81.51,
+            "importe_total": 534.37
+        }
+    ]
+}

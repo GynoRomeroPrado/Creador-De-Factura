@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA081-102096",
+    "fecha_emision": "2025-08-11T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20138585647",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Av. Benavides 2628, San Borja, Lima",
+    "receptor_numero_doc": "20467755511",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 3859, La Victoria, Lima",
+    "subtotal": 46689.72,
+    "igv": 6952.81,
+    "importe_total": 53642.53,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 84,
+            "precio_unitario": 371.83,
+            "valor_venta": 31233.72
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 28,
+            "precio_unitario": 552.0,
+            "valor_venta": 15456.0
+        }
+    ]
+}

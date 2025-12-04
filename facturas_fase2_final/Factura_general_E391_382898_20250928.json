@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E391-382898",
+    "fecha_emision": "2025-09-28T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20468436532",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Calle Los Pinos 3830, Miraflores, Lima",
+    "receptor_numero_doc": "20173292750",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Arequipa 2118, San Isidro, Lima",
+    "subtotal": 283531.05,
+    "igv": 37917.66,
+    "importe_total": 321448.71,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 95,
+            "precio_unitario": 69.97,
+            "valor_venta": 6647.15
+        },
+        {
+            "numero": 2,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 100,
+            "precio_unitario": 1220.07,
+            "valor_venta": 122007.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V Modelo 2025",
+            "unidad": "UND",
+            "cantidad": 38,
+            "precio_unitario": 1119.49,
+            "valor_venta": 42540.62
+        },
+        {
+            "numero": 4,
+            "descripcion": "Batería 12V/7AH",
+            "unidad": "UND",
+            "cantidad": 32,
+            "precio_unitario": 49.29,
+            "valor_venta": 1577.28
+        },
+        {
+            "numero": 5,
+            "descripcion": "Estación Manual Doble Acción",
+            "unidad": "UND",
+            "cantidad": 13,
+            "precio_unitario": 43.07,
+            "valor_venta": 559.91
+        },
+        {
+            "numero": 6,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 32,
+            "precio_unitario": 86.7,
+            "valor_venta": 2774.4
+        },
+        {
+            "numero": 7,
+            "descripcion": "Central de Detección de Incendios (Importado)",
+            "unidad": "UND",
+            "cantidad": 37,
+            "precio_unitario": 2817.27,
+            "valor_venta": 104238.99
+        },
+        {
+            "numero": 8,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 35,
+            "precio_unitario": 91.02,
+            "valor_venta": 3185.7
+        }
+    ]
+}

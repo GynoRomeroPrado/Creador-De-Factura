@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E178-089187",
+    "fecha_emision": "2025-03-03T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20268696190",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Arequipa 1435, Miraflores, Lima",
+    "receptor_numero_doc": "20784601545",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. Benavides 4106, La Victoria, Lima",
+    "subtotal": 48157.1,
+    "igv": 8668.28,
+    "importe_total": 56830.42,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 63,
+            "precio_unitario": 33.32,
+            "valor_venta": 2099.16
+        },
+        {
+            "numero": 2,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 48,
+            "precio_unitario": 921.35,
+            "valor_venta": 44224.8
+        },
+        {
+            "numero": 3,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 13,
+            "precio_unitario": 105.06,
+            "valor_venta": 1365.78
+        },
+        {
+            "numero": 4,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 92,
+            "precio_unitario": 96.74,
+            "valor_venta": 8900.08
+        },
+        {
+            "numero": 5,
+            "descripcion": "Batería 12V/7AH (Importado)",
+            "unidad": "UND",
+            "cantidad": 1,
+            "precio_unitario": 65.59,
+            "valor_venta": 65.59
+        }
+    ]
+}

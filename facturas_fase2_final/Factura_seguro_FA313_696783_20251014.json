@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA313-696783",
+    "fecha_emision": "2025-10-14T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20159693903",
+    "emisor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "emisor_direccion": "Av. Benavides 1866, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20741454549",
+    "receptor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "receptor_direccion": "Calle Los Pinos 1285, La Victoria, Lima",
+    "subtotal": 69107.21,
+    "igv": 12439.3,
+    "importe_total": 81546.51,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 50,
+            "precio_unitario": 1237.14,
+            "valor_venta": 61857.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro contra Incendios",
+            "unidad": "POL",
+            "cantidad": 19,
+            "precio_unitario": 381.59,
+            "valor_venta": 7250.21
+        }
+    ]
+}

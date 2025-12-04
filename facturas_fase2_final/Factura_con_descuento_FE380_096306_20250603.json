@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE380-096306",
+    "fecha_emision": "2025-06-03T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20294382551",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 3008, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20242523742",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 1825, Cercado de Lima, Lima",
+    "subtotal": 56806.54,
+    "igv": 10225.18,
+    "importe_total": 67031.72,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 68,
+            "precio_unitario": 895.71,
+            "valor_venta": 60908.28
+        }
+    ]
+}

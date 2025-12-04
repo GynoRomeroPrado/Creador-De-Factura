@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE960-374062",
+    "fecha_emision": "2025-09-11T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20468884250",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Calle Los Pinos 3980, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20332626010",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Av. Javier Prado Este 2709, Santiago de Surco, Lima",
+    "subtotal": 67410.49,
+    "igv": 12133.89,
+    "importe_total": 79544.38,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 89,
+            "precio_unitario": 14.86,
+            "valor_venta": 1322.54
+        },
+        {
+            "numero": 2,
+            "descripcion": "Frijol Canario x 50kg Modelo 2025",
+            "unidad": "SAC",
+            "cantidad": 64,
+            "precio_unitario": 248.48,
+            "valor_venta": 15902.72
+        },
+        {
+            "numero": 3,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 67,
+            "precio_unitario": 134.46,
+            "valor_venta": 9008.82
+        },
+        {
+            "numero": 4,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 72,
+            "precio_unitario": 136.04,
+            "valor_venta": 9794.88
+        },
+        {
+            "numero": 5,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 6,
+            "precio_unitario": 157.65,
+            "valor_venta": 945.9
+        },
+        {
+            "numero": 6,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 12,
+            "precio_unitario": 196.26,
+            "valor_venta": 2355.12
+        },
+        {
+            "numero": 7,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 83,
+            "precio_unitario": 138.43,
+            "valor_venta": 11489.69
+        },
+        {
+            "numero": 8,
+            "descripcion": "Arroz Superior x 50kg (Oferta)",
+            "unidad": "SAC",
+            "cantidad": 87,
+            "precio_unitario": 172.86,
+            "valor_venta": 15038.82
+        },
+        {
+            "numero": 9,
+            "descripcion": "Carne de Res kg Color: Negro",
+            "unidad": "KG",
+            "cantidad": 64,
+            "precio_unitario": 24.25,
+            "valor_venta": 1552.0
+        }
+    ]
+}

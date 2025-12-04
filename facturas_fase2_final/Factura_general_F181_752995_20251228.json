@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F181-752995",
+    "fecha_emision": "2025-12-28T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20756595980",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Arequipa 3135, Miraflores, Lima",
+    "receptor_numero_doc": "20233211959",
+    "receptor_razon_social": "Gastronomía Peruana S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 702, La Victoria, Lima",
+    "subtotal": 3482.68,
+    "igv": 626.88,
+    "importe_total": 4109.56,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.997,
+            "precio_unitario": 43.4,
+            "valor_venta": 86.67
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.259,
+            "precio_unitario": 47.13,
+            "valor_venta": 59.34
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.126,
+            "precio_unitario": 106.05,
+            "valor_venta": 119.41
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.984,
+            "precio_unitario": 40.18,
+            "valor_venta": 119.9
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 8.146,
+            "precio_unitario": 81.98,
+            "valor_venta": 667.81
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.079,
+            "precio_unitario": 100.78,
+            "valor_venta": 209.52
+        },
+        {
+            "numero": 7,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.874,
+            "precio_unitario": 122.72,
+            "valor_venta": 966.3
+        },
+        {
+            "numero": 8,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.161,
+            "precio_unitario": 142.65,
+            "valor_venta": 450.92
+        },
+        {
+            "numero": 9,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 6.884,
+            "precio_unitario": 62.27,
+            "valor_venta": 428.67
+        },
+        {
+            "numero": 10,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.316,
+            "precio_unitario": 112.83,
+            "valor_venta": 374.14
+        }
+    ]
+}

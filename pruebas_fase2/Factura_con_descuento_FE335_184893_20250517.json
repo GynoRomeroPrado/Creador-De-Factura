@@ -1,0 +1,49 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE335-184893",
+    "fecha_emision": "2025-05-17T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20907667457",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 208, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20408898685",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Calle Los Pinos 166, Cercado de Lima, Lima",
+    "subtotal": 1121.18,
+    "igv": 201.81,
+    "importe_total": 1322.99,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.755,
+            "precio_unitario": 147.81,
+            "valor_venta": 259.41
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 2.505,
+            "precio_unitario": 61.21,
+            "valor_venta": 153.33
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.998,
+            "precio_unitario": 69.92,
+            "valor_venta": 699.06
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.233,
+            "precio_unitario": 30.0,
+            "valor_venta": 156.99
+        }
+    ]
+}

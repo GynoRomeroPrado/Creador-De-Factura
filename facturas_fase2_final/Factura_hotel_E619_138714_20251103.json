@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E619-138714",
+    "fecha_emision": "2025-11-03T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20558475740",
+    "emisor_razon_social": "Ibis Plaza Miraflores",
+    "emisor_direccion": "Jr. de la Unión 1441, La Victoria, Lima",
+    "receptor_numero_doc": "20467030150",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 1764, Miraflores, Lima",
+    "subtotal": 2303.93,
+    "igv": 414.71,
+    "importe_total": 3133.34,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 8.663,
+            "precio_unitario": 90.9,
+            "valor_venta": 787.47,
+            "cargo_item": 141.74,
+            "importe_total": 929.21
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 9.297,
+            "precio_unitario": 138.38,
+            "valor_venta": 1286.52,
+            "cargo_item": 231.57,
+            "importe_total": 1518.09
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.658,
+            "precio_unitario": 62.86,
+            "valor_venta": 229.94,
+            "cargo_item": 41.39,
+            "importe_total": 271.33
+        }
+    ]
+}

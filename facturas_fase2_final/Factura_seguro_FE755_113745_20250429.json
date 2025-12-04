@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE755-113745",
+    "fecha_emision": "2025-04-29T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20391475360",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Av. Benavides 2288, La Victoria, Lima",
+    "receptor_numero_doc": "20830164350",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 3026, Miraflores, Lima",
+    "subtotal": 20535.04,
+    "igv": 3696.31,
+    "importe_total": 24231.35,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 64,
+            "precio_unitario": 320.86,
+            "valor_venta": 20535.04
+        }
+    ]
+}

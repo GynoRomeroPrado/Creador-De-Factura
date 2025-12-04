@@ -1,0 +1,89 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA353-861561",
+    "fecha_emision": "2025-05-08T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20632025191",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Arequipa 2037, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20446089430",
+    "receptor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "receptor_direccion": "Av. Benavides 199, Miraflores, Lima",
+    "subtotal": 16606.89,
+    "igv": 2989.24,
+    "importe_total": 19608.43,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Fierro Corrugado Aceros Arequipa 1/2\" x 9m Modelo 2025",
+            "unidad": "VAR",
+            "cantidad": 65,
+            "precio_unitario": 41.97,
+            "valor_venta": 2728.05
+        },
+        {
+            "numero": 2,
+            "descripcion": "Casco de Seguridad 3M Blanco (Importado)",
+            "unidad": "UND",
+            "cantidad": 88,
+            "precio_unitario": 30.36,
+            "valor_venta": 2671.68
+        },
+        {
+            "numero": 3,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 33,
+            "precio_unitario": 32.98,
+            "valor_venta": 1088.34
+        },
+        {
+            "numero": 4,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 99,
+            "precio_unitario": 32.31,
+            "valor_venta": 3198.69
+        },
+        {
+            "numero": 5,
+            "descripcion": "Casco de Seguridad 3M Blanco",
+            "unidad": "UND",
+            "cantidad": 96,
+            "precio_unitario": 31.52,
+            "valor_venta": 3025.92
+        },
+        {
+            "numero": 6,
+            "descripcion": "Piedra Chancada 1/2\" (m3) (Oferta)",
+            "unidad": "M3",
+            "cantidad": 14,
+            "precio_unitario": 58.94,
+            "valor_venta": 825.16
+        },
+        {
+            "numero": 7,
+            "descripcion": "Casco de Seguridad 3M Blanco",
+            "unidad": "UND",
+            "cantidad": 100,
+            "precio_unitario": 32.87,
+            "valor_venta": 3287.0
+        },
+        {
+            "numero": 8,
+            "descripcion": "Guantes de Cuero Reforzado",
+            "unidad": "PAR",
+            "cantidad": 43,
+            "precio_unitario": 17.6,
+            "valor_venta": 756.8
+        },
+        {
+            "numero": 9,
+            "descripcion": "Cemento Sol Tipo I (42.5kg)",
+            "unidad": "BOL",
+            "cantidad": 18,
+            "precio_unitario": 27.38,
+            "valor_venta": 492.84
+        }
+    ]
+}

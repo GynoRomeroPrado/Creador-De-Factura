@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE143-398667",
+    "fecha_emision": "2025-03-19T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20202121030",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 2975, San Isidro, Lima",
+    "receptor_numero_doc": "20560204591",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Jr. de la Unión 257, Santiago de Surco, Lima",
+    "subtotal": 2057.82,
+    "igv": 370.41,
+    "importe_total": 2428.23,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.28,
+            "precio_unitario": 71.07,
+            "valor_venta": 375.25
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.895,
+            "precio_unitario": 61.54,
+            "valor_venta": 116.62
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.853,
+            "precio_unitario": 84.36,
+            "valor_venta": 831.2
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 6.362,
+            "precio_unitario": 47.11,
+            "valor_venta": 299.71
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 5.455,
+            "precio_unitario": 30.41,
+            "valor_venta": 165.89
+        },
+        {
+            "numero": 6,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.711,
+            "precio_unitario": 99.28,
+            "valor_venta": 269.15
+        }
+    ]
+}

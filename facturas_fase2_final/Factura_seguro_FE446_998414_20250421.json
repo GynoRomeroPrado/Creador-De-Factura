@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE446-998414",
+    "fecha_emision": "2025-04-21T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20194984805",
+    "emisor_razon_social": "Cadena de Restaurantes El Buen Gusto S.A.C.",
+    "emisor_direccion": "Jr. de la Unión 3058, San Borja, Lima",
+    "receptor_numero_doc": "20831282861",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Av. Arequipa 3356, La Victoria, Lima",
+    "subtotal": 28268.97,
+    "igv": 5088.41,
+    "importe_total": 33357.38,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida (Oferta)",
+            "unidad": "POL",
+            "cantidad": 83,
+            "precio_unitario": 340.59,
+            "valor_venta": 28268.97
+        }
+    ]
+}

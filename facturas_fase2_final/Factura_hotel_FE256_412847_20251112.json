@@ -1,0 +1,37 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE256-412847",
+    "fecha_emision": "2025-11-12T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20873295971",
+    "emisor_razon_social": "Casa Andina Suites Puno",
+    "emisor_direccion": "Av. Benavides 235, San Isidro, Lima",
+    "receptor_numero_doc": "20797890317",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 4441, Miraflores, Lima",
+    "subtotal": 542.81,
+    "igv": 90.02,
+    "importe_total": 730.53,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.786,
+            "precio_unitario": 73.67,
+            "valor_venta": 352.58,
+            "cargo_item": 63.46,
+            "importe_total": 416.04
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 3.706,
+            "precio_unitario": 51.33,
+            "valor_venta": 190.23,
+            "cargo_item": 34.24,
+            "importe_total": 224.47
+        }
+    ]
+}

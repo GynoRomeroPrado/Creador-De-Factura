@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA643-441070",
+    "fecha_emision": "2025-07-11T00:00:00",
+    "moneda": "EUROS",
+    "emisor_ruc": "20550606560",
+    "emisor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "emisor_direccion": "Av. Arequipa 455, San Borja, Lima",
+    "receptor_numero_doc": "20739844020",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Benavides 3610, San Isidro, Lima",
+    "subtotal": 12101.91,
+    "igv": 1723.0,
+    "importe_total": 13824.91,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida",
+            "unidad": "POL",
+            "cantidad": 69,
+            "precio_unitario": 175.39,
+            "valor_venta": 12101.91
+        }
+    ]
+}

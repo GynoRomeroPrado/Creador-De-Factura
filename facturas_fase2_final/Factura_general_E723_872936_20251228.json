@@ -1,0 +1,97 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E723-872936",
+    "fecha_emision": "2025-12-28T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20894258374",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 2586, La Victoria, Lima",
+    "receptor_numero_doc": "20952639332",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. La Marina 3295, La Victoria, Lima",
+    "subtotal": 83388.25,
+    "igv": 15009.89,
+    "importe_total": 98398.14,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 42,
+            "precio_unitario": 128.5,
+            "valor_venta": 5397.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Carne de Res kg",
+            "unidad": "KG",
+            "cantidad": 16,
+            "precio_unitario": 22.22,
+            "valor_venta": 355.52
+        },
+        {
+            "numero": 3,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 73,
+            "precio_unitario": 118.21,
+            "valor_venta": 8629.33
+        },
+        {
+            "numero": 4,
+            "descripcion": "Fideos a Granel kg Serie X",
+            "unidad": "KG",
+            "cantidad": 12,
+            "precio_unitario": 4.13,
+            "valor_venta": 49.56
+        },
+        {
+            "numero": 5,
+            "descripcion": "Leche Evaporada x 48 latas Modelo 2025",
+            "unidad": "CJA",
+            "cantidad": 58,
+            "precio_unitario": 117.49,
+            "valor_venta": 6814.42
+        },
+        {
+            "numero": 6,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 84,
+            "precio_unitario": 139.81,
+            "valor_venta": 11744.04
+        },
+        {
+            "numero": 7,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 70,
+            "precio_unitario": 192.6,
+            "valor_venta": 13482.0
+        },
+        {
+            "numero": 8,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 94,
+            "precio_unitario": 15.1,
+            "valor_venta": 1419.4
+        },
+        {
+            "numero": 9,
+            "descripcion": "Frijol Canario x 50kg",
+            "unidad": "SAC",
+            "cantidad": 85,
+            "precio_unitario": 210.82,
+            "valor_venta": 17919.7
+        },
+        {
+            "numero": 10,
+            "descripcion": "Arroz Superior x 50kg Color: Negro",
+            "unidad": "SAC",
+            "cantidad": 98,
+            "precio_unitario": 179.36,
+            "valor_venta": 17577.28
+        }
+    ]
+}

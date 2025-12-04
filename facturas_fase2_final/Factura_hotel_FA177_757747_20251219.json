@@ -1,0 +1,27 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA177-757747",
+    "fecha_emision": "2025-12-19T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20641047521",
+    "emisor_razon_social": "Novotel Business Surco",
+    "emisor_direccion": "Av. La Marina 3699, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20061678230",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 1737, San Isidro, Lima",
+    "subtotal": 92.87,
+    "igv": 16.72,
+    "importe_total": 126.31,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 2.869,
+            "precio_unitario": 32.37,
+            "valor_venta": 92.87,
+            "cargo_item": 16.72,
+            "importe_total": 109.59
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE763-228868",
+    "fecha_emision": "2025-02-04T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20680436623",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Av. Arequipa 3213, Miraflores, Lima",
+    "receptor_numero_doc": "20650794339",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 4192, San Isidro, Lima",
+    "subtotal": 159769.16,
+    "igv": 28758.45,
+    "importe_total": 188527.61,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 52,
+            "precio_unitario": 952.04,
+            "valor_venta": 49506.08
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 38,
+            "precio_unitario": 2901.66,
+            "valor_venta": 110263.08
+        }
+    ]
+}

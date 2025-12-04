@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F454-314655",
+    "fecha_emision": "2025-02-13T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20959227544",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Av. Arequipa 3953, La Victoria, Lima",
+    "receptor_numero_doc": "20760763811",
+    "receptor_razon_social": "Inversiones Inmobiliarias del Sur S.A.",
+    "receptor_direccion": "Av. Arequipa 3149, Santiago de Surco, Lima",
+    "subtotal": 10222.58,
+    "igv": 1840.06,
+    "importe_total": 12062.64,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Carne de Res kg (Importado)",
+            "unidad": "KG",
+            "cantidad": 59,
+            "precio_unitario": 21.0,
+            "valor_venta": 1239.0
+        },
+        {
+            "numero": 2,
+            "descripcion": "Azúcar Blanca x 50kg (Oferta)",
+            "unidad": "SAC",
+            "cantidad": 21,
+            "precio_unitario": 143.7,
+            "valor_venta": 3017.7
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pollo Entero kg",
+            "unidad": "KG",
+            "cantidad": 43,
+            "precio_unitario": 8.63,
+            "valor_venta": 371.09
+        },
+        {
+            "numero": 4,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 77,
+            "precio_unitario": 94.22,
+            "valor_venta": 7254.94
+        },
+        {
+            "numero": 5,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 31,
+            "precio_unitario": 4.64,
+            "valor_venta": 143.84
+        }
+    ]
+}

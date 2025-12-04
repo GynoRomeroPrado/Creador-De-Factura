@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA261-962554",
+    "fecha_emision": "2025-04-02T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20982595399",
+    "emisor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "emisor_direccion": "Av. Benavides 4831, Miraflores, Lima",
+    "receptor_numero_doc": "20038138929",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 856, San Borja, Lima",
+    "subtotal": 433.61,
+    "igv": 78.05,
+    "importe_total": 511.66,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Gasolina 95",
+            "unidad": "GL",
+            "cantidad": 1,
+            "precio_unitario": 5.56,
+            "valor_venta": 5.56
+        },
+        {
+            "numero": 2,
+            "descripcion": "Gasolina 90 (Oferta)",
+            "unidad": "GL",
+            "cantidad": 43,
+            "precio_unitario": 4.1,
+            "valor_venta": 176.3
+        },
+        {
+            "numero": 3,
+            "descripcion": "GLP",
+            "unidad": "GL",
+            "cantidad": 89,
+            "precio_unitario": 1.89,
+            "valor_venta": 168.21
+        },
+        {
+            "numero": 4,
+            "descripcion": "GLP Color: Negro",
+            "unidad": "GL",
+            "cantidad": 18,
+            "precio_unitario": 2.92,
+            "valor_venta": 52.56
+        },
+        {
+            "numero": 5,
+            "descripcion": "Gasolina 90",
+            "unidad": "GL",
+            "cantidad": 23,
+            "precio_unitario": 4.45,
+            "valor_venta": 102.35
+        }
+    ]
+}

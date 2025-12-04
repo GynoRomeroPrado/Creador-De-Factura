@@ -1,0 +1,47 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E738-025835",
+    "fecha_emision": "2025-09-13T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20327371186",
+    "emisor_razon_social": "Swissôtel Select Barranco",
+    "emisor_direccion": "Av. Benavides 4109, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20021075711",
+    "receptor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "receptor_direccion": "Calle Los Pinos 1902, San Borja, Lima",
+    "subtotal": 1310.96,
+    "igv": 235.97,
+    "importe_total": 1782.9,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.733,
+            "precio_unitario": 51.56,
+            "valor_venta": 89.35,
+            "cargo_item": 16.08,
+            "importe_total": 105.43
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.09,
+            "precio_unitario": 62.78,
+            "valor_venta": 68.43,
+            "cargo_item": 12.32,
+            "importe_total": 80.75
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.905,
+            "precio_unitario": 145.88,
+            "valor_venta": 1153.18,
+            "cargo_item": 207.57,
+            "importe_total": 1360.75
+        }
+    ]
+}

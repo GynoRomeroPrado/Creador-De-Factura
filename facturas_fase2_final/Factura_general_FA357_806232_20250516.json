@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA357-806232",
+    "fecha_emision": "2025-05-16T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20117587381",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. La Marina 655, Miraflores, Lima",
+    "receptor_numero_doc": "20147623926",
+    "receptor_razon_social": "Restaurante El Sabor Norteño E.I.R.L.",
+    "receptor_direccion": "Av. Benavides 4061, San Borja, Lima",
+    "subtotal": 265428.74,
+    "igv": 47777.17,
+    "importe_total": 313205.91,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 90,
+            "precio_unitario": 1055.34,
+            "valor_venta": 94980.6
+        },
+        {
+            "numero": 2,
+            "descripcion": "Central de Detección de Incendios",
+            "unidad": "UND",
+            "cantidad": 15,
+            "precio_unitario": 2012.84,
+            "valor_venta": 30192.6
+        },
+        {
+            "numero": 3,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 62,
+            "precio_unitario": 53.71,
+            "valor_venta": 3330.02
+        },
+        {
+            "numero": 4,
+            "descripcion": "Extintor PQS 6kg Serie X",
+            "unidad": "UND",
+            "cantidad": 48,
+            "precio_unitario": 101.72,
+            "valor_venta": 4882.56
+        },
+        {
+            "numero": 5,
+            "descripcion": "Panel Convencional 4 Zonas 2 Hilos 2 Nacs 24V",
+            "unidad": "UND",
+            "cantidad": 96,
+            "precio_unitario": 802.96,
+            "valor_venta": 77084.16
+        },
+        {
+            "numero": 6,
+            "descripcion": "Central de Detección de Incendios (Oferta)",
+            "unidad": "UND",
+            "cantidad": 24,
+            "precio_unitario": 2289.95,
+            "valor_venta": 54958.8
+        }
+    ]
+}

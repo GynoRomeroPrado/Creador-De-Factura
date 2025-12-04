@@ -1,0 +1,81 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E647-961956",
+    "fecha_emision": "2025-04-11T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20409674403",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Jr. de la Unión 4732, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20581886544",
+    "receptor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "receptor_direccion": "Av. La Marina 3696, Miraflores, Lima",
+    "subtotal": 35192.81,
+    "igv": 6334.71,
+    "importe_total": 41527.52,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Azúcar Blanca x 50kg (Oferta)",
+            "unidad": "SAC",
+            "cantidad": 66,
+            "precio_unitario": 115.77,
+            "valor_venta": 7640.82
+        },
+        {
+            "numero": 2,
+            "descripcion": "Leche Evaporada x 48 latas",
+            "unidad": "CJA",
+            "cantidad": 9,
+            "precio_unitario": 113.1,
+            "valor_venta": 1017.9
+        },
+        {
+            "numero": 3,
+            "descripcion": "Pollo Entero kg",
+            "unidad": "KG",
+            "cantidad": 74,
+            "precio_unitario": 8.69,
+            "valor_venta": 643.06
+        },
+        {
+            "numero": 4,
+            "descripcion": "Aceite Vegetal x 20L",
+            "unidad": "BID",
+            "cantidad": 6,
+            "precio_unitario": 108.94,
+            "valor_venta": 653.64
+        },
+        {
+            "numero": 5,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 41,
+            "precio_unitario": 3.99,
+            "valor_venta": 163.59
+        },
+        {
+            "numero": 6,
+            "descripcion": "Frijol Canario x 50kg Modelo 2025",
+            "unidad": "SAC",
+            "cantidad": 81,
+            "precio_unitario": 212.82,
+            "valor_venta": 17238.42
+        },
+        {
+            "numero": 7,
+            "descripcion": "Huevos Color x 30 unid",
+            "unidad": "CAJA",
+            "cantidad": 83,
+            "precio_unitario": 12.14,
+            "valor_venta": 1007.62
+        },
+        {
+            "numero": 8,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 54,
+            "precio_unitario": 126.44,
+            "valor_venta": 6827.76
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E740-780647",
+    "fecha_emision": "2025-09-10T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20136276655",
+    "emisor_razon_social": "Gastronomía Peruana S.A.C.",
+    "emisor_direccion": "Calle Los Pinos 487, La Victoria, Lima",
+    "receptor_numero_doc": "20087274927",
+    "receptor_razon_social": "Materiales de Construcción El Roble E.I.R.L.",
+    "receptor_direccion": "Calle Los Pinos 259, La Victoria, Lima",
+    "subtotal": 140700.67,
+    "igv": 25326.12,
+    "importe_total": 166026.79,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 99,
+            "precio_unitario": 1391.43,
+            "valor_venta": 137751.57
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 9,
+            "precio_unitario": 1198.43,
+            "valor_venta": 10785.87
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT)",
+            "unidad": "POL",
+            "cantidad": 86,
+            "precio_unitario": 185.45,
+            "valor_venta": 15948.7
+        }
+    ]
+}

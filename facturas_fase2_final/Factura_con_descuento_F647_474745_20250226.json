@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F647-474745",
+    "fecha_emision": "2025-02-26T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20375504953",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Calle Los Pinos 1431, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20108117304",
+    "receptor_razon_social": "CompuVentas Express E.I.R.L.",
+    "receptor_direccion": "Av. La Marina 3920, San Isidro, Lima",
+    "subtotal": 1604.6,
+    "igv": 252.07,
+    "importe_total": 1856.67,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 3.617,
+            "precio_unitario": 130.2,
+            "valor_venta": 470.93
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.771,
+            "precio_unitario": 146.86,
+            "valor_venta": 1141.25
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 1.076,
+            "precio_unitario": 71.44,
+            "valor_venta": 76.87
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA990-797904",
+    "fecha_emision": "2025-02-22T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20399644705",
+    "emisor_razon_social": "Servicios Empresariales Integrales S.A.",
+    "emisor_direccion": "Av. Benavides 3748, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20194579862",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Av. Javier Prado Este 2121, Santiago de Surco, Lima",
+    "subtotal": 22203.89,
+    "igv": 3996.7,
+    "importe_total": 26200.59,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Arroz Superior x 50kg",
+            "unidad": "SAC",
+            "cantidad": 87,
+            "precio_unitario": 141.71,
+            "valor_venta": 12328.77
+        },
+        {
+            "numero": 2,
+            "descripcion": "Fideos a Granel kg",
+            "unidad": "KG",
+            "cantidad": 30,
+            "precio_unitario": 4.45,
+            "valor_venta": 133.5
+        },
+        {
+            "numero": 3,
+            "descripcion": "Azúcar Blanca x 50kg",
+            "unidad": "SAC",
+            "cantidad": 75,
+            "precio_unitario": 145.47,
+            "valor_venta": 10910.25
+        }
+    ]
+}

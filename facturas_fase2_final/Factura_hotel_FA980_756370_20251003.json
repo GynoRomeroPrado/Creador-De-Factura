@@ -1,0 +1,67 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FA980-756370",
+    "fecha_emision": "2025-10-03T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20884827796",
+    "emisor_razon_social": "Radisson Luxury Piura",
+    "emisor_direccion": "Av. Benavides 2541, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20209667445",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Benavides 502, San Isidro, Lima",
+    "subtotal": 2629.73,
+    "igv": 473.35,
+    "importe_total": 3576.43,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 1.099,
+            "precio_unitario": 43.98,
+            "valor_venta": 48.33,
+            "cargo_item": 8.7,
+            "importe_total": 57.03
+        },
+        {
+            "numero": 2,
+            "descripcion": "ALIMENTACION",
+            "unidad": "NIU",
+            "cantidad": 9.423,
+            "precio_unitario": 74.54,
+            "valor_venta": 702.39,
+            "cargo_item": 126.43,
+            "importe_total": 828.82
+        },
+        {
+            "numero": 3,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 5.863,
+            "precio_unitario": 86.7,
+            "valor_venta": 508.32,
+            "cargo_item": 91.5,
+            "importe_total": 599.82
+        },
+        {
+            "numero": 4,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 4.629,
+            "precio_unitario": 100.66,
+            "valor_venta": 465.96,
+            "cargo_item": 83.87,
+            "importe_total": 549.83
+        },
+        {
+            "numero": 5,
+            "descripcion": "ALOJAMIENTO",
+            "unidad": "NIU",
+            "cantidad": 7.872,
+            "precio_unitario": 114.93,
+            "valor_venta": 904.73,
+            "cargo_item": 162.85,
+            "importe_total": 1067.58
+        }
+    ]
+}

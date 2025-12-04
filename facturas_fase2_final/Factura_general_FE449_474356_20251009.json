@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "FE449-474356",
+    "fecha_emision": "2025-10-09T00:00:00",
+    "moneda": "DOLARES",
+    "emisor_ruc": "20478419717",
+    "emisor_razon_social": "Importaciones Generales del Perú S.R.L.",
+    "emisor_direccion": "Av. Arequipa 1023, Cercado de Lima, Lima",
+    "receptor_numero_doc": "20517205142",
+    "receptor_razon_social": "Proyectos y Obras Civiles Lima S.A.C.",
+    "receptor_direccion": "Jr. de la Unión 465, La Victoria, Lima",
+    "subtotal": 25145.17,
+    "igv": 4526.13,
+    "importe_total": 29671.3,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Detector de Humo Convencional 2 Hilos",
+            "unidad": "UND",
+            "cantidad": 49,
+            "precio_unitario": 95.97,
+            "valor_venta": 4702.53
+        },
+        {
+            "numero": 2,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 99,
+            "precio_unitario": 94.04,
+            "valor_venta": 9309.96
+        },
+        {
+            "numero": 3,
+            "descripcion": "Sirena Estroboscópica",
+            "unidad": "UND",
+            "cantidad": 16,
+            "precio_unitario": 100.44,
+            "valor_venta": 1607.04
+        },
+        {
+            "numero": 4,
+            "descripcion": "Extintor PQS 6kg",
+            "unidad": "UND",
+            "cantidad": 60,
+            "precio_unitario": 68.89,
+            "valor_venta": 4133.4
+        },
+        {
+            "numero": 5,
+            "descripcion": "Extintor PQS 6kg Serie X",
+            "unidad": "UND",
+            "cantidad": 52,
+            "precio_unitario": 81.04,
+            "valor_venta": 4214.08
+        },
+        {
+            "numero": 6,
+            "descripcion": "Detector de Temperatura Térmico Convencional",
+            "unidad": "UND",
+            "cantidad": 24,
+            "precio_unitario": 49.09,
+            "valor_venta": 1178.16
+        }
+    ]
+}

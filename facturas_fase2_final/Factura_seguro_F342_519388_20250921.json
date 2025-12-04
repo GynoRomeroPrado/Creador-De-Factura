@@ -1,0 +1,65 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F342-519388",
+    "fecha_emision": "2025-09-21T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20741148871",
+    "emisor_razon_social": "Sistemas y Soluciones IT S.R.L.",
+    "emisor_direccion": "Calle Los Pinos 2339, Santiago de Surco, Lima",
+    "receptor_numero_doc": "20798755669",
+    "receptor_razon_social": "Constructora Los Andes S.A.C.",
+    "receptor_direccion": "Av. Benavides 4908, Cercado de Lima, Lima",
+    "subtotal": 560872.73,
+    "igv": 100957.09,
+    "importe_total": 661829.82,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Seguro de Vida (Importado)",
+            "unidad": "POL",
+            "cantidad": 97,
+            "precio_unitario": 334.91,
+            "valor_venta": 32486.27
+        },
+        {
+            "numero": 2,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Oferta)",
+            "unidad": "POL",
+            "cantidad": 63,
+            "precio_unitario": 1990.0,
+            "valor_venta": 125370.0
+        },
+        {
+            "numero": 3,
+            "descripcion": "Seguro de Vida Serie X",
+            "unidad": "POL",
+            "cantidad": 49,
+            "precio_unitario": 251.79,
+            "valor_venta": 12337.71
+        },
+        {
+            "numero": 4,
+            "descripcion": "Seguro Vehicular Todo Riesgo",
+            "unidad": "POL",
+            "cantidad": 52,
+            "precio_unitario": 2711.64,
+            "valor_venta": 141005.28
+        },
+        {
+            "numero": 5,
+            "descripcion": "Seguro Obligatorio de Accidentes de Tránsito (SOAT) Modelo 2025",
+            "unidad": "POL",
+            "cantidad": 86,
+            "precio_unitario": 136.38,
+            "valor_venta": 11728.68
+        },
+        {
+            "numero": 6,
+            "descripcion": "Seguro Vehicular Todo Riesgo (Importado)",
+            "unidad": "POL",
+            "cantidad": 81,
+            "precio_unitario": 2937.59,
+            "valor_venta": 237944.79
+        }
+    ]
+}

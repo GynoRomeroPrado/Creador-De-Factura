@@ -1,0 +1,33 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "F283-812271",
+    "fecha_emision": "2025-10-06T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20179951356",
+    "emisor_razon_social": "Comercializadora Universal E.I.R.L.",
+    "emisor_direccion": "Calle Los Pinos 4490, San Borja, Lima",
+    "receptor_numero_doc": "20128692755",
+    "receptor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "receptor_direccion": "Av. Benavides 3551, Cercado de Lima, Lima",
+    "subtotal": 51163.73,
+    "igv": 9209.47,
+    "importe_total": 60383.62,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Servicio de Limpieza Integral de Oficinas",
+            "unidad": "MES",
+            "cantidad": 17,
+            "precio_unitario": 1524.52,
+            "valor_venta": 25916.84
+        },
+        {
+            "numero": 2,
+            "descripcion": "Desarrollo de Módulo de Facturación Electrónica Modelo 2025",
+            "unidad": "PROY",
+            "cantidad": 9,
+            "precio_unitario": 2805.21,
+            "valor_venta": 25246.89
+        }
+    ]
+}

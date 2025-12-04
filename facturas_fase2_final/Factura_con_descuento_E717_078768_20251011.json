@@ -1,0 +1,25 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E717-078768",
+    "fecha_emision": "2025-10-11T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20766361260",
+    "emisor_razon_social": "Innovación Tecnológica del Perú S.A.",
+    "emisor_direccion": "Calle Los Pinos 4471, La Victoria, Lima",
+    "receptor_numero_doc": "20713409074",
+    "receptor_razon_social": "Distribuidora Comercial Lima S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 452, Miraflores, Lima",
+    "subtotal": 418.77,
+    "igv": 75.38,
+    "importe_total": 494.15,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Thinner Acrílico Vencedor (Galón)",
+            "unidad": "GLN",
+            "cantidad": 15,
+            "precio_unitario": 31.02,
+            "valor_venta": 465.3
+        }
+    ]
+}

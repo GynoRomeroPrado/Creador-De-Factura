@@ -1,0 +1,57 @@
+{
+    "tipo_documento": "FACTURA ELECTRÓNICA",
+    "serie_completa": "E187-318058",
+    "fecha_emision": "2025-03-27T00:00:00",
+    "moneda": "SOLES",
+    "emisor_ruc": "20152241781",
+    "emisor_razon_social": "Inversiones Gastronómicas del Pacífico S.A.",
+    "emisor_direccion": "Av. Arequipa 850, Miraflores, Lima",
+    "receptor_numero_doc": "20180493191",
+    "receptor_razon_social": "Tecnología Digital Avanzada S.A.C.",
+    "receptor_direccion": "Calle Los Pinos 679, San Borja, Lima",
+    "subtotal": 7259.91,
+    "igv": 1306.78,
+    "importe_total": 8593.04,
+    "items": [
+        {
+            "numero": 1,
+            "descripcion": "Pegamento para PVC Oatey (1/4 gal)",
+            "unidad": "UND",
+            "cantidad": 96,
+            "precio_unitario": 20.24,
+            "valor_venta": 1943.04
+        },
+        {
+            "numero": 2,
+            "descripcion": "Cemento Sol Tipo I (42.5kg)",
+            "unidad": "BOL",
+            "cantidad": 31,
+            "precio_unitario": 27.54,
+            "valor_venta": 853.74
+        },
+        {
+            "numero": 3,
+            "descripcion": "Cemento Sol Tipo I (42.5kg) (Importado)",
+            "unidad": "BOL",
+            "cantidad": 99,
+            "precio_unitario": 27.05,
+            "valor_venta": 2677.95
+        },
+        {
+            "numero": 4,
+            "descripcion": "Tubo PVC SAP Pavco 4\" Desague",
+            "unidad": "UND",
+            "cantidad": 97,
+            "precio_unitario": 25.02,
+            "valor_venta": 2426.94
+        },
+        {
+            "numero": 5,
+            "descripcion": "Disco de Corte Metal 4.5\" Dewalt",
+            "unidad": "UND",
+            "cantidad": 34,
+            "precio_unitario": 4.85,
+            "valor_venta": 164.9
+        }
+    ]
+}

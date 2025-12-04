@@ -25,32 +25,138 @@ class DateEncoder(json.JSONEncoder):
 def flatten_json(factura: dict) -> dict:
     """
     Aplana la estructura del JSON para el dataset de entrenamiento VLM.
-    Convierte objetos anidados (emisor, receptor) en claves planas.
+    Incluye TODOS los campos disponibles en la factura.
     """
+    # Helper para formatear fechas
+    def fmt_date(d):
+        if hasattr(d, 'strftime'):
+            return d.strftime('%Y-%m-%d')
+        return str(d)[:10] if d else None
+
     flat_data = {
-        "tipo_documento": "FACTURA ELECTRÓNICA", # Estandarizado
+        "tipo_documento": "FACTURA ELECTRÓNICA",
         "serie_completa": factura['numero_factura'],
-        "fecha_emision": factura['fecha_emision'].strftime('%Y-%m-%d') if hasattr(factura['fecha_emision'], 'strftime') else str(factura['fecha_emision'])[:10],
+        "fecha_emision": fmt_date(factura['fecha_emision']),
+        "fecha_vencimiento": fmt_date(factura.get('fecha_vencimiento')),
         "moneda": factura['nombre_moneda'],
         
         # Emisor plano
         "emisor_ruc": factura['emisor']['ruc'],
         "emisor_razon_social": factura['emisor']['razon_social'],
         "emisor_direccion": factura['emisor']['direccion'],
+        "emisor_telefono": factura['emisor']['telefono'],
+        "emisor_email": factura['emisor']['email'],
         
         # Receptor plano
         "receptor_numero_doc": factura['receptor']['ruc'],
         "receptor_razon_social": factura['receptor']['razon_social'],
         "receptor_direccion": factura['receptor']['direccion'],
+        "receptor_telefono": factura['receptor']['telefono'],
+        "receptor_email": factura['receptor']['email'],
+        
+        # Datos Generales
+        "total_letras": factura['total_letras'],
+        "forma_pago": factura['forma_pago'],
+        "observaciones": factura.get('observaciones'),
+        "numero_contrato": factura.get('numero_contrato'),
+        "periodo_facturado": factura.get('periodo_facturado'),
+        "industria": factura.get('industria'),
         
         # Totales
         "subtotal": round(factura['op_gravada'] + factura['op_exonerada'] + factura['op_inafecta'], 2),
+        "op_gravada": factura['op_gravada'],
+        "op_exonerada": factura['op_exonerada'],
+        "op_inafecta": factura['op_inafecta'],
+        "op_gratuitas": factura.get('op_gratuitas', 0.0),
         "igv": factura['igv'],
+        "total_cargos": factura.get('total_cargos', 0.0),
+        "otros_cargos": factura.get('otros_cargos', 0.0),
         "importe_total": factura['total'],
         
-        # Items se mantienen igual (lista de objetos)
-        "items": factura['items']
+        # Items (lista de objetos)
+        "items": factura['items'],
+        
+        # Cuotas (lista de objetos, si existe)
+        "cuotas": [{
+            "numero": c['numero'],
+            "fecha_vencimiento": fmt_date(c['fecha_vencimiento']),
+            "monto": c['monto']
+        } for c in factura.get('cuotas', [])] if factura.get('cuotas') else []
     }
+
+    # Aplanar Datos Específicos (Hotel, Seguro, etc.)
+    
+    # Hotel
+    if factura.get('datos_hotel'):
+        h = factura['datos_hotel']
+        flat_data.update({
+            "hotel_checkin": fmt_date(h['checkin']),
+            "hotel_checkout": fmt_date(h['checkout']),
+            "hotel_huesped": h['huesped'],
+            "hotel_reserva": h['reserva'],
+            "hotel_noches": h['noches'],
+            "hotel_habitacion": h.get('habitacion'),
+            "hotel_codigo_grupo": h.get('codigo_grupo'),
+            "hotel_nombre_grupo": h.get('nombre_grupo')
+        })
+
+    # Seguro
+    if factura.get('datos_seguro'):
+        s = factura['datos_seguro']
+        flat_data.update({
+            "seguro_poliza": s['numero_poliza'],
+            "seguro_documento": s['numero_documento'],
+            "seguro_giro": s['giro'],
+            "seguro_vehiculo": s['vehiculo'],
+            "seguro_vigencia_inicio": fmt_date(s['vigencia_inicio']),
+            "seguro_vigencia_fin": fmt_date(s['vigencia_fin'])
+        })
+
+    # Restaurante
+    if factura.get('datos_restaurante'):
+        r = factura['datos_restaurante']
+        flat_data.update({
+            "restaurante_mesa": r['mesa'],
+            "restaurante_personas": r['personas'],
+            "restaurante_mesero": r['mesero'],
+            "restaurante_hora_ingreso": r['hora_ingreso'],
+            "restaurante_propinas": r['propinas']
+        })
+
+    # Transporte
+    if factura.get('datos_transporte'):
+        t = factura['datos_transporte']
+        flat_data.update({
+            "transporte_guia_remision": t['guia_remision'],
+            "transporte_licencia": t['licencia'],
+            "transporte_placa_vehiculo": t['placa_vehiculo'],
+            "transporte_conductor": t['conductor'],
+            "transporte_origen": t['origen'],
+            "transporte_destino": t['destino']
+        })
+
+    # Servicios
+    if factura.get('datos_servicios'):
+        sv = factura['datos_servicios']
+        flat_data.update({
+            "servicio_orden": sv['orden_servicio'],
+            "servicio_conformidad": sv['conformidad_servicio'],
+            "servicio_area": sv['area_solicitante'],
+            "servicio_proyecto": sv['proyecto']
+        })
+
+    # Descuento
+    if factura.get('descuento'):
+        d = factura['descuento']
+        flat_data.update({
+            "descuento_descripcion": d['descripcion'],
+            "descuento_monto": d['monto'],
+            "descuento_gravado": d['gravado'],
+            "descuento_exonerado": d['exonerado'],
+            "descuento_igv": d['igv'],
+            "descuento_total": d['total']
+        })
+
     return flat_data
 
 def generar_facturas(cantidad: int, output_dir: str, verbose: bool = True):

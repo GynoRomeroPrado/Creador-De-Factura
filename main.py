@@ -30,7 +30,7 @@ def flatten_json(factura: dict) -> dict:
     flat_data = {
         "tipo_documento": "FACTURA ELECTRÓNICA", # Estandarizado
         "serie_completa": factura['numero_factura'],
-        "fecha_emision": factura['fecha_emision'].isoformat() if hasattr(factura['fecha_emision'], 'isoformat') else factura['fecha_emision'],
+        "fecha_emision": factura['fecha_emision'].strftime('%Y-%m-%d') if hasattr(factura['fecha_emision'], 'strftime') else str(factura['fecha_emision'])[:10],
         "moneda": factura['nombre_moneda'],
         
         # Emisor plano
